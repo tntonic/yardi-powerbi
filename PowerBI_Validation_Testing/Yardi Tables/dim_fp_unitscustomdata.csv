@@ -1,0 +1,740 @@
+hmy property,hmy unit,property code,unit code,last updated,office%,wh lights,office lights,elect. panel,sensors,lights replaced by fp?,in unit meter,submeter,elec. power volts,elec. power amps,elec. connection,wh heating,wh conditioned,wh tonnage,office conditioned,office tonnage,hvac panel,hazard usage,hazard materials,hazard notes,# drive ins,# dock doord
+913,420,gacre100,100     ,2024-10-03,100.00,N/A,,N/A,No,No,N/A,No,,,N/A,N/A,N/A,,Yes,,N/A,No,,,,
+913,421,gacre100,240     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,422,gacre100,300     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,423,gacre100,320     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,426,gacre100,1000    ,2024-10-03,100.00,N/A,,N/A,No,No,N/A,No,,,N/A,N/A,N/A,,Yes,,Yes,No,,,,
+913,427,gacre100,1100    ,2024-10-03,100.00,Fluorescent/HID,,N/A,N/A,No,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,428,gacre100,200     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,429,gacre100,110     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,430,gacre100,1200    ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,431,gacre100,1250    ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,432,gacre100,1290    ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,433,gacre100,260     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,434,gacre100,500     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,435,gacre100,290     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,436,gacre100,340     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,437,gacre100,350     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,438,gacre100,395     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,439,gacre100,390     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,440,gacre100,400     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,441,gacre100,520     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,442,gacre100,550     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,443,gacre100,600     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,444,gacre100,620     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,445,gacre100,625     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,446,gacre100,650     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,447,gacre100,655     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,448,gacre100,660     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,449,gacre100,670     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,450,gacre100,700     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,451,gacre100,950     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,452,gacre100,102     ,2024-10-03,100.00,N/A,,N/A,No,No,N/A,No,,,N/A,N/A,N/A,,Yes,,N/A,No,,,,
+913,453,gacre100,104     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,No,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,454,gacre100,120     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,455,gacre100,190     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,456,gacre100,330     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,457,gacre100,475     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,458,gacre100,900     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,459,gacre100,680     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,460,gacre100,450     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,461,gacre100,180     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,462,gacre100,220     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,463,gacre100,ROOF    ,2024-10-07,0.00,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0,0.0,N/A,N/A,N/A,0.00,N/A,0.00,N/A,N/A,,,0,0
+913,467,gacre100,800     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,2495,gacre100,575     ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,N/A,,,,
+913,2990,gacre100,1025    ,2024-10-03,100.00,N/A,,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,Yes,,N/A,No,,,,
+1291,414,nikedeal,100     ,2024-04-17,8.00,LED,LED,Programmable,Yes,No,Yes,N/A,480,4000.0,3 Phase,Gas Heaters,No,50.00,Yes,10.00,Yes,No,,4000 & 3000,0,0
+1372,541,xtndelp1,4318    ,2024-03-08,0.00,Fluorescent,Fluorescent,Yes,No,No,Yes,No,240,225.0,N/A,Gas Heaters,No,0.00,Yes,5.00,Yes,No,,,,
+1372,495,xtndelp1,4290    ,2024-09-17,0.00,High-Intensity Discharge,LED,Yes,Yes,No,Yes,No,480,600.0,N/A,Gas Heaters,No,0.00,Yes,6.00,Yes,No,,,,
+1372,496,xtndelp1,4310    ,2024-03-08,0.00,LED,LED,Yes,No,Yes,Yes,No,240,225.0,N/A,Gas Heaters,No,0.00,Yes,3.00,Yes,No,,,,
+1372,497,xtndelp1,4354    ,2024-03-08,0.00,Fluorescent,Fluorescent,Yes,No,No,Yes,No,600/250,400.0,N/A,Gas Heaters,No,0.00,Yes,7.50,Yes,No,,,,
+1378,508,xtxwebbl,7903    ,2024-03-08,6.00,LED,Fluorescent,Yes,No,No,Yes,No,120/240,200.0,3 Phase,Gas Heaters,No,0.00,Yes,4.00,Yes,No,,,,
+1379,556,xflstuar,6959    ,2024-03-08,14.00,LED,Fluorescent,No,No,No,Yes,No,277/480,3000.0,3 Phase,None,No,32.00,Yes,32.00,Yes,No,,,,
+1383,503,xohmost ,A       ,2024-10-07,,,,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+1383,504,xohmost ,B       ,2024-10-07,,,,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+1383,505,xohmost ,C       ,2024-10-07,,,,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+1383,506,xohmost ,D       ,2024-10-07,,,,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+1383,31739,xohmost ,PARK    ,2024-10-07,0.00,N/A,N/A,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,0.00,N/A,0.00,N/A,N/A,,,0,0
+1387,536,xnj3001i,A       ,2025-02-07,10.00,LED,LED,No,No,Yes,Yes,No,480/208,800.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,1,3
+1387,537,xnj3001i,B       ,2025-02-07,10.00,LED,LED,No,No,Yes,Yes,No,,200.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,1,4
+1388,532,xnj2036b,100     ,2025-03-06,5.00,LED,LED,No,No,No,Yes,No,,,3 Phase,Packaged Units,Yes,,Yes,,No,No,,,0,1
+1388,533,xnj2036b,200     ,2025-03-06,5.00,Fluorescent,Fluorescent,No,No,No,Yes,No,,,3 Phase,Packaged Units,No,,Yes,,No,No,,,0,1
+1388,535,xnj2036b,400     ,2025-03-06,10.00,Fluorescent,Fluorescent,No,No,No,Yes,No,,,3 Phase,Packaged Units,No,,Yes,,No,No,,,1,0
+1389,540,xnj6000i,6000    ,2025-03-06,10.00,LED,LED,N/A,N/A,N/A,N/A,N/A,,0.0,N/A,Gas Heaters,No,0.00,Yes,0.00,N/A,N/A,,,1,4
+1390,509,xtxball ,9615    ,2024-10-07,10.00,LED,LED,Yes,No,No,Yes,No,480/277,1200.0,3 Phase,Gas Heaters,No,,Yes,10.00,Yes,No,,,,
+1391,525,xgahire1,196     ,2024-10-03,29.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,33.00,No,No,,,,
+1392,524,xgahire2,201     ,2024-10-03,5.50,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,600.0,3 Phase,Gas Heaters,No,,Yes,5.50,No,No,,,,
+1393,526,xgahire3,210     ,2024-10-03,12.00,LED,Fluorescent,No,No,No,Yes,No,120/208,400.0,3 Phase,Gas Heaters,No,,Yes,8.00,No,No,,,,
+1394,527,xgahire4,224     ,2024-10-03,29.00,LED,Fluorescent,No,No,No,Yes,No,120/208,400.0,3 Phase,Gas Heaters,No,,Yes,18.50,No,No,,,,
+1395,528,xgahire5,246     ,2024-10-03,10.00,LED,Fluorescent,No,No,No,Yes,No,120/208,600.0,3 Phase,Gas Heaters,No,,Yes,11.00,No,No,,,,
+1396,529,xgahire6,252     ,2024-10-03,37.00,LED,Fluorescent,No,No,No,Yes,No,120/208,425.0,3 Phase,Gas Heaters,No,,Yes,14.00,No,No,,,,
+1397,530,xgahire7,2980    ,2024-10-03,16.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,600.0,3 Phase,Gas Heaters,No,,Yes,7.00,No,No,,,,
+1398,531,xgahire8,3000    ,2024-10-03,16.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,400.0,3 Phase,Gas Heaters,No,,Yes,4.50,No,No,,,,
+1468,6592,mp000059,165     ,2024-09-30,3.70,N/A,N/A,Yes,Yes,No,Yes,No,477/480 and 208/120 volt,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,16.50,Yes,No,,,42,1
+1584,1539,xnjmway3,A       ,2025-02-10,5.50,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,400.0,3 Phase,Gas Heaters,No,0.00,Yes,5.00,No,No,,Power is to whole building,2,3
+1584,1544,xnjmway3,B       ,2025-02-10,9.13,Fluorescent,LED,No,No,No,No,No,277/480,400.0,3 Phase,Gas Heaters,No,0.00,Yes,10.00,No,No,,Power is to whole building,2,1
+1584,1545,xnjmway3,C       ,2025-02-10,0.00,Fluorescent,N/A,No,No,No,No,No,277/480,400.0,3 Phase,Gas Heaters,No,,N/A,0.00,No,No,,Power is to whole building,1,0
+1585,1546,xnjmway5,A       ,2025-02-10,15.58,Fluorescent,LED,No,No,No,Yes,No,277/480,600.0,3 Phase,Gas Heaters,No,0.00,Yes,15.00,No,No,,Power across whole building,8,1
+1585,1547,xnjmway5,B       ,2025-02-10,6.00,LED,LED,No,No,No,Yes,No,277/480,600.0,3 Phase,Gas Heaters,No,0.00,Yes,5.00,No,No,,Power across whole building,1,0
+1585,1548,xnjmway5,C       ,2025-02-10,4.00,LED,LED,No,No,No,Yes,No,277/480,600.0,3 Phase,Gas Heaters,Yes,40.00,Yes,5.00,No,No,,Power across whole building,2,0
+1585,1549,xnjmway5,ANT-A   ,2025-02-10,0.00,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,0.00,N/A,0.00,N/A,N/A,,Cell Tower,0,0
+1585,1551,xnjmway5,ANT-B   ,2025-02-10,0.00,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0,0.0,N/A,Other,N/A,0.00,N/A,0.00,N/A,N/A,,Cell Tower,0,0
+1586,1580,xnjmway7,A       ,2025-02-10,13.15,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,800.0,3 Phase,Gas Heaters,No,0.00,Yes,12.00,No,No,,,2,11
+1586,1581,xnjmway7,B       ,2025-02-10,9.00,LED,LED,No,No,Yes,No,No,277/480,800.0,3 Phase,Gas Heaters,No,0.00,Yes,15.00,No,No,,,2,5
+1587,1582,xnjmway9,A       ,2025-02-10,6.54,Fluorescent/LED,Fluorescent/LED,No,No,No,Yes,No,277/480,400.0,3 Phase,Gas/Electrical Heaters,Yes,40.00,Yes,0.00,No,No,,,0,2
+1587,1583,xnjmway9,A1      ,2025-02-10,0.00,Fluorescent,N/A,No,No,No,Yes,No,277/480,400.0,3 Phase,N/A,No,0.00,N/A,0.00,No,No,,,2,2
+1587,1584,xnjmway9,B       ,2025-02-10,9.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,400.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,Power is for whole building,2,5
+1590,1451,xgashaw1,986     ,2024-10-03,20.00,Fluorescent/LED,Fluorescent,No,No,No,Yes,No,277/480,600.0,3 Phase,Gas Heaters,No,,Yes,8.00,No,No,,,,
+1591,1450,xgashaw2,922     ,2024-10-03,16.00,LED,Fluorescent,No,No,No,Yes,No,120/240,800.0,3 Phase,Gas Heaters,No,,Yes,10.00,No,No,,,,
+1592,1449,xgashaw3,899     ,2024-10-03,7.00,LED,Fluorescent,No,No,No,Yes,No,120/208,1200.0,3 Phase,Gas Heaters,No,,Yes,12.50,No,No,,,,
+1593,1448,xgashaw4,300     ,2024-10-03,1.40,LED,LED,No,No,No,Yes,No,277/480,600.0,3 Phase,Gas Heaters,No,,Yes,4.50,No,No,,,,
+1594,1447,xgashaw5,200     ,2024-10-03,8.45,LED,LED,No,No,No,Yes,No,277/480,1200.0,3 Phase,Gas Heaters,No,,Yes,7.00,No,No,,,,
+1595,1446,xgashaw6,100     ,2024-10-03,23.00,LED,LED,No,No,No,Yes,No,277/480,600.0,3 Phase,Gas Heaters,No,,Yes,10.00,No,No,,,,
+1598,2735,xtxglen ,3113    ,2024-10-07,1.17,Fluorescent,Fluorescent,Yes,No,No,Yes,No,240,200.0,3 Phase,Gas Heaters,No,0.00,Yes,9.00,Yes,No,,,,
+1640,2952,xgamc200,4200    ,2024-10-03,9.70,Fluorescent/LED,Fluorescent,No,No,No,Yes,No,277/480,800.0,3 Phase,Packaged Units,No,,Yes,,No,No,,,,
+1641,2953,xgamc220,4220    ,2024-10-07,10.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,600.0,3 Phase,Gas Heaters,No,0.00,Yes,18.00,Yes,No,,,,
+1641,5201,xgamc220,MEZZ    ,2024-10-07,0.00,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0,0.0,N/A,N/A,N/A,0.00,N/A,0.00,N/A,N/A,,,0,0
+1642,5202,xgamc255,MEZZ    ,2024-10-03,0.00,N/A,N/A,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,N/A,,N/A,N/A,,,,
+1642,2954,xgamc255,4255    ,2024-04-19,8.00,Fluorescent,Fluorescent,No,No,No,Yes,N/A,277/480,600.0,3 Phase,Gas Heaters,No,0.00,Yes,6.00,No,No,,,0,0
+1643,2955,xgamc260,4260    ,2024-10-03,7.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,400.0,3 Phase,Gas Heaters,No,,No,,No,No,,,,
+1645,2956,xilmitch,561     ,2024-10-07,18.00,,,No,No,No,Yes,No,277/480,800.0,3 Phase,Gas Heaters,No,,Yes,12.00,No,No,,,,
+1652,2976,xtxmorto,100     ,2024-10-07,14.00,Fluorescent,Fluorescent,Yes,No,No,Yes,No,277/480,4000.0,3 Phase,Gas Heaters,No,,Yes,,Yes,No,,,,
+1652,2977,xtxmorto,106     ,2024-10-07,4.00,Fluorescent,Fluorescent,Yes,No,No,Yes,No,277/480,4000.0,3 Phase,Gas Heaters,No,,Yes,,Yes,No,,,,
+1653,2980,xtxritti,7       ,2024-04-17,4.87,Fluorescent,Fluorescent,Yes,No,No,Yes,N/A,,0.0,N/A,None,No,0.00,Yes,0.00,Yes,No,,,,
+1653,2981,xtxritti,8       ,2024-04-17,4.02,Fluorescent,Fluorescent,Yes,No,No,Yes,N/A,,0.0,3 Phase,Packaged Units,No,0.00,Yes,9.00,Yes,No,,,0,0
+1653,2982,xtxritti,4       ,2024-04-17,20.41,Fluorescent,Fluorescent,Yes,No,No,Yes,N/A,120/240,200.0,N/A,Other,No,0.00,Yes,4.00,Yes,No,,,,
+1653,2983,xtxritti,3       ,2024-03-22,16.00,Fluorescent,Fluorescent,Yes,No,No,Yes,No,208/120,600.0,N/A,Other,No,0.00,Yes,4.00,Yes,No,,,,
+1653,2984,xtxritti,1       ,2024-03-22,0.00,Fluorescent,Fluorescent,Yes,No,No,Yes,No,,0.0,N/A,None,No,0.00,No,0.00,No,No,,,,
+1653,15750,xtxritti,2       ,2024-03-22,15.62,Fluorescent,,Yes,No,No,Yes,No,120/240,125.0,N/A,Other,No,0.00,Yes,2.00,Yes,No,,,,
+1653,15751,xtxritti,5       ,2024-03-22,21.65,Fluorescent,Fluorescent,Yes,No,No,Yes,No,120/240,150.0,N/A,Other,No,0.00,Yes,10.00,Yes,No,,,,
+1653,15752,xtxritti,6       ,2024-03-22,7.23,Fluorescent,Fluorescent,Yes,No,No,Yes,No,208/150,400.0,N/A,Other,No,0.00,Yes,10.00,Yes,No,,,,
+1654,2958,xohcomme,10021   ,2024-10-07,4.00,LED,LED,No,No,No,Yes,No,277/480,400.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+1655,2988,xnjcentr,7055-1  ,2025-02-07,10.00,LED,LED,No,No,No,Yes,No,480/208,200.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,1,2
+1655,2989,xnjcentr,7055-2  ,2025-02-07,0.00,LED,LED,No,No,Yes,Yes,No,480/208,200.0,3 Phase,Gas Heaters,No,,No,0.00,No,No,,,3,0
+1657,2961,xilmount,1       ,2024-03-08,10.00,,,No,No,No,Yes,No,240,225.0,3 Phase,Gas Heaters,No,0.00,Yes,22.50,No,No,,,,
+1658,2966,xtn225bo,101     ,2024-03-08,0.00,High-Intensity Discharge,Fluorescent,Yes,No,No,Yes,No,277/480,225.0,3 Phase,Gas Heaters,No,0.00,Yes,9.00,Yes,No,,,,
+1658,2967,xtn225bo,229     ,2024-03-08,0.00,LED,Fluorescent,Yes,No,No,Yes,No,277/480,225.0,3 Phase,Gas Heaters,No,0.00,Yes,13.00,Yes,No,,,,
+1658,2968,xtn225bo,103     ,2024-03-08,0.00,High-Intensity Discharge,Fluorescent,Yes,No,No,Yes,No,277/480,225.0,3 Phase,Gas Heaters,No,0.00,Yes,30.00,Yes,No,,,,
+1660,2973,xil747  ,747     ,2024-10-07,3.00,LED,Fluorescent,No,No,No,Yes,No,277/480,3000.0,3 Phase,Gas Heaters,No,,Yes,27.00,No,No,,,,
+1661,2972,xil1688 ,1688    ,2024-10-07,8.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,4000.0,3 Phase,Gas Heaters,No,,Yes,40.00,No,No,,,,
+1662,2970,xil305e ,305     ,2024-10-07,6.00,LED,LED,No,No,Yes,Yes,No,277/480,400.0,3 Phase,Gas Heaters,No,0.00,Yes,,No,No,,,,
+1662,2971,xil305e ,307     ,2024-10-07,,LED,LED,Yes,No,Yes,Yes,No,277/480,400.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+1663,2969,xil1600 ,100     ,2024-03-08,6.00,Fluorescent,Fluorescent,No,No,No,Yes,No,480/277,2200.0,3 Phase,Gas Heaters,No,0.00,Yes,199.00,No,No,,,,
+1664,2963,xil1terr,A       ,2024-03-08,0.00,,,Yes,No,No,Yes,No,480,600.0,3 Phase,Gas Heaters,No,0.00,Yes,0.00,No,No,,,,
+1664,2964,xil1terr,B       ,2024-03-08,0.00,,,Yes,No,No,Yes,No,600,200.0,3 Phase,Gas Heaters,No,0.00,Yes,0.00,No,No,,,,
+1664,2965,xil1terr,C       ,2024-03-08,0.00,,,Yes,No,No,Yes,No,480,600.0,3 Phase,Gas Heaters,No,0.00,Yes,0.00,No,No,,,,
+1665,2962,xil1111 ,100     ,2024-03-08,10.00,Fluorescent,Fluorescent,No,No,No,Yes,No,480,3000.0,3 Phase,Gas Heaters,No,0.00,Yes,61.00,No,No,,,,
+1666,2979,xtn187bo,100     ,2024-03-08,1.00,Fluorescent,Fluorescent,Yes,No,No,Yes,No,277/480,200.0,3 Phase,Gas Heaters,No,0.00,Yes,3.25,Yes,No,,,,
+1667,2985,xpa1peae,A       ,2025-02-07,35.00,High-Intensity Discharge,Fluorescent,No,No,No,No,No,,200.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,1,3
+1667,2986,xpa1peae,B       ,2025-03-06,25.00,LED,LED,No,No,No,No,No,,200.0,3 Phase,Gas Heaters,No,0.00,Yes,0.00,No,No,,,1,4
+1668,2987,xnj7550 ,7550    ,2025-03-06,0.00,,,N/A,N/A,N/A,N/A,N/A,,0.0,N/A,N/A,N/A,0.00,N/A,0.00,N/A,N/A,,,0,0
+1670,2978,xga130j ,130     ,2024-10-03,12.70,Fluorescent,LED,No,No,No,Yes,No,120/240,800.0,3 Phase,Gas Heaters,No,,Yes,5.00,No,No,,,,
+1673,2996,xnj900k ,900     ,2025-03-06,10.00,LED,LED,No,No,Yes,Yes,No,,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,0.00,No,No,,,1,4
+1674,2997,xnj6965 ,6965    ,2025-03-06,20.00,LED,LED,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,0,6
+1675,2999,xnj440be,A-1     ,2025-03-06,100.00,N/A,LED,No,No,Yes,No,No,,,3 Phase,N/A,N/A,,Yes,,No,No,,,0,0
+1675,3000,xnj440be,A-7     ,2025-03-06,100.00,N/A,Fluorescent,No,No,No,No,No,,0.0,3 Phase,N/A,N/A,0.00,Yes,0.00,No,No,,,0,0
+1675,3001,xnj440be,A-4     ,2025-03-06,100.00,N/A,Fluorescent,No,No,No,No,No,,0.0,3 Phase,N/A,N/A,0.00,Yes,0.00,No,No,,,0,0
+1675,3002,xnj440be,A-5     ,2025-03-06,100.00,N/A,LED,No,No,Yes,No,No,,0.0,3 Phase,N/A,N/A,0.00,Yes,0.00,No,No,,,0,0
+1675,3003,xnj440be,A-6     ,2025-03-06,100.00,N/A,LED,No,No,Yes,No,No,,0.0,3 Phase,N/A,N/A,0.00,Yes,0.00,No,No,,,0,0
+1675,3004,xnj440be,A-2     ,2025-03-06,100.00,N/A,LED,No,No,No,No,No,,,3 Phase,N/A,N/A,,Yes,,No,No,,,0,0
+1675,3008,xnj440be,BB      ,2025-03-06,0.00,Fluorescent,Fluorescent,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,0,1
+1675,3009,xnj440be,C-E     ,2025-03-06,,Fluorescent,Fluorescent,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,3
+1675,3010,xnj440be,F       ,2025-03-06,,Fluorescent,Fluorescent,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,2
+1675,3011,xnj440be,BF      ,2025-03-06,,Fluorescent,Fluorescent,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+1675,3012,xnj440be,G-H     ,2025-03-06,,Fluorescent,Fluorescent,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,2
+1675,4965,xnj440be,A3      ,2025-03-06,100.00,N/A,LED,No,No,Yes,No,No,,0.0,3 Phase,N/A,N/A,0.00,Yes,0.00,No,No,,,0,0
+1676,3013,xnj420be,B       ,2025-03-06,,Fluorescent,Fluorescent,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,0,1
+1676,3005,xnj420be,A2-BF   ,2025-03-06,30.00,Fluorescent,Fluorescent,No,No,No,Yes,No,,0.0,3 Phase,Gas Heaters,No,0.00,Yes,0.00,No,No,,,0,1
+1676,3006,xnj420be,C-J     ,2025-03-06,,Fluorescent,Fluorescent,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,0,6
+1676,3007,xnj420be,A       ,2025-03-06,100.00,N/A,Fluorescent,No,No,No,No,No,,,3 Phase,N/A,No,,Yes,,No,No,,,0,0
+1676,3166,xnj420be,A-1     ,2025-03-06,100.00,N/A,LED,No,No,Yes,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,0,0
+1677,2995,xnj313c ,313     ,2024-11-28,3.00,Fluorescent,Fluorescent,No,Yes,No,Yes,No,120/240,600.0,3 Phase,Gas Heaters,No,0.00,Yes,,No,No,,,1,9
+1678,2994,xnj52col,52      ,2024-11-28,15.00,LED,LED,No,No,No,Yes,No,208/120,1000.0,3 Phase,Gas Heaters,No,,Yes,25.00,No,No,,,2,3
+1679,2993,xga9330 ,9330    ,2024-10-03,26.00,High-Intensity Discharge,Fluorescent,No,No,No,Yes,No,120/208,600.0,3 Phase,Gas Heaters,No,,Yes,10.00,No,No,,,,
+1680,2991,xil900b ,A       ,2024-03-08,10.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,0.0,3 Phase,Gas Heaters,No,0.00,Yes,30.00,No,No,,,,
+1680,2992,xil900b ,B       ,2024-03-08,15.00,LED,LED,No,No,No,Yes,No,277/480,200.0,3 Phase,Gas Heaters,No,0.00,Yes,18.00,No,No,,,,
+1681,3165,xga4225 ,101     ,2024-10-03,8.00,LED,LED,No,No,Yes,Yes,No,120/208,400.0,3 Phase,Gas Heaters,No,,Yes,3.00,No,No,,,,
+1681,3014,xga4225 ,104     ,2024-10-03,8.00,LED,LED,No,No,Yes,Yes,No,120/208,400.0,3 Phase,Gas Heaters,No,,Yes,3.00,No,No,,,,
+1681,3015,xga4225 ,107     ,2024-10-03,13.00,High-Intensity Discharge,Fluorescent,No,No,No,Yes,No,120/240,200.0,3 Phase,Gas Heaters,No,,Yes,1.50,No,No,,,,
+1681,3016,xga4225 ,108-109 ,2024-10-03,15.00,LED,LED,No,No,Yes,Yes,No,120/240,200.0,3 Phase,Gas Heaters,No,,Yes,2.00,No,No,,,,
+1681,3017,xga4225 ,110-111 ,2024-10-03,20.00,High-Intensity Discharge,Fluorescent,No,No,No,Yes,No,120/240,200.0,3 Phase,Gas Heaters,No,,Yes,1.50,No,No,,,,
+1681,3018,xga4225 ,112     ,2024-10-03,90.00,High-Intensity Discharge,Fluorescent,No,No,No,Yes,No,120/240,200.0,3 Phase,Gas Heaters,No,0.00,Yes,3.00,No,No,,,,
+1681,3019,xga4225 ,114-116 ,2024-10-03,25.00,Fluorescent,Fluorescent,No,No,No,Yes,No,240,400.0,3 Phase,Gas Heaters,No,,Yes,6.00,No,No,,,,
+1682,2998,xnj845l ,845     ,2025-03-06,30.00,Fluorescent,Fluorescent,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,1,2
+1683,3110,xnj1010 ,1010    ,2024-11-26,3.00,LED,Fluorescent,No,No,No,Yes,No,277/408,600.0,3 Phase,None,No,0.00,Yes,12.00,No,No,,,0,4
+1686,8243,xtx1121 ,A       ,2024-10-07,11.70,,,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+1686,8244,xtx1121 ,B       ,2024-10-07,0.00,,,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+1689,3026,xga265c ,265     ,2024-10-03,,High-Intensity Discharge,Fluorescent,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,30.50,No,No,,,,
+1695,3109,xnj390n ,390     ,2025-03-06,10.00,Fluorescent,Fluorescent,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,0,5
+1730,6581,mp000213,390     ,2024-09-30,2.50,Fluorescent/HID,,N/A,N/A,No,Yes,No,477/480 and 208Y/120-volt,1200.0,3 Phase,Gas Heaters,Yes,3.00,No,0.00,N/A,No,,,17,0
+1732,3167,xga1157 ,1157    ,2024-10-03,2.00,LED,LED,No,No,No,Yes,No,,,3 Phase,Packaged Units,Yes,373.00,Yes,6.00,Yes,No,,,,
+1733,3277,xga5070 ,5070-W  ,2024-10-03,5.50,LED,LED,No,No,Yes,Yes,No,120/208,1200.0,3 Phase,Gas Heaters,No,,Yes,8.00,No,No,,,,
+1734,3502,xil2101 ,B-C     ,2024-03-08,9.00,,,No,No,No,Yes,No,120/208,1000.0,3 Phase,Gas Heaters,No,0.00,Yes,0.00,No,No,,,,
+1734,3503,xil2101 ,200     ,2024-03-08,8.00,,,No,No,No,Yes,No,120/208,3000.0,3 Phase,Gas Heaters,No,0.00,Yes,0.00,No,No,,,,
+1734,22933,xil2101 ,100     ,2024-03-08,4.00,,,No,No,No,Yes,No,120/208,800.0,3 Phase,Gas Heaters,No,0.00,Yes,0.00,No,No,,,,
+1735,3278,xnj108n ,108     ,2025-02-07,20.00,Fluorescent/HID,Fluorescent,No,No,No,Yes,No,277/480,400.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,3,1
+1755,3511,xoh8655 ,8655    ,2024-03-08,11.00,High-Intensity Discharge,Fluorescent,No,No,No,Yes,No,277/480,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,15.50,No,No,,,,
+1756,3508,xpa12111,1211    ,2025-02-05,6.00,LED,LED,No,No,No,Yes,No,480,4000.0,3 Phase,Gas Heaters,No,0.00,Yes,47.00,No,No,,"Crane served, high tension electrical service",5,17
+1785,3686,xnj14th ,14A     ,2025-03-06,10.00,Fluorescent,Fluorescent,N/A,N/A,N/A,Yes,N/A,,0.0,N/A,Gas Heaters,No,0.00,Yes,0.00,N/A,N/A,,,0,4
+1785,3687,xnj14th ,14B     ,2025-03-06,25.00,Fluorescent,Fluorescent,N/A,N/A,N/A,Yes,N/A,,0.0,N/A,Gas Heaters,No,0.00,N/A,0.00,N/A,N/A,,,0,2
+1786,3510,xoh382c ,382     ,2024-03-08,10.00,Fluorescent,Fluorescent,Yes,No,No,Yes,No,480,2500.0,3 Phase,Gas Heaters,No,0.00,Yes,45.00,No,No,,,,
+1787,3506,xnj220r ,A       ,2024-03-22,0.00,,,N/A,N/A,N/A,N/A,N/A,,0.0,N/A,N/A,N/A,0.00,N/A,0.00,N/A,N/A,,,,
+1787,3507,xnj220r ,B       ,2025-03-06,10.00,LED,LED,No,No,No,Yes,No,,0.0,3 Phase,Gas Heaters,No,0.00,Yes,0.00,No,No,,,1,3
+1788,3505,xnj10tw ,10      ,2025-03-06,30.00,LED,LED,N/A,N/A,N/A,Yes,N/A,,800.0,N/A,Gas Heaters,N/A,0.00,Yes,0.00,N/A,No,,,0,4
+1789,3840,xil250n ,250     ,2024-03-08,11.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,4000.0,3 Phase,Gas Heaters,No,0.00,Yes,35.00,No,No,,,,
+1873,3849,xil529t ,529     ,2024-10-07,18.00,LED,Fluorescent,No,No,No,Yes,No,480/277,4000.0,3 Phase,Gas Heaters,No,,Yes,33.00,No,No,,,,
+1874,8249,xil700h ,700     ,2024-10-07,20.90,LED,LED,No,No,Yes,Yes,No,277/480,3000.0,3 Phase,Gas Heaters,No,0.00,Yes,32.50,No,No,,,,
+1876,3863,xnj17pol,01      ,2025-02-07,100.00,N/A,N/A,No,No,No,Yes,No,480/277,400.0,3 Phase,Gas Heaters,N/A,,Yes,,No,No,,,0,0
+1876,3864,xnj17pol,02      ,2025-02-07,21.84,N/A,N/A,No,No,No,Yes,No,480/277,400.0,3 Phase,Gas Heaters,No,10.00,Yes,5.00,No,No,,,1,3
+1876,3865,xnj17pol,03      ,2025-02-07,19.79,N/A,N/A,No,No,No,Yes,No,480/277,400.0,3 Phase,Gas Heaters,No,10.00,Yes,5.00,No,No,,,0,1
+1876,3866,xnj17pol,04      ,2025-02-07,78.05,N/A,N/A,No,No,No,Yes,No,480/277,400.0,3 Phase,Gas Heaters,No,10.00,Yes,5.00,No,No,,,2,0
+1876,3867,xnj17pol,05      ,2025-02-07,12.18,N/A,N/A,No,No,No,Yes,No,480/277,400.0,3 Phase,Gas Heaters,No,10.00,Yes,5.00,No,No,,,0,1
+1876,3868,xnj17pol,4.1     ,2025-02-07,83.11,N/A,N/A,No,No,No,Yes,No,480/277,400.0,3 Phase,Gas Heaters,No,10.00,Yes,5.00,No,No,,,0,0
+1876,3870,xnj17pol,ROOF    ,2024-10-07,0.00,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0,0.0,N/A,N/A,N/A,0.00,N/A,0.00,N/A,N/A,,,0,0
+1877,3873,xnj19nev,01      ,2025-02-05,7.96,LED,LED,No,Yes,No,Yes,No,277/480,2500.0,3 Phase,Gas Heaters,No,0.00,Yes,5.00,No,No,,,1,8
+1877,3874,xnj19nev,02      ,2025-02-05,0.00,LED,N/A,Yes,Yes,No,Yes,No,480/277,400.0,3 Phase,Gas Heaters,N/A,0.00,N/A,0.00,No,No,,,1,10
+1877,3875,xnj19nev,03      ,2025-02-05,0.00,LED,N/A,N/A,Yes,No,Yes,No,480/277,400.0,3 Phase,Gas Heaters,No,0.00,N/A,0.00,No,No,,,1,10
+1878,3850,xnj125al,01      ,2024-10-03,10.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,600.0,3 Phase,Gas Heaters,No,,Yes,18.00,No,No,,,,
+1878,3851,xnj125al,02      ,2025-02-20,15.00,Fluorescent,Fluorescent,No,No,No,Yes,No,480,400.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,2,2
+1879,3853,xnj145al,01      ,2025-02-20,6.00,Fluorescent,Fluorescent,No,No,No,Yes,No,480,400.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,0,0
+1879,3854,xnj145al,02      ,2025-02-20,10.00,Fluorescent,Fluorescent,No,No,No,Yes,No,480,400.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,1,0
+1880,3857,xnj156al,01      ,2025-02-20,15.00,Fluorescent,Fluorescent,No,No,No,Yes,No,480,400.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,0,5
+1881,3852,xnj30les,30      ,2024-11-28,26.00,LED,Fluorescent,No,No,No,Yes,No,120/208,600.0,3 Phase,Gas Heaters,No,7.50,Yes,3.00,No,No,,,2,
+1881,24482,xnj30les,40      ,2024-11-28,26.00,LED,Fluorescent,No,No,No,Yes,No,120/208,600.0,3 Phase,Gas Heaters,No,7.50,Yes,3.00,No,No,,,,1
+1882,3860,xnj128ba,01      ,2025-02-20,10.00,Fluorescent,Fluorescent,No,No,No,Yes,No,120,400.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,1,2
+1882,3861,xnj128ba,02      ,2025-02-20,6.00,Fluorescent,Fluorescent,No,No,No,Yes,No,120,400.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,1,2
+1882,3862,xnj128ba,04      ,2025-02-20,10.00,Fluorescent,Fluorescent,No,No,No,Yes,No,120,400.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,1,2
+1883,3877,xnj5thor,01      ,2025-02-20,10.00,Fluorescent,Fluorescent,No,No,No,Yes,No,120,1600.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,2,10
+1884,3876,xnj40pot,01      ,2024-11-28,100.00,N/A,Fluorescent,No,No,No,Yes,No,208/120,1600.0,3 Phase,N/A,No,,Yes,,No,No,,,2,3
+1885,4020,xnj95bau,01      ,2025-02-20,0.00,N/A,Fluorescent,Yes,No,No,Yes,No,120,400.0,3 Phase,Gas Heaters,No,0.00,Yes,0.00,No,No,,,0,0
+1886,4028,xga4507m,G-H     ,2024-10-03,8.00,Fluorescent/LED,Fluorescent,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+1886,4029,xga4507m,I       ,2024-10-03,6.00,Fluorescent,Fluorescent,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+1886,4030,xga4507m,WARHSE  ,2024-10-03,10.80,Fluorescent,Fluorescent,No,No,No,Yes,No,,,3 Phase,Packaged Units,Yes,,Yes,,No,No,,,,
+1887,4031,xnj740co,740     ,2025-02-07,5.00,N/A,LED,N/A,N/A,N/A,N/A,N/A,277/480,2500.0,Single,Gas Heaters,No,0.00,Yes,0.00,N/A,No,N/A,N/A,2,14
+1888,4304,xtx4201n,100     ,2024-10-07,17.80,Fluorescent,Fluorescent,Yes,No,No,Yes,No,480/277,3000.0,3 Phase,Packaged Units,Yes,,Yes,,Yes,No,,,,
+1891,4027,xil2500w,2500    ,2024-10-07,7.00,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,100.0,3 Phase,Gas Heaters,No,0.00,Yes,8.00,No,No,,,,
+1892,4023,xga4680n,4680    ,2024-10-03,77.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,3000.0,3 Phase,Packaged Units,Yes,,Yes,136.00,No,No,,,,
+1893,4024,xga5121b,5121    ,2024-10-03,17.80,High-Intensity Discharge,LED,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,0.00,Yes,9.00,No,No,,,,
+1894,4022,xga2100b,2100    ,2024-10-03,34.50,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,4600.0,3 Phase,Packaged Units,Yes,,Yes,,No,No,,,,
+1895,4158,xtx3662m,3670    ,2024-10-07,5.17,Fluorescent,Fluorescent,Yes,No,No,Yes,No,240,400.0,3 Phase,Gas Heaters,No,0.00,Yes,3.00,Yes,No,,,,
+1895,4166,xtx3662m,3662    ,2024-10-07,9.16,Fluorescent,Fluorescent,Yes,No,No,Yes,No,240,400.0,3 Phase,Gas Heaters,No,,Yes,3.00,Yes,No,,,,
+1896,4427,xtx12150,104     ,2024-10-07,36.43,LED,Fluorescent,Yes,No,No,Yes,No,240,400.0,3 Phase,Packaged Units,No,0.00,Yes,28.00,Yes,No,,,,
+1896,4428,xtx12150,112     ,2024-10-07,17.46,LED,Fluorescent,Yes,No,No,Yes,No,240,400.0,3 Phase,Packaged Units,No,0.00,Yes,12.00,Yes,No,,,,
+1896,4429,xtx12150,120     ,2024-10-07,23.38,LED,Fluorescent,Yes,No,No,Yes,No,240,400.0,3 Phase,Packaged Units,No,0.00,Yes,33.50,Yes,No,,,,
+1897,4025,xga800in,800-A   ,2024-04-19,3.00,Fluorescent,Fluorescent,No,No,No,Yes,N/A,120/208,600.0,3 Phase,Gas Heaters,Yes,16.00,Yes,6.00,No,No,,,0,0
+1897,4026,xga800in,850-B   ,2024-10-03,3.00,Fluorescent,Fluorescent,No,No,No,Yes,No,120/208,600.0,3 Phase,Gas Heaters,Yes,16.00,Yes,6.00,No,No,,,,
+1897,16625,xga800in,MEZZ    ,2024-10-03,0.00,N/A,N/A,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,N/A,,N/A,N/A,,,0,0
+1898,4032,xnj14rol,14      ,2024-11-26,13.40,LED,Fluorescent,No,No,No,Yes,No,120/208,600.0,3 Phase,Gas Heaters,No,40.00,Yes,30.00,N/A,No,,,2,2
+1899,4042,xil770ar,770     ,2024-10-07,17.00,LED,LED,No,Yes,Yes,Yes,No,277/480,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,10.00,No,No,,,,
+1899,4043,xil770ar,780     ,2024-10-07,22.00,LED,LED,No,Yes,Yes,Yes,No,277/480,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,17.00,No,No,,,,
+1900,4423,xil464no,464     ,2024-03-08,9.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,21.00,No,No,,,,
+1901,4426,xil77whe,77      ,2024-03-08,24.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,800.0,3 Phase,Gas Heaters,No,0.00,Yes,24.00,No,No,,,,
+1902,4037,xky4175a,4175    ,2024-10-07,3.00,LED,LED,No,No,No,Yes,No,277,400.0,3 Phase,Gas Heaters,No,0.00,Yes,52.00,No,No,,,,
+1902,5895,xky4175a,LAND    ,2024-10-07,0.00,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0,0.0,N/A,N/A,N/A,0.00,N/A,0.00,N/A,N/A,,,0,0
+1904,4035,xnj1601s,1601-DE ,2025-03-06,30.00,Fluorescent,Fluorescent,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,1,3
+1904,4036,xnj1601s,1601-A-C,2025-03-06,25.00,LED,LED,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,1,4
+1904,48400,xnj1601s,1601-C-1,2025-03-06,20.00,LED,LED,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,0,0
+2720,4489,xtx8154b,100     ,2024-10-07,1.40,Fluorescent,Fluorescent,Yes,No,No,Yes,No,208/120,225.0,3 Phase,None,No,0.00,Yes,2.00,No,No,,,,
+2720,4490,xtx8154b,200     ,2024-10-07,6.42,LED,Fluorescent/LED,Yes,No,Yes,Yes,No,208/120,400.0,3 Phase,None,No,0.00,Yes,10.00,Programmable,No,,,,
+2721,4040,xga800wh,A       ,2024-10-03,,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,1200.0,3 Phase,Gas Heaters,No,,Yes,13.50,No,No,,,,
+2721,4041,xga800wh,B       ,2024-10-03,,N/A,Fluorescent,No,No,No,Yes,No,277/480,1200.0,3 Phase,Gas Heaters,N/A,,Yes,13.50,No,No,,,,
+2723,4683,xfl11660,11660   ,2024-10-07,90.00,Fluorescent,LED,Yes,No,No,Yes,No,,,3 Phase,Other,No,0.00,Yes,39.50,Yes,No,,,,
+2724,4572,xohcolu1,3000    ,2024-10-07,,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,400.0,3 Phase,Gas Heaters,No,0.00,Yes,,No,No,,,,
+2724,4573,xohcolu1,3004    ,2024-10-07,12.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,400.0,3 Phase,Gas Heaters,No,0.00,Yes,,No,No,,,,
+2725,4574,xohcolu2,3045    ,2024-10-07,20.00,LED,LED,No,No,Yes,Yes,No,120/240,,3 Phase,Gas Heaters,No,0.00,Yes,,No,No,,,,
+2725,4575,xohcolu2,3055    ,2024-10-07,15.00,LED,LED,No,No,Yes,Yes,No,120/240,,3 Phase,Gas Heaters,No,0.00,Yes,,No,No,,,,
+2725,4576,xohcolu2,3065    ,2024-10-07,10.00,LED,LED,No,No,Yes,Yes,No,120/240,,3 Phase,Gas Heaters,No,0.00,Yes,,No,No,,,,
+2726,4577,xohcolu3,3040    ,2024-10-07,19.00,LED,LED,No,No,Yes,Yes,No,120/240,200.0,3 Phase,Gas Heaters,No,0.00,Yes,3.00,No,No,,,,
+2726,4578,xohcolu3,3050    ,2024-10-07,17.00,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,200.0,3 Phase,Gas Heaters,No,0.00,Yes,3.00,No,No,,,,
+2727,4581,xohcolu4,1161    ,2024-10-07,29.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,400.0,3 Phase,Gas Heaters,No,0.00,Yes,,No,No,,,,
+2952,5085,xtndelp2,4319A   ,2024-03-08,3.40,High-Intensity Discharge,Fluorescent,Yes,No,No,Yes,No,120/240,800.0,3 Phase,Gas Heaters,No,0.00,Yes,5.00,Yes,No,,,,
+2952,5086,xtndelp2,4319B   ,2024-03-08,2.10,High-Intensity Discharge,LED,Yes,No,No,Yes,No,120/240,800.0,3 Phase,Gas Heaters,No,0.00,Yes,5.00,Yes,No,,,,
+2958,4964,xpa18rai,200     ,2025-02-05,2.65,LED,LED,No,No,No,Yes,No,600,2000.0,3 Phase,Gas Heaters,No,0.00,Yes,24.00,No,No,,,2,16
+2985,4975,xil1001a,1001    ,2024-03-08,22.00,Fluorescent,LED,No,No,No,Yes,No,,400.0,3 Phase,Gas Heaters,No,0.00,Yes,13.50,No,No,,,,
+2986,4974,xil1000a,1000    ,2024-10-03,10.00,LED,LED,No,No,No,Yes,No,120/208,1200.0,3 Phase,Gas Heaters,No,,Yes,5.00,No,No,,,,
+2987,5741,xnj2075h,2075    ,2024-11-28,10.30,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,400.0,3 Phase,Gas Heaters,No,12.50,Yes,15.00,No,No,,,0,5
+2988,8112,xtx2125v,2125    ,2024-03-08,19.78,LED,Fluorescent,Yes,No,No,Yes,No,120/240,400.0,3 Phase,Gas Heaters,No,0.00,Yes,20.00,Yes,No,,,,
+2989,5740,xnj200ri,200     ,2025-03-20,9.50,Fluorescent,Fluorescent,No,No,No,Yes,No,120/208,1000.0,3 Phase,Gas Heaters,No,0.00,Yes,0.00,No,No,N/A,N/A,3,4
+2990,4967,xga4600f,4600-A  ,2024-10-03,7.00,Fluorescent,Fluorescent,No,No,No,Yes,No,120/208,400.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+2990,4968,xga4600f,4600-E  ,2024-10-03,6.00,LED,LED,No,No,No,Yes,No,120/240,200.0,3 Phase,Gas Heaters,No,,Yes,3.50,No,No,,,,
+2990,4969,xga4600f,4600-F  ,2024-10-03,13.00,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,200.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+2990,4970,xga4600f,4630-A  ,2024-10-03,10.00,LED,Fluorescent,No,No,Yes,Yes,No,277/480,400.0,3 Phase,Gas Heaters,No,,Yes,2.00,No,No,,,,
+2990,4971,xga4600f,4630-B  ,2024-10-03,10.00,Fluorescent,Fluorescent,No,No,No,Yes,No,120/208,400.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+2990,4972,xga4600f,4630-C  ,2024-10-03,20.00,LED,LED,No,No,Yes,Yes,No,120/208,600.0,3 Phase,Gas Heaters,No,,Yes,4.50,No,No,,,,
+2990,4973,xga4600f,4630-D  ,2024-10-03,10.00,Fluorescent,Fluorescent,No,No,No,Yes,No,120/208,500.0,3 Phase,Gas Heaters,No,,Yes,5.00,No,No,,,,
+2992,5316,xtx2616a,2614    ,2024-10-07,17.31,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,200.0,3 Phase,Gas Heaters,No,0.00,Yes,2.50,Yes,No,,,,
+2992,5842,xtx2616a,2610    ,2024-10-07,0.00,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,200.0,3 Phase,Gas Heaters,No,0.00,Yes,2.50,Yes,No,,,,
+2992,5843,xtx2616a,2616    ,2024-10-07,10.73,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,200.0,3 Phase,Gas Heaters,No,0.00,Yes,2.50,Yes,No,,,,
+2994,5742,xnj9100p,9100    ,2025-02-07,23.30,LED,LED,N/A,N/A,N/A,N/A,N/A,277/480,1200.0,Single,Gas Heaters,Yes,0.00,Yes,0.00,N/A,N/A,N/A,N/A,0,4
+3201,5743,xtx111pl,11100   ,2024-10-07,17.00,Fluorescent,Fluorescent,Yes,No,No,Yes,No,120/240,1200.0,Single,Electrical Heaters,No,0.00,Yes,39.50,Yes,No,,,,
+3202,5746,xtx467wa,4679    ,2024-10-07,6.73,Fluorescent,Fluorescent,Yes,No,No,Yes,No,240,200.0,3 Phase,None,No,0.00,Yes,6.00,Yes,No,,,,
+3202,16678,xtx467wa,AD      ,2024-10-07,0.00,N/A,N/A,N/A,N/A,N/A,N/A,N/A,,,N/A,N/A,N/A,,N/A,,N/A,N/A,,,0,0
+3203,5744,xtx310an,3101    ,2024-04-19,4.62,Fluorescent,Fluorescent,Yes,No,No,Yes,N/A,250,800.0,3 Phase,Gas Heaters,No,0.00,Yes,10.00,Yes,No,,,0,0
+3204,5745,xtx1919a,1919    ,2024-10-08,5.00,Fluorescent/LED,Fluorescent,No,No,No,Yes,No,277/480 volt,600.0,3 Phase,Gas Heaters,No,0.00,Yes,10.00,Yes,No,,,0,10
+3272,6050,xnj400wa,400     ,2025-02-06,8.00,LED,LED,No,No,Yes,Yes,No,277/480,2000.0,Single,Gas Heaters,No,10.00,Yes,32.50,No,No,N/A,N/A,3,1
+3273,6046,xga3350h,100     ,2024-10-03,0.00,Fluorescent,Fluorescent,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,No,,Yes,No,,,,
+3273,6047,xga3350h,200     ,2024-10-03,5.00,LED,LED,No,No,Yes,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,4.00,No,No,,,,
+3273,6048,xga3350h,300     ,2024-10-03,5.00,LED,LED,No,No,Yes,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,4.00,No,No,,,,
+3278,6051,xfl7720p,A       ,2024-10-07,31.00,LED,LED,Yes,No,No,Yes,No,277/480,600.0,3 Phase,None,Yes,14.00,Yes,42.50,Yes,No,,,,
+3278,6052,xfl7720p,B-C     ,2024-10-07,1.50,,,No,No,No,No,Yes,277/480,600.0,3 Phase,None,Yes,8.00,Yes,1.50,No,No,,,,
+3301,6283,xil121lo,121     ,2024-10-07,10.00,LED,LED,No,No,Yes,Yes,No,120/208,400.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+3302,6284,xnj121mo,121     ,2025-02-07,7.00,LED,LED,N/A,N/A,No,Yes,N/A,120/208,1600.0,3 Phase,Gas Heaters,No,165.50,Yes,0.00,N/A,N/A,,,,7
+3304,6723,xpa4200m,4200    ,2025-02-06,6.00,,,No,No,No,Yes,No,120/240,600.0,3 Phase,Gas Heaters,No,0.00,Yes,,No,No,N/A,N/A,1,4
+3306,6724,xpa500ma,500     ,2025-03-06,10.00,LED,LED,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+3306,11245,xpa500ma,B       ,2025-03-06,0.00,N/A,,No,No,No,No,No,,,3 Phase,Gas Heaters,No,,N/A,,No,No,,,0,0
+3307,8045,xtx10704,10704   ,2024-10-07,22.32,LED,Fluorescent,Yes,No,Yes,Yes,No,120/208,200.0,3 Phase,Packaged Units,No,0.00,Yes,25.00,Yes,No,,,,
+3308,6529,xfl420sw,A       ,2024-10-07,40.00,High-Intensity Discharge,Fluorescent,Yes,No,No,Yes,No,240/120,400.0,3 Phase,None,No,0.00,Yes,9.00,No,No,,,,
+3308,6530,xfl420sw,C       ,2024-10-07,10.00,LED,LED,No,No,Yes,Yes,No,240/120,400.0,3 Phase,None,Yes,,Yes,3.00,No,No,,,,
+3308,6531,xfl420sw,B       ,2024-10-07,10.00,High-Intensity Discharge,Fluorescent,Yes,No,No,Yes,No,240/120,400.0,3 Phase,None,Yes,3.00,Yes,3.00,No,No,,,,
+3356,7707,xga401wi,401     ,2024-10-03,13.70,Fluorescent,Fluorescent,No,No,No,Yes,No,120/208,800.0,3 Phase,Gas Heaters,No,,Yes,13.00,No,No,,,,
+3364,7784,xtn3961o,3961    ,2024-10-07,8.00,High-Intensity Discharge,Fluorescent,Yes,No,No,Yes,No,277/480,800.0,3 Phase,Gas Heaters,Yes,26.00,Yes,25.50,Programmable,No,,,,
+3367,9247,xil1600b,1600    ,2024-10-07,15.00,LED,LED,No,No,No,Yes,No,277/480,1000.0,3 Phase,Gas Heaters,No,0.00,Yes,,No,No,,,,
+3368,9248,xil1630b,1630    ,2024-10-07,8.00,LED,LED,No,No,No,Yes,No,120/240,800.0,3 Phase,Gas Heaters,No,0.00,Yes,,No,No,,,,
+3374,9131,xnj6925s,6925    ,2025-03-06,10.00,LED,LED,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,4,2
+3376,8242,xga9335i,100     ,2024-10-03,19.70,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,600.0,3 Phase,Gas Heaters,No,,Yes,10.00,No,No,,,,
+3377,8245,xil11697,11697   ,2024-04-17,13.00,High-Intensity Discharge,Fluorescent,No,No,No,Yes,N/A,277/480,800.0,3 Phase,Gas Heaters,No,0.00,Yes,16.50,No,No,,,0,0
+3388,9133,xnj2050h,2050    ,2025-02-06,5.82,LED,LED,No,No,No,Yes,No,277/480,400.0,Single,Gas Heaters,No,,Yes,,No,No,N/A,N/A,2,2
+3545,9148,xil231ja,231     ,2024-10-03,,,,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+3545,9149,xil231ja,233     ,2024-10-03,,,,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+3545,9150,xil231ja,235     ,2024-10-03,,LED,LED,No,No,Yes,Yes,No,120/240,400.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+3545,9151,xil231ja,237     ,2024-10-03,,LED,LED,No,No,No,Yes,No,120/240,200.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+3545,9152,xil231ja,241     ,2024-10-03,,LED,Fluorescent,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+3545,9153,xil231ja,1071    ,2024-10-03,,,,No,No,No,Yes,No,120/240,200.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+3545,9154,xil231ja,239     ,2024-10-03,,LED,Fluorescent/LED,No,No,No,Yes,No,120/240,200.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+3547,9162,xil201ja,201     ,2024-10-03,39.00,LED,LED,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+3547,10536,xil201ja,1050    ,2024-10-03,20.00,LED,LED,No,No,Yes,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+3547,10537,xil201ja,1060    ,2024-10-03,18.00,,,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+3547,10538,xil201ja,1070    ,2024-10-03,24.00,,,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+3547,10539,xil201ja,1080    ,2024-10-03,36.00,LED,LED,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+3548,9350,xil141be,141     ,2024-10-03,,,,No,No,No,Yes,No,120/240-volt,200.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+3548,9383,xil141be,143     ,2024-10-03,,,,No,No,No,Yes,No,120/240,200.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+3548,9408,xil141be,145     ,2024-10-03,,,,No,No,No,Yes,No,120/240,200.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,
+3569,9135,3nj00001,1000    ,2025-02-07,26.08,LED,Fluorescent,N/A,N/A,No,Yes,No,120/208,800.0,3 Phase,Gas Heaters,No,23.00,Yes,0.00,N/A,No,,,3,3
+3572,9141,3fl00001,14735   ,2024-10-07,2.90,High-Intensity Discharge,Fluorescent,Yes,No,No,Yes,No,120/240,800.0,3 Phase,None,No,0.00,Yes,5.00,Yes,No,,,,
+3575,9212,xtx1709s,100     ,2024-10-07,2.06,LED,LED,No,Yes,Yes,Yes,No,277/480,800.0,3 Phase,Other,No,0.00,Yes,14.00,Yes,No,,,,
+3575,9213,xtx1709s,150     ,2024-10-07,4.26,LED,LED,Yes,Yes,No,Yes,No,277/480,1200.0,3 Phase,Packaged Units,No,0.00,Yes,7.50,Yes,No,,,,
+3579,9721,xtx3857m,3857    ,2024-10-07,13.13,LED,Fluorescent,Yes,Yes,Yes,Yes,No,240,200.0,3 Phase,Packaged Units,No,0.00,Yes,56.50,Yes,No,,,,
+3621,10007,xtx2445s,2445    ,2024-10-07,10.23,Fluorescent,Fluorescent,No,No,No,Yes,No,120/208,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,59.00,Yes,No,,,,
+3622,10157,xtx1050k,10511   ,2024-04-17,0.00,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,225.0,3 Phase,Gas Heaters,No,0.00,Yes,12.50,Yes,No,,,0,0
+3622,10158,xtx1050k,10507   ,2024-04-17,17.49,Fluorescent,Fluorescent,No,No,No,Yes,N/A,120/240,225.0,Single,Gas Heaters,No,0.00,Yes,3.00,Yes,No,,,0,0
+3622,10159,xtx1050k,10529   ,2024-04-17,25.44,Fluorescent,Fluorescent,No,No,No,Yes,N/A,120/240,225.0,Single,Gas Heaters,No,0.00,Yes,11.00,Yes,No,,,0,0
+3622,10160,xtx1050k,10537   ,2024-04-17,20.23,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,225.0,Single,Gas Heaters,No,0.00,Yes,7.50,Yes,No,,,0,0
+3622,10161,xtx1050k,10501   ,2024-04-17,18.87,Fluorescent,Fluorescent,No,No,No,Yes,N/A,120/240,225.0,Single,Gas Heaters,No,0.00,Yes,7.50,Yes,No,,,0,0
+3622,10162,xtx1050k,10515   ,2024-04-17,15.87,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,225.0,Single,Gas Heaters,No,0.00,Yes,4.00,Yes,No,,,0,0
+3622,10163,xtx1050k,10519   ,2024-04-17,0.00,Fluorescent,Fluorescent,No,No,No,Yes,N/A,120/240,225.0,3 Phase,Gas Heaters,No,0.00,Yes,8.00,Yes,No,,,0,0
+3622,10170,xtx1050k,11523   ,2024-10-07,18.31,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,225.0,3 Phase,Gas Heaters,No,0.00,Yes,10.00,Yes,No,,,,
+3623,10623,xga3471a,3471    ,2024-04-15,15.62,Fluorescent,Fluorescent,Yes,No,No,Yes,No,277/480,1800.0,3 Phase,Gas Heaters,No,0.00,Yes,36.50,No,No,,,0,0
+3624,11093,xtx1721s,1721    ,2024-04-15,5.93,,,N/A,N/A,N/A,N/A,N/A,,0.0,N/A,N/A,No,0.00,Yes,0.00,Yes,N/A,,,0,0
+3625,11099,xtx11839,11839   ,2024-10-07,6.21,LED,Fluorescent,Yes,Yes,No,Yes,No,120/208,800.0,3 Phase,None,No,0.00,Yes,30.00,Yes,No,,,,
+3625,11131,xtx11839,100     ,2024-04-17,6.10,LED,Fluorescent,Yes,Yes,No,Yes,N/A,120/208,800.0,3 Phase,None,No,0.00,Yes,30.00,Yes,No,,,0,0
+3626,10918,xil1200p,1200    ,2024-04-17,6.00,Fluorescent,Fluorescent,No,No,No,Yes,N/A,120/208,400.0,3 Phase,Gas Heaters,No,0.00,Yes,0.00,No,No,,,0,0
+3628,14809,3fl00002,PARK    ,2024-10-08,0.00,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0,0.0,N/A,N/A,N/A,0.00,N/A,0.00,N/A,N/A,,,0,0
+3628,12588,3fl00002,1       ,2024-04-17,18.00,Fluorescent,Fluorescent,No,No,Yes,N/A,N/A,,0.0,N/A,Other,Yes,0.00,Yes,0.00,N/A,N/A,,,0,0
+3629,12083,xtx4666d,4666    ,2024-04-17,3.03,,,N/A,N/A,N/A,N/A,N/A,,0.0,N/A,N/A,No,0.00,Yes,0.00,N/A,N/A,,,0,0
+3630,12084,3pa00001,300     ,2025-02-07,10.00,LED,LED,No,No,Yes,No,No,120/208,200.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,2,0
+3630,12601,3pa00001,100     ,2025-03-06,30.00,Fluorescent,Fluorescent,No,No,No,Yes,No,,,3 Phase,Packaged Units,Yes,,Yes,,No,No,,,2,1
+3630,12606,3pa00001,200     ,2025-03-06,20.00,Fluorescent,Fluorescent,No,No,No,No,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,1,1
+3631,12608,xga1610s,1610    ,2024-04-15,7.00,Fluorescent,Fluorescent,No,No,No,Yes,N/A,277/480,400.0,3 Phase,Gas Heaters,No,0.00,Yes,6.00,No,No,,,0,0
+3631,12579,xga1610s,A       ,2024-10-03,7.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,400.0,3 Phase,Gas Heaters,No,,Yes,6.00,No,No,,,,
+3632,12621,xga2900j,A       ,2024-04-15,7.50,LED,LED,No,Yes,No,Yes,N/A,277/480,600.0,3 Phase,Gas Heaters,No,0.00,Yes,14.00,No,No,,,0,0
+3633,12072,3md00001,H       ,2025-02-05,25.00,LED,LED,N/A,N/A,N/A,Yes,N/A,,0.0,N/A,N/A,No,0.00,Yes,0.00,N/A,N/A,,,0,1
+3633,12073,3md00001,IJK     ,2025-02-07,0.00,LED,N/A,N/A,N/A,Yes,Yes,N/A,,0.0,N/A,N/A,No,0.00,Yes,0.00,N/A,N/A,,,0,2
+3633,12074,3md00001,MN      ,2025-02-07,61.50,Fluorescent,Fluorescent,N/A,N/A,N/A,N/A,N/A,,0.0,N/A,N/A,No,0.00,Yes,0.00,N/A,N/A,,,1,0
+3633,12075,3md00001,OP      ,2025-02-07,61.50,,,N/A,N/A,N/A,N/A,N/A,,0.0,N/A,N/A,No,0.00,Yes,0.00,N/A,N/A,,,0,1
+3633,12076,3md00001,RS      ,2025-02-07,14.00,LED,LED,No,Yes,Yes,Yes,N/A,200,240.0,3 Phase,N/A,No,0.00,Yes,0.00,N/A,N/A,,,0,2
+3633,11844,3md00001,A-E     ,2025-02-05,79.20,LED,Fluorescent,N/A,N/A,N/A,Yes,N/A,,0.0,N/A,N/A,No,0.00,Yes,0.00,N/A,N/A,,,1,3
+3633,11845,3md00001,T       ,2025-02-07,0.00,,,No,No,No,Yes,No,200,240.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,1
+3633,11846,3md00001,Q       ,2025-02-07,100.00,,,N/A,N/A,N/A,Yes,N/A,240,200.0,3 Phase,N/A,No,0.00,Yes,0.00,N/A,N/A,,,1,0
+3633,11848,3md00001,G       ,2025-02-05,31.60,LED,Fluorescent,N/A,N/A,N/A,Yes,N/A,,0.0,N/A,N/A,No,0.00,Yes,0.00,N/A,N/A,,,0,1
+3633,11850,3md00001,F       ,2025-02-05,100.00,N/A,Fluorescent,N/A,N/A,N/A,Yes,N/A,,0.0,N/A,N/A,No,0.00,Yes,0.00,N/A,N/A,,,1,1
+3633,11851,3md00001,L       ,2025-02-07,67.00,LED,Fluorescent,N/A,N/A,N/A,Yes,N/A,240v,200.0,3 Phase,N/A,No,0.00,Yes,0.00,N/A,N/A,,,0,1
+3634,12598,3ga00001,B       ,2024-04-19,25.00,LED,LED,No,No,Yes,Yes,N/A,120/208,1000.0,3 Phase,Gas Heaters,No,0.00,Yes,8.00,No,No,,,0,0
+3634,12599,3ga00001,A       ,2024-11-26,14.00,LED,LED,No,No,Yes,Yes,N/A,120/208,400.0,3 Phase,Packaged Units,Yes,15.00,Yes,2.50,No,No,,,0,2
+3634,12600,3ga00001,C       ,2024-11-26,13.00,LED,LED,No,No,Yes,Yes,No,120/208,400.0,3 Phase,Packaged Units,Yes,15.00,Yes,5.00,Programmable,No,,,0,2
+3635,12622,xga4450c,A       ,2024-04-15,11.00,LED,LED,No,No,Yes,Yes,No,120/208,400.0,3 Phase,Gas Heaters,No,0.00,Yes,8.00,No,No,,,0,0
+3637,11843,xnj59cha,100     ,2025-02-05,70.00,Fluorescent,LED,No,No,No,Yes,No,208/120,600.0,3 Phase,Gas Heaters,No,0.00,Yes,18.00,No,No,N/A,N/A,0,1
+3638,12624,xil7760m,100     ,2024-10-07,11.23,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,1400.0,3 Phase,Gas Heaters,No,0.00,Yes,24.50,No,No,,,,
+3640,12809,xil1000e,100     ,2024-10-03,38.80,High-Intensity Discharge,LED,No,No,No,Yes,No,120/208,800.0,3 Phase,Gas Heaters,No,,Yes,44.00,No,No,,,,
+3641,12810,xpa3041m,A       ,2025-02-07,5.00,Fluorescent,LED,No,No,No,Yes,No,120/208,600.0,Single,Gas Heaters,No,,Yes,,No,No,N/A,N/A,4,0
+3641,12811,xpa3041m,B       ,2025-02-07,0.00,LED,LED,No,No,No,Yes,No,120/208,600.0,Single,Gas Heaters,No,,Yes,,No,No,N/A,N/A,0,3
+3641,12812,xpa3041m,B1      ,2025-02-07,100.00,LED,LED,No,No,No,Yes,No,120/208,600.0,Single,Gas Heaters,No,,Yes,,No,No,N/A,N/A,0,0
+3641,52309,xpa3041m,A1      ,2025-02-07,6.42,LED,LED,No,No,No,Yes,No,120/208,200.0,Single,Gas Heaters,No,,Yes,,No,No,N/A,N/A,3,7
+3642,12819,xnj19ind,CENTER  ,2025-02-07,5.00,High-Intensity Discharge,,No,No,No,Yes,No,277/480,1200.0,3 Phase,Gas Heaters,No,,No,,No,No,,,,1
+3642,12820,xnj19ind,NE      ,2025-02-07,20.00,LED,LED,No,No,No,Yes,No,277/480,1200.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,,0
+3642,12821,xnj19ind,NWCNR   ,2025-02-07,5.00,LED,LED,No,No,No,Yes,No,277/480,1200.0,3 Phase,Gas Heaters,No,,No,,No,No,,,,1
+3642,12822,xnj19ind,SCNR    ,2025-02-07,40.00,LED,LED,No,No,No,Yes,No,277/480,1200.0,3 Phase,Gas Heaters,No,,No,,No,No,,,0,0
+3642,12823,xnj19ind,SECNR   ,2025-02-07,30.00,High-Intensity Discharge,,No,No,No,Yes,No,27/480,1200.0,3 Phase,Gas Heaters,No,,No,,No,No,,,,1
+3643,14134,3tn00001,1       ,2024-04-17,7.00,Fluorescent,Fluorescent,Yes,No,No,Yes,N/A,120/240,100.0,3 Phase,Gas Heaters,No,3.00,Yes,2.50,Yes,No,,amps100-400,0,0
+3643,14135,3tn00001,2       ,2024-04-17,5.00,LED,Fluorescent,Yes,No,No,Yes,No,120/240,100.0,3 Phase,Gas Heaters,No,3.00,Yes,2.50,Yes,No,,amps 100-400,0,0
+3643,14136,3tn00001,3       ,2024-04-17,5.00,Fluorescent,Fluorescent,Yes,No,No,Yes,N/A,120/240,100.0,3 Phase,Gas Heaters,No,3.00,Yes,2.50,Yes,No,,amps 100-400,0,0
+3643,14137,3tn00001,4       ,2024-04-17,6.00,LED,Fluorescent,Yes,No,Yes,Yes,N/A,120/240,100.0,3 Phase,Gas Heaters,No,3.00,Yes,2.50,Yes,No,,amps 100-400,0,0
+3643,14138,3tn00001,5       ,2024-04-17,2.00,Fluorescent,Fluorescent,Yes,No,No,Yes,No,120/240,100.0,3 Phase,Gas Heaters,No,3.00,Yes,2.50,Yes,No,,amps 100-400,0,0
+3643,14139,3tn00001,6       ,2024-04-17,15.00,Fluorescent,LED,Yes,No,Yes,Yes,No,120/240,100.0,3 Phase,Gas Heaters,No,3.00,Yes,2.50,Yes,No,,amps 100-400,0,0
+3643,14140,3tn00001,7       ,2024-04-17,11.00,Fluorescent,Fluorescent,Yes,No,Yes,Yes,No,120/240,100.0,3 Phase,Gas Heaters,No,3.00,Yes,2.50,Yes,No,,amps 100-400,0,0
+3643,14141,3tn00001,8       ,2024-04-17,5.00,LED,Fluorescent,Yes,No,No,Yes,N/A,120/240,100.0,3 Phase,Gas Heaters,No,3.00,Yes,2.50,Yes,No,,amps 100-400,0,0
+3643,14142,3tn00001,9       ,2024-04-17,0.00,Fluorescent,,Yes,No,No,Yes,N/A,120/240,100.0,3 Phase,Gas Heaters,No,3.00,Yes,0.00,Yes,No,,amps 100-400,0,0
+3643,14143,3tn00001,10      ,2024-04-17,0.00,Fluorescent,Fluorescent,Yes,No,No,Yes,N/A,120/240,100.0,3 Phase,Gas Heaters,No,3.00,Yes,0.00,Yes,No,,amps 100-400,0,0
+3643,14810,3tn00001,AD      ,2024-10-07,0.00,N/A,N/A,N/A,No,N/A,N/A,N/A,0,0.0,N/A,N/A,N/A,0.00,N/A,0.00,N/A,N/A,,,0,0
+3644,14133,3tn00002,1       ,2024-04-17,10.00,Fluorescent,Fluorescent,Yes,No,No,Yes,N/A,120/240,100.0,3 Phase,Gas Heaters,No,15.00,Yes,3.00,Yes,No,,amps 100-400,0,0
+3645,14126,3tn00003,1       ,2024-04-17,15.00,Fluorescent,Fluorescent,Yes,No,No,Yes,N/A,120/240,100.0,3 Phase,Gas Heaters,No,3.00,Yes,2.50,Yes,No,,,0,0
+3645,14127,3tn00003,2       ,2024-10-07,0.00,Fluorescent,Fluorescent,Yes,No,No,Yes,N/A,120/240,100.0,3 Phase,Gas Heaters,No,3.00,Yes,2.50,Yes,No,,,0,0
+3645,14128,3tn00003,3       ,2024-10-07,3.00,LED,LED,Yes,No,No,Yes,N/A,120/240,100.0,3 Phase,Gas Heaters,No,3.00,Yes,2.50,Yes,No,,,0,0
+3645,14129,3tn00003,8       ,2024-10-07,15.00,LED,LED,Yes,No,Yes,Yes,N/A,120/240,100.0,3 Phase,Gas Heaters,No,3.00,Yes,2.50,Yes,No,,,0,0
+3645,14130,3tn00003,6       ,2024-10-07,0.00,Fluorescent,Fluorescent,Yes,No,No,Yes,N/A,120/240,100.0,3 Phase,Gas Heaters,No,3.00,Yes,2.50,Yes,No,,,0,0
+3645,14131,3tn00003,4-5     ,2024-10-07,10.00,LED,LED,Yes,No,No,Yes,No,120/240,400.0,3 Phase,Gas Heaters,No,,Yes,2.50,Yes,No,,,,
+3645,14132,3tn00003,7       ,2024-10-07,5.00,Fluorescent,Fluorescent,Yes,No,No,Yes,No,120/240,400.0,3 Phase,Gas Heaters,No,0.00,Yes,2.50,Yes,No,,,,
+3646,14125,3tn00004,1       ,2024-04-15,24.80,LED,LED,Yes,No,No,Yes,No,120/240,0.0,Single,Gas Heaters,Yes,3.00,Yes,2.50,Yes,No,,,0,0
+3647,14122,3tn00005,1-5     ,2024-04-15,2.00,Fluorescent,Fluorescent,Yes,No,No,Yes,No,120/240,100.0,3 Phase,Gas Heaters,No,3.00,Yes,2.50,Yes,No,,,0,0
+3647,14123,3tn00005,6       ,2024-04-15,2.50,LED,LED,Yes,Yes,No,Yes,No,120/240,100.0,3 Phase,Gas Heaters,No,3.00,Yes,2.50,Yes,No,,,0,0
+3647,14124,3tn00005,4-7     ,2024-04-15,5.00,Fluorescent,LED,Yes,No,No,Yes,No,120/240,100.0,3 Phase,Gas Heaters,No,3.00,Yes,2.50,Yes,No,,,0,0
+3649,12827,3nj00002,153     ,2025-02-07,33.00,LED,LED,No,No,No,Yes,No,277/480,800.0,3 Phase,Gas Heaters,Yes,55.00,Yes,15.00,No,No,,,,3
+3651,12828,3fl00003,3330    ,2024-04-17,7.60,LED,Fluorescent,Yes,No,No,Yes,No,277/480,600.0,3 Phase,None,Yes,17.00,Yes,3.50,Programmable,No,,,0,0
+3652,12070,xnj70cat,1       ,2025-02-05,15.42,Fluorescent,Fluorescent,No,No,No,Yes,No,220/440 Volt,800.0,Single,Gas Heaters,No,0.00,Yes,12.00,No,No,N/A,N/A,1,2
+3652,12071,xnj70cat,B       ,2025-02-05,28.15,Fluorescent,Fluorescent,No,No,No,Yes,No,220/440,800.0,3 Phase,Gas Heaters,No,0.00,Yes,2.00,No,No,N/A,N/A,1,0
+3667,12829,xnj6900r,6900    ,2025-02-07,10.00,LED,LED,No,Yes,Yes,Yes,No,480/208,800.0,3 Phase,Gas Heaters,No,,Yes,8.00,No,No,,,2,2
+3668,12830,xga3651c,3651    ,2024-10-03,17.00,LED,LED,No,No,No,Yes,No,120/208,400.0,3 Phase,Gas Heaters,No,,Yes,10.00,No,No,,,,
+3668,14781,xga3651c,BB      ,2024-10-07,0.00,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0,0.0,N/A,N/A,N/A,0.00,N/A,0.00,N/A,N/A,,,0,0
+3669,12833,xil222ja,222     ,2024-10-07,37.00,Fluorescent,Fluorescent,No,No,No,Yes,No,120/208,400.0,3 Phase,Gas Heaters,No,0.00,Yes,24.00,No,No,,,,
+3669,12834,xil222ja,224     ,2024-10-07,41.10,LED,LED,No,Yes,Yes,Yes,No,120/208,400.0,3 Phase,Gas Heaters,No,0.00,Yes,25.00,No,No,,,,
+3670,12854,xga1585r,A       ,2024-04-17,21.00,LED,LED,No,Yes,No,Yes,N/A,277/480,3200.0,3 Phase,Gas Heaters,No,0.00,Yes,37.00,No,No,,,0,0
+3671,12858,xoh154co,154     ,2024-10-07,18.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,800.0,3 Phase,Gas Heaters,No,0.00,Yes,11.00,No,No,,,,
+3714,14290,3md00002,A       ,2025-02-07,80.00,LED,LED,No,No,No,Yes,No,277/480,600.0,3 Phase,Packaged Units,Yes,50.00,Yes,127.50,Yes,No,,,,2
+3714,14291,3md00002,B       ,2025-02-07,35.00,LED,LED,No,Yes,Yes,No,Yes,277/480,600.0,3 Phase,Packaged Units,Yes,50.00,Yes,,No,Yes,oil and gasoline,in commercially reasonable quantities,,2
+3728,14387,xnj1803u,1803    ,2025-02-05,10.00,LED,LED,No,No,No,Yes,No,480/277,400.0,3 Phase,Gas Heaters,Yes,12.00,Yes,10.00,No,No,N/A,N/A,1,1
+3735,15301,3ga00002,1       ,2024-10-03,5.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,400.0,3 Phase,Gas Heaters,No,0.00,Yes,,Programmable,No,,,,
+3735,15302,3ga00002,OPQR    ,2024-10-03,8.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,600.0,3 Phase,Gas Heaters,No,,Yes,,Programmable,No,,,,
+3735,14899,3ga00002,F       ,2024-10-03,,Fluorescent,LED,No,No,No,No,No,277/480,800.0,3 Phase,Gas Heaters,No,,Yes,,Programmable,No,,,,
+3735,14900,3ga00002,N       ,2024-10-03,,Fluorescent,LED,No,No,No,Yes,No,277/480,800.0,3 Phase,Gas Heaters,No,,Yes,,Programmable,No,,,,
+3736,14786,3il00001,410     ,2024-04-17,5.80,Fluorescent,Fluorescent,No,No,No,Yes,N/A,120/240,2500.0,3 Phase,Gas Heaters,No,0.00,Yes,17.00,No,No,,,0,0
+3737,14787,3oh00001,2060    ,2024-04-17,33.00,LED,LED,No,No,Yes,Yes,N/A,,0.0,3 Phase,Gas Heaters,No,0.00,Yes,0.00,No,No,,,0,0
+3737,14788,3oh00001,2064    ,2024-04-17,33.00,LED,LED,No,No,Yes,Yes,N/A,,0.0,3 Phase,Gas Heaters,No,0.00,Yes,0.00,No,No,,,0,0
+3737,14789,3oh00001,2066    ,2024-04-17,33.00,LED,LED,No,No,Yes,Yes,N/A,,0.0,3 Phase,Gas Heaters,No,0.00,Yes,0.00,No,No,,,0,0
+3737,14791,3oh00001,2078    ,2024-04-17,33.00,Fluorescent,Fluorescent,No,No,No,Yes,N/A,,0.0,3 Phase,Gas Heaters,No,0.00,Yes,0.00,No,No,,,0,0
+3737,14792,3oh00001,2080    ,2024-04-19,33.00,Fluorescent,Fluorescent,No,No,No,Yes,N/A,,0.0,3 Phase,Gas Heaters,No,0.00,Yes,48.00,No,No,,,0,0
+3737,14793,3oh00001,2098    ,2024-04-19,33.00,Fluorescent,Fluorescent,No,No,No,Yes,N/A,,0.0,3 Phase,Gas Heaters,No,0.00,Yes,22.50,No,No,,,0,0
+3737,15298,3oh00001,2068    ,2024-04-17,33.00,Fluorescent,Fluorescent,No,No,No,Yes,N/A,,0.0,3 Phase,Gas Heaters,No,0.00,Yes,0.00,No,No,,,0,0
+3738,15011,xil1100h,1130    ,2024-04-17,19.00,,,No,No,No,Yes,N/A,120/208,225.0,3 Phase,Gas Heaters,No,0.00,Yes,6.00,No,No,,,0,0
+3738,15012,xil1100h,1100    ,2024-04-17,26.00,,,No,No,No,Yes,N/A,120/208,200.0,3 Phase,Gas Heaters,No,0.00,Yes,0.00,No,No,,,0,0
+3738,15014,xil1100h,1150    ,2024-04-17,25.00,,,No,No,No,Yes,N/A,120/208,400.0,3 Phase,Gas Heaters,No,0.00,Yes,6.00,No,No,,,0,0
+3739,15010,xil1701b,100     ,2024-04-17,13.00,LED,LED,No,No,No,Yes,N/A,277/480,1600.0,3 Phase,Gas Heaters,No,0.00,Yes,48.50,No,No,,,0,0
+3740,14897,3nj00003,100     ,2025-02-07,18.40,LED,LED,No,No,No,Yes,No,277/480,200.0,3 Phase,Gas Heaters,Yes,16.00,Yes,6.00,No,No,,,4,3
+3741,14901,3il00002,100     ,2024-04-17,22.00,Fluorescent,Fluorescent,No,No,No,Yes,N/A,277/480,800.0,3 Phase,Gas Heaters,No,0.00,Yes,13.00,No,No,,,0,0
+3741,14903,3il00002,150     ,2024-10-07,9.00,LED,LED,No,No,Yes,Yes,No,277/480,800.0,3 Phase,Gas Heaters,No,0.00,Yes,7.00,No,No,,,,
+3795,15024,xnj1980o,1980    ,2024-11-28,40.00,LED,Fluorescent/LED,No,No,No,Yes,No,120/240v,800.0,3 Phase,Gas Heaters,No,22.50,Yes,,No,No,,,3,1
+3796,15172,3ga00003,1100    ,2024-04-17,2.30,High-Intensity Discharge,Fluorescent,No,No,No,Yes,N/A,270/480,2000.0,3 Phase,Gas Heaters,No,0.00,Yes,4.00,No,No,,Property table shows High intensity discharge + fluorescent as lights type in warhouse,0,0
+3797,14994,3fl00004,100     ,2024-04-17,9.20,LED,Fluorescent,N/A,N/A,N/A,Yes,N/A,240,200.0,3 Phase,N/A,N/A,46.50,Yes,0.00,Yes,No,,,0,0
+3798,15851,3il00003,2100    ,2024-04-17,24.98,Fluorescent,Fluorescent,No,No,No,Yes,N/A,120/240,200.0,3 Phase,Gas Heaters,No,0.00,Yes,16.00,No,No,,,0,0
+3799,15305,3il00004,3380    ,2024-04-17,1.40,LED,LED,No,No,Yes,Yes,N/A,277/480,4000.0,3 Phase,Gas Heaters,No,0.00,Yes,3.00,No,No,,,0,0
+3800,15322,3ny00001,180     ,2025-02-05,15.80,Fluorescent,Fluorescent,No,No,No,Yes,No,120/208,800.0,3 Phase,Gas Heaters,No,0.00,Yes,20.00,No,No,,,2,8
+3818,15281,3tx00001,STE-A   ,2024-04-19,5.50,High-Intensity Discharge,Fluorescent,Yes,No,No,Yes,N/A,,0.0,Single,Gas Heaters,No,0.00,Yes,12.00,Yes,No,,,0,0
+4075,16718,xga1145b,1145    ,2024-04-19,12.00,LED,LED,No,No,No,Yes,N/A,277/480,3000.0,3 Phase,None,No,0.00,Yes,3.00,No,No,,,0,0
+4076,16719,3nj00005,1425    ,2024-11-26,16.00,LED,Fluorescent,Yes,Yes,No,Yes,No,227/480,1600.0,3 Phase,Gas Heaters,Yes,30.00,Yes,15.00,Programmable,No,,Cannabis grower/distributer - upgraded system (input has info BEFORE tenant upgrades),1,6
+4077,16721,3nj00004,1253    ,2025-02-05,5.80,LED,LED,No,No,Yes,Yes,No,265/460,1200.0,3 Phase,Gas Heaters,Yes,15.00,Yes,12.00,No,No,,N/A,3,3
+4078,16724,3oh00002,A       ,2024-04-19,7.00,Fluorescent,Fluorescent,No,No,No,Yes,N/A,120/208,600.0,3 Phase,Gas Heaters,No,0.00,Yes,10.00,No,No,,,0,0
+4079,16794,3md00003,100     ,2025-02-07,21.41,LED,LED,No,No,Yes,Yes,No,240,200.0,3 Phase,Gas Heaters,No,,Yes,23.00,No,No,,,1,3
+4115,25517,3md00004,PARK    ,2024-10-08,0.00,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0,0.0,N/A,N/A,N/A,0.00,N/A,0.00,N/A,N/A,,,0,0
+4115,23358,3md00004,7122    ,2025-02-07,18.00,LED,Fluorescent,No,No,No,Yes,No,120/240,225.0,3 Phase,Electrical Heaters,Yes,3.00,Yes,3.00,No,No,,,0,2
+4115,23360,3md00004,7128    ,2025-02-07,30.00,LED,LED,No,Yes,Yes,No,No,120/240,200.0,3 Phase,Packaged Units,Yes,32.00,Yes,,No,No,,,1,1
+4115,23361,3md00004,7130    ,2025-02-07,44.00,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,200.0,3 Phase,Packaged Units,No,14.50,Yes,,No,No,,,,1
+4115,23483,3md00004,7132    ,2025-02-07,16.00,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,200.0,3 Phase,Packaged Units,No,14.50,Yes,,No,No,,,2,1
+4115,23484,3md00004,7124    ,2025-02-07,13.00,LED,LED,No,Yes,Yes,Yes,No,120/240,200.0,3 Phase,Packaged Units,No,23.00,Yes,,No,No,,,,1
+4115,55146,3md00004,7126    ,2025-02-07,21.60,LED,LED,No,No,Yes,No,No,120/240,200.0,3 Phase,Packaged Units,No,20.00,Yes,,No,No,,,,2
+4116,16814,3ga00004,A       ,2024-11-26,30.00,Fluorescent,LED,No,No,No,Yes,No,120/208,600.0,3 Phase,Gas Heaters,No,0.00,Yes,11.00,No,No,,,,2
+4116,36862,3ga00004,B       ,2024-11-26,9.00,Fluorescent,Fluorescent,No,No,No,Yes,No,120/208,200.0,3 Phase,Gas Heaters,No,0.00,Yes,2.00,No,No,,,1,1
+4125,16834,3il00005,100     ,2024-04-19,13.00,LED,LED,No,No,Yes,Yes,N/A,277/480,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,15.50,No,No,,,0,0
+4130,17866,3il00006,1221    ,2024-04-19,20.00,,,No,No,No,Yes,N/A,277/480,800.0,3 Phase,Gas Heaters,No,0.00,Yes,33.00,No,No,,,0,0
+4170,21108,3tx00003,100     ,2024-04-24,89.54,,,N/A,N/A,N/A,N/A,N/A,,0.0,N/A,Gas Heaters,No,0.00,Yes,0.00,N/A,N/A,,,0,0
+4171,20992,3tx00004,150-200 ,2024-04-26,7.20,Fluorescent,LED,No,No,No,Yes,N/A,480/277,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,9.00,Yes,No,,,0,0
+4171,20993,3tx00004,100     ,2024-04-26,0.00,Fluorescent,,No,No,No,Yes,N/A,480/277,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,0.00,N/A,No,,,0,0
+4172,20349,3tx00005,1111    ,2024-04-24,11.43,LED,LED,Yes,No,No,Yes,N/A,277/480,1600.0,3 Phase,Packaged Units,No,0.00,Yes,444.50,Yes,No,,,0,0
+4173,20991,3tx00006,1601    ,2024-04-26,14.00,,,N/A,N/A,N/A,N/A,N/A,,0.0,N/A,N/A,No,0.00,Yes,0.00,N/A,N/A,,,0,0
+4174,20990,3tx00007,1460    ,2024-10-07,0.00,LED,Fluorescent/LED,Yes,No,No,Yes,No,277/480,4000.0,3 Phase,None,No,0.00,Yes,1500.00,Yes,No,,,,
+4175,20988,3tx00008,150     ,2024-04-26,20.56,,,N/A,N/A,N/A,N/A,N/A,,0.0,N/A,N/A,No,0.00,Yes,0.00,N/A,N/A,,,0,0
+4175,20989,3tx00008,100     ,2024-04-26,57.65,,,N/A,N/A,N/A,N/A,N/A,,0.0,N/A,N/A,No,0.00,Yes,0.00,Yes,N/A,,,0,0
+4176,20328,3tx00009,100     ,2024-04-24,100.00,Fluorescent,Fluorescent,No,No,No,Yes,N/A,277/480,1600.0,3 Phase,None,No,0.00,Yes,51.50,Yes,No,,Lights type in office are both Fluorescent and LED,0,0
+4176,20329,3tx00009,200     ,2024-04-24,100.00,Fluorescent,Fluorescent,No,No,No,Yes,N/A,277/480,1600.0,3 Phase,None,No,0.00,Yes,120.00,Yes,No,,Lights type in warehouse are both fluorescent and led,0,0
+4192,20301,3il00007,800     ,2024-04-19,0.00,LED,LED,No,No,No,Yes,N/A,120/240,400.0,3 Phase,Gas Heaters,No,0.00,Yes,9.00,No,No,,,0,0
+4192,20302,3il00007,802     ,2024-04-24,0.00,,,No,No,N/A,Yes,N/A,277/480,200.0,3 Phase,Gas Heaters,No,0.00,Yes,9.00,No,No,,"And 400 amp, 120/208V",0,0
+4192,20303,3il00007,810     ,2024-04-24,0.00,,,No,No,No,Yes,N/A,120/240,400.0,3 Phase,Gas Heaters,No,0.00,Yes,4.00,No,No,,,0,0
+4192,20304,3il00007,812     ,2024-04-24,0.00,LED,LED,No,No,Yes,Yes,No,120/240,200.0,3 Phase,Gas Heaters,No,0.00,Yes,4.00,No,No,,,0,0
+4435,23145,3fl00005,A       ,2024-04-19,6.20,Fluorescent,Fluorescent,N/A,N/A,N/A,Yes,N/A,120/240,200.0,3 Phase,N/A,Yes,5.00,Yes,0.00,Yes,No,,,0,0
+4722,24467,3nj00006,3140    ,2024-11-28,31.00,High-Intensity Discharge,Fluorescent,No,No,No,Yes,No,277/480,1600.0,Single,Gas Heaters,No,102.00,Yes,124.00,Yes,No,,,1,7
+4727,24469,3nc00001,10000   ,2024-03-07,2.70,LED,Fluorescent,No,No,No,Yes,No,277/480,6000.0,3 Phase,Gas Heaters,No,0.00,Yes,5.50,No,No,,,,
+4800,24485,3fl00006,AB      ,2024-04-26,10.40,High-Intensity Discharge,Fluorescent,Yes,No,No,Yes,N/A,120/240,200.0,3 Phase,None,Yes,5.25,Yes,0.00,N/A,No,,200-400amp,0,0
+4818,24533,3nj00007,1145    ,2025-02-03,13.72,N/A,N/A,No,No,No,Yes,No,277/480,4800.0,3 Phase,Gas Heaters,No,890.00,Yes,5.00,No,No,,,7,11
+4819,24534,3nj00008,1125    ,2025-02-03,20.49,N/A,N/A,No,No,No,Yes,No,120/240,400.0,3 Phase,Gas Heaters,No,7.50,Yes,5.00,No,No,,,3,5
+5070,25516,3oh00003,3232    ,2024-04-26,34.50,High-Intensity Discharge,Fluorescent,No,No,No,Yes,N/A,120/240,100.0,3 Phase,Gas Heaters,No,0.00,Yes,25.00,No,No,,,0,0
+5074,25518,3nj00009,1654    ,2024-11-26,42.00,LED,Fluorescent,Yes,Yes,No,Yes,No,277/480,1500.0,3 Phase,Gas Heaters,Yes,150.00,Yes,12.00,Yes,Yes,chemicals - located in separate area per reg,,1,7
+5084,27193,3fl00007,4570    ,2024-04-26,9.90,Fluorescent,Fluorescent,No,No,No,Yes,N/A,120/240,600.0,3 Phase,None,Yes,0.00,Yes,3.00,Yes,No,,,0,0
+5084,27284,3fl00007,BB      ,2024-10-07,0.00,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0,0.0,N/A,N/A,N/A,0.00,N/A,0.00,N/A,N/A,,,0,0
+5086,28004,3tx00010,1501    ,2024-03-07,0.38,LED,Fluorescent,Yes,Yes,Yes,Yes,No,277/480,1600.0,3 Phase,None,No,0.00,No,0.00,No,No,,,,
+5087,28002,3tx00011,120     ,2024-03-07,6.00,LED,Fluorescent,Yes,No,No,Yes,No,120/240,200.0,3 Phase,Gas Heaters,No,0.00,Yes,5.00,Yes,No,,,,
+5087,28003,3tx00011,1101    ,2024-03-07,25.00,LED,Fluorescent,Yes,No,No,Yes,No,120/240,200.0,3 Phase,Gas Heaters,No,0.00,Yes,10.50,Yes,No,,,,
+5088,28007,3tx00012,4535    ,2024-03-07,10.60,Fluorescent,Fluorescent,Yes,No,No,Yes,No,120,400.0,3 Phase,Gas Heaters,No,0.00,Yes,9.00,Yes,No,,,,
+5088,28008,3tx00012,4525    ,2024-03-07,20.00,LED,Fluorescent,Yes,No,No,Yes,No,240,200.0,3 Phase,Gas Heaters,No,0.00,Yes,6.00,Yes,No,,,,
+5089,28005,3tx00013,1       ,2024-03-07,0.05,High-Intensity Discharge,Fluorescent,No,No,No,Yes,No,120/240,800.0,3 Phase,Packaged Units,Yes,101.50,Yes,0.00,Yes,No,,,,
+5089,28006,3tx00013,2       ,2024-03-07,3.50,LED,Fluorescent,Yes,No,No,Yes,No,600,600.0,3 Phase,Packaged Units,Yes,103.25,Yes,0.00,Yes,No,,,,
+5439,31736,3ga00005,A       ,2024-03-07,17.00,LED,Fluorescent,No,No,Yes,Yes,No,277/480,600.0,3 Phase,Gas Heaters,No,0.00,Yes,30.00,No,No,,,,
+5457,32750,3nc00002,4112    ,2024-03-07,3.50,Fluorescent,LED,No,No,No,Yes,No,,0.0,3 Phase,Gas Heaters,No,0.00,No,5.00,No,No,,,,
+5459,32751,3nc00003,A       ,2024-03-07,4.00,Fluorescent,Fluorescent,No,No,No,No,No,120/208,400.0,3 Phase,Gas Heaters,No,0.00,Yes,5.50,No,No,,,,
+5459,44900,3nc00003,B       ,2024-10-03,4.00,Fluorescent,Fluorescent,No,No,No,Yes,No,120/208,400.0,3 Phase,Gas Heaters,No,,Yes,5.50,No,No,,,,
+5460,31740,3nc00004,ANT     ,2024-10-07,0.00,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0,0.0,N/A,N/A,N/A,0.00,N/A,0.00,N/A,N/A,,,0,0
+5460,31741,3nc00004,A       ,2024-11-26,10.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,225.0,3 Phase,Packaged Units,Yes,125.00,Yes,17.50,No,No,,,,10
+5460,32748,3nc00004,C       ,2024-11-26,3.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,400.0,3 Phase,Gas Heaters,No,0.00,Yes,3.00,No,No,,,0,9
+5460,32749,3nc00004,D       ,2024-11-26,3.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,2000.0,3 Phase,Gas Heaters,No,0.00,Yes,3.00,No,No,,,1,7
+5710,34556,3nj00010,A       ,2025-02-10,0.00,High-Intensity Discharge,LED,No,No,No,Yes,No,,0.0,N/A,Packaged Units,Yes,25.00,Yes,25.00,N/A,N/A,,,0,2
+5710,34618,3nj00010,B       ,2025-02-10,33.47,Fluorescent/LED,Fluorescent/LED,No,No,No,Yes,No,,,3 Phase,Packaged Units,Yes,25.00,Yes,25.00,No,No,,,0,1
+5710,34623,3nj00010,C       ,2025-02-10,34.27,Fluorescent/LED,Fluorescent/LED,No,N/A,No,Yes,No,,0.0,3 Phase,Packaged Units,Yes,25.00,Yes,25.00,N/A,N/A,,,0,2
+5711,34542,3nj00011,2       ,2025-02-10,100.00,Fluorescent/LED,Fluorescent/LED,N/A,N/A,No,Yes,N/A,277/480,600.0,3 Phase,N/A,N/A,0.00,Yes,152.00,N/A,N/A,,,0,5
+5712,34494,3nj00012,B       ,2025-02-10,10.00,LED,LED,N/A,Yes,Yes,No,Yes,12/240,1200.0,N/A,Gas/Electrical Heaters,Yes,0.00,Yes,0.00,N/A,N/A,,,0,2
+5712,34520,3nj00012,C       ,2025-02-10,29.98,Fluorescent/LED,LED,N/A,N/A,No,Yes,N/A,120/240,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,0.00,N/A,N/A,,,0,1
+5712,34627,3nj00012,3-DEF   ,2025-02-10,28.58,LED,LED,N/A,N/A,No,Yes,N/A,120/240,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,0.00,N/A,N/A,,,0,3
+5712,35671,3nj00012,A       ,2025-02-10,32.63,LED,LED,N/A,N/A,Yes,No,Yes,12/240,1200.0,3 Phase,Gas Heaters,No,10.00,Yes,10.00,N/A,N/A,,,0,1
+5714,34484,3nj00013,D       ,2024-05-02,30.38,,,N/A,N/A,N/A,N/A,N/A,,0.0,N/A,N/A,No,0.00,Yes,0.00,N/A,N/A,,,0,0
+5714,34485,3nj00013,A       ,2025-02-10,76.89,Fluorescent/LED,Fluorescent/LED,N/A,N/A,No,Yes,N/A,277/480,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,0.00,N/A,N/A,,,0,1
+5714,33961,3nj00013,BC      ,2024-05-02,76.89,,,N/A,N/A,N/A,N/A,N/A,,0.0,N/A,N/A,No,0.00,Yes,0.00,N/A,N/A,,,0,0
+5715,33962,3nj00014,M       ,2025-02-19,30.26,Fluorescent/LED,Fluorescent/LED,N/A,N/A,No,Yes,N/A,277/480,2500.0,3 Phase,Packaged Units,No,0.00,Yes,10.00,N/A,N/A,,,0,1
+5715,33931,3nj00014,H       ,2025-02-19,100.00,Fluorescent/LED,Fluorescent/LED,N/A,N/A,Yes,Yes,N/A,277/480,2500.0,3 Phase,Packaged Units,Yes,0.00,Yes,15.00,N/A,N/A,,,0,1
+5715,33932,3nj00014,G       ,2025-02-19,66.88,Fluorescent/LED,Fluorescent/LED,N/A,N/A,No,Yes,N/A,277/480,2500.0,3 Phase,Packaged Units,No,0.00,Yes,20.00,N/A,N/A,,,0,1
+5715,33933,3nj00014,A       ,2025-02-19,77.42,Fluorescent/LED,Fluorescent/LED,N/A,N/A,No,Yes,No,277/480,2500.0,3 Phase,Packaged Units,No,0.00,Yes,15.00,N/A,N/A,,,0,1
+5715,33944,3nj00014,C       ,2025-02-19,15.83,Fluorescent/LED,Fluorescent/LED,N/A,N/A,No,Yes,N/A,277/480,2500.0,3 Phase,Packaged Units,No,0.00,Yes,10.00,N/A,N/A,,,0,1
+5715,34541,3nj00014,B       ,2025-02-19,67.03,Fluorescent/LED,Fluorescent/LED,N/A,N/A,No,Yes,N/A,277/480,2500.0,3 Phase,Packaged Units,No,0.00,Yes,15.00,N/A,N/A,,,0,1
+5715,34546,3nj00014,K       ,2025-02-19,23.56,LED,LED,N/A,N/A,No,No,No,277/480,2500.0,3 Phase,Packaged Units,Yes,0.00,Yes,40.00,N/A,No,,,0,2
+5715,34622,3nj00014,J       ,2025-02-19,23.56,LED,LED,N/A,N/A,No,No,No,277/480,2500.0,3 Phase,Packaged Units,Yes,0.00,Yes,40.00,N/A,N/A,,,0,2
+5715,34624,3nj00014,DEFN    ,2025-02-19,0.00,Fluorescent/LED,Fluorescent/LED,N/A,N/A,No,Yes,N/A,277/480,2500.0,3 Phase,Packaged Units,Yes,0.00,Yes,40.00,N/A,N/A,,,1,4
+5717,34735,3nj00016,59      ,2025-02-10,55.04,Fluorescent/LED,Fluorescent/LED,No,No,No,Yes,N/A,265/460,2000.0,N/A,Packaged Units,Yes,208.50,Yes,0.00,N/A,N/A,,,0,6
+5726,32754,3nc00005,100     ,2024-10-03,100.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,1200.0,3 Phase,Packaged Units,Yes,4.00,Yes,50.00,No,No,,,,
+5727,32794,3md00005,A       ,2025-02-05,10.94,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,1200.0,3 Phase,Packaged Units,Yes,4.00,Yes,50.00,No,No,,,,3
+5727,32795,3md00005,B       ,2025-02-05,18.50,LED,Fluorescent,Yes,No,No,Yes,No,120/208,400.0,3 Phase,Gas Heaters,No,,Yes,,Yes,No,,,1,0
+5727,32796,3md00005,C       ,2025-02-05,0.00,LED,N/A,Yes,No,No,No,No,120/208,400.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,1,0
+5729,33546,3nj00017,16      ,2025-02-10,17.48,LED,Fluorescent,No,No,No,Yes,No,277/480,2000.0,3 Phase,Gas Heaters,No,242.00,Yes,0.00,No,No,,,11,0
+5731,32767,3nj00018,4       ,2025-02-19,17.17,LED,Fluorescent/LED,No,No,No,Yes,No,277/480,2500.0,3 Phase,Gas Heaters,No,,Yes,30.00,No,No,,,0,2
+5731,33698,3nj00018,B       ,2025-02-19,16.59,Fluorescent/LED,Fluorescent/LED,No,No,No,Yes,No,277/480,2500.0,3 Phase,Gas Heaters,No,,Yes,30.00,No,No,,,1,1
+5731,33702,3nj00018,C       ,2025-02-19,16.59,Fluorescent/LED,Fluorescent/LED,No,No,No,Yes,No,277/480,2500.0,3 Phase,Gas Heaters,No,,Yes,30.00,No,No,,,0,0
+5731,33733,3nj00018,D       ,2025-02-19,3.69,Fluorescent/LED,Fluorescent/LED,No,No,No,Yes,No,277/480,2500.0,3 Phase,Gas Heaters,No,,Yes,15.00,No,No,,,1,2
+5731,33917,3nj00018,E       ,2025-02-19,11.89,Fluorescent/LED,Fluorescent/LED,No,No,No,Yes,No,277/480,2500.0,3 Phase,Packaged Units,Yes,,Yes,80.00,No,No,,,0,0
+5731,33918,3nj00018,CABLE   ,2024-10-08,0.00,N/A,N/A,N/A,N/A,N/A,N/A,No,0,0.0,N/A,N/A,N/A,0.00,N/A,0.00,N/A,N/A,,,0,0
+5733,33638,3nj00019,70      ,2025-02-19,100.00,Fluorescent/LED,Fluorescent/LED,No,No,No,Yes,No,277/480,2500.0,3 Phase,Packaged Units,Yes,,Yes,130.00,No,No,,,4,0
+5733,33641,3nj00019,82B     ,2025-02-19,15.17,LED,Fluorescent/LED,No,No,No,Yes,N/A,277/480,2500.0,3 Phase,Gas Heaters,No,,Yes,60.00,No,No,,,5,0
+5733,33642,3nj00019,90      ,2025-02-19,15.17,LED,Fluorescent/LED,No,No,No,Yes,No,277/480,2500.0,3 Phase,Gas Heaters,No,,Yes,30.00,No,No,,,0,0
+5733,33678,3nj00019,70-A02  ,2025-02-19,0.00,Fluorescent/LED,LED,No,No,No,Yes,No,277/480,2500.0,3 Phase,Gas Heaters,No,,N/A,,No,No,,,1,3
+5733,37914,3nj00019,70E     ,2025-02-19,100.00,Fluorescent/LED,Fluorescent/LED,No,No,No,Yes,No,277/480,2500.0,3 Phase,Packaged Units,Yes,,Yes,50.00,No,No,,,1,0
+5788,36134,3oh00004,100     ,2024-10-07,0.40,Fluorescent/LED,,No,No,No,Yes,No,277/480,4000.0,3 Phase,Gas Heaters,No,0.00,Yes,16.00,No,No,,,,
+5788,36135,3oh00004,200     ,2024-10-07,0.40,Fluorescent/LED,,No,No,No,Yes,No,120/208,800.0,3 Phase,Gas Heaters,No,0.00,Yes,16.00,No,No,,,,
+5788,36136,3oh00004,300     ,2024-10-07,2.40,LED,LED,No,No,Yes,Yes,No,,,3 Phase,Gas Heaters,No,0.00,Yes,2.50,No,No,,,,
+5788,36217,3oh00004,400     ,2024-10-07,0.00,Fluorescent/LED,N/A,No,No,No,Yes,No,120/208,225.0,3 Phase,Gas Heaters,No,0.00,Yes,100.00,No,No,,,,
+5819,39705,3nc00006,1       ,2024-03-07,1.70,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,400.0,3 Phase,Gas Heaters,No,0.00,Yes,2.00,No,No,,,,
+5819,44104,3nc00006,2       ,2024-10-03,6.80,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,7025.0,3 Phase,Gas Heaters,No,,No,33.00,Yes,No,,,,
+5819,44105,3nc00006,3       ,2024-10-03,,Fluorescent,Fluorescent,No,No,No,Yes,No,,800.0,3 Phase,Gas Heaters,No,,No,,No,No,,,,
+5819,44106,3nc00006,4       ,2024-10-03,,Fluorescent,Fluorescent,No,No,No,Yes,No,,800.0,3 Phase,Gas Heaters,No,,No,,No,No,,,,
+6077,39709,3nc00007,E       ,2024-04-02,10.00,Fluorescent,LED,No,No,No,Yes,N/A,277/480,1200.0,3 Phase,Gas Heaters,No,0.00,No,7.00,,No,,,,
+6077,39710,3nc00007,A       ,2024-03-07,14.40,Fluorescent,LED,No,No,No,Yes,No,277/480,2500.0,3 Phase,Gas Heaters,No,0.00,Yes,23.00,No,No,,,,
+6078,39728,3nc00008,100     ,2024-03-07,19.20,LED,Fluorescent,No,No,Yes,No,No,277/480,1200.0,3 Phase,Packaged Units,No,0.00,Yes,40.00,No,No,,,,
+6091,39708,3fl00008,100     ,2024-10-03,,,,Yes,No,No,Yes,No,277/480,3000.0,3 Phase,None,No,10.00,Yes,0.00,Yes,No,,,,
+6092,39711,3fl00009,A       ,2024-10-03,12.56,Fluorescent,,Yes,No,No,Yes,No,120/208,1200.0,3 Phase,None,No,10.00,Yes,,Yes,No,,,,
+6092,39712,3fl00009,B       ,2024-10-03,,,,Yes,No,No,Yes,No,120/208,1200.0,3 Phase,None,No,,Yes,,Yes,No,,,,
+6093,39707,3fl00010,100     ,2024-10-03,15.96,,,Yes,No,No,Yes,No,120/208,800.0,3 Phase,None,No,45.50,Yes,,Yes,No,,,,
+6094,39731,3fl00011,100     ,2024-10-03,8.28,,,N/A,N/A,N/A,Yes,N/A,277/480,1200.0,3 Phase,N/A,N/A,22.50,Yes,0.00,N/A,No,,,0,0
+6142,44845,3md00006,100     ,2025-02-05,5.60,LED,Fluorescent,N/A,N/A,N/A,N/A,N/A,277/480,800.0,3 Phase,Gas/Electrical Heaters,N/A,53.00,Yes,10.00,No,Yes,,"glazing and metal treatment materials, located in seperate space",2,8
+6156,44850,3tx00014,200     ,2024-04-23,21.50,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,400.0,3 Phase,Gas Heaters,Yes,17.50,Yes,12.00,Yes,No,,,1,2
+6156,44852,3tx00014,100     ,2024-04-23,34.64,Fluorescent,Fluorescent,Yes,No,No,Yes,No,120/240,400.0,3 Phase,Gas Heaters,No,10.00,Yes,10.00,Yes,No,,,1,1
+6156,44890,3tx00014,300     ,2024-05-08,34.64,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,400.0,3 Phase,Gas Heaters,Yes,10.00,Yes,10.00,Yes,No,,,1,0
+6161,44855,iga001  ,4600    ,2024-05-14,0.00,Fluorescent,N/A,No,No,No,Yes,No,120/208,800.0,3 Phase,Gas Heaters,No,0.00,N/A,0.00,No,No,,Dead storage building for Wincup currently. No office pod,1,5
+6161,44858,iga001  ,200     ,2024-05-14,0.00,Fluorescent,N/A,No,No,No,Yes,No,120/208,800.0,3 Phase,Gas Heaters,No,0.00,N/A,0.00,No,No,,Dead storage building for Wincup currently. No office pod,1,5
+6161,44904,iga001  ,PARK    ,2024-06-21,0.00,N/A,N/A,N/A,N/A,N/A,N/A,N/A,,0.0,N/A,N/A,N/A,0.00,N/A,0.00,N/A,No,,"Land parcel, parking lot only",0,0
+6161,44905,iga001  ,4680    ,2024-06-21,7.70,Fluorescent/LED,Fluorescent,No,No,No,Yes,No,277/480,13800.0,3 Phase,Gas Heaters,No,60.00,Yes,26.00,Yes,No,,,6,0
+6161,44906,iga001  ,4640    ,2024-06-21,5.87,Fluorescent/LED,Fluorescent,Yes,No,No,Yes,No,277/480,9000.0,3 Phase,Gas Heaters,No,0.00,Yes,15.00,Yes,No,,,2,10
+6163,44859,3tx00015,102     ,2024-05-08,60.97,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,600.0,3 Phase,Gas Heaters,Yes,5.00,Yes,5.00,Yes,No,,,0,1
+6163,44862,3tx00015,124A    ,2024-05-13,38.38,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,600.0,3 Phase,Gas Heaters,Yes,6.00,Yes,6.00,Yes,No,,,1,0
+6163,44863,3tx00015,100     ,2024-05-08,29.38,LED,LED,No,No,No,Yes,No,120/240,600.0,3 Phase,Gas Heaters,No,24.00,Yes,17.50,Yes,No,,,0,1
+6163,44867,3tx00015,100A    ,2024-05-08,60.97,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,600.0,3 Phase,Gas Heaters,Yes,3.00,Yes,12.50,Yes,No,,,0,2
+6163,44869,3tx00015,102A    ,2024-05-08,38.38,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,600.0,3 Phase,Gas Heaters,No,12.50,Yes,10.00,Yes,No,,,1,0
+6163,44870,3tx00015,116     ,2024-05-08,100.00,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,600.0,3 Phase,Gas Heaters,N/A,,Yes,23.00,Yes,No,,,0,0
+6163,44873,3tx00015,114     ,2024-05-08,,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,1200.0,3 Phase,Gas Heaters,No,4.00,Yes,7.00,Yes,No,,,1,0
+6163,44878,3tx00015,116A    ,2024-05-08,41.85,LED,Fluorescent,No,No,No,Yes,No,120/240,600.0,3 Phase,Gas Heaters,Yes,5.00,Yes,13.50,Yes,No,,,1,1
+6163,44881,3tx00015,108A    ,2024-05-08,63.16,LED,LED,No,No,No,Yes,No,120/240,600.0,3 Phase,Gas Heaters,No,2.50,Yes,12.00,Yes,No,,,1,0
+6163,44882,3tx00015,120     ,2024-05-08,100.00,N/A,LED,No,No,No,Yes,No,120/240,600.0,3 Phase,Gas Heaters,N/A,,Yes,9.50,Yes,No,,,1,1
+6163,44884,3tx00015,122A    ,2024-05-13,41.85,LED,Fluorescent,No,No,No,Yes,No,120/240,600.0,3 Phase,Gas Heaters,No,,Yes,2.00,Yes,No,,,1,0
+6163,44885,3tx00015,120A    ,2024-05-13,31.96,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,600.0,3 Phase,Gas Heaters,No,,Yes,4.00,Yes,No,,,1,0
+6163,44853,3tx00015,108     ,2024-05-08,53.58,LED,LED,No,No,No,Yes,No,120/240,600.0,3 Phase,Gas Heaters,No,4.00,Yes,6.00,Yes,No,,,1,0
+6163,44854,3tx00015,124     ,2024-05-13,46.57,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,600.0,3 Phase,Gas Heaters,Yes,12.00,Yes,32.50,Yes,No,,,0,1
+6163,44893,3tx00015,136     ,2024-05-13,50.23,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,600.0,3 Phase,Gas Heaters,Yes,3.00,Yes,13.50,Yes,No,,,0,1
+6163,44894,3tx00015,136W    ,2024-05-13,30.01,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,600.0,3 Phase,Gas Heaters,No,,No,,Yes,No,,,0,0
+6163,44851,3tx00015,122     ,2024-05-13,31.96,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,600.0,3 Phase,Gas Heaters,No,,Yes,4.00,Yes,No,,,1,0
+6163,44847,3tx00015,128     ,2024-05-13,30.01,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,600.0,3 Phase,Gas Heaters,Yes,3.00,Yes,2.00,Yes,No,,,0,1
+6201,44903,iny001  ,100     ,2025-02-03,5.76,LED,LED,No,No,No,Yes,No,"North Side - 120/240
+South Side - 277/480",1600.0,3 Phase,Gas Heaters,Yes,5.00,Yes,4.00,No,No,,,1,3
+6203,44898,inc001  ,1620    ,2024-05-03,2.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,2000.0,3 Phase,Packaged Units,Yes,60.00,Yes,6.00,Programmable,No,,,1,9
+6203,44899,inc001  ,1640    ,2024-05-03,13.00,Fluorescent/LED,Fluorescent,No,No,No,Yes,No,277/480,0.0,3 Phase,Packaged Units,Yes,80.00,Yes,26.00,Yes,No,,,0,6
+6214,44891,3nj00020,A       ,2024-10-01,13.33,Fluorescent/LED,LED,N/A,No,No,Yes,No,120/208,1200.0,N/A,Gas Heaters,Yes,,Yes,,N/A,Yes,blood testing kits/chemicals and agents,"a lot of lab space, needs to be converted when rolls",0,2
+6214,44892,3nj00020,B       ,2024-06-28,7.27,LED,Fluorescent/LED,Yes,No,No,Yes,No,120/208,800.0,Single,Gas Heaters,No,32.50,Yes,5.00,Yes,No,,,1,3
+6216,44895,iga002  ,4616    ,2024-05-14,0.00,,,N/A,N/A,N/A,N/A,N/A,,0.0,N/A,N/A,N/A,0.00,N/A,0.00,N/A,No,,Land parcel only,0,0
+6218,44896,iga003  ,4680    ,2024-05-14,7.70,Fluorescent/LED,Fluorescent,No,No,No,Yes,No,277/480,13800.0,3 Phase,Gas Heaters,No,0.00,Yes,69.50,Yes,No,,,6,0
+6220,44897,iga004  ,4640    ,2024-05-14,5.87,Fluorescent/LED,Fluorescent,Programmable,No,No,Yes,No,277/480,9000.0,3 Phase,Gas Heaters,No,0.00,Yes,15.00,Programmable,No,,,2,10
+6224,44926,3nj00021,ROOF    ,2025-02-07,31.60,LED,LED,Yes,Yes,No,Yes,No,0,0.0,N/A,Gas Heaters,Yes,27.00,Yes,12.50,Yes,N/A,,,2,5
+6270,44917,3ga00006,100     ,2024-07-19,44.00,High-Intensity Discharge,Fluorescent,No,No,No,Yes,No,277/480,800.0,3 Phase,Gas Heaters,No,0.00,Yes,49.50,Yes,No,,,1,5
+6270,44918,3ga00006,120     ,2024-07-19,11.00,High-Intensity Discharge,Fluorescent,No,No,No,Yes,No,277/480,200.0,3 Phase,Gas Heaters,No,0.00,Yes,10.50,Yes,No,,,1,1
+6270,44919,3ga00006,160     ,2024-07-19,12.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,200.0,3 Phase,Gas Heaters,No,0.00,Yes,10.00,Yes,No,,,2,7
+6272,44920,3ga00007,114     ,2024-07-19,29.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,200.0,3 Phase,Gas Heaters,No,0.00,Yes,9.50,Yes,No,,,0,3
+6272,44922,3ga00007,120     ,2024-07-19,37.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,200.0,3 Phase,Gas Heaters,No,0.00,Yes,9.00,Yes,No,,,1,3
+6272,44923,3ga00007,110     ,2024-07-19,20.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,200.0,3 Phase,Gas Heaters,No,0.00,Yes,22.00,Yes,No,,,1,3
+6272,44924,3ga00007,106     ,2024-07-19,24.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,400.0,3 Phase,Gas Heaters,No,0.00,Yes,5.00,Yes,No,,,1,3
+6272,44925,3ga00007,100     ,2024-07-19,61.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,200.0,3 Phase,Gas Heaters,No,0.00,Yes,37.00,Yes,No,,,1,4
+6282,44936,3ny00002,PARK    ,2024-10-08,0.00,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0,0.0,N/A,N/A,N/A,0.00,N/A,0.00,N/A,N/A,,,0,0
+6282,44955,3ny00002,AB      ,2024-11-26,13.70,LED,LED,No,No,No,Yes,No,277/480 Volt Service,2500.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,4,6
+6282,46129,3ny00002,CDEFG   ,2024-11-26,7.90,LED,LED,Yes,No,Yes,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,4,6
+6282,46130,3ny00002,H       ,2024-11-26,31.00,LED,LED,No,No,Yes,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,1,3
+6282,46134,3ny00002,J       ,2024-11-26,70.00,N/A,N/A,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,,No,No,,,0,0
+6561,46126,3oh00006,100     ,2024-11-13,15.79,,,No,No,No,Yes,No,120/208 Volt,450.0,3 Phase,Gas Heaters,No,0.00,Yes,,No,No,,,2,1
+6565,46788,3tn00007,05-12   ,2024-09-17,4.38,N/A,Fluorescent,N/A,No,No,Yes,No,277/480,1000.0,3 Phase,Packaged Units,No,0.00,Yes,54.50,N/A,No,,,2,23
+6565,46950,3tn00007,01-04   ,2024-09-17,6.80,N/A,Fluorescent,N/A,No,No,Yes,No,277/480,1000.0,3 Phase,Packaged Units,No,0.00,Yes,54.50,N/A,No,,,1,7
+6567,46964,3tn00008,1       ,2024-09-17,67.97,N/A,Fluorescent,N/A,No,No,Yes,No,277/480,1000.0,3 Phase,Packaged Units,No,0.00,Yes,98.50,N/A,No,,,2,0
+6567,46968,3tn00008,11      ,2024-09-17,62.96,N/A,Fluorescent,N/A,No,No,Yes,No,277/480,1000.0,3 Phase,Packaged Units,No,0.00,Yes,98.50,N/A,No,,,1,0
+6567,46969,3tn00008,2       ,2024-09-17,41.21,N/A,Fluorescent,N/A,No,No,Yes,No,277/480,1000.0,3 Phase,Packaged Units,No,0.00,Yes,98.50,N/A,No,,,0,1
+6567,46970,3tn00008,3       ,2024-09-17,41.21,N/A,Fluorescent,N/A,No,No,Yes,No,277/480,1000.0,3 Phase,Packaged Units,No,0.00,Yes,98.50,N/A,No,,,1,0
+6567,46791,3tn00008,7       ,2024-09-17,0.00,N/A,Fluorescent,N/A,No,No,Yes,No,277/480,1000.0,3 Phase,Packaged Units,No,0.00,Yes,98.50,N/A,No,,,0,2
+6567,46779,3tn00008,5       ,2024-09-17,20.38,N/A,Fluorescent,N/A,No,No,Yes,No,277/480,1000.0,3 Phase,Packaged Units,No,0.00,Yes,98.50,N/A,No,,,2,0
+6567,46984,3tn00008,9-10    ,2024-09-17,10.69,N/A,Fluorescent,N/A,No,No,Yes,No,277/480,1000.0,3 Phase,Packaged Units,No,0.00,Yes,98.50,N/A,No,,,3,0
+6567,46966,3tn00008,8       ,2024-09-17,27.27,N/A,Fluorescent,N/A,No,No,Yes,No,277/480,1000.0,3 Phase,Packaged Units,No,0.00,Yes,98.50,N/A,No,,,1,1
+6569,46749,3tn00009,1B      ,2024-09-17,0.79,N/A,Fluorescent,N/A,No,No,Yes,No,277/480,1000.0,3 Phase,Packaged Units,No,0.00,Yes,87.00,N/A,No,,,1,10
+6569,46746,3tn00009,1A      ,2024-09-17,11.28,N/A,Fluorescent,N/A,No,No,Yes,No,277/480,1000.0,3 Phase,Packaged Units,No,0.00,Yes,87.00,N/A,No,,,1,5
+6569,46961,3tn00009,2A      ,2024-09-17,0.79,N/A,Fluorescent,N/A,No,No,Yes,No,277/480,1000.0,3 Phase,Packaged Units,No,0.00,Yes,87.00,N/A,No,,,0,7
+6571,46747,3tn00010,100     ,2024-09-17,14.70,LED,Fluorescent,N/A,N/A,No,Yes,No,480/277,1000.0,3 Phase,Packaged Units,No,0.00,Yes,44.50,N/A,No,,,2,18
+6573,46817,3tn00011,100     ,2024-09-13,7.50,LED,LED,N/A,No,No,Yes,No,480/277,3000.0,3 Phase,Packaged Units,No,,Yes,,Yes,No,,,2,9
+6575,46789,3tn00012,100     ,2024-09-13,5.33,LED,LED,N/A,Yes,No,Yes,No,480/277 volt,1200.0,3 Phase,Gas Heaters,Yes,20.00,Yes,10.00,Yes,No,,,0,64
+6577,46972,3tn00013,1       ,2024-09-17,15.30,LED,LED,N/A,N/A,No,N/A,N/A,480/277,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,3.00,N/A,No,,,1,6
+6577,46981,3tn00013,2       ,2024-09-12,16.60,LED,LED,Yes,N/A,No,N/A,No,480/277,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,10.00,N/A,No,,,0,3
+6579,46780,3tn00014,100     ,2024-09-17,4.80,LED,Fluorescent,N/A,N/A,No,N/A,N/A,277/480,800.0,3 Phase,Packaged Units,N/A,0.00,N/A,4.00,N/A,No,,Water intrusion issue in office; ceiling tiles to be replaced,0,18
+6581,46784,3fl00012,22      ,2024-09-06,11.20,LED,LED,Yes,Yes,No,Yes,No,477/480 and 208Y/120-volt,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,25.00,Yes,No,,2 Pit Levelers,1,7
+6581,46790,3fl00012,400     ,2024-09-06,14.70,Fluorescent,LED,Yes,Yes,No,Yes,No,477/480 and 208Y/120-volt,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,31.00,Yes,No,,"17% Cold
+12 Cold Cross Docks
+Ability to punch out 5 docks and they already have dock bumpers.",1,20
+6581,46974,3fl00012,21      ,2024-09-06,2.50,Fluorescent,Fluorescent,Yes,Yes,No,Yes,No,477/480 and 208Y/120-volt,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,3.00,Yes,No,,3 Pit Levelers,2,9
+6581,47781,3fl00012,600     ,2024-09-06,0.00,N/A,N/A,N/A,N/A,No,Yes,No,477/480 and 208Y/120-volt,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,9.00,N/A,No,,Crossdock,0,17
+6584,46965,iga005  ,1       ,2024-09-06,65.00,Fluorescent,Fluorescent/LED,No,No,No,Yes,No,277/480,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,72.00,Programmable,No,,Dance studios make up a portion of the area considered office.,0,2
+6586,46982,3fl00013,2       ,2024-09-06,16.84,N/A,N/A,Yes,Yes,No,Yes,No,477/480 and 208Y/120-volt,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,24.00,Yes,No,,,0,6
+6586,46980,3fl00013,1       ,2024-10-04,4.10,N/A,N/A,Yes,Yes,No,Yes,No,477/480 and 208Y/120-volt,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,14.00,Yes,No,,7 Pit Levelers,0,30
+6588,46975,3fl00014,100-300 ,2024-09-06,9.64,N/A,N/A,Yes,N/A,No,Yes,No,477/480 and 208Y/120-volt,1200.0,3 Phase,Gas Heaters,Yes,0.00,Yes,18.00,Yes,No,,,0,19
+6588,46792,3fl00014,200     ,2024-09-06,3.60,N/A,N/A,Yes,N/A,No,Yes,No,477/480 and 208Y/120-volt,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,26.00,Yes,No,,,6,14
+6592,47780,3fl00015,1       ,2024-08-30,3.70,N/A,N/A,N/A,N/A,No,Yes,No,477/480 and 208Y/120-volt,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,16.50,N/A,No,,,41,1
+6593,46977,3tn00015,1       ,2024-09-13,16.98,Fluorescent/HID,Fluorescent/LED,N/A,Yes,No,Yes,No,277/480-volt,2000.0,3 Phase,Packaged Units,N/A,5.00,Yes,4.00,N/A,No,,,0,4
+6594,46978,3tn00016,9       ,2024-09-12,36.50,N/A,N/A,N/A,No,No,N/A,No,277/480,400.0,3 Phase,Gas Heaters,No,,Yes,4.00,N/A,No,,,,5
+6594,46834,3tn00016,12      ,2024-09-12,33.74,N/A,N/A,N/A,No,No,N/A,N/A,277/480,400.0,3 Phase,Gas Heaters,No,,Yes,4.00,N/A,No,,,0,4
+6594,46835,3tn00016,6       ,2024-09-12,46.76,N/A,N/A,N/A,No,No,N/A,No,277/480,400.0,3 Phase,Gas Heaters,No,,Yes,4.00,N/A,No,,,,2
+6594,46839,3tn00016,5       ,2024-09-12,32.69,N/A,N/A,N/A,No,No,N/A,No,277/480,400.0,3 Phase,Gas Heaters,No,,Yes,4.00,N/A,No,,,,2
+6594,46830,3tn00016,3-4     ,2024-09-12,29.05,N/A,N/A,N/A,No,No,N/A,No,277/480,400.0,3 Phase,Gas Heaters,No,,Yes,4.00,N/A,No,,,,6
+6594,46831,3tn00016,1       ,2024-09-17,0.00,N/A,N/A,N/A,No,No,N/A,No,277/480,400.0,3 Phase,Gas Heaters,No,0.00,Yes,4.00,N/A,No,,,0,2
+6594,46832,3tn00016,11      ,2024-09-12,32.69,N/A,N/A,N/A,No,No,N/A,No,277/480,400.0,3 Phase,Gas Heaters,No,,Yes,4.00,N/A,No,,,,2
+6594,46983,3tn00016,8       ,2024-09-12,36.50,N/A,N/A,N/A,No,No,N/A,No,277/480,400.0,3 Phase,Gas Heaters,No,,Yes,4.00,N/A,No,,,2,5
+6594,46967,3tn00016,2       ,2024-09-12,14.85,N/A,N/A,N/A,No,No,N/A,No,277/480,400.0,3 Phase,Gas Heaters,No,,Yes,4.00,N/A,No,,,1,4
+6595,46833,3tn00017,2A      ,2024-09-12,25.16,N/A,N/A,N/A,No,No,N/A,No,277/480,400.0,3 Phase,Gas Heaters,No,,Yes,4.00,N/A,No,,,0,2
+6595,46847,3tn00017,2       ,2024-09-12,26.70,N/A,N/A,Yes,No,No,N/A,No,277/480,400.0,3 Phase,Gas Heaters,No,,Yes,4.00,Yes,N/A,,,1,2
+6596,48373,3tn00018,100     ,2024-09-13,5.27,Fluorescent/LED,Fluorescent/LED,N/A,Yes,No,Yes,No,277/480,2000.0,3 Phase,Packaged Units,N/A,,Yes,4.00,Yes,No,,,2,15
+6607,48376,3il00008,1066-68 ,2024-11-13,30.43,Fluorescent/LED,Fluorescent/LED,No,No,No,Yes,No,600,400.0,3 Phase,Packaged Units,No,,Yes,,No,No,,,2,2
+6607,48378,3il00008,1072    ,2024-11-13,61.84,Fluorescent/LED,Fluorescent/LED,No,No,No,Yes,No,600,400.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,1,1
+6607,48380,3il00008,1062    ,2024-11-13,37.56,Fluorescent/LED,Fluorescent/LED,No,No,No,Yes,No,600,800.0,3 Phase,Packaged Units,No,,Yes,,No,No,,,1,2
+6607,48381,3il00008,1060    ,2024-11-13,43.48,Fluorescent/LED,Fluorescent/LED,No,No,No,Yes,No,600,400.0,3 Phase,Packaged Units,No,,Yes,,No,No,,,1,1
+6607,48401,3il00008,1064    ,2024-11-13,70.19,Fluorescent/LED,Fluorescent/LED,No,No,No,Yes,No,600,400.0,3 Phase,Packaged Units,No,,Yes,,No,No,,,1,1
+6607,48402,3il00008,1070    ,2024-11-13,33.98,Fluorescent/LED,Fluorescent/LED,No,No,No,Yes,No,600,400.0,3 Phase,Packaged Units,No,,Yes,,No,No,,,1,1
+6612,48408,inj001  ,100     ,2025-02-07,39.22,Fluorescent,Fluorescent,No,No,No,Yes,No,120/308,1600.0,3 Phase,Gas Heaters,Yes,85.00,Yes,9.00,No,No,,,1,2
+6614,48410,3ga00009,1       ,2024-09-27,8.00,Fluorescent,Fluorescent,No,No,No,Yes,No,120/208,1000.0,3 Phase,Gas Heaters,No,0.00,Yes,41.00,Programmable,No,,,3,17
+6615,48409,3ga00008,1       ,2024-09-27,3.00,LED,LED,No,No,No,Yes,N/A,277/480,2000.0,3 Phase,Gas Heaters,Yes,160.00,Yes,5.00,Yes,No,,,2,11
+6625,49747,3ga00010,1       ,2024-09-27,18.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,20.00,Programmable,No,,,1,4
+6627,49631,3ny00003,100     ,2025-02-05,74.79,LED,LED,No,No,No,Yes,No,277/480,2500.0,3 Phase,Gas Heaters,Yes,220.00,Yes,3.50,No,No,,,0,4
+6653,49751,iny002  ,100     ,2025-02-05,18.13,LED,LED,No,N/A,No,Yes,No,277/480 Volts,1600.0,3 Phase,Gas Heaters,Yes,92.50,Yes,5.00,No,No,,,0,3
+6655,49657,3md00007,100     ,2025-02-05,10.50,LED,Fluorescent,No,No,No,Yes,No,277/480,1800.0,3 Phase,Gas Heaters,No,,Yes,19.50,No,No,,,7,1
+6662,49755,3ga00011,100     ,2024-11-04,6.50,Fluorescent,Fluorescent,No,No,No,Yes,No,120/208,4200.0,3 Phase,Gas Heaters,No,0.00,Yes,12.50,No,No,,,5,3
+6670,49756,3nj00024,100     ,2025-02-07,31.70,Fluorescent,Fluorescent,No,No,No,Yes,No,,,3 Phase,Gas Heaters,Yes,10.00,Yes,2.00,No,No,,,1,0
+6670,50377,3nj00024,200     ,2025-02-07,38.00,Fluorescent,Fluorescent,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,5.00,Yes,3.00,No,No,,,0,0
+6670,50378,3nj00024,300     ,2025-02-07,0.00,Fluorescent,Fluorescent,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,10.00,Yes,3.00,No,No,,,0,2
+6993,51919,3fl00019,1       ,2024-12-03,37.17,LED,LED,N/A,N/A,N/A,Yes,No,120,400.0,3 Phase,Other,Yes,3.00,Yes,3.00,N/A,No,,"-Warehouse heating system type: ""Direct expansion HVAC split systems""
+-Assuming 3-Phase",0,0
+6993,51920,3fl00019,100     ,2024-12-03,15.13,LED,LED,N/A,N/A,N/A,Yes,No,120,800.0,3 Phase,Packaged Units,No,0.00,Yes,35.00,N/A,No,,-Assuming 3-Phase,1,2
+6993,51921,3fl00019,2-3     ,2024-12-03,0.00,LED,N/A,N/A,N/A,N/A,Yes,No,120,400.0,3 Phase,Other,Yes,7.50,N/A,,N/A,No,,"-Warehouse heating system type: ""Direct expansion HVAC split systems""
+-Assuming 3-Phase",3,0
+7020,54258,3nj00025,100     ,2024-11-25,26.00,LED,Fluorescent,N/A,No,No,No,No,120/208 V,400.0,3 Phase,Gas Heaters,No,8.00,Yes,3.00,Yes,No,,,1,2
+7020,54259,3nj00025,200     ,2024-11-25,12.00,LED,Fluorescent,N/A,No,No,No,No,120/208 V,40.0,3 Phase,Gas Heaters,Yes,8.00,Yes,3.00,Yes,No,,,1,1
+7022,54261,xfl6704n,6706    ,2024-12-04,7.10,LED,LED,N/A,N/A,N/A,Yes,No,120/208,600.0,3 Phase,Other,No,0.00,Yes,,N/A,No,,"Electrical capacity: 400-600amp & assuming 3 phase
+Warehouse heating: Direct exp. HVAC split systems",1,3
+7022,54262,xfl6704n,6710    ,2024-12-04,16.16,LED,LED,N/A,N/A,N/A,Yes,No,120/208,600.0,3 Phase,Other,No,0.00,Yes,5.00,N/A,No,,"Electrical capacity: 400-600amp & assuming 3 phase
+Warehouse heating: Direct exp. HVAC split systems",0,3
+7022,54988,xfl6704n,6708    ,2024-12-04,11.58,LED,LED,N/A,N/A,N/A,Yes,No,120/208,600.0,3 Phase,Other,No,0.00,Yes,3.00,N/A,No,,"Electrical capacity: 400-600amp & assuming 3 phase
+Warehouse heating: Direct exp. HVAC split systems",0,3
+7022,54989,xfl6704n,6704    ,2024-12-04,22.66,LED,LED,N/A,N/A,N/A,Yes,N/A,120/208,600.0,3 Phase,Other,No,0.00,Yes,,N/A,No,,"Electrical capacity: 400-600amp & assuming 3 phase
+Warehouse heating: Direct exp. HVAC split systems",1,2
+7022,54990,xfl6704n,6712    ,2024-12-04,6.53,LED,LED,N/A,N/A,N/A,Yes,No,120/208,600.0,3 Phase,Other,No,0.00,Yes,5.00,N/A,No,,"Electrical capacity: 400-600amp & assuming 3 phase
+Warehouse heating: Direct exp. HVAC split systems",2,2
+7025,55371,3nj00026,200     ,2024-12-15,8.00,LED,LED,Yes,No,No,No,No,120/208,1200.0,3 Phase,Gas Heaters,Yes,90.00,Yes,23.00,Yes,No,,,0,2
+7025,55382,3nj00026,100     ,2024-12-15,21.00,LED,LED,No,No,No,No,No,120/208,1200.0,3 Phase,Gas Heaters,Yes,90.00,Yes,23.00,Yes,No,,,2,1
+7040,56840,3pa00003,100     ,2025-02-05,17.21,Fluorescent,Fluorescent,No,No,No,Yes,No,120/240,200.0,Single,Gas Heaters,No,0.00,Yes,20.00,No,No,,N/A,1,5
+7364,58287,3nj00027,A       ,2025-02-07,6.46,LED,Fluorescent,No,Yes,No,Yes,No,120/240,200.0,Single,Gas Heaters,Yes,0.00,Yes,3.00,No,No,N/A,N/A,1,2
+7364,58295,3nj00027,B       ,2025-02-07,7.50,LED,LED,Yes,Yes,No,Yes,No,120/240,200.0,3 Phase,Gas Heaters,No,,Yes,2.50,No,No,N/A,N/A,0,1
+7364,58296,3nj00027,C       ,2025-02-07,12.41,LED,LED,Yes,Yes,No,Yes,No,120/240,200.0,3 Phase,Gas Heaters,No,0.00,Yes,2.50,No,No,N/A,N/A,1,2
+7364,58297,3nj00027,D       ,2025-02-07,28.36,LED,Fluorescent,Yes,Yes,No,Yes,No,120/240,200.0,3 Phase,Gas Heaters,No,0.00,Yes,2.50,No,No,N/A,N/A,0,2
+7695,60375,3il00014,100     ,2025-01-30,,,,No,No,No,Yes,No,480,1200.0,3 Phase,Gas Heaters,No,,Yes,,No,No,,,1,7
+7706,60773,3nj00028,7       ,2025-02-05,39.00,Fluorescent/LED,Fluorescent,No,No,No,Yes,No,120/208,400.0,Single,Gas Heaters,No,7.00,Yes,5.00,No,No,,,0,1
+7706,60774,3nj00028,1-4     ,2025-02-05,100.00,N/A,LED,No,No,No,Yes,No,120/208,800.0,3 Phase,N/A,Yes,0.00,Yes,62.00,No,No,,medical lab,0,1
+7706,60775,3nj00028,8-9     ,2025-02-05,100.00,N/A,Fluorescent/LED,No,No,No,Yes,No,120/208,200.0,Single,N/A,No,0.00,Yes,25.00,No,No,,,,1
+7706,61967,3nj00028,5-6     ,2025-05-09,20.00,Fluorescent/LED,Fluorescent,No,No,Yes,Yes,No,120/208,400.0,Single,Gas Heaters,No,13.00,Yes,0.00,No,No,,,0,2
+7715,61529,3ca00001,635     ,2025-03-04,21.60,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480V,400.0,3 Phase,Gas Heaters,No,,Yes,5.00,No,No,,,0,2
+7715,61530,3ca00001,605-615 ,2025-03-04,35.00,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480V,400.0,3 Phase,Gas Heaters,Yes,,Yes,,Yes,No,,,0,1
+7715,61531,3ca00001,655     ,2025-03-04,20.60,Fluorescent,Fluorescent,No,No,No,Yes,No,277/480V,400.0,3 Phase,Gas Heaters,No,,Yes,3.00,No,No,,,0,1
+7715,61532,3ca00001,615     ,2025-03-04,23.60,High-Intensity Discharge,Fluorescent,No,No,No,Yes,No,277/480V,400.0,3 Phase,Gas Heaters,No,,Yes,8.00,No,No,,,0,2
+7722,61944,iga006  ,100     ,2025-03-21,8.00,Fluorescent/LED,Fluorescent/LED,No,Yes,No,Yes,No,277/480,2000.0,3 Phase,Gas Heaters,No,0.00,Yes,70.00,Yes,No,,,1,8
+7739,62519,3fl00020,400     ,2025-03-26,21.87,LED,LED,N/A,N/A,No,Yes,No,120/208-volt power,400.0,N/A,Packaged Units,Yes,15.00,Yes,8.00,N/A,No,,Need to confirm HVAC tonnage on WH and Office. Total tonnage is 23.,0,1
+7739,62619,3fl00020,100     ,2025-03-31,29.15,Fluorescent/LED,Fluorescent/LED,N/A,N/A,No,Yes,No,120/208-volt power,400.0,N/A,Packaged Units,No,0.00,Yes,12.00,N/A,No,,,1,1
+7739,62620,3fl00020,300     ,2025-03-26,23.92,LED,LED,N/A,N/A,No,Yes,No,120/208 volt-power,400.0,N/A,Packaged Units,Yes,15.00,Yes,5.00,N/A,No,,Need to confirm HVAC tonnage for WH and Office. Total tonnage is 20.,0,1
+7756,62823,3ca00002,A-C     ,2025-04-02,56.56,LED,LED,No,Yes,No,Yes,No,120/208-volt,200.0,3 Phase,N/A,No,0.00,Yes,12.00,No,No,,,3,3
+7756,62824,3ca00002,E       ,2025-03-28,27.81,LED,LED,No,Yes,No,Yes,No,120/208-volt,200.0,3 Phase,Gas Heaters,No,,Yes,6.00,No,No,,,1,1
+7756,62825,3ca00002,D       ,2025-03-28,30.31,LED,LED,No,Yes,No,Yes,No,120/208-volt,200.0,3 Phase,Gas Heaters,No,,Yes,6.00,No,No,,,1,1
+7758,62827,3ny00004,1       ,2025-03-29,29.00,N/A,N/A,No,No,No,Yes,No,277/480,2000.0,3 Phase,Gas Heaters,Yes,15.00,Yes,44.00,No,No,,,1,1
+7760,62845,3ca00003,B       ,2025-03-31,13.00,LED,LED,No,Yes,No,Yes,No,120/208 volts,200.0,3 Phase,N/A,No,,Yes,3.00,No,No,,,1,1
+7760,62846,3ca00003,E       ,2025-03-31,13.00,LED,LED,No,Yes,No,Yes,No,120/208 volts,200.0,3 Phase,N/A,No,,Yes,3.00,No,No,,,1,1
+7760,62847,3ca00003,A       ,2025-03-31,13.00,LED,LED,No,Yes,No,Yes,No,120/208 volts,200.0,3 Phase,N/A,No,,Yes,9.00,No,No,,,1,1
+7760,62848,3ca00003,D       ,2025-03-31,13.00,LED,LED,No,Yes,No,Yes,No,120/208 volts,200.0,3 Phase,N/A,No,,Yes,3.00,No,No,,,1,1
+7760,62849,3ca00003,F       ,2025-03-31,13.00,LED,LED,No,Yes,No,Yes,No,120/280 volt,200.0,3 Phase,N/A,No,,Yes,3.00,No,No,,,1,1
+7760,62869,3ca00003,C       ,2025-04-03,13.00,LED,LED,No,Yes,No,Yes,No,120-208 volt,200.0,3 Phase,N/A,No,0.00,Yes,3.00,No,No,,,1,1
+7762,62850,3ca00004,105     ,2025-04-04,25.69,LED,LED,No,Yes,No,Yes,No,120/208volt,200.0,3 Phase,N/A,No,,Yes,3.00,No,No,,,1,0
+7762,62852,3ca00004,104     ,2025-04-04,19.36,LED,LED,No,Yes,No,Yes,No,120/208volt,200.0,3 Phase,N/A,No,,Yes,13.00,No,No,,,1,0
+7762,62857,3ca00004,102-103 ,2025-04-04,12.65,LED,LED,No,Yes,No,Yes,No,120/208 volts,200.0,3 Phase,N/A,No,,Yes,30.00,No,No,,,2,0
+7764,62858,3ca00005,101     ,2025-04-04,10.69,LED,LED,No,Yes,No,Yes,No,120/208volt,200.0,3 Phase,N/A,No,,Yes,3.00,No,No,,,1,2
+7764,62859,3ca00005,107-108 ,2025-04-04,13.74,LED,LED,No,Yes,No,Yes,No,120/208volt,400.0,3 Phase,N/A,No,,Yes,6.00,No,No,,,2,4
+7764,62868,3ca00005,119     ,2025-04-04,10.73,LED,LED,No,Yes,No,Yes,No,120/208volt,200.0,3 Phase,N/A,No,,Yes,3.00,No,No,,,1,2
+7764,62853,3ca00005,102     ,2025-04-04,10.72,LED,LED,No,Yes,No,Yes,No,120/208volt,200.0,3 Phase,N/A,No,,Yes,3.00,No,No,,,1,2
+7764,62854,3ca00005,111     ,2025-04-04,10.96,LED,LED,No,No,No,Yes,No,,,3 Phase,Gas Heaters,No,,Yes,3.00,No,No,,,1,2
+7764,62855,3ca00005,116     ,2025-04-04,10.78,LED,LED,No,Yes,No,Yes,No,120/208volts,200.0,3 Phase,N/A,No,,Yes,6.00,No,No,,,1,2
+7764,62856,3ca00005,114     ,2025-04-04,10.72,LED,LED,No,Yes,No,Yes,No,120/208volts,200.0,3 Phase,N/A,No,,Yes,3.00,No,No,,,1,2
+7764,62870,3ca00005,113     ,2025-04-04,10.53,LED,LED,No,Yes,No,Yes,No,120/208volts,200.0,3 Phase,N/A,No,,Yes,3.00,No,No,,,1,2
+7764,62871,3ca00005,117     ,2025-04-04,17.98,LED,LED,No,Yes,No,Yes,No,120/208volts,200.0,3 Phase,N/A,No,,Yes,3.00,No,No,,,1,
+7764,62872,3ca00005,109     ,2025-04-04,10.85,LED,LED,No,Yes,No,Yes,No,120/208volt,200.0,3 Phase,N/A,No,,Yes,8.00,No,No,,,1,2
+7764,62873,3ca00005,104     ,2025-04-04,10.81,LED,LED,No,Yes,No,Yes,No,120/208volt,200.0,3 Phase,N/A,No,,Yes,3.00,No,No,,,1,2
+7764,62874,3ca00005,103     ,2025-04-04,10.85,LED,LED,No,Yes,No,Yes,No,120/208volt,200.0,3 Phase,N/A,No,0.00,Yes,3.00,No,No,,,1,2
+7764,62875,3ca00005,110     ,2025-04-04,15.10,LED,LED,No,Yes,No,Yes,No,120/208volt,200.0,3 Phase,N/A,No,,Yes,3.00,No,No,,,1,2
+7764,62876,3ca00005,105-106 ,2025-04-04,10.67,LED,LED,No,Yes,No,Yes,No,120/208volt,400.0,3 Phase,N/A,No,,Yes,6.00,No,No,,,2,4
+7764,62877,3ca00005,115     ,2025-04-04,10.87,LED,LED,No,Yes,No,Yes,No,120/208volts,200.0,3 Phase,N/A,No,,Yes,3.00,No,No,,,1,2
+7764,62878,3ca00005,118     ,2025-04-04,10.69,LED,LED,No,Yes,No,Yes,No,120/208volts,200.0,3 Phase,N/A,No,,Yes,3.00,No,No,,,1,2
+7764,62963,3ca00005,112     ,2025-04-07,10.81,LED,LED,No,Yes,No,Yes,No,120/208 volts,200.0,3 Phase,N/A,No,,Yes,3.00,No,No,,,1,2
+7799,63867,3ga00012,100     ,2025-05-13,45.00,LED,Fluorescent/LED,No,No,No,Yes,No,120/208,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,67.00,No,No,,,2,3
+7801,63868,3ga00013,100     ,2025-05-13,15.00,Fluorescent/LED,Fluorescent/LED,No,No,No,Yes,No,277/480,6000.0,3 Phase,Gas Heaters,Yes,36.50,Yes,21.00,No,No,,,2,12
+7803,63869,3ga00014,100     ,2025-05-13,25.00,Fluorescent,Fluorescent,No,No,No,Yes,No,120/208,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,35.00,No,No,,,0,3
+7805,63924,3fl00021,100     ,2025-05-27,44.86,LED,LED,N/A,N/A,No,Yes,No,277/480-volt power,1200.0,N/A,Packaged Units,Yes,68.75,Yes,68.75,N/A,No,,Warehouse HVAC and Office HVAC tonnage estimated. Total between both is approximately 137.5 tons.,2,4
+7850,64124,3nj00030,100     ,2025-06-11,0.00,Fluorescent,Fluorescent,No,Yes,No,Yes,No,277/480,400.0,3 Phase,Gas Heaters,Yes,40.00,Yes,5.00,No,No,,,,
+7850,64125,3nj00030,300     ,2025-07-31,16.00,Fluorescent/LED,Fluorescent/LED,No,No,No,Yes,No,600,400.0,3 Phase,Gas Heaters,No,0.00,Yes,15.00,No,No,,,0,4
+7850,64126,3nj00030,200     ,2025-07-31,16.00,Fluorescent/LED,Fluorescent/LED,No,No,No,Yes,No,600,400.0,3 Phase,Gas Heaters,No,,Yes,15.00,No,No,,,0,4
+7850,64127,3nj00030,500     ,2025-07-31,10.77,Fluorescent/LED,Fluorescent,No,No,No,Yes,No,600,400.0,3 Phase,Gas Heaters,No,0.00,Yes,5.00,No,No,,,1,2
+7850,64131,3nj00030,400     ,2025-07-31,17.00,Fluorescent,Fluorescent,No,No,No,Yes,No,120/208,400.0,3 Phase,Gas Heaters,Yes,97.50,Yes,0.00,No,No,,,0,0
+7853,64149,3nj00031,1       ,2025-06-22,11.38,Fluorescent,Fluorescent,No,Yes,No,Yes,No,480/277,1600.0,3 Phase,Gas Heaters,Yes,20.00,Yes,10.00,No,No,,,0,4
+7855,64132,3nj00032,1       ,2025-06-22,71.48,Fluorescent,Fluorescent/LED,No,Yes,No,Yes,No,480/277,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,106.50,No,No,,,0,2
+7855,64133,3nj00032,220A    ,2025-06-22,24.91,Fluorescent/LED,Fluorescent/LED,No,Yes,No,Yes,No,480/277,800.0,3 Phase,Gas Heaters,No,0.00,Yes,67.00,No,No,,,1,2
+7855,64134,3nj00032,200     ,2025-06-22,6.00,Fluorescent/LED,Fluorescent,No,No,No,Yes,No,480/277,800.0,3 Phase,Gas Heaters,No,0.00,Yes,20.00,No,No,,,1,3
+7855,64135,3nj00032,205     ,2025-06-22,26.00,Fluorescent/LED,Fluorescent,No,No,No,Yes,No,480/277,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,79.00,No,No,,,0,2
+7855,64136,3nj00032,210     ,2025-06-22,26.00,Fluorescent/LED,Fluorescent,No,No,No,Yes,No,480/277,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,79.00,No,No,,,0,2
+7857,64137,3nj00033,300-3   ,2025-06-22,39.53,Fluorescent/LED,Fluorescent,No,No,No,Yes,No,480/277,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,16.00,No,No,,,0,2
+7857,64138,3nj00033,300-3A  ,2025-06-22,39.25,Fluorescent/LED,Fluorescent,No,No,No,Yes,No,480/277,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,16.00,No,No,,,0,2
+7857,64139,3nj00033,300-1   ,2025-06-22,42.28,Fluorescent/LED,Fluorescent,No,No,No,Yes,No,480/277,800.0,3 Phase,Gas Heaters,No,0.00,Yes,34.00,No,No,,,0,2
+7859,64140,3nj00034,400-C   ,2025-06-22,50.50,Fluorescent/LED,Fluorescent,No,No,No,Yes,No,480/277,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,33.50,No,No,,,0,7
+7859,64141,3nj00034,400-A   ,2025-06-22,4.40,Fluorescent/LED,Fluorescent,No,No,No,Yes,No,480/277,1600.0,3 Phase,Gas Heaters,No,0.00,Yes,5.00,No,No,,,1,4
+7859,64142,3nj00034,400-A1  ,2025-06-22,4.40,Fluorescent/LED,Fluorescent,No,No,No,Yes,No,480/277,1600.0,3 Phase,Gas Heaters,No,0.00,Yes,5.00,No,No,,,1,4
+7859,64143,3nj00034,400B    ,2025-06-22,12.60,Fluorescent/LED,Fluorescent,No,No,No,Yes,No,480/277,1200.0,3 Phase,Gas Heaters,No,0.00,Yes,7.50,No,No,,,0,4
+7894,64328,4tx00001,100     ,2025-07-01,8.74,LED,Fluorescent/LED,No,No,No,Yes,No,277/480,9600.0,3 Phase,Gas Heaters,Yes,189.00,Yes,18.00,Yes,No,,,5,4
