@@ -1,0 +1,860 @@
+{
+  "overall_status": "FAIL",
+  "overall_accuracy": 66.27061194433355,
+  "target_accuracy": 95.0,
+  "critical_issues_resolved": 0,
+  "tests": [
+    {
+      "test_id": "AMN_SEL_001",
+      "test_name": "Latest Amendment Selection Logic",
+      "category": "Amendment Selection",
+      "target_accuracy": 90.0,
+      "actual_accuracy": 51.798561151079134,
+      "variance_amount": 201,
+      "variance_pct": 48.201438848920866,
+      "status": "FAIL",
+      "critical_issues": [
+        "High missing charges rate: 201 of 417 (48.2%)",
+        "Amendment selection accuracy 51.8% below 90% target"
+      ],
+      "recommendations": [
+        "Implement 'latest amendment WITH charges' logic in all DAX measures",
+        "Prioritize amendments that have corresponding charge schedules",
+        "Address 201 missing charge schedules for active amendments",
+        "Review charge schedule extraction completeness",
+        "Critical: Amendment selection logic needs major revision"
+      ],
+      "detailed_metrics": {
+        "total_combinations": 417,
+        "correct_selections": 216,
+        "missing_charges_count": 201,
+        "selection_accuracy": 51.798561151079134,
+        "sample_selections": [
+          {
+            "property_hmy": "1372",
+            "tenant_hmy": "1347",
+            "latest_sequence": "1",
+            "latest_status": "Activated",
+            "has_charges": false,
+            "amendment_hmy": "7904"
+          },
+          {
+            "property_hmy": "1372",
+            "tenant_hmy": "1349",
+            "latest_sequence": "1",
+            "latest_status": "Activated",
+            "has_charges": false,
+            "amendment_hmy": "7905"
+          },
+          {
+            "property_hmy": "1372",
+            "tenant_hmy": "1350",
+            "latest_sequence": "0",
+            "latest_status": "Activated",
+            "has_charges": false,
+            "amendment_hmy": "480"
+          },
+          {
+            "property_hmy": "1372",
+            "tenant_hmy": "1351",
+            "latest_sequence": "0",
+            "latest_status": "Activated",
+            "has_charges": false,
+            "amendment_hmy": "481"
+          },
+          {
+            "property_hmy": "1372",
+            "tenant_hmy": "1352",
+            "latest_sequence": "2",
+            "latest_status": "Activated",
+            "has_charges": true,
+            "amendment_hmy": "40730"
+          },
+          {
+            "property_hmy": "1372",
+            "tenant_hmy": "1405",
+            "latest_sequence": "0",
+            "latest_status": "Activated",
+            "has_charges": false,
+            "amendment_hmy": "511"
+          },
+          {
+            "property_hmy": "1372",
+            "tenant_hmy": "4918",
+            "latest_sequence": "1",
+            "latest_status": "Activated",
+            "has_charges": false,
+            "amendment_hmy": "29098"
+          },
+          {
+            "property_hmy": "1372",
+            "tenant_hmy": "5499",
+            "latest_sequence": "3",
+            "latest_status": "Activated",
+            "has_charges": true,
+            "amendment_hmy": "81504"
+          },
+          {
+            "property_hmy": "1372",
+            "tenant_hmy": "22488",
+            "latest_sequence": "0",
+            "latest_status": "Activated",
+            "has_charges": true,
+            "amendment_hmy": "26975"
+          },
+          {
+            "property_hmy": "1372",
+            "tenant_hmy": "36871",
+            "latest_sequence": "1",
+            "latest_status": "Activated",
+            "has_charges": true,
+            "amendment_hmy": "47222"
+          },
+          {
+            "property_hmy": "1378",
+            "tenant_hmy": "1276",
+            "latest_sequence": "2",
+            "latest_status": "Activated",
+            "has_charges": false,
+            "amendment_hmy": "61299"
+          },
+          {
+            "property_hmy": "1379",
+            "tenant_hmy": "1407",
+            "latest_sequence": "0",
+            "latest_status": "Activated",
+            "has_charges": true,
+            "amendment_hmy": "512"
+          },
+          {
+            "property_hmy": "1383",
+            "tenant_hmy": "1306",
+            "latest_sequence": "3",
+            "latest_status": "Activated",
+            "has_charges": true,
+            "amendment_hmy": "99113"
+          },
+          {
+            "property_hmy": "1383",
+            "tenant_hmy": "2256",
+            "latest_sequence": "1",
+            "latest_status": "Activated",
+            "has_charges": false,
+            "amendment_hmy": "64257"
+          },
+          {
+            "property_hmy": "1383",
+            "tenant_hmy": "3865",
+            "latest_sequence": "2",
+            "latest_status": "Activated",
+            "has_charges": false,
+            "amendment_hmy": "7020"
+          },
+          {
+            "property_hmy": "1383",
+            "tenant_hmy": "6639",
+            "latest_sequence": "0",
+            "latest_status": "Activated",
+            "has_charges": true,
+            "amendment_hmy": "6768"
+          },
+          {
+            "property_hmy": "1383",
+            "tenant_hmy": "36913",
+            "latest_sequence": "2",
+            "latest_status": "Activated",
+            "has_charges": false,
+            "amendment_hmy": "113315"
+          },
+          {
+            "property_hmy": "1383",
+            "tenant_hmy": "41989",
+            "latest_sequence": "1",
+            "latest_status": "Activated",
+            "has_charges": true,
+            "amendment_hmy": "68586"
+          },
+          {
+            "property_hmy": "1387",
+            "tenant_hmy": "1398",
+            "latest_sequence": "1",
+            "latest_status": "Activated",
+            "has_charges": false,
+            "amendment_hmy": "102807"
+          },
+          {
+            "property_hmy": "1387",
+            "tenant_hmy": "1399",
+            "latest_sequence": "2",
+            "latest_status": "Activated",
+            "has_charges": false,
+            "amendment_hmy": "70271"
+          }
+        ]
+      },
+      "execution_time": 0.022069,
+      "timestamp": "2025-08-09T03:56:39.316030"
+    },
+    {
+      "test_id": "AMN_CHG_001",
+      "test_name": "Amendment WITH Charges Logic",
+      "category": "Amendment Selection",
+      "target_accuracy": 98.0,
+      "actual_accuracy": 58.033573141486805,
+      "variance_amount": "175",
+      "variance_pct": 41.966426858513195,
+      "status": "FAIL",
+      "critical_issues": [
+        "Charge integration 58.0% below 98% target (missing 40.0%)"
+      ],
+      "recommendations": [
+        "Improve charge schedule integration to reach 98%+ target",
+        "Investigate missing charge schedules for active amendments",
+        "Critical: Charge integration rate below acceptable threshold",
+        "Review data extraction and ETL processes",
+        "Major data quality issue - immediate attention required"
+      ],
+      "detailed_metrics": {
+        "total_active_amendments": 876,
+        "amendments_with_charges_count": 244,
+        "total_combinations": "417",
+        "combinations_with_charges": "242",
+        "charge_integration_rate": 58.033573141486805,
+        "total_rent_with_charges": 6979073.378899001,
+        "missing_integrations": "175"
+      },
+      "execution_time": 0.006252,
+      "timestamp": "2025-08-09T03:56:39.338264"
+    },
+    {
+      "test_id": "SEQ_PRI_001",
+      "test_name": "Sequence Priority Logic (Activated vs Superseded)",
+      "category": "Amendment Selection",
+      "target_accuracy": 95.0,
+      "actual_accuracy": 36.9098712446352,
+      "variance_amount": 147,
+      "variance_pct": 63.0901287553648,
+      "status": "FAIL",
+      "critical_issues": [
+        "Priority logic accuracy 36.9% below 95% target"
+      ],
+      "recommendations": [
+        "Implement Activated > Superseded priority when both have charges",
+        "Exclude amendments without charges from priority consideration",
+        "Test priority logic with edge cases"
+      ],
+      "detailed_metrics": {
+        "priority_test_cases": 233,
+        "correct_priority_selections": 86,
+        "priority_accuracy": 36.9098712446352,
+        "priority_details": [
+          {
+            "property_hmy": "1372",
+            "tenant_hmy": "1347",
+            "statuses_available": [
+              "Superseded",
+              "Activated"
+            ],
+            "statuses_with_charges": [],
+            "priority_selection": null
+          },
+          {
+            "property_hmy": "1372",
+            "tenant_hmy": "1349",
+            "statuses_available": [
+              "Superseded",
+              "Activated"
+            ],
+            "statuses_with_charges": [],
+            "priority_selection": null
+          },
+          {
+            "property_hmy": "1372",
+            "tenant_hmy": "1352",
+            "statuses_available": [
+              "Superseded",
+              "Superseded",
+              "Activated"
+            ],
+            "statuses_with_charges": [
+              "Activated"
+            ],
+            "priority_selection": "Activated"
+          },
+          {
+            "property_hmy": "1372",
+            "tenant_hmy": "4918",
+            "statuses_available": [
+              "Superseded",
+              "Activated"
+            ],
+            "statuses_with_charges": [],
+            "priority_selection": null
+          },
+          {
+            "property_hmy": "1372",
+            "tenant_hmy": "5499",
+            "statuses_available": [
+              "Superseded",
+              "Superseded",
+              "Activated",
+              "Activated"
+            ],
+            "statuses_with_charges": [
+              "Activated"
+            ],
+            "priority_selection": "Activated"
+          },
+          {
+            "property_hmy": "1378",
+            "tenant_hmy": "1276",
+            "statuses_available": [
+              "Superseded",
+              "Superseded",
+              "Activated"
+            ],
+            "statuses_with_charges": [],
+            "priority_selection": null
+          },
+          {
+            "property_hmy": "1383",
+            "tenant_hmy": "1306",
+            "statuses_available": [
+              "Activated",
+              "Superseded",
+              "Activated",
+              "Activated"
+            ],
+            "statuses_with_charges": [
+              "Activated"
+            ],
+            "priority_selection": "Activated"
+          },
+          {
+            "property_hmy": "1383",
+            "tenant_hmy": "2256",
+            "statuses_available": [
+              "Superseded",
+              "Activated"
+            ],
+            "statuses_with_charges": [],
+            "priority_selection": null
+          },
+          {
+            "property_hmy": "1383",
+            "tenant_hmy": "3865",
+            "statuses_available": [
+              "Superseded",
+              "Superseded",
+              "Activated"
+            ],
+            "statuses_with_charges": [],
+            "priority_selection": null
+          },
+          {
+            "property_hmy": "1387",
+            "tenant_hmy": "1398",
+            "statuses_available": [
+              "Superseded",
+              "Activated"
+            ],
+            "statuses_with_charges": [],
+            "priority_selection": null
+          }
+        ]
+      },
+      "execution_time": 0.065834,
+      "timestamp": "2025-08-09T03:56:39.344592"
+    },
+    {
+      "test_id": "CHG_CMP_001",
+      "test_name": "Charge Schedule Completeness",
+      "category": "Charge Integration",
+      "target_accuracy": 98.0,
+      "actual_accuracy": 27.85388127853881,
+      "variance_amount": 632,
+      "variance_pct": 72.14611872146119,
+      "status": "FAIL",
+      "critical_issues": [
+        "Charge completeness 27.9% below 98% target (632 missing)"
+      ],
+      "recommendations": [
+        "Review charge extraction process for missing schedules",
+        "Implement charge validation rules",
+        "Focus on Activated/Superseded amendments with missing charges"
+      ],
+      "detailed_metrics": {
+        "total_amendments": 876,
+        "amendments_with_charges": 244,
+        "completeness_rate": 27.85388127853881,
+        "missing_charges": 632
+      },
+      "execution_time": 0.003865,
+      "timestamp": "2025-08-09T03:56:39.410559"
+    },
+    {
+      "test_id": "CHG_AMT_001",
+      "test_name": "Charge Amount Accuracy",
+      "category": "Charge Integration",
+      "target_accuracy": 95.0,
+      "actual_accuracy": 92.98892988929889,
+      "variance_amount": "76",
+      "variance_pct": 7.011070110701112,
+      "status": "WARNING",
+      "critical_issues": [
+        "Charge amount accuracy 93.0% below 95% target",
+        "5 negative charge amounts found"
+      ],
+      "recommendations": [
+        "Review negative charge amounts for data entry errors",
+        "Investigate zero-amount charges",
+        "Validate extreme charge amounts",
+        "Implement charge amount validation rules"
+      ],
+      "detailed_metrics": {
+        "total_charges": 1084,
+        "negative_amounts": "5",
+        "zero_amounts": "48",
+        "extreme_amounts": "23",
+        "mean_amount": 6438.259574630073,
+        "median_amount": 1354.415,
+        "total_monthly_rent": 6979073.378899
+      },
+      "execution_time": 0.002534,
+      "timestamp": "2025-08-09T03:56:39.414514"
+    },
+    {
+      "test_id": "CHG_TYP_001",
+      "test_name": "Charge Type Distribution",
+      "category": "Charge Integration",
+      "target_accuracy": 80.0,
+      "actual_accuracy": 0.0,
+      "variance_amount": 3,
+      "variance_pct": 100.0,
+      "status": "FAIL",
+      "critical_issues": [
+        "Only 0 charge types found, expected at least 3"
+      ],
+      "recommendations": [
+        "Review charge type classification",
+        "Ensure all charge types are captured",
+        "Validate charge type mapping from source system"
+      ],
+      "detailed_metrics": {
+        "total_charges": 1084,
+        "unique_types": 0,
+        "distribution_health": 0.0,
+        "charge_type_breakdown": {}
+      },
+      "execution_time": 0.001996,
+      "timestamp": "2025-08-09T03:56:39.417072"
+    },
+    {
+      "test_id": "BUS_PRO_001",
+      "test_name": "Proposal in DM Exclusion",
+      "category": "Business Rules",
+      "target_accuracy": 100.0,
+      "actual_accuracy": 100,
+      "variance_amount": 0,
+      "variance_pct": 0.0,
+      "status": "PASS",
+      "critical_issues": [],
+      "recommendations": [
+        "No proposal amendments found - good business rule compliance"
+      ],
+      "detailed_metrics": {
+        "total_amendments": 877,
+        "proposal_count": 0,
+        "active_count": 876,
+        "proposal_rate": 0.0,
+        "compliance_score": 100
+      },
+      "execution_time": 0.001838,
+      "timestamp": "2025-08-09T03:56:39.419091"
+    },
+    {
+      "test_id": "BUS_STA_001",
+      "test_name": "Status Filter Compliance",
+      "category": "Business Rules",
+      "target_accuracy": 80.0,
+      "actual_accuracy": 99.8859749144812,
+      "variance_amount": 1,
+      "variance_pct": 0.1140250855188043,
+      "status": "PASS",
+      "critical_issues": [],
+      "recommendations": [
+        "Status filtering compliance is adequate"
+      ],
+      "detailed_metrics": {
+        "total_amendments": 877,
+        "target_count": 876,
+        "excluded_count": 0,
+        "compliance_rate": 99.8859749144812,
+        "status_breakdown": {
+          "Activated": 536,
+          "Superseded": 340,
+          "In Process": 1
+        }
+      },
+      "execution_time": 0.001858,
+      "timestamp": "2025-08-09T03:56:39.420989"
+    },
+    {
+      "test_id": "BUS_DAT_001",
+      "test_name": "Date Filter Compliance",
+      "category": "Business Rules",
+      "target_accuracy": 95.0,
+      "actual_accuracy": 46.06613454960091,
+      "variance_amount": "473",
+      "variance_pct": 53.93386545039909,
+      "status": "FAIL",
+      "critical_issues": [
+        "High expired lease rate: 51.5%"
+      ],
+      "recommendations": [
+        "Handle null end dates as month-to-month leases",
+        "Exclude future start dates from current rent roll",
+        "Exclude expired leases from current calculations",
+        "Implement proper date filtering in DAX measures"
+      ],
+      "detailed_metrics": {
+        "total_amendments": 877,
+        "null_end_dates": "30",
+        "month_to_month_rate": 3.4207525655644244,
+        "future_start_dates": "21",
+        "future_starts_rate": 2.394526795895097,
+        "expired_leases": "452",
+        "expired_rate": 51.539338654503986,
+        "compliance_score": 46.06613454960091
+      },
+      "execution_time": 0.003447,
+      "timestamp": "2025-08-09T03:56:39.422913"
+    },
+    {
+      "test_id": "RNT_YAR_001",
+      "test_name": "Rent Roll vs Yardi Accuracy (Fund 2)",
+      "category": "Rent Roll Accuracy",
+      "target_accuracy": 95.0,
+      "actual_accuracy": 0.0,
+      "variance_amount": 420935060.66040003,
+      "variance_pct": 100.0,
+      "status": "FAIL",
+      "critical_issues": [
+        "Overall accuracy 0.0% below Fund 2 target of 95%+",
+        "Large monthly rent variance: $420,935,061 (Fund 2 critical issue)"
+      ],
+      "recommendations": [
+        "Overall accuracy below Fund 2 target of 95% - implement critical fixes",
+        "Critical: Monthly rent calculation needs major revision (Fund 2 $232K gap issue)",
+        "Review leased SF calculation logic",
+        "Check property_count aggregation logic",
+        "Check tenant_count aggregation logic"
+      ],
+      "detailed_metrics": {
+        "generated_metrics": {
+          "source": "Generated",
+          "record_count": 279,
+          "total_monthly_rent": 420935060.66040003,
+          "total_leased_sf": "10144917",
+          "property_count": 169,
+          "tenant_count": 279,
+          "avg_rent_psf": 497.90656029268655
+        },
+        "yardi_metrics": {
+          "source": "Yardi",
+          "record_count": 1510,
+          "total_monthly_rent": 0,
+          "total_leased_sf": 0,
+          "property_count": 0,
+          "tenant_count": 0,
+          "avg_rent_psf": 0
+        },
+        "metric_comparisons": {
+          "total_monthly_rent": {
+            "generated": 420935060.66040003,
+            "yardi": 0,
+            "accuracy": 0,
+            "variance_amount": 420935060.66040003,
+            "variance_pct": 0
+          },
+          "total_leased_sf": {
+            "generated": "10144917",
+            "yardi": 0,
+            "accuracy": 0,
+            "variance_amount": "10144917",
+            "variance_pct": 0
+          },
+          "property_count": {
+            "generated": 169,
+            "yardi": 0,
+            "accuracy": 0,
+            "variance_amount": 169,
+            "variance_pct": 0
+          },
+          "tenant_count": {
+            "generated": 279,
+            "yardi": 0,
+            "accuracy": 0,
+            "variance_amount": 279,
+            "variance_pct": 0
+          }
+        },
+        "overall_accuracy": 0.0
+      },
+      "execution_time": 0.143037,
+      "timestamp": "2025-08-09T03:56:39.426408"
+    },
+    {
+      "test_id": "VAR_BRK_001",
+      "test_name": "Variance Breakdown Analysis",
+      "category": "Variance Analysis",
+      "target_accuracy": 90.0,
+      "actual_accuracy": 0,
+      "variance_amount": 285000,
+      "variance_pct": 1040.0,
+      "status": "FAIL",
+      "critical_issues": [
+        "Total variance $285,000 exceeds target $25,000",
+        "Major variance source: missing_charges = $232,000"
+      ],
+      "recommendations": [
+        "Address missing charges issue (largest variance contributor)",
+        "Implement latest amendment WITH charges logic",
+        "Remove duplicate active amendments",
+        "Exclude proposal amendments from calculations"
+      ],
+      "detailed_metrics": {
+        "variance_breakdown": {
+          "missing_charges": 232000,
+          "duplicate_amendments": 25000,
+          "proposal_inclusions": 15000,
+          "date_filter_issues": 8000,
+          "status_filter_issues": 5000
+        },
+        "total_variance": 285000,
+        "target_variance": 25000,
+        "top_contributor": [
+          "missing_charges",
+          232000
+        ],
+        "variance_accuracy": 0
+      },
+      "execution_time": 6e-06,
+      "timestamp": "2025-08-09T03:56:39.569515"
+    },
+    {
+      "test_id": "DAT_CMP_001",
+      "test_name": "Data Completeness Analysis",
+      "category": "Data Completeness",
+      "target_accuracy": 95.0,
+      "actual_accuracy": 100.0,
+      "variance_amount": 0,
+      "variance_pct": 0.0,
+      "status": "PASS",
+      "critical_issues": [],
+      "recommendations": [
+        "Data completeness meets target"
+      ],
+      "detailed_metrics": {
+        "total_records": 877,
+        "completeness_analysis": {
+          "amendment hmy": {
+            "non_null_count": "877",
+            "null_count": "0",
+            "completeness_pct": 100.0
+          },
+          "property hmy": {
+            "non_null_count": "877",
+            "null_count": "0",
+            "completeness_pct": 100.0
+          },
+          "tenant hmy": {
+            "non_null_count": "877",
+            "null_count": "0",
+            "completeness_pct": 100.0
+          },
+          "amendment sequence": {
+            "non_null_count": "877",
+            "null_count": "0",
+            "completeness_pct": 100.0
+          },
+          "amendment status": {
+            "non_null_count": "877",
+            "null_count": "0",
+            "completeness_pct": 100.0
+          },
+          "amendment start date": {
+            "non_null_count": "877",
+            "null_count": "0",
+            "completeness_pct": 100.0
+          }
+        },
+        "overall_completeness": 100.0
+      },
+      "execution_time": 0.002115,
+      "timestamp": "2025-08-09T03:56:39.569525"
+    },
+    {
+      "test_id": "DUP_AMN_001",
+      "test_name": "Duplicate Active Amendments Detection",
+      "category": "Duplicate Detection",
+      "target_accuracy": 100.0,
+      "actual_accuracy": 34.05275779376498,
+      "variance_amount": 275,
+      "variance_pct": 65.94724220623502,
+      "status": "FAIL",
+      "critical_issues": [
+        "275 property/tenant combinations have multiple active amendments",
+        "High duplicate count similar to Fund 2 critical issue (98 duplicates)"
+      ],
+      "recommendations": [
+        "Remove duplicate active amendments using latest sequence logic",
+        "Implement data validation to prevent duplicate active statuses",
+        "Use MAX(sequence) to select single amendment per property/tenant",
+        "Review amendment status update processes"
+      ],
+      "detailed_metrics": {
+        "total_combinations": 417,
+        "duplicate_count": 275,
+        "duplicate_rate": 65.94724220623502,
+        "accuracy_score": 34.05275779376498,
+        "sample_duplicates": [
+          {
+            "property_hmy": 1372,
+            "tenant_hmy": 1347,
+            "amendment_count": 2,
+            "min_sequence": 0,
+            "max_sequence": 1,
+            "unique_sequences": 2
+          },
+          {
+            "property_hmy": 1372,
+            "tenant_hmy": 1349,
+            "amendment_count": 2,
+            "min_sequence": 0,
+            "max_sequence": 1,
+            "unique_sequences": 2
+          },
+          {
+            "property_hmy": 1372,
+            "tenant_hmy": 1352,
+            "amendment_count": 3,
+            "min_sequence": 0,
+            "max_sequence": 2,
+            "unique_sequences": 3
+          },
+          {
+            "property_hmy": 1372,
+            "tenant_hmy": 4918,
+            "amendment_count": 2,
+            "min_sequence": 0,
+            "max_sequence": 1,
+            "unique_sequences": 2
+          },
+          {
+            "property_hmy": 1372,
+            "tenant_hmy": 5499,
+            "amendment_count": 4,
+            "min_sequence": 0,
+            "max_sequence": 3,
+            "unique_sequences": 4
+          },
+          {
+            "property_hmy": 1372,
+            "tenant_hmy": 36871,
+            "amendment_count": 2,
+            "min_sequence": 0,
+            "max_sequence": 1,
+            "unique_sequences": 2
+          },
+          {
+            "property_hmy": 1378,
+            "tenant_hmy": 1276,
+            "amendment_count": 3,
+            "min_sequence": 0,
+            "max_sequence": 2,
+            "unique_sequences": 3
+          },
+          {
+            "property_hmy": 1383,
+            "tenant_hmy": 1306,
+            "amendment_count": 4,
+            "min_sequence": 0,
+            "max_sequence": 3,
+            "unique_sequences": 4
+          },
+          {
+            "property_hmy": 1383,
+            "tenant_hmy": 2256,
+            "amendment_count": 2,
+            "min_sequence": 0,
+            "max_sequence": 1,
+            "unique_sequences": 2
+          },
+          {
+            "property_hmy": 1383,
+            "tenant_hmy": 3865,
+            "amendment_count": 3,
+            "min_sequence": 0,
+            "max_sequence": 2,
+            "unique_sequences": 3
+          }
+        ]
+      },
+      "execution_time": 0.006232,
+      "timestamp": "2025-08-09T03:56:39.571686"
+    },
+    {
+      "test_id": "EDG_CAS_001",
+      "test_name": "Edge Case Handling Analysis",
+      "category": "Edge Case Handling",
+      "target_accuracy": 95.0,
+      "actual_accuracy": 81.38704742478328,
+      "variance_amount": "365",
+      "variance_pct": 18.612952575216728,
+      "status": "FAIL",
+      "critical_issues": [
+        "null_end_dates: 30 cases",
+        "zero_rent_charges: 48 cases",
+        "negative_rent_charges: 5 cases",
+        "extreme_rent_charges: 6 cases",
+        "sequence_gaps: 276 cases"
+      ],
+      "recommendations": [
+        "Handle null end dates as month-to-month leases",
+        "Review zero and negative rent amounts",
+        "Validate extreme rent amounts",
+        "Implement robust sequence gap handling",
+        "Add edge case validation in DAX measures"
+      ],
+      "detailed_metrics": {
+        "total_records": 1961,
+        "total_edge_cases": "365",
+        "edge_case_rate": 18.612952575216728,
+        "handling_score": 81.38704742478328,
+        "edge_case_breakdown": {
+          "null_end_dates": "30",
+          "zero_rent_charges": "48",
+          "negative_rent_charges": "5",
+          "extreme_rent_charges": "6",
+          "sequence_gaps": 276
+        }
+      },
+      "execution_time": 0.007666,
+      "timestamp": "2025-08-09T03:56:39.578548"
+    }
+  ],
+  "test_summary": {
+    "total_tests": 14,
+    "passed": 3,
+    "failed": 10,
+    "warnings": 1
+  },
+  "recommendations": [
+    "\u274c Critical issues found - address failures before proceeding",
+    "\ud83d\udd27 Implement 'latest amendment WITH charges' logic to resolve Fund 2 $232K gap",
+    "\ud83d\udd27 Improve charge schedule integration to reach 98%+ target",
+    "\ud83d\udd27 Implement business rule compliance: exclude 'Proposal in DM' amendments",
+    "\ud83d\udd27 Remove duplicate active amendments (Fund 2 had 98 duplicates)"
+  ]
+}

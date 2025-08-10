@@ -1,0 +1,17 @@
+select
+  t.SCODE as "Lease Code",
+  c.scode as "Customer Code",
+  c.sname as "Customer Name",
+  t.SLASTNAME as "Tenant Name",
+  p.SCODE as "Property Code",
+  p.saddr2 as "Property Address",
+  p.sstate as "State",
+  t.SFIELDS0 as "SLB Flag",
+  CASE WHEN t.iSTATUS = 0 THEN 'Current' WHEN t.iSTATUS = 1 THEN 'Past' WHEN t.iSTATUS = 2 THEN 'Future' ELSE 'Unknown' END AS "Lease Status"
+from
+  tenant t
+  JOIN Property p ON t.HPROPERTY = p.HMY
+  join customer c on t.hcustomer = c.hmyperson
+where
+  t.sfields0 = 'yes'
+  and t.SCODE Not Like 'ml%'

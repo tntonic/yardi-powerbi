@@ -1,0 +1,98 @@
+# Date Boundary and Temporal Edge Case Test Scenarios
+# For Rent Roll Measures Testing - Report Date: 2025-06-30
+# =====================================================
+
+test_scenario,property_code,tenant_id,amendment_sequence,start_date,end_date,monthly_amount,amendment_sf,amendment_status,expected_current,expected_expiring_12mo,expected_walt_months,test_description
+# ===========================
+# MONTH END BOUNDARY TESTS
+# ===========================
+Month_End_28_Day,PROP_ME28,TEN_ME28,1,2024-02-01,2025-02-28,5000,2000,Activated,Yes,Yes,8,February 28-day month boundary
+Month_End_29_Day_Leap,PROP_ME29,TEN_ME29,1,2024-02-01,2025-02-29,5100,2100,Activated,Yes,Yes,8,February 29-day leap year boundary  
+Month_End_30_Day,PROP_ME30,TEN_ME30,1,2024-04-01,2025-04-30,5200,2200,Activated,Yes,Yes,10,April 30-day month boundary
+Month_End_31_Day,PROP_ME31,TEN_ME31,1,2024-05-01,2025-05-31,5300,2300,Activated,Yes,Yes,11,May 31-day month boundary
+# ===========================
+# YEAR END BOUNDARY TESTS
+# ===========================
+Year_End_Current,PROP_YE1,TEN_YE1,1,2024-01-01,2025-12-31,6000,3000,Activated,Yes,Yes,18,Year-end boundary current year
+Year_End_Next,PROP_YE2,TEN_YE2,1,2024-01-01,2026-12-31,6100,3100,Activated,Yes,No,30,Year-end boundary next year
+Year_End_Past,PROP_YE3,TEN_YE3,1,2023-01-01,2024-12-31,6200,3200,Activated,No,No,0,Year-end boundary past year (expired)
+# ===========================
+# FISCAL YEAR BOUNDARY TESTS  
+# ===========================
+Fiscal_Year_End_Q1,PROP_FY1,TEN_FY1,1,2024-10-01,2025-09-30,4800,2400,Activated,Yes,Yes,3,Fiscal year Q1 ending Sept 30
+Fiscal_Year_End_Q2,PROP_FY2,TEN_FY2,1,2024-07-01,2025-06-30,4900,2450,Activated,Yes,Yes,0,Fiscal year Q2 ending today
+Fiscal_Year_End_Q3,PROP_FY3,TEN_FY3,1,2024-04-01,2025-03-31,5000,2500,Activated,No,No,0,Fiscal year Q3 ended March 31
+# ===========================
+# QUARTER END BOUNDARY TESTS
+# ===========================
+Q1_End,PROP_Q1,TEN_Q1,1,2024-01-01,2026-03-31,4500,2250,Activated,Yes,No,21,Q1 end (March 31) boundary
+Q2_End,PROP_Q2,TEN_Q2,1,2024-04-01,2025-06-30,4600,2300,Activated,Yes,Yes,0,Q2 end (June 30) boundary - today
+Q3_End,PROP_Q3,TEN_Q3,1,2024-07-01,2025-09-30,4700,2350,Activated,Yes,Yes,3,Q3 end (September 30) boundary  
+Q4_End,PROP_Q4,TEN_Q4,1,2024-10-01,2025-12-31,4800,2400,Activated,Yes,Yes,6,Q4 end (December 31) boundary
+# ===========================
+# LEAP YEAR EDGE CASES
+# ===========================
+Leap_Year_Start,PROP_LY1,TEN_LY1,1,2024-02-29,2026-02-28,5400,2700,Activated,Yes,No,20,Lease starts on leap day
+Leap_Year_End,PROP_LY2,TEN_LY2,1,2023-03-01,2024-02-29,5500,2750,Activated,No,No,0,Lease ends on leap day (expired)
+Leap_Year_Span,PROP_LY3,TEN_LY3,1,2024-01-15,2025-01-15,5600,2800,Activated,Yes,Yes,6.5,Lease spans leap year
+# ===========================
+# TIME ZONE AND DST EDGE CASES
+# ===========================
+DST_Spring_Forward,PROP_DST1,TEN_DST1,1,2024-03-10,2025-03-09,5100,2550,Activated,No,No,0,Lease around spring DST change
+DST_Fall_Back,PROP_DST2,TEN_DST2,1,2024-11-03,2025-11-02,5200,2600,Activated,Yes,Yes,4,Lease around fall DST change
+# ===========================
+# VERY SHORT TERM LEASES
+# ===========================
+One_Day_Lease,PROP_1D,TEN_1D,1,2025-06-30,2025-06-30,1000,500,Activated,Yes,Yes,0,One day lease expires today
+One_Week_Lease,PROP_1W,TEN_1W,1,2025-06-24,2025-06-30,2000,1000,Activated,Yes,Yes,0,One week lease expires today
+One_Month_Lease,PROP_1M,TEN_1M,1,2025-06-01,2025-06-30,3000,1500,Activated,Yes,Yes,0,One month lease expires today
+Three_Month_Lease,PROP_3M,TEN_3M,1,2025-04-01,2025-06-30,4000,2000,Activated,Yes,Yes,0,Three month lease expires today
+# ===========================
+# VERY LONG TERM LEASES  
+# ===========================
+Ten_Year_Lease,PROP_10Y,TEN_10Y,1,2020-01-01,2030-12-31,8000,4000,Activated,Yes,No,66,Ten year lease term
+Twenty_Year_Lease,PROP_20Y,TEN_20Y,1,2015-01-01,2035-12-31,9000,4500,Activated,Yes,No,126,Twenty year lease term
+Fifty_Year_Lease,PROP_50Y,TEN_50Y,1,2000-01-01,2050-12-31,10000,5000,Activated,Yes,No,306,Fifty year ground lease
+# ===========================
+# BOUNDARY CONDITION TESTS (EXACT DATES)
+# ===========================
+Expires_Tomorrow,PROP_TOM,TEN_TOM,1,2024-01-01,2025-07-01,3500,1750,Activated,Yes,Yes,0.033,Expires tomorrow (July 1)
+Started_Yesterday,PROP_YES,TEN_YES,1,2025-06-29,2027-06-29,4500,2250,Activated,Yes,No,24,Started yesterday  
+Expires_One_Year_Out,PROP_1YR,TEN_1YR,1,2024-01-01,2026-06-30,5500,2750,Activated,Yes,Yes,12,Expires exactly one year from today
+Started_One_Year_Ago,PROP_1YA,TEN_1YA,1,2024-06-30,2027-06-30,6000,3000,Activated,Yes,No,24,Started exactly one year ago
+# ===========================
+# NULL AND INVALID DATE TESTS
+# ===========================
+Null_Start_Date,PROP_NSD,TEN_NSD,1,,2026-12-31,5000,2500,Activated,No,No,0,NULL start date should be excluded
+Null_End_Date_MTM,PROP_NED,TEN_NED,1,2024-01-01,,4000,2000,Activated,Yes,No,999,NULL end date (month-to-month)
+Invalid_Date_Order,PROP_IDO,TEN_IDO,1,2025-12-31,2025-01-01,3000,1500,Activated,No,No,0,End date before start date (invalid)
+Far_Future_Start,PROP_FFS,TEN_FFS,1,2030-01-01,2035-01-01,7000,3500,Activated,No,No,0,Very far future start date
+Far_Past_End,PROP_FPE,TEN_FPE,1,2020-01-01,2022-01-01,6000,3000,Activated,No,No,0,Very old expired lease
+# ===========================
+# AMENDMENT DATE VS LEASE DATE TESTS
+# ===========================
+Amendment_Future_Start,PROP_AFS,TEN_AFS,1,2025-08-01,2027-08-01,5200,2600,Activated,No,No,0,Amendment starts in future
+Amendment_Recent_Start,PROP_ARS,TEN_ARS,1,2025-06-01,2027-06-01,5300,2650,Activated,Yes,No,24,Amendment started recently
+Amendment_Retroactive,PROP_ARO,TEN_ARO,1,2025-01-01,2027-01-01,5400,2700,Activated,Yes,No,18,Retroactive amendment date
+# ===========================
+# WALT CALCULATION EDGE CASES
+# ===========================
+WALT_Zero_Months,PROP_WZ,TEN_WZ,1,2025-06-01,2025-06-30,2000,1000,Activated,Yes,Yes,0,Zero months remaining
+WALT_Fraction_Month,PROP_WF,TEN_WF,1,2025-06-15,2025-07-15,2500,1250,Activated,Yes,Yes,0.5,Half month remaining  
+WALT_Large_SF,PROP_WL,TEN_WL,1,2024-01-01,2030-01-01,20000,100000,Activated,Yes,No,54,Large SF for weighted calculation
+WALT_Small_SF,PROP_WS,TEN_WS,1,2024-01-01,2030-01-01,1000,50,Activated,Yes,No,54,Small SF for weighted calculation
+# ===========================
+# EXPIRATION LIST EDGE CASES
+# ===========================
+Expires_11_Months,PROP_E11,TEN_E11,1,2024-01-01,2026-05-31,4000,2000,Activated,Yes,Yes,11,Expires in 11 months (in list)
+Expires_12_Months,PROP_E12,TEN_E12,1,2024-01-01,2026-06-30,4100,2050,Activated,Yes,Yes,12,Expires in exactly 12 months
+Expires_13_Months,PROP_E13,TEN_E13,1,2024-01-01,2026-07-31,4200,2100,Activated,Yes,No,13,Expires in 13 months (not in list)
+Expires_365_Days,PROP_E365,TEN_E365,1,2024-01-01,2026-06-29,4300,2150,Activated,Yes,Yes,11.967,Expires in exactly 365 days
+Expires_366_Days,PROP_E366,TEN_E366,1,2024-01-01,2026-07-01,4400,2200,Activated,Yes,No,12.033,Expires in exactly 366 days (not in list)
+# ===========================
+# REALISTIC BUSINESS DATE PATTERNS
+# ===========================
+Standard_Office_5_Year,PROP_SO5,TEN_SO5,1,2022-09-01,2027-08-31,6500,3250,Activated,Yes,No,26,Standard 5-year office lease
+Industrial_10_Year,PROP_I10,TEN_I10,1,2020-03-01,2030-02-28,12000,6000,Activated,Yes,No,56,Industrial 10-year lease
+Retail_3_Year_Options,PROP_R3,TEN_R3,1,2023-11-01,2026-10-31,8000,4000,Activated,Yes,Yes,16,Retail 3-year with options
+Medical_15_Year,PROP_M15,TEN_M15,1,2018-06-01,2033-05-31,15000,7500,Activated,Yes,No,95,Medical office 15-year lease

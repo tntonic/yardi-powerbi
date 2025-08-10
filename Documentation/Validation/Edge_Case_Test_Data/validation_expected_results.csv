@@ -1,0 +1,76 @@
+test_scenario,property_code,tenant_id,amendment_sequence_selected,expected_monthly_rent,expected_leased_sf,expected_in_current_rent_roll,expected_in_walt_calc,expected_in_expiring_12mo,expected_leasing_activity_type,validation_notes
+# ===========================
+# CATEGORY 1: AMENDMENT SEQUENCE EDGE CASES
+# ===========================
+Multiple_Amendments_Seq1,PROP001,T001,3,6000,2500,Yes,Yes,No,None,Only latest sequence (3) should be selected
+Multiple_Amendments_Seq2,PROP001,T001,3,6000,2500,Yes,Yes,No,None,Only latest sequence (3) should be selected
+Multiple_Amendments_Seq3,PROP001,T001,3,6000,2500,Yes,Yes,No,None,Only latest sequence (3) should be selected
+Gap_In_Sequences_Seq1,PROP002,T002,5,3200,1500,Yes,Yes,No,None,MAX function should handle gaps and select sequence 5
+Gap_In_Sequences_Seq5,PROP002,T002,5,3200,1500,Yes,Yes,No,None,MAX function should handle gaps and select sequence 5
+Duplicate_Sequences_A,PROP003,T003,2,8200,3600,Yes,Yes,No,None,Both records with sequence 2 should be processed
+Duplicate_Sequences_B,PROP003,T003,2,8200,3600,Yes,Yes,No,None,Both records with sequence 2 should be processed
+# ===========================
+# CATEGORY 2: AMENDMENT STATUS EDGE CASES
+# ===========================
+Latest_Superseded_Seq1,PROP004,T004,2,4500,2000,Yes,Yes,No,None,Superseded status should be included
+Latest_Superseded_Seq2,PROP004,T004,2,4500,2000,Yes,Yes,No,None,Superseded status should be included
+Termination_Exclusion_Seq1,PROP005,T005,1,5000,2000,Yes,Yes,No,None,Termination amendments should be excluded
+Termination_Exclusion_Seq2,PROP005,T005,1,5000,2000,Yes,Yes,No,Termination,Termination excluded from rent roll
+Draft_Status_Seq1,PROP006,T006,1,5000,1800,Yes,Yes,No,None,Draft amendments should be excluded
+Draft_Status_Seq2,PROP006,T006,1,5000,1800,Yes,Yes,No,None,Draft amendments should be excluded
+Cancelled_Status,PROP006A,T006A,None,0,0,No,No,No,None,Cancelled status should be completely excluded
+# ===========================
+# CATEGORY 3: DATE BOUNDARY EDGE CASES (Report Date: 2025-06-30)
+# ===========================
+Null_End_Date,PROP007,T007,1,3000,1800,Yes,Yes,No,None,Null end dates should be included in current rent roll
+Future_Start_Date,PROP008,T008,None,0,0,No,No,No,None,Future start dates should be excluded from current
+Recently_Expired,PROP009,T009,None,0,0,No,No,No,None,Recently expired leases should be excluded
+Expiring_Today,PROP010,T010,1,3600,1600,Yes,Yes,Yes,None,Leases expiring today should be included
+Expiring_In_12_Months,PROP010A,T010A,1,4800,2200,Yes,Yes,Yes,None,Should appear in 12-month expiring list
+Long_Term_Lease,PROP010B,T010B,1,4100,1900,Yes,Yes,No,None,Long-term lease should not be in expiring list
+# ===========================
+# CATEGORY 4: FINANCIAL CALCULATION EDGE CASES
+# ===========================
+Zero_Rent_Amount,PROP011,T011,1,0,1000,Yes,Yes,No,None,Zero rent should be handled without errors
+Negative_Rent_Credit,PROP012,T012,1,4000,500,Yes,Yes,No,None,Net rent after credit should be calculated
+Extremely_Large_Rent,PROP013,T013,1,999999,1000,Yes,Yes,No,None,Should be flagged as unusual but processed
+Zero_SF_Nonzero_Rent,PROP013A,T013A,1,5000,0,Yes,No,No,None,Should handle division by zero gracefully
+# ===========================
+# CATEGORY 5: PROPERTY/UNIT RELATIONSHIP EDGE CASES
+# ===========================
+Same_Tenant_Multi_Prop_A,PROP014,T014,1,5000,1000,Yes,Yes,No,None,Same tenant different properties both included
+Same_Tenant_Multi_Prop_B,PROP015,T014,1,8000,2000,Yes,Yes,No,None,Same tenant different properties both included
+Multi_Unit_Amendment_A,PROP016,T016,1,12000,2500,Yes,Yes,No,None,Multi-unit amendment counted once
+Multi_Unit_Amendment_B,PROP016,T016,1,12000,2500,Yes,Yes,No,None,Multi-unit amendment counted once
+# ===========================
+# CATEGORY 6: MISSING DATA EDGE CASES
+# ===========================
+Null_Amendment_SF,PROP017,T017,1,5000,0,Yes,No,No,None,Null SF should be handled gracefully
+Null_Monthly_Amount,PROP018,T018,1,0,1500,Yes,Yes,No,None,Null amount should default to zero
+Null_Start_Date,PROP019,T019,None,0,0,No,No,No,None,Null start date should exclude from calculations
+Null_End_Date_MTM,PROP019A,T019A,1,4200,1600,Yes,Yes,No,None,Null end date should be treated as month-to-month
+# ===========================
+# CATEGORY 7: LEASING ACTIVITY EDGE CASES (Activity Period: 2024-06-01 to 2024-12-31)
+# ===========================
+New_Lease_Recent,PROP020,T020,1,8000,2000,Yes,Yes,No,New Lease,Should count as new lease activity
+Renewal_Recent,PROP021,T021,1,7500,1800,Yes,Yes,No,Renewal,Should count as renewal activity
+Termination_Recent,PROP022,T022,None,0,0,No,No,No,Termination,Should count as termination activity
+Renewal_Higher_Rent,PROP023,T023,1,9500,2200,Yes,Yes,No,Renewal,Should calculate positive rent change
+Renewal_Prior_Rent,PROP023,T023,0,9000,2200,No,No,No,None,Prior rent for comparison
+# ===========================
+# CATEGORY 8: WALT CALCULATION EDGE CASES (Calculation Date: 2025-06-30)
+# ===========================
+Very_Short_Lease,PROP024,T024,1,3000,1000,No,No,No,None,Past expiration - should not be included
+Very_Long_Lease,PROP025,T025,1,15000,3000,Yes,Yes,No,None,Should calculate ~234 months remaining
+Lease_Near_Expiry,PROP026,T026,1,10000,2500,Yes,Yes,Yes,None,Should calculate ~6 months remaining
+# ===========================
+# CATEGORY 9: PERFORMANCE TEST VALIDATION
+# ===========================
+Performance_Test_Latest,PROP100,T100,3,4500,1200,Yes,Yes,No,None,Latest sequence should be selected efficiently
+# ===========================
+# CATEGORY 10: REALISTIC BUSINESS SCENARIOS
+# ===========================
+Large_Industrial_Tenant,PROP201,T201,1,28000,5000,Yes,Yes,No,None,Realistic large tenant with CAM charges
+Small_Office_Tenant,PROP202,T202,1,4800,1200,Yes,Yes,No,None,Realistic small office tenant
+Long_Term_Retail,PROP203,T203,1,16000,2800,Yes,Yes,No,None,Retail with percentage rent
+Renewed_Warehouse,PROP204,T204,2,18000,3200,Yes,Yes,No,Renewal,Warehouse renewal with rent increase

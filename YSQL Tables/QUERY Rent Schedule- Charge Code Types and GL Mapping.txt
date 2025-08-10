@@ -1,0 +1,11 @@
+select
+  ct.hmy as "HMY Charge Code",
+  ct.SCODE as "Charege Code ID",
+  ct.SNAME as "Charege Code Name",
+  ct.HCHARGEBACKACCT as "HMY Charged GL",
+  ac.scode as "Charged GL",
+  ct.ITYPE as "Charge Type Code",
+  CASE WHEN ct.ITYPE = 0 THEN 'CAM' WHEN ct.ITYPE = 1 THEN 'Overage' WHEN ct.ITYPE = 2 THEN 'Rent' WHEN ct.ITYPE = 3 THEN 'Misc' ELSE 'Unknown' END AS "Charge Type"
+from
+  Chargtyp ct
+  Join acct ac on ct.HCHARGEBACKACCT = ac.hmy

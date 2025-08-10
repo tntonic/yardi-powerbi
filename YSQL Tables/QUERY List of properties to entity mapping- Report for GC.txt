@@ -1,0 +1,32 @@
+SELECT
+  p.sCode AS "Property Code",
+  p.sAddr2 AS "Property Address",
+  p.SCITY AS "City",
+  p.sState AS "Property State",
+  p.SZIPCODE AS "ZIP",
+  a.SUBGROUP31 AS "Is Land?",
+  a.SUBGROUP27 AS "Fund",
+  a.SUBGROUP34 AS "Legal Entity",
+  a.SUBGROUP32 AS "ACQ Status",
+  CONVERT(date, MAX(f.DACQUISITIONDATE)) AS "Acq. Date",
+  CONVERT(date, MAX(f.DDISPOSITIONDATE)) AS "Dispo. Date"
+FROM
+  Property p
+  JOIN Attributes a ON p.HMY = a.HPROP
+  JOIN PROPBUT_FAROPOINT f ON f.hCode = p.HMY
+WHERE
+  p.sCode NOT LIKE 'mp%'
+  AND a.SUBGROUP32 IN ('Sold', 'Acquired')
+GROUP BY
+  p.sCode,
+  p.sAddr2,
+  p.SCITY,
+  p.sState,
+  p.SZIPCODE,
+  a.SUBGROUP31,
+  a.SUBGROUP27,
+  a.SUBGROUP34,
+  a.SUBGROUP32
+ORDER BY
+  a.SUBGROUP27,
+  a.SUBGROUP32;

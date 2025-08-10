@@ -1,0 +1,16 @@
+SELECT
+  p.HMY AS "hMy_Propert",
+  p.SCODE AS "Propery Code",
+  v.hMyPerson AS "hMyPerson_Vendor",
+  v.ucode AS "Appraiser Vendor ID",
+  v.ULASTNAME AS "Appraiser Name",
+  cpmr.dtValuation AS "Valuation Date",
+  cpmr.iValuationType AS "Valuation Type Code",
+  CASE WHEN cpmr.iValuationType = 0 THEN 'External' WHEN cpmr.iValuationType = 1 THEN 'Internal' WHEN cpmr.iValuationType = 2 THEN 'Fair Value' ELSE 'Unknown' END AS "Valuation Type",
+  cpmr.dPropertyValue AS "Property Valuation"
+FROM
+  CommPropMarketRent cpmr
+  JOIN vendor v ON cpmr.hPerson = v.hMyPerson
+  JOIN property p ON cpmr.hProperty = p.hMy
+WHERE
+  p.SCODE NOT LIKE 'mp%'

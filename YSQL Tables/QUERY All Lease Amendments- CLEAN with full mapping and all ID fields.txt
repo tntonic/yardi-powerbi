@@ -1,0 +1,64 @@
+SELECT
+  ca.hMy AS "Amendment hMy",
+  p.hmy AS "Property hMy",
+  p.SCODE AS "Property Code",
+  ca.htenant AS "Tenant hMy",
+  t.SCODE AS "Tenant ID",
+  ca.iStatus AS "Amendment Status code",
+  CASE ca.iStatus WHEN 0 THEN 'In Process' WHEN 1 THEN 'Activated' WHEN 2 THEN 'Superseded' WHEN 4 THEN 'Cancelled' ELSE 'Other' END AS "Amendment Status",
+  ca.iType AS "Amendment Type code",
+  CASE ca.iType WHEN 0 THEN 'Original Lease' WHEN 1 THEN 'Renewal' WHEN 2 THEN 'Expansion' WHEN 3 THEN 'Contraction' WHEN 4 THEN 'Termination' WHEN 5 THEN 'Holdover' WHEN 6 THEN 'Modification' WHEN 7 THEN 'Remeasure' WHEN 8 THEN 'Month to month' WHEN 9 THEN 'Assignment' WHEN 10 THEN 'Sublease' WHEN 12 THEN 'Remeasure' WHEN 13 THEN 'Proposal in DM' WHEN 15 THEN 'Relocation' WHEN 20 THEN 'License Agreement' ELSE 'Unknown' END AS "Amendment Type",
+  ca.iSequence AS "Amendment Sequence",
+  (
+    SELECT
+      STUFF(
+        (
+          SELECT
+            '//' + u.SCODE
+          FROM
+            UnitXRef ux
+            JOIN Unit u ON ux.hUnit = u.hMy
+          WHERE
+            ux.hAmendment = ca.hMy FOR XML PATH('')
+        ),
+        1,
+        2,
+        ''
+      )
+  ) AS "Units under amendment",
+  (
+    SELECT
+      STUFF(
+        (
+          SELECT
+            '//' + CAST(u.hMy AS VARCHAR)
+          FROM
+            UnitXRef ux
+            JOIN Unit u ON ux.hUnit = u.hMy
+          WHERE
+            ux.hAmendment = ca.hMy FOR XML PATH('')
+        ),
+        1,
+        2,
+        ''
+      )
+  ) AS "HMY Units under amendment",
+  ca.dContractArea AS "Amendment SF",
+  ca.iterm AS "Amendment Term",
+  ca.dtStart AS "Amendment Start Date",
+  ca.dtEnd AS "Amendment End Date",
+  ca.dtSign AS "Amendment Sign Date",
+  ca.sDesc AS "Amendment Description",
+  ca.sNotes AS "Amendment Notes",
+  ca.dHoldoverPercentage AS "Holdover %"
+FROM
+  CommAmendments ca
+  JOIN tenant t ON ca.htenant = t.HMYPERSON
+  JOIN property p ON t.HPROPERTY = p.hMy
+  JOIN Attributes a ON t.HPROPERTY = a.HPROP
+WHERE
+  t.SCODE NOT LIKE 'ml%'
+  AND ca.iSequence >= 0
+  AND ca.iType NOT IN (6, 13)
+  AND a.SUBGROUP32 IN ('Sold', 'Acquired')
+  AND p.sCode NOT LIKE 'mp%';

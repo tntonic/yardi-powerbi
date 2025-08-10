@@ -1,0 +1,30 @@
+SELECT
+  LTRIM(RTRIM(p.SCODE)) AS "Property Code",
+  LTRIM(RTRIM(u.SCODE)) AS "Unit Code",
+  f.INFO_DATE AS "Last Updated",
+  f.INFO_OFFICE AS "Office%",
+  f.ELECTRICAL_WAREHOUSE AS "WH Lights",
+  f.ELECTRICAL_OFFICE AS "Office Lights",
+  f.ELECTRICAL_EXITING AS "Elect. Panel",
+  f.ELECTRICAL_SENSORS AS "Sensors",
+  f.ELECTRICAL_REPLACED AS "Lights replaced by FP?",
+  f.ELECTRICAL_METER AS "In unit meter",
+  f.ELECTRICAL_SUBMETER AS "Submeter",
+  f.ELECTRICAL_VOLTS AS "Elec. Power VOLTS",
+  f.ELECTRICAL_AMPS AS "Elec. Power AMPS",
+  f.ELECTRICAL_CONNECTION AS "Elec. Connection",
+  f.HVAC_WAREHOUSEHEATING AS "WH Heating",
+  f.HVAC_WAREHOUSECONDITIONED AS "WH Conditioned ",
+  f.HVAC_WAREHOUSETONNAGE AS "WH Tonnage",
+  f.HVAC_OFFICECONDITIONED AS "Office Conditioned",
+  f.HVAC_OFFICETONNAGE AS "Office Tonnage",
+  f.HVAC_EXITING AS "HVAC Panel",
+  f.HAZARD_USAGE AS "Hazard usage",
+  f.HAZARD_MATERIALS AS "Hazard Materials ",
+  f.HAZARD_NOTES AS "Hazard Notes",
+  f.DOORS_DRIVE_INS AS "# Drive ins ",
+  f.DOORS_DOCK AS "# Dock Doord"
+FROM
+  UNITBUT1 f
+  JOIN unit u ON f.hCode = u.HMY
+  JOIN property p ON u.HPROPERTY = p.HMY

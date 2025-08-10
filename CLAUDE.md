@@ -6,33 +6,80 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a Power BI analytics solution for commercial real estate data from Yardi systems. The repository contains comprehensive documentation for implementing a 32-table data model with 122 production-ready DAX measures, achieving 95-99% accuracy against native Yardi reports.
 
+**IMPORTANT**: This project is designed as a reference library for teams building Power BI dashboards with Claude.ai assistance. The clean, production-ready files are organized in the `Claude_AI_Reference` folder for easy upload to Claude.ai projects.
+
 ## Repository Structure
 
 ```
-PBI v1.6/
-├── PowerBI/                        # Main documentation directory
-│   ├── Complete_DAX_Library_Production_Ready.dax  # All 122 DAX measures
-│   ├── Complete_Data_Model_Guide.md               # 32-table architecture
-│   ├── Quick_Start_Checklist.md                   # Implementation timeline
-│   ├── Validation_and_Testing_Guide.md            # Testing procedures
-│   └── [Multiple dashboard templates and guides]
-├── Yardi Tables/                   # CSV data files for testing
-│   ├── fact_*                      # Fact tables (transactions, totals, etc.)
-│   └── dim_*                       # Dimension tables (properties, accounts, etc.)
-└── README.md                       # Project overview
+Yardi PowerBI/
+├── Claude_AI_Reference/            # CLEAN REFERENCE FILES FOR CLAUDE.AI
+│   ├── README.md                   # How to use with Claude.ai
+│   ├── DAX_Measures/               # Production DAX measures
+│   │   ├── Complete_DAX_Library_v4_Production.dax
+│   │   ├── Top_20_Essential_Measures.dax
+│   │   └── Validation_Measures.dax
+│   ├── Documentation/              # Core guides (numbered for order)
+│   │   ├── 01_Quick_Start_Guide.md
+│   │   ├── 02_Data_Model_Guide.md
+│   │   ├── 03_Data_Dictionary.md
+│   │   ├── 04_Implementation_Guide.md
+│   │   └── 05_Common_Issues_Solutions.md
+│   ├── Dashboard_Templates/        # 4 dashboard specifications
+│   ├── Reference_Guides/           # Business logic & mappings
+│   └── Validation_Framework/       # Testing & accuracy guides
+├── Development/                    # Development and testing tools
+│   ├── Python_Scripts/            # Python validation scripts
+│   ├── Test_Automation_Framework/ # Testing frameworks
+│   └── Fund2_Validation_Results/  # Validation results and reports
+├── Data/                          # Source data files
+│   ├── Yardi_Tables/              # CSV exports from Yardi (32 tables)
+│   └── Fund2_Filtered/            # Fund-specific filtered data
+├── Documentation/                  # Extended documentation
+│   ├── Core_Guides/               # Complete DAX libraries and guides
+│   ├── Implementation/            # Implementation guides and fixes
+│   └── Validation/                # Validation reports and test data
+└── rent rolls/                    # Yardi rent roll exports for validation
 ```
 
 ## Key Commands and Tasks
 
-### Power BI Development
+### Python Validation Scripts
 ```bash
-# No traditional build/test commands - this is a Power BI solution
-# Key development activities:
+# Run complete rent roll workflow (filter → generate → validate)
+cd Development/Python_Scripts
+python run_complete_workflow.py
 
-# 1. Import data model using Power Query
-# 2. Apply DAX measures from Complete_DAX_Library_Production_Ready.dax
-# 3. Validate accuracy against Yardi reports (95%+ target)
-# 4. Test dashboard performance (<10 second load time)
+# Validate top 20 DAX measures accuracy
+python top_20_measures_accuracy_test.py
+
+# Validate amendment logic
+python amendment_logic_validator.py
+
+# Analyze orphaned records
+python orphaned_records_analysis.py
+
+# Validate DAX syntax
+python dax_syntax_validator.py
+
+# Generate rent roll for specific date
+python generate_rent_roll_for_date.py --date "2025-06-30"
+
+# Clean up data issues
+python data_cleanup_execution.py
+```
+
+### Test Automation Framework
+```bash
+# Run complete test orchestration
+cd Development/Test_Automation_Framework
+python test_orchestrator.py --all
+
+# Run specific test suites
+python powerbi_validation_suite.py          # Data integrity validation
+python accuracy_validation_enhanced.py      # Enhanced accuracy tests
+python performance_test_suite.py           # Performance benchmarks
+python data_quality_tests.py              # Data quality validation
+python regression_testing_framework.py     # Regression testing
 ```
 
 ### Data Validation SQL
@@ -45,6 +92,12 @@ WHERE status IN ('Activated', 'Superseded')
 SELECT COUNT(*) FROM fact_total f
 LEFT JOIN dim_property p ON f.property_id = p.property_id
 WHERE p.property_id IS NULL
+
+-- Validate charge schedule integration
+SELECT COUNT(*) FROM dim_fp_amendmentchargeschedule
+WHERE amendment_hmy NOT IN (
+    SELECT hmy FROM dim_fp_amendmentsunitspropertytenant
+)
 ```
 
 ## High-Level Architecture
@@ -153,3 +206,39 @@ Before deployment, ensure:
 - Financial measures: 98%+ accuracy vs GL data
 - Dashboard performance: <10 second load times
 - All 122 DAX measures execute without errors
+
+## Key Production Files
+
+### DAX Measures (Use v4 Production)
+- **Primary**: `Documentation/Core_Guides/Complete_DAX_Library_v4_Performance_Optimized.dax`
+- **Clean Reference**: `Claude_AI_Reference/DAX_Measures/Complete_DAX_Library_v4_Production.dax`
+- **Top 20**: `Claude_AI_Reference/DAX_Measures/Top_20_Essential_Measures.dax`
+
+### Critical Data Tables
+- `dim_fp_amendmentsunitspropertytenant` - Core table for rent roll (must filter latest sequence)
+- `dim_fp_amendmentchargeschedule` - Charge details linked to amendments
+- `fact_total` - Financial transactions (revenue/expenses)
+- `fact_occupancyrentarea` - Occupancy metrics by property/month
+
+### Validation Workflows
+```python
+# Standard validation workflow for any DAX changes
+# 1. Run syntax validation
+python Development/Python_Scripts/dax_syntax_validator.py
+
+# 2. Test amendment logic
+python Development/Python_Scripts/amendment_logic_validator.py
+
+# 3. Run accuracy tests
+python Development/Python_Scripts/top_20_measures_accuracy_test.py
+
+# 4. Full test orchestration
+python Development/Test_Automation_Framework/test_orchestrator.py --all
+```
+
+## Working with Fund-Specific Data
+
+When filtering for specific funds:
+1. Use filtered data in `Data/Fund2_Filtered/` for Fund 2
+2. Run `python Development/Python_Scripts/filter_fund2_data.py` to regenerate
+3. Validate with `python Development/Fund2_Validation_Results/validate_fund2_accuracy.py`

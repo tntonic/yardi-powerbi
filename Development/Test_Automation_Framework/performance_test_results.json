@@ -1,0 +1,489 @@
+{
+  "suite_start_time": "2025-08-09T03:58:18.569892",
+  "dax_measure_results": [
+    {
+      "test_id": "DAX_CURRENT_MONTHLY_RENT",
+      "test_name": "Current Monthly Rent",
+      "category": "Rent Roll",
+      "operation": "Current Monthly Rent calculation with latest amendment WITH charges logic",
+      "execution_time": 0.009878158569335938,
+      "target_time": 3.0,
+      "memory_usage_mb": 9753.984375,
+      "cpu_usage_pct": 0.0,
+      "data_size": 877,
+      "status": "PASS",
+      "performance_grade": "A",
+      "details": {
+        "calculation_result": {
+          "total_monthly_rent": 6922430.698899,
+          "records_processed": 877,
+          "amendments_with_charges": 244,
+          "latest_amendments": 242
+        },
+        "resource_metrics": {
+          "duration": 1,
+          "avg_cpu_percent": 0.0,
+          "max_cpu_percent": 0.0,
+          "avg_memory_mb": 9753.984375,
+          "max_memory_mb": 9753.984375,
+          "avg_disk_io_read": 11484430841856.0,
+          "avg_disk_io_write": 13780519706624.0,
+          "raw_metrics": [
+            {
+              "timestamp": "2025-08-09 03:58:18.570376",
+              "cpu_percent": 0.0,
+              "memory_mb": 9753.984375,
+              "memory_percent": 74.0,
+              "disk_io_read": 11484430841856,
+              "disk_io_write": 13780519706624
+            }
+          ]
+        },
+        "complexity": "High"
+      },
+      "recommendations": [
+        "High memory usage detected - optimize data structures"
+      ],
+      "timestamp": "2025-08-09T03:58:18.569935"
+    },
+    {
+      "test_id": "DAX_CURRENT_LEASED_SF",
+      "test_name": "Current Leased SF",
+      "category": "Rent Roll",
+      "operation": "Current Leased SF calculation with latest amendment WITH charges logic",
+      "execution_time": 0.005347013473510742,
+      "target_time": 2.5,
+      "memory_usage_mb": 9752.65625,
+      "cpu_usage_pct": 29.0,
+      "data_size": 877,
+      "status": "PASS",
+      "performance_grade": "A",
+      "details": {
+        "calculation_result": {
+          "total_leased_sf": 363000,
+          "records_processed": 877,
+          "latest_amendments": 242
+        },
+        "resource_metrics": {
+          "duration": 1,
+          "avg_cpu_percent": 29.0,
+          "max_cpu_percent": 29.0,
+          "avg_memory_mb": 9752.65625,
+          "max_memory_mb": 9752.65625,
+          "avg_disk_io_read": 11484431951872.0,
+          "avg_disk_io_write": 13780522430464.0,
+          "raw_metrics": [
+            {
+              "timestamp": "2025-08-09 03:58:19.576195",
+              "cpu_percent": 29.0,
+              "memory_mb": 9752.65625,
+              "memory_percent": 74.0,
+              "disk_io_read": 11484431951872,
+              "disk_io_write": 13780522430464
+            }
+          ]
+        },
+        "complexity": "High"
+      },
+      "recommendations": [
+        "High memory usage detected - optimize data structures"
+      ],
+      "timestamp": "2025-08-09T03:58:19.575688"
+    },
+    {
+      "test_id": "DAX_WALT_(MONTHS)",
+      "test_name": "WALT (Months)",
+      "category": "Leasing",
+      "operation": "WALT (Weighted Average Lease Term) calculation",
+      "execution_time": 0.01194000244140625,
+      "target_time": 4.0,
+      "memory_usage_mb": 9757.390625,
+      "cpu_usage_pct": 26.1,
+      "data_size": 877,
+      "status": "PASS",
+      "performance_grade": "A",
+      "details": {
+        "calculation_result": {
+          "walt_months": 35.405395931338575,
+          "records_processed": 877,
+          "walt_calculations": 242
+        },
+        "resource_metrics": {
+          "duration": 1,
+          "avg_cpu_percent": 26.1,
+          "max_cpu_percent": 26.1,
+          "avg_memory_mb": 9757.390625,
+          "max_memory_mb": 9757.390625,
+          "avg_disk_io_read": 11484432300032.0,
+          "avg_disk_io_write": 13780535394304.0,
+          "raw_metrics": [
+            {
+              "timestamp": "2025-08-09 03:58:20.587384",
+              "cpu_percent": 26.1,
+              "memory_mb": 9757.390625,
+              "memory_percent": 74.1,
+              "disk_io_read": 11484432300032,
+              "disk_io_write": 13780535394304
+            }
+          ]
+        },
+        "complexity": "High"
+      },
+      "recommendations": [
+        "High memory usage detected - optimize data structures"
+      ],
+      "timestamp": "2025-08-09T03:58:20.586890"
+    },
+    {
+      "test_id": "DAX_CURRENT_RENT_ROLL_PSF",
+      "test_name": "Current Rent Roll PSF",
+      "category": "Rent Roll",
+      "operation": "Current Rent Roll PSF calculation",
+      "execution_time": 0.009801864624023438,
+      "target_time": 2.0,
+      "memory_usage_mb": 9767.453125,
+      "cpu_usage_pct": 25.2,
+      "data_size": 877,
+      "status": "PASS",
+      "performance_grade": "A",
+      "details": {
+        "calculation_result": {
+          "annual_rent_psf": 228.84068426112395,
+          "total_monthly_rent": 6922430.698899,
+          "total_leased_sf": 363000,
+          "records_processed": 877
+        },
+        "resource_metrics": {
+          "duration": 1,
+          "avg_cpu_percent": 25.2,
+          "max_cpu_percent": 25.2,
+          "avg_memory_mb": 9767.453125,
+          "max_memory_mb": 9767.453125,
+          "avg_disk_io_read": 11484432533504.0,
+          "avg_disk_io_write": 13780541935616.0,
+          "raw_metrics": [
+            {
+              "timestamp": "2025-08-09 03:58:21.598566",
+              "cpu_percent": 25.2,
+              "memory_mb": 9767.453125,
+              "memory_percent": 74.1,
+              "disk_io_read": 11484432533504,
+              "disk_io_write": 13780541935616
+            }
+          ]
+        },
+        "complexity": "Medium"
+      },
+      "recommendations": [
+        "High memory usage detected - optimize data structures"
+      ],
+      "timestamp": "2025-08-09T03:58:21.597999"
+    },
+    {
+      "test_id": "DAX_PHYSICAL_OCCUPANCY_%",
+      "test_name": "Physical Occupancy %",
+      "category": "Occupancy",
+      "operation": "Physical Occupancy % calculation",
+      "execution_time": 0.09072113037109375,
+      "target_time": 1.0,
+      "memory_usage_mb": 9770.34375,
+      "cpu_usage_pct": 25.1,
+      "data_size": 601319,
+      "status": "PASS",
+      "performance_grade": "A",
+      "details": {
+        "calculation_result": {
+          "physical_occupancy_pct": 23.755748483125124,
+          "total_rentable": "33108655076",
+          "total_occupied": 7865208826.0,
+          "records_processed": 601319
+        },
+        "resource_metrics": {
+          "duration": 1,
+          "avg_cpu_percent": 25.1,
+          "max_cpu_percent": 25.1,
+          "avg_memory_mb": 9770.34375,
+          "max_memory_mb": 9770.34375,
+          "avg_disk_io_read": 11484432873472.0,
+          "avg_disk_io_write": 13780554141696.0,
+          "raw_metrics": [
+            {
+              "timestamp": "2025-08-09 03:58:22.609672",
+              "cpu_percent": 25.1,
+              "memory_mb": 9770.34375,
+              "memory_percent": 74.1,
+              "disk_io_read": 11484432873472,
+              "disk_io_write": 13780554141696
+            }
+          ]
+        },
+        "complexity": "Low"
+      },
+      "recommendations": [
+        "High memory usage detected - optimize data structures"
+      ],
+      "timestamp": "2025-08-09T03:58:22.609214"
+    },
+    {
+      "test_id": "ERR_TOTAL_REVENUE",
+      "test_name": "Total Revenue",
+      "category": "Error",
+      "operation": "Test execution failed",
+      "execution_time": 0.0,
+      "target_time": 0.0,
+      "memory_usage_mb": 0.0,
+      "cpu_usage_pct": 0.0,
+      "data_size": 0,
+      "status": "FAIL",
+      "performance_grade": "F",
+      "details": {
+        "error": "'account code'"
+      },
+      "recommendations": [
+        "Fix test execution error and retry"
+      ],
+      "timestamp": "2025-08-09T03:58:23.732223"
+    },
+    {
+      "test_id": "ERR_NOI_(NET_OPERATING_INCOME)",
+      "test_name": "NOI (Net Operating Income)",
+      "category": "Error",
+      "operation": "Test execution failed",
+      "execution_time": 0.0,
+      "target_time": 0.0,
+      "memory_usage_mb": 0.0,
+      "cpu_usage_pct": 0.0,
+      "data_size": 0,
+      "status": "FAIL",
+      "performance_grade": "F",
+      "details": {
+        "error": "'account code'"
+      },
+      "recommendations": [
+        "Fix test execution error and retry"
+      ],
+      "timestamp": "2025-08-09T03:58:23.841788"
+    },
+    {
+      "test_id": "DAX_LEASES_EXPIRING_(NEXT_12_MONTHS)",
+      "test_name": "Leases Expiring (Next 12 Months)",
+      "category": "Leasing",
+      "operation": "Leases Expiring (Next 12 Months) calculation",
+      "execution_time": 0.007451057434082031,
+      "target_time": 3.5,
+      "memory_usage_mb": 9891.25,
+      "cpu_usage_pct": 0.0,
+      "data_size": 877,
+      "status": "PASS",
+      "performance_grade": "A",
+      "details": {
+        "calculation_result": {
+          "expiring_leases_count": 65,
+          "records_processed": 877,
+          "latest_amendments": 242
+        },
+        "resource_metrics": {
+          "duration": 1,
+          "avg_cpu_percent": 0.0,
+          "max_cpu_percent": 0.0,
+          "avg_memory_mb": 9891.25,
+          "max_memory_mb": 9891.25,
+          "avg_disk_io_read": 11484459800576.0,
+          "avg_disk_io_write": 13780569411584.0,
+          "raw_metrics": [
+            {
+              "timestamp": "2025-08-09 03:58:23.844497",
+              "cpu_percent": 0.0,
+              "memory_mb": 9891.25,
+              "memory_percent": 74.6,
+              "disk_io_read": 11484459800576,
+              "disk_io_write": 13780569411584
+            }
+          ]
+        },
+        "complexity": "High"
+      },
+      "recommendations": [
+        "High memory usage detected - optimize data structures"
+      ],
+      "timestamp": "2025-08-09T03:58:23.843984"
+    }
+  ],
+  "dashboard_results": [
+    {
+      "test_id": "DASH_EXECUTIVE_SUMMARY_DASHBOARD",
+      "test_name": "Executive Summary Dashboard",
+      "category": "Dashboard",
+      "operation": "Dashboard loading simulation",
+      "execution_time": 14.77225515320163,
+      "target_time": 8.0,
+      "memory_usage_mb": 0,
+      "cpu_usage_pct": 0,
+      "data_size": 12,
+      "status": "FAIL",
+      "performance_grade": "F",
+      "details": {
+        "measures_count": 12,
+        "complexity": "High",
+        "actual_execution_time": 0.18197202682495117,
+        "simulated_load_time": 14.77225515320163
+      },
+      "recommendations": [
+        "Dashboard load time 14.8s exceeds target 8.0s",
+        "Optimize DAX measures for better performance",
+        "Consider splitting complex dashboard into multiple views"
+      ],
+      "timestamp": "2025-08-09T03:58:24.846822"
+    },
+    {
+      "test_id": "DASH_RENT_ROLL_DASHBOARD",
+      "test_name": "Rent Roll Dashboard",
+      "category": "Dashboard",
+      "operation": "Dashboard loading simulation",
+      "execution_time": 13.007362642846404,
+      "target_time": 10.0,
+      "memory_usage_mb": 0,
+      "cpu_usage_pct": 0,
+      "data_size": 8,
+      "status": "FAIL",
+      "performance_grade": "F",
+      "details": {
+        "measures_count": 8,
+        "complexity": "Very High",
+        "actual_execution_time": 0.11736083030700684,
+        "simulated_load_time": 13.007362642846404
+      },
+      "recommendations": [
+        "Dashboard load time 13.0s exceeds target 10.0s",
+        "Very high complexity dashboard - implement aggregation tables",
+        "Consider incremental refresh for large datasets",
+        "Optimize DAX measures for better performance",
+        "Consider splitting complex dashboard into multiple views"
+      ],
+      "timestamp": "2025-08-09T03:58:25.028817"
+    },
+    {
+      "test_id": "DASH_FINANCIAL_PERFORMANCE_DASHBOARD",
+      "test_name": "Financial Performance Dashboard",
+      "category": "Dashboard",
+      "operation": "Dashboard loading simulation",
+      "execution_time": 9.046918827927481,
+      "target_time": 6.0,
+      "memory_usage_mb": 0,
+      "cpu_usage_pct": 0,
+      "data_size": 10,
+      "status": "FAIL",
+      "performance_grade": "F",
+      "details": {
+        "measures_count": 10,
+        "complexity": "Medium",
+        "actual_execution_time": 0.14826011657714844,
+        "simulated_load_time": 9.046918827927481
+      },
+      "recommendations": [
+        "Dashboard load time 9.0s exceeds target 6.0s",
+        "Optimize DAX measures for better performance",
+        "Consider splitting complex dashboard into multiple views"
+      ],
+      "timestamp": "2025-08-09T03:58:25.146199"
+    },
+    {
+      "test_id": "DASH_LEASING_ACTIVITY_DASHBOARD",
+      "test_name": "Leasing Activity Dashboard",
+      "category": "Dashboard",
+      "operation": "Dashboard loading simulation",
+      "execution_time": 11.922700934166672,
+      "target_time": 7.0,
+      "memory_usage_mb": 0,
+      "cpu_usage_pct": 0,
+      "data_size": 9,
+      "status": "FAIL",
+      "performance_grade": "F",
+      "details": {
+        "measures_count": 9,
+        "complexity": "High",
+        "actual_execution_time": 0.13178277015686035,
+        "simulated_load_time": 11.922700934166672
+      },
+      "recommendations": [
+        "Dashboard load time 11.9s exceeds target 7.0s",
+        "Optimize DAX measures for better performance",
+        "Consider splitting complex dashboard into multiple views"
+      ],
+      "timestamp": "2025-08-09T03:58:25.294484"
+    }
+  ],
+  "load_test_results": [
+    {
+      "test_name": "Concurrent Users: 1",
+      "concurrent_users": 1,
+      "total_requests": 10,
+      "successful_requests": 10,
+      "failed_requests": 0,
+      "avg_response_time": 2.6509978537633683,
+      "max_response_time": 4.037566724798386,
+      "min_response_time": 1.8651830201987951,
+      "requests_per_second": 9.169264509517069,
+      "error_rate": 0.0,
+      "status": "PASS"
+    },
+    {
+      "test_name": "Concurrent Users: 5",
+      "concurrent_users": 5,
+      "total_requests": 40,
+      "successful_requests": 40,
+      "failed_requests": 0,
+      "avg_response_time": 2.3352313428593234,
+      "max_response_time": 5.112362623557624,
+      "min_response_time": 0.6048376936581976,
+      "requests_per_second": 46.66645526981748,
+      "error_rate": 0.0,
+      "status": "PASS"
+    },
+    {
+      "test_name": "Concurrent Users: 10",
+      "concurrent_users": 10,
+      "total_requests": 50,
+      "successful_requests": 50,
+      "failed_requests": 0,
+      "avg_response_time": 2.4827243581499796,
+      "max_response_time": 4.100191934582175,
+      "min_response_time": 1.0367806705284286,
+      "requests_per_second": 91.92310052511155,
+      "error_rate": 0.0,
+      "status": "PASS"
+    },
+    {
+      "test_name": "Concurrent Users: 20",
+      "concurrent_users": 20,
+      "total_requests": 60,
+      "successful_requests": 60,
+      "failed_requests": 0,
+      "avg_response_time": 2.487629851207261,
+      "max_response_time": 4.334057545139754,
+      "min_response_time": 0.912507660376493,
+      "requests_per_second": 181.30004408980489,
+      "error_rate": 0.0,
+      "status": "PASS"
+    }
+  ],
+  "overall_summary": {
+    "total_tests": 16,
+    "passed_tests": 10,
+    "failed_tests": 6,
+    "warning_tests": 0,
+    "overall_grade": "D",
+    "critical_issues": [
+      "Total Revenue: 0.00s exceeds 0.00s target",
+      "NOI (Net Operating Income): 0.00s exceeds 0.00s target",
+      "Executive Summary Dashboard: 14.77s exceeds 8.00s target",
+      "Rent Roll Dashboard: 13.01s exceeds 10.00s target",
+      "Financial Performance Dashboard: 9.05s exceeds 6.00s target",
+      "Leasing Activity Dashboard: 11.92s exceeds 7.00s target"
+    ],
+    "performance_recommendations": [
+      "Address critical performance failures before production"
+    ]
+  },
+  "suite_end_time": "2025-08-09T03:58:28.249522"
+}

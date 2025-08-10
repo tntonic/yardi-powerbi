@@ -1,0 +1,106 @@
+WITH DistinctUnitCodes AS (
+  SELECT
+    DISTINCT ux.htenant,
+    u.scode
+  FROM
+    unitxref ux
+    INNER JOIN unit u ON u.hmy = ux.hunit
+),
+LeaseData AS (
+  SELECT
+    p.sCode AS "Property Code",
+    t.scode AS "Lease Code",
+    p.sAddr2 AS "Property Address",
+    p.sState AS "Property State",
+    a.SUBGROUP26 AS "Market",
+    a.SUBGROUP27 AS "Fund",
+    a.SUBGROUP32 AS "ACQ Status",
+    a.SUBGROUP34 AS "Legal Entity",
+    a.SUBGROUP28 AS "Asset Manager",
+    t.SLASTNAME AS "Tenant Name",
+    CASE WHEN t.iSTATUS = 0 THEN 'Current' WHEN t.iSTATUS = 1 THEN 'Past' WHEN t.iSTATUS = 2 THEN 'Future' ELSE 'Unknown' END AS "Lease Status",
+    CASE WHEN ca.iType = 0 THEN 'Original Lease' WHEN ca.iType = 1 THEN 'Renewal' WHEN ca.iType = 2 THEN 'Expansion' WHEN ca.iType = 3 THEN 'Contraction' WHEN ca.iType = 4 THEN 'Termination' WHEN ca.iType = 5 THEN 'Holdover' WHEN ca.iType = 6 THEN 'Modification' WHEN ca.iType = 7 THEN 'Remeasure' WHEN ca.iType = 8 THEN 'Month to month' WHEN ca.iType = 9 THEN 'Assignment' WHEN ca.iType = 10 THEN 'Sublease' WHEN ca.iType = 12 THEN 'Remeasure' WHEN ca.iType = 13 THEN 'Proposal in DM' WHEN ca.iType = 15 THEN 'Relocation' WHEN ca.iType = 20 THEN 'License Agreement' ELSE 'Unknown' END AS "Amendment Type",
+    CASE WHEN ca.iStatus = 0 THEN 'In Process' WHEN ca.iStatus = 1 THEN 'Activated' WHEN ca.iStatus = 2 THEN 'Superseded' WHEN ca.iStatus = 4 THEN 'Cancelled' ELSE 'Other' END AS "Amendment Status",
+    ca.iSequence AS "Amendment Sequence",
+    ca.dContractArea AS "Contract Area",
+    ca.dRent AS "Rent",
+    ca.iTerm AS "Term",
+    ca.dtStart AS "Start Date",
+    ca.dtEnd AS "End Date",
+    ca.dtSign AS "Sign Date",
+    ca.sDesc AS "Description",
+    t.iSTATUS AS "Tenant Status",
+    t.HMYPERSON AS "Tenant HMY",
+    ca.hTenant AS "Amendment Tenant",
+    p.HMY AS "Property HMY",
+    ct.hCommICS AS "Comm ICS",
+    STUFF(
+      (
+        SELECT
+          ', ' + du.scode
+        FROM
+          DistinctUnitCodes du
+        WHERE
+          du.htenant = t.hmyperson
+        ORDER BY
+          du.scode FOR XML PATH(''),
+          TYPE
+      ).value('.', 'VARCHAR(MAX)'),
+      1,
+      2,
+      ''
+    ) AS unit_scodes_concatenated
+  FROM
+    CommAmendments ca
+    JOIN tenant t ON ca.hTenant = t.HMYPERSON
+    JOIN Property p ON t.HPROPERTY = p.HMY
+    JOIN Attributes a ON t.HPROPERTY = a.HPROP
+    LEFT JOIN CommTenant ct ON t.HMYPERSON = ct.hTenant
+  WHERE
+    ca.iStatus NOT IN (0, 3, 4)
+    AND t.iSTATUS != 10
+    AND p.sCode NOT LIKE 'mp%'
+    AND t.scode NOT LIKE 'ml%'
+    AND a.SUBGROUP32 IN ('Sold', 'Acquired')
+),
+FinalData AS (
+  SELECT
+    ld.*,
+    ci.SCODE AS "Comm ICS Code",
+    ci.SDESC AS "Comm ICS Description"
+  FROM
+    LeaseData ld
+    LEFT JOIN CommICS ci ON ld."Comm ICS" = ci.HMY
+)
+SELECT
+  fd."Property Code",
+  fd."Property Address",
+  fd."Property State",
+  fd."Market",
+  fd."Fund",
+  fd."Legal Entity",
+  fd."ACQ Status",
+  fd."Asset Manager",
+  fd."Lease Code",
+  fd."Tenant Name",
+  fd."Lease Status",
+  fd."Amendment Type",
+  fd."Amendment Status",
+  fd."Amendment Sequence",
+  fd.unit_scodes_concatenated,
+  fd."Contract Area",
+  fd."Rent",
+  fd."Term",
+  fd."Start Date",
+  fd."End Date",
+  fd."Sign Date",
+  fd."Description",
+  fd."Tenant Status",
+  fd."Tenant HMY",
+  fd."Amendment Tenant",
+  fd."Property HMY",
+  fd."Comm ICS",
+  fd."Comm ICS Code",
+  fd."Comm ICS Description"
+FROM
+  FinalData fd;

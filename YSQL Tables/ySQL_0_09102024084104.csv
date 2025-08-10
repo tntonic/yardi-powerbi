@@ -1,0 +1,496 @@
+Property Code,Unit Code,Last Updated,Office%,WH Lights,Office Lights,Elect. Panel,Sensors,Lights replaced by FP?,In unit meter,Submeter,Elec. Power VOLTS,Elec. Power AMPS,Elec. Connection,WH Heating,WH Conditioned ,WH Tonnage,Office Conditioned,Office Tonnage,HVAC Panel,Hazard usage,Hazard Materials ,Hazard Notes,# Drive ins ,# Dock Doord
+"gacre100",100     ,"2024-10-03 00:00:00",100,"N/A","","N/A","No","No","N/A","No",,,"N/A","N/A","N/A",,"Yes",,"N/A","No",,,,
+"gacre100",1000    ,"2024-10-03 00:00:00",100,"N/A","","N/A","No","No","N/A","No",,,"N/A","N/A","N/A",,"Yes",,"Yes","No",,,,
+"gacre100",102     ,"2024-10-03 00:00:00",100,"N/A","","N/A","No","No","N/A","No",,,"N/A","N/A","N/A",,"Yes",,"N/A","No",,,,
+"gacre100",1025    ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","No",,,,
+"gacre100",104     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","No",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",110     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",1100    ,"2024-10-03 00:00:00",100,"Fluorescent/HID","","N/A","N/A","No","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",120     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",1200    ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",1250    ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",1290    ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",180     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",190     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",200     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",220     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",240     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",260     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",290     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",300     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",320     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",330     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",340     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",350     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",390     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",395     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",400     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",450     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",475     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",500     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",520     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",550     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",575     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",600     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",620     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",625     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",650     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",655     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",660     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",670     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",680     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",700     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",800     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",900     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100",950     ,"2024-10-03 00:00:00",100,"N/A","","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"Yes",,"N/A","N/A",,,,
+"gacre100","ROOF    ","2024-10-07 00:00:00",0,"N/A","N/A","N/A","N/A","N/A","N/A","N/A",0,0,"N/A","N/A","N/A",0,"N/A",0,"N/A","N/A",,,0,0
+"nikedeal",100     ,"2024-04-17 00:00:00",8,"LED","LED","Programmable","Yes","No","Yes","N/A",480,4000,"3 Phase","Gas Heaters","No",50,"Yes",10,"Yes","No","","4000 & 3000",0,0
+"xtndelp1",4290    ,"2024-09-17 00:00:00",0,"High-Intensity Discharge","LED","Yes","Yes","No","Yes","No",480,600,"N/A","Gas Heaters","No",0,"Yes",6,"Yes","No","","",,
+"xtndelp1",4310    ,"2024-03-08 00:00:00",0,"LED","LED","Yes","No","Yes","Yes","No",240,225,"N/A","Gas Heaters","No",0,"Yes",3,"Yes","No","","",,
+"xtndelp1",4318    ,"2024-03-08 00:00:00",0,"Fluorescent","Fluorescent","Yes","No","No","Yes","No",240,225,"N/A","Gas Heaters","No",0,"Yes",5,"Yes","No","","",,
+"xtndelp1",4354    ,"2024-03-08 00:00:00",0,"Fluorescent","Fluorescent","Yes","No","No","Yes","No","600/250",400,"N/A","Gas Heaters","No",0,"Yes",7.5,"Yes","No","","",,
+"xtxwebbl",7903    ,"2024-03-08 00:00:00",6,"LED","Fluorescent","Yes","No","No","Yes","No","120/240",200,"3 Phase","Gas Heaters","No",0,"Yes",4,"Yes","No","","",,
+"xflstuar",6959    ,"2024-03-08 00:00:00",14,"LED","Fluorescent","No","No","No","Yes","No","277/480",3000,"3 Phase","None","No",32,"Yes",32,"Yes","No","","",,
+"xohmost ","A       ","2024-10-07 00:00:00",,"","","No","No","No","Yes","No",,,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xohmost ","B       ","2024-10-07 00:00:00",,"","","No","No","No","Yes","No",,,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xohmost ","C       ","2024-10-07 00:00:00",,"","","No","No","No","Yes","No",,,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xohmost ","D       ","2024-10-07 00:00:00",,"","","No","No","No","Yes","No",,,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xohmost ","PARK    ","2024-10-07 00:00:00",0,"N/A","N/A","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",0,"N/A",0,"N/A","N/A",,,0,0
+"xnj6000i",6000    ,"2024-03-22 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","N/A",0,"N/A",0,"N/A","N/A","","",,
+"xtxball ",9615    ,"2024-10-07 00:00:00",10,"LED","LED","Yes","No","No","Yes","No","480/277",1200,"3 Phase","Gas Heaters","No",,"Yes",10,"Yes","No",,,,
+"xgahire1",196     ,"2024-10-03 00:00:00",29,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",1200,"3 Phase","Gas Heaters","No",0,"Yes",33,"No","No",,,,
+"xgahire2",201     ,"2024-10-03 00:00:00",5.5,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",600,"3 Phase","Gas Heaters","No",,"Yes",5.5,"No","No",,,,
+"xgahire3",210     ,"2024-10-03 00:00:00",12,"LED","Fluorescent","No","No","No","Yes","No","120/208",400,"3 Phase","Gas Heaters","No",,"Yes",8,"No","No",,,,
+"xgahire4",224     ,"2024-10-03 00:00:00",29,"LED","Fluorescent","No","No","No","Yes","No","120/208",400,"3 Phase","Gas Heaters","No",,"Yes",18.5,"No","No",,,,
+"xgahire5",246     ,"2024-10-03 00:00:00",10,"LED","Fluorescent","No","No","No","Yes","No","120/208",600,"3 Phase","Gas Heaters","No",,"Yes",11,"No","No",,,,
+"xgahire6",252     ,"2024-10-03 00:00:00",37,"LED","Fluorescent","No","No","No","Yes","No","120/208",425,"3 Phase","Gas Heaters","No",,"Yes",14,"No","No",,,,
+"xgahire7",2980    ,"2024-10-03 00:00:00",16,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",600,"3 Phase","Gas Heaters","No",,"Yes",7,"No","No",,,,
+"xgahire8",3000    ,"2024-10-03 00:00:00",16,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",400,"3 Phase","Gas Heaters","No",,"Yes",4.5,"No","No",,,,
+"mp000059",165     ,"2024-09-30 00:00:00",3.7,"N/A","N/A","Yes","Yes","No","Yes","No","477/480 and 208/120 volt",1200,"3 Phase","Gas Heaters","No",0,"Yes",16.5,"Yes","No",,,42,1
+"xnjmway5","ANT-A   ","2024-10-07 00:00:00",0,"N/A","N/A","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",0,"N/A",0,"N/A","N/A",,,0,0
+"xnjmway5","ANT-B   ","2024-10-07 00:00:00",0,"N/A","N/A","N/A","N/A","N/A","N/A","N/A",0,0,"N/A","Other","N/A",0,"N/A",0,"N/A","N/A",,,0,0
+"xgashaw1",986     ,"2024-10-03 00:00:00",20,"Fluorescent/LED","Fluorescent","No","No","No","Yes","No","277/480",600,"3 Phase","Gas Heaters","No",,"Yes",8,"No","No",,,,
+"xgashaw2",922     ,"2024-10-03 00:00:00",16,"LED","Fluorescent","No","No","No","Yes","No","120/240",800,"3 Phase","Gas Heaters","No",,"Yes",10,"No","No",,,,
+"xgashaw3",899     ,"2024-10-03 00:00:00",7,"LED","Fluorescent","No","No","No","Yes","No","120/208",1200,"3 Phase","Gas Heaters","No",,"Yes",12.5,"No","No",,,,
+"xgashaw4",300     ,"2024-10-03 00:00:00",1.4,"LED","LED","No","No","No","Yes","No","277/480",600,"3 Phase","Gas Heaters","No",,"Yes",4.5,"No","No",,,,
+"xgashaw5",200     ,"2024-10-03 00:00:00",8.45,"LED","LED","No","No","No","Yes","No","277/480",1200,"3 Phase","Gas Heaters","No",,"Yes",7,"No","No",,,,
+"xgashaw6",100     ,"2024-10-03 00:00:00",23,"LED","LED","No","No","No","Yes","No","277/480",600,"3 Phase","Gas Heaters","No",,"Yes",10,"No","No",,,,
+"xtxglen ",3113    ,"2024-10-07 00:00:00",1.17,"Fluorescent","Fluorescent","Yes","No","No","Yes","No",240,200,"3 Phase","Gas Heaters","No",0,"Yes",9,"Yes","No",,,,
+"xgamc200",4200    ,"2024-10-03 00:00:00",9.7,"Fluorescent/LED","Fluorescent","No","No","No","Yes","No","277/480",800,"3 Phase","Packaged Units","No",,"Yes",,"No","No",,,,
+"xgamc220",4220    ,"2024-10-07 00:00:00",10,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",600,"3 Phase","Gas Heaters","No",0,"Yes",18,"Yes","No",,,,
+"xgamc220","MEZZ    ","2024-10-07 00:00:00",0,"N/A","N/A","N/A","N/A","N/A","N/A","N/A",0,0,"N/A","N/A","N/A",0,"N/A",0,"N/A","N/A",,,0,0
+"xgamc255",4255    ,"2024-04-19 00:00:00",8,"Fluorescent","Fluorescent","No","No","No","Yes","N/A","277/480",600,"3 Phase","Gas Heaters","No",0,"Yes",6,"No","No","","",0,0
+"xgamc255","MEZZ    ","2024-10-03 00:00:00",0,"N/A","N/A","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"N/A",,"N/A","N/A",,,,
+"xgamc260",4260    ,"2024-10-03 00:00:00",7,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",400,"3 Phase","Gas Heaters","No",,"No",,"No","No",,,,
+"xilmitch",561     ,"2024-10-07 00:00:00",18,"","","No","No","No","Yes","No","277/480",800,"3 Phase","Gas Heaters","No",,"Yes",12,"No","No",,,,
+"xtxmorto",100     ,"2024-10-07 00:00:00",14,"Fluorescent","Fluorescent","Yes","No","No","Yes","No","277/480",4000,"3 Phase","Gas Heaters","No",,"Yes",,"Yes","No",,,,
+"xtxmorto",106     ,"2024-10-07 00:00:00",4,"Fluorescent","Fluorescent","Yes","No","No","Yes","No","277/480",4000,"3 Phase","Gas Heaters","No",,"Yes",,"Yes","No",,,,
+"xtxritti",1       ,"2024-03-22 00:00:00",0,"Fluorescent","Fluorescent","Yes","No","No","Yes","No","",0,"N/A","None","No",0,"No",0,"No","No","","",,
+"xtxritti",2       ,"2024-03-22 00:00:00",15.62,"Fluorescent","","Yes","No","No","Yes","No","120/240",125,"N/A","Other","No",0,"Yes",2,"Yes","No","","",,
+"xtxritti",3       ,"2024-03-22 00:00:00",16,"Fluorescent","Fluorescent","Yes","No","No","Yes","No","208/120",600,"N/A","Other","No",0,"Yes",4,"Yes","No","","",,
+"xtxritti",4       ,"2024-04-17 00:00:00",20.41,"Fluorescent","Fluorescent","Yes","No","No","Yes","N/A","120/240",200,"N/A","Other","No",0,"Yes",4,"Yes","No","","",,
+"xtxritti",5       ,"2024-03-22 00:00:00",21.65,"Fluorescent","Fluorescent","Yes","No","No","Yes","No","120/240",150,"N/A","Other","No",0,"Yes",10,"Yes","No","","",,
+"xtxritti",6       ,"2024-03-22 00:00:00",7.23,"Fluorescent","Fluorescent","Yes","No","No","Yes","No","208/150",400,"N/A","Other","No",0,"Yes",10,"Yes","No","","",,
+"xtxritti",7       ,"2024-04-17 00:00:00",4.87,"Fluorescent","Fluorescent","Yes","No","No","Yes","N/A","",0,"N/A","None","No",0,"Yes",0,"Yes","No","","",,
+"xtxritti",8       ,"2024-04-17 00:00:00",4.02,"Fluorescent","Fluorescent","Yes","No","No","Yes","N/A","",0,"3 Phase","Packaged Units","No",0,"Yes",9,"Yes","No","","",0,0
+"xohcomme",10021   ,"2024-10-07 00:00:00",4,"LED","LED","No","No","No","Yes","No","277/480",400,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xilmount",1       ,"2024-03-08 00:00:00",10,"","","No","No","No","Yes","No",240,225,"3 Phase","Gas Heaters","No",0,"Yes",22.5,"No","No","","",,
+"xtn225bo",101     ,"2024-03-08 00:00:00",0,"High-Intensity Discharge","Fluorescent","Yes","No","No","Yes","No","277/480",225,"3 Phase","Gas Heaters","No",0,"Yes",9,"Yes","No","","",,
+"xtn225bo",103     ,"2024-03-08 00:00:00",0,"High-Intensity Discharge","Fluorescent","Yes","No","No","Yes","No","277/480",225,"3 Phase","Gas Heaters","No",0,"Yes",30,"Yes","No","","",,
+"xtn225bo",229     ,"2024-03-08 00:00:00",0,"LED","Fluorescent","Yes","No","No","Yes","No","277/480",225,"3 Phase","Gas Heaters","No",0,"Yes",13,"Yes","No","","",,
+"xil747  ",747     ,"2024-10-07 00:00:00",3,"LED","Fluorescent","No","No","No","Yes","No","277/480",3000,"3 Phase","Gas Heaters","No",,"Yes",27,"No","No",,,,
+"xil1688 ",1688    ,"2024-10-07 00:00:00",8,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",4000,"3 Phase","Gas Heaters","No",,"Yes",40,"No","No",,,,
+"xil305e ",305     ,"2024-10-07 00:00:00",6,"LED","LED","No","No","Yes","Yes","No","277/480",400,"3 Phase","Gas Heaters","No",0,"Yes",,"No","No",,,,
+"xil305e ",307     ,"2024-10-07 00:00:00",,"LED","LED","Yes","No","Yes","Yes","No","277/480",400,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xil1600 ",100     ,"2024-03-08 00:00:00",6,"Fluorescent","Fluorescent","No","No","No","Yes","No","480/277",2200,"3 Phase","Gas Heaters","No",0,"Yes",199,"No","No","","",,
+"xil1terr","A       ","2024-03-08 00:00:00",0,"","","Yes","No","No","Yes","No",480,600,"3 Phase","Gas Heaters","No",0,"Yes",0,"No","No","","",,
+"xil1terr","B       ","2024-03-08 00:00:00",0,"","","Yes","No","No","Yes","No",600,200,"3 Phase","Gas Heaters","No",0,"Yes",0,"No","No","","",,
+"xil1terr","C       ","2024-03-08 00:00:00",0,"","","Yes","No","No","Yes","No",480,600,"3 Phase","Gas Heaters","No",0,"Yes",0,"No","No","","",,
+"xil1111 ",100     ,"2024-03-08 00:00:00",10,"Fluorescent","Fluorescent","No","No","No","Yes","No",480,3000,"3 Phase","Gas Heaters","No",0,"Yes",61,"No","No","","",,
+"xtn187bo",100     ,"2024-03-08 00:00:00",1,"Fluorescent","Fluorescent","Yes","No","No","Yes","No","277/480",200,"3 Phase","Gas Heaters","No",0,"Yes",3.25,"Yes","No","","",,
+"xnj7550 ",7550    ,"2024-03-22 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","N/A",0,"N/A",0,"N/A","N/A","","",,
+"xga130j ",130     ,"2024-10-03 00:00:00",12.7,"Fluorescent","LED","No","No","No","Yes","No","120/240",800,"3 Phase","Gas Heaters","No",,"Yes",5,"No","No",,,,
+"xga9330 ",9330    ,"2024-10-03 00:00:00",26,"High-Intensity Discharge","Fluorescent","No","No","No","Yes","No","120/208",600,"3 Phase","Gas Heaters","No",,"Yes",10,"No","No",,,,
+"xil900b ","A       ","2024-03-08 00:00:00",10,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",0,"3 Phase","Gas Heaters","No",0,"Yes",30,"No","No","","",,
+"xil900b ","B       ","2024-03-08 00:00:00",15,"LED","LED","No","No","No","Yes","No","277/480",200,"3 Phase","Gas Heaters","No",0,"Yes",18,"No","No","","",,
+"xga4225 ",101     ,"2024-10-03 00:00:00",8,"LED","LED","No","No","Yes","Yes","No","120/208",400,"3 Phase","Gas Heaters","No",,"Yes",3,"No","No",,,,
+"xga4225 ",104     ,"2024-10-03 00:00:00",8,"LED","LED","No","No","Yes","Yes","No","120/208",400,"3 Phase","Gas Heaters","No",,"Yes",3,"No","No",,,,
+"xga4225 ",107     ,"2024-10-03 00:00:00",13,"High-Intensity Discharge","Fluorescent","No","No","No","Yes","No","120/240",200,"3 Phase","Gas Heaters","No",,"Yes",1.5,"No","No",,,,
+"xga4225 ","108-109 ","2024-10-03 00:00:00",15,"LED","LED","No","No","Yes","Yes","No","120/240",200,"3 Phase","Gas Heaters","No",,"Yes",2,"No","No",,,,
+"xga4225 ","110-111 ","2024-10-03 00:00:00",20,"High-Intensity Discharge","Fluorescent","No","No","No","Yes","No","120/240",200,"3 Phase","Gas Heaters","No",,"Yes",1.5,"No","No",,,,
+"xga4225 ",112     ,"2024-10-03 00:00:00",90,"High-Intensity Discharge","Fluorescent","No","No","No","Yes","No","120/240",200,"3 Phase","Gas Heaters","No",0,"Yes",3,"No","No",,,,
+"xga4225 ","114-116 ","2024-10-03 00:00:00",25,"Fluorescent","Fluorescent","No","No","No","Yes","No",240,400,"3 Phase","Gas Heaters","No",,"Yes",6,"No","No",,,,
+"xtx1121 ","A       ","2024-10-07 00:00:00",11.7,"","","No","No","No","Yes","No",,,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xtx1121 ","B       ","2024-10-07 00:00:00",0,"","","No","No","No","Yes","No",,,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xga265c ",265     ,"2024-10-03 00:00:00",,"High-Intensity Discharge","Fluorescent","No","No","No","Yes","No",,,"3 Phase","Gas Heaters","No",,"Yes",30.5,"No","No",,,,
+"mp000213",390     ,"2024-09-30 00:00:00",2.5,"Fluorescent/HID","","N/A","N/A","No","Yes","No","477/480 and 208Y/120-volt",1200,"3 Phase","Gas Heaters","Yes",3,"No",0,"N/A","No",,,17,0
+"xga1157 ",1157    ,"2024-10-03 00:00:00",2,"LED","LED","No","No","No","Yes","No",,,"3 Phase","Packaged Units","Yes",373,"Yes",6,"Yes","No",,,,
+"xga5070 ","5070-W  ","2024-10-03 00:00:00",5.5,"LED","LED","No","No","Yes","Yes","No","120/208",1200,"3 Phase","Gas Heaters","No",,"Yes",8,"No","No",,,,
+"xil2101 ",100     ,"2024-03-08 00:00:00",4,"","","No","No","No","Yes","No","120/208",800,"3 Phase","Gas Heaters","No",0,"Yes",0,"No","No","","",,
+"xil2101 ",200     ,"2024-03-08 00:00:00",8,"","","No","No","No","Yes","No","120/208",3000,"3 Phase","Gas Heaters","No",0,"Yes",0,"No","No","","",,
+"xil2101 ","B-C     ","2024-03-08 00:00:00",9,"","","No","No","No","Yes","No","120/208",1000,"3 Phase","Gas Heaters","No",0,"Yes",0,"No","No","","",,
+"xoh8655 ",8655    ,"2024-03-08 00:00:00",11,"High-Intensity Discharge","Fluorescent","No","No","No","Yes","No","277/480",1200,"3 Phase","Gas Heaters","No",0,"Yes",15.5,"No","No","","",,
+"xnj14th ","14A     ","2024-03-08 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","N/A",0,"N/A",0,"N/A","N/A","","",,
+"xnj14th ","14B     ","2024-03-08 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","N/A",0,"N/A",0,"N/A","N/A","","",,
+"xoh382c ",382     ,"2024-03-08 00:00:00",10,"Fluorescent","Fluorescent","Yes","No","No","Yes","No",480,2500,"3 Phase","Gas Heaters","No",0,"Yes",45,"No","No","","",,
+"xnj220r ","A       ","2024-03-22 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","N/A",0,"N/A",0,"N/A","N/A","","",,
+"xnj10tw ",10      ,"2024-03-22 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","N/A",0,"Yes",0,"N/A","No","","",,
+"xil250n ",250     ,"2024-03-08 00:00:00",11,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",4000,"3 Phase","Gas Heaters","No",0,"Yes",35,"No","No","","",,
+"xil529t ",529     ,"2024-10-07 00:00:00",18,"LED","Fluorescent","No","No","No","Yes","No","480/277",4000,"3 Phase","Gas Heaters","No",,"Yes",33,"No","No",,,,
+"xil700h ",700     ,"2024-10-07 00:00:00",20.9,"LED","LED","No","No","Yes","Yes","No","277/480",3000,"3 Phase","Gas Heaters","No",0,"Yes",32.5,"No","No",,,,
+"xnj17pol","ROOF    ","2024-10-07 00:00:00",0,"N/A","N/A","N/A","N/A","N/A","N/A","N/A",0,0,"N/A","N/A","N/A",0,"N/A",0,"N/A","N/A",,,0,0
+"xnj125al",01      ,"2024-10-03 00:00:00",10,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",600,"3 Phase","Gas Heaters","No",,"Yes",18,"No","No",,,,
+"xga4507m","G-H     ","2024-10-03 00:00:00",8,"Fluorescent/LED","Fluorescent","No","No","No","Yes","No",,,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xga4507m","I       ","2024-10-03 00:00:00",6,"Fluorescent","Fluorescent","No","No","No","Yes","No",,,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xga4507m","WARHSE  ","2024-10-03 00:00:00",10.8,"Fluorescent","Fluorescent","No","No","No","Yes","No",,,"3 Phase","Packaged Units","Yes",,"Yes",,"No","No",,,,
+"xnj740co",740     ,"2024-03-08 00:00:00",0,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","N/A",0,"N/A",0,"N/A","No","","",,
+"xtx4201n",100     ,"2024-10-07 00:00:00",17.8,"Fluorescent","Fluorescent","Yes","No","No","Yes","No","480/277",3000,"3 Phase","Packaged Units","Yes",,"Yes",,"Yes","No",,,,
+"xil2500w",2500    ,"2024-10-07 00:00:00",7,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/240",100,"3 Phase","Gas Heaters","No",0,"Yes",8,"No","No",,,,
+"xga4680n",4680    ,"2024-10-03 00:00:00",77,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",3000,"3 Phase","Packaged Units","Yes",,"Yes",136,"No","No",,,,
+"xga5121b",5121    ,"2024-10-03 00:00:00",17.8,"High-Intensity Discharge","LED","No","No","No","Yes","No",,,"3 Phase","Gas Heaters","No",0,"Yes",9,"No","No",,,,
+"xga2100b",2100    ,"2024-10-03 00:00:00",34.5,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",4600,"3 Phase","Packaged Units","Yes",,"Yes",,"No","No",,,,
+"xtx3662m",3662    ,"2024-10-07 00:00:00",9.16,"Fluorescent","Fluorescent","Yes","No","No","Yes","No",240,400,"3 Phase","Gas Heaters","No",,"Yes",3,"Yes","No",,,,
+"xtx3662m",3670    ,"2024-10-07 00:00:00",5.17,"Fluorescent","Fluorescent","Yes","No","No","Yes","No",240,400,"3 Phase","Gas Heaters","No",0,"Yes",3,"Yes","No",,,,
+"xtx12150",104     ,"2024-10-07 00:00:00",36.43,"LED","Fluorescent","Yes","No","No","Yes","No",240,400,"3 Phase","Packaged Units","No",0,"Yes",28,"Yes","No",,,,
+"xtx12150",112     ,"2024-10-07 00:00:00",17.46,"LED","Fluorescent","Yes","No","No","Yes","No",240,400,"3 Phase","Packaged Units","No",0,"Yes",12,"Yes","No",,,,
+"xtx12150",120     ,"2024-10-07 00:00:00",23.38,"LED","Fluorescent","Yes","No","No","Yes","No",240,400,"3 Phase","Packaged Units","No",0,"Yes",33.5,"Yes","No",,,,
+"xga800in","800-A   ","2024-04-19 00:00:00",3,"Fluorescent","Fluorescent","No","No","No","Yes","N/A","120/208",600,"3 Phase","Gas Heaters","Yes",16,"Yes",6,"No","No","","",0,0
+"xga800in","850-B   ","2024-10-03 00:00:00",3,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/208",600,"3 Phase","Gas Heaters","Yes",16,"Yes",6,"No","No",,,,
+"xga800in","MEZZ    ","2024-10-03 00:00:00",0,"N/A","N/A","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"N/A",,"N/A","N/A",,,0,0
+"xil770ar",770     ,"2024-10-07 00:00:00",17,"LED","LED","No","Yes","Yes","Yes","No","277/480",1200,"3 Phase","Gas Heaters","No",0,"Yes",10,"No","No",,,,
+"xil770ar",780     ,"2024-10-07 00:00:00",22,"LED","LED","No","Yes","Yes","Yes","No","277/480",1200,"3 Phase","Gas Heaters","No",0,"Yes",17,"No","No",,,,
+"xil464no",464     ,"2024-03-08 00:00:00",9,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",1200,"3 Phase","Gas Heaters","No",0,"Yes",21,"No","No","","",,
+"xil77whe",77      ,"2024-03-08 00:00:00",24,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",800,"3 Phase","Gas Heaters","No",0,"Yes",24,"No","No","","",,
+"xky4175a",4175    ,"2024-10-07 00:00:00",3,"LED","LED","No","No","No","Yes","No",277,400,"3 Phase","Gas Heaters","No",0,"Yes",52,"No","No",,,,
+"xky4175a","LAND    ","2024-10-07 00:00:00",0,"N/A","N/A","N/A","N/A","N/A","N/A","N/A",0,0,"N/A","N/A","N/A",0,"N/A",0,"N/A","N/A",,,0,0
+"xtx8154b",100     ,"2024-10-07 00:00:00",1.4,"Fluorescent","Fluorescent","Yes","No","No","Yes","No","208/120",225,"3 Phase","None","No",0,"Yes",2,"No","No",,,,
+"xtx8154b",200     ,"2024-10-07 00:00:00",6.42,"LED","Fluorescent/LED","Yes","No","Yes","Yes","No","208/120",400,"3 Phase","None","No",0,"Yes",10,"Programmable","No",,,,
+"xga800wh","A       ","2024-10-03 00:00:00",,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",1200,"3 Phase","Gas Heaters","No",,"Yes",13.5,"No","No",,,,
+"xga800wh","B       ","2024-10-03 00:00:00",,"N/A","Fluorescent","No","No","No","Yes","No","277/480",1200,"3 Phase","Gas Heaters","N/A",,"Yes",13.5,"No","No",,,,
+"xfl11660",11660   ,"2024-10-07 00:00:00",90,"Fluorescent","LED","Yes","No","No","Yes","No",,,"3 Phase","Other","No",0,"Yes",39.5,"Yes","No",,,,
+"xohcolu1",3000    ,"2024-10-07 00:00:00",,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",400,"3 Phase","Gas Heaters","No",0,"Yes",,"No","No",,,,
+"xohcolu1",3004    ,"2024-10-07 00:00:00",12,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",400,"3 Phase","Gas Heaters","No",0,"Yes",,"No","No",,,,
+"xohcolu2",3045    ,"2024-10-07 00:00:00",20,"LED","LED","No","No","Yes","Yes","No","120/240",,"3 Phase","Gas Heaters","No",0,"Yes",,"No","No",,,,
+"xohcolu2",3055    ,"2024-10-07 00:00:00",15,"LED","LED","No","No","Yes","Yes","No","120/240",,"3 Phase","Gas Heaters","No",0,"Yes",,"No","No",,,,
+"xohcolu2",3065    ,"2024-10-07 00:00:00",10,"LED","LED","No","No","Yes","Yes","No","120/240",,"3 Phase","Gas Heaters","No",0,"Yes",,"No","No",,,,
+"xohcolu3",3040    ,"2024-10-07 00:00:00",19,"LED","LED","No","No","Yes","Yes","No","120/240",200,"3 Phase","Gas Heaters","No",0,"Yes",3,"No","No",,,,
+"xohcolu3",3050    ,"2024-10-07 00:00:00",17,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/240",200,"3 Phase","Gas Heaters","No",0,"Yes",3,"No","No",,,,
+"xohcolu4",1161    ,"2024-10-07 00:00:00",29,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",400,"3 Phase","Gas Heaters","No",0,"Yes",,"No","No",,,,
+"xtndelp2","4319A   ","2024-03-08 00:00:00",3.4,"High-Intensity Discharge","Fluorescent","Yes","No","No","Yes","No","120/240",800,"3 Phase","Gas Heaters","No",0,"Yes",5,"Yes","No","","",,
+"xtndelp2","4319B   ","2024-03-08 00:00:00",2.1,"High-Intensity Discharge","LED","Yes","No","No","Yes","No","120/240",800,"3 Phase","Gas Heaters","No",0,"Yes",5,"Yes","No","","",,
+"xil1001a",1001    ,"2024-03-08 00:00:00",22,"Fluorescent","LED","No","No","No","Yes","No","",400,"3 Phase","Gas Heaters","No",0,"Yes",13.5,"No","No","","",,
+"xil1000a",1000    ,"2024-10-03 00:00:00",10,"LED","LED","No","No","No","Yes","No","120/208",1200,"3 Phase","Gas Heaters","No",,"Yes",5,"No","No",,,,
+"xtx2125v",2125    ,"2024-03-08 00:00:00",19.78,"LED","Fluorescent","Yes","No","No","Yes","No","120/240",400,"3 Phase","Gas Heaters","No",0,"Yes",20,"Yes","No","","",,
+"xga4600f","4600-A  ","2024-10-03 00:00:00",7,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/208",400,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xga4600f","4600-E  ","2024-10-03 00:00:00",6,"LED","LED","No","No","No","Yes","No","120/240",200,"3 Phase","Gas Heaters","No",,"Yes",3.5,"No","No",,,,
+"xga4600f","4600-F  ","2024-10-03 00:00:00",13,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/240",200,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xga4600f","4630-A  ","2024-10-03 00:00:00",10,"LED","Fluorescent","No","No","Yes","Yes","No","277/480",400,"3 Phase","Gas Heaters","No",,"Yes",2,"No","No",,,,
+"xga4600f","4630-B  ","2024-10-03 00:00:00",10,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/208",400,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xga4600f","4630-C  ","2024-10-03 00:00:00",20,"LED","LED","No","No","Yes","Yes","No","120/208",600,"3 Phase","Gas Heaters","No",,"Yes",4.5,"No","No",,,,
+"xga4600f","4630-D  ","2024-10-03 00:00:00",10,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/208",500,"3 Phase","Gas Heaters","No",,"Yes",5,"No","No",,,,
+"xtx2616a",2610    ,"2024-10-07 00:00:00",0,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/240",200,"3 Phase","Gas Heaters","No",0,"Yes",2.5,"Yes","No",,,,
+"xtx2616a",2614    ,"2024-10-07 00:00:00",17.31,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/240",200,"3 Phase","Gas Heaters","No",0,"Yes",2.5,"Yes","No",,,,
+"xtx2616a",2616    ,"2024-10-07 00:00:00",10.73,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/240",200,"3 Phase","Gas Heaters","No",0,"Yes",2.5,"Yes","No",,,,
+"xnj9100p",9100    ,"2024-03-08 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","N/A",0,"N/A",0,"N/A","N/A","","",,
+"xtx111pl",11100   ,"2024-10-07 00:00:00",17,"Fluorescent","Fluorescent","Yes","No","No","Yes","No","120/240",1200,"Single","Electrical Heaters","No",0,"Yes",39.5,"Yes","No",,,,
+"xtx467wa",4679    ,"2024-10-07 00:00:00",6.73,"Fluorescent","Fluorescent","Yes","No","No","Yes","No",240,200,"3 Phase","None","No",0,"Yes",6,"Yes","No",,,,
+"xtx467wa","AD      ","2024-10-07 00:00:00",0,"N/A","N/A","N/A","N/A","N/A","N/A","N/A",,,"N/A","N/A","N/A",,"N/A",,"N/A","N/A",,,0,0
+"xtx310an",3101    ,"2024-04-19 00:00:00",4.62,"Fluorescent","Fluorescent","Yes","No","No","Yes","N/A",250,800,"3 Phase","Gas Heaters","No",0,"Yes",10,"Yes","No","","",0,0
+"xtx1919a",1919    ,"2024-10-08 00:00:00",5,"Fluorescent/LED","Fluorescent","No","No","No","Yes","No","277/480 volt",600,"3 Phase","Gas Heaters","No",0,"Yes",10,"Yes","No",,,0,10
+"xga3350h",100     ,"2024-10-03 00:00:00",0,"Fluorescent","Fluorescent","No","No","No","Yes","No",,,"3 Phase","Gas Heaters","No",,"No",,"Yes","No",,,,
+"xga3350h",200     ,"2024-10-03 00:00:00",5,"LED","LED","No","No","Yes","Yes","No",,,"3 Phase","Gas Heaters","No",,"Yes",4,"No","No",,,,
+"xga3350h",300     ,"2024-10-03 00:00:00",5,"LED","LED","No","No","Yes","Yes","No",,,"3 Phase","Gas Heaters","No",,"Yes",4,"No","No",,,,
+"xfl7720p","A       ","2024-10-07 00:00:00",31,"LED","LED","Yes","No","No","Yes","No","277/480",600,"3 Phase","None","Yes",14,"Yes",42.5,"Yes","No",,,,
+"xfl7720p","B-C     ","2024-10-07 00:00:00",1.5,"","","No","No","No","No","Yes","277/480",600,"3 Phase","None","Yes",8,"Yes",1.5,"No","No",,,,
+"xil121lo",121     ,"2024-10-07 00:00:00",10,"LED","LED","No","No","Yes","Yes","No","120/208",400,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xnj121mo",121     ,"2024-03-08 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","N/A",0,"Yes",0,"N/A","N/A","","",,
+"xtx10704",10704   ,"2024-10-07 00:00:00",22.32,"LED","Fluorescent","Yes","No","Yes","Yes","No","120/208",200,"3 Phase","Packaged Units","No",0,"Yes",25,"Yes","No",,,,
+"xfl420sw","A       ","2024-10-07 00:00:00",40,"High-Intensity Discharge","Fluorescent","Yes","No","No","Yes","No","240/120",400,"3 Phase","None","No",0,"Yes",9,"No","No",,,,
+"xfl420sw","B       ","2024-10-07 00:00:00",10,"High-Intensity Discharge","Fluorescent","Yes","No","No","Yes","No","240/120",400,"3 Phase","None","Yes",3,"Yes",3,"No","No",,,,
+"xfl420sw","C       ","2024-10-07 00:00:00",10,"LED","LED","No","No","Yes","Yes","No","240/120",400,"3 Phase","None","Yes",,"Yes",3,"No","No",,,,
+"xga401wi",401     ,"2024-10-03 00:00:00",13.7,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/208",800,"3 Phase","Gas Heaters","No",,"Yes",13,"No","No",,,,
+"xtn3961o",3961    ,"2024-10-07 00:00:00",8,"High-Intensity Discharge","Fluorescent","Yes","No","No","Yes","No","277/480",800,"3 Phase","Gas Heaters","Yes",26,"Yes",25.5,"Programmable","No",,,,
+"xil1600b",1600    ,"2024-10-07 00:00:00",15,"LED","LED","No","No","No","Yes","No","277/480",1000,"3 Phase","Gas Heaters","No",0,"Yes",,"No","No",,,,
+"xil1630b",1630    ,"2024-10-07 00:00:00",8,"LED","LED","No","No","No","Yes","No","120/240",800,"3 Phase","Gas Heaters","No",0,"Yes",,"No","No",,,,
+"xga9335i",100     ,"2024-10-03 00:00:00",19.7,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",600,"3 Phase","Gas Heaters","No",,"Yes",10,"No","No",,,,
+"xil11697",11697   ,"2024-04-17 00:00:00",13,"High-Intensity Discharge","Fluorescent","No","No","No","Yes","N/A","277/480",800,"3 Phase","Gas Heaters","No",0,"Yes",16.5,"No","No","","",0,0
+"xil231ja",1071    ,"2024-10-03 00:00:00",,"","","No","No","No","Yes","No","120/240",200,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xil231ja",231     ,"2024-10-03 00:00:00",,"","","No","No","No","Yes","No",,,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xil231ja",233     ,"2024-10-03 00:00:00",,"","","No","No","No","Yes","No",,,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xil231ja",235     ,"2024-10-03 00:00:00",,"LED","LED","No","No","Yes","Yes","No","120/240",400,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xil231ja",237     ,"2024-10-03 00:00:00",,"LED","LED","No","No","No","Yes","No","120/240",200,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xil231ja",239     ,"2024-10-03 00:00:00",,"LED","Fluorescent/LED","No","No","No","Yes","No","120/240",200,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xil231ja",241     ,"2024-10-03 00:00:00",,"LED","Fluorescent","No","No","No","Yes","No","",,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xil201ja",1050    ,"2024-10-03 00:00:00",20,"LED","LED","No","No","Yes","Yes","No",,,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xil201ja",1060    ,"2024-10-03 00:00:00",18,"","","No","No","No","Yes","No",,,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xil201ja",1070    ,"2024-10-03 00:00:00",24,"","","No","No","No","Yes","No",,,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xil201ja",1080    ,"2024-10-03 00:00:00",36,"LED","LED","No","No","No","Yes","No",,,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xil201ja",201     ,"2024-10-03 00:00:00",39,"LED","LED","No","No","No","Yes","No",,,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xil141be",141     ,"2024-10-03 00:00:00",,"","","No","No","No","Yes","No","120/240-volt",200,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xil141be",143     ,"2024-10-03 00:00:00",,"","","No","No","No","Yes","No","120/240",200,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"xil141be",145     ,"2024-10-03 00:00:00",,"","","No","No","No","Yes","No","120/240",200,"3 Phase","Gas Heaters","No",,"Yes",,"No","No",,,,
+"3nj00001",1000    ,"2024-03-08 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","No","","",,
+"3fl00001",14735   ,"2024-10-07 00:00:00",2.9,"High-Intensity Discharge","Fluorescent","Yes","No","No","Yes","No","120/240",800,"3 Phase","None","No",0,"Yes",5,"Yes","No",,,,
+"xtx1709s",100     ,"2024-10-07 00:00:00",2.06,"LED","LED","No","Yes","Yes","Yes","No","277/480",800,"3 Phase","Other","No",0,"Yes",14,"Yes","No",,,,
+"xtx1709s",150     ,"2024-10-07 00:00:00",4.26,"LED","LED","Yes","Yes","No","Yes","No","277/480",1200,"3 Phase","Packaged Units","No",0,"Yes",7.5,"Yes","No",,,,
+"xtx3857m",3857    ,"2024-10-07 00:00:00",13.13,"LED","Fluorescent","Yes","Yes","Yes","Yes","No",240,200,"3 Phase","Packaged Units","No",0,"Yes",56.5,"Yes","No",,,,
+"xtx2445s",2445    ,"2024-10-07 00:00:00",10.23,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/208",1200,"3 Phase","Gas Heaters","No",0,"Yes",59,"Yes","No",,,,
+"xtx1050k",10501   ,"2024-04-17 00:00:00",18.87,"Fluorescent","Fluorescent","No","No","No","Yes","N/A","120/240",225,"Single","Gas Heaters","No",0,"Yes",7.5,"Yes","No","","",0,0
+"xtx1050k",10507   ,"2024-04-17 00:00:00",17.49,"Fluorescent","Fluorescent","No","No","No","Yes","N/A","120/240",225,"Single","Gas Heaters","No",0,"Yes",3,"Yes","No","","",0,0
+"xtx1050k",10511   ,"2024-04-17 00:00:00",0,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/240",225,"3 Phase","Gas Heaters","No",0,"Yes",12.5,"Yes","No","","",0,0
+"xtx1050k",10515   ,"2024-04-17 00:00:00",15.87,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/240",225,"Single","Gas Heaters","No",0,"Yes",4,"Yes","No","","",0,0
+"xtx1050k",10519   ,"2024-04-17 00:00:00",0,"Fluorescent","Fluorescent","No","No","No","Yes","N/A","120/240",225,"3 Phase","Gas Heaters","No",0,"Yes",8,"Yes","No","","",0,0
+"xtx1050k",10529   ,"2024-04-17 00:00:00",25.44,"Fluorescent","Fluorescent","No","No","No","Yes","N/A","120/240",225,"Single","Gas Heaters","No",0,"Yes",11,"Yes","No","","",0,0
+"xtx1050k",10537   ,"2024-04-17 00:00:00",20.23,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/240",225,"Single","Gas Heaters","No",0,"Yes",7.5,"Yes","No","","",0,0
+"xtx1050k",11523   ,"2024-10-07 00:00:00",18.31,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/240",225,"3 Phase","Gas Heaters","No",0,"Yes",10,"Yes","No",,,,
+"xga3471a",3471    ,"2024-04-15 00:00:00",15.62,"Fluorescent","Fluorescent","Yes","No","No","Yes","No","277/480",1800,"3 Phase","Gas Heaters","No",0,"Yes",36.5,"No","No","","",0,0
+"xtx1721s",1721    ,"2024-04-15 00:00:00",5.93,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"Yes","N/A","","",0,0
+"xtx11839",100     ,"2024-04-17 00:00:00",6.1,"LED","Fluorescent","Yes","Yes","No","Yes","N/A","120/208",800,"3 Phase","None","No",0,"Yes",30,"Yes","No","","",0,0
+"xtx11839",11839   ,"2024-10-07 00:00:00",6.21,"LED","Fluorescent","Yes","Yes","No","Yes","No","120/208",800,"3 Phase","None","No",0,"Yes",30,"Yes","No",,,,
+"xil1200p",1200    ,"2024-04-17 00:00:00",6,"Fluorescent","Fluorescent","No","No","No","Yes","N/A","120/208",400,"3 Phase","Gas Heaters","No",0,"Yes",0,"No","No","","",0,0
+"3fl00002",1       ,"2024-04-17 00:00:00",18,"Fluorescent","Fluorescent","No","No","Yes","N/A","N/A","",0,"N/A","Other","Yes",0,"Yes",0,"N/A","N/A","","",0,0
+"3fl00002","PARK    ","2024-10-08 00:00:00",0,"N/A","N/A","N/A","N/A","N/A","N/A","N/A",0,0,"N/A","N/A","N/A",0,"N/A",0,"N/A","N/A",,,0,0
+"xtx4666d",4666    ,"2024-04-17 00:00:00",3.03,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"xga1610s",1610    ,"2024-04-15 00:00:00",7,"Fluorescent","Fluorescent","No","No","No","Yes","N/A","277/480",400,"3 Phase","Gas Heaters","No",0,"Yes",6,"No","No","","",0,0
+"xga1610s","A       ","2024-10-03 00:00:00",7,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",400,"3 Phase","Gas Heaters","No",,"Yes",6,"No","No",,,,
+"xga2900j","A       ","2024-04-15 00:00:00",7.5,"LED","LED","No","Yes","No","Yes","N/A","277/480",600,"3 Phase","Gas Heaters","No",0,"Yes",14,"No","No","","",0,0
+"3md00001","A-E     ","2024-04-15 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3md00001","F       ","2024-04-15 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3md00001","G       ","2024-04-15 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3md00001","H       ","2024-04-15 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3md00001","IJK     ","2024-04-15 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3md00001","L       ","2024-04-15 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3md00001","MN      ","2024-04-15 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3md00001","OP      ","2024-04-15 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3md00001","Q       ","2024-04-15 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3md00001","RS      ","2024-04-15 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3ga00001","A       ","2024-04-19 00:00:00",77,"Fluorescent","Fluorescent","No","No","No","Yes","N/A","120/208",1600,"3 Phase","Packaged Units","Yes",0,"Yes",37.5,"No","No","","",0,0
+"3ga00001","B       ","2024-04-19 00:00:00",25,"LED","LED","No","No","Yes","Yes","N/A","120/208",1000,"3 Phase","Gas Heaters","No",0,"Yes",8,"No","No","","",0,0
+"xga4450c","A       ","2024-04-15 00:00:00",11,"LED","LED","No","No","Yes","Yes","No","120/208",400,"3 Phase","Gas Heaters","No",0,"Yes",8,"No","No","","",0,0
+"xil7760m",100     ,"2024-10-07 00:00:00",11.23,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/240",1400,"3 Phase","Gas Heaters","No",0,"Yes",24.5,"No","No",,,,
+"xil1000e",100     ,"2024-10-03 00:00:00",38.8,"High-Intensity Discharge","LED","No","No","No","Yes","No","120/208",800,"3 Phase","Gas Heaters","No",,"Yes",44,"No","No",,,,
+"3tn00001",1       ,"2024-04-17 00:00:00",7,"Fluorescent","Fluorescent","Yes","No","No","Yes","N/A","120/240",100,"3 Phase","Gas Heaters","No",3,"Yes",2.5,"Yes","No","","amps100-400",0,0
+"3tn00001",10      ,"2024-04-17 00:00:00",0,"Fluorescent","Fluorescent","Yes","No","No","Yes","N/A","120/240",100,"3 Phase","Gas Heaters","No",3,"Yes",0,"Yes","No","","amps 100-400",0,0
+"3tn00001",2       ,"2024-04-17 00:00:00",5,"LED","Fluorescent","Yes","No","No","Yes","No","120/240",100,"3 Phase","Gas Heaters","No",3,"Yes",2.5,"Yes","No","","amps 100-400",0,0
+"3tn00001",3       ,"2024-04-17 00:00:00",5,"Fluorescent","Fluorescent","Yes","No","No","Yes","N/A","120/240",100,"3 Phase","Gas Heaters","No",3,"Yes",2.5,"Yes","No","","amps 100-400",0,0
+"3tn00001",4       ,"2024-04-17 00:00:00",6,"LED","Fluorescent","Yes","No","Yes","Yes","N/A","120/240",100,"3 Phase","Gas Heaters","No",3,"Yes",2.5,"Yes","No","","amps 100-400",0,0
+"3tn00001",5       ,"2024-04-17 00:00:00",2,"Fluorescent","Fluorescent","Yes","No","No","Yes","No","120/240",100,"3 Phase","Gas Heaters","No",3,"Yes",2.5,"Yes","No","","amps 100-400",0,0
+"3tn00001",6       ,"2024-04-17 00:00:00",15,"Fluorescent","LED","Yes","No","Yes","Yes","No","120/240",100,"3 Phase","Gas Heaters","No",3,"Yes",2.5,"Yes","No","","amps 100-400",0,0
+"3tn00001",7       ,"2024-04-17 00:00:00",11,"Fluorescent","Fluorescent","Yes","No","Yes","Yes","No","120/240",100,"3 Phase","Gas Heaters","No",3,"Yes",2.5,"Yes","No","","amps 100-400",0,0
+"3tn00001",8       ,"2024-04-17 00:00:00",5,"LED","Fluorescent","Yes","No","No","Yes","N/A","120/240",100,"3 Phase","Gas Heaters","No",3,"Yes",2.5,"Yes","No","","amps 100-400",0,0
+"3tn00001",9       ,"2024-04-17 00:00:00",0,"Fluorescent","","Yes","No","No","Yes","N/A","120/240",100,"3 Phase","Gas Heaters","No",3,"Yes",0,"Yes","No","","amps 100-400",0,0
+"3tn00001","AD      ","2024-10-07 00:00:00",0,"N/A","N/A","N/A","No","N/A","N/A","N/A",0,0,"N/A","N/A","N/A",0,"N/A",0,"N/A","N/A",,,0,0
+"3tn00002",1       ,"2024-04-17 00:00:00",10,"Fluorescent","Fluorescent","Yes","No","No","Yes","N/A","120/240",100,"3 Phase","Gas Heaters","No",15,"Yes",3,"Yes","No","","amps 100-400",0,0
+"3tn00003",1       ,"2024-04-17 00:00:00",15,"Fluorescent","Fluorescent","Yes","No","No","Yes","N/A","120/240",100,"3 Phase","Gas Heaters","No",3,"Yes",2.5,"Yes","No","","",0,0
+"3tn00003",2       ,"2024-10-07 00:00:00",0,"Fluorescent","Fluorescent","Yes","No","No","Yes","N/A","120/240",100,"3 Phase","Gas Heaters","No",3,"Yes",2.5,"Yes","No","","",0,0
+"3tn00003",3       ,"2024-10-07 00:00:00",3,"LED","LED","Yes","No","No","Yes","N/A","120/240",100,"3 Phase","Gas Heaters","No",3,"Yes",2.5,"Yes","No","","",0,0
+"3tn00003","4-5     ","2024-10-07 00:00:00",10,"LED","LED","Yes","No","No","Yes","No","120/240",400,"3 Phase","Gas Heaters","No",,"Yes",2.5,"Yes","No",,,,
+"3tn00003",6       ,"2024-10-07 00:00:00",0,"Fluorescent","Fluorescent","Yes","No","No","Yes","N/A","120/240",100,"3 Phase","Gas Heaters","No",3,"Yes",2.5,"Yes","No","","",0,0
+"3tn00003",7       ,"2024-10-07 00:00:00",5,"Fluorescent","Fluorescent","Yes","No","No","Yes","No","120/240",400,"3 Phase","Gas Heaters","No",0,"Yes",2.5,"Yes","No",,,,
+"3tn00003",8       ,"2024-10-07 00:00:00",15,"LED","LED","Yes","No","Yes","Yes","N/A","120/240",100,"3 Phase","Gas Heaters","No",3,"Yes",2.5,"Yes","No","","",0,0
+"3tn00004",1       ,"2024-04-15 00:00:00",24.8,"LED","LED","Yes","No","No","Yes","No","120/240",0,"Single","Gas Heaters","Yes",3,"Yes",2.5,"Yes","No","","",0,0
+"3tn00005","1-5     ","2024-04-15 00:00:00",2,"Fluorescent","Fluorescent","Yes","No","No","Yes","No","120/240",100,"3 Phase","Gas Heaters","No",3,"Yes",2.5,"Yes","No","","",0,0
+"3tn00005","4-7     ","2024-04-15 00:00:00",5,"Fluorescent","LED","Yes","No","No","Yes","No","120/240",100,"3 Phase","Gas Heaters","No",3,"Yes",2.5,"Yes","No","","",0,0
+"3tn00005",6       ,"2024-04-15 00:00:00",2.5,"LED","LED","Yes","Yes","No","Yes","No","120/240",100,"3 Phase","Gas Heaters","No",3,"Yes",2.5,"Yes","No","","",0,0
+"3fl00003",3330    ,"2024-04-17 00:00:00",7.6,"LED","Fluorescent","Yes","No","No","Yes","No","277/480",600,"3 Phase","None","Yes",17,"Yes",3.5,"Programmable","No","","",0,0
+"xga3651c",3651    ,"2024-10-03 00:00:00",17,"LED","LED","No","No","No","Yes","No","120/208",400,"3 Phase","Gas Heaters","No",,"Yes",10,"No","No",,,,
+"xga3651c","BB      ","2024-10-07 00:00:00",0,"N/A","N/A","N/A","N/A","N/A","N/A","N/A",0,0,"N/A","N/A","N/A",0,"N/A",0,"N/A","N/A",,,0,0
+"xil222ja",222     ,"2024-10-07 00:00:00",37,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/208",400,"3 Phase","Gas Heaters","No",0,"Yes",24,"No","No",,,,
+"xil222ja",224     ,"2024-10-07 00:00:00",41.1,"LED","LED","No","Yes","Yes","Yes","No","120/208",400,"3 Phase","Gas Heaters","No",0,"Yes",25,"No","No",,,,
+"xga1585r","A       ","2024-04-17 00:00:00",21,"LED","LED","No","Yes","No","Yes","N/A","277/480",3200,"3 Phase","Gas Heaters","No",0,"Yes",37,"No","No","","",0,0
+"xoh154co",154     ,"2024-10-07 00:00:00",18,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",800,"3 Phase","Gas Heaters","No",0,"Yes",11,"No","No",,,,
+"3ga00002",1       ,"2024-10-03 00:00:00",5,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",400,"3 Phase","Gas Heaters","No",0,"Yes",,"Programmable","No",,,,
+"3ga00002","F       ","2024-10-03 00:00:00",,"Fluorescent","LED","No","No","No","No","No","277/480",800,"3 Phase","Gas Heaters","No",,"Yes",,"Programmable","No",,,,
+"3ga00002","N       ","2024-10-03 00:00:00",,"Fluorescent","LED","No","No","No","Yes","No","277/480",800,"3 Phase","Gas Heaters","No",,"Yes",,"Programmable","No",,,,
+"3ga00002","OPQR    ","2024-10-03 00:00:00",8,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",600,"3 Phase","Gas Heaters","No",,"Yes",,"Programmable","No",,,,
+"3il00001",410     ,"2024-04-17 00:00:00",5.8,"Fluorescent","Fluorescent","No","No","No","Yes","N/A","120/240",2500,"3 Phase","Gas Heaters","No",0,"Yes",17,"No","No","","",0,0
+"3oh00001",2060    ,"2024-04-17 00:00:00",33,"LED","LED","No","No","Yes","Yes","N/A","",0,"3 Phase","Gas Heaters","No",0,"Yes",0,"No","No","","",0,0
+"3oh00001",2064    ,"2024-04-17 00:00:00",33,"LED","LED","No","No","Yes","Yes","N/A","",0,"3 Phase","Gas Heaters","No",0,"Yes",0,"No","No","","",0,0
+"3oh00001",2066    ,"2024-04-17 00:00:00",33,"LED","LED","No","No","Yes","Yes","N/A","",0,"3 Phase","Gas Heaters","No",0,"Yes",0,"No","No","","",0,0
+"3oh00001",2068    ,"2024-04-17 00:00:00",33,"Fluorescent","Fluorescent","No","No","No","Yes","N/A","",0,"3 Phase","Gas Heaters","No",0,"Yes",0,"No","No","","",0,0
+"3oh00001",2078    ,"2024-04-17 00:00:00",33,"Fluorescent","Fluorescent","No","No","No","Yes","N/A","",0,"3 Phase","Gas Heaters","No",0,"Yes",0,"No","No","","",0,0
+"3oh00001",2080    ,"2024-04-19 00:00:00",33,"Fluorescent","Fluorescent","No","No","No","Yes","N/A","",0,"3 Phase","Gas Heaters","No",0,"Yes",48,"No","No","","",0,0
+"3oh00001",2098    ,"2024-04-19 00:00:00",33,"Fluorescent","Fluorescent","No","No","No","Yes","N/A","",0,"3 Phase","Gas Heaters","No",0,"Yes",22.5,"No","No","","",0,0
+"xil1100h",1100    ,"2024-04-17 00:00:00",26,"","","No","No","No","Yes","N/A","120/208",200,"3 Phase","Gas Heaters","No",0,"Yes",0,"No","No","","",0,0
+"xil1100h",1130    ,"2024-04-17 00:00:00",19,"","","No","No","No","Yes","N/A","120/208",225,"3 Phase","Gas Heaters","No",0,"Yes",6,"No","No","","",0,0
+"xil1100h",1150    ,"2024-04-17 00:00:00",25,"","","No","No","No","Yes","N/A","120/208",400,"3 Phase","Gas Heaters","No",0,"Yes",6,"No","No","","",0,0
+"xil1701b",100     ,"2024-04-17 00:00:00",13,"LED","LED","No","No","No","Yes","N/A","277/480",1600,"3 Phase","Gas Heaters","No",0,"Yes",48.5,"No","No","","",0,0
+"3il00002",100     ,"2024-04-17 00:00:00",22,"Fluorescent","Fluorescent","No","No","No","Yes","N/A","277/480",800,"3 Phase","Gas Heaters","No",0,"Yes",13,"No","No","","",0,0
+"3il00002",150     ,"2024-10-07 00:00:00",9,"LED","LED","No","No","Yes","Yes","No","277/480",800,"3 Phase","Gas Heaters","No",0,"Yes",7,"No","No",,,,
+"3ga00003",1100    ,"2024-04-17 00:00:00",2.3,"High-Intensity Discharge","Fluorescent","No","No","No","Yes","N/A","270/480",2000,"3 Phase","Gas Heaters","No",0,"Yes",4,"No","No","","Property table shows High intensity discharge + fluorescent as lights type in warhouse",0,0
+"3fl00004",100     ,"2024-04-17 00:00:00",9.2,"LED","Fluorescent","N/A","N/A","N/A","Yes","N/A",240,200,"3 Phase","N/A","N/A",46.5,"Yes",0,"Yes","No","","",0,0
+"3il00003",2100    ,"2024-04-17 00:00:00",24.98,"Fluorescent","Fluorescent","No","No","No","Yes","N/A","120/240",200,"3 Phase","Gas Heaters","No",0,"Yes",16,"No","No","","",0,0
+"3il00004",3380    ,"2024-04-17 00:00:00",1.4,"LED","LED","No","No","Yes","Yes","N/A","277/480",4000,"3 Phase","Gas Heaters","No",0,"Yes",3,"No","No","","",0,0
+"3tx00001","STE-A   ","2024-04-19 00:00:00",5.5,"High-Intensity Discharge","Fluorescent","Yes","No","No","Yes","N/A","",0,"Single","Gas Heaters","No",0,"Yes",12,"Yes","No","","",0,0
+"xga1145b",1145    ,"2024-04-19 00:00:00",12,"LED","LED","No","No","No","Yes","N/A","277/480",3000,"3 Phase","None","No",0,"Yes",3,"No","No","","",0,0
+"3oh00002","A       ","2024-04-19 00:00:00",7,"Fluorescent","Fluorescent","No","No","No","Yes","N/A","120/208",600,"3 Phase","Gas Heaters","No",0,"Yes",10,"No","No","","",0,0
+"3md00004","PARK    ","2024-10-08 00:00:00",0,"N/A","N/A","N/A","N/A","N/A","N/A","N/A",0,0,"N/A","N/A","N/A",0,"N/A",0,"N/A","N/A",,,0,0
+"3ga00004","A       ","2024-03-08 00:00:00",20,"Fluorescent","LED","No","No","No","Yes","No","120/208",800,"3 Phase","Gas Heaters","No",0,"Yes",13,"No","No","","",,
+"3il00005",100     ,"2024-04-19 00:00:00",13,"LED","LED","No","No","Yes","Yes","N/A","277/480",1200,"3 Phase","Gas Heaters","No",0,"Yes",15.5,"No","No","","",0,0
+"3il00006",1221    ,"2024-04-19 00:00:00",20,"","","No","No","No","Yes","N/A","277/480",800,"3 Phase","Gas Heaters","No",0,"Yes",33,"No","No","","",0,0
+"3tx00003",100     ,"2024-04-24 00:00:00",89.54,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","Gas Heaters","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3tx00004",150     ,"2024-04-26 00:00:00",7.2,"Fluorescent","LED","No","No","No","Yes","N/A","480/277",1200,"3 Phase","Gas Heaters","No",0,"Yes",9,"Yes","No","","",0,0
+"3tx00004",200     ,"2024-04-26 00:00:00",0,"Fluorescent","","No","No","No","Yes","N/A","480/277",1200,"3 Phase","Gas Heaters","No",0,"Yes",0,"N/A","No","","",0,0
+"3tx00005",1111    ,"2024-04-24 00:00:00",11.43,"LED","LED","Yes","No","No","Yes","N/A","277/480",1600,"3 Phase","Packaged Units","No",0,"Yes",444.5,"Yes","No","","",0,0
+"3tx00006",1601    ,"2024-04-26 00:00:00",14,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3tx00007",1460    ,"2024-10-07 00:00:00",0,"LED","Fluorescent/LED","Yes","No","No","Yes","No","277/480",4000,"3 Phase","None","No",0,"Yes",1500,"Yes","No",,,,
+"3tx00008",100     ,"2024-04-26 00:00:00",57.65,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"Yes","N/A","","",0,0
+"3tx00008",150     ,"2024-04-26 00:00:00",20.56,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3tx00009",100     ,"2024-04-24 00:00:00",100,"Fluorescent","Fluorescent","No","No","No","Yes","N/A","277/480",1600,"3 Phase","None","No",0,"Yes",51.5,"Yes","No","","Lights type in office are both Fluorescent and LED",0,0
+"3tx00009",200     ,"2024-04-24 00:00:00",100,"Fluorescent","Fluorescent","No","No","No","Yes","N/A","277/480",1600,"3 Phase","None","No",0,"Yes",120,"Yes","No","","Lights type in warehouse are both fluorescent and led",0,0
+"3il00007",800     ,"2024-04-19 00:00:00",0,"LED","LED","No","No","No","Yes","N/A","120/240",400,"3 Phase","Gas Heaters","No",0,"Yes",9,"No","No","","",0,0
+"3il00007",802     ,"2024-04-24 00:00:00",0,"","","No","No","N/A","Yes","N/A","277/480",200,"3 Phase","Gas Heaters","No",0,"Yes",9,"No","No","","And 400 amp, 120/208V",0,0
+"3il00007",810     ,"2024-04-24 00:00:00",0,"","","No","No","No","Yes","N/A","120/240",400,"3 Phase","Gas Heaters","No",0,"Yes",4,"No","No","","",0,0
+"3il00007",812     ,"2024-04-24 00:00:00",0,"LED","LED","No","No","Yes","Yes","No","120/240",200,"3 Phase","Gas Heaters","No",0,"Yes",4,"No","No","","",0,0
+"3fl00005","A       ","2024-04-19 00:00:00",6.2,"Fluorescent","Fluorescent","N/A","N/A","N/A","Yes","N/A","120/240",200,"3 Phase","N/A","Yes",5,"Yes",0,"Yes","No","","",0,0
+"3nc00001",10000   ,"2024-03-07 00:00:00",2.7,"LED","Fluorescent","No","No","No","Yes","No","277/480",6000,"3 Phase","Gas Heaters","No",0,"Yes",5.5,"No","No","","",,
+"3fl00006","AB      ","2024-04-26 00:00:00",10.4,"High-Intensity Discharge","Fluorescent","Yes","No","No","Yes","N/A","120/240",200,"3 Phase","None","Yes",5.25,"Yes",0,"N/A","No","","200-400amp",0,0
+"3oh00003",3232    ,"2024-04-26 00:00:00",34.5,"High-Intensity Discharge","Fluorescent","No","No","No","Yes","N/A","120/240",100,"3 Phase","Gas Heaters","No",0,"Yes",25,"No","No","","",0,0
+"3fl00007",4570    ,"2024-04-26 00:00:00",9.9,"Fluorescent","Fluorescent","No","No","No","Yes","N/A","120/240",600,"3 Phase","None","Yes",0,"Yes",3,"Yes","No","","",0,0
+"3fl00007","BB      ","2024-10-07 00:00:00",0,"N/A","N/A","N/A","N/A","N/A","N/A","N/A",0,0,"N/A","N/A","N/A",0,"N/A",0,"N/A","N/A",,,0,0
+"3tx00010",1501    ,"2024-03-07 00:00:00",0.38,"LED","Fluorescent","Yes","Yes","Yes","Yes","No","277/480",1600,"3 Phase","None","No",0,"No",0,"No","No","","",,
+"3tx00011",1101    ,"2024-03-07 00:00:00",25,"LED","Fluorescent","Yes","No","No","Yes","No","120/240",200,"3 Phase","Gas Heaters","No",0,"Yes",10.5,"Yes","No","","",,
+"3tx00011",120     ,"2024-03-07 00:00:00",6,"LED","Fluorescent","Yes","No","No","Yes","No","120/240",200,"3 Phase","Gas Heaters","No",0,"Yes",5,"Yes","No","","",,
+"3tx00012",4525    ,"2024-03-07 00:00:00",20,"LED","Fluorescent","Yes","No","No","Yes","No",240,200,"3 Phase","Gas Heaters","No",0,"Yes",6,"Yes","No","","",,
+"3tx00012",4535    ,"2024-03-07 00:00:00",10.6,"Fluorescent","Fluorescent","Yes","No","No","Yes","No",120,400,"3 Phase","Gas Heaters","No",0,"Yes",9,"Yes","No","","",,
+"3tx00013",1       ,"2024-03-07 00:00:00",0.05,"High-Intensity Discharge","Fluorescent","No","No","No","Yes","No","120/240",800,"3 Phase","Packaged Units","Yes",101.5,"Yes",0,"Yes","No","","",,
+"3tx00013",2       ,"2024-03-07 00:00:00",3.5,"LED","Fluorescent","Yes","No","No","Yes","No",600,600,"3 Phase","Packaged Units","Yes",103.25,"Yes",0,"Yes","No","","",,
+"3ga00005","A       ","2024-03-07 00:00:00",17,"LED","Fluorescent","No","No","Yes","Yes","No","277/480",600,"3 Phase","Gas Heaters","No",0,"Yes",30,"No","No","","",,
+"3nc00002",4112    ,"2024-03-07 00:00:00",3.5,"Fluorescent","LED","No","No","No","Yes","No","",0,"3 Phase","Gas Heaters","No",0,"No",5,"No","No","","",,
+"3nc00003","A       ","2024-03-07 00:00:00",4,"Fluorescent","Fluorescent","No","No","No","No","No","120/208",400,"3 Phase","Gas Heaters","No",0,"Yes",5.5,"No","No","","",,
+"3nc00003","B       ","2024-10-03 00:00:00",4,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/208",400,"3 Phase","Gas Heaters","No",,"Yes",5.5,"No","No",,,,
+"3nc00004","A       ","2024-10-03 00:00:00",10,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",225,"3 Phase","Packaged Units","Yes",125,"Yes",7,"No","No",,,,
+"3nc00004","ANT     ","2024-10-07 00:00:00",0,"N/A","N/A","N/A","N/A","N/A","N/A","N/A",0,0,"N/A","N/A","N/A",0,"N/A",0,"N/A","N/A",,,0,0
+"3nc00004","D       ","2024-10-03 00:00:00",3,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",225,"3 Phase","Gas Heaters","No",0,"Yes",11.5,"No","No",,,,
+"3nj00010","A       ","2024-05-02 00:00:00",20.77,"High-Intensity Discharge","LED","N/A","N/A","N/A","Yes","No","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3nj00010","C       ","2024-05-02 00:00:00",34.27,"High-Intensity Discharge","LED","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3nj00011",2       ,"2024-05-02 00:00:00",100,"LED","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3nj00012","3-DEF   ","2024-05-02 00:00:00",28.58,"","LED","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3nj00012","A       ","2024-05-02 00:00:00",32.63,"","LED","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3nj00012","B       ","2024-05-02 00:00:00",0,"","LED","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3nj00012","C       ","2024-05-02 00:00:00",29.98,"","LED","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3nj00013","A       ","2024-05-02 00:00:00",44.65,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3nj00013","BC      ","2024-05-02 00:00:00",76.89,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3nj00013","D       ","2024-05-02 00:00:00",30.38,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3nj00014","A       ","2024-05-02 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3nj00014","B       ","2024-05-02 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3nj00014","C       ","2024-05-02 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3nj00014","DEFN    ","2024-05-02 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3nj00014","G       ","2024-05-02 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3nj00014","H       ","2024-05-02 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3nj00014","J       ","2024-05-02 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3nj00014","K       ","2024-05-02 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","No","","",0,0
+"3nj00014","M       ","2024-05-02 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"Single","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3nj00016",59      ,"2024-05-02 00:00:00",55.04,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","No",0,"Yes",0,"N/A","N/A","","",0,0
+"3nc00005",100     ,"2024-10-03 00:00:00",100,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",1200,"3 Phase","Packaged Units","Yes",4,"Yes",50,"No","No",,,,
+"3md00005","A       ","2024-03-07 00:00:00",100,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",1200,"3 Phase","Packaged Units","Yes",4,"Yes",50,"No","No","","",,
+"3md00005","B       ","2024-10-03 00:00:00",18.5,"","","Yes","No","No","Yes","No",,,"3 Phase","Gas Heaters","No",,"Yes",,"Yes","No",,,,
+"3md00005","C       ","2024-10-03 00:00:00",0,"","","Yes","No","No","Yes","No",,,"3 Phase","Gas Heaters","No",,"Yes",,"Yes","No",,,,
+"3nj00018","CABLE   ","2024-10-08 00:00:00",0,"N/A","N/A","N/A","N/A","N/A","N/A","No",0,0,"N/A","N/A","N/A",0,"N/A",0,"N/A","N/A",,,0,0
+"3oh00004",100     ,"2024-10-07 00:00:00",0.4,"Fluorescent/LED","","No","No","No","Yes","No","277/480",4000,"3 Phase","Gas Heaters","No",0,"Yes",16,"No","No",,,,
+"3oh00004",200     ,"2024-10-07 00:00:00",0.4,"Fluorescent/LED","","No","No","No","Yes","No","120/208",800,"3 Phase","Gas Heaters","No",0,"Yes",16,"No","No",,,,
+"3oh00004",300     ,"2024-10-07 00:00:00",2.4,"LED","LED","No","No","Yes","Yes","No",,,"3 Phase","Gas Heaters","No",0,"Yes",2.5,"No","No",,,,
+"3oh00004",400     ,"2024-10-07 00:00:00",0,"Fluorescent/LED","N/A","No","No","No","Yes","No","120/208",225,"3 Phase","Gas Heaters","No",0,"Yes",100,"No","No",,,,
+"3nc00006",1       ,"2024-03-07 00:00:00",1.7,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",400,"3 Phase","Gas Heaters","No",0,"Yes",2,"No","No","","",,
+"3nc00006",2       ,"2024-10-03 00:00:00",6.8,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",7025,"3 Phase","Gas Heaters","No",,"No",33,"Yes","No",,,,
+"3nc00006",3       ,"2024-10-03 00:00:00",,"Fluorescent","Fluorescent","No","No","No","Yes","No",,800,"3 Phase","Gas Heaters","No",,"No",,"No","No",,,,
+"3nc00006",4       ,"2024-10-03 00:00:00",,"Fluorescent","Fluorescent","No","No","No","Yes","No",,800,"3 Phase","Gas Heaters","No",,"No",,"No","No",,,,
+"3nc00007","A       ","2024-03-07 00:00:00",14.4,"Fluorescent","LED","No","No","No","Yes","No","277/480",2500,"3 Phase","Gas Heaters","No",0,"Yes",23,"No","No","","",,
+"3nc00007","E       ","2024-04-02 00:00:00",10,"Fluorescent","LED","No","No","No","Yes","N/A","277/480",1200,"3 Phase","Gas Heaters","No",0,"No",7,"","No","","",,
+"3nc00008",100     ,"2024-03-07 00:00:00",19.2,"LED","Fluorescent","No","No","Yes","No","No","277/480",1200,"3 Phase","Packaged Units","No",0,"Yes",40,"No","No","","",,
+"3fl00008",100     ,"2024-10-03 00:00:00",,"","","Yes","No","No","Yes","No","277/480",3000,"3 Phase","None","No",10,"Yes",0,"Yes","No",,,,
+"3fl00009","A       ","2024-10-03 00:00:00",12.56,"Fluorescent","","Yes","No","No","Yes","No","120/208",1200,"3 Phase","None","No",10,"Yes",,"Yes","No",,,,
+"3fl00009","B       ","2024-10-03 00:00:00",,"","","Yes","No","No","Yes","No","120/208",1200,"3 Phase","None","No",,"Yes",,"Yes","No",,,,
+"3fl00010",100     ,"2024-10-03 00:00:00",15.96,"","","Yes","No","No","Yes","No","120/208",800,"3 Phase","None","No",45.5,"Yes",,"Yes","No",,,,
+"3fl00011",100     ,"2024-10-03 00:00:00",8.28,"","","N/A","N/A","N/A","Yes","N/A","277/480",1200,"3 Phase","N/A","N/A",22.5,"Yes",0,"N/A","No","","",0,0
+"3md00006",100     ,"2024-05-21 00:00:00",5.6,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","N/A",0,"N/A",0,"N/A","N/A","","",0,0
+"3tx00014",100     ,"2024-04-23 00:00:00",34.64,"Fluorescent","Fluorescent","Yes","No","No","Yes","No","120/240",400,"3 Phase","Gas Heaters","No",10,"Yes",10,"Yes","No",,,1,1
+"3tx00014",200     ,"2024-04-23 00:00:00",21.5,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/240",400,"3 Phase","Gas Heaters","Yes",17.5,"Yes",12,"Yes","No",,,1,2
+"3tx00014",300     ,"2024-05-08 00:00:00",34.64,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/240",400,"3 Phase","Gas Heaters","Yes",10,"Yes",10,"Yes","No",,,1,0
+"iga001  ",200     ,"2024-05-14 00:00:00",0,"Fluorescent","N/A","No","No","No","Yes","No","120/208",800,"3 Phase","Gas Heaters","No",0,"N/A",0,"No","No","","Dead storage building for Wincup currently. No office pod",1,5
+"iga001  ",4600    ,"2024-05-14 00:00:00",0,"Fluorescent","N/A","No","No","No","Yes","No","120/208",800,"3 Phase","Gas Heaters","No",0,"N/A",0,"No","No","","Dead storage building for Wincup currently. No office pod",1,5
+"iga001  ",4640    ,"2024-06-21 00:00:00",5.87,"Fluorescent/LED","Fluorescent","Yes","No","No","Yes","No","277/480",9000,"3 Phase","Gas Heaters","No",0,"Yes",15,"Yes","No","","",2,10
+"iga001  ",4680    ,"2024-06-21 00:00:00",7.7,"Fluorescent/LED","Fluorescent","No","No","No","Yes","No","277/480",13800,"3 Phase","Gas Heaters","No",60,"Yes",26,"Yes","No","","",6,0
+"iga001  ","PARK    ","2024-06-21 00:00:00",0,"N/A","N/A","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","N/A",0,"N/A",0,"N/A","No","","Land parcel, parking lot only",0,0
+"3tx00015",100     ,"2024-05-08 00:00:00",29.38,"LED","LED","No","No","No","Yes","No","120/240",600,"3 Phase","Gas Heaters","No",24,"Yes",17.5,"Yes","No",,,0,1
+"3tx00015","100A    ","2024-05-08 00:00:00",60.97,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/240",600,"3 Phase","Gas Heaters","Yes",3,"Yes",12.5,"Yes","No",,,0,2
+"3tx00015",102     ,"2024-05-08 00:00:00",60.97,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/240",600,"3 Phase","Gas Heaters","Yes",5,"Yes",5,"Yes","No",,,0,1
+"3tx00015","102A    ","2024-05-08 00:00:00",38.38,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/240",600,"3 Phase","Gas Heaters","No",12.5,"Yes",10,"Yes","No",,,1,0
+"3tx00015",108     ,"2024-05-08 00:00:00",53.58,"LED","LED","No","No","No","Yes","No","120/240",600,"3 Phase","Gas Heaters","No",4,"Yes",6,"Yes","No",,,1,0
+"3tx00015","108A    ","2024-05-08 00:00:00",63.16,"LED","LED","No","No","No","Yes","No","120/240",600,"3 Phase","Gas Heaters","No",2.5,"Yes",12,"Yes","No",,,1,0
+"3tx00015",114     ,"2024-05-08 00:00:00",,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/240",1200,"3 Phase","Gas Heaters","No",4,"Yes",7,"Yes","No",,,1,0
+"3tx00015",116     ,"2024-05-08 00:00:00",100,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/240",600,"3 Phase","Gas Heaters","N/A",,"Yes",23,"Yes","No",,,0,0
+"3tx00015","116A    ","2024-05-08 00:00:00",41.85,"LED","Fluorescent","No","No","No","Yes","No","120/240",600,"3 Phase","Gas Heaters","Yes",5,"Yes",13.5,"Yes","No",,,1,1
+"3tx00015",120     ,"2024-05-08 00:00:00",100,"N/A","LED","No","No","No","Yes","No","120/240",600,"3 Phase","Gas Heaters","N/A",,"Yes",9.5,"Yes","No",,,1,1
+"3tx00015","120A    ","2024-05-13 00:00:00",31.96,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/240",600,"3 Phase","Gas Heaters","No",,"Yes",4,"Yes","No",,,1,0
+"3tx00015",122     ,"2024-05-13 00:00:00",31.96,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/240",600,"3 Phase","Gas Heaters","No",,"Yes",4,"Yes","No",,,1,0
+"3tx00015","122A    ","2024-05-13 00:00:00",41.85,"LED","Fluorescent","No","No","No","Yes","No","120/240",600,"3 Phase","Gas Heaters","No",,"Yes",2,"Yes","No",,,1,0
+"3tx00015",124     ,"2024-05-13 00:00:00",46.57,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/240",600,"3 Phase","Gas Heaters","Yes",12,"Yes",32.5,"Yes","No",,,0,1
+"3tx00015","124A    ","2024-05-13 00:00:00",38.38,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/240",600,"3 Phase","Gas Heaters","Yes",6,"Yes",6,"Yes","No",,,1,0
+"3tx00015",128     ,"2024-05-13 00:00:00",30.01,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/240",600,"3 Phase","Gas Heaters","Yes",3,"Yes",2,"Yes","No",,,0,1
+"3tx00015",136     ,"2024-05-13 00:00:00",50.23,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/240",600,"3 Phase","Gas Heaters","Yes",3,"Yes",13.5,"Yes","No",,,0,1
+"3tx00015","136W    ","2024-05-13 00:00:00",30.01,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/240",600,"3 Phase","Gas Heaters","No",,"No",,"Yes","No",,,0,0
+"inc001  ",1620    ,"2024-05-03 00:00:00",2,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",2000,"3 Phase","Packaged Units","Yes",60,"Yes",6,"Programmable","No","","",1,9
+"inc001  ",1640    ,"2024-05-03 00:00:00",13,"Fluorescent/LED","Fluorescent","No","No","No","Yes","No","277/480",0,"3 Phase","Packaged Units","Yes",80,"Yes",26,"Yes","No","","",0,6
+"3nj00020","A       ","2024-10-01 00:00:00",13.33,"Fluorescent/LED","LED","N/A","No","No","Yes","No","120/208",1200,"N/A","Gas Heaters","Yes",,"Yes",,"N/A","Yes","blood testing kits/chemicals and agents","a lot of lab space, needs to be converted when rolls",0,2
+"3nj00020","B       ","2024-06-28 00:00:00",7.27,"LED","Fluorescent/LED","Yes","No","No","Yes","No","120/208",800,"Single","Gas Heaters","No",32.5,"Yes",5,"Yes","No",,,1,3
+"iga002  ",4616    ,"2024-05-14 00:00:00",0,"","","N/A","N/A","N/A","N/A","N/A","",0,"N/A","N/A","N/A",0,"N/A",0,"N/A","No","","Land parcel only",0,0
+"iga003  ",4680    ,"2024-05-14 00:00:00",7.7,"Fluorescent/LED","Fluorescent","No","No","No","Yes","No","277/480",13800,"3 Phase","Gas Heaters","No",0,"Yes",69.5,"Yes","No","","",6,0
+"iga004  ",4640    ,"2024-05-14 00:00:00",5.87,"Fluorescent/LED","Fluorescent","Programmable","No","No","Yes","No","277/480",9000,"3 Phase","Gas Heaters","No",0,"Yes",15,"Programmable","No","","",2,10
+"3nj00021","ROOF    ","2024-10-07 00:00:00",0,"N/A","N/A","N/A","N/A","N/A","N/A","N/A",0,0,"N/A","N/A","N/A",0,"N/A",0,"N/A","N/A",,,0,0
+"3ga00006",100     ,"2024-07-19 00:00:00",44,"High-Intensity Discharge","Fluorescent","No","No","No","Yes","No","277/480",800,"3 Phase","Gas Heaters","No",0,"Yes",49.5,"Yes","No","","",1,5
+"3ga00006",120     ,"2024-07-19 00:00:00",11,"High-Intensity Discharge","Fluorescent","No","No","No","Yes","No","277/480",200,"3 Phase","Gas Heaters","No",0,"Yes",10.5,"Yes","No","","",1,1
+"3ga00006",160     ,"2024-07-19 00:00:00",12,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",200,"3 Phase","Gas Heaters","No",0,"Yes",10,"Yes","No","","",2,7
+"3ga00007",100     ,"2024-07-19 00:00:00",61,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",200,"3 Phase","Gas Heaters","No",0,"Yes",37,"Yes","No","","",1,4
+"3ga00007",106     ,"2024-07-19 00:00:00",24,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",400,"3 Phase","Gas Heaters","No",0,"Yes",5,"Yes","No","","",1,3
+"3ga00007",110     ,"2024-07-19 00:00:00",20,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",200,"3 Phase","Gas Heaters","No",0,"Yes",22,"Yes","No","","",1,3
+"3ga00007",114     ,"2024-07-19 00:00:00",29,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",200,"3 Phase","Gas Heaters","No",0,"Yes",9.5,"Yes","No","","",0,3
+"3ga00007",120     ,"2024-07-19 00:00:00",37,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",200,"3 Phase","Gas Heaters","No",0,"Yes",9,"Yes","No","","",1,3
+"3ny00002","PARK    ","2024-10-08 00:00:00",0,"N/A","N/A","N/A","N/A","N/A","N/A","N/A",0,0,"N/A","N/A","N/A",0,"N/A",0,"N/A","N/A",,,0,0
+"3tn00007","01-04   ","2024-09-17 00:00:00",6.8,"N/A","Fluorescent","N/A","No","No","Yes","No","277/480",1000,"3 Phase","Packaged Units","No",0,"Yes",54.5,"N/A","No",,,1,7
+"3tn00007","05-12   ","2024-09-17 00:00:00",4.38,"N/A","Fluorescent","N/A","No","No","Yes","No","277/480",1000,"3 Phase","Packaged Units","No",0,"Yes",54.5,"N/A","No",,,2,23
+"3tn00008",1       ,"2024-09-17 00:00:00",67.97,"N/A","Fluorescent","N/A","No","No","Yes","No","277/480",1000,"3 Phase","Packaged Units","No",0,"Yes",98.5,"N/A","No",,,2,0
+"3tn00008",11      ,"2024-09-17 00:00:00",62.96,"N/A","Fluorescent","N/A","No","No","Yes","No","277/480",1000,"3 Phase","Packaged Units","No",0,"Yes",98.5,"N/A","No",,,1,0
+"3tn00008",2       ,"2024-09-17 00:00:00",41.21,"N/A","Fluorescent","N/A","No","No","Yes","No","277/480",1000,"3 Phase","Packaged Units","No",0,"Yes",98.5,"N/A","No",,,0,1
+"3tn00008",3       ,"2024-09-17 00:00:00",41.21,"N/A","Fluorescent","N/A","No","No","Yes","No","277/480",1000,"3 Phase","Packaged Units","No",0,"Yes",98.5,"N/A","No",,,1,0
+"3tn00008",5       ,"2024-09-17 00:00:00",20.38,"N/A","Fluorescent","N/A","No","No","Yes","No","277/480",1000,"3 Phase","Packaged Units","No",0,"Yes",98.5,"N/A","No",,,2,0
+"3tn00008",7       ,"2024-09-17 00:00:00",0,"N/A","Fluorescent","N/A","No","No","Yes","No","277/480",1000,"3 Phase","Packaged Units","No",0,"Yes",98.5,"N/A","No",,,0,2
+"3tn00008",8       ,"2024-09-17 00:00:00",27.27,"N/A","Fluorescent","N/A","No","No","Yes","No","277/480",1000,"3 Phase","Packaged Units","No",0,"Yes",98.5,"N/A","No",,,1,1
+"3tn00008","9-10    ","2024-09-17 00:00:00",10.69,"N/A","Fluorescent","N/A","No","No","Yes","No","277/480",1000,"3 Phase","Packaged Units","No",0,"Yes",98.5,"N/A","No",,,3,0
+"3tn00009","1A      ","2024-09-17 00:00:00",11.28,"N/A","Fluorescent","N/A","No","No","Yes","No","277/480",1000,"3 Phase","Packaged Units","No",0,"Yes",87,"N/A","No",,,1,5
+"3tn00009","1B      ","2024-09-17 00:00:00",0.79,"N/A","Fluorescent","N/A","No","No","Yes","No","277/480",1000,"3 Phase","Packaged Units","No",0,"Yes",87,"N/A","No",,,1,10
+"3tn00009","2A      ","2024-09-17 00:00:00",0.79,"N/A","Fluorescent","N/A","No","No","Yes","No","277/480",1000,"3 Phase","Packaged Units","No",0,"Yes",87,"N/A","No",,,0,7
+"3tn00010",100     ,"2024-09-17 00:00:00",14.7,"LED","Fluorescent","N/A","N/A","No","Yes","No","480/277",1000,"3 Phase","Packaged Units","No",0,"Yes",44.5,"N/A","No",,,2,18
+"3tn00011",100     ,"2024-09-13 00:00:00",7.5,"LED","LED","N/A","No","No","Yes","No","480/277",3000,"3 Phase","Packaged Units","No",,"Yes",,"Yes","No",,,2,9
+"3tn00012",100     ,"2024-09-13 00:00:00",5.33,"LED","LED","N/A","Yes","No","Yes","No","480/277 volt",1200,"3 Phase","Gas Heaters","Yes",20,"Yes",10,"Yes","No",,,0,64
+"3tn00013",1       ,"2024-09-17 00:00:00",15.3,"LED","LED","N/A","N/A","No","N/A","N/A","480/277",1200,"3 Phase","Gas Heaters","No",0,"Yes",3,"N/A","No",,,1,6
+"3tn00013",2       ,"2024-09-12 00:00:00",16.6,"LED","LED","Yes","N/A","No","N/A","No","480/277",1200,"3 Phase","Gas Heaters","No",0,"Yes",10,"N/A","No",,,0,3
+"3tn00014",100     ,"2024-09-17 00:00:00",4.8,"LED","Fluorescent","N/A","N/A","No","N/A","N/A","277/480",800,"3 Phase","Packaged Units","N/A",0,"N/A",4,"N/A","No",,"Water intrusion issue in office; ceiling tiles to be replaced",0,18
+"3fl00012",21      ,"2024-09-06 00:00:00",2.5,"Fluorescent","Fluorescent","Yes","Yes","No","Yes","No","477/480 and 208Y/120-volt",1200,"3 Phase","Gas Heaters","No",0,"Yes",3,"Yes","No",,"3 Pit Levelers",2,9
+"3fl00012",22      ,"2024-09-06 00:00:00",11.2,"LED","LED","Yes","Yes","No","Yes","No","477/480 and 208Y/120-volt",1200,"3 Phase","Gas Heaters","No",0,"Yes",25,"Yes","No",,"2 Pit Levelers",1,7
+"3fl00012",400     ,"2024-09-06 00:00:00",14.7,"Fluorescent","LED","Yes","Yes","No","Yes","No","477/480 and 208Y/120-volt",1200,"3 Phase","Gas Heaters","No",0,"Yes",31,"Yes","No",,"17% Cold
+12 Cold Cross Docks
+Ability to punch out 5 docks and they already have dock bumpers.",1,20
+"3fl00012",600     ,"2024-09-06 00:00:00",0,"N/A","N/A","N/A","N/A","No","Yes","No","477/480 and 208Y/120-volt",1200,"3 Phase","Gas Heaters","No",0,"Yes",9,"N/A","No",,"Crossdock",0,17
+"iga005  ",1       ,"2024-09-06 00:00:00",65,"Fluorescent","Fluorescent/LED","No","No","No","Yes","No","277/480",1200,"3 Phase","Gas Heaters","No",0,"Yes",72,"Programmable","No","","Dance studios make up a portion of the area considered office.",0,2
+"3fl00013",1       ,"2024-10-04 00:00:00",4.1,"N/A","N/A","Yes","Yes","No","Yes","No","477/480 and 208Y/120-volt",1200,"3 Phase","Gas Heaters","No",0,"Yes",14,"Yes","No",,"7 Pit Levelers",0,30
+"3fl00013",2       ,"2024-09-06 00:00:00",16.84,"N/A","N/A","Yes","Yes","No","Yes","No","477/480 and 208Y/120-volt",1200,"3 Phase","Gas Heaters","No",0,"Yes",24,"Yes","No",,,0,6
+"3fl00014","100-300 ","2024-09-06 00:00:00",9.64,"N/A","N/A","Yes","N/A","No","Yes","No","477/480 and 208Y/120-volt",1200,"3 Phase","Gas Heaters","Yes",0,"Yes",18,"Yes","No",,,0,19
+"3fl00014",200     ,"2024-09-06 00:00:00",3.6,"N/A","N/A","Yes","N/A","No","Yes","No","477/480 and 208Y/120-volt",1200,"3 Phase","Gas Heaters","No",0,"Yes",26,"Yes","No",,,6,14
+"3fl00015",1       ,"2024-08-30 00:00:00",3.7,"N/A","N/A","N/A","N/A","No","Yes","No","477/480 and 208Y/120-volt",1200,"3 Phase","Gas Heaters","No",0,"Yes",16.5,"N/A","No",,,41,1
+"3tn00015",1       ,"2024-09-13 00:00:00",16.98,"Fluorescent/HID","Fluorescent/LED","N/A","Yes","No","Yes","No","277/480-volt",2000,"3 Phase","Packaged Units","N/A",5,"Yes",4,"N/A","No",,,0,4
+"3tn00016",1       ,"2024-09-17 00:00:00",0,"N/A","N/A","N/A","No","No","N/A","No","277/480",400,"3 Phase","Gas Heaters","No",0,"Yes",4,"N/A","No",,,0,2
+"3tn00016",11      ,"2024-09-12 00:00:00",32.69,"N/A","N/A","N/A","No","No","N/A","No","277/480",400,"3 Phase","Gas Heaters","No",,"Yes",4,"N/A","No",,,,2
+"3tn00016",12      ,"2024-09-12 00:00:00",33.74,"N/A","N/A","N/A","No","No","N/A","N/A","277/480",400,"3 Phase","Gas Heaters","No",,"Yes",4,"N/A","No",,,0,4
+"3tn00016",2       ,"2024-09-12 00:00:00",14.85,"N/A","N/A","N/A","No","No","N/A","No","277/480",400,"3 Phase","Gas Heaters","No",,"Yes",4,"N/A","No",,,1,4
+"3tn00016","3-4     ","2024-09-12 00:00:00",29.05,"N/A","N/A","N/A","No","No","N/A","No","277/480",400,"3 Phase","Gas Heaters","No",,"Yes",4,"N/A","No",,,,6
+"3tn00016",5       ,"2024-09-12 00:00:00",32.69,"N/A","N/A","N/A","No","No","N/A","No","277/480",400,"3 Phase","Gas Heaters","No",,"Yes",4,"N/A","No",,,,2
+"3tn00016",6       ,"2024-09-12 00:00:00",46.76,"N/A","N/A","N/A","No","No","N/A","No","277/480",400,"3 Phase","Gas Heaters","No",,"Yes",4,"N/A","No",,,,2
+"3tn00016",8       ,"2024-09-12 00:00:00",36.5,"N/A","N/A","N/A","No","No","N/A","No","277/480",400,"3 Phase","Gas Heaters","No",,"Yes",4,"N/A","No",,,2,5
+"3tn00016",9       ,"2024-09-12 00:00:00",36.5,"N/A","N/A","N/A","No","No","N/A","No","277/480",400,"3 Phase","Gas Heaters","No",,"Yes",4,"N/A","No",,,,5
+"3tn00017",2       ,"2024-09-12 00:00:00",26.7,"N/A","N/A","Yes","No","No","N/A","No","277/480",400,"3 Phase","Gas Heaters","No",,"Yes",4,"Yes","N/A",,,1,2
+"3tn00017","2A      ","2024-09-12 00:00:00",25.16,"N/A","N/A","N/A","No","No","N/A","No","277/480",400,"3 Phase","Gas Heaters","No",,"Yes",4,"N/A","No",,,0,2
+"3tn00018",100     ,"2024-09-13 00:00:00",5.27,"Fluorescent/LED","Fluorescent/LED","N/A","Yes","No","Yes","No","277/480",2000,"3 Phase","Packaged Units","N/A",,"Yes",4,"Yes","No",,,2,15
+"3ga00009",1       ,"2024-09-27 00:00:00",8,"Fluorescent","Fluorescent","No","No","No","Yes","No","120/208",1000,"3 Phase","Gas Heaters","No",0,"Yes",41,"Programmable","No","","",3,17
+"3ga00008",1       ,"2024-09-27 00:00:00",3,"LED","LED","No","No","No","Yes","N/A","277/480",2000,"3 Phase","Gas Heaters","Yes",160,"Yes",5,"Yes","No","","",2,11
+"3ga00010",1       ,"2024-09-27 00:00:00",18,"Fluorescent","Fluorescent","No","No","No","Yes","No","277/480",1200,"3 Phase","Gas Heaters","No",0,"Yes",20,"Programmable","No","","",1,4

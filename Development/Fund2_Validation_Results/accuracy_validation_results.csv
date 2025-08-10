@@ -1,0 +1,3 @@
+date,overall_accuracy,record_count_accuracy,record_count_actual,record_count_generated,total_monthly_rent_accuracy,total_monthly_rent_actual,total_monthly_rent_generated,total_leased_sf_accuracy,total_leased_sf_actual,total_leased_sf_generated,property_count_accuracy,property_count_actual,property_count_generated,tenant_count_accuracy,tenant_count_actual,tenant_count_generated,avg_rent_psf_accuracy,avg_rent_psf_actual,avg_rent_psf_generated
+"March 31, 2025",32.840305304883195,98.23943661971832,284,279,0,0,35077921.7217,0,0,10144917,98.80239520958084,167,169,0,0,279,0,0,41.49221335772387
+"December 31, 2024",32.617571873796265,99.29824561403508,285,287,0,0,35627763.8517,0,0,10399164,96.40718562874252,167,173,0,0,287,0,0,41.112263083878666

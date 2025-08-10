@@ -1,0 +1,80 @@
+amendment_hmy,property_hmy,property_code,tenant_hmy,tenant_id,amendment_status_code,amendment_status,amendment_type_code,amendment_type,amendment_sequence,amendment_sf,amendment_term,amendment_start_date,amendment_end_date,monthly_amount,test_scenario,expected_result
+# ===========================
+# CATEGORY 1: AMENDMENT SEQUENCE EDGE CASES
+# ===========================
+1001,PROP001,PROP001,TEN001,T001,1,Activated,0,Original Lease,1,2000,60,2024-01-01,2026-12-31,5000,Multiple_Amendments_Seq1,Should_Not_Be_Selected
+1002,PROP001,PROP001,TEN001,T001,1,Activated,1,Renewal,2,2000,60,2024-06-01,2026-12-31,5500,Multiple_Amendments_Seq2,Should_Not_Be_Selected
+1003,PROP001,PROP001,TEN001,T001,2,Superseded,1,Renewal,3,2500,60,2024-12-01,2027-12-31,6000,Multiple_Amendments_Seq3,Should_Be_Selected
+1004,PROP002,PROP002,TEN002,T002,1,Activated,0,Original Lease,1,1500,60,2024-01-01,2026-12-31,3000,Gap_In_Sequences_Seq1,Should_Not_Be_Selected
+1005,PROP002,PROP002,TEN002,T002,2,Superseded,1,Renewal,5,1500,60,2024-06-01,2026-12-31,3200,Gap_In_Sequences_Seq5,Should_Be_Selected
+1006,PROP003,PROP003,TEN003,T003,1,Activated,0,Original Lease,2,1800,60,2024-01-01,2026-12-31,4000,Duplicate_Sequences_A,Should_Both_Process
+1007,PROP003,PROP003,TEN003,T003,2,Superseded,1,Renewal,2,1800,60,2024-01-01,2026-12-31,4200,Duplicate_Sequences_B,Should_Both_Process
+# ===========================
+# CATEGORY 2: AMENDMENT STATUS EDGE CASES
+# ===========================
+1008,PROP004,PROP004,TEN004,T004,1,Activated,0,Original Lease,1,2000,60,2024-01-01,2026-12-31,4000,Latest_Superseded_Seq1,Should_Not_Be_Selected
+1009,PROP004,PROP004,TEN004,T004,2,Superseded,1,Renewal,2,2000,60,2024-06-01,2026-12-31,4500,Latest_Superseded_Seq2,Should_Be_Selected
+1010,PROP005,PROP005,TEN005,T005,1,Activated,0,Original Lease,1,2000,60,2024-01-01,2026-12-31,5000,Termination_Exclusion_Seq1,Should_Be_Selected
+1011,PROP005,PROP005,TEN005,T005,1,Activated,2,Termination,2,2000,0,2024-12-01,2024-12-01,0,Termination_Exclusion_Seq2,Should_Be_Excluded
+1012,PROP006,PROP006,TEN006,T006,1,Activated,0,Original Lease,1,1800,60,2024-01-01,2026-12-31,5000,Draft_Status_Seq1,Should_Be_Selected
+1013,PROP006,PROP006,TEN006,T006,3,Draft,1,Renewal,2,1800,60,2024-06-01,2026-12-31,5500,Draft_Status_Seq2,Should_Be_Excluded
+1014,PROP006A,PROP006A,TEN006A,T006A,4,Cancelled,0,Original Lease,1,1800,60,2024-01-01,2026-12-31,5000,Cancelled_Status,Should_Be_Excluded
+# ===========================
+# CATEGORY 3: DATE BOUNDARY EDGE CASES
+# ===========================
+1015,PROP007,PROP007,TEN007,T007,1,Activated,0,Original Lease,1,1800,999,2024-01-01,,3000,Null_End_Date,Should_Be_Included
+1016,PROP008,PROP008,TEN008,T008,1,Activated,0,Original Lease,1,2000,12,2025-12-31,2026-12-31,4000,Future_Start_Date,Should_Be_Excluded_Current
+1017,PROP009,PROP009,TEN009,T009,1,Activated,0,Original Lease,1,1500,18,2024-01-01,2025-06-29,3500,Recently_Expired,Should_Be_Excluded_Current
+1018,PROP010,PROP010,TEN010,T010,1,Activated,0,Original Lease,1,1600,18,2024-01-01,2025-06-30,3600,Expiring_Today,Should_Be_Included_Current
+1019,PROP010A,PROP010A,TEN010A,T010A,1,Activated,0,Original Lease,1,2200,12,2024-07-01,2025-06-30,4800,Expiring_In_12_Months,Should_Be_In_Expiring_List
+1020,PROP010B,PROP010B,TEN010B,T010B,1,Activated,0,Original Lease,1,1900,18,2025-01-01,2026-12-31,4100,Long_Term_Lease,Should_Not_Be_In_Expiring_List
+# ===========================
+# CATEGORY 4: FINANCIAL CALCULATION EDGE CASES
+# ===========================
+1021,PROP011,PROP011,TEN011,T011,1,Activated,0,Original Lease,1,1000,60,2024-01-01,2026-12-31,0,Zero_Rent_Amount,Should_Include_SF_Zero_Rent
+1022,PROP012,PROP012,TEN012,T012,1,Activated,0,Original Lease,1,500,60,2024-01-01,2026-12-31,-500,Negative_Rent_Credit,Should_Handle_Negative
+1023,PROP013,PROP013,TEN013,T013,1,Activated,0,Original Lease,1,1000,60,2024-01-01,2026-12-31,999999,Extremely_Large_Rent,Should_Flag_Unusual
+1024,PROP013A,PROP013A,TEN013A,T013A,1,Activated,0,Original Lease,1,0,60,2024-01-01,2026-12-31,5000,Zero_SF_Nonzero_Rent,Should_Handle_Division_By_Zero
+# ===========================
+# CATEGORY 5: PROPERTY/UNIT RELATIONSHIP EDGE CASES
+# ===========================
+1025,PROP014,PROP014,TEN014,T014,1,Activated,0,Original Lease,1,1000,60,2024-01-01,2026-12-31,5000,Same_Tenant_Multi_Prop_A,Should_Both_Be_Selected
+1026,PROP015,PROP015,TEN014,T014,1,Activated,0,Original Lease,1,2000,60,2024-01-01,2026-12-31,8000,Same_Tenant_Multi_Prop_B,Should_Both_Be_Selected
+1027,PROP016,PROP016,TEN016,T016,1,Activated,0,Original Lease,1,2500,60,2024-01-01,2026-12-31,12000,Multi_Unit_Amendment_A,Should_Count_Once
+1028,PROP016,PROP016,TEN016,T016,1,Activated,0,Original Lease,1,0,60,2024-01-01,2026-12-31,0,Multi_Unit_Amendment_B,Should_Not_Double_Count
+# ===========================
+# CATEGORY 6: MISSING DATA EDGE CASES
+# ===========================
+1029,PROP017,PROP017,TEN017,T017,1,Activated,0,Original Lease,1,,60,2024-01-01,2026-12-31,5000,Null_Amendment_SF,Should_Exclude_From_SF_Calcs
+1030,PROP018,PROP018,TEN018,T018,1,Activated,0,Original Lease,1,1500,60,2024-01-01,2026-12-31,,Null_Monthly_Amount,Should_Default_To_Zero
+1031,PROP019,PROP019,TEN019,T019,1,Activated,0,Original Lease,1,1800,60,,2026-12-31,4000,Null_Start_Date,Should_Exclude_From_Date_Calcs
+1032,PROP019A,PROP019A,TEN019A,T019A,1,Activated,0,Original Lease,1,1600,60,2024-01-01,,4200,Null_End_Date_MTM,Should_Include_Handle_MTM
+# ===========================
+# CATEGORY 7: LEASING ACTIVITY EDGE CASES
+# ===========================
+1033,PROP020,PROP020,TEN020,T020,1,Activated,0,Original Lease,1,2000,60,2024-06-01,2027-05-31,8000,New_Lease_Recent,Should_Count_As_New
+1034,PROP021,PROP021,TEN021,T021,1,Activated,1,Renewal,1,1800,36,2024-07-01,2027-06-30,7500,Renewal_Recent,Should_Count_As_Renewal
+1035,PROP022,PROP022,TEN022,T022,1,Activated,2,Termination,1,1500,0,2024-05-01,2024-05-01,0,Termination_Recent,Should_Count_As_Termination
+1036,PROP023,PROP023,TEN023,T023,1,Activated,1,Renewal,1,2200,60,2025-01-01,2029-12-31,9500,Renewal_Higher_Rent,Should_Calc_Rent_Change
+1037,PROP023,PROP023,TEN023,T023,2,Superseded,0,Original Lease,0,2200,60,2020-01-01,2024-12-31,9000,Renewal_Prior_Rent,Should_Use_For_Comparison
+# ===========================
+# CATEGORY 8: WALT CALCULATION EDGE CASES
+# ===========================
+1038,PROP024,PROP024,TEN024,T024,1,Activated,0,Original Lease,1,1000,1,2025-05-01,2025-05-31,3000,Very_Short_Lease,Should_Calculate_Months
+1039,PROP025,PROP025,TEN025,T025,1,Activated,0,Original Lease,1,3000,240,2024-01-01,2044-12-31,15000,Very_Long_Lease,Should_Calculate_Months
+1040,PROP026,PROP026,TEN026,T026,1,Activated,0,Original Lease,1,2500,60,2020-01-01,2025-12-31,10000,Lease_Near_Expiry,Should_Calculate_Remaining
+# ===========================
+# CATEGORY 9: PERFORMANCE TEST DATA (HIGH VOLUME)
+# ===========================
+1041,PROP100,PROP100,TEN100,T100,1,Activated,0,Original Lease,1,1000,60,2024-01-01,2026-12-31,4000,Performance_Test_Base,Performance_Test
+1042,PROP100,PROP100,TEN100,T100,1,Activated,1,Renewal,2,1000,60,2024-03-01,2026-12-31,4200,Performance_Test_Seq2,Performance_Test
+1043,PROP100,PROP100,TEN100,T100,2,Superseded,1,Renewal,3,1200,60,2024-06-01,2026-12-31,4500,Performance_Test_Latest,Performance_Test
+# Additional high-volume test records would be generated programmatically
+# ===========================
+# CATEGORY 10: REALISTIC BUSINESS SCENARIOS
+# ===========================
+1044,PROP201,PROP201,TEN201,T201,1,Activated,0,Original Lease,1,5000,60,2022-01-01,2027-12-31,25000,Large_Industrial_Tenant,Realistic_Scenario
+1045,PROP202,PROP202,TEN202,T202,1,Activated,0,Original Lease,1,1200,36,2024-01-01,2026-12-31,4800,Small_Office_Tenant,Realistic_Scenario  
+1046,PROP203,PROP203,TEN203,T203,1,Activated,0,Original Lease,1,2800,84,2023-01-01,2030-12-31,14000,Long_Term_Retail,Realistic_Scenario
+1047,PROP204,PROP204,TEN204,T204,2,Superseded,1,Renewal,2,3200,60,2024-08-01,2029-07-31,18000,Renewed_Warehouse,Realistic_Scenario
+1048,PROP204,PROP204,TEN204,T204,1,Activated,0,Original Lease,1,3200,60,2019-08-01,2024-07-31,16000,Original_Warehouse,Realistic_Scenario

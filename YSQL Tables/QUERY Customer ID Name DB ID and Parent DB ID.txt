@@ -1,0 +1,37 @@
+SELECT
+  t.SCODE AS "Lease Code",
+  c.scode AS "Customer Code",
+  c.sname AS "Customer Name",
+  t.SLASTNAME AS "Tenant Name",
+  p.SCODE AS "Property Code",
+  p.saddr2 AS "Property Address",
+  p.sstate AS "State",
+  a.SUBGROUP27 AS "Fund",
+  a.SUBGROUP1 AS "Market",
+  s.*,
+  -- This will pull all columns from the latest record in CUSTBUT1
+  t.SFIELDS0 AS "SLB Flag",
+  CASE WHEN t.iSTATUS = 0 THEN 'Current' WHEN t.iSTATUS = 1 THEN 'Past' WHEN t.iSTATUS = 2 THEN 'Future' ELSE 'Unknown' END AS "Lease Status"
+FROM
+  tenant t
+  JOIN Property p ON t.HPROPERTY = p.HMY
+  JOIN customer c ON t.hcustomer = c.hmyperson
+  JOIN Attributes a ON p.HMY = a.HPROP
+  LEFT JOIN (
+    SELECT
+      s1.*
+    FROM
+      CUSTBUT1 s1
+      JOIN (
+        SELECT
+          hcode,
+          MAX(DATE_CREDITCHECK) AS max_date
+        FROM
+          CUSTBUT1
+        GROUP BY
+          hcode
+      ) s2 ON s1.hcode = s2.hcode
+      AND s1.DATE_CREDITCHECK = s2.max_date
+  ) s ON c.hmyperson = s.hcode
+WHERE
+  t.SCODE NOT LIKE 'ml%';

@@ -1,0 +1,126 @@
+
+SELECT
+  e.hDMDeal AS "Deal HMY",
+  d.sDMDealStage AS "Deal Stage",
+  e.iCashFlowType,
+  CASE 
+    WHEN e.iCashFlowType = 0 THEN 'Proposal' 
+    WHEN e.iCashFlowType = 1 THEN 'MLA' 
+    WHEN e.iCashFlowType = 2 THEN 'Spec Lease' 
+    WHEN e.iCashFlowType = 3 THEN 'Prior Lease' 
+    WHEN e.iCashFlowType = 4 THEN 'Variance' 
+    WHEN e.iCashFlowType = 5 THEN 'Benchmark' 
+    WHEN e.iCashFlowType = 6 THEN 'Secondary Spec Lease' 
+    ELSE 'Unknown' 
+  END AS "Cash Flow Type",
+  CASE 
+    WHEN ca.iProposalType = 0 THEN 'New Lease' 
+    WHEN ca.iProposalType = 1 THEN 'Renewal' 
+    WHEN ca.iProposalType = 2 THEN 'Expansion' 
+    WHEN ca.iProposalType = 3 THEN 'Contraction' 
+    WHEN ca.iProposalType = 4 THEN 'Termination' 
+    WHEN ca.iProposalType = 5 THEN 'HoldOver' 
+    WHEN ca.iProposalType = 9 THEN 'Assignment'
+    WHEN ca.iProposalType = 12 THEN 'Remeasure' 
+    WHEN ca.iProposalType = 15 THEN 'Relocation' 
+    ELSE 'Unknown' 
+  END AS "Proposal Type",
+  e.hTenant AS "Tenant HMY",
+  t.scode AS "Tenant Code",
+  e.hCommamendment,
+  e.hDMLeaseTerm,
+  p.bPrimary,
+  e.dStartRent AS "Starting Rent",
+  e.iStartRentFrequency,
+  e.iStartRentType,
+  e.dEscalationAmount AS "Escalation Rate",
+  e.iEscalationType,
+  e.iTerm,
+  e.dArea,
+  e.dGAAPRent,
+  e.dTotalNPV,
+  e.dAnnualNPV,
+  e.dTotalRent,
+  e.iBreakEvenMonth,
+  e.dTIAllowance,
+  e.dTIAllowanceFlat,
+  e.dConcessionAmount,
+  e.dConcessionAmountFlat,
+  e.dOtherCosts,
+  e.dOtherCostsFlat,
+  e.dCapExPerArea,
+  e.dCapExFlat,
+  e.dCommissionInside,
+  e.dCommissionOutside,
+  e.dCommissionOther,
+  e.dTotalTransactionCost,
+  e.dTotalTransactionCostFlat,
+  e.dFreeRent,
+  e.dTotalBaseRent,
+  e.dNetLeaseSpread,
+  e.dAdditionalRentPerAreaAnnual,
+  e.dFreeRentMonths,
+  e.dAverageRent,
+  e.dDiscountRate,
+  e.dNER,
+  e.dIRR,
+  e.bOverrideNER,
+  e.dFreeRentFlat,
+  e.dAdditionalRentFlat,
+  e.dInitialCost,
+  e.dInitialCostFlat,
+  e.dSecurityDeposit,
+  e.dInflationRate,
+  e.sFreeRentMonthsText,
+  e.dCommissionInsideProFee,
+  e.dCommissionOutsideProFee,
+  e.dCommissionOtherProFee,
+  e.husercreatedby,
+  e.husermodifiedby,
+  e.dtcreated,
+  e.dtlastmodified,
+  e.dGAAPRentPerAreaAnnual,
+  e.dTotalNPVPerArea,
+  e.dAnnualNPVPerArea,
+  e.dTotalRentFlat,
+  e.dTIAllowancePerArea,
+  e.dConcessionAmountPerArea,
+  e.dOtherCostsPerArea,
+  e.dCommissionInsideFlat,
+  e.dCommissionOutsideFlat,
+  e.dCommissionOtherFlat,
+  e.dTotalTransactionCostPerArea,
+  e.dFreeRentPerArea,
+  e.dTotalBaseRentFlat,
+  e.dInitialCostPerArea,
+  e.dCommissionInsideProFeeFlat,
+  e.dCommissionOutsideProFeeFlat,
+  e.dCommissionOtherProFeeFlat,
+  e.iBaseYearOpEx,
+  e.iBaseYearTax,
+  e.iBaseYearInsurance,
+  e.iBaseYearUtilities,
+  e.iBaseYearManagementFees,
+  e.iBaseYearCustomExpense1,
+  e.iBaseYearCustomExpense2,
+  e.iBaseYearCustomExpense3,
+  e.iBaseYearCustomExpense4,
+  e.dtStartDate,
+  e.dtEndDate,
+  e.sFreeRentType,
+  e.dRecoverableExpensesFlat,
+  e.dTotalCommissionsPercent,
+  e.dAverageEscalationRate,
+  e.dCommissionInsidePercent,
+  e.dCommissionOutsidePercent,
+  e.dCommissionOtherPercent
+FROM
+  DMDEALECONOMICS e
+  LEFT JOIN tenant t ON t.HMYPERSON = e.hTenant
+  LEFT JOIN DMPROPOSAL p ON e.hCommamendment = p.hCommamnedment
+  LEFT JOIN COMMAMENDMENTS ca ON e.hCommamendment = ca.hMy
+  LEFT JOIN DMDEAL d ON e.hDMDeal = d.hDeal
+ORDER BY
+  e.hTenant,
+  e.hDMLeaseTerm,
+  e.iCashFlowType;

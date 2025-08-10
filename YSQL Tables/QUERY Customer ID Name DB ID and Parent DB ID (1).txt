@@ -1,0 +1,7 @@
+Select
+  hMyPerson as "Customer DB ID",
+  scode as "Customer Code",
+  sname as "Customer Name",
+  hparent as "Parent DB ID"
+from
+  customer

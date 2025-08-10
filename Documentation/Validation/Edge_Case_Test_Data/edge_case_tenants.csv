@@ -1,0 +1,36 @@
+tenant_hmy,tenant_id,tenant_name,tenant_type,industry,credit_rating,test_scenario
+TEN001,T001,Multi Amendment Tenant Inc,Corporate,Manufacturing,A,Multiple_Amendments_Testing
+TEN002,T002,Sequence Gap Tenant LLC,Corporate,Technology,B+,Amendment_Sequence_Gaps
+TEN003,T003,Duplicate Sequence Corp,Corporate,Healthcare,A-,Duplicate_Sequence_Testing
+TEN004,T004,Superseded Status Tenant,Corporate,Logistics,B,Status_Testing
+TEN005,T005,Termination Test Company,Small Business,Retail,C+,Termination_Testing
+TEN006,T006,Draft Status Business,Corporate,Professional Services,A,Draft_Status_Testing
+TEN006A,T006A,Cancelled Tenant Corp,Corporate,Finance,B-,Cancelled_Status_Testing
+TEN007,T007,Month-to-Month Tenant,Small Business,Consulting,C,Null_End_Date_Testing
+TEN008,T008,Future Start Tenant LLC,Corporate,Technology,A-,Future_Date_Testing
+TEN009,T009,Expired Lease Company,Small Business,Retail,D,Expired_Lease_Testing
+TEN010,T010,Boundary Date Tenant,Corporate,Manufacturing,B+,Date_Boundary_Testing
+TEN010A,T010A,Expiring Tenant A,Small Business,Services,C+,12_Month_Expiring_Testing
+TEN010B,T010B,Long Term Tenant,Corporate,Distribution,A,Long_Term_Lease_Testing
+TEN011,T011,Zero Rent Tenant,Non-Profit,Community Services,N/A,Zero_Rent_Testing
+TEN012,T012,Credit Tenant Corp,Corporate,Technology,A+,Negative_Rent_Testing
+TEN013,T013,Premium Tenant LLC,Corporate,Finance,A+,Extreme_Rent_Testing
+TEN013A,T013A,Zero SF Tenant,Virtual,Technology,B,Zero_SF_Testing
+TEN014,T014,Multi-Property Tenant,Corporate,Manufacturing,A-,Multi_Property_Testing
+TEN016,T016,Multi-Unit Tenant Corp,Corporate,Technology,A,Multi_Unit_Testing
+TEN017,T017,Missing SF Tenant,Small Business,Retail,C,Null_SF_Testing
+TEN018,T018,Missing Rent Tenant,Small Business,Services,C-,Null_Rent_Testing
+TEN019,T019,Missing Date Tenant,Small Business,Retail,D+,Null_Date_Testing
+TEN019A,T019A,MTM Tenant LLC,Small Business,Consulting,C+,MTM_Testing
+TEN020,T020,New Lease Tenant,Corporate,Technology,B+,New_Lease_Activity
+TEN021,T021,Renewal Tenant Corp,Corporate,Manufacturing,A,Renewal_Activity
+TEN022,T022,Terminated Tenant,Small Business,Retail,C,Termination_Activity
+TEN023,T023,Rent Increase Tenant,Corporate,Healthcare,A-,Rent_Change_Analysis
+TEN024,T024,Short Term Tenant,Small Business,Pop-up Retail,D,Short_Term_Testing
+TEN025,T025,Long Term Tenant Corp,Corporate,Distribution,A,Long_Term_Testing
+TEN026,T026,Near Expiry Tenant,Corporate,Manufacturing,B,WALT_Testing
+TEN100,T100,Performance Test Tenant,Corporate,Technology,A,Performance_Testing
+TEN201,T201,Acme Industrial Corp,Corporate,Manufacturing,A+,Realistic_Scenario
+TEN202,T202,Small Business Accounting,Small Business,Professional Services,C+,Realistic_Scenario
+TEN203,T203,Fashion Retail Chain,Corporate,Retail,B,Realistic_Scenario
+TEN204,T204,Logistics Solutions Inc,Corporate,Distribution,A-,Realistic_Scenario

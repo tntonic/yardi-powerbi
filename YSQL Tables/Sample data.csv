@@ -1,0 +1,808 @@
+Property HMY,Prop Code,PropName,Market,Unit HMY,UnitCode,TenantName,UnitArea,UnitMlaId,ProfileMlaId,ProfileName,ChargeCode,AmtType,AmtPeriod,UnitMlaRentNew,UnitMlaRentRenew,ProfileMlaRentNew,ProfileMlaRentRenew,NewVariance,RenewVariance,AreaDate,TenantCode,TenantHMY,rn
+3377,xil11697, 11697 W Grand,Chicago,8245,11697,CTL Global Inc. ,48340,916,77,Chi_2nd Iteration_upto100,rent    ,per Area,Annual,8.5,8.5,6.5,6.5,2,2,6/26/2025 0:00,t0000767,10107,1
+1790,xtnawg1 , 4641 Burbank Road,Memphis,4038,4641,Vacant,287664,2412,47,MEM_100KPlus,rent    ,per Area,Annual,3.1,3.1,4.15,4.15,-1.05,-1.05,6/26/2025 0:00,,,1
+1680,xil900b , 900 East Business Center Drive,Chicago,2991,A       ,"Dynamic Rubber, Inc. ",30307,902,29,CHI_upto100,rent    ,per Area,Annual,7,7,6.5,6.5,0.5,0.5,6/26/2025 0:00,t0000540,4270,1
+1680,xil900b , 900 East Business Center Drive,Chicago,2992,B       ,"Consolidated Electrical Distributors, Inc. ",13231,903,29,CHI_upto100,rent    ,per Area,Annual,7,7,6.5,6.5,0.5,0.5,6/26/2025 0:00,t0000541,4271,1
+909,gasc1014,1 Legget Drive,Atlanta,175,1,Vacant,101595,1997,38,ATL_100plus,rent    ,per Area,Annual,5.25,5.25,6,6,-0.75,-0.75,6/26/2025 0:00,,,1
+1667,xpa1peae,1 Pearl Buck Court,Philadelphia,2985,A       ,"DUBOIS CHEMICALS, INC.",14000,1039,30,PHI_upto100,rent    ,per Area,Annual,10.5,10.5,8,8,2.5,2.5,6/26/2025 0:00,t0000534,4234,1
+1667,xpa1peae,1 Pearl Buck Court,Philadelphia,2986,B       ,Northeast-Western Energy Systems USA LLC,9711,1040,30,PHI_upto100,rent    ,per Area,Annual,10.5,10.5,8,8,2.5,2.5,6/26/2025 0:00,t0000535,4235,1
+5710,3nj00010,1 Pearl Court,Northern NJ/New York,34556,A       ,"US Med-Equip, LLC",17161,2965,41,NNJ_upto100,rent    ,per Area,Annual,17.05,17.05,13.91,13.91,3.14,3.14,6/26/2025 0:00,t0001135,40171,1
+5710,3nj00010,1 Pearl Court,Northern NJ/New York,34618,B       ,"US Med-Equip, LLC",15734,2966,41,NNJ_upto100,rent    ,per Area,Annual,17.05,17.05,13.91,13.91,3.14,3.14,6/26/2025 0:00,t0001135,40171,1
+5710,3nj00010,1 Pearl Court,Northern NJ/New York,34623,C       ,Vitalant,14684,2968,41,NNJ_upto100,rent    ,per Area,Annual,17.05,17.05,13.91,13.91,3.14,3.14,6/26/2025 0:00,t0001137,40254,1
+1664,xil1terr,1 Territorial Court,Chicago,2963,A       ,Turbo Systems US Inc.,19702,892,29,CHI_upto100,rent    ,per Area,Annual,9,9,6.5,6.5,2.5,2.5,6/26/2025 0:00,t0000511,4176,1
+1664,xil1terr,1 Territorial Court,Chicago,2964,B       ,Turbo Systems US Inc.,10700,893,29,CHI_upto100,rent    ,per Area,Annual,9,9,6.5,6.5,2.5,2.5,6/26/2025 0:00,t0000511,4176,1
+1664,xil1terr,1 Territorial Court,Chicago,2965,C       ,Turbo Systems US Inc.,22001,894,29,CHI_upto100,rent    ,per Area,Annual,9,9,6.5,6.5,2.5,2.5,6/26/2025 0:00,t0000511,4176,1
+1788,xnj10tw ,10 Twosome Drive,Philadelphia,3505,10,Del Val Ingredients,45375,1068,30,PHI_upto100,rent    ,per Area,Annual,11,11,8,8,3,3,6/26/2025 0:00,t0000927,18052,1
+7853,3nj00031,100 Forge Way,Northern NJ/New York,64149,1,Vacant,0,5433,41,NNJ_upto100,rent    ,per Area,Annual,16,16,13.91,13.91,2.09,2.09,6/26/2025 0:00,,,1
+6612,inj001  ,100 Lehigh Drive,Northern NJ/New York,48408,100,"Windmill Health Products, LLC",34973,4643,53,Long Island_ Up to 100K SF,rent    ,per Area,Annual,17.25,17.25,14,14,3.25,3.25,6/26/2025 0:00,t0001328,56165,1
+2986,xil1000a,1000 Atlantic Drive,Chicago,4974,1000,PackSmart Inc. ,43356,913,29,CHI_upto100,rent    ,per Area,Annual,7.5,7.5,6.5,6.5,1,1,6/26/2025 0:00,t0000678,6527,1
+3569,3nj00001,1000 Brighton Street,Northern NJ/New York,9135,1000,Raymond of New Jersey LLC,30812,2342,41,NNJ_upto100,rent    ,per Area,Annual,15.17,15.17,13.91,13.91,1.26,1.26,6/26/2025 0:00,t0000781,11016,1
+3640,xil1000e,1000 E 87th St,Chicago,12809,100,"Listener Brands, Inc. ",34330,1707,77,Chi_2nd Iteration_upto100,rent    ,per Area,Annual,6.25,6.25,6.5,6.5,-0.25,-0.25,6/26/2025 0:00,t0000917,17820,1
+4727,3nc00001,10000 Industrial Drive,"Charlotte, NC",24469,10000,"Mecklenburg Home Furniture and Mattress, Inc.",56847,2352,82,Car_2nd Iteration_upto100,rent    ,per Area,Annual,6.89,5.75,6,6,0.89,-0.25,6/26/2025 0:00,t0001004,28244,1
+2985,xil1001a,1001 Arthur Avenue,Chicago,4975,1001,Tykables LLC,19963,914,29,CHI_upto100,rent    ,per Area,Annual,8.25,8,6.5,6.5,1.75,1.5,6/26/2025 0:00,t0000679,6528,1
+1654,xohcomme,10021 Commerce Park Drive,Cincinnati,2958,10021,"Chase Industries, Inc",80414,885,28,CIN_upto100K,rent    ,per Area,Annual,5,5,5,5,0,0,6/26/2025 0:00,t0000508,4170,1
+1683,xnj1010 ,1010 Old Egg Harbor,Philadelphia,3110,1010,Vacant,73489,1065,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,8.5,8.5,8,8,0.5,0.5,6/26/2025 0:00,,,1
+6201,iny001  ,105 E Jefryn Blvd,Long Island,44903,100,Jefryn Park Realty LLC,40000,3503,88,LI_2nd Iteration_upto100,rent    ,per Area,Annual,14.5,14.5,14,14,0.5,0.5,6/26/2025 0:00,t0001239,52042,1
+3622,xtx1050k,10501 King William Drive,Dallas,10161,10501,"Sky House Distribution, Inc.",4691,845,22,Dallas_upto100,rent    ,per Area,Annual,9,9,7.5,7.5,1.5,1.5,6/26/2025 0:00,t0000819,13537,1
+3622,xtx1050k,10501 King William Drive,Dallas,10158,10507,"Sky House Distribution, Inc.",5036,842,22,Dallas_upto100,rent    ,per Area,Annual,9.1,9.1,7.5,7.5,1.6,1.6,6/26/2025 0:00,t0000822,13602,1
+3622,xtx1050k,10501 King William Drive,Dallas,10157,10511,Stone Select LLC,5423,841,22,Dallas_upto100,rent    ,per Area,Annual,9,9,7.5,7.5,1.5,1.5,6/26/2025 0:00,t0001091,38081,1
+3622,xtx1050k,10501 King William Drive,Dallas,10162,10515,AMG Stone Inc.,6635,846,22,Dallas_upto100,rent    ,per Area,Annual,9.15,9.15,7.5,7.5,1.65,1.65,6/26/2025 0:00,t0001056,36840,1
+3622,xtx1050k,10501 King William Drive,Dallas,10163,10519,Clean Energy,7490,847,22,Dallas_upto100,rent    ,per Area,Annual,9.18,9.18,7.5,7.5,1.68,1.68,6/26/2025 0:00,t0000826,13718,1
+3622,xtx1050k,10501 King William Drive,Dallas,10159,10529,Nidia Valadez and Alejandro Contreras,6477,843,22,Dallas_upto100,rent    ,per Area,Annual,9.25,9.25,7.5,7.5,1.75,1.75,6/26/2025 0:00,t0000824,13715,1
+3622,xtx1050k,10501 King William Drive,Dallas,10160,10537,Vacant,6525,844,85,Dal_upto100_2nd,rent    ,per Area,Annual,9,9,7.5,7.5,1.5,1.5,6/26/2025 0:00,,,1
+3622,xtx1050k,10501 King William Drive,Dallas,10170,11523,Nidia Valadez and Alejandro Contreras,6188,848,22,Dallas_upto100,rent    ,per Area,Annual,9.25,9.25,7.5,7.5,1.75,1.75,6/26/2025 0:00,t0000824,13715,1
+6615,3ga00008,1056 Personal Place,Atlanta,48409,1,"MWD Logistics, Inc.",90021,4645,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,7.75,7.75,9,9,-1.25,-1.25,6/26/2025 0:00,t0001329,56166,1
+6607,3il00008,1060 N Garfield,Chicago,48381,1060,"Diagnostic Support Services, Inc.",9450,4805,29,CHI_upto100,rent    ,per Area,Annual,11,11,6.5,6.5,4.5,4.5,6/26/2025 0:00,t0001325,56142,1
+6607,3il00008,1060 N Garfield,Chicago,48380,1062,"A-To-Be USA, LLC",8125,4804,29,CHI_upto100,rent    ,per Area,Annual,11,11,6.5,6.5,4.5,4.5,6/26/2025 0:00,t0001320,56137,1
+6607,3il00008,1060 N Garfield,Chicago,48401,1064,"Mirkovich & Associates, Inc.",5000,4806,29,CHI_upto100,rent    ,per Area,Annual,13,13,6.5,6.5,6.5,6.5,6/26/2025 0:00,t0001327,56158,1
+6607,3il00008,1060 N Garfield,Chicago,48376,1066-68 ,"Diagnostic Support Services, Inc.",11875,4802,29,CHI_upto100,rent    ,per Area,Annual,10.5,10.5,6.5,6.5,4,4,6/26/2025 0:00,t0001322,56139,1
+6607,3il00008,1060 N Garfield,Chicago,48402,1070,"AVT Sealing Solutions, Inc.",6875,4807,29,CHI_upto100,rent    ,per Area,Annual,11,11,6.5,6.5,4.5,4.5,6/26/2025 0:00,t0001324,56141,1
+6607,3il00008,1060 N Garfield,Chicago,48378,1072,"Key Interior Designs, LLC",8670,4803,29,CHI_upto100,rent    ,per Area,Annual,11,13,6.5,6.5,4.5,6.5,6/26/2025 0:00,t0001323,56140,1
+3307,xtx10704,10704 - 10710 Composite Drive,Dallas,8045,10704,"4-Star Air, Hydraulics, Industrial Hose & Supply, Inc.",27300,835,22,Dallas_upto100,rent    ,per Area,Annual,7.55,7.55,7.5,7.5,0.05,0.05,6/26/2025 0:00,t0000762,9967,1
+6156,3tx00014,10755 Sanden Drive,Dallas,44852,100,Circuit Works Corporation,11875,3459,22,Dallas_upto100,rent    ,per Area,Annual,10,10,7.5,7.5,2.5,2.5,6/26/2025 0:00,t0001420,70376,1
+6156,3tx00014,10755 Sanden Drive,Dallas,44850,200,"Monk Holdings, LLC",9586,3458,22,Dallas_upto100,rent    ,per Area,Annual,8.5,8.5,7.5,7.5,1,1,6/26/2025 0:00,t0001205,51903,1
+6156,3tx00014,10755 Sanden Drive,Dallas,44890,300,Flower Shop El Chapin LLC,6924,3500,22,Dallas_upto100,rent    ,per Area,Annual,8.25,8.25,7.5,7.5,0.75,0.75,6/26/2025 0:00,t0001363,60287,1
+1735,xnj108n ,108 North Gold Drive,Philadelphia,3278,108,Vacant,23912,1067,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,11,11,8,8,3,3,6/26/2025 0:00,,,1
+3796,3ga00003,1100 Shallowford Rd,Atlanta,15172,1100,"Pacesetter Steel Service, Inc.",101334,1990,38,ATL_100plus,rent    ,per Area,Annual,9,9,6,6,3,3,6/26/2025 0:00,t0000924,17996,1
+3738,xil1100h,1100-1150 Howard,Chicago,15012,1100,"IGT Service, LLC",7500,1922,77,Chi_2nd Iteration_upto100,rent    ,per Area,Annual,8,8,6.5,6.5,1.5,1.5,6/26/2025 0:00,t0000922,17844,1
+3738,xil1100h,1100-1150 Howard,Chicago,15011,1130,"Genband Industries, LLC",8613,1921,29,CHI_upto100,rent    ,per Area,Annual,8,8,6.5,6.5,1.5,1.5,6/26/2025 0:00,t0001359,60269,1
+3738,xil1100h,1100-1150 Howard,Chicago,15014,1150,Bunting Magnetics Company,7500,1923,29,CHI_upto100,rent    ,per Area,Annual,8,8,6.5,6.5,1.5,1.5,6/26/2025 0:00,t0000925,18048,1
+5087,3tx00011,1101 Venture Ct.,Dallas,28003,1101,March Products Inc.,22876,2913,22,Dallas_upto100,rent    ,per Area,Annual,9.95,9.95,7.5,7.5,2.45,2.45,6/26/2025 0:00,t0001462,73379,1
+5087,3tx00011,1101 Venture Ct.,Dallas,28002,120,"EGL Motors, Inc.",23272,2912,22,Dallas_upto100,rent    ,per Area,Annual,10.7,10.7,7.5,7.5,3.2,3.2,6/26/2025 0:00,t0001196,51811,1
+6586,3fl00013,11070 Cabot Commerce Circle,Jacksonville,46980,1,"Air-Van, Inc.",110137,4601,84,Jax_100plus,rent    ,per Area,Annual,8.5,8.5,7,7,1.5,1.5,6/26/2025 0:00,t0001314,54518,1
+6586,3fl00013,11070 Cabot Commerce Circle,Jacksonville,46982,2,"Air-Van, Inc.",22028,4602,84,Jax_100plus,rent    ,per Area,Annual,10.5,10.5,7,7,3.5,3.5,6/26/2025 0:00,t0001314,54518,1
+6588,3fl00014,11084 Cabot Commerce Circle,Jacksonville,46975,100-300 ,"AJC Logistics, LLC",52500,4608,35,Jax_upto100,rent    ,per Area,Annual,9,9,7,7,2,2,6/26/2025 0:00,t0001312,54516,1
+6588,3fl00014,11084 Cabot Commerce Circle,Jacksonville,46792,200,Amazon.com Services LLC,63165,4606,35,Jax_upto100,rent    ,per Area,Annual,9,9,7,7,2,2,6/26/2025 0:00,t0001290,54309,1
+3201,xtx111pl,11100 Plano Road,Dallas,5743,11100,"Guardian Building Products, Inc.",136882,2362,44,Dal_100plus,rent    ,per Area,Annual,5.75,5.75,6.5,6.5,-0.75,-0.75,6/26/2025 0:00,t0000706,7538,1
+1665,xil1111 ,1111 Bowes Rd,Chicago,2962,100,"Proven Partners Manufacturing, LLC",144578,891,46,CHI_100plus,rent    ,per Area,Annual,6.5,6.5,6.5,6.5,0,0,6/26/2025 0:00,t0000510,4175,1
+4172,3tx00005,1111 Northpoint Drive,Dallas,20349,1111,"Associated Pathologists, LLC	",126596,2363,44,Dal_100plus,rent    ,per Area,Annual,6.5,6.5,6.5,6.5,0,0,6/26/2025 0:00,t0000974,23340,1
+1686,xtx1121 ,1121 108th Street,Dallas,8243,A       ,Express Flooring,50545,837,22,Dallas_upto100,rent    ,per Area,Annual,6.5,6.5,7.5,7.5,-1,-1,6/26/2025 0:00,t0000994,27057,1
+1686,xtx1121 ,1121 108th Street,Dallas,8244,B       ,Vacant,15780,838,85,Dal_upto100_2nd,rent    ,per Area,Annual,7.95,7.95,7.5,7.5,0.45,0.45,6/26/2025 0:00,,,1
+4819,3nj00008,1125 Hendricks Causeway,Northern NJ/New York,24534,1125,"Biazzo Dairy Products, Inc.",56629,2349,41,NNJ_upto100,rent    ,per Area,Annual,18,18,13.91,13.91,4.09,4.09,6/26/2025 0:00,t0001019,29152,1
+4075,xga1145b,1145 Battlecreek Road,Atlanta,16718,1145,"Snap Tire, Inc.",67656,2056,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,6.25,6.25,9,6.45,-2.75,-0.2,6/26/2025 0:00,t0000952,19642,1
+4818,3nj00007,1145 Edgewater Ave,Northern NJ/New York,24533,1145,"Biazzo Dairy Products, Inc.",56628,2348,41,NNJ_upto100,rent    ,per Area,Annual,18,18,13.91,13.91,4.09,4.09,6/26/2025 0:00,t0001018,29149,1
+2727,xohcolu4,1149 – 1161 Rarig Avenue,Columbus,4581,1161,"Loomis Armored US, LCC",28808,866,25,COL Up to 100K SF,rent    ,per Area,Annual,8,8,7,7,1,1,6/26/2025 0:00,t0000673,6322,1
+1732,xga1157 ,1157 Battlecreek Road,Atlanta,3167,1157,Vacant,166493,780,62,Atl_2nd Iteration_100plus,rent    ,per Area,Annual,5.58,5.58,5.25,5.25,0.33,0.33,6/26/2025 0:00,,,1
+2723,xfl11660,11660 Central Parkway,Jacksonville,4683,11660,U.S. Navy,65806,1384,70,Jax_2nd Iteration_upto100,rent    ,per Area,Annual,11.25,11.25,7,7,4.25,4.25,6/26/2025 0:00,t0000670,6269,1
+3625,xtx11839,11839 Shiloh Rd,Dallas,11099,11839,"Economy Tire, Inc.",99750,1895,85,Dal_upto100_2nd,rent    ,per Area,Annual,9.5,9.5,7.5,7.5,2,2,6/26/2025 0:00,t0000818,13521,1
+6224,3nj00021,12 Daniel Road,Northern NJ/New York,44901,100,Unifoil Corporation,100000,4558,40,NNJ_100plus,rent    ,per Area,Annual,16.75,16.75,13.91,13.91,2.84,2.84,6/26/2025 0:00,t0001234,51983,1
+6224,3nj00021,12 Daniel Road,Northern NJ/New York,44926,ROOF    ,Vacant,0,4559,41,NNJ_upto100,rent    ,per Area,Annual,13.91,13.91,13.91,13.91,0,0,6/26/2025 0:00,,,1
+6282,3ny00002,120-200 Adams Blvd,Long Island,44955,AB      ,"Expeditors International of Washington, Inc.",58347,4446,53,Long Island_ Up to 100K SF,rent    ,per Area,Annual,17.41,17.41,14,14,3.41,3.41,6/26/2025 0:00,t0001266,52192,1
+6282,3ny00002,120-200 Adams Blvd,Long Island,46129,CDEFG   ,Vacant,101590,4455,88,LI_2nd Iteration_upto100,rent    ,per Area,Annual,14.5,14.5,14,14,0.5,0.5,6/26/2025 0:00,,,1
+6282,3ny00002,120-200 Adams Blvd,Long Island,46130,H       ,Vacant,26506,4456,88,LI_2nd Iteration_upto100,rent    ,per Area,Annual,15.5,15.5,14,14,1.5,1.5,6/26/2025 0:00,,,1
+6282,3ny00002,120-200 Adams Blvd,Long Island,46134,J       ,Vacant,10499,4457,53,Long Island_ Up to 100K SF,rent    ,per Area,Annual,0,0,14,14,-14,-14,6/26/2025 0:00,,,1
+6282,3ny00002,120-200 Adams Blvd,Long Island,44936,PARK    ,Vacant,0,4445,53,Long Island_ Up to 100K SF,rent    ,per Area,Annual,0,0,14,14,-14,-14,6/26/2025 0:00,,,1
+6655,3md00007,1200 Bernard Drive,Baltimore,49657,100,"Railway Products Group, Inc.",49728,4647,45,BAL_upto100,rent    ,per Area,Annual,11,11,9,9,2,2,6/26/2025 0:00,t0001342,57663,1
+3626,xil1200p,1200 Pratt Boulevard,Chicago,10918,1200,"Andrews Paperboard, Inc.",32000,942,29,CHI_upto100,rent    ,per Area,Annual,8,8,6.5,6.5,1.5,1.5,6/26/2025 0:00,t0000815,13460,1
+1383,xohmost ,12080 Mosteller Road,Cincinnati,503,A       ,The Gorilla Glue Company LLC,90244,881,42,CIn_100plus,rent    ,per Area,Annual,5,4.5,5,5,0,-0.5,6/26/2025 0:00,t0000434,1306,1
+1383,xohmost ,12080 Mosteller Road,Cincinnati,504,B       ,The Gorilla Glue Company LLC,20843,882,42,CIn_100plus,rent    ,per Area,Annual,5,4.5,5,5,0,-0.5,6/26/2025 0:00,t0000434,1306,1
+1383,xohmost ,12080 Mosteller Road,Cincinnati,505,C       ,"A and A Quality Appliance, Inc.",47107,883,63,Cin_2nd Iteration_upto100,rent    ,per Area,Annual,6,6,5,5,1,1,6/26/2025 0:00,t0001147,41989,1
+1383,xohmost ,12080 Mosteller Road,Cincinnati,506,D       ,Rite Rug Co.,114027,884,42,CIn_100plus,rent    ,per Area,Annual,4.5,4.5,5,5,-0.5,-0.5,6/26/2025 0:00,t0000688,6639,1
+1383,xohmost ,12080 Mosteller Road,Cincinnati,31739,PARK    ,ORAS EXPRESS LLC,0,2995,28,CIN_upto100K,rent    ,per Area,Monthly,3500,3500,5,5,3495,3495,6/26/2025 0:00,t0001072,36913,1
+3302,xnj121mo,121 Moonachie Ave,Northern NJ/New York,6284,121,"CONTENT CRITICAL SOLUTIONS, INC",62000,723,41,NNJ_upto100,rent    ,per Area,Annual,16.5,16.5,13.91,13.91,2.59,2.59,6/26/2025 0:00,t0000742,8086,1
+3301,xil121lo,121 South Lombard Road,Chicago,6283,121,"Enpro, Inc.",20000,915,29,CHI_upto100,rent    ,per Area,Annual,9,9,6.5,6.5,2.5,2.5,6/26/2025 0:00,t0000731,7962,1
+1756,xpa12111,1211 Ford Road,Philadelphia,3508,1211,Vacant,106045,1071,68,Phi_2nd Iteration_100plus,rent    ,per Area,Annual,9.5,9.5,8,8,1.5,1.5,6/26/2025 0:00,,,1
+6078,3nc00008,12140 Vance Davis,"Charlotte, NC",39728,100,"IMI Management, INC",66370,3128,43,CAR_upto100,rent    ,per Area,Annual,10.25,10.25,6,6,4.25,4.25,6/26/2025 0:00,t0001407,67756,1
+1896,xtx12150,12150 Shiloh Road,Dallas,4427,104,Tex Sun Shade ,11473,815,22,Dallas_upto100,rent    ,per Area,Annual,8.9,8.9,7.5,7.5,1.4,1.4,6/26/2025 0:00,t0000701,6920,1
+1896,xtx12150,12150 Shiloh Road,Dallas,4428,112,TAJA LLC dba East Dallas Diesel ,10495,830,22,Dallas_upto100,rent    ,per Area,Annual,9,9,7.5,7.5,1.5,1.5,6/26/2025 0:00,t0000698,6909,1
+1896,xtx12150,12150 Shiloh Road,Dallas,4429,120,Man Sports LLC ,20551,831,22,Dallas_upto100,rent    ,per Area,Annual,8.75,8.75,7.5,7.5,1.25,1.25,6/26/2025 0:00,t0000697,6908,1
+4130,3il00006,1221 Landmeier,Chicago,17866,1221,"Trimaco, Inc.",119700,2404,46,CHI_100plus,rent    ,per Area,Annual,7,7,6.5,6.5,0.5,0.5,6/26/2025 0:00,t0000963,20892,1
+6077,3nc00007,12210 Vance Davis,"Charlotte, NC",39710,A       ,"City of Charlotte	",66649,3127,43,CAR_upto100,rent    ,per Area,Annual,8.67,8.67,6,6,2.67,2.67,6/26/2025 0:00,t0001168,45790,1
+6077,3nc00007,12210 Vance Davis,"Charlotte, NC",39709,E       ,"MOVEX USA, Inc.",28858,3126,43,CAR_upto100,rent    ,per Area,Annual,10.97,10.97,6,6,4.97,4.97,6/26/2025 0:00,t0001167,45789,1
+1878,xnj125al,125 Algonquin Parkway,Northern NJ/New York,3850,01      ,Hoop Heaven,21000,2337,41,NNJ_upto100,rent    ,per Area,Annual,15.5,15.5,13.91,13.91,1.59,1.59,6/26/2025 0:00,t0000613,5459,1
+1878,xnj125al,125 Algonquin Parkway,Northern NJ/New York,3851,02      ,Krowne Metal Coporation,50000,690,76,NNJ_2nd Iteration_upto100,rent    ,per Area,Annual,15.5,15.5,13.91,13.91,1.59,1.59,6/26/2025 0:00,t0001173,45817,1
+4077,3nj00004,1253 Glen Avenue,Philadelphia,16721,1253,React Restoration LLC,31994,2423,30,PHI_upto100,rent    ,per Area,Annual,9,9,8,8,1,1,6/26/2025 0:00,t0001355,58498,1
+3818,3tx00001,12621-12623 International Pkwy,Dallas,15281,STE-A   ,Vacant,54920,2367,85,Dal_upto100_2nd,rent    ,per Area,Annual,8.75,8.5,7.5,7.5,1.25,1,6/26/2025 0:00,,,1
+7369,3il00013,1265 Naperville Drive,Chicago,62000,100,1265 Naperville Drive LLC,72683,5155,29,CHI_upto100,rent    ,per Area,Annual,9.5,9.5,6.5,6.5,3,3,6/26/2025 0:00,t0001442,72478,1
+6993,3fl00019,12750-12770 SW 125th Avenue,Miami,51919,1,"South Florida Center for Percussive Arts, Inc.",2300,4842,26,MIA_upto100,rent    ,per Area,Annual,18.16,18.16,12.25,12.25,5.91,5.91,6/26/2025 0:00,t0001360,60277,1
+6993,3fl00019,12750-12770 SW 125th Avenue,Miami,51920,100,Trane U.S. Inc.,25655,4843,26,MIA_upto100,rent    ,per Area,Annual,17.2,17.2,12.25,12.25,4.95,4.95,6/26/2025 0:00,t0001361,60278,1
+6993,3fl00019,12750-12770 SW 125th Avenue,Miami,51921,3-Feb,"MFR Kendall, LLC",4600,4844,26,MIA_upto100,rent    ,per Area,Annual,18.16,18.16,12.25,12.25,5.91,5.91,6/26/2025 0:00,t0001362,60279,1
+1882,xnj128ba,128 Bauer Drive,Northern NJ/New York,3860,01      ,Goldstein & Burton,10341,699,41,NNJ_upto100,rent    ,per Area,Annual,14,14,13.91,13.91,0.09,0.09,6/26/2025 0:00,t0000624,5473,1
+1882,xnj128ba,128 Bauer Drive,Northern NJ/New York,3861,02      ,Black Walnut LLC,21142,717,76,NNJ_2nd Iteration_upto100,rent    ,per Area,Annual,14,14,13.91,13.91,0.09,0.09,6/26/2025 0:00,t0001074,36926,1
+1882,xnj128ba,128 Bauer Drive,Northern NJ/New York,3862,04      ,Merritt,10699,718,41,NNJ_upto100,rent    ,per Area,Annual,14,14,13.91,13.91,0.09,0.09,6/26/2025 0:00,t0000991,27032,1
+6093,3fl00010,12900 NW 38th Ave,Miami,39707,100,"BES Associates, Corp.",25050,3117,26,MIA_upto100,rent    ,per Area,Annual,13.5,13.5,12.25,12.25,1.25,1.25,6/26/2025 0:00,t0001165,45787,1
+7811,3oh00009,1299 Boltonfield St,Chicago,63965,100,"Precision, LLC",156000,5412,46,CHI_100plus,rent    ,per Area,Annual,6.5,6.5,6.5,6.5,0,0,6/26/2025 0:00,t0001539,75173,1
+7758,3ny00004,130 Baylis Rd,Long Island,62827,1,"Drakkar RE, LLC and Florida Food Products, LLC",40491,5255,53,Long Island_ Up to 100K SF,rent    ,per Area,Annual,16.5,16.5,14,14,2.5,2.5,6/26/2025 0:00,t0001467,73606,1
+1670,xga130j ,130 James Aldredge Boulevard,Atlanta,2978,130,Kirnland Food Distribution Inc,38164,769,20,ATL_upto100,rent    ,per Area,Annual,7.11,7.11,6,6,1.11,1.11,6/26/2025 0:00,t0000745,8461,1
+6091,3fl00008,13000 NW 38th Ave,Miami,39708,100,Atlas Packaging Inc.,58585,3118,26,MIA_upto100,rent    ,per Area,Annual,13.5,13.5,12.25,12.25,1.25,1.25,6/26/2025 0:00,t0001166,45788,1
+6092,3fl00009,13001 NW 38th Ave,Miami,39711,A       ,"Gemcap Investments, LLC",27000,3119,26,MIA_upto100,rent    ,per Area,Annual,14,14,12.25,12.25,1.75,1.75,6/26/2025 0:00,t0001169,45791,1
+6092,3fl00009,13001 NW 38th Ave,Miami,39712,B       ,"S and M Transportation, Inc.",31780,3120,26,MIA_upto100,rent    ,per Area,Annual,12.75,12.75,12.25,12.25,0.5,0.5,6/26/2025 0:00,t0001170,45792,1
+4175,3tx00008,1301 Ridgeview Drive,Dallas,20989,100,"Compudata Products, Inc.",86683,2377,22,Dallas_upto100,rent    ,per Area,Annual,7.25,7.25,7.5,7.5,-0.25,-0.25,6/26/2025 0:00,t0000976,24010,1
+4175,3tx00008,1301 Ridgeview Drive,Dallas,20988,150,"7-Eleven, Inc.",28776,2376,22,Dallas_upto100,rent    ,per Area,Annual,8.3,8.3,7.5,7.5,0.8,0.8,6/26/2025 0:00,t0000975,24009,1
+3797,3fl00004,13281 NW 43rd Ave,Miami,14994,100,"Ortega Industries and Manufacturing, Corp.",28341,2354,26,MIA_upto100,rent    ,per Area,Annual,13,13,12.25,12.25,0.75,0.75,6/26/2025 0:00,t0000918,17824,1
+1599,xnjmorri,14 Morris,Philadelphia,1538,14,Vacant,40925,1022,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,10,10,8,8,2,2,6/26/2025 0:00,,,1
+1898,xnj14rol,14 Roland Avenue,Philadelphia,4032,14,"PolyTech Defense Spares, LLC",24000,1076,30,PHI_upto100,rent    ,per Area,Annual,10,10,8,8,2,2,6/26/2025 0:00,t0000664,5991,1
+1785,xnj14th ,14-16 Thomas J Rhodes,Philadelphia,3686,14A     ,Medical Indicators,35894,1073,30,PHI_upto100,rent    ,per Area,Annual,11,11,8,8,3,3,6/26/2025 0:00,t0000605,4917,1
+1785,xnj14th ,14-16 Thomas J Rhodes,Philadelphia,3687,14B     ,Mule Extracts LLC,8510,1074,30,PHI_upto100,rent    ,per Area,Annual,11,11,8,8,3,3,6/26/2025 0:00,t0000797,13176,1
+6662,3ga00011,1400 Beaver Ruin Rd,Atlanta,49755,100,"SRS Distribution, Inc.",75073,4666,20,ATL_upto100,rent    ,per Area,Annual,10.59,10.59,6,6,4.59,4.59,6/26/2025 0:00,t0001350,57764,1
+3548,xil141be,141-145 Bernice,Chicago,9350,141,Vacant,2925,935,77,Chi_2nd Iteration_upto100,rent    ,per Area,Annual,8.5,8.5,6.5,6.5,2,2,6/26/2025 0:00,,,1
+3548,xil141be,141-145 Bernice,Chicago,9383,143,"Inventory & Return Solutions, Inc.",2925,936,77,Chi_2nd Iteration_upto100,rent    ,per Area,Annual,8.5,8.5,6.5,6.5,2,2,6/26/2025 0:00,t0000787,11303,1
+3548,xil141be,141-145 Bernice,Chicago,9408,145,"Jade Carpentry Contractors, Inc.",5850,937,29,CHI_upto100,rent    ,per Area,Annual,9,9,6.5,6.5,2.5,2.5,6/26/2025 0:00,t0000788,11387,1
+7739,3fl00020,1410 SW 29th Avenue,Miami,62619,100,"Morningday Community Solutions, Inc.",10400,5352,26,MIA_upto100,rent    ,per Area,Annual,18,18,12.25,12.25,5.75,5.75,6/26/2025 0:00,t0001459,73324,1
+7739,3fl00020,1410 SW 29th Avenue,Miami,62620,300,"United Circuits, Inc. ",3714,5353,26,MIA_upto100,rent    ,per Area,Annual,19,19,12.25,12.25,6.75,6.75,6/26/2025 0:00,t0001460,73340,1
+7739,3fl00020,1410 SW 29th Avenue,Miami,62519,400,BAR Group LLC,6808,5351,26,MIA_upto100,rent    ,per Area,Annual,19,19,12.25,12.25,6.75,6.75,6/26/2025 0:00,t0001458,73203,1
+4076,3nj00005,1425 Grandview Avenue,Philadelphia,16719,1425,ABCO,47268,2421,30,PHI_upto100,rent    ,per Area,Annual,9.5,14,8,8,1.5,6,6/26/2025 0:00,t0001038,33474,1
+1879,xnj145al,145 Algonquin Parkway,Northern NJ/New York,3853,01      ,Computechsale,11701,692,76,NNJ_2nd Iteration_upto100,rent    ,per Area,Annual,14.5,14.5,13.91,13.91,0.59,0.59,6/26/2025 0:00,t0001185,48499,1
+1879,xnj145al,145 Algonquin Parkway,Northern NJ/New York,3854,02      ,"Millburn Gymnastics, LLC",11777,698,41,NNJ_upto100,rent    ,per Area,Annual,14.5,14.5,13.91,13.91,0.59,0.59,6/26/2025 0:00,t0000621,5470,1
+7805,3fl00021,"14550 58th Street N, Clearwater, FL",Tampa,63924,100,"Carr Biosystems, LLC",40508,5413,32,Tampa up to 100K,rent    ,per Area,Annual,13,13,8.5,8.5,4.5,4.5,6/26/2025 0:00,t0001532,75107,1
+4174,3tx00007,1460 N Glenville Drive,Dallas,20990,1460,Vacant,121068,2364,86,Dal_2nd Iteration_100plus,rent    ,per Area,Annual,11,16.3,6.5,6.5,4.5,9.8,6/26/2025 0:00,,,1
+3572,3fl00001,14735 NW 25th Court,Miami,9141,14735,"Caricom Freight Consolidators, Inc.",25327,1390,26,MIA_upto100,rent    ,per Area,Annual,12.5,12.5,12.25,12.25,0.25,0.25,6/26/2025 0:00,t0000782,11023,1
+6670,3nj00024,15 Gloria Lane,Northern NJ/New York,49756,100,Ken Color Laboratories,8135,4670,41,NNJ_upto100,rent    ,per Area,Annual,16.25,16.25,13.91,13.91,2.34,2.34,6/26/2025 0:00,t0001351,57765,1
+6670,3nj00024,15 Gloria Lane,Northern NJ/New York,50377,200,Entrade LLC,9600,4671,41,NNJ_upto100,rent    ,per Area,Annual,16.25,16.25,13.91,13.91,2.34,2.34,6/26/2025 0:00,t0001353,58487,1
+6670,3nj00024,15 Gloria Lane,Northern NJ/New York,50378,300,DU Technologies Inc.,9000,4672,41,NNJ_upto100,rent    ,per Area,Annual,16.25,16.25,13.91,13.91,2.34,2.34,6/26/2025 0:00,t0001354,58488,1
+7737,3pa00004,150 Rittenhouse Circle,Philadelphia,62814,100,Vacant,50618,5366,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,12,12,8,8,4,4,6/26/2025 0:00,,,1
+7737,3pa00004,150 Rittenhouse Circle,Philadelphia,62815,200,Vacant,50618,5367,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,12,12,8,8,4,4,6/26/2025 0:00,,,1
+3741,3il00002,150-152 Railroad,Chicago,14901,100,Mercury Mechanical Service Corp.,18590,2084,29,CHI_upto100,rent    ,per Area,Annual,7.25,7.25,6.5,6.5,0.75,0.75,6/26/2025 0:00,t0000913,17745,1
+3741,3il00002,150-152 Railroad,Chicago,14903,150,"EventLink, LLC",22406,2086,29,CHI_upto100,rent    ,per Area,Annual,7.25,7.25,6.5,6.5,0.75,0.75,6/26/2025 0:00,t0001190,50953,1
+5086,3tx00010,1501 Kings Road,Dallas,28004,1501,"Beard Integrated Systems, Inc.",154923,2918,44,Dal_100plus,rent    ,per Area,Annual,6.5,6.5,6.5,6.5,0,0,6/26/2025 0:00,t0001352,58464,1
+3649,3nj00002,153 Bauer Drive,Northern NJ/New York,12827,153,"Premio Foods, Inc.",44301,2343,76,NNJ_2nd Iteration_upto100,rent    ,per Area,Annual,14.75,14.75,13.91,13.91,0.84,0.84,6/26/2025 0:00,t0001233,51980,1
+3671,xoh154co,154 Commerce Blvd,Cincinnati,12858,154,P.T. International LLC,79918,1897,28,CIN_upto100K,rent    ,per Area,Annual,5.6,5.6,5,5,0.6,0.6,6/26/2025 0:00,t0000857,15781,1
+7706,3nj00028,155 Pierce Street,Northern NJ/New York,60774,4-Jan,Sannova Analytical Inc ,21000,5138,76,NNJ_2nd Iteration_upto100,rent    ,per Area,Annual,15.75,15.75,13.91,13.91,1.84,1.84,6/26/2025 0:00,t0001423,70835,1
+7706,3nj00028,155 Pierce Street,Northern NJ/New York,61967,6-May,Vacant,9692,5136,41,NNJ_upto100,rent    ,per Area,Annual,15.75,15.75,13.91,13.91,1.84,1.84,6/26/2025 0:00,,,1
+7706,3nj00028,155 Pierce Street,Northern NJ/New York,60773,7,"K & A Industries, Inc.",5000,5137,41,NNJ_upto100,rent    ,per Area,Annual,15.75,15.75,13.91,13.91,1.84,1.84,6/26/2025 0:00,t0001422,70834,1
+7706,3nj00028,155 Pierce Street,Northern NJ/New York,60775,9-Aug,"Somerset Community Action Program, Inc.",10000,5139,76,NNJ_2nd Iteration_upto100,rent    ,per Area,Annual,15.75,15.75,13.91,13.91,1.84,1.84,6/26/2025 0:00,t0001424,70836,1
+1880,xnj156al,156 Algonquin Parkway,Northern NJ/New York,3857,01      ,Vacant,17761,682,76,NNJ_2nd Iteration_upto100,rent    ,per Area,Annual,16,16,13.91,13.91,2.09,2.09,6/26/2025 0:00,,,1
+3670,xga1585r,1585 Roadhaven Drive,Atlanta,12854,A       ,Inliner Solutions,48000,1878,20,ATL_upto100,rent    ,per Area,Annual,10,10,6,6,4,4,6/26/2025 0:00,t0000966,22477,1
+5729,3nj00017,16 McKee Drive,Northern NJ/New York,33546,16,"Remarkable Food Hospitality, LLC",108103,2937,40,NNJ_100plus,rent    ,per Area,Annual,15.5,15.5,13.91,13.91,1.59,1.59,6/26/2025 0:00,t0001110,39015,1
+3367,xil1600b,1600 Birchwood Avenue,Chicago,9247,1600,"Fasteners For Retail, Inc.",64216,933,29,CHI_upto100,rent    ,per Area,Annual,7,7,6.5,6.5,0.5,0.5,6/26/2025 0:00,t0000775,10203,1
+1663,xil1600 ,1600 Hunter Rd,Chicago,2969,100,"Insight North America, Inc.",238423,4584,46,CHI_100plus,rent    ,per Area,Annual,7.5,7.5,6.5,6.5,1,1,6/26/2025 0:00,t0000514,4183,1
+1659,xil1601 ,1601 Lunt Ave,Chicago,2974,1601A   ,Vacant,27809,900,29,CHI_upto100,rent    ,per Area,Annual,6.5,6.5,6.5,6.5,0,0,6/26/2025 0:00,,,1
+1659,xil1601 ,1601 Lunt Ave,Chicago,2975,1601B   ,Vacant,35791,901,29,CHI_upto100,rent    ,per Area,Annual,6.5,6.5,6.5,6.5,0,0,6/26/2025 0:00,,,1
+4173,3tx00006,1601 Valley View Lane,Dallas,20991,1601,Central National Gottesman Inc.,191887,2365,44,Dal_100plus,rent    ,per Area,Annual,6.75,6.75,6.5,6.5,0.25,0.25,6/26/2025 0:00,t0000978,24012,1
+1904,xnj1601s,1601-1641 Sherman Avenue,Philadelphia,4036,1601-A-C,The Printer Inc. (TPI),24480,1079,30,PHI_upto100,rent    ,per Area,Annual,10.75,10.75,8,8,2.75,2.75,6/26/2025 0:00,t0000661,5926,1
+1904,xnj1601s,1601-1641 Sherman Avenue,Philadelphia,48400,1601-C-1,The Printer Inc. (TPI),9012,4775,30,PHI_upto100,rent    ,per Area,Annual,10.75,10.75,8,8,2.75,2.75,6/26/2025 0:00,t0000661,5926,1
+1904,xnj1601s,1601-1641 Sherman Avenue,Philadelphia,4035,1601-DE ,Vacant,13869,1078,30,PHI_upto100,rent    ,per Area,Annual,10.75,10.75,8,8,2.75,2.75,6/26/2025 0:00,,,1
+1904,xnj1601s,1601-1641 Sherman Avenue,Philadelphia,4034,1641,Hajoca Corporation,9960,1077,30,PHI_upto100,rent    ,per Area,Annual,10.5,10.5,8,8,2.5,2.5,6/26/2025 0:00,t0000660,5923,1
+3631,xga1610s,1610 Spectrum Drive,Atlanta,12579,A       ,"Almeco USA, Inc.",27000,811,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,10.5,10.5,9,6.45,1.5,4.05,6/26/2025 0:00,t0000851,15316,1
+6203,inc001  ,1620-1640 Federal Ave,"Charlotte, NC",44898,1620,"Beverly Knits, Inc.",82513,3490,43,CAR_upto100,rent    ,per Area,Annual,5.25,5.25,6,6,-0.75,-0.75,6/26/2025 0:00,t0001231,51968,1
+6203,inc001  ,1620-1640 Federal Ave,"Charlotte, NC",44899,1640,"Beverly Knits, Inc.",84777,3491,43,CAR_upto100,rent    ,per Area,Annual,5.25,5.25,6,6,-0.75,-0.75,6/26/2025 0:00,t0001231,51968,1
+3368,xil1630b,1630 Birchwood Avenue,Chicago,9248,1630,"Fasteners For Retail, Inc.",40550,934,29,CHI_upto100,rent    ,per Area,Annual,7,7,6.5,6.5,0.5,0.5,6/26/2025 0:00,t0000774,10202,1
+5074,3nj00009,1654 High Hill Road,Northern NJ/New York,25518,1654,"Thomas Scientific, LLC",119093,2417,48,PHI_Over100K,rent    ,per Area,Annual,9.25,9.25,8,8,1.25,1.25,6/26/2025 0:00,t0001025,30328,1
+7016,3il00011,1670 Frontenac Road,Chicago,54169,100,"Servex, Inc.",93405,4972,29,CHI_upto100,rent    ,per Area,Annual,6.5,6.5,6.5,6.5,0,0,6/26/2025 0:00,t0001375,62879,1
+7018,3il00012,1674 Frontenac Rd,Chicago,54167,100,"Ask Products, Inc.",51277,4970,29,CHI_upto100,rent    ,per Area,Annual,7.75,7.75,6.5,6.5,1.25,1.25,6/26/2025 0:00,t0001373,62877,1
+1661,xil1688 ,1688 Glen Ellyn Rd,Chicago,2972,1688,"KKSP Precision Machining, LLC",84804,1704,77,Chi_2nd Iteration_upto100,rent    ,per Area,Annual,9,9,6.5,6.5,2.5,2.5,6/26/2025 0:00,t0000518,4192,1
+6584,iga005  ,1695 Marietta Blvd NW,Atlanta,46965,1,"Atlanta Ballet, Incorporated",52437,4642,38,ATL_100plus,rent    ,per Area,Annual,11.49,11.49,6,6,5.49,5.49,6/26/2025 0:00,t0001303,54507,1
+7020,3nj00025,17 Farinella Drive,Northern NJ/New York,54258,100,"Prime Realty Holdings, LLC",22500,4930,41,NNJ_upto100,rent    ,per Area,Annual,15.75,15.75,13.91,13.91,1.84,1.84,6/26/2025 0:00,t0001378,62959,1
+7020,3nj00025,17 Farinella Drive,Northern NJ/New York,54259,200,"Novartis Services, Inc.",19328,4931,41,NNJ_upto100,rent    ,per Area,Annual,15.75,15.75,13.91,13.91,1.84,1.84,6/26/2025 0:00,t0001379,62960,1
+1876,xnj17pol,17-01 Pollitt Drive,Northern NJ/New York,3863,01      ,Biogen Laboratory Corporation,8438,700,41,NNJ_upto100,rent    ,per Area,Annual,11,11,13.91,13.91,-2.91,-2.91,6/26/2025 0:00,t0000629,5479,1
+1876,xnj17pol,17-01 Pollitt Drive,Northern NJ/New York,3864,02      ,"Kyodo Shipping and Trading USA, Corp",20897,736,76,NNJ_2nd Iteration_upto100,rent    ,per Area,Annual,13.25,13.25,13.91,13.91,-0.66,-0.66,6/26/2025 0:00,t0000630,5480,1
+1876,xnj17pol,17-01 Pollitt Drive,Northern NJ/New York,3865,03      ,CSM Entertainment,18880,2250,41,NNJ_upto100,rent    ,per Area,Annual,13.25,13.25,13.91,13.91,-0.66,-0.66,6/26/2025 0:00,t0001021,29305,1
+1876,xnj17pol,17-01 Pollitt Drive,Northern NJ/New York,3866,04      ,"Securitas Electronic Supply, Inc.",15179,2251,41,NNJ_upto100,rent    ,per Area,Annual,13.25,13.25,13.91,13.91,-0.66,-0.66,6/26/2025 0:00,t0000632,5483,1
+1876,xnj17pol,17-01 Pollitt Drive,Northern NJ/New York,3867,05      ,Madina Industrial Corp,20994,730,41,NNJ_upto100,rent    ,per Area,Annual,13.25,13.25,13.91,13.91,-0.66,-0.66,6/26/2025 0:00,t0001156,43752,1
+1876,xnj17pol,17-01 Pollitt Drive,Northern NJ/New York,3868,4.1,G-Way Solutions LLC,20962,2252,41,NNJ_upto100,rent    ,per Area,Annual,13.25,13.25,13.91,13.91,-0.66,-0.66,6/26/2025 0:00,t0000634,5486,1
+3739,xil1701b,1701 Birchwood,Chicago,15010,100,"Amphenol EEC, Inc.",48790,1918,29,CHI_upto100,rent    ,per Area,Annual,8.5,8.5,6.5,6.5,2,2,6/26/2025 0:00,t0000921,17841,1
+7378,3oh00007,1711-1715 Georgesville Rd,Columbus,58975,100,"BT Property, LLC",40000,5058,25,COL Up to 100K SF,rent    ,per Area,Annual,7,7,7,7,0,0,6/26/2025 0:00,t0001412,68632,1
+7378,3oh00007,1711-1715 Georgesville Rd,Columbus,58976,200,Pride Delivery and Installation LLC,72600,5059,25,COL Up to 100K SF,rent    ,per Area,Annual,6.5,6.5,7,7,-0.5,-0.5,6/26/2025 0:00,t0001413,68633,1
+3624,xtx1721s,1721 Susan Dr,Dallas,11093,1721,"Montes de Oca, Inc.",58841,1279,22,Dallas_upto100,rent    ,per Area,Annual,7,7,7.5,7.5,-0.5,-0.5,6/26/2025 0:00,t0000817,13512,1
+7813,3ga00015,1765 West Oak Parkway,Atlanta,63982,100,Vacant,0,5446,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+7813,3ga00015,1765 West Oak Parkway,Atlanta,63983,500,Vacant,0,5447,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+7813,3ga00015,1765 West Oak Parkway,Atlanta,63981,700,Vacant,0,5445,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+7815,3ga00016,1775 West Oak Parkway,Atlanta,63988,100,Vacant,0,5449,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+7815,3ga00016,1775 West Oak Parkway,Atlanta,63977,200,Vacant,0,5436,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,9,6.45,9,6.45,0,0,6/26/2025 0:00,,,1
+7815,3ga00016,1775 West Oak Parkway,Atlanta,63980,300,Vacant,0,5444,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+7815,3ga00016,1775 West Oak Parkway,Atlanta,64147,300-A   ,Vacant,0,5440,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,9,6.45,9,6.45,0,0,6/26/2025 0:00,,,1
+7815,3ga00016,1775 West Oak Parkway,Atlanta,63984,300A    ,Vacant,0,5448,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+7815,3ga00016,1775 West Oak Parkway,Atlanta,63978,600,Vacant,0,5442,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+7815,3ga00016,1775 West Oak Parkway,Atlanta,63976,800,Vacant,0,5441,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+7815,3ga00016,1775 West Oak Parkway,Atlanta,63979,850,Vacant,0,5443,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+7815,3ga00016,1775 West Oak Parkway,Atlanta,64009,900,Vacant,0,5450,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+2958,xpa18rai,18 Railroad Street,Philadelphia,62851,100,Vacant,0,5230,48,PHI_Over100K,rent    ,per Area,Annual,8,8,8,8,0,0,6/26/2025 0:00,,,1
+2958,xpa18rai,18 Railroad Street,Philadelphia,4964,200,"Bengal Converting Services, Inc.",189746,1080,48,PHI_Over100K,rent    ,per Area,Annual,8,8,8,8,0,0,6/26/2025 0:00,t0000702,7394,1
+3800,3ny00001,180 Heartland Blvd,Long Island,15322,180,"Biochemical Diagnostics, Inc., c/o Kova International, Inc.	",24012,2346,53,Long Island_ Up to 100K SF,rent    ,per Area,Annual,14.5,14.5,14,14,0.5,0.5,6/26/2025 0:00,t0000933,18163,1
+6627,3ny00003,180 Motor Parkway,Long Island,49631,100,"Country Life, LLC",89631,4644,53,Long Island_ Up to 100K SF,rent    ,per Area,Annual,16,16,14,14,2,2,6/26/2025 0:00,t0001337,57617,1
+6653,iny002  ,1800 Arctic Avenue,Long Island,49751,100,"Glenn Wayne Baking, LLC",30533,4665,53,Long Island_ Up to 100K SF,rent    ,per Area,Annual,16,16,14,14,2,2,6/26/2025 0:00,t0001346,57756,1
+6163,3tx00015,1800-20 N Glenville Drive,Dallas,44863,100,"Rahima, LLC",11642,3466,22,Dallas_upto100,rent    ,per Area,Annual,11.25,11.25,7.5,7.5,3.75,3.75,6/26/2025 0:00,t0001214,51912,1
+6163,3tx00015,1800-20 N Glenville Drive,Dallas,44867,100A    ,"Best Buy Windows & Siding, LLC",3800,3467,22,Dallas_upto100,rent    ,per Area,Annual,11.75,11.75,7.5,7.5,4.25,4.25,6/26/2025 0:00,t0001211,51909,1
+6163,3tx00015,1800-20 N Glenville Drive,Dallas,44859,102,"Best Buy Windows & Siding, LLC",5750,3464,22,Dallas_upto100,rent    ,per Area,Annual,11.75,11.75,7.5,7.5,4.25,4.25,6/26/2025 0:00,t0001211,51909,1
+6163,3tx00015,1800-20 N Glenville Drive,Dallas,44869,102A    ,"TGM, Incorporated",5700,3468,22,Dallas_upto100,rent    ,per Area,Annual,12.35,12.35,7.5,7.5,4.85,4.85,6/26/2025 0:00,t0001216,51914,1
+6163,3tx00015,1800-20 N Glenville Drive,Dallas,44853,108,"Classic Agrimed, LLC",1933,3462,22,Dallas_upto100,rent    ,per Area,Annual,12.25,12.25,7.5,7.5,4.75,4.75,6/26/2025 0:00,t0001208,51906,1
+6163,3tx00015,1800-20 N Glenville Drive,Dallas,44881,108A    ,"Vercet, LLC",3578,3496,22,Dallas_upto100,rent    ,per Area,Annual,12,12,7.5,7.5,4.5,4.5,6/26/2025 0:00,t0001218,51916,1
+6163,3tx00015,1800-20 N Glenville Drive,Dallas,44873,114,"Centurylink Communications, LLC",7500,3493,22,Dallas_upto100,rent    ,per Area,Annual,11.75,11.75,7.5,7.5,4.25,4.25,6/26/2025 0:00,t0001217,51915,1
+6163,3tx00015,1800-20 N Glenville Drive,Dallas,44870,116,"QG Geophysics, Inc.",7141,3469,22,Dallas_upto100,rent    ,per Area,Annual,11.75,11.25,7.5,7.5,4.25,3.75,6/26/2025 0:00,t0001449,72584,1
+6163,3tx00015,1800-20 N Glenville Drive,Dallas,44878,116A    ,L2P Solutions,5157,3494,22,Dallas_upto100,rent    ,per Area,Annual,11.75,11.75,7.5,7.5,4.25,4.25,6/26/2025 0:00,t0001215,51913,1
+6163,3tx00015,1800-20 N Glenville Drive,Dallas,44882,120,L2P Solutions,2813,3497,22,Dallas_upto100,rent    ,per Area,Annual,11.75,11.75,7.5,7.5,4.25,4.25,6/26/2025 0:00,t0001215,51913,1
+6163,3tx00015,1800-20 N Glenville Drive,Dallas,44885,120A    ,"Bobby Levy Construction, Inc.",1242,3499,22,Dallas_upto100,rent    ,per Area,Annual,11.75,11.75,7.5,7.5,4.25,4.25,6/26/2025 0:00,t0001206,51904,1
+6163,3tx00015,1800-20 N Glenville Drive,Dallas,44851,122,"Bobby Levy Construction, Inc.",1350,3461,22,Dallas_upto100,rent    ,per Area,Annual,11.75,11.75,7.5,7.5,4.25,4.25,6/26/2025 0:00,t0001206,51904,1
+6163,3tx00015,1800-20 N Glenville Drive,Dallas,44884,122A    ,L2P Solutions,1914,3498,22,Dallas_upto100,rent    ,per Area,Annual,11.75,11.75,7.5,7.5,4.25,4.25,6/26/2025 0:00,t0001215,51913,1
+6163,3tx00015,1800-20 N Glenville Drive,Dallas,44854,124,"CP Strategies, Inc.",5455,3463,22,Dallas_upto100,rent    ,per Area,Annual,11.75,11.75,7.5,7.5,4.25,4.25,6/26/2025 0:00,t0001209,51907,1
+6163,3tx00015,1800-20 N Glenville Drive,Dallas,44862,124A    ,"Jerry Sharp & Holmaleski Holdings, LLC",2902,3465,22,Dallas_upto100,rent    ,per Area,Annual,11.75,11.75,7.5,7.5,4.25,4.25,6/26/2025 0:00,t0001212,51910,1
+6163,3tx00015,1800-20 N Glenville Drive,Dallas,44847,128,"Tri-State Car Wash Supplies, LLC",4574,3460,22,Dallas_upto100,rent    ,per Area,Annual,11.75,11.75,7.5,7.5,4.25,4.25,6/26/2025 0:00,t0001204,51897,1
+6163,3tx00015,1800-20 N Glenville Drive,Dallas,44893,136,"Best Buy Windows & Siding, LLC",1682,3501,22,Dallas_upto100,rent    ,per Area,Annual,11.75,11.75,7.5,7.5,4.25,4.25,6/26/2025 0:00,t0001211,51909,1
+6163,3tx00015,1800-20 N Glenville Drive,Dallas,44894,136W    ,"Best Buy Windows & Siding, LLC",3757,3502,22,Dallas_upto100,rent    ,per Area,Annual,11.75,11.75,7.5,7.5,4.25,4.25,6/26/2025 0:00,t0001211,51909,1
+3836,3tx00002,1801 S. GSW Parkway,Dallas,47779,100,Vacant,56485,4591,85,Dal_upto100_2nd,rent    ,per Area,Annual,6.25,7.5,7.5,7.5,-1.25,0,6/26/2025 0:00,,,1
+3836,3tx00002,1801 S. GSW Parkway,Dallas,16707,300,Vacant,12000,2368,85,Dal_upto100_2nd,rent    ,per Area,Annual,6.25,7.5,7.5,7.5,-1.25,0,6/26/2025 0:00,,,1
+3836,3tx00002,1801 S. GSW Parkway,Dallas,16708,500,Vacant,20000,2369,85,Dal_upto100_2nd,rent    ,per Area,Annual,6.25,7.5,7.5,7.5,-1.25,0,6/26/2025 0:00,,,1
+3836,3tx00002,1801 S. GSW Parkway,Dallas,16709,600,Vacant,0,2370,22,Dallas_upto100,rent    ,per Area,Annual,6,7.5,7.5,7.5,-1.5,0,6/26/2025 0:00,,,1
+3836,3tx00002,1801 S. GSW Parkway,Dallas,16712,700,Vacant,18095,2372,85,Dal_upto100_2nd,rent    ,per Area,Annual,6.25,7.5,7.5,7.5,-1.25,0,6/26/2025 0:00,,,1
+3836,3tx00002,1801 S. GSW Parkway,Dallas,16710,800,Vacant,0,2371,22,Dallas_upto100,rent    ,per Area,Annual,6,7.5,7.5,7.5,-1.5,0,6/26/2025 0:00,,,1
+3836,3tx00002,1801 S. GSW Parkway,Dallas,16713,C       ,Vacant,0,2373,22,Dallas_upto100,rent    ,per Area,Annual,6,7.5,7.5,7.5,-1.5,0,6/26/2025 0:00,,,1
+3728,xnj1803u,1803 Underwood Boulevard,Philadelphia,14387,1803,Vacant,17600,1930,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,10.5,10.5,8,8,2.5,2.5,6/26/2025 0:00,,,1
+1666,xtn187bo,187 Bobrick Drive,Memphis,2979,100,Vacant,120000,1612,47,MEM_100KPlus,rent    ,per Area,Annual,4.15,4,4.15,4.15,0,-0.15,6/26/2025 0:00,,,1
+3642,xnj19ind,19 Industrial Avenue,Northern NJ/New York,12819,CENTER  ,Werner Aero Services,11396,1672,41,NNJ_upto100,rent    ,per Area,Annual,14.75,14.75,13.91,13.91,0.84,0.84,6/26/2025 0:00,t0000864,17171,1
+3642,xnj19ind,19 Industrial Avenue,Northern NJ/New York,12820,NE      ,Werner Aero Services,18489,1673,41,NNJ_upto100,rent    ,per Area,Annual,14.75,14.75,13.91,13.91,0.84,0.84,6/26/2025 0:00,t0000864,17171,1
+3642,xnj19ind,19 Industrial Avenue,Northern NJ/New York,12821,NWCNR   ,Werner Aero Services,5900,1674,41,NNJ_upto100,rent    ,per Area,Annual,14.75,14.75,13.91,13.91,0.84,0.84,6/26/2025 0:00,t0000864,17171,1
+3642,xnj19ind,19 Industrial Avenue,Northern NJ/New York,12822,SCNR    ,"Erie Construction Mid-West, LLC",6480,1675,41,NNJ_upto100,rent    ,per Area,Annual,14.75,14.75,13.91,13.91,0.84,0.84,6/26/2025 0:00,t0000862,17168,1
+3642,xnj19ind,19 Industrial Avenue,Northern NJ/New York,12823,SECNR   ,Werner Aero Services,10664,1676,41,NNJ_upto100,rent    ,per Area,Annual,14.75,14.75,13.91,13.91,0.84,0.84,6/26/2025 0:00,t0000864,17171,1
+1877,xnj19nev,19-05 Nevins Road,Northern NJ/New York,3873,01      ,"RD Foods America, Inc.",101208,701,75,NNJ_2nd Iteration_100plus,rent    ,per Area,Annual,15.25,15.25,13.91,13.91,1.34,1.34,6/26/2025 0:00,t0000627,5477,1
+1877,xnj19nev,19-05 Nevins Road,Northern NJ/New York,3874,02      ,"RD Foods America, Inc.",25302,2334,75,NNJ_2nd Iteration_100plus,rent    ,per Area,Annual,15.25,15.25,13.91,13.91,1.34,1.34,6/26/2025 0:00,t0000627,5477,1
+1877,xnj19nev,19-05 Nevins Road,Northern NJ/New York,3875,03      ,"RD Foods America, Inc.",25289,2335,75,NNJ_2nd Iteration_100plus,rent    ,per Area,Annual,15.25,15.25,13.91,13.91,1.34,1.34,6/26/2025 0:00,t0000627,5477,1
+3204,xtx1919a,1919 Avenue E,Lubbock,5745,1919,"GUARDIAN BUILDING PRODUCTS, INC.							",79970,2442,23,SAN_Upto100,rent    ,per Area,Annual,8,8,8,8,0,0,6/26/2025 0:00,t0000707,7539,1
+7762,3ca00004,1920 South Rochester Avenue,Los Angeles,62857,102-103 ,"GC OPCO, LLC",11073,5279,92,LA_upto100,rent    ,per Area,Annual,13.2,13.2,15,15,-1.8,-1.8,6/26/2025 0:00,t0001484,73698,1
+7762,3ca00004,1920 South Rochester Avenue,Los Angeles,62852,104,"Emerging Acquisitions, LLC	",5736,5274,92,LA_upto100,rent    ,per Area,Annual,13.2,17.23,15,15,-1.8,2.23,6/26/2025 0:00,t0001477,73691,1
+7762,3ca00004,1920 South Rochester Avenue,Los Angeles,62850,105,"Nutrigent, Inc.	",5598,5273,92,LA_upto100,rent    ,per Area,Annual,13.2,13.2,15,15,-1.8,-1.8,6/26/2025 0:00,t0001476,73690,1
+7764,3ca00005,1930 S. Rochester Avenue,Los Angeles,62858,101,"Meyer Logistics, Inc.",7870,5280,92,LA_upto100,rent    ,per Area,Annual,17.4,17.4,15,15,2.4,2.4,6/26/2025 0:00,t0001485,73699,1
+7764,3ca00005,1930 S. Rochester Avenue,Los Angeles,62853,102,Blue Truck Logistics Inc.,7693,5275,92,LA_upto100,rent    ,per Area,Annual,17.4,17.4,15,15,2.4,2.4,6/26/2025 0:00,t0001480,73694,1
+7764,3ca00005,1930 S. Rochester Avenue,Los Angeles,62874,103,"Todaytec, LLC",7500,5287,92,LA_upto100,rent    ,per Area,Annual,17.4,21.43,15,15,2.4,6.43,6/26/2025 0:00,t0001494,73733,1
+7764,3ca00005,1930 S. Rochester Avenue,Los Angeles,62873,104,"Tahus Trucking, Inc.",7531,5286,92,LA_upto100,rent    ,per Area,Annual,17.4,17.4,15,15,2.4,2.4,6/26/2025 0:00,t0001493,73732,1
+7764,3ca00005,1930 S. Rochester Avenue,Los Angeles,62876,105-106 ,Universal Express Transportation Inc.,15386,5289,92,LA_upto100,rent    ,per Area,Annual,17.4,21.91,15,15,2.4,6.91,6/26/2025 0:00,t0001496,73735,1
+7764,3ca00005,1930 S. Rochester Avenue,Los Angeles,62859,107-108 ,LZ Logistics Inc.,15031,5281,92,LA_upto100,rent    ,per Area,Annual,17.4,21.84,15,15,2.4,6.84,6/26/2025 0:00,t0001486,73700,1
+7764,3ca00005,1930 S. Rochester Avenue,Los Angeles,62872,109,Pumei Logistics Inc.,7446,5285,92,LA_upto100,rent    ,per Area,Annual,17.4,17.4,15,15,2.4,2.4,6/26/2025 0:00,t0001492,73724,1
+7764,3ca00005,1930 S. Rochester Avenue,Los Angeles,62875,110,"UNIC Industrial & Trading Corp., USA ",7446,5288,92,LA_upto100,rent    ,per Area,Annual,17.4,23,15,15,2.4,8,6/26/2025 0:00,t0001495,73734,1
+7764,3ca00005,1930 S. Rochester Avenue,Los Angeles,62854,111,Bonfire Production Corp,7500,5276,92,LA_upto100,rent    ,per Area,Annual,17.4,17.4,15,15,2.4,2.4,6/26/2025 0:00,t0001481,73695,1
+7764,3ca00005,1930 S. Rochester Avenue,Los Angeles,62963,112,"Brothers Distro, Inc.",7531,5292,92,LA_upto100,rent    ,per Area,Annual,17.4,18.23,15,15,2.4,3.23,6/26/2025 0:00,t0001500,73848,1
+7764,3ca00005,1930 S. Rochester Avenue,Los Angeles,62870,113,"Northern Safety Co., Inc.",7693,5283,92,LA_upto100,rent    ,per Area,Annual,17.4,22.86,15,15,2.4,7.86,6/26/2025 0:00,t0001489,73720,1
+7764,3ca00005,1930 S. Rochester Avenue,Los Angeles,62856,114,"Fantasia Trading, LLC",7693,5278,92,LA_upto100,rent    ,per Area,Annual,17.4,17.4,15,15,2.4,2.4,6/26/2025 0:00,t0001483,73697,1
+7764,3ca00005,1930 S. Rochester Avenue,Los Angeles,62877,115,"On Time Express, LLC ",7531,5290,92,LA_upto100,rent    ,per Area,Annual,17.4,17.4,15,15,2.4,2.4,6/26/2025 0:00,t0001497,73736,1
+7764,3ca00005,1930 S. Rochester Avenue,Los Angeles,62855,116,BWGT Logistics LLC,7500,5277,92,LA_upto100,rent    ,per Area,Annual,17.4,17.4,15,15,2.4,2.4,6/26/2025 0:00,t0001482,73696,1
+7764,3ca00005,1930 S. Rochester Avenue,Los Angeles,62871,117,"On Time Express LLC, and Titan Trans Logistics Inc",7693,5284,92,LA_upto100,rent    ,per Area,Annual,17.4,21.41,15,15,2.4,6.41,6/26/2025 0:00,t0001490,73721,1
+7764,3ca00005,1930 S. Rochester Avenue,Los Angeles,62878,118,Champion Professional Unloading Logistics Inc,7693,5291,92,LA_upto100,rent    ,per Area,Annual,17.4,17.4,15,15,2.4,2.4,6/26/2025 0:00,t0001498,73737,1
+7764,3ca00005,1930 S. Rochester Avenue,Los Angeles,62868,119,"MV Transportation, Inc.",7869,5282,92,LA_upto100,rent    ,per Area,Annual,17.4,17.73,15,15,2.4,2.73,6/26/2025 0:00,t0001487,73718,1
+7841,3ga00017,1950 Evergreen Boulevard,Atlanta,64075,100,Vacant,0,5460,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+7841,3ga00017,1950 Evergreen Boulevard,Atlanta,64076,200,Vacant,0,5461,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+7841,3ga00017,1950 Evergreen Boulevard,Atlanta,64077,300,Vacant,0,5437,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,9,6.45,9,6.45,0,0,6/26/2025 0:00,,,1
+7841,3ga00017,1950 Evergreen Boulevard,Atlanta,64078,400,Vacant,0,5438,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,9,6.45,9,6.45,0,0,6/26/2025 0:00,,,1
+7841,3ga00017,1950 Evergreen Boulevard,Atlanta,64079,500,Vacant,0,5439,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,9,6.45,9,6.45,0,0,6/26/2025 0:00,,,1
+7817,3ga00018,1955 Evergreen Blvd,Atlanta,64018,200,Vacant,0,5459,20,ATL_upto100,rent    ,per Area,Annual,11.75,11.75,6,6,5.75,5.75,6/26/2025 0:00,,,1
+7817,3ga00018,1955 Evergreen Blvd,Atlanta,64016,250,Vacant,0,5457,20,ATL_upto100,rent    ,per Area,Annual,13.74,13.74,6,6,7.74,7.74,6/26/2025 0:00,,,1
+7817,3ga00018,1955 Evergreen Blvd,Atlanta,64015,300,Vacant,0,5456,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+7817,3ga00018,1955 Evergreen Blvd,Atlanta,64017,50,Vacant,0,5458,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+1391,xgahire1,196 Rio Circle,Atlanta,525,196,Construction Resources Company LLC,42000,752,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,9.25,6.45,9,6.45,0.25,0,6/26/2025 0:00,t0000436,1338,1
+7818,3ga00019,1965 Evergreen Boulevard,Atlanta,64010,100,Vacant,0,5451,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+7818,3ga00019,1965 Evergreen Boulevard,Atlanta,64013,150,Vacant,0,5454,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+7818,3ga00019,1965 Evergreen Boulevard,Atlanta,64011,200,Vacant,0,5452,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+7818,3ga00019,1965 Evergreen Boulevard,Atlanta,64012,300,Vacant,0,5453,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+7818,3ga00019,1965 Evergreen Boulevard,Atlanta,64014,400,Vacant,0,5455,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+3795,xnj1980o,1980 Old Cuthbert Road,Philadelphia,15024,1980,Vacant,14000,2066,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,9.5,9.5,8,8,1.5,1.5,6/26/2025 0:00,,,1
+5711,3nj00011,2 Pearl Court,Northern NJ/New York,34542,2,Howmedica Osteonics Corp.,39170,2960,41,NNJ_upto100,rent    ,per Area,Annual,17.05,17.05,13.91,13.91,3.14,3.14,6/26/2025 0:00,t0001142,40383,1
+3388,xnj2050h,20-50 Harkins Drive,Philadelphia,9133,2050,Modular Closets LLC,24000,1091,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,10.25,9.45,8,8,2.25,1.45,6/26/2025 0:00,t0000779,11005,1
+7722,iga006  ,200 Cook St,Atlanta,61944,100,"Branford Filtration, LLC",152387,5206,38,ATL_100plus,rent    ,per Area,Annual,6.27,6.27,6,6,0.27,0.27,6/26/2025 0:00,t0001441,72440,1
+7855,3nj00032,200 Forge Way,Northern NJ/New York,64132,1,Vacant,0,5421,41,NNJ_upto100,rent    ,per Area,Annual,15.5,15.5,13.91,13.91,1.59,1.59,6/26/2025 0:00,,,1
+7855,3nj00032,200 Forge Way,Northern NJ/New York,64134,200,Vacant,0,5423,41,NNJ_upto100,rent    ,per Area,Annual,15.5,15.5,13.91,13.91,1.59,1.59,6/26/2025 0:00,,,1
+7855,3nj00032,200 Forge Way,Northern NJ/New York,64135,205,Vacant,0,5424,41,NNJ_upto100,rent    ,per Area,Annual,15.5,15.5,13.91,13.91,1.59,1.59,6/26/2025 0:00,,,1
+7855,3nj00032,200 Forge Way,Northern NJ/New York,64136,210,Vacant,0,5425,41,NNJ_upto100,rent    ,per Area,Annual,15.5,15.5,13.91,13.91,1.59,1.59,6/26/2025 0:00,,,1
+7855,3nj00032,200 Forge Way,Northern NJ/New York,64133,220A    ,Vacant,0,5422,41,NNJ_upto100,rent    ,per Area,Annual,15.5,15.5,13.91,13.91,1.59,1.59,6/26/2025 0:00,,,1
+2989,xnj200ri,200 Rike Drive,Philadelphia,5740,200,Greif Packaging LLC,63000,1082,30,PHI_upto100,rent    ,per Area,Annual,13.5,13.5,8,8,5.5,5.5,6/26/2025 0:00,t0000704,7396,1
+6214,3nj00020,200-204 Evans Way,Northern NJ/New York,44891,A       ,"Zeus Scientific, Inc.",32264,4464,76,NNJ_2nd Iteration_upto100,rent    ,per Area,Annual,15,15,13.91,13.91,1.09,1.09,6/26/2025 0:00,t0001227,51945,1
+6214,3nj00020,200-204 Evans Way,Northern NJ/New York,44892,B       ,Allmetal Inc.,35000,4465,59,Phi_3rd Iteration_upto100,rent    ,per Area,Annual,15,8.41,8,8,7,0.41,6/26/2025 0:00,t0001228,51947,1
+4116,3ga00004,2005 Marietta Rd,Atlanta,16814,A       ,Brasfield Gorrie,15372,2057,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,12.85,14.1,9,6.45,3.85,7.65,6/26/2025 0:00,t0001100,38130,1
+4116,3ga00004,2005 Marietta Rd,Atlanta,36862,B       ,"Gaylor Electric, Inc.",11828,3391,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,12.85,14.1,9,6.45,3.85,7.65,6/26/2025 0:00,t0001152,42705,1
+1754,xgadors ,2009 Dorsey Road,Atlanta,3328,100,Vacant,18259,782,20,ATL_upto100,rent    ,per Area,Annual,5.25,5.25,6,6,-0.75,-0.75,6/26/2025 0:00,,,1
+1754,xgadors ,2009 Dorsey Road,Atlanta,15889,200,Vacant,16332,1942,20,ATL_upto100,rent    ,per Area,Annual,5.25,5.25,6,6,-0.75,-0.75,6/26/2025 0:00,,,1
+1754,xgadors ,2009 Dorsey Road,Atlanta,15890,300,Vacant,10551,1943,20,ATL_upto100,rent    ,per Area,Annual,5.25,5.25,6,6,-0.75,-0.75,6/26/2025 0:00,,,1
+1754,xgadors ,2009 Dorsey Road,Atlanta,15891,400,Vacant,31483,1944,20,ATL_upto100,rent    ,per Area,Annual,5.25,5.25,6,6,-0.75,-0.75,6/26/2025 0:00,,,1
+1754,xgadors ,2009 Dorsey Road,Atlanta,3332,500,Vacant,12098,783,20,ATL_upto100,rent    ,per Area,Annual,5.25,5.25,6,6,-0.75,-0.75,6/26/2025 0:00,,,1
+1754,xgadors ,2009 Dorsey Road,Atlanta,3334,600,Vacant,12234,784,20,ATL_upto100,rent    ,per Area,Annual,5.25,5.25,6,6,-0.75,-0.75,6/26/2025 0:00,,,1
+1754,xgadors ,2009 Dorsey Road,Atlanta,3336,710,Vacant,10979,786,20,ATL_upto100,rent    ,per Area,Annual,5.25,5.25,6,6,-0.75,-0.75,6/26/2025 0:00,,,1
+1754,xgadors ,2009 Dorsey Road,Atlanta,3335,750,Vacant,20500,785,20,ATL_upto100,rent    ,per Area,Annual,5.25,5.25,6,6,-0.75,-0.75,6/26/2025 0:00,,,1
+3547,xil201ja,201 James Street,Chicago,10536,1050,"Family Vending, LLC",2934,938,29,CHI_upto100,rent    ,per Area,Annual,9.5,9.5,6.5,6.5,3,3,6/26/2025 0:00,t0001448,72579,1
+3547,xil201ja,201 James Street,Chicago,10537,1060,"JL Services Group, Inc.",1971,939,77,Chi_2nd Iteration_upto100,rent    ,per Area,Annual,9.5,9.5,6.5,6.5,3,3,6/26/2025 0:00,t0000793,12764,1
+3547,xil201ja,201 James Street,Chicago,10538,1070,"A&J Direct, Inc.",4680,940,29,CHI_upto100,rent    ,per Area,Annual,9.5,9.5,6.5,6.5,3,3,6/26/2025 0:00,t0001418,70329,1
+3547,xil201ja,201 James Street,Chicago,10539,1080,Lincare Inc,5382,941,29,CHI_upto100,rent    ,per Area,Annual,10,10,6.5,6.5,3.5,3.5,6/26/2025 0:00,t0000950,19638,1
+3547,xil201ja,201 James Street,Chicago,9162,201,Frontier Electric Supply,7020,932,29,CHI_upto100,rent    ,per Area,Annual,10,10,6.5,6.5,3.5,3.5,6/26/2025 0:00,t0001155,43261,1
+1392,xgahire2,201 Laredo Drive,Atlanta,524,201,Construction Resources Company LLC,30000,751,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,10,6.45,9,6.45,1,0,6/26/2025 0:00,t0000437,1339,1
+1388,xnj2036b,2036 Briggs Road,Philadelphia,532,100,Goldfish Swim School,10000,1013,30,PHI_upto100,rent    ,per Area,Annual,10.5,10.5,8,8,2.5,2.5,6/26/2025 0:00,t0000450,1386,1
+1388,xnj2036b,2036 Briggs Road,Philadelphia,533,200,Kaizen Martial Arts of NJ,5025,1014,30,PHI_upto100,rent    ,per Area,Annual,10.5,10.5,8,8,2.5,2.5,6/26/2025 0:00,t0000452,1388,1
+1388,xnj2036b,2036 Briggs Road,Philadelphia,534,300,Escape Movement Center,9849,1015,30,PHI_upto100,rent    ,per Area,Annual,10.5,10.5,8,8,2.5,2.5,6/26/2025 0:00,t0000453,1389,1
+1388,xnj2036b,2036 Briggs Road,Philadelphia,535,400,Will-Moor School of Gymnastics,15075,1016,30,PHI_upto100,rent    ,per Area,Annual,10.5,10.5,8,8,2.5,2.5,6/26/2025 0:00,t0000454,1390,1
+7734,ioh001  ,2042 Camaro Ave,Columbus,62123,2042,"Sabbow and Co., Inc.",28717,5207,25,COL Up to 100K SF,rent    ,per Area,Annual,7,7,7,7,0,0,6/26/2025 0:00,t0001456,72745,1
+3737,3oh00001,2060-2098 N Integrity Dr,Columbus,14787,2060,Ross Restoration,17000,1958,25,COL Up to 100K SF,rent    ,per Area,Annual,8.6,8.6,7,7,1.6,1.6,6/26/2025 0:00,t0001047,34065,1
+3737,3oh00001,2060-2098 N Integrity Dr,Columbus,14788,2064,"Boston Barricade Company, Inc.",8000,1959,25,COL Up to 100K SF,rent    ,per Area,Annual,10,10,7,7,3,3,6/26/2025 0:00,t0001238,52041,1
+3737,3oh00001,2060-2098 N Integrity Dr,Columbus,14789,2066,"Benchmark Building Supply,Inc.",8000,1960,25,COL Up to 100K SF,rent    ,per Area,Annual,9,9,7,7,2,2,6/26/2025 0:00,t0000993,27056,1
+3737,3oh00001,2060-2098 N Integrity Dr,Columbus,15298,2068,Packard Forest Products,32000,1964,25,COL Up to 100K SF,rent    ,per Area,Annual,7,7,7,7,0,0,6/26/2025 0:00,t0000928,18140,1
+3737,3oh00001,2060-2098 N Integrity Dr,Columbus,14791,2078,"Distribution International Southwest, Inc.",17000,1961,25,COL Up to 100K SF,rent    ,per Area,Annual,8.1,8.1,7,7,1.1,1.1,6/26/2025 0:00,t0000929,18141,1
+3737,3oh00001,2060-2098 N Integrity Dr,Columbus,14792,2080,Ohio Department of Administrative Services,40800,1962,25,COL Up to 100K SF,rent    ,per Area,Annual,7,7,7,7,0,0,6/26/2025 0:00,t0000930,18156,1
+3737,3oh00001,2060-2098 N Integrity Dr,Columbus,14793,2098,Ohio Department of Job and Family Services,39200,1963,25,COL Up to 100K SF,rent    ,per Area,Annual,6.5,6.5,7,7,-0.5,-0.5,6/26/2025 0:00,t0000934,18179,1
+2987,xnj2075h,2075 High Hill Road,Philadelphia,5741,2075,"Bridgestone Hosepower, LLC",33078,1083,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,10,7.53,8,8,2,-0.47,6/26/2025 0:00,t0000703,7395,1
+1393,xgahire3,210 Rio Circle,Atlanta,526,210,Construction Resources Company LLC,40841,753,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,9.25,9.25,9,9,0.25,0.25,6/26/2025 0:00,t0000438,1340,1
+1894,xga2100b,2100 Boggs Road,Atlanta,4022,2100,"Averr Aglow, LLC",103289,787,62,Atl_2nd Iteration_100plus,rent    ,per Area,Annual,7.61,7.61,5.25,5.25,2.36,2.36,6/26/2025 0:00,t0000639,5500,1
+3798,3il00003,2100 W 32nd,Chicago,15851,2100,Active Roofing LLC,19511,2089,29,CHI_upto100,rent    ,per Area,Annual,7,7,6.5,6.5,0.5,0.5,6/26/2025 0:00,t0000937,18774,1
+1734,xil2101 ,2101 Arthur Avenue,Chicago,3503,200,"Logisteed America, Inc.",26994,905,77,Chi_2nd Iteration_upto100,rent    ,per Area,Annual,9,9.25,6.5,6.5,2.5,2.75,6/26/2025 0:00,t0001197,51812,1
+1734,xil2101 ,2101 Arthur Avenue,Chicago,56839,B       ,Vacant,21080,5018,77,Chi_2nd Iteration_upto100,rent    ,per Area,Annual,9.25,9.25,6.5,6.5,2.75,2.75,6/26/2025 0:00,,,1
+1734,xil2101 ,2101 Arthur Avenue,Chicago,3502,B-C     ,Centerpoint Marketing Inc.,34455,904,29,CHI_upto100,rent    ,per Area,Annual,9.25,9.25,6.5,6.5,2.75,2.75,6/26/2025 0:00,t0000594,4905,1
+5460,3nc00004,2101 Westinghouse Boulevard,"Charlotte, NC",31741,A       ,"cbdMD, Inc.",80000,2924,82,Car_2nd Iteration_upto100,rent    ,per Area,Annual,7.9,7.9,6,6,1.9,1.9,6/26/2025 0:00,t0001082,36952,1
+5460,3nc00004,2101 Westinghouse Boulevard,"Charlotte, NC",32748,C       ,"Atlas Copco Compressors, LLC",56000,2925,43,CAR_upto100,rent    ,per Area,Annual,8.16,7.65,6,6,2.16,1.65,6/26/2025 0:00,t0001088,38078,1
+5460,3nc00004,2101 Westinghouse Boulevard,"Charlotte, NC",32749,D       ,"Atlas Copco Compressors, LLC",64000,2977,52,CAR_100K Pus,rent    ,per Area,Annual,8.16,7.75,6,6,2.16,1.75,6/26/2025 0:00,t0001088,38078,1
+2988,xtx2125v,2125 Vanco Drive,Dallas,8112,2125,Vacant,26532,836,85,Dal_upto100_2nd,rent    ,per Area,Annual,10.5,7.5,7.5,7.5,3,0,6/26/2025 0:00,,,1
+3634,3ga00001,2160 Hills Avenue,Atlanta,12599,A       ,Vacant,8052,1876,20,ATL_upto100,rent    ,per Area,Annual,13,13,6,6,7,7,6/26/2025 0:00,,,1
+3634,3ga00001,2160 Hills Avenue,Atlanta,12598,B       ,Goodman Decorating,13950,1875,20,ATL_upto100,rent    ,per Area,Annual,13,13,6,6,7,7,6/26/2025 0:00,t0001020,29302,1
+3634,3ga00001,2160 Hills Avenue,Atlanta,12600,C       ,"Champion Gymnastics & Cheer, LLC,",10285,4490,20,ATL_upto100,rent    ,per Area,Annual,13,13,6,6,7,7,6/26/2025 0:00,t0001271,53555,1
+1787,xnj220r ,220 Route 70,Philadelphia,3506,A       ,Vacant,60880,1069,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,8.25,8.25,8,8,0.25,0.25,6/26/2025 0:00,,,1
+1787,xnj220r ,220 Route 70,Philadelphia,3507,B       ,"Simonik Transportation & Warehousing Group, LLC",23545,1070,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,8.25,8.25,8,8,0.25,0.25,6/26/2025 0:00,t0001151,42687,1
+5726,3nc00005,2200 Executive Street,"Charlotte, NC",32754,100,City of Charlotte,22961,2928,82,Car_2nd Iteration_upto100,rent    ,per Area,Annual,12.75,13.26,6,6,6.75,7.26,6/26/2025 0:00,t0001116,39273,1
+5727,3md00005,221 Cockeysville Road,Baltimore,32794,A       ,"TA Dispatch, LLC",22500,2920,61,Bal_2nd Iteration_upto100,rent    ,per Area,Annual,10.75,10.75,9,9,1.75,1.75,6/26/2025 0:00,t0001107,38415,1
+5727,3md00005,221 Cockeysville Road,Baltimore,32795,B       ,"Marathon Roofing, Inc.",7525,2921,60,Bal_3rd Iteration_upto100,rent    ,per Area,Annual,10.75,6.05,9,9,1.75,-2.95,6/26/2025 0:00,t0001106,38211,1
+5727,3md00005,221 Cockeysville Road,Baltimore,32796,C       ,"Laker Partners, LLC",2674,2922,61,Bal_2nd Iteration_upto100,rent    ,per Area,Annual,11.5,11.5,9,9,2.5,2.5,6/26/2025 0:00,t0001179,46541,1
+3669,xil222ja,222 James Street,Chicago,12833,222,"United Refrigeration, Inc.",11020,1708,29,CHI_upto100,rent    ,per Area,Annual,9.5,9.5,6.5,6.5,3,3,6/26/2025 0:00,t0000881,17601,1
+3669,xil222ja,222 James Street,Chicago,12834,224,Triple Trading,12905,1709,29,CHI_upto100,rent    ,per Area,Annual,10.5,10.5,6.5,6.5,4,4,6/26/2025 0:00,t0001016,29046,1
+4171,3tx00004,2220 Chemsearch Blvd,Dallas,20992,150,"An Texas Region Management, Ltd.",77259,2378,22,Dallas_upto100,rent    ,per Area,Annual,7.2,11.15,7.5,7.5,-0.3,3.65,6/26/2025 0:00,t0000979,24013,1
+4171,3tx00004,2220 Chemsearch Blvd,Dallas,20993,200,Vacant,38667,2379,22,Dallas_upto100,rent    ,per Area,Annual,11.5,9,7.5,7.5,4,1.5,6/26/2025 0:00,,,1
+1394,xgahire4,224 Rio Circle,Atlanta,527,224,Construction Resources Company LLC,33000,754,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,9.25,6.75,9,6.45,0.25,0.3,6/26/2025 0:00,t0000439,1341,1
+1658,xtn225bo,225 Bobrick Drive,Memphis,2966,101,"Forestwood Farms, Inc.",45820,1609,27,MEM_Upto100,rent    ,per Area,Annual,4.5,4.25,4.15,4.15,0.35,0.1,6/26/2025 0:00,t0000652,5644,1
+1658,xtn225bo,225 Bobrick Drive,Memphis,2968,103,Vacant,33340,1611,73,Mem_2nd Iteration_upto100,rent    ,per Area,Annual,4,4,4.15,4.15,-0.15,-0.15,6/26/2025 0:00,,,1
+1658,xtn225bo,225 Bobrick Drive,Memphis,2967,229,"Garrard and Woodside, LLC",20840,1610,74,Mem_3rd Iteration_upto100,rent    ,per Area,Annual,4.15,4.15,4.15,4.15,0,0,6/26/2025 0:00,t0000523,4203,1
+7760,3ca00003,2260 S. Archibald Street,Los Angeles,62847,A       ,Lauxes Grates Corp.,6725,5267,93,LA_2nd Iteration_upto100K,rent    ,per Area,Annual,16,22.57,15,15,1,7.57,6/26/2025 0:00,t0001474,73684,1
+7760,3ca00003,2260 S. Archibald Street,Los Angeles,62845,B       ,Vacant,6184,5265,93,LA_2nd Iteration_upto100K,rent    ,per Area,Annual,16,16,15,15,1,1,6/26/2025 0:00,,,1
+7760,3ca00003,2260 S. Archibald Street,Los Angeles,62869,C       ,Edgardo Padilla,6184,5270,93,LA_2nd Iteration_upto100K,rent    ,per Area,Annual,15,15,15,15,0,0,6/26/2025 0:00,t0001488,73719,1
+7760,3ca00003,2260 S. Archibald Street,Los Angeles,62848,D       ,Pivot Studio LLC,6634,5268,93,LA_2nd Iteration_upto100K,rent    ,per Area,Annual,16,21.85,15,15,1,6.85,6/26/2025 0:00,t0001473,73683,1
+7760,3ca00003,2260 S. Archibald Street,Los Angeles,62846,E       ,Sandwox Abrasive Inc.,6634,5266,93,LA_2nd Iteration_upto100K,rent    ,per Area,Annual,16,19.15,15,15,1,4.15,6/26/2025 0:00,t0001472,73682,1
+7760,3ca00003,2260 S. Archibald Street,Los Angeles,62849,F       ,"KGPCo Services, L.L.C.",6080,5269,93,LA_2nd Iteration_upto100K,rent    ,per Area,Annual,16,16,15,15,1,1,6/26/2025 0:00,t0001475,73685,1
+7025,3nj00026,23 Farinella Drive,Northern NJ/New York,55382,100,Vacant,33524,4981,76,NNJ_2nd Iteration_upto100,rent    ,per Area,Annual,16.75,16.75,13.91,13.91,2.84,2.84,6/26/2025 0:00,,,1
+7025,3nj00026,23 Farinella Drive,Northern NJ/New York,55371,200,"Novartis Services, Inc.",10580,4982,41,NNJ_upto100,rent    ,per Area,Annual,15.75,15.75,13.91,13.91,1.84,1.84,6/26/2025 0:00,t0001387,64287,1
+4170,3tx00003,2300 E Randol Mill Road,Dallas,21108,100,"Doskocil Manufacturing Company, Inc.",50888,2380,22,Dallas_upto100,rent    ,per Area,Annual,9,12.92,7.5,7.5,1.5,5.42,6/26/2025 0:00,t0000981,24146,1
+3545,xil231ja,231 James Street,Chicago,9153,1071,"Fitzsimmons Surgical Supply, Inc.",7352,923,29,CHI_upto100,rent    ,per Area,Annual,9,9,6.5,6.5,2.5,2.5,6/26/2025 0:00,t0000804,13276,1
+3545,xil231ja,231 James Street,Chicago,9148,231,American Expediting Logistics LLC,5402,918,29,CHI_upto100,rent    ,per Area,Annual,10,10,6.5,6.5,3.5,3.5,6/26/2025 0:00,t0000798,13232,1
+3545,xil231ja,231 James Street,Chicago,9149,233,Skala Manufacturing,2139,919,29,CHI_upto100,rent    ,per Area,Annual,10.5,10.5,6.5,6.5,4,4,6/26/2025 0:00,t0001050,36272,1
+3545,xil231ja,231 James Street,Chicago,9150,235,"Quench USA, Inc.",7494,920,29,CHI_upto100,rent    ,per Area,Annual,9.5,9.5,6.5,6.5,3,3,6/26/2025 0:00,t0001417,70328,1
+3545,xil231ja,231 James Street,Chicago,9151,237,A-1 Outlet,7500,921,29,CHI_upto100,rent    ,per Area,Annual,9.5,9.5,6.5,6.5,3,3,6/26/2025 0:00,t0001013,28536,1
+3545,xil231ja,231 James Street,Chicago,9154,239,A-1 Outlet,7500,924,29,CHI_upto100,rent    ,per Area,Annual,9.5,9.5,6.5,6.5,3,3,6/26/2025 0:00,t0001013,28536,1
+3545,xil231ja,231 James Street,Chicago,9152,241,"Fitzsimmons Surgical Supply, Inc.",2915,922,29,CHI_upto100,rent    ,per Area,Annual,9.5,9.5,6.5,6.5,3,3,6/26/2025 0:00,t0000804,13276,1
+3546,xil240ja,240-252 James Street,Chicago,9155,240,Vacant,4900,925,29,CHI_upto100,rent    ,per Area,Annual,6.5,6.5,6.5,6.5,0,0,6/26/2025 0:00,,,1
+3546,xil240ja,240-252 James Street,Chicago,9156,242,Vacant,2900,926,29,CHI_upto100,rent    ,per Area,Annual,6.5,6.5,6.5,6.5,0,0,6/26/2025 0:00,,,1
+3546,xil240ja,240-252 James Street,Chicago,9157,244,Vacant,3500,927,29,CHI_upto100,rent    ,per Area,Annual,6.5,6.5,6.5,6.5,0,0,6/26/2025 0:00,,,1
+3546,xil240ja,240-252 James Street,Chicago,9158,246,Vacant,7500,928,29,CHI_upto100,rent    ,per Area,Annual,6.5,6.5,6.5,6.5,0,0,6/26/2025 0:00,,,1
+3546,xil240ja,240-252 James Street,Chicago,9159,248,Vacant,6000,929,29,CHI_upto100,rent    ,per Area,Annual,6.5,6.5,6.5,6.5,0,0,6/26/2025 0:00,,,1
+3546,xil240ja,240-252 James Street,Chicago,9160,250,Vacant,3500,930,29,CHI_upto100,rent    ,per Area,Annual,6.5,6.5,6.5,6.5,0,0,6/26/2025 0:00,,,1
+3546,xil240ja,240-252 James Street,Chicago,9161,252,Vacant,4300,931,29,CHI_upto100,rent    ,per Area,Annual,6.5,6.5,6.5,6.5,0,0,6/26/2025 0:00,,,1
+3621,xtx2445s,2445 Santa Anna Avenue,Dallas,10007,2445,"HIVES AND HONEY COMMERCIAL HOLDINGS, LLC",40116,1278,22,Dallas_upto100,rent    ,per Area,Annual,8.75,8.75,7.5,7.5,1.25,1.25,6/26/2025 0:00,t0000807,13433,1
+1395,xgahire5,246 Rio Circle,Atlanta,528,246,Construction Resources Company LLC,37500,755,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,9.25,6.75,9,6.45,0.25,0.3,6/26/2025 0:00,t0000440,1342,1
+6094,3fl00011,2479 Eunice Ave,Miami,39731,100,"Christie Lites Orlando, LLC",121440,3116,80,Orl_2nd Iteration_100plus,rent    ,per Area,Annual,8.75,8.75,8,8,0.75,0.75,6/26/2025 0:00,t0001172,45811,1
+1789,xil250n ,250 North Washtenaw Avenue,Chicago,3840,250,Mighty Cake Company LLC,46000,906,29,CHI_upto100,rent    ,per Area,Annual,9,9,6.5,6.5,2.5,2.5,6/26/2025 0:00,t0000608,5277,1
+1891,xil2500w,2500 West Lake,Chicago,4027,2500,"A. MESSE ACQUISITION, LLC",13000,908,78,Chi_3rd Iteration_upto100,rent    ,per Area,Annual,11,11,6.5,6.5,4.5,4.5,6/26/2025 0:00,t0000642,5504,1
+1396,xgahire6,252 Rio Circle,Atlanta,529,252,Construction Resources Company LLC,16600,756,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,10,6.45,9,6.45,1,0,6/26/2025 0:00,t0000441,1343,1
+6581,3fl00012,2550 Cabot Commerce Dr,Jacksonville,46974,21,Mueller Streamline Co.,48000,4607,35,Jax_upto100,rent    ,per Area,Annual,9.25,9.25,7,7,2.25,2.25,6/26/2025 0:00,t0001310,54514,1
+6581,3fl00012,2550 Cabot Commerce Dr,Jacksonville,46784,22,PAS Reform North America LLC,36000,4604,70,Jax_2nd Iteration_upto100,rent    ,per Area,Annual,9.25,9.25,7,7,2.25,2.25,6/26/2025 0:00,t0001282,54296,1
+6581,3fl00012,2550 Cabot Commerce Dr,Jacksonville,46790,400,"Caribbean Shipping Services, Inc.",48055,4605,35,Jax_upto100,rent    ,per Area,Annual,9.25,9.25,7,7,2.25,2.25,6/26/2025 0:00,t0001286,54305,1
+6581,3fl00012,2550 Cabot Commerce Dr,Jacksonville,47781,600,Iron Mountain Information Management LLC,60055,4609,35,Jax_upto100,rent    ,per Area,Annual,9,9,7,7,2,2,6/26/2025 0:00,t0001319,55449,1
+6592,3fl00015,2562 Cabot Commerce Circle,Jacksonville,47780,1,"Margo State Line, Inc.",129665,4603,84,Jax_100plus,rent    ,per Area,Annual,8.5,8.5,7,7,1.5,1.5,6/26/2025 0:00,t0001318,55448,1
+7756,3ca00002,2580 E. Philadelphia Street,Los Angeles,62823,A-C     ,"Diagnostic Solutions International, LLC",17243,5271,92,LA_upto100,rent    ,per Area,Annual,16.2,19.99,15,15,1.2,4.99,6/26/2025 0:00,t0001464,73600,1
+7756,3ca00002,2580 E. Philadelphia Street,Los Angeles,62825,D       ,Biloban Inc.,6034,5272,92,LA_upto100,rent    ,per Area,Annual,16.2,19.72,15,15,1.2,4.72,6/26/2025 0:00,t0001466,73602,1
+7756,3ca00002,2580 E. Philadelphia Street,Los Angeles,62824,E       ,SMI Global LLC and Artrix Innovation Inc.,7749,5264,93,LA_2nd Iteration_upto100K,rent    ,per Area,Annual,16.2,21.64,15,15,1.2,6.64,6/26/2025 0:00,t0001465,73601,1
+3740,3nj00003,26 Hanes Drive,Northern NJ/New York,14897,100,Z.One Concept USA,20500,2344,41,NNJ_upto100,rent    ,per Area,Annual,17.15,17.15,13.91,13.91,3.24,3.24,6/26/2025 0:00,t0000908,17727,1
+3740,3nj00003,26 Hanes Drive,Northern NJ/New York,14898,200,Z.One Concept USA,20500,2345,41,NNJ_upto100,rent    ,per Area,Annual,17.15,17.15,13.91,13.91,3.24,3.24,6/26/2025 0:00,t0000908,17727,1
+2992,xtx2616a,2616 Andjon Drive,Dallas,5842,2610,Vacant,8279,818,85,Dal_upto100_2nd,rent    ,per Area,Annual,9,9,7.5,7.5,1.5,1.5,6/26/2025 0:00,,,1
+2992,xtx2616a,2616 Andjon Drive,Dallas,5316,2614,Sila-M LLC,8204,817,22,Dallas_upto100,rent    ,per Area,Annual,9,9,7.5,7.5,1.5,1.5,6/26/2025 0:00,t0001024,30325,1
+2992,xtx2616a,2616 Andjon Drive,Dallas,5843,2616,"Z&A Enterprises, LLC",8923,834,56,Z&A Fixed Renewal Option,rent    ,per Area,Annual,9,9,8.78,8.78,0.22,0.22,6/26/2025 0:00,t0000708,7540,1
+1689,xga265c ,265 Castleberry Industrial Drive,Atlanta,3026,265,"StruXure Outdoor, LLC",82486,777,20,ATL_upto100,rent    ,per Area,Annual,10.5,10.25,6,6,4.5,4.25,6/26/2025 0:00,t0000768,10108,1
+1685,xtx2655 ,2655 Freewood Drive,Dallas,5317,2655,LS Elite LLC,30840,833,22,Dallas_upto100,rent    ,per Area,Annual,8,8,7.5,7.5,0.5,0.5,6/26/2025 0:00,t0000759,9881,1
+4078,3oh00002,2701 Bobmeyer Rd,Cincinnati,16724,A       ,Star Moving and Storage Company,40212,1955,28,CIN_upto100K,rent    ,per Area,Annual,6,6,5,5,1,1,6/26/2025 0:00,t0000953,19725,1
+3639,xil2710l,2710 W Lake St,Chicago,12625,100,Vacant,24000,1706,29,CHI_upto100,rent    ,per Area,Annual,6.5,6.5,6.5,6.5,0,0,6/26/2025 0:00,,,1
+6668,3tx00019,2833 S Cravens Road,Dallas,49754,100,"VoidForm Products, LLC",10800,4669,22,Dallas_upto100,rent    ,per Area,Annual,6.85,6.85,7.5,7.5,-0.65,-0.65,6/26/2025 0:00,t0001349,57759,1
+3632,xga2900j,2900 Jones Mill,Atlanta,12621,A       ,"Reliable Restoration, LLC",58362,1399,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,10,10,9,6.45,1,3.55,6/26/2025 0:00,t0001241,52048,1
+6666,3tx00017,2901 S. Cravens Rd.,Dallas,49753,100,"VoidForm Products, LLC",13800,4668,22,Dallas_upto100,rent    ,per Area,Annual,8.75,8.75,7.5,7.5,1.25,1.25,6/26/2025 0:00,t0001348,57758,1
+6142,3md00006,2915 Wilmarco Ave,Baltimore,44845,100,Aalberts Surface Treatment Corp.,63040,3489,45,BAL_upto100,rent    ,per Area,Annual,10.5,10.5,9,9,1.5,1.5,6/26/2025 0:00,t0001193,51803,1
+1397,xgahire7,2980 Pine Street,Atlanta,530,2980,Construction Resources Company LLC,27322,757,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,10,6.45,9,6.45,1,0,6/26/2025 0:00,t0000442,1344,1
+1584,xnjmway3,3 Mary Way,Philadelphia,1539,A       ,ABC Supply,10550,1023,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,9.75,10.24,8,8,1.75,2.24,6/26/2025 0:00,t0000771,10195,1
+1584,xnjmway3,3 Mary Way,Philadelphia,1544,B       ,ABC Supply,21250,1024,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,9.75,10.24,8,8,1.75,2.24,6/26/2025 0:00,t0000771,10195,1
+1584,xnjmway3,3 Mary Way,Philadelphia,1545,C       ,ABC Supply,10760,1025,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,9.75,10.24,8,8,1.75,2.24,6/26/2025 0:00,t0000771,10195,1
+5712,3nj00012,3 Pearl Court,Northern NJ/New York,34627,3-DEF   ,WAB US Corporation,21000,2971,76,NNJ_2nd Iteration_upto100,rent    ,per Area,Annual,17.05,17.05,13.91,13.91,3.14,3.14,6/26/2025 0:00,t0001140,40257,1
+5712,3nj00012,3 Pearl Court,Northern NJ/New York,35671,A       ,CORMED USA INC.,6500,3207,41,NNJ_upto100,rent    ,per Area,Annual,17.5,17.5,13.91,13.91,3.59,3.59,6/26/2025 0:00,t0001144,41636,1
+5712,3nj00012,3 Pearl Court,Northern NJ/New York,34494,B       ,Vacant,9500,2957,41,NNJ_upto100,rent    ,per Area,Annual,17.25,17.25,13.91,13.91,3.34,3.34,6/26/2025 0:00,,,1
+5712,3nj00012,3 Pearl Court,Northern NJ/New York,34520,C       ,"Solid Surface Care, Inc.",4500,2958,41,NNJ_upto100,rent    ,per Area,Annual,17.25,17.25,13.91,13.91,3.34,3.34,6/26/2025 0:00,t0001130,40140,1
+1881,xnj30les,30 Leslie Court,Northern NJ/New York,3852,30,Nephros,16003,2338,41,NNJ_upto100,rent    ,per Area,Annual,14.75,14.75,13.91,13.91,0.84,0.84,6/26/2025 0:00,t0001042,34003,1
+1881,xnj30les,30 Leslie Court,Northern NJ/New York,24482,40,Gotham FC,9247,2347,41,NNJ_upto100,rent    ,per Area,Annual,14.75,14.75,13.91,13.91,0.84,0.84,6/26/2025 0:00,t0001007,28347,1
+7857,3nj00033,300 Forge Way,Northern NJ/New York,64139,300-1   ,Vacant,0,5428,41,NNJ_upto100,rent    ,per Area,Annual,15.5,15.5,13.91,13.91,1.59,1.59,6/26/2025 0:00,,,1
+7857,3nj00033,300 Forge Way,Northern NJ/New York,64137,300-3   ,Vacant,0,5426,41,NNJ_upto100,rent    ,per Area,Annual,15.5,15.5,13.91,13.91,1.59,1.59,6/26/2025 0:00,,,1
+7857,3nj00033,300 Forge Way,Northern NJ/New York,64138,300-3A  ,Vacant,0,5427,41,NNJ_upto100,rent    ,per Area,Annual,15.5,15.5,13.91,13.91,1.59,1.59,6/26/2025 0:00,,,1
+2724,xohcolu1,3000 – 3004 E 14th Avenue,Columbus,4572,3000,"FCX Performance, Inc.",44000,859,67,Col_2nd Iteration_upto100,rent    ,per Area,Annual,7.5,6.73,7,7,0.5,-0.27,6/26/2025 0:00,t0000671,6320,1
+2724,xohcolu1,3000 – 3004 E 14th Avenue,Columbus,4573,3004,"True World Foods Columbus, LLC",17850,860,25,COL Up to 100K SF,rent    ,per Area,Annual,8,8,7,7,1,1,6/26/2025 0:00,t0000675,6326,1
+1398,xgahire8,3000 Pine Street,Atlanta,531,3000,Construction Resources Company LLC,20000,758,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,10,6.45,9,6.45,1,0,6/26/2025 0:00,t0000443,1345,1
+1387,xnj3001i,3001 Irwin Road,Philadelphia,536,A       ,Vacant,24600,1017,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,11,11,8,8,3,3,6/26/2025 0:00,,,1
+1387,xnj3001i,3001 Irwin Road,Philadelphia,537,B       ,Vacant,24805,1018,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,11,11,8,8,3,3,6/26/2025 0:00,,,1
+1387,xnj3001i,3001 Irwin Road,Philadelphia,538,C       ,CF17 MANAGEMENT LLC,25651,1019,30,PHI_upto100,rent    ,per Area,Annual,11,11,8,8,3,3,6/26/2025 0:00,t0000459,1400,1
+1387,xnj3001i,3001 Irwin Road,Philadelphia,2248,D       ,Faropoint,3555,1036,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,9,9,8,8,1,1,6/26/2025 0:00,t0000959,20277,1
+1387,xnj3001i,3001 Irwin Road,Philadelphia,539,E       ,CF17 MANAGEMENT LLC,12187,1020,30,PHI_upto100,rent    ,per Area,Annual,10.25,10.25,8,8,2.25,2.25,6/26/2025 0:00,t0000459,1400,1
+2726,xohcolu3,3040 – 3050 E 14th Avenue,Columbus,4577,3040,"True World Foods Columbus, LLC",5893,864,25,COL Up to 100K SF,rent    ,per Area,Annual,8.5,8.5,7,7,1.5,1.5,6/26/2025 0:00,t0001073,36923,1
+2726,xohcolu3,3040 – 3050 E 14th Avenue,Columbus,4578,3050,"True World Foods Columbus, LLC ",5625,865,25,COL Up to 100K SF,rent    ,per Area,Annual,8.5,8.5,7,7,1.5,1.5,6/26/2025 0:00,t0000676,6513,1
+3641,xpa3041m,3041 Marwin Road,Philadelphia,12810,A       ,AFS World Truck Repair LP,20150,1452,30,PHI_upto100,rent    ,per Area,Annual,10.5,10.5,8,8,2.5,2.5,6/26/2025 0:00,t0000882,17610,1
+3641,xpa3041m,3041 Marwin Road,Philadelphia,52309,A1      ,Mitchell Industrial Tire Company,40492,4776,30,PHI_upto100,rent    ,per Area,Annual,10.5,10.5,8,8,2.5,2.5,6/26/2025 0:00,t0001371,62028,1
+3641,xpa3041m,3041 Marwin Road,Philadelphia,12811,B       ,AFS World Truck Repair LP,12585,1453,30,PHI_upto100,rent    ,per Area,Annual,10.5,10.5,8,8,2.5,2.5,6/26/2025 0:00,t0000882,17610,1
+3641,xpa3041m,3041 Marwin Road,Philadelphia,12812,B1      ,AFS World Truck Repair LP,2160,1454,30,PHI_upto100,rent    ,per Area,Annual,10.5,10.5,8,8,2.5,2.5,6/26/2025 0:00,t0000882,17610,1
+2725,xohcolu2,3045 – 3065 Switzer Avenue,Columbus,4574,3045,Sixth City Distribution,6330,861,25,COL Up to 100K SF,rent    ,per Area,Annual,10,10,7,7,3,3,6/26/2025 0:00,t0000772,10200,1
+2725,xohcolu2,3045 – 3065 Switzer Avenue,Columbus,4575,3055,KREG,5980,862,25,COL Up to 100K SF,rent    ,per Area,Annual,10,10,7,7,3,3,6/26/2025 0:00,t0000773,10201,1
+2725,xohcolu2,3045 – 3065 Switzer Avenue,Columbus,4576,3065,Surfaces Construction,5620,863,25,COL Up to 100K SF,rent    ,per Area,Annual,10,10,7,7,3,3,6/26/2025 0:00,t0000889,17620,1
+1662,xil305e ,305 E North Ave,Chicago,2970,305,The McAlear Group,32838,896,29,CHI_upto100,rent    ,per Area,Annual,9,9,6.5,6.5,2.5,2.5,6/26/2025 0:00,t0001039,33747,1
+1662,xil305e ,305 E North Ave,Chicago,2971,307,Vacant,17605,897,77,Chi_2nd Iteration_upto100,rent    ,per Area,Annual,8.5,8.5,6.5,6.5,2,2,6/26/2025 0:00,,,1
+3729,xga3100j,3100 Jonquil Drive,Atlanta,14646,3100,Vacant,40500,1989,20,ATL_upto100,rent    ,per Area,Annual,5.25,5.25,6,6,-0.75,-0.75,6/26/2025 0:00,,,1
+3203,xtx310an,3101 Aniol Street,San Antonio,5744,3101,"Guardian Building Products, Inc.",104000,2437,49,SAN_100Plus,rent    ,per Area,Annual,6.5,6.5,6.5,6.5,0,0,6/26/2025 0:00,t0000705,7440,1
+1598,xtxglen ,3113 Glenfield Avenue,Dallas,2735,3113,"TradeForce, Inc",115200,820,44,Dal_100plus,rent    ,per Area,Annual,5.8,5.8,6.5,6.5,-0.7,-0.7,6/26/2025 0:00,t0000543,4282,1
+1677,xnj313c ,313 Church Street,Philadelphia,2995,313,"Corporate Facility Services USA, LLC",67000,1045,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,8.5,8.5,8,8,0.5,0.5,6/26/2025 0:00,t0000547,4299,1
+7839,3ga00020,3140 Northwoods Parkway,Atlanta,64091,100,Vacant,0,5464,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+7839,3ga00020,3140 Northwoods Parkway,Atlanta,64092,300,Vacant,0,5465,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+7839,3ga00020,3140 Northwoods Parkway,Atlanta,64089,500,Vacant,0,5462,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+7839,3ga00020,3140 Northwoods Parkway,Atlanta,64090,700,Vacant,0,5463,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+4722,3nj00006,3140 Route 22,Northern NJ/New York,24467,3140,Marcolin U.S.A. Eyewear Corp.,151000,2336,75,NNJ_2nd Iteration_100plus,rent    ,per Area,Annual,12.5,12.5,13.91,13.91,-1.41,-1.41,6/26/2025 0:00,t0001002,28100,1
+7833,3ga00021,3145 Northwoods Parkway,Atlanta,64083,100,Vacant,0,5500,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+7833,3ga00021,3145 Northwoods Parkway,Atlanta,64084,200,Vacant,0,5501,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+7833,3ga00021,3145 Northwoods Parkway,Atlanta,64087,400,Vacant,0,5504,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+7833,3ga00021,3145 Northwoods Parkway,Atlanta,64086,500,Vacant,0,5503,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+7833,3ga00021,3145 Northwoods Parkway,Atlanta,64085,600_800 ,Vacant,0,5502,20,ATL_upto100,rent    ,per Area,Annual,6,6,6,6,0,0,6/26/2025 0:00,,,1
+7850,3nj00030,321 Richard Mine Road,Northern NJ/New York,64124,100,Vacant,0,5416,41,NNJ_upto100,rent    ,per Area,Annual,13,13,13.91,13.91,-0.91,-0.91,6/26/2025 0:00,,,1
+7850,3nj00030,321 Richard Mine Road,Northern NJ/New York,64126,200,Vacant,0,5418,41,NNJ_upto100,rent    ,per Area,Annual,13,13,13.91,13.91,-0.91,-0.91,6/26/2025 0:00,,,1
+7850,3nj00030,321 Richard Mine Road,Northern NJ/New York,64125,300,Vacant,0,5417,41,NNJ_upto100,rent    ,per Area,Annual,13,13,13.91,13.91,-0.91,-0.91,6/26/2025 0:00,,,1
+7850,3nj00030,321 Richard Mine Road,Northern NJ/New York,64131,400,Vacant,0,5420,41,NNJ_upto100,rent    ,per Area,Annual,13,13,13.91,13.91,-0.91,-0.91,6/26/2025 0:00,,,1
+7850,3nj00030,321 Richard Mine Road,Northern NJ/New York,64127,500,Vacant,0,5419,41,NNJ_upto100,rent    ,per Area,Annual,13,13,13.91,13.91,-0.91,-0.91,6/26/2025 0:00,,,1
+5070,3oh00003,3232 Allegheny Avenue,Columbus,25516,3232,"Continental Drywall & Insulation, LLC",33466,3073,25,COL Up to 100K SF,rent    ,per Area,Annual,6.5,6.5,7,7,-0.5,-0.5,6/26/2025 0:00,t0001022,30323,1
+3647,3tn00005,3262-3268 Democrat,Memphis,44931,1,AOSOM LLC,10000,4594,27,MEM_Upto100,rent    ,per Area,Annual,4.15,4.15,4.15,4.15,0,0,6/26/2025 0:00,t0000890,17622,1
+3647,3tn00005,3262-3268 Democrat,Memphis,14122,5-Jan,AOSOM LLC,50000,2108,27,MEM_Upto100,rent    ,per Area,Annual,3.25,3.15,4.15,4.15,-0.9,-1,6/26/2025 0:00,t0000890,17622,1
+3647,3tn00005,3262-3268 Democrat,Memphis,44934,1-5B    ,AOSOM LLC,50000,4596,27,MEM_Upto100,rent    ,per Area,Annual,4.15,4.15,4.15,4.15,0,0,6/26/2025 0:00,t0000890,17622,1
+3647,3tn00005,3262-3268 Democrat,Memphis,44932,3-Feb,AOSOM LLC,30000,4595,27,MEM_Upto100,rent    ,per Area,Annual,4.15,4.15,4.15,4.15,0,0,6/26/2025 0:00,t0000890,17622,1
+3647,3tn00005,3262-3268 Democrat,Memphis,14124,7-Apr,R.P. Acquisition Corporation,40000,2110,27,MEM_Upto100,rent    ,per Area,Annual,4.25,4,4.15,4.15,0.1,-0.15,6/26/2025 0:00,t0000900,17634,1
+3647,3tn00005,3262-3268 Democrat,Memphis,14123,6,AOSOM LLC,30000,2109,27,MEM_Upto100,rent    ,per Area,Annual,3.75,3.25,4.15,4.15,-0.4,-0.9,6/26/2025 0:00,t0000890,17622,1
+3647,3tn00005,3262-3268 Democrat,Memphis,44935,10-Jun,AOSOM LLC,50000,4597,27,MEM_Upto100,rent    ,per Area,Annual,4.15,4.15,4.15,4.15,0,0,6/26/2025 0:00,t0000890,17622,1
+3646,3tn00004,3272 Democrat,Memphis,14125,1,"Motion Industries, Inc.",30000,2111,27,MEM_Upto100,rent    ,per Area,Annual,6.5,5.5,4.15,4.15,2.35,1.35,6/26/2025 0:00,t0000874,17497,1
+1595,xgashaw6,"3275 Florence Rd, Bldg 100",Atlanta,1446,100,Shaw Stainless LLC,11275,759,20,ATL_upto100,rent    ,per Area,Annual,8,8,6,6,2,2,6/26/2025 0:00,t0000472,2251,1
+1594,xgashaw5,"3275 Florence Rd, Bldg 200",Atlanta,1447,200,Shaw Stainless LLC,17766,760,20,ATL_upto100,rent    ,per Area,Annual,7.75,7.75,6,6,1.75,1.75,6/26/2025 0:00,t0000473,2252,1
+1593,xgashaw4,"3275 Florence Rd, Bldg 300",Atlanta,1448,300,Shaw Stainless LLC,22200,761,20,ATL_upto100,rent    ,per Area,Annual,7.5,7.5,6,6,1.5,1.5,6/26/2025 0:00,t0000474,2253,1
+3645,3tn00003,3276 Democrat,Memphis,14126,1,"Johnson Window Films, Inc",12025,2112,27,MEM_Upto100,rent    ,per Area,Annual,5.25,5,4.15,4.15,1.1,0.85,6/26/2025 0:00,t0000898,17632,1
+3645,3tn00003,3276 Democrat,Memphis,14127,2,"Mechanics Laundry Service, Incorporated",22500,2113,27,MEM_Upto100,rent    ,per Area,Annual,5.5,5,4.15,4.15,1.35,0.85,6/26/2025 0:00,t0000872,17487,1
+3645,3tn00003,3276 Democrat,Memphis,14128,3,"Lanter Distributing, LLC",45000,2114,73,Mem_2nd Iteration_upto100,rent    ,per Area,Annual,4.5,4.25,4.15,4.15,0.35,0.1,6/26/2025 0:00,t0000899,17633,1
+3645,3tn00003,3276 Democrat,Memphis,14131,5-Apr,Penske,15000,2117,73,Mem_2nd Iteration_upto100,rent    ,per Area,Annual,5.75,5.5,4.15,4.15,1.6,1.35,6/26/2025 0:00,t0001067,36895,1
+3645,3tn00003,3276 Democrat,Memphis,14130,6,"Sage GSE Services, LLC",7500,2116,27,MEM_Upto100,rent    ,per Area,Annual,5.5,5,4.15,4.15,1.35,0.85,6/26/2025 0:00,t0000893,17626,1
+3645,3tn00003,3276 Democrat,Memphis,14132,7,Tri State Tire Wholesale and Recycle LLC,22500,2118,27,MEM_Upto100,rent    ,per Area,Annual,5.5,4.5,4.15,4.15,1.35,0.35,6/26/2025 0:00,t0000896,17630,1
+3645,3tn00003,3276 Democrat,Memphis,14129,8,Habegger,22500,2115,73,Mem_2nd Iteration_upto100,rent    ,per Area,Annual,5.5,5.25,4.15,4.15,1.35,1.1,6/26/2025 0:00,t0001087,38072,1
+6625,3ga00010,3285 Saturn Ct,Atlanta,49747,1,Vacant,35911,4663,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,12.64,6.45,9,6.45,3.64,0,6/26/2025 0:00,,,1
+3644,3tn00002,3298 Democrat,Memphis,14133,1,"American Builders & Contractor Supply Co., Inc.",34200,2119,27,MEM_Upto100,rent    ,per Area,Annual,5.5,5.5,4.15,4.15,1.35,1.35,6/26/2025 0:00,t0000865,17267,1
+1657,xilmount,3325 Mount Prospect Road,Chicago,2961,1,Centurion Service Group LLC,64002,890,78,Chi_3rd Iteration_upto100,rent    ,per Area,Annual,7,5.84,6.5,6.5,0.5,-0.66,6/26/2025 0:00,t0000509,4171,1
+3651,3fl00003,3330 NW 60th St,Miami,12828,3330,"Garland, LLC",32846,2353,71,Mia_2nd Iteration_upto100,rent    ,per Area,Annual,17,17,12.25,12.25,4.75,4.75,6/26/2025 0:00,t0000866,17479,1
+3636,xfl3333c,3333 N Canal Street,Jacksonville,12078,100,Vacant,83800,1387,70,Jax_2nd Iteration_upto100,rent    ,Flat,Annual,7,358381.66,7,7,0,358374.66,6/26/2025 0:00,,,1
+3636,xfl3333c,3333 N Canal Street,Jacksonville,12079,200,Vacant,39000,1388,35,Jax_upto100,rent    ,per Area,Annual,6.25,6.25,7,7,-0.75,-0.75,6/26/2025 0:00,,,1
+3636,xfl3333c,3333 N Canal Street,Jacksonville,12081,300,Vacant,600,1389,35,Jax_upto100,rent    ,per Area,Annual,33.17,33.17,7,7,26.17,26.17,6/26/2025 0:00,,,1
+3643,3tn00001,3338-3352 Democrat,Memphis,14134,1,"DS Services of America, Inc.",24000,2120,27,MEM_Upto100,rent    ,per Area,Annual,5.5,5.4,4.15,4.15,1.35,1.25,6/26/2025 0:00,t0000868,17481,1
+3643,3tn00001,3338-3352 Democrat,Memphis,14143,10,"Ferguson Enterprises, LLC",24000,2129,73,Mem_2nd Iteration_upto100,rent    ,per Area,Annual,5.5,5,4.15,4.15,1.35,0.85,6/26/2025 0:00,t0000869,17482,1
+3643,3tn00001,3338-3352 Democrat,Memphis,14135,2,"Koontz Electric Company, Inc.",12000,2121,27,MEM_Upto100,rent    ,per Area,Annual,4.5,4.5,4.15,4.15,0.35,0.35,6/26/2025 0:00,t0001518,74973,1
+3643,3tn00001,3338-3352 Democrat,Memphis,14136,3,Overhead Door Corporation,12000,2122,27,MEM_Upto100,rent    ,per Area,Annual,5.5,4.75,4.15,4.15,1.35,0.6,6/26/2025 0:00,t0000891,17624,1
+3643,3tn00001,3338-3352 Democrat,Memphis,14137,4,"KenCo Distributors, Inc.",18000,2123,27,MEM_Upto100,rent    ,per Area,Annual,5.5,5,4.15,4.15,1.35,0.85,6/26/2025 0:00,t0000870,17483,1
+3643,3tn00001,3338-3352 Democrat,Memphis,14138,5,"Vortex Aviation, LLC",6000,2124,27,MEM_Upto100,rent    ,per Area,Annual,5.5,5,4.15,4.15,1.35,0.85,6/26/2025 0:00,t0000902,17636,1
+3643,3tn00001,3338-3352 Democrat,Memphis,14139,6,"Penco Products, Inc.",24000,2125,27,MEM_Upto100,rent    ,per Area,Annual,5.5,4.75,4.15,4.15,1.35,0.6,6/26/2025 0:00,t0000892,17625,1
+3643,3tn00001,3338-3352 Democrat,Memphis,14140,7,"AMERICAN BUILDERS & CONTRACTORS SUPPLY CO., INC.",12000,2126,27,MEM_Upto100,rent    ,per Area,Annual,4.15,4.15,4.15,4.15,0,0,6/26/2025 0:00,t0001187,49602,1
+3643,3tn00001,3338-3352 Democrat,Memphis,14141,8,Thorpe Products Company,24000,2127,27,MEM_Upto100,rent    ,per Area,Annual,5.5,5,4.15,4.15,1.35,0.85,6/26/2025 0:00,t0000895,17629,1
+3643,3tn00001,3338-3352 Democrat,Memphis,14142,9,Vacant,12000,2128,73,Mem_2nd Iteration_upto100,rent    ,per Area,Annual,4.5,4.5,4.15,4.15,0.35,0.35,6/26/2025 0:00,,,1
+3273,xga3350h,3350 Hamilton Boulevard,Atlanta,6046,100,APCO Graphics Inc,31825,805,20,ATL_upto100,rent    ,per Area,Annual,7.25,7.25,6,6,1.25,1.25,6/26/2025 0:00,t0000711,7686,1
+3273,xga3350h,3350 Hamilton Boulevard,Atlanta,6047,200,Vacant,22045,806,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,7,7,9,6.45,-2,0.55,6/26/2025 0:00,,,1
+3273,xga3350h,3350 Hamilton Boulevard,Atlanta,6048,300,Vacant,32598,807,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,7,7,9,6.45,-2,0.55,6/26/2025 0:00,,,1
+3799,3il00004,3380 Grand Ave,Chicago,15305,3380,Northstar Trading,46156,2088,29,CHI_upto100,rent    ,per Area,Annual,5.5,5.5,6.5,6.5,-1,-1,6/26/2025 0:00,t0000986,24792,1
+3623,xga3471a,3471 Atlanta Industrial Parkway,Atlanta,10623,3471,Atlantic Chemical and Equipment Company,36072,810,20,ATL_upto100,rent    ,per Area,Annual,7.36,7.36,6,6,1.36,1.36,6/26/2025 0:00,t0000796,12863,1
+7014,3il00010,3605 Swenson Ave,Chicago,54168,100,Hazloc Industries LLC,28800,4971,29,CHI_upto100,rent    ,per Area,Annual,0,0,6.5,6.5,-6.5,-6.5,6/26/2025 0:00,t0001374,62878,1
+7014,3il00010,3605 Swenson Ave,Chicago,54170,3605,Thieme Gmbh & Co. KG,28800,4973,77,Chi_2nd Iteration_upto100,rent    ,per Area,Annual,7.25,6.5,6.5,6.5,0.75,0,6/26/2025 0:00,t0001376,62880,1
+7014,3il00010,3605 Swenson Ave,Chicago,54171,3609,"Lighting Innovations, Inc.",56960,4974,29,CHI_upto100,rent    ,per Area,Annual,6.75,6.75,6.5,6.5,0.25,0.25,6/26/2025 0:00,t0001377,62881,1
+3668,xga3651c,3651 Clearview Place,Atlanta,12830,3651,TLC Rents,20030,1877,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,12.75,12.75,9,6.45,3.75,6.3,6/26/2025 0:00,t0000931,18157,1
+3668,xga3651c,3651 Clearview Place,Atlanta,14781,BB      ,Johnson Commercial Properties LLC,0,1879,20,ATL_upto100,rent    ,per Area,Annual,5.25,5.25,6,6,-0.75,-0.75,6/26/2025 0:00,t0000876,17592,1
+1895,xtx3662m,3662-3670 Miller Park Drive,Dallas,4166,3662,"Eighteen Supplies Company DBA Red Nail Designs, Inc",14900,828,22,Dallas_upto100,rent    ,per Area,Annual,7.4,7.4,7.5,7.5,-0.1,-0.1,6/26/2025 0:00,t0000653,5645,1
+1895,xtx3662m,3662-3670 Miller Park Drive,Dallas,4158,3670,BKS,26126,827,22,Dallas_upto100,rent    ,per Area,Annual,7.4,7.4,7.5,7.5,-0.1,-0.1,6/26/2025 0:00,t0001000,28047,1
+6563,3tn00006,3696 Knight Road,Memphis,46136,101,USCutter Inc.,48534,4748,27,MEM_Upto100,rent    ,per Area,Annual,4.5,4.5,4.15,4.15,0.35,0.35,6/26/2025 0:00,t0001273,53562,1
+6563,3tn00006,3696 Knight Road,Memphis,46135,200,"AALP, LLC",31024,4747,73,Mem_2nd Iteration_upto100,rent    ,per Area,Annual,4.5,4.5,4.15,4.15,0.35,0.35,6/26/2025 0:00,t0001272,53561,1
+5439,3ga00005,370 Gees Mill,Atlanta,31736,A       ,"Eckart, LLC",30523,2900,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,8,8,9,6.45,-1,1.55,6/26/2025 0:00,t0001178,46332,1
+6579,3tn00014,3755 Knight Arnold Road,Memphis,46780,100,"Aluma-Form, Inc.",211650,4611,47,MEM_100KPlus,rent    ,per Area,Annual,3.15,3.15,4.15,4.15,-1,-1,6/26/2025 0:00,t0001281,54291,1
+7779,3il00015,3801-31 Hawthorne Court,Chicago,63720,3801,"Alan Josephsen Co., Inc. and Records Management, Inc.",28960,5375,29,CHI_upto100,rent    ,per Area,Annual,6.5,6.5,6.5,6.5,0,0,6/26/2025 0:00,t0001505,74812,1
+7779,3il00015,3801-31 Hawthorne Court,Chicago,63722,3805,PREFABPADS LLC,28800,5377,29,CHI_upto100,rent    ,per Area,Annual,6.5,6.5,6.5,6.5,0,0,6/26/2025 0:00,t0001507,74814,1
+7779,3il00015,3801-31 Hawthorne Court,Chicago,63721,3807,Vacant,14473,5376,29,CHI_upto100,rent    ,per Area,Annual,6.5,6.5,6.5,6.5,0,0,6/26/2025 0:00,,,1
+7779,3il00015,3801-31 Hawthorne Court,Chicago,63723,3821-31 ,"Ludlow Manufacturing, Inc.",122475,5374,46,CHI_100plus,rent    ,per Area,Annual,6.5,6.5,6.5,6.5,0,0,6/26/2025 0:00,t0001508,74815,1
+1786,xoh382c ,382 Circle Freeway Drive,Cincinnati,3510,382,Trane U.S. Inc.(DSM),47848,745,28,CIN_upto100K,rent    ,per Area,Annual,6.75,6.75,5,5,1.75,1.75,6/26/2025 0:00,t0000603,4915,1
+6575,3tn00012,3845 Crowfarn Drive,Memphis,46789,100,"Roadrunner Transportation Systems, Inc.",105785,4613,47,MEM_100KPlus,rent    ,per Area,Annual,3.25,3.25,4.15,4.15,-0.9,-0.9,6/26/2025 0:00,t0001285,54303,1
+3579,xtx3857m,3857 Miller Park Drive,Dallas,9721,3857,Vacant,59028,1277,85,Dal_upto100_2nd,rent    ,per Area,Annual,9.5,9.5,7.5,7.5,2,2,6/26/2025 0:00,,,1
+1695,xnj390n ,390 New Albany Road,Philadelphia,3109,390,Vacant,56600,1064,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,12,12,8,8,4,4,6/26/2025 0:00,,,1
+2722,xfl3900w,3900 West Coachman Avenue,Tampa,4491,3900,Vacant,80225,1392,79,Tam_2nd Iteration_upto100,rent    ,per Area,Annual,8.5,8.5,8.5,8.5,0,0,6/26/2025 0:00,,,1
+2722,xfl3900w,3900 West Coachman Avenue,Tampa,44921,BRIDGE  ,Vacant,1731,4975,32,Tampa up to 100K,rent    ,per Area,Annual,8.5,8.5,8.5,8.5,0,0,6/26/2025 0:00,,,1
+6270,3ga00006,3905 Steve Reynolds Blvd,Atlanta,44917,100,"B & D Industrial, Inc.",23529,3505,20,ATL_upto100,rent    ,per Area,Annual,11.84,11.84,6,6,5.84,5.84,6/26/2025 0:00,t0001245,52091,1
+6270,3ga00006,3905 Steve Reynolds Blvd,Atlanta,44918,120,"Mash Enterprise, LLC ",9600,3506,20,ATL_upto100,rent    ,per Area,Annual,12.49,12.49,6,6,6.49,6.49,6/26/2025 0:00,t0001246,52092,1
+6270,3ga00006,3905 Steve Reynolds Blvd,Atlanta,44919,160,"Mash Enterprise, LLC ",32006,3507,20,ATL_upto100,rent    ,per Area,Annual,11.49,11.49,6,6,5.49,5.49,6/26/2025 0:00,t0001246,52092,1
+3364,xtn3961o,3961 Outland Drive,Memphis,7784,3961,McMillon Logistics,74906,2414,27,MEM_Upto100,rent    ,per Area,Annual,4.75,4.65,4.15,4.15,0.6,0.5,6/26/2025 0:00,t0000999,28046,1
+1884,xnj40pot,40 Potash Road,Northern NJ/New York,3876,01      ,Cablevision of Oakland,60994,2340,41,NNJ_upto100,rent    ,per Area,Annual,17.5,17.5,13.91,13.91,3.59,3.59,6/26/2025 0:00,t0000617,5464,1
+7859,3nj00034,400 Forge Way,Northern NJ/New York,64141,400-A   ,Vacant,0,5430,41,NNJ_upto100,rent    ,per Area,Annual,15.5,15.5,13.91,13.91,1.59,1.59,6/26/2025 0:00,,,1
+7859,3nj00034,400 Forge Way,Northern NJ/New York,64142,400-A1  ,Vacant,0,5431,41,NNJ_upto100,rent    ,per Area,Annual,15.5,15.5,13.91,13.91,1.59,1.59,6/26/2025 0:00,,,1
+7859,3nj00034,400 Forge Way,Northern NJ/New York,64140,400-C   ,Vacant,0,5429,41,NNJ_upto100,rent    ,per Area,Annual,15.5,15.5,13.91,13.91,1.59,1.59,6/26/2025 0:00,,,1
+7859,3nj00034,400 Forge Way,Northern NJ/New York,64143,400B    ,Vacant,0,5432,41,NNJ_upto100,rent    ,per Area,Annual,15.5,15.5,13.91,13.91,1.59,1.59,6/26/2025 0:00,,,1
+3272,xnj400wa,400 Water Street,Philadelphia,6050,400,L&W Supply Corporation,38550,1085,30,PHI_upto100,rent    ,per Area,Annual,9,9,8,8,1,1,6/26/2025 0:00,t0000715,7706,1
+1652,xtxmorto,4000 Dan Morton Dr,Dallas,2976,100,"TexPac Hide & Skin, LTD",77536,2366,85,Dal_upto100_2nd,rent    ,per Area,Annual,6,6,7.5,7.5,-1.5,-1.5,6/26/2025 0:00,t0000522,4196,1
+1652,xtxmorto,4000 Dan Morton Dr,Dallas,2977,106,"Sugaright, LLC",132133,2361,44,Dal_100plus,rent    ,per Area,Annual,5.5,5.5,6.5,6.5,-1,-1,6/26/2025 0:00,t0000526,4206,1
+5788,3oh00004,4000-4024 Precision Dr,Cincinnati,36134,100,Bestnest Inc.,51517,2996,28,CIN_upto100K,rent    ,per Area,Annual,4.75,4.75,5,5,-0.25,-0.25,6/26/2025 0:00,t0001145,41967,1
+5788,3oh00004,4000-4024 Precision Dr,Cincinnati,36135,200,Bestnest Inc.,79483,2997,28,CIN_upto100K,rent    ,per Area,Annual,4.75,4.75,5,5,-0.25,-0.25,6/26/2025 0:00,t0001145,41967,1
+5788,3oh00004,4000-4024 Precision Dr,Cincinnati,36136,300,Vacant,75000,2998,63,Cin_2nd Iteration_upto100,rent    ,per Area,Annual,5.24,5.24,5,5,0.24,0.24,6/26/2025 0:00,,,1
+5788,3oh00004,4000-4024 Precision Dr,Cincinnati,36217,400,Multi-Color Corporation,29900,2999,63,Cin_2nd Iteration_upto100,rent    ,per Area,Annual,5.25,5,5,5,0.25,0,6/26/2025 0:00,t0001146,41968,1
+3356,xga401wi,401 Windsor Street SW,Atlanta,7707,401,Federal Express Corp,37500,808,20,ATL_upto100,rent    ,per Area,Annual,13,17,6,6,7,11,6/26/2025 0:00,t0000753,9527,1
+6272,3ga00007,4025 Steve Reynolds Blvd,Atlanta,44925,100,"Jenkins Services and Restoration, Inc.",19200,3512,20,ATL_upto100,rent    ,per Area,Annual,11.84,11.84,6,6,5.84,5.84,6/26/2025 0:00,t0001252,52107,1
+6272,3ga00007,4025 Steve Reynolds Blvd,Atlanta,44924,106,"Delta Landscape Supply of Georgia, Inc.",12894,3511,20,ATL_upto100,rent    ,per Area,Annual,12.24,12.24,6,6,6.24,6.24,6/26/2025 0:00,t0001251,52101,1
+6272,3ga00007,4025 Steve Reynolds Blvd,Atlanta,44923,110,"Eagle Abrasives, Inc.",12800,3510,20,ATL_upto100,rent    ,per Area,Annual,12.24,12.24,6,6,6.24,6.24,6/26/2025 0:00,t0001249,52098,1
+6272,3ga00007,4025 Steve Reynolds Blvd,Atlanta,44920,114,Byokane (U.S.A.) Corp.,9600,3508,20,ATL_upto100,rent    ,per Area,Annual,12.25,12.25,6,6,6.25,6.25,6/26/2025 0:00,t0001247,52095,1
+6272,3ga00007,4025 Steve Reynolds Blvd,Atlanta,44922,120,Centimark Corporation ,16000,3509,20,ATL_upto100,rent    ,per Area,Annual,12,12,6,6,6,6,6/26/2025 0:00,t0001248,52097,1
+6577,3tn00013,4026-4080 Senator Street,Memphis,46972,1,Shearer Supply Inc.,45200,4636,27,MEM_Upto100,rent    ,per Area,Annual,3.5,3.5,4.15,4.15,-0.65,-0.65,6/26/2025 0:00,t0001309,54513,1
+6577,3tn00013,4026-4080 Senator Street,Memphis,46981,2,"La Michoacana Wholesale, Inc.",24000,4639,73,Mem_2nd Iteration_upto100,rent    ,per Area,Annual,3.5,3.5,4.15,4.15,-0.65,-0.65,6/26/2025 0:00,t0001315,54519,1
+6577,3tn00013,4026-4080 Senator Street,Memphis,49658,3,Vacant,35600,4749,73,Mem_2nd Iteration_upto100,rent    ,per Area,Annual,3.5,3.5,4.15,4.15,-0.65,-0.65,6/26/2025 0:00,,,1
+3736,3il00001,410 Factory,Chicago,14786,410,"Leaf Home Enhancements, LLC",41634,2083,29,CHI_upto100,rent    ,per Area,Annual,7,7,6.5,6.5,0.5,0.5,6/26/2025 0:00,t0000938,18775,1
+6571,3tn00010,4105 S Mendenhall Road,Memphis,46747,100,"KPower Global Logistics, LLC",102500,4610,47,MEM_100KPlus,rent    ,per Area,Annual,4,4,4.15,4.15,-0.15,-0.15,6/26/2025 0:00,t0001277,54248,1
+7794,3pa00005,411 Sinclair Road,Philadelphia,63861,100,Northtec LLC,67330,5511,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,8,8,8,8,0,0,6/26/2025 0:00,t0001521,74982,1
+5457,3nc00002,4112 Joe Street,"Charlotte, NC",32750,4112,"Bates Enterprises, Inc.",45750,2926,43,CAR_upto100,rent    ,per Area,Annual,7.85,7.85,6,6,1.85,1.85,6/26/2025 0:00,t0001089,38079,1
+6594,3tn00016,4133-4175 Senator St,Memphis,46831,1,"Precision of New Hampton, Inc.",3860,4622,27,MEM_Upto100,rent    ,per Area,Annual,5.5,5.5,4.15,4.15,1.35,1.35,6/26/2025 0:00,t0001295,54351,1
+6594,3tn00016,4133-4175 Senator St,Memphis,46832,11,"All-N-Express, LLC",3450,4623,27,MEM_Upto100,rent    ,per Area,Annual,5.5,5.5,4.15,4.15,1.35,1.35,6/26/2025 0:00,t0001296,54352,1
+6594,3tn00016,4133-4175 Senator St,Memphis,46834,12,Evoqua Water Technologies LLC,7245,4624,27,MEM_Upto100,rent    ,per Area,Annual,5.5,5.5,4.15,4.15,1.35,1.35,6/26/2025 0:00,t0001298,54354,1
+6594,3tn00016,4133-4175 Senator St,Memphis,46967,2,"National Network Services, LLC",5175,4631,73,Mem_2nd Iteration_upto100,rent    ,per Area,Annual,5.5,5.5,4.15,4.15,1.35,1.35,6/26/2025 0:00,t0001305,54509,1
+6594,3tn00016,4133-4175 Senator St,Memphis,46830,4-Mar,"William R. Eubanks Interior Design, Inc.",6110,4621,27,MEM_Upto100,rent    ,per Area,Annual,5.5,5.5,4.15,4.15,1.35,1.35,6/26/2025 0:00,t0001294,54350,1
+6594,3tn00016,4133-4175 Senator St,Memphis,46839,5,CP Rankin Inc.,3000,4626,27,MEM_Upto100,rent    ,per Area,Annual,5.5,5.5,4.15,4.15,1.35,1.35,6/26/2025 0:00,t0001300,54360,1
+6594,3tn00016,4133-4175 Senator St,Memphis,46835,6,Kee Pest Control Inc.,2000,4625,27,MEM_Upto100,rent    ,per Area,Annual,5.5,5.5,4.15,4.15,1.35,1.35,6/26/2025 0:00,t0001299,54355,1
+6594,3tn00016,4133-4175 Senator St,Memphis,46983,8,"Flowers Baking Co. of Batesville, LLC",9613,4640,27,MEM_Upto100,rent    ,per Area,Annual,5.5,5.5,4.15,4.15,1.35,1.35,6/26/2025 0:00,t0001358,60258,1
+6594,3tn00016,4133-4175 Senator St,Memphis,46978,9,Birner Memphis LLC,14837,4638,27,MEM_Upto100,rent    ,per Area,Annual,5.5,5.5,4.15,4.15,1.35,1.35,6/26/2025 0:00,t0001313,54517,1
+1902,xky4175a,4175 Aero ParkWay,Cincinnati,4037,4175,Robert Bosch Automotive Steering LLC,180000,887,65,Cin_2nd Iteration_100plus,rent    ,per Area,Annual,7,5.75,5,5,2,0.75,6/26/2025 0:00,t0000662,5933,1
+1902,xky4175a,4175 Aero ParkWay,Cincinnati,5895,LAND    ,Robert Bosch Automotive Steering LLC,0,888,28,CIN_upto100K,rent    ,per Area,Annual,5,5,5,5,0,0,6/26/2025 0:00,t0000662,5933,1
+6595,3tn00017,4179-4189 Senator St,Memphis,46847,2,Arnett Logistics Group LLC,4125,4599,27,MEM_Upto100,rent    ,per Area,Annual,5,5,4.15,4.15,0.85,0.85,6/26/2025 0:00,t0001301,54373,1
+6595,3tn00017,4179-4189 Senator St,Memphis,46833,2A      ,MVision Trucking LLC,4125,4598,27,MEM_Upto100,rent    ,per Area,Annual,5,5,4.15,4.15,0.85,0.85,6/26/2025 0:00,t0001297,54353,1
+6595,3tn00017,4179-4189 Senator St,Memphis,49659,3,Vacant,4125,4750,73,Mem_2nd Iteration_upto100,rent    ,per Area,Annual,5,5,4.15,4.15,0.85,0.85,6/26/2025 0:00,,,1
+6595,3tn00017,4179-4189 Senator St,Memphis,49660,4,Vacant,9578,4751,73,Mem_2nd Iteration_upto100,rent    ,per Area,Annual,5,5,4.15,4.15,0.85,0.85,6/26/2025 0:00,,,1
+6595,3tn00017,4179-4189 Senator St,Memphis,49661,5,Vacant,2797,4752,73,Mem_2nd Iteration_upto100,rent    ,per Area,Annual,5,5,4.15,4.15,0.85,0.85,6/26/2025 0:00,,,1
+1676,xnj420be,420 Benigno Boulevard,Philadelphia,3007,A       ,Vacant,2122,1057,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,15.5,15.5,8,8,7.5,7.5,6/26/2025 0:00,,,1
+1676,xnj420be,420 Benigno Boulevard,Philadelphia,3166,A-1     ,Kings Management Company,1894,1066,30,PHI_upto100,rent    ,per Area,Annual,16,16,8,8,8,8,6/26/2025 0:00,t0000573,4356,1
+1676,xnj420be,420 Benigno Boulevard,Philadelphia,3005,A2-BF   ,Vacant,5985,1055,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,9.5,9.5,8,8,1.5,1.5,6/26/2025 0:00,,,1
+1676,xnj420be,420 Benigno Boulevard,Philadelphia,3013,B       ,Vacant,3100,1063,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,10.5,10.5,8,8,2.5,2.5,6/26/2025 0:00,,,1
+1676,xnj420be,420 Benigno Boulevard,Philadelphia,3006,C-J     ,Vacant,40000,1056,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,10.5,10.5,8,8,2.5,2.5,6/26/2025 0:00,,,1
+3308,xfl420sw,420 S. Ware Boulevard,Tampa,6529,A       ,"Ferguson Enterprises, Inc. ",9070,1394,79,Tam_2nd Iteration_upto100,rent    ,per Area,Annual,12.75,12.75,8.5,8.5,4.25,4.25,6/26/2025 0:00,t0000744,8257,1
+3308,xfl420sw,420 S. Ware Boulevard,Tampa,6531,B       ,Yzer,6832,2658,32,Tampa up to 100K,rent    ,per Area,Annual,12.75,12.75,8.5,8.5,4.25,4.25,6/26/2025 0:00,t0000942,19534,1
+3308,xfl420sw,420 S. Ware Boulevard,Tampa,6530,C       ,"Matheson Tri-Gas, Inc.",8956,1395,32,Tampa up to 100K,rent    ,per Area,Annual,13,13,8.5,8.5,4.5,4.5,6/26/2025 0:00,t0001339,57635,1
+3304,xpa4200m,4200 Macalester Street,Philadelphia,6723,4200,"Ehmke Manufacturing Co., Inc",40791,1086,30,PHI_upto100,rent    ,per Area,Annual,8.75,8.75,8,8,0.75,0.75,6/26/2025 0:00,t0000747,8463,1
+1640,xgamc200,4200 McEver Drive,Atlanta,2952,4200,Postal Service,45000,765,20,ATL_upto100,rent    ,per Area,Annual,8,8,6,6,2,2,6/26/2025 0:00,t0000501,4124,1
+1888,xtx4201n,4201 N Beach Street,Dallas,4304,100,"KPS Global, LLC ",182500,829,44,Dal_100plus,rent    ,per Area,Annual,6.88,6.88,6.5,6.5,0.38,0.38,6/26/2025 0:00,t0000696,6906,1
+1641,xgamc220,4220 McEver Drive,Atlanta,2953,4220,Trussway LTD,36352,766,20,ATL_upto100,rent    ,per Area,Annual,11.17,11.17,6,6,5.17,5.17,6/26/2025 0:00,t0000502,4125,1
+1641,xgamc220,4220 McEver Drive,Atlanta,5201,MEZZ    ,Vacant,0,803,20,ATL_upto100,rent    ,per Area,Annual,0,0,6,6,-6,-6,6/26/2025 0:00,,,1
+1681,xga4225 ,4225 Phil Niekro Parkway,Atlanta,3165,101,"KADDAK, LLC",7259,779,20,ATL_upto100,rent    ,per Area,Annual,11.17,11.17,6,6,5.17,5.17,6/26/2025 0:00,t0000778,11002,1
+1681,xga4225 ,4225 Phil Niekro Parkway,Atlanta,3014,104,"KADDAK, LLC",8218,771,20,ATL_upto100,rent    ,per Area,Annual,11.17,11.17,6,6,5.17,5.17,6/26/2025 0:00,t0000778,11002,1
+1681,xga4225 ,4225 Phil Niekro Parkway,Atlanta,3015,107,Lucky River Seafood,2323,772,20,ATL_upto100,rent    ,per Area,Annual,12.69,12.69,6,6,6.69,6.69,6/26/2025 0:00,t0000961,20379,1
+1681,xga4225 ,4225 Phil Niekro Parkway,Atlanta,3016,108-109 ,Vacant,4630,773,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,12.18,12.18,9,6.45,3.18,5.73,6/26/2025 0:00,,,1
+1681,xga4225 ,4225 Phil Niekro Parkway,Atlanta,3017,110-111 ,Victor Manzo,5179,774,20,ATL_upto100,rent    ,per Area,Annual,12.18,12.18,6,6,6.18,6.18,6/26/2025 0:00,t0000569,4351,1
+1681,xga4225 ,4225 Phil Niekro Parkway,Atlanta,3018,112,Xiancong Huang,2730,775,20,ATL_upto100,rent    ,per Area,Annual,12.69,12.69,6,6,6.69,6.69,6/26/2025 0:00,t0000571,4353,1
+1681,xga4225 ,4225 Phil Niekro Parkway,Atlanta,3019,114-116 ,Vacant,9856,776,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,12.69,12.69,9,6.45,3.69,6.24,6/26/2025 0:00,,,1
+1642,xgamc255,4255 McEver Drive,Atlanta,2954,4255,Trussway LTD,45376,767,20,ATL_upto100,rent    ,per Area,Annual,8.5,8.5,6,6,2.5,2.5,6/26/2025 0:00,t0000503,4126,1
+1642,xgamc255,4255 McEver Drive,Atlanta,5202,MEZZ    ,Vacant,0,804,20,ATL_upto100,rent    ,per Area,Annual,0,0,6,6,-6,-6,6/26/2025 0:00,,,1
+1643,xgamc260,4260 McEver Drive,Atlanta,2955,4260,Trussway LTD,16704,768,20,ATL_upto100,rent    ,per Area,Annual,11.17,11.17,6,6,5.17,5.17,6/26/2025 0:00,t0000504,4127,1
+6573,3tn00011,4287 Delp Street,Memphis,46817,100,"Wholesale Glass Distributors, Inc.",102000,4615,47,MEM_100KPlus,rent    ,per Area,Annual,3.75,3.75,4.15,4.15,-0.4,-0.4,6/26/2025 0:00,t0001292,54319,1
+1372,xtndelp1,4290 Delp Street,Memphis,495,4290,Crown Packaging (MO Corp),41496,855,27,MEM_Upto100,rent    ,per Area,Annual,4.05,4.15,4.15,4.15,-0.1,0,6/26/2025 0:00,t0001060,36871,1
+1372,xtndelp1,4290 Delp Street,Memphis,496,4310,"Storopack, Inc.",22743,856,27,MEM_Upto100,rent    ,per Area,Annual,4.15,4.5,4.15,4.15,0,0.35,6/26/2025 0:00,t0000449,1352,1
+1372,xtndelp1,4290 Delp Street,Memphis,541,4318,Darby Dental,25137,858,27,MEM_Upto100,rent    ,per Area,Annual,4.15,4,4.15,4.15,0,-0.15,6/26/2025 0:00,t0000967,22488,1
+1372,xtndelp1,4290 Delp Street,Memphis,497,4354,"KPower Global Logistics, LLC",63840,857,27,MEM_Upto100,rent    ,per Area,Annual,4,3.75,4.15,4.15,-0.15,-0.4,6/26/2025 0:00,t0000638,5499,1
+7030,inj002  ,4315 New Brunswick Ave,Northern NJ/New York,56803,100,"Zina’s Salads, Inc.",27000,5142,41,NNJ_upto100,rent    ,per Area,Annual,15,15,13.91,13.91,1.09,1.09,6/26/2025 0:00,t0001392,65984,1
+2952,xtndelp2,4319 Delp Street,Memphis,5085,4319A   ,Vacant,72000,1613,73,Mem_2nd Iteration_upto100,rent    ,per Area,Annual,4,4,4.15,4.15,-0.15,-0.15,6/26/2025 0:00,,,1
+2952,xtndelp2,4319 Delp Street,Memphis,5086,4319B   ,Bel-Shore Enterprises,72000,1614,27,MEM_Upto100,rent    ,per Area,Annual,4,3.75,4.15,4.15,-0.15,-0.4,6/26/2025 0:00,t0000691,6678,1
+4800,3fl00006,4390 Westroads Drive,Miami,24485,AB      ,"J&I Ventures, INC.",12000,2357,71,Mia_2nd Iteration_upto100,rent    ,Flat,Monthly,12000,12000,12.25,12.25,11987.75,11987.75,6/26/2025 0:00,t0001011,28434,1
+4800,3fl00006,4390 Westroads Drive,Miami,24486,C       ,Gorilla Rides LLC,7200,2358,26,MIA_upto100,rent    ,per Area,Annual,14.75,14.75,12.25,12.25,2.5,2.5,6/26/2025 0:00,t0001010,28433,1
+4800,3fl00006,4390 Westroads Drive,Miami,24487,D       ,Gorilla Rides LLC,10080,2359,26,MIA_upto100,rent    ,per Area,Annual,14.75,14.75,12.25,12.25,2.5,2.5,6/26/2025 0:00,t0001010,28433,1
+1675,xnj440be,440 Benigno Boulevard,Philadelphia,2999,A-1     ,"South State, Inc.",1777,1049,30,PHI_upto100,rent    ,per Area,Annual,16,16,8,8,8,8,6/26/2025 0:00,t0000658,5919,1
+1675,xnj440be,440 Benigno Boulevard,Philadelphia,3004,A-2     ,Studio 9Eight,2218,1054,30,PHI_upto100,rent    ,per Area,Annual,14,14,8,8,6,6,6/26/2025 0:00,t0000558,4313,1
+1675,xnj440be,440 Benigno Boulevard,Philadelphia,3001,A-4     ,Vacant,999,1051,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,15.5,15.5,8,8,7.5,7.5,6/26/2025 0:00,,,1
+1675,xnj440be,440 Benigno Boulevard,Philadelphia,3002,A-5     ,Momento,525,1052,30,PHI_upto100,rent    ,per Area,Annual,15.5,15.5,8,8,7.5,7.5,6/26/2025 0:00,t0000556,4310,1
+1675,xnj440be,440 Benigno Boulevard,Philadelphia,3003,A-6     ,Vacant,343,1053,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,15.5,15.5,8,8,7.5,7.5,6/26/2025 0:00,,,1
+1675,xnj440be,440 Benigno Boulevard,Philadelphia,3000,A-7     ,Vacant,1232,1050,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,15.5,15.5,8,8,7.5,7.5,6/26/2025 0:00,,,1
+1675,xnj440be,440 Benigno Boulevard,Philadelphia,4965,A3      ,"Somerset Contractors, LLC",825,1081,30,PHI_upto100,rent    ,per Area,Annual,15.5,15.5,8,8,7.5,7.5,6/26/2025 0:00,t0001219,51917,1
+1675,xnj440be,440 Benigno Boulevard,Philadelphia,3008,BB      ,Vacant,2400,1058,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,10.5,10.5,8,8,2.5,2.5,6/26/2025 0:00,,,1
+1675,xnj440be,440 Benigno Boulevard,Philadelphia,3011,BF      ,Vacant,2600,1061,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,10.5,10.5,8,8,2.5,2.5,6/26/2025 0:00,,,1
+1675,xnj440be,440 Benigno Boulevard,Philadelphia,3009,C-E     ,Vacant,15000,1059,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,10.5,10.5,8,8,2.5,2.5,6/26/2025 0:00,,,1
+1675,xnj440be,440 Benigno Boulevard,Philadelphia,3010,F       ,Vacant,5000,1060,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,10.5,10.5,8,8,2.5,2.5,6/26/2025 0:00,,,1
+1675,xnj440be,440 Benigno Boulevard,Philadelphia,3012,G-H     ,Vacant,10000,1062,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,10.5,10.5,8,8,2.5,2.5,6/26/2025 0:00,,,1
+5089,3tx00013,4450 Alpha Road,Dallas,28005,1,"Redline Volleyball, LLC",40324,2914,22,Dallas_upto100,rent    ,per Area,Annual,9,9,7.5,7.5,1.5,1.5,6/26/2025 0:00,t0001033,32947,1
+5089,3tx00013,4450 Alpha Road,Dallas,28006,2,"Wine Retriever, LLC",41000,2915,22,Dallas_upto100,rent    ,per Area,Annual,9,9,7.5,7.5,1.5,1.5,6/26/2025 0:00,t0001034,32948,1
+3635,xga4450c,4450 Commerce Circle,Atlanta,12622,A       ,KJ Discount,18700,1400,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,7,7,9,9,-2,-2,6/26/2025 0:00,t0001012,28436,1
+1886,xga4507m,4507 Mills Place,Atlanta,4028,G-H     ,"MAGIC SCREEN PRINT LLC, and RETRO VERT, LLC",12040,792,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,7,7,9,6.45,-2,0.55,6/26/2025 0:00,t0001340,57636,1
+1886,xga4507m,4507 Mills Place,Atlanta,4029,I       ,The Investors Academy Inc,4137,793,20,ATL_upto100,rent    ,per Area,Annual,9.25,9.25,6,6,3.25,3.25,6/26/2025 0:00,t0000643,5505,1
+1886,xga4507m,4507 Mills Place,Atlanta,4030,WARHSE  ,VIE DE France Yamazaki Inc,87928,794,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,6,4.82,9,6.45,-3,-1.63,6/26/2025 0:00,t0000641,5502,1
+6593,3tn00015,4519 Old Lamar Avenue,Memphis,46977,1,"ITR America, LLC",12390,4637,27,MEM_Upto100,rent    ,per Area,Annual,5.5,5.5,4.15,4.15,1.35,1.35,6/26/2025 0:00,t0001311,54515,1
+5088,3tx00012,4525 McEwen Road,Dallas,28008,4525,"Worldpac, Inc.",21025,2917,22,Dallas_upto100,rent    ,per Area,Annual,9.9,9.9,7.5,7.5,2.4,2.4,6/26/2025 0:00,t0001036,32950,1
+5088,3tx00012,4525 McEwen Road,Dallas,28007,4535,"Consolidated Clothiers, Inc.	",15097,2916,22,Dallas_upto100,rent    ,per Area,Annual,9.75,9.75,7.5,7.5,2.25,2.25,6/26/2025 0:00,t0001035,32949,1
+7837,3fl00026,4531 Oak Fair Blvd.,Tampa,64082,100,Vacant,0,5516,32,Tampa up to 100K,rent    ,per Area,Annual,8.5,8.5,8.5,8.5,0,0,6/26/2025 0:00,,,1
+6596,3tn00018,4533 Old Lamar Ave,Memphis,48373,100,Vacant,112422,4616,87,Mem_2nd Iteration_100plus,rent    ,per Area,Annual,3.25,3.25,4.15,4.15,-0.9,-0.9,6/26/2025 0:00,,,1
+5084,3fl00007,4570 NW 128th Street,Miami,27193,4570,Vacant,39515,2907,71,Mia_2nd Iteration_upto100,rent    ,per Area,Annual,13.5,13.5,12.25,12.25,1.25,1.25,6/26/2025 0:00,,,1
+5084,3fl00007,4570 NW 128th Street,Miami,27284,BB      ,Clear Channel,0,2908,26,MIA_upto100,rent    ,per Area,Annual,50000,50000,12.25,12.25,49987.75,49987.75,6/26/2025 0:00,t0001029,32215,1
+2990,xga4600f,4600&4630 Frederick Drive,Atlanta,4967,4600-A  ,Pelton Shepherd Industries Inc,15035,796,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,7,9,9,6.45,-2,2.55,6/26/2025 0:00,t0000683,6539,1
+2990,xga4600f,4600&4630 Frederick Drive,Atlanta,4968,4600-E  ,Fastenal Company,20059,797,20,ATL_upto100,rent    ,per Area,Annual,6.75,6.75,6,6,0.75,0.75,6/26/2025 0:00,t0000682,6538,1
+2990,xga4600f,4600&4630 Frederick Drive,Atlanta,4969,4600-F  ,American HVAC Inc,10000,798,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,7.11,7.11,9,6.45,-1.89,0.66,6/26/2025 0:00,t0000681,6536,1
+2990,xga4600f,4600&4630 Frederick Drive,Atlanta,4970,4630-A  ,Tradavo Inc,7529,799,20,ATL_upto100,rent    ,per Area,Annual,7.25,7.25,6,6,1.25,1.25,6/26/2025 0:00,t0001049,34072,1
+2990,xga4600f,4600&4630 Frederick Drive,Atlanta,4971,4630-B  ,Pulseworks LLC,12530,800,20,ATL_upto100,rent    ,per Area,Annual,7.11,7.11,6,6,1.11,1.11,6/26/2025 0:00,t0000685,6541,1
+2990,xga4600f,4600&4630 Frederick Drive,Atlanta,4972,4630-C  ,USA Family Moving of Atlanta LLC,7438,801,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,7.25,7.95,9,6.45,-1.75,1.5,6/26/2025 0:00,t0001177,46315,1
+2990,xga4600f,4600&4630 Frederick Drive,Atlanta,4973,4630-D  ,Superior Supply Chain Management Inc,15000,802,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,7,7,9,6.45,-2,0.55,6/26/2025 0:00,t0000686,6542,1
+6161,iga001  ,4600-4680 Lewis Road,Atlanta,44855,4600,"New WinCup Holdings, Inc.",32838,3483,83,ATL_3rd Iteration_100plus,rent    ,per Area,Annual,5.5,5.24,6.25,6.25,-0.75,-1.01,6/26/2025 0:00,t0001210,51908,1
+6161,iga001  ,4600-4680 Lewis Road,Atlanta,44906,4640,"New WinCup Holdings, Inc.",81905,3486,83,ATL_3rd Iteration_100plus,rent    ,per Area,Annual,5.5,5.24,6.25,6.25,-0.75,-1.01,6/26/2025 0:00,t0001210,51908,1
+6161,iga001  ,4600-4680 Lewis Road,Atlanta,44905,4680,"New WinCup Holdings, Inc.",105637,3485,83,ATL_3rd Iteration_100plus,rent    ,per Area,Annual,5.5,5.24,6.25,6.25,-0.75,-1.01,6/26/2025 0:00,t0001210,51908,1
+6161,iga001  ,4600-4680 Lewis Road,Atlanta,44904,PARK    ,"New WinCup Holdings, Inc.",0,3484,83,ATL_3rd Iteration_100plus,rent    ,per Area,Annual,6.25,6.25,6.25,6.25,0,0,6/26/2025 0:00,t0001210,51908,1
+1696,xga4601 ,4601 Welcome All Road,Atlanta,3068,4601,Vacant,125723,778,20,ATL_upto100,rent    ,per Area,Annual,5.25,5.25,6,6,-0.75,-0.75,6/26/2025 0:00,,,1
+1696,xga4601 ,4601 Welcome All Road,Atlanta,18224,RAILYARD,Vacant,0,2332,20,ATL_upto100,rent    ,per Area,Annual,5.25,5.25,6,6,-0.75,-0.75,6/26/2025 0:00,,,1
+6216,iga002  ,4616 Lewis Road,Atlanta,44895,4616,Vacant,0,4869,62,Atl_2nd Iteration_100plus,rent    ,per Area,Annual,5.25,5.25,5.25,5.25,0,0,6/26/2025 0:00,,,1
+5819,3nc00006,464 East Plaza Drive,"Charlotte, NC",39705,1,L.B. Plastics Incorporated,44887,3125,43,CAR_upto100,rent    ,per Area,Annual,6.97,5.63,6,6,0.97,-0.37,6/26/2025 0:00,t0001162,45777,1
+5819,3nc00006,464 East Plaza Drive,"Charlotte, NC",44104,2,L.B. Plastics Incorporated,111406,3471,52,CAR_100K Pus,rent    ,per Area,Annual,6.97,5.63,6,6,0.97,-0.37,6/26/2025 0:00,t0001162,45777,1
+5819,3nc00006,464 East Plaza Drive,"Charlotte, NC",44105,3,L.B. Plastics Incorporated,52000,3472,43,CAR_upto100,rent    ,per Area,Annual,6.97,5.63,6,6,0.97,-0.37,6/26/2025 0:00,t0001162,45777,1
+5819,3nc00006,464 East Plaza Drive,"Charlotte, NC",44106,4,L.B. Plastics Incorporated,16000,3473,43,CAR_upto100,rent    ,per Area,Annual,6.97,5.83,6,6,0.97,-0.17,6/26/2025 0:00,t0001162,45777,1
+1900,xil464no,464 Northgate Parkway,Chicago,4423,464,Terrazzo & Marble Supply Company of IL,26927,911,29,CHI_upto100,rent    ,per Area,Annual,6.5,7.5,6.5,6.5,0,1,6/26/2025 0:00,t0000655,5913,1
+6220,iga004  ,4640 Lewis Road,Atlanta,44897,4640,Vacant,82572,4871,62,Atl_2nd Iteration_100plus,rent    ,per Area,Annual,5.25,5.25,5.25,5.25,0,0,6/26/2025 0:00,,,1
+2993,xfl4646g,4646 South Grady Avenue,Tampa,5061,4646,Vacant,79188,1393,79,Tam_2nd Iteration_upto100,rent    ,per Area,Annual,9,9,8.5,8.5,0.5,0.5,6/26/2025 0:00,,,1
+3629,xtx4666d,4666 Duncanville Road,Dallas,12083,4666,"Keller Warehousing & Co-Packaging, LLC",162792,1896,44,Dal_100plus,rent    ,per Area,Annual,6,5.85,6.5,6.5,-0.5,-0.65,6/26/2025 0:00,t0000846,14881,1
+3202,xtx467wa,4679 Walzem Road,San Antonio,5746,4679,Minor Moving LLC,40394,1133,23,SAN_Upto100,rent    ,per Area,Annual,7.5,7.5,8,8,-0.5,-0.5,6/26/2025 0:00,t0000780,11013,1
+3202,xtx467wa,4679 Walzem Road,San Antonio,16678,AD      ,Clear Channel,0,2441,23,SAN_Upto100,rent    ,per Area,Annual,8,8,8,8,0,0,6/26/2025 0:00,t0000943,19584,1
+6218,iga003  ,4680 Lewis Road,Atlanta,44896,4680,"New WinCup Holdings, Inc.",106304,4870,62,Atl_2nd Iteration_100plus,rent    ,per Area,Annual,5.25,5.25,5.25,5.25,0,0,6/26/2025 0:00,t0001229,51966,1
+1892,xga4680n,4680 North Royal Atlanta Drive,Atlanta,4023,4680,BBS Enterprises Inc,60669,788,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,9,9.25,9,6.45,0,2.8,6/26/2025 0:00,t0000635,5487,1
+1791,xtnawg2 ,4690 Hungerford Road,Memphis,4039,4690,Vacant,145758,2413,47,MEM_100KPlus,rent    ,per Area,Annual,3.1,3.1,4.15,4.15,-1.05,-1.05,6/26/2025 0:00,,,1
+1653,xtxritti,4728 Goldfield Drive,San Antonio,2984,1,"DFW Movers & Erectors, Inc",7760,826,23,SAN_Upto100,rent    ,per Area,Annual,9,9,8,8,1,1,6/26/2025 0:00,t0000530,4221,1
+1653,xtxritti,4728 Goldfield Drive,San Antonio,15750,2,"DFW Movers & Erectors, Inc",8730,2438,23,SAN_Upto100,rent    ,per Area,Annual,9,9,8,8,1,1,6/26/2025 0:00,t0000530,4221,1
+1653,xtxritti,4728 Goldfield Drive,San Antonio,2983,3,Vacant,8730,825,89,San_2nd Iteration_upto100,rent    ,per Area,Annual,8.5,8.5,8,8,0.5,0.5,6/26/2025 0:00,,,1
+1653,xtxritti,4728 Goldfield Drive,San Antonio,2982,4,"CJI Piping and Fabrication, LLC",8807,824,23,SAN_Upto100,rent    ,per Area,Annual,8.75,8.75,8,8,0.75,0.75,6/26/2025 0:00,t0000529,4220,1
+1653,xtxritti,4728 Goldfield Drive,San Antonio,15751,5,"CJI Piping and Fabrication, LLC",8790,2439,23,SAN_Upto100,rent    ,per Area,Annual,8.75,8.75,8,8,0.75,0.75,6/26/2025 0:00,t0000529,4220,1
+1653,xtxritti,4728 Goldfield Drive,San Antonio,15752,6,"CJI Piping and Fabrication, LLC",8816,2440,23,SAN_Upto100,rent    ,per Area,Annual,8.75,8.75,8,8,0.75,0.75,6/26/2025 0:00,t0000529,4220,1
+1653,xtxritti,4728 Goldfield Drive,San Antonio,2980,7,"Converse Technical Coatings, LLC",8809,822,23,SAN_Upto100,rent    ,per Area,Annual,8.75,8.75,8,8,0.75,0.75,6/26/2025 0:00,t0000528,4208,1
+1653,xtxritti,4728 Goldfield Drive,San Antonio,2981,8,Bakkavor Foods USA Inc.,17280,823,23,SAN_Upto100,rent    ,per Area,Annual,8.5,8.5,8,8,0.5,0.5,6/26/2025 0:00,t0000539,4249,1
+6614,3ga00009,48-50 Best Friend Road,Atlanta,48410,1,"Currey & Company, Inc. ",163524,4664,62,Atl_2nd Iteration_100plus,rent    ,per Area,Annual,9.49,9.49,5.25,5.25,4.24,4.24,6/26/2025 0:00,t0001330,56167,1
+6291,3oh00005,4848 Evanswood Drive,Columbus,44954,100,Elevate Northland,46248,5062,91,Col_4th Iteration_upto100,rent    ,per Area,Annual,7,7,7,7,0,0,6/26/2025 0:00,t0001262,52182,1
+6291,3oh00005,4848 Evanswood Drive,Columbus,46137,200,The Sherwin-Williams Company,26596,5063,25,COL Up to 100K SF,rent    ,per Area,Annual,7.5,7.5,7,7,0.5,0.5,6/26/2025 0:00,t0001274,53570,1
+1585,xnjmway5,5 Mary Way,Philadelphia,1546,A       ,HERR Foods,9743,1026,30,PHI_upto100,rent    ,per Area,Annual,9.75,9.75,8,8,1.75,1.75,6/26/2025 0:00,t0000486,2308,1
+1585,xnjmway5,5 Mary Way,Philadelphia,1549,ANT-A   ,"T-Mobile Northeast, LLC",0,1029,30,PHI_upto100,rent    ,per Area,Monthly,2000,1739.05,8,8,1992,1731.05,6/26/2025 0:00,t0000495,2384,1
+1585,xnjmway5,5 Mary Way,Philadelphia,1551,ANT-B   ,"New Cingular Wireless PCS, LLC",0,1030,30,PHI_upto100,rent    ,per Area,Monthly,2000,1280.41,8,8,1992,1272.41,6/26/2025 0:00,t0000496,2385,1
+1585,xnjmway5,5 Mary Way,Philadelphia,1547,B       ,HERR Foods,10171,1027,30,PHI_upto100,rent    ,per Area,Annual,9.75,9.75,8,8,1.75,1.75,6/26/2025 0:00,t0000486,2308,1
+1585,xnjmway5,5 Mary Way,Philadelphia,1548,C       ,"Elysian One, Inc.",20086,1028,30,PHI_upto100,rent    ,per Area,Annual,9.75,9.75,8,8,1.75,1.75,6/26/2025 0:00,t0000488,2313,1
+5714,3nj00013,5 Pearl Court,Northern NJ/New York,34485,A       ,"KingChem Life Science, LLC ",6910,2956,41,NNJ_upto100,rent    ,per Area,Annual,17.25,17.25,13.91,13.91,3.34,3.34,6/26/2025 0:00,t0001127,40095,1
+5714,3nj00013,5 Pearl Court,Northern NJ/New York,33961,BC      ,"Fuller Enterprise USA, Inc.",17500,2953,41,NNJ_upto100,rent    ,per Area,Annual,17.05,17.05,13.91,13.91,3.14,3.14,6/26/2025 0:00,t0001124,39514,1
+5714,3nj00013,5 Pearl Court,Northern NJ/New York,34484,D       ,"KFT Fire Trainer, LLC",12995,2955,41,NNJ_upto100,rent    ,per Area,Annual,17.05,17.05,13.91,13.91,3.14,3.14,6/26/2025 0:00,t0001126,40094,1
+1883,xnj5thor,5 Thornton Road,Northern NJ/New York,3877,01      ,Garden State Lumber Products Corp,150801,2341,40,NNJ_100plus,rent    ,per Area,Annual,14.75,14.75,13.91,13.91,0.84,0.84,6/26/2025 0:00,t0000618,5465,1
+3306,xpa500ma,500 Maryland Avenue,Philadelphia,6724,500,Federal Express Corporation,138391,1087,48,PHI_Over100K,rent    ,per Area,Annual,9,9,8,8,1,1,6/26/2025 0:00,t0000748,8464,1
+3306,xpa500ma,500 Maryland Avenue,Philadelphia,11245,B       ,Vacant,11729,1092,30,PHI_upto100,rent    ,per Area,Annual,0,0,8,8,-8,-8,6/26/2025 0:00,,,1
+1733,xga5070 ,5070 Minola Drive,Atlanta,3277,5070-W  ,Vacant,48276,781,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,6.6,6.45,9,6.45,-2.4,0,6/26/2025 0:00,,,1
+1893,xga5121b,5121 Buford Highway,Atlanta,4024,5121,Selective Enterprises Inc,31000,789,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,9,7,9,6.45,0,0.55,6/26/2025 0:00,t0000636,5488,1
+1678,xnj52col,52 Coles Road,Philadelphia,2994,52,"CCJ, LLC",62000,1044,59,Phi_3rd Iteration_upto100,rent    ,per Area,Annual,9,4.65,8,8,1,-3.35,6/26/2025 0:00,t0000549,4301,1
+1873,xil529t ,529 Thomas Drive,Chicago,3849,529,Lake Cable LLC,62000,907,78,Chi_3rd Iteration_upto100,rent    ,per Area,Annual,8.5,9,6.5,6.5,2,2.5,6/26/2025 0:00,t0000610,5294,1
+7796,iil001  ,5350 70th Place,Chicago,63862,100,North American Warehousing Company,206548,5411,46,CHI_100plus,rent    ,per Area,Annual,6.5,6.5,6.5,6.5,0,0,6/26/2025 0:00,t0001522,74985,1
+6567,3tn00008,5425 E Raines,Memphis,46964,1,Vacant,10400,4629,73,Mem_2nd Iteration_upto100,rent    ,per Area,Annual,5,5,4.15,4.15,0.85,0.85,6/26/2025 0:00,,,1
+6567,3tn00008,5425 E Raines,Memphis,46968,11,Vacant,7400,4632,27,MEM_Upto100,rent    ,per Area,Annual,5,5,4.15,4.15,0.85,0.85,6/26/2025 0:00,,,1
+6567,3tn00008,5425 E Raines,Memphis,46969,2,Vacant,6912,4633,27,MEM_Upto100,rent    ,per Area,Annual,5,5,4.15,4.15,0.85,0.85,6/26/2025 0:00,,,1
+6567,3tn00008,5425 E Raines,Memphis,46970,3,Vacant,4800,4634,27,MEM_Upto100,rent    ,per Area,Annual,5,5,4.15,4.15,0.85,0.85,6/26/2025 0:00,,,1
+6567,3tn00008,5425 E Raines,Memphis,46971,4,Vacant,4272,4635,27,MEM_Upto100,rent    ,per Area,Annual,5,5,4.15,4.15,0.85,0.85,6/26/2025 0:00,,,1
+6567,3tn00008,5425 E Raines,Memphis,46779,5,Vacant,6970,4619,27,MEM_Upto100,rent    ,per Area,Annual,5,5,4.15,4.15,0.85,0.85,6/26/2025 0:00,,,1
+6567,3tn00008,5425 E Raines,Memphis,46791,7,Vacant,9960,4620,27,MEM_Upto100,rent    ,per Area,Annual,5,5,4.15,4.15,0.85,0.85,6/26/2025 0:00,,,1
+6567,3tn00008,5425 E Raines,Memphis,46966,8,Vacant,8250,4630,27,MEM_Upto100,rent    ,per Area,Annual,5,5,4.15,4.15,0.85,0.85,6/26/2025 0:00,,,1
+6567,3tn00008,5425 E Raines,Memphis,46984,10-Sep,Vacant,14190,4641,27,MEM_Upto100,rent    ,per Area,Annual,5,5,4.15,4.15,0.85,0.85,6/26/2025 0:00,,,1
+6569,3tn00009,5445 E Raines,Memphis,46746,1A      ,Vacant,26500,4617,27,MEM_Upto100,rent    ,per Area,Annual,5,5,4.15,4.15,0.85,0.85,6/26/2025 0:00,,,1
+6569,3tn00009,5445 E Raines,Memphis,46749,1B      ,Vacant,46000,4618,27,MEM_Upto100,rent    ,per Area,Annual,3.5,3.5,4.15,4.15,-0.65,-0.65,6/26/2025 0:00,,,1
+6569,3tn00009,5445 E Raines,Memphis,46961,2A      ,Vacant,22500,4628,27,MEM_Upto100,rent    ,per Area,Annual,3.5,3.5,4.15,4.15,-0.65,-0.65,6/26/2025 0:00,,,1
+6565,3tn00007,5465 E Raines,Memphis,46950,4-Jan,"Steren Electronics International, LLC",60000,4627,87,Mem_2nd Iteration_100plus,rent    ,per Area,Annual,4,4,4.15,4.15,-0.15,-0.15,6/26/2025 0:00,t0001308,54512,1
+6565,3tn00007,5465 E Raines,Memphis,46788,12-May,Dematic Corp.,120000,4612,47,MEM_100KPlus,rent    ,per Area,Annual,4,4,4.15,4.15,-0.15,-0.15,6/26/2025 0:00,t0001284,54302,1
+1645,xilmitch,561 Mitchell Ave,Chicago,2956,561,Aakash Chemicals ,30000,889,78,Chi_3rd Iteration_upto100,rent    ,per Area,Annual,9,8.4,6.5,6.5,2.5,1.9,6/26/2025 0:00,t0000505,4154,1
+3637,xnj59cha,59 Chambers Brook Road,Northern NJ/New York,11843,100,ADT Commercial LLC,10272,1093,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,15,15.75,8,8,7,7.75,6/26/2025 0:00,t0000831,14547,1
+5717,3nj00016,59 Route 17,Northern NJ/New York,34735,59,Howmedica Osteonics Corp.,60000,3283,76,NNJ_2nd Iteration_upto100,rent    ,per Area,Annual,16.75,16.75,13.91,13.91,2.84,2.84,6/26/2025 0:00,t0001141,40381,1
+7720,3nj00029,6 Evans Street,Northern NJ/New York,61937,100,Apex Vaulting,5342,5354,41,NNJ_upto100,rent    ,per Area,Annual,17,17,13.91,13.91,3.09,3.09,6/26/2025 0:00,t0001438,72426,1
+7720,3nj00029,6 Evans Street,Northern NJ/New York,61938,200,Hanovia Specialty Lighting,22629,5355,41,NNJ_upto100,rent    ,per Area,Annual,16.25,16.25,13.91,13.91,2.34,2.34,6/26/2025 0:00,t0001439,72427,1
+5715,3nj00014,6 Pearl Court,Northern NJ/New York,33933,A       ,"Biosil Technologies, Inc.",5219,2951,41,NNJ_upto100,rent    ,per Area,Annual,17.25,17.25,13.91,13.91,3.34,3.34,6/26/2025 0:00,t0001121,39473,1
+5715,3nj00014,6 Pearl Court,Northern NJ/New York,34541,B       ,"TBS Controls, LLC",5444,2959,41,NNJ_upto100,rent    ,per Area,Annual,17.25,17.25,13.91,13.91,3.34,3.34,6/26/2025 0:00,t0001131,40161,1
+5715,3nj00014,6 Pearl Court,Northern NJ/New York,33944,C       ,"Flavine North America, Inc.",5000,2952,41,NNJ_upto100,rent    ,per Area,Annual,17.25,17.25,13.91,13.91,3.34,3.34,6/26/2025 0:00,t0001122,39488,1
+5715,3nj00014,6 Pearl Court,Northern NJ/New York,34624,DEFN    ,"Volkswagen Group of America, Inc.",30000,2969,41,NNJ_upto100,rent    ,per Area,Annual,17.05,17.05,13.91,13.91,3.14,3.14,6/26/2025 0:00,t0001138,40255,1
+5715,3nj00014,6 Pearl Court,Northern NJ/New York,33932,G       ,IMCD US LLC,10000,2950,41,NNJ_upto100,rent    ,per Area,Annual,17.25,17.25,13.91,13.91,3.34,3.34,6/26/2025 0:00,t0001183,47556,1
+5715,3nj00014,6 Pearl Court,Northern NJ/New York,33931,H       ,"Proximate Concepts, LLC & iNPLANT, LLC",7200,2949,41,NNJ_upto100,rent    ,per Area,Annual,17.25,17.25,13.91,13.91,3.34,3.34,6/26/2025 0:00,t0001129,40126,1
+5715,3nj00014,6 Pearl Court,Northern NJ/New York,34622,J       ,"SUMERU, LLC",15000,2967,41,NNJ_upto100,rent    ,per Area,Annual,17.05,17.05,13.91,13.91,3.14,3.14,6/26/2025 0:00,t0001136,40253,1
+5715,3nj00014,6 Pearl Court,Northern NJ/New York,34546,K       ,Inter Chem Trading Corp,15000,2961,41,NNJ_upto100,rent    ,per Area,Annual,17.05,17.05,13.91,13.91,3.14,3.14,6/26/2025 0:00,t0001125,39515,1
+5715,3nj00014,6 Pearl Court,Northern NJ/New York,33962,M       ,Inter Chem Trading Corp,7500,2954,41,NNJ_upto100,rent    ,per Area,Annual,17.25,17.25,13.91,13.91,3.34,3.34,6/26/2025 0:00,t0001125,39515,1
+7695,3il00014,600 W Irving Park Road,Chicago,60375,100,"S&S Truck Parts, LLC, c/o Investcorp",120000,5121,46,CHI_100plus,rent    ,per Area,Annual,9,9,6.5,6.5,2.5,2.5,6/26/2025 0:00,t0001415,70292,1
+1389,xnj6000i,6000 Irwin Road,Philadelphia,540,6000,PSE&G,46188,1021,30,PHI_upto100,rent    ,per Area,Annual,12.25,12.25,8,8,4.25,4.25,6/26/2025 0:00,t0001153,42706,1
+7364,3nj00027,601 Ryan Avenue,Philadelphia,58287,A       ,Buckley Cable Construction Co. ,10000,5054,30,PHI_upto100,rent    ,per Area,Annual,11.5,11,8,8,3.5,3,6/26/2025 0:00,t0001408,67757,1
+7364,3nj00027,601 Ryan Avenue,Philadelphia,58295,B       ,"Axiom Gymnastics Center, LLC",5000,5055,30,PHI_upto100,rent    ,per Area,Annual,10,10,8,8,2,2,6/26/2025 0:00,t0001409,67768,1
+7364,3nj00027,601 Ryan Avenue,Philadelphia,58296,C       ,"The PromptCare Companies, Inc. ",10000,5056,30,PHI_upto100,rent    ,per Area,Annual,10,10,8,8,2,2,6/26/2025 0:00,t0001410,67769,1
+7364,3nj00027,601 Ryan Avenue,Philadelphia,58297,D       ,"Miller Equipment Services, LLC ",5000,5057,30,PHI_upto100,rent    ,per Area,Annual,11.5,11,8,8,3.5,3,6/26/2025 0:00,t0001411,67770,1
+7715,3ca00001,605-655 Hawaii Avenue,Los Angeles,61530,605,Vacant,5724,5214,93,LA_2nd Iteration_upto100K,rent    ,per Area,Annual,18,18,15,15,3,3,6/26/2025 0:00,,,1
+7715,3ca00001,605-655 Hawaii Avenue,Los Angeles,61532,615,Vacant,12579,5215,93,LA_2nd Iteration_upto100K,rent    ,per Area,Annual,18,18,15,15,3,3,6/26/2025 0:00,,,1
+7715,3ca00001,605-655 Hawaii Avenue,Los Angeles,61529,635,More Prepared LLC,8960,5216,92,LA_upto100,rent    ,per Area,Annual,21,21,15,15,6,6,6/26/2025 0:00,t0001431,71880,1
+7715,3ca00001,605-655 Hawaii Avenue,Los Angeles,61531,655,"Garv, Inc. ",8960,5217,92,LA_upto100,rent    ,per Area,Annual,21,21,15,15,6,6,6/26/2025 0:00,t0001433,71882,1
+6667,3tx00018,6151 Cowley Road,Dallas,49752,100,"VoidForm Products, LLC",43312,4667,22,Dallas_upto100,rent    ,per Area,Annual,7.75,7.75,7.5,7.5,0.25,0.25,6/26/2025 0:00,t0001347,57757,1
+4176,3tx00009,631 S Royal Lane,Dallas,20328,100,Vacant,40000,2374,22,Dallas_upto100,rent    ,per Area,Annual,10,15.5,7.5,7.5,2.5,8,6/26/2025 0:00,,,1
+4176,3tx00009,631 S Royal Lane,Dallas,20329,200,Vacant,11360,2375,22,Dallas_upto100,rent    ,per Area,Annual,10,18.5,7.5,7.5,2.5,11,6/26/2025 0:00,,,1
+3714,3md00002,6704 Curtis,Baltimore,14290,A       ,Vision Technologies LLC,48083,2393,45,BAL_upto100,rent    ,per Area,Annual,11.75,10.75,9,9,2.75,1.75,6/26/2025 0:00,t0000936,18709,1
+3714,3md00002,6704 Curtis,Baltimore,14291,B       ,EQUIPMENTSHARE.COM INC,11369,2394,45,BAL_upto100,rent    ,per Area,Annual,13,13,9,9,4,4,6/26/2025 0:00,t0001157,43753,1
+7022,xfl6704n,6704 N 54th St,Tampa,54989,6704,Acousti Engineering Company of Florida,20000,4979,32,Tampa up to 100K,rent    ,per Area,Annual,10.6,10.6,8.5,8.5,2.1,2.1,6/26/2025 0:00,t0001384,63809,1
+7022,xfl6704n,6704 N 54th St,Tampa,54261,6706,Vacant,20700,4976,79,Tam_2nd Iteration_upto100,rent    ,per Area,Annual,10.9,10.9,8.5,8.5,2.4,2.4,6/26/2025 0:00,,,1
+7022,xfl6704n,6704 N 54th St,Tampa,54988,6708,"Warehousing Etc, Inc.",10332,4978,32,Tampa up to 100K,rent    ,per Area,Annual,12,12,8.5,8.5,3.5,3.5,6/26/2025 0:00,t0001383,63808,1
+7022,xfl6704n,6704 N 54th St,Tampa,54262,6710,Roboreco Inc.,10368,4977,32,Tampa up to 100K,rent    ,per Area,Annual,11.6,11.6,8.5,8.5,3.1,3.1,6/26/2025 0:00,t0001382,62963,1
+7022,xfl6704n,6704 N 54th St,Tampa,54990,6712,Vacant,20000,4980,79,Tam_2nd Iteration_upto100,rent    ,per Area,Annual,11.25,11.25,8.5,8.5,2.75,2.75,6/26/2025 0:00,,,1
+3667,xnj6900r,6900 River Road,Philadelphia,12829,6900,Vacant,22698,1459,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,10.25,10.25,8,8,2.25,2.25,6/26/2025 0:00,,,1
+3374,xnj6925s,6925 Sherman Ave,Philadelphia,9131,6925,"Aruvil International, Inc.",30000,1090,30,PHI_upto100,rent    ,per Area,Annual,9.75,9.75,8,8,1.75,1.75,6/26/2025 0:00,t0000784,11053,1
+7790,3oh00008,6951 Alan Schwarzwalder Street,Columbus,63858,100,"All-State Belting, LLC",59940,5410,25,COL Up to 100K SF,rent    ,per Area,Annual,7,7,7,7,0,0,6/26/2025 0:00,t0001520,74977,1
+1379,xflstuar,6959 Stuart Avenue,Jacksonville,556,6959,Acousti Engineering Company of Florida,22734,1383,35,Jax_upto100,rent    ,per Area,Annual,9,9,7,7,2,2,6/26/2025 0:00,t0000464,1407,1
+1674,xnj6965 ,6965 Airport Highway Lane,Philadelphia,2997,6965,"Material Handling Supply, Inc. (MHS Lift)",103000,1047,48,PHI_Over100K,rent    ,per Area,Annual,10.75,10.75,8,8,2.75,2.75,6/26/2025 0:00,t0000545,4294,1
+1586,xnjmway7,7 Mary Way,Philadelphia,1580,A       ,"Global Product Sourcing, LLC",20000,1031,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,9.75,9.75,8,8,1.75,1.75,6/26/2025 0:00,t0000497,2414,1
+1586,xnjmway7,7 Mary Way,Philadelphia,1581,B       ,"Philadelphia Hardware Group of Philadelphia, Inc.",20000,1032,30,PHI_upto100,rent    ,per Area,Annual,9.75,9.75,8,8,1.75,1.75,6/26/2025 0:00,t0000805,13291,1
+5716,3nj00015,7 Pearl Court,Northern NJ/New York,34625,ABC     ,"Volkswagen Group of America, Inc.",19740,2970,41,NNJ_upto100,rent    ,per Area,Annual,17.05,17.05,13.91,13.91,3.14,3.14,6/26/2025 0:00,t0001139,40256,1
+5716,3nj00015,7 Pearl Court,Northern NJ/New York,34549,D       ,E & J Hospitality Inc.,12000,2964,41,NNJ_upto100,rent    ,per Area,Annual,17.05,17.05,13.91,13.91,3.14,3.14,6/26/2025 0:00,t0001132,40162,1
+5716,3nj00015,7 Pearl Court,Northern NJ/New York,34547,E       ,E & J Hospitality Inc.,5000,2962,41,NNJ_upto100,rent    ,per Area,Annual,17.05,17.05,13.91,13.91,3.14,3.14,6/26/2025 0:00,t0001132,40162,1
+5716,3nj00015,7 Pearl Court,Northern NJ/New York,34548,F       ,E & J Hospitality Inc.,7550,2963,41,NNJ_upto100,rent    ,per Area,Annual,17.05,17.05,13.91,13.91,3.14,3.14,6/26/2025 0:00,t0001132,40162,1
+3652,xnj70cat,70 Cathy Lane,Philadelphia,12070,1,Door Services Corporation,13500,1094,30,PHI_upto100,rent    ,per Area,Annual,9.5,9.5,8,8,1.5,1.5,6/26/2025 0:00,t0000845,14880,1
+3652,xnj70cat,70 Cathy Lane,Philadelphia,12071,B       ,Dream Maker Events and Decors LLC,5740,1095,30,PHI_upto100,rent    ,per Area,Annual,9.5,9.5,8,8,1.5,1.5,6/26/2025 0:00,t0001030,32909,1
+5733,3nj00019,70-82 McKee Drive,Northern NJ/New York,33638,70,"Lincoln Technical Institute, Inc.",50400,2939,41,NNJ_upto100,rent    ,per Area,Annual,15,15,13.91,13.91,1.09,1.09,6/26/2025 0:00,t0001111,39127,1
+5733,3nj00019,70-82 McKee Drive,Northern NJ/New York,33678,70-A02  ,"American Musical Supply, Inc.",27539,2942,41,NNJ_upto100,rent    ,per Area,Annual,15.5,15.5,13.91,13.91,1.59,1.59,6/26/2025 0:00,t0001113,39172,1
+5733,3nj00019,70-82 McKee Drive,Northern NJ/New York,37914,70E     ,"Lincoln Technical Institute, Inc.",28800,3208,41,NNJ_upto100,rent    ,per Area,Annual,15,15,13.91,13.91,1.09,1.09,6/26/2025 0:00,t0001111,39127,1
+5733,3nj00019,70-82 McKee Drive,Northern NJ/New York,33641,82B     ,"Six Thirteen Originals, LLC",20616,2940,41,NNJ_upto100,rent    ,per Area,Annual,15.5,15.5,13.91,13.91,1.59,1.59,6/26/2025 0:00,t0001112,39132,1
+5733,3nj00019,70-82 McKee Drive,Northern NJ/New York,33642,90,"Six Thirteen Originals, LLC",42645,2941,41,NNJ_upto100,rent    ,per Area,Annual,15.5,15.5,13.91,13.91,1.59,1.59,6/26/2025 0:00,t0001112,39132,1
+1874,xil700h ,700 High Grove Boulevard,Chicago,8249,700,Vacant,43519,917,77,Chi_2nd Iteration_upto100,rent    ,per Area,Annual,9,9,6.5,6.5,2.5,2.5,6/26/2025 0:00,,,1
+1655,xnjcentr,7055 Central Highway,Philadelphia,2988,7055-1  ,Vacant,20721,1042,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,10.25,10.25,8,8,2.25,2.25,6/26/2025 0:00,,,1
+1655,xnjcentr,7055 Central Highway,Philadelphia,2989,7055-2  ,Vacant,9967,1043,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,10,10,8,8,2,2,6/26/2025 0:00,,,1
+4115,3md00004,7120 Ambassador Road,Baltimore,23358,7122,State of Maryland,6700,2396,45,BAL_upto100,rent    ,per Area,Annual,10.5,10.5,9,9,1.5,1.5,6/26/2025 0:00,t0000987,26634,1
+4115,3md00004,7120 Ambassador Road,Baltimore,23484,7124,Provo Ventures LLC,16261,2401,61,Bal_2nd Iteration_upto100,rent    ,per Area,Annual,9,9,9,9,0,0,6/26/2025 0:00,t0001058,36868,1
+4115,3md00004,7120 Ambassador Road,Baltimore,55146,7126,Vacant,6541,4893,61,Bal_2nd Iteration_upto100,rent    ,per Area,Annual,11.5,11.5,9,9,2.5,2.5,6/26/2025 0:00,,,1
+4115,3md00004,7120 Ambassador Road,Baltimore,23360,7128,"MASTER’S, INC.",9429,2398,45,BAL_upto100,rent    ,per Area,Annual,11,11,9,9,2,2,6/26/2025 0:00,t0001195,51810,1
+4115,3md00004,7120 Ambassador Road,Baltimore,23361,7130,"Club & Cycle, LLC",4234,2399,45,BAL_upto100,rent    ,per Area,Annual,11,11,9,9,2,2,6/26/2025 0:00,t0000990,26981,1
+4115,3md00004,7120 Ambassador Road,Baltimore,23483,7132,"Foreman Turf Specialties, Inc.",4161,2400,45,BAL_upto100,rent    ,per Area,Annual,11,11,9,9,2,2,6/26/2025 0:00,t0000992,27034,1
+4115,3md00004,7120 Ambassador Road,Baltimore,25517,PARK    ,Vacant,0,2402,45,BAL_upto100,rent    ,per Area,Monthly,4500,4500,9,9,4491,4491,6/26/2025 0:00,,,1
+1887,xnj740co,740 Coopertown Road,Philadelphia,4031,740,"STYLEX, INC",133283,1075,68,Phi_2nd Iteration_100plus,rent    ,per Area,Annual,10,10,8,8,2,2,6/26/2025 0:00,t0000669,6006,1
+1660,xil747  ,747-777 Chase Ave,Chicago,2973,747,"Acme Industries, Inc.",123200,899,46,CHI_100plus,rent    ,per Area,Annual,7.5,7.5,6.5,6.5,1,1,6/26/2025 0:00,t0000519,4193,1
+7781,3il00016,750 District Drive,Chicago,63827,100,"Czervik Holdings, LLC",50753,5378,29,CHI_upto100,rent    ,per Area,Annual,6.5,6.5,6.5,6.5,0,0,6/26/2025 0:00,t0001511,74926,1
+1668,xnj7550 ,7550 North Crescent Boulevard,Philadelphia,2987,7550,"Flanagan's Towne Auto Enterprises III, Inc",22000,1041,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,12.25,12.25,8,8,4.25,4.25,6/26/2025 0:00,t0000536,4236,1
+1901,xil77whe,77 Wheeling Road,Chicago,4426,77,Terrazzo & Marble Supply Company of IL ,78882,912,29,CHI_upto100,rent    ,per Area,Annual,6.5,7.5,6.5,6.5,0,1,6/26/2025 0:00,t0000665,5994,1
+1899,xil770ar,770 Arthur Avenue,Chicago,4042,770,Turner Construction Company,41455,909,29,CHI_upto100,rent    ,per Area,Annual,8,8,6.5,6.5,1.5,1.5,6/26/2025 0:00,t0001516,74971,1
+1899,xil770ar,770 Arthur Avenue,Chicago,4043,780,Event Link,21741,910,29,CHI_upto100,rent    ,per Area,Annual,8,8,6.5,6.5,1.5,1.5,6/26/2025 0:00,t0000718,7714,1
+3278,xfl7720p,7720 Philips Highway,Jacksonville,6051,A       ,"Florida DeliCo, LLC",52467,1385,35,Jax_upto100,rent    ,per Area,Annual,7.5,7.5,7,7,0.5,0.5,6/26/2025 0:00,t0001501,73876,1
+3278,xfl7720p,7720 Philips Highway,Jacksonville,6052,B-C     ,Setzer's and Co. Inc. ,47943,1386,35,Jax_upto100,rent    ,per Area,Annual,7,7,7,7,0,0,6/26/2025 0:00,t0000716,7711,1
+3638,xil7760m,7760 N Merrimac,Chicago,12624,100,"Quality Elevator Products Acquisitions, Inc.",55980,1705,78,Chi_3rd Iteration_upto100,rent    ,per Area,Annual,10,7.21,6.5,6.5,3.5,0.71,6/26/2025 0:00,t0000859,16330,1
+1378,xtxwebbl,7903 Webbles Dr,San Antonio,508,7903,Vacant,25355,819,23,SAN_Upto100,rent    ,per Area,Annual,7.85,7.85,8,8,-0.15,-0.15,6/26/2025 0:00,,,1
+3628,3fl00002,7970 Central Industrial Blvd,Miami,12588,1,K1 Racing,39972,1391,26,MIA_upto100,rent    ,per Area,Annual,14.25,14.25,12.25,12.25,2,2,6/26/2025 0:00,t0000951,19641,1
+3628,3fl00002,7970 Central Industrial Blvd,Miami,14809,PARK    ,Vacant,0,2906,26,MIA_upto100,rent    ,per Area,Annual,0,0,12.25,12.25,-12.25,-12.25,6/26/2025 0:00,,,1
+2721,xga800wh,800 Wharton Drive,Atlanta,4040,A       ,Gate Precast,57672,1397,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,6.6,6.6,9,6.45,-2.4,0.15,6/26/2025 0:00,t0000646,5511,1
+2721,xga800wh,800 Wharton Drive,Atlanta,4041,B       ,Formations Studio LLC,1600,1398,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,6.6,6.6,9,6.45,-2.4,0.15,6/26/2025 0:00,t0000647,5512,1
+4192,3il00007,800-812 Greenleaf Avenue,Chicago,20301,800,Mid-America Safety Corporation,9250,2405,29,CHI_upto100,rent    ,per Area,Annual,9,9,6.5,6.5,2.5,2.5,6/26/2025 0:00,t0000969,23318,1
+4192,3il00007,800-812 Greenleaf Avenue,Chicago,20302,802,"Krishiv Foods, LLC",9250,2406,77,Chi_2nd Iteration_upto100,rent    ,per Area,Annual,8.5,8.5,6.5,6.5,2,2,6/26/2025 0:00,t0000970,23319,1
+4192,3il00007,800-812 Greenleaf Avenue,Chicago,20303,810,"Direct Cabinet Supply, LLC",9250,2407,77,Chi_2nd Iteration_upto100,rent    ,per Area,Annual,9,9,6.5,6.5,2.5,2.5,6/26/2025 0:00,t0000971,23320,1
+4192,3il00007,800-812 Greenleaf Avenue,Chicago,20304,812,Ultimate Stone Inc,9250,2408,29,CHI_upto100,rent    ,per Area,Annual,9,9,6.5,6.5,2.5,2.5,6/26/2025 0:00,t0000982,24349,1
+1897,xga800in,800-850 Industrial Park Drive,Atlanta,4025,800-A   ,"Mid Atlantic Roofing Supply Atlanta, LLC",47532,790,20,ATL_upto100,rent    ,per Area,Annual,7.25,7.25,6,6,1.25,1.25,6/26/2025 0:00,t0000941,19529,1
+1897,xga800in,800-850 Industrial Park Drive,Atlanta,4026,850-B   ,WEX LLC,25000,791,20,ATL_upto100,rent    ,per Area,Annual,7.75,7.75,6,6,1.75,1.75,6/26/2025 0:00,t0000640,5501,1
+1897,xga800in,800-850 Industrial Park Drive,Atlanta,16625,MEZZ    ,Vacant,0,1991,20,ATL_upto100,rent    ,per Area,Annual,5.25,5.25,6,6,-0.75,-0.75,6/26/2025 0:00,,,1
+3735,3ga00002,801 Blacklawn Road,Atlanta,15301,1,Vacant,19660,1940,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,7.5,7.5,9,6.45,-1.5,1.05,6/26/2025 0:00,,,1
+3735,3ga00002,801 Blacklawn Road,Atlanta,14899,F       ,"Teijin Aramid USA, Inc.",38830,1938,20,ATL_upto100,rent    ,per Area,Annual,6.85,6.85,6,6,0.85,0.85,6/26/2025 0:00,t0000912,17744,1
+3735,3ga00002,801 Blacklawn Road,Atlanta,14900,N       ,"Teijin Aramid USA, Inc.",14667,1939,20,ATL_upto100,rent    ,per Area,Annual,6.85,6.85,6,6,0.85,0.85,6/26/2025 0:00,t0000912,17744,1
+3735,3ga00002,801 Blacklawn Road,Atlanta,15302,OPQR    ,"Clique Here, LLC",38383,1941,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,7,7,9,6.45,-2,0.55,6/26/2025 0:00,t0000910,17741,1
+7040,3pa00003,801 Primos Avenue,Philadelphia,56840,100,"American Expediting Logistics, LLC",33000,4995,30,PHI_upto100,rent    ,per Area,Annual,11.25,11.25,8,8,3.25,3.25,6/26/2025 0:00,t0001399,66035,1
+2720,xtx8154b,8154 Bracken Creek Drive,San Antonio,4489,100,"Tormax USA, Inc",35510,832,23,SAN_Upto100,rent    ,per Area,Annual,7.4,7.05,8,8,-0.6,-0.95,6/26/2025 0:00,t0000666,5995,1
+2720,xtx8154b,8154 Bracken Creek Drive,San Antonio,4490,200,"Dana Safety Supply, Inc.",25100,816,23,SAN_Upto100,rent    ,per Area,Annual,10.5,10.5,8,8,2.5,2.5,6/26/2025 0:00,t0001051,36800,1
+6676,3il00009,825 26th Street,Chicago,50383,100,"Brady Industries of Illinois, LLC",156000,5064,90,Chi_3rd Iteration_100plus,rent    ,per Area,Annual,6.77,6.77,6.5,6.5,0.27,0.27,6/26/2025 0:00,t0001356,58501,1
+4079,3md00003,8361 Town Center Court,Baltimore,16794,100,JES Groundworks,30333,2395,45,BAL_upto100,rent    ,per Area,Annual,9.75,9.75,9,9,0.75,0.75,6/26/2025 0:00,t0000985,24625,1
+1682,xnj845l ,845 Lancer Drive,Philadelphia,2998,845,"Shingle & Gibb Automation, LLC",16800,1048,30,PHI_upto100,rent    ,per Area,Annual,11,11,8,8,3,3,6/26/2025 0:00,t0000553,4305,1
+6561,3oh00006,8490 Seward Road,Cincinnati,46126,100,"Qualus Services, LLC",55000,4646,63,Cin_2nd Iteration_upto100,rent    ,per Area,Annual,5,5,5,5,0,0,6/26/2025 0:00,t0001269,53552,1
+1755,xoh8655 ,8655 Seward Road,Cincinnati,3511,8655,"G&W Products, LLC.",30512,886,28,CIN_upto100K,rent    ,per Area,Annual,6.5,6.5,5,5,1.5,1.5,6/26/2025 0:00,t0000604,4916,1
+1656,xpastate,8800 State Road,Philadelphia,2957,8800,Vacant,17063,1038,30,PHI_upto100,rent    ,per Area,Annual,8,8,8,8,0,0,6/26/2025 0:00,,,1
+1592,xgashaw3,899 Mountain Ind Dr,Atlanta,1449,899,Shaw Stainless LLC,26880,762,20,ATL_upto100,rent    ,per Area,Annual,8.12,8.12,6,6,2.12,2.12,6/26/2025 0:00,t0000470,2249,1
+1587,xnjmway9,9 Mary Way,Philadelphia,1582,A       ,"Tenacity Fitness, LLC ",7500,1033,30,PHI_upto100,rent    ,per Area,Annual,9.25,9.25,8,8,1.25,1.25,6/26/2025 0:00,t0000485,2307,1
+1587,xnjmway9,9 Mary Way,Philadelphia,1583,A1      ,Cryovation LLC,12303,1034,30,PHI_upto100,rent    ,per Area,Annual,9.75,9.75,8,8,1.75,1.75,6/26/2025 0:00,t0000491,2317,1
+1587,xnjmway9,9 Mary Way,Philadelphia,1584,B       ,Cryovation LLC,21902,1035,30,PHI_upto100,rent    ,per Area,Annual,9.75,9.75,8,8,1.75,1.75,6/26/2025 0:00,t0000491,2317,1
+3630,3pa00001,9 S. Forrest Avenue,Philadelphia,12601,100,Vacant,29620,2419,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,10,10,8,8,2,2,6/26/2025 0:00,,,1
+3630,3pa00001,9 S. Forrest Avenue,Philadelphia,12606,200,911 Safety Equipment LLC,13939,2420,30,PHI_upto100,rent    ,per Area,Annual,10,10,8,8,2,2,6/26/2025 0:00,t0000848,14883,1
+3630,3pa00001,9 S. Forrest Avenue,Philadelphia,12084,300,Vacant,6380,2418,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,10,10,8,8,2,2,6/26/2025 0:00,,,1
+1673,xnj900k ,900 Kennedy Boulevard,Philadelphia,2996,900,Vacant,41500,1046,55,Phi_2nd Iteration_upto100,rent    ,per Area,Annual,10.25,10.25,8,8,2.25,2.25,6/26/2025 0:00,,,1
+5731,3nj00018,91 McKee Drive,Northern NJ/New York,32767,4,"DASHLINK, INC.",35800,2938,41,NNJ_upto100,rent    ,per Area,Annual,16,16,13.91,13.91,2.09,2.09,6/26/2025 0:00,t0001103,38145,1
+5731,3nj00018,91 McKee Drive,Northern NJ/New York,33698,B       ,Alison's Trading Corp.,18858,2943,41,NNJ_upto100,rent    ,per Area,Annual,16,16,13.91,13.91,2.09,2.09,6/26/2025 0:00,t0001114,39181,1
+5731,3nj00018,91 McKee Drive,Northern NJ/New York,33702,C       ,Alison's Trading Corp.,20942,2944,41,NNJ_upto100,rent    ,per Area,Annual,16,16,13.91,13.91,2.09,2.09,6/26/2025 0:00,t0001114,39181,1
+5731,3nj00018,91 McKee Drive,Northern NJ/New York,33918,CABLE   ,Cablevision Lightpath LLC,0,2947,41,NNJ_upto100,rent    ,per Area,Annual,0,0,13.91,13.91,-13.91,-13.91,6/26/2025 0:00,t0001118,39453,1
+5731,3nj00018,91 McKee Drive,Northern NJ/New York,33733,D       ,"Z&Z Supply Merger Sub, LLC ",23256,2945,41,NNJ_upto100,rent    ,per Area,Annual,16,16,13.91,13.91,2.09,2.09,6/26/2025 0:00,t0001115,39230,1
+5731,3nj00018,91 McKee Drive,Northern NJ/New York,33917,E       ,DJ Gym Mahwah LLC,23040,2946,41,NNJ_upto100,rent    ,per Area,Annual,11.4,11.4,13.91,13.91,-2.51,-2.51,6/26/2025 0:00,t0001117,39421,1
+5731,3nj00018,91 McKee Drive,Northern NJ/New York,33920,F       ,"VBT Sub 2, LLC",0,2948,41,NNJ_upto100,rent    ,per Area,Annual,0,0,13.91,13.91,-13.91,-13.91,6/26/2025 0:00,t0001119,39455,1
+2994,xnj9100p,9100 Pennsauken Highway,Philadelphia,5742,9100,"CS 9100, INC.",47256,1084,30,PHI_upto100,rent    ,per Area,Annual,10.25,10.25,8,8,2.25,2.25,6/26/2025 0:00,t0000714,7699,1
+3633,3md00001,9176 Red Branch,Baltimore,11844,A-E     ,"Ark Systems, Inc.",19689,2382,61,Bal_2nd Iteration_upto100,rent    ,per Area,Annual,12.25,12.25,9,9,3.25,3.25,6/26/2025 0:00,t0000832,14548,1
+3633,3md00001,9176 Red Branch,Baltimore,11850,F       ,Philip Franklin Heiliger & Nany Patricia Heiliger,4646,2386,61,Bal_2nd Iteration_upto100,rent    ,per Area,Annual,13,13,9,9,4,4,6/26/2025 0:00,t0000840,14866,1
+3633,3md00001,9176 Red Branch,Baltimore,11848,G       ,"C&J Contractors, LLC",4606,2385,61,Bal_2nd Iteration_upto100,rent    ,per Area,Annual,12.75,12.75,9,9,3.75,3.75,6/26/2025 0:00,t0000833,14549,1
+3633,3md00001,9176 Red Branch,Baltimore,12072,H       ,Vacant,4510,2388,61,Bal_2nd Iteration_upto100,rent    ,per Area,Annual,12,12,9,9,3,3,6/26/2025 0:00,,,1
+3633,3md00001,9176 Red Branch,Baltimore,12073,IJK     ,Prime Egrocery Inc,11158,2389,45,BAL_upto100,rent    ,per Area,Annual,12,12,9,9,3,3,6/26/2025 0:00,t0001443,72480,1
+3633,3md00001,9176 Red Branch,Baltimore,11851,L       ,"Gossamer Security Solutions, Inc.",3760,2387,61,Bal_2nd Iteration_upto100,rent    ,per Area,Annual,13,13,9,9,4,4,6/26/2025 0:00,t0000837,14557,1
+3633,3md00001,9176 Red Branch,Baltimore,12074,MN      ,"Xcision Medical Systems, LLC",8881,2390,61,Bal_2nd Iteration_upto100,rent    ,per Area,Annual,12,12,9,9,3,3,6/26/2025 0:00,t0000841,14867,1
+3633,3md00001,9176 Red Branch,Baltimore,12075,OP      ,"Xcision Medical Systems, LLC",9020,2391,61,Bal_2nd Iteration_upto100,rent    ,per Area,Annual,12,12,9,9,3,3,6/26/2025 0:00,t0000841,14867,1
+3633,3md00001,9176 Red Branch,Baltimore,11846,Q       ,"Daring Design, LLC",4210,2384,45,BAL_upto100,rent    ,per Area,Annual,13,13,9,9,4,4,6/26/2025 0:00,t0000835,14551,1
+3633,3md00001,9176 Red Branch,Baltimore,12076,RS      ,"Carnival Day, Inc.",7571,2392,61,Bal_2nd Iteration_upto100,rent    ,per Area,Annual,13,13,9,9,4,4,6/26/2025 0:00,t0001154,42994,1
+3633,3md00001,9176 Red Branch,Baltimore,11845,T       ,"Casey's Coffee, Inc.",3412,2383,61,Bal_2nd Iteration_upto100,rent    ,per Area,Annual,12.5,12.5,9,9,3.5,3.5,6/26/2025 0:00,t0000834,14550,1
+4435,3fl00005,920 NW 159 Drive,Miami,23145,A       ,Krispy Kreme Donut Corporation,32082,2355,26,MIA_upto100,rent    ,per Area,Annual,12.5,12.5,12.25,12.25,0.25,0.25,6/26/2025 0:00,t0001163,45782,1
+1591,xgashaw2,922 Mountain Ind Dr,Atlanta,1450,922,Shaw Stainless LLC,11300,763,20,ATL_upto100,rent    ,per Area,Annual,9.14,9.14,6,6,3.14,3.14,6/26/2025 0:00,t0000471,2250,1
+1679,xga9330 ,9330 Industrial Trace,Atlanta,2993,9330,Vacant,22500,770,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,10.5,10.25,9,6.45,1.5,3.8,6/26/2025 0:00,,,1
+3376,xga9335i,9335 Industrial Trace,Atlanta,8242,100,Vacant,20080,809,57,Atl_2nd Iteration_upto100,rent    ,per Area,Annual,11,11,9,6.45,2,4.55,6/26/2025 0:00,,,1
+1885,xnj95bau,95 Bauer Drive,Northern NJ/New York,4020,01      ,"Kradle to Kindergarten, Inc.",6792,691,41,NNJ_upto100,rent    ,per Area,Annual,18,18,13.91,13.91,4.09,4.09,6/26/2025 0:00,t0000619,5467,1
+4125,3il00005,955 Estes Avenue,Chicago,16834,100,Rademaker,45236,2082,29,CHI_upto100,rent    ,per Area,Annual,9.5,9.5,6.5,6.5,3,3,6/26/2025 0:00,t0001001,28074,1
+1390,xtxball ,9615 Ball Street,San Antonio,509,9615,Custom Piping System,29772,1148,23,SAN_Upto100,rent    ,per Area,Annual,11.5,11.75,8,8,3.5,3.75,6/26/2025 0:00,t0001003,28220,1
+5459,3nc00003,9701 Brookford Street,"Charlotte, NC",32751,A       ,"Core & Main LP	",33600,2927,43,CAR_upto100,rent    ,per Area,Annual,9.18,8.41,6,6,3.18,2.41,6/26/2025 0:00,t0001090,38080,1
+5459,3nc00003,9701 Brookford Street,"Charlotte, NC",44900,B       ,"Core & Main LP	",33600,3492,43,CAR_upto100,rent    ,per Area,Annual,9.18,8.41,6,6,3.18,2.41,6/26/2025 0:00,t0001090,38080,1
+1639,xtxdrysd,9820 Drysdale Lane,Houston,2930,9820,Vacant,26448,2744,23,SAN_Upto100,rent    ,per Area,Annual,8.75,8.75,8,8,0.75,0.75,6/26/2025 0:00,,,1
+1590,xgashaw1,986 Rosedale Dr,Atlanta,1451,986,Shaw Stainless LLC,16000,764,20,ATL_upto100,rent    ,per Area,Annual,8.25,8.25,6,6,2.25,2.25,6/26/2025 0:00,t0000469,2247,1
+7803,3ga00014,"Hart Portfolio, ATL - 1120 Vend Dr",Atlanta,63869,100,"Five Star Food Service, Inc. ",25000,5389,20,ATL_upto100,rent    ,per Area,Annual,10,10,6,6,4,4,6/26/2025 0:00,t0001526,74994,1
+7799,3ga00012,"Hart Portfolio, ATL - 4916 N. Royal Dr",Atlanta,63867,100,"Five Star Food Service, Inc. ",30000,5387,20,ATL_upto100,rent    ,per Area,Annual,10.25,10.25,6,6,4.25,4.25,6/26/2025 0:00,t0001524,74991,1
+7801,3ga00013,"Hart Portfolio, ATL - 4919 N Royal Dr",Atlanta,63868,100,"Five Star Food Service, Inc. ",80600,5388,20,ATL_upto100,rent    ,per Area,Annual,8.75,8.75,6,6,2.75,2.75,6/26/2025 0:00,t0001525,74992,1
+3575,xtx1709s,I-45 Logistics Center,Dallas,9212,100,"Baker Triangle Prefab, LTD",150018,839,44,Dal_100plus,rent    ,per Area,Annual,5,5,6.5,6.5,-1.5,-1.5,6/26/2025 0:00,t0000790,12400,1
+3575,xtx1709s,I-45 Logistics Center,Dallas,9213,150,"Solstice Sleep Products, Inc. ",95281,840,22,Dallas_upto100,rent    ,per Area,Annual,5.5,5.5,7.5,7.5,-2,-2,6/26/2025 0:00,t0000791,12407,1
+1291,nikedeal,Nike deal,Memphis,414,100,"Nike TN, Inc.",707940,2978,47,MEM_100KPlus,rent    ,per Area,Annual,4.5,4.5,4.15,4.15,0.35,0.35,6/26/2025 0:00,t0000353,980,1

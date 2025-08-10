@@ -1,0 +1,68 @@
+DECLARE @SnapshotDate DATE = CAST(GETDATE() AS DATE);
+
+WITH RankedResults AS (
+    SELECT
+        p.hmy AS [Property HMY],
+        p.scode AS [Prop Code],
+        RTRIM(ISNULL(p.saddr1, '')) AS PropName,
+        ISNULL(att.subgroup1, '') AS [Market],
+        u.HMY AS [Unit HMY],
+        u.scode AS UnitCode,
+        ISNULL(y.TenantStatus, 'Vacant') AS TenantName,
+        ISNULL(dbo.Calcunitarea(u.hmy, @SnapshotDate), 0) AS UnitArea,
+        ISNULL(x.hUnitMLA, 0) AS UnitMlaId,
+        ISNULL(x.hMLAProfile, 0) AS ProfileMlaId,
+        ISNULL(m.sname, '') AS ProfileName,
+        chg.scode AS ChargeCode,
+        CASE c.iAmountType WHEN 1 THEN 'per Area' WHEN 2 THEN 'Flat' ELSE 'None' END AS AmtType,
+        CASE c.iAmountPeriod WHEN 0 THEN 'Annual' WHEN 1 THEN 'Quarterly' ELSE 'Monthly' END AS AmtPeriod,
+        ISNULL(c.dNewAmount, 0) AS UnitMlaRentNew,
+        ISNULL(c.dRenewAmount, 0) AS UnitMlaRentRenew,
+        ISNULL(cpro.dNewAmount, 0) AS ProfileMlaRentNew,
+        ISNULL(cpro.dRenewAmount, 0) AS ProfileMlaRentRenew,
+        ISNULL(c.dNewAmount, 0) - ISNULL(cpro.dNewAmount, 0) AS NewVariance,
+        ISNULL(c.dRenewAmount, 0) - ISNULL(cpro.dRenewAmount, 0) AS RenewVariance,
+        @SnapshotDate AS AreaDate,
+        y.TenantCode,
+        y.TenantHMY,
+        ROW_NUMBER() OVER (
+            PARTITION BY u.HMY, chg.scode, ISNULL(y.TenantHMY, 0)
+            ORDER BY c.dNewAmount DESC
+        ) AS rn
+    FROM
+        property p
+        INNER JOIN unit u ON p.hmy = u.hproperty
+        LEFT JOIN attributes att ON p.hmy = att.hprop
+        INNER JOIN FCUnitProfileXref x ON x.hunit = u.hmy
+        LEFT JOIN CommMLACharge c ON x.hUnitMLA = c.hCommMLA
+        INNER JOIN FCMLAProfile m ON x.hMLAProfile = m.hmy
+        LEFT JOIN CommMLACharge cpro ON m.hCommMLA = cpro.hCommMLA
+        INNER JOIN CHARGTYP chg ON c.hChargeCode = chg.hmy AND cpro.hChargeCode = chg.hmy
+        LEFT JOIN (
+            SELECT
+                p.hmy AS PropertyId,
+                ISNULL(t.sLastName, 'Vacant') AS TenantStatus,
+                u.hmy AS UnitId,
+                t.scode AS TenantCode,
+                t.HMYPERSON AS TenantHMY
+            FROM
+                unit u
+                INNER JOIN property p ON p.hmy = u.hproperty
+                INNER JOIN unitxref ux ON ux.hunit = u.hmy
+                INNER JOIN tenant t ON t.hmyperson = ux.htenant
+            WHERE
+                CONVERT(DATE, ux.dtmovein) <= @SnapshotDate
+                AND CONVERT(DATE, ISNULL(ux.dtmoveout, '3000-01-01')) >= @SnapshotDate
+                AND @SnapshotDate BETWEEN ux.dtleasefrom AND ux.dtleaseto
+        ) y ON p.hmy = y.PropertyId AND u.hmy = y.UnitId
+    WHERE
+        p.itype = 3
+        AND p.iTypeCommercial = 1
+        AND u.exclude = 0
+)
+
+SELECT *
+FROM RankedResults
+WHERE rn = 1
+ORDER BY PropName, UnitCode;
+

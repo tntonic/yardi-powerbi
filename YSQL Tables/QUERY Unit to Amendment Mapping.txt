@@ -1,0 +1,42 @@
+SELECT
+  ux.hmy as "Record HMY",
+  ux.hAmendment as "Amendment HMY",
+  ux.hTenant as "Tenant HMY",
+  t.scode as "Tenant Code",
+  u.HPROPERTY as "Property HMY",
+  p.scode as "Property Code",
+  ux.hunit as "Unit HMY",
+  u.scode as "Unit Name",
+  ux.dtLeaseFrom,
+  ux.dtLeaseTo,
+  ux.hOption,
+  ux.hProposal,
+  ux.bInActive,
+  ux.dtInactive,
+  ux.hAmendmentInactive,
+  ux.dtMovein,
+  ux.dtMoveout,
+  ux.sNotes,
+  ux.dSqft,
+  ux.hMasterUnit,
+  ux.bActive,
+  ux.hCondoContract,
+  ux.iPersonType,
+  ux.hcommmoveoutreason,
+  ux.hForeignDb,
+  ux.sExtReference,
+  ux.hCopyFrom,
+  ux.IsPastPrimaryOwner,
+  ux.hCommMLAOverride,
+  ux.tRowVersion,
+  ux.dtClose,
+  ux.dTaxEstimate
+FROM
+  UnitXRef ux
+  JOIN Unit u ON ux.hUnit = u.hMy
+  Join property p on u.HPROPERTY = p.hmy
+  JOIN Attributes a ON u.HPROPERTY = a.HPROP
+  JOIN tenant t ON ux.htenant = t.HMYPERSON
+Where
+  p.sCode NOT LIKE 'mp%'
+  AND a.SUBGROUP32 IN ('Sold', 'Acquired')

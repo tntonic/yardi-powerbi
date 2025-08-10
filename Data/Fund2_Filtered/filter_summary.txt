@@ -1,0 +1,13 @@
+Fund 2 Data Filtering Summary
+==================================================
+
+Report Date: 6/30/2025
+Report Date (Excel Serial): 45838
+
+Record Counts:
+  Amendments: 877 records
+  Charge Schedule (All): 7,837 records
+  Charge Schedule (Active): 1,084 records
+  Properties: 195 records
+  Units: 387 records
+  Tenants: 417 records

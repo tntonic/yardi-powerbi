@@ -1,0 +1,96 @@
+# Financial Calculation Edge Case Test Scenarios
+# For Rent Roll Measures Testing - Complex Financial Scenarios
+# =====================================================
+
+test_scenario,property_code,tenant_id,base_rent,additional_charges,credits,net_monthly_rent,amendment_sf,expected_annual_psf,expected_monthly_psf,validation_notes
+# ===========================
+# ZERO AND NULL RENT SCENARIOS
+# ===========================
+Pure_Zero_Rent,PROP_FIN001,TEN_FIN001,0,0,0,0,1000,0.00,0.00,Free space - should not error on division
+Null_Base_Rent,PROP_FIN002,TEN_FIN002,,2000,-500,1500,1200,15.00,1.25,NULL base rent should be treated as zero
+Zero_With_Charges,PROP_FIN003,TEN_FIN003,0,3000,-1000,2000,1500,16.00,1.33,Zero base but positive net rent
+All_Nulls,PROP_FIN004,TEN_FIN004,,,,,1000,0.00,0.00,All financial fields NULL
+# ===========================
+# NEGATIVE RENT SCENARIOS  
+# ===========================
+Negative_Base_Rent,PROP_FIN005,TEN_FIN005,-1000,8000,-2000,5000,2000,30.00,2.50,Negative base rent (unusual but valid)
+Large_TI_Allowance,PROP_FIN006,TEN_FIN006,8000,2000,-12000,-2000,3000,-8.00,-0.67,TI allowance exceeds rent (negative net)
+Percentage_Rent_Credit,PROP_FIN007,TEN_FIN007,5000,1000,-500,5500,2200,30.00,2.50,Percentage rent calculated as credit
+Lease_Incentive,PROP_FIN008,TEN_FIN008,10000,0,-3000,7000,2800,30.00,2.50,Lease incentive reduces effective rent
+# ===========================
+# EXTREME VALUE SCENARIOS
+# ===========================
+Very_High_Rent,PROP_FIN009,TEN_FIN009,999999,50000,0,1049999,1000,12599.99,1050.00,Extremely high rent per SF
+Very_Low_Rent,PROP_FIN010,TEN_FIN010,1,0,0,1,10000,0.00,0.00,Extremely low rent - practically free
+Micro_Tenant_Space,PROP_FIN011,TEN_FIN011,500,100,0,600,1,7200.00,600.00,Very small space high PSF
+Massive_Warehouse,PROP_FIN012,TEN_FIN012,100000,20000,0,120000,2000000,0.72,0.06,Very large space low PSF
+# ===========================
+# ROUNDING AND PRECISION SCENARIOS
+# ===========================
+Precise_Division,PROP_FIN013,TEN_FIN013,3333,0,0,3333,999,40.00,3.33,Tests precision in division
+Third_Cent_Rounding,PROP_FIN014,TEN_FIN014,1000,0,0,1000,333,36.04,3.00,Rounding to nearest cent
+Very_Precise_Rent,PROP_FIN015,TEN_FIN015,1234.56,234.78,-123.45,1345.89,987,16.36,1.36,Multiple decimal places
+# ===========================
+# COMPLEX CHARGE STRUCTURES
+# ===========================
+Multiple_Charge_Types,PROP_FIN016,TEN_FIN016,8000,0,0,8000,2000,48.00,4.00,Base rent only
+Base_Plus_CAM,PROP_FIN016,TEN_FIN016,8000,2400,0,10400,2000,62.40,5.20,Base rent + CAM charges
+Base_CAM_Insurance_Tax,PROP_FIN016,TEN_FIN016,8000,3600,0,11600,2000,69.60,5.80,Full service lease
+Gross_Lease,PROP_FIN017,TEN_FIN017,12000,0,0,12000,3000,48.00,4.00,All-inclusive gross lease
+NNN_Lease_Structure,PROP_FIN018,TEN_FIN018,6000,4000,0,10000,2500,48.00,4.00,Triple net lease structure
+Percentage_Rent_Base,PROP_FIN019,TEN_FIN019,5000,3000,0,8000,2000,48.00,4.00,Base plus percentage rent
+# ===========================
+# CURRENCY AND SCALE SCENARIOS
+# ===========================
+Small_Dollar_Amounts,PROP_FIN020,TEN_FIN020,100,50,0,150,100,18.00,1.50,Very small dollar amounts
+Large_Portfolio_Scale,PROP_FIN021,TEN_FIN021,250000,75000,0,325000,500000,7.80,0.65,Large tenant large space
+Mid_Market_Office,PROP_FIN022,TEN_FIN022,15000,4500,0,19500,5000,46.80,3.90,Typical office lease
+Industrial_Warehouse,PROP_FIN023,TEN_FIN023,25000,8000,0,33000,75000,5.28,0.44,Typical industrial lease
+Retail_High_Street,PROP_FIN024,TEN_FIN024,35000,12000,0,47000,3500,161.14,13.43,High-end retail space
+# ===========================
+# ZERO SQUARE FOOTAGE SCENARIOS
+# ===========================
+Virtual_Office_Zero_SF,PROP_FIN025,TEN_FIN025,2000,500,0,2500,0,ERROR,ERROR,Virtual office - should handle division by zero
+Storage_Only_Null_SF,PROP_FIN026,TEN_FIN026,1000,0,0,1000,,ERROR,ERROR,Storage with NULL SF
+Administrative_Fee,PROP_FIN027,TEN_FIN027,500,0,0,500,0,ERROR,ERROR,Administrative fee with no space
+# ===========================
+# AMENDMENT-BASED RENT CHANGES
+# ===========================
+Escalation_Amendment,PROP_FIN028,TEN_FIN028,10000,3000,0,13000,4000,39.00,3.25,Annual escalation amendment
+Market_Adjustment,PROP_FIN029,TEN_FIN029,8000,2500,-1500,9000,3000,36.00,3.00,Market-based rent adjustment
+Renewal_Increase,PROP_FIN030,TEN_FIN030,12000,4000,0,16000,4500,42.67,3.56,Renewal with rent increase
+Renewal_Decrease,PROP_FIN031,TEN_FIN031,8000,2000,0,10000,3000,40.00,3.33,Renewal with rent decrease
+# ===========================
+# LEASING ACTIVITY RENT CALCULATIONS
+# ===========================
+New_Lease_Market_Rate,PROP_FIN032,TEN_FIN032,15000,4500,0,19500,5000,46.80,3.90,New lease at market rate
+New_Lease_Above_Market,PROP_FIN033,TEN_FIN033,20000,5000,0,25000,4500,66.67,5.56,New lease above market
+New_Lease_Below_Market,PROP_FIN034,TEN_FIN034,10000,2500,0,12500,4000,37.50,3.13,New lease below market
+Renewal_Same_Rate,PROP_FIN035,TEN_FIN035,12000,3600,0,15600,4200,44.57,3.71,Renewal at same rate
+Renewal_10_Percent_Increase,PROP_FIN036,TEN_FIN036,13200,3600,0,16800,4200,48.00,4.00,Renewal 10% increase
+Renewal_5_Percent_Decrease,PROP_FIN037,TEN_FIN037,11400,3600,0,15000,4200,42.86,3.57,Renewal 5% decrease
+# ===========================
+# WALT WEIGHTED CALCULATIONS
+# ===========================
+High_Rent_Short_Term,PROP_FIN038,TEN_FIN038,50000,15000,0,65000,5000,156.00,13.00,High rent short lease for WALT
+Low_Rent_Long_Term,PROP_FIN039,TEN_FIN039,5000,1500,0,6500,10000,7.80,0.65,Low rent long lease for WALT
+Medium_Rent_Medium_Term,PROP_FIN040,TEN_FIN040,20000,6000,0,26000,8000,39.00,3.25,Medium rent medium lease
+# ===========================
+# CALCULATION CONSISTENCY TESTS
+# ===========================
+Annual_PSF_Check,PROP_FIN041,TEN_FIN041,10000,0,0,10000,2500,48.00,4.00,Monthly*12/SF should equal annual PSF
+Monthly_PSF_Check,PROP_FIN042,TEN_FIN042,12000,0,0,12000,3000,48.00,4.00,Monthly/SF should equal monthly PSF
+Rent_Roll_PSF_Check,PROP_FIN043,TEN_FIN043,15000,0,0,15000,3750,48.00,4.00,Rent roll PSF consistency check
+# ===========================
+# ERROR HANDLING SCENARIOS
+# ===========================
+Division_By_Zero_Test,PROP_FIN044,TEN_FIN044,5000,0,0,5000,0,ERROR,ERROR,Should handle division by zero gracefully
+Null_Division_Test,PROP_FIN045,TEN_FIN045,6000,0,0,6000,,ERROR,ERROR,Should handle null division gracefully  
+Invalid_Negative_SF,PROP_FIN046,TEN_FIN046,4000,0,0,4000,-1000,ERROR,ERROR,Negative SF should be flagged as error
+# ===========================
+# REAL WORLD VALIDATION SCENARIOS
+# ===========================
+Class_A_Office_Chicago,PROP_FIN047,TEN_FIN047,28000,8400,0,36400,7500,58.24,4.85,Class A office typical rates
+Industrial_Atlanta,PROP_FIN048,TEN_FIN048,15000,3000,0,18000,45000,4.80,0.40,Industrial warehouse typical
+Retail_Mall_NYC,PROP_FIN049,TEN_FIN049,75000,25000,0,100000,2500,480.00,40.00,High-end retail typical
+Medical_Office_LA,PROP_FIN050,TEN_FIN050,45000,13500,0,58500,15000,46.80,3.90,Medical office typical

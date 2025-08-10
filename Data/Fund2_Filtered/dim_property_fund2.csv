@@ -1,0 +1,196 @@
+property id,property code,is active,postal address,postal city,postal state,postal zip code,postal country,property name,acquire date,dispose date,inactive date,is commercial,is international,property last closed period,database id
+2723,xfl11660,True,,Jacksonville,FL,32224.0,US,11660 Central Parkway,,,,True,False,6/1/25,1
+3636,xfl3333c,False,,Jacksonville,FL,32209.0,US,3333 N Canal Street,,,6/18/24,True,False,6/1/25,1
+3650,xfl333n6,False,,Miami,FL,33142.0,US,3330 NW 60th St,,,6/27/22,True,False,6/1/25,1
+2722,xfl3900w,False,,Tampa,FL,33611.0,US,3900 West Coachman Avenue,,,7/12/24,True,False,6/1/25,1
+3308,xfl420sw,True,,Tampa,FL,33619.0,US,420 S. Ware Boulevard,,,,True,False,6/1/25,1
+2993,xfl4646g,False,,Tampa,FL,33611.0,US,4646 South Grady Avenue,,,7/12/24,True,False,6/1/25,1
+7022,xfl6704n,True,,Tampa,FL,33610.0,US,6704 N 54th St,,,,True,False,6/1/25,1
+3278,xfl7720p,True,,Jacksonville,FL,32256.0,US,7720 Philips Highway,,,,True,False,6/1/25,1
+1379,xflstuar,True,,Jacksonville,FL,32254.0,US,6959 Stuart Avenue,4/15/22,,,True,False,6/1/25,1
+4075,xga1145b,True,,Jonesboro,GA,30236.0,US,1145 Battlecreek Road,,,,True,False,6/1/25,1
+1732,xga1157,True,,Jonesboro,GA,30236.0,US,1157 Battlecreek Road,,,,True,False,6/1/25,1
+1670,xga130j,True,,Atlanta,GA,30336.0,US,130 James Aldredge Boulevard,,,,True,False,6/1/25,1
+3670,xga1585r,True,,Stone Mountain,GA,30083.0,US,1585 Roadhaven Drive,,,,True,False,6/1/25,1
+3631,xga1610s,True,,Lawrenceville,GA,30043.0,US,1610 Spectrum Drive,,,,True,False,6/1/25,1
+1894,xga2100b,True,,Duluth,GA,30096.0,US,2100 Boggs Road,,,,True,False,6/1/25,1
+1689,xga265c,True,,Cumming,GA,30319.0,US,265 Castleberry Industrial Drive,,,,True,False,6/1/25,1
+3632,xga2900j,True,,Peachtree Corners,GA,30071.0,US,2900 Jones Mill,,,,True,False,6/1/25,1
+3729,xga3100j,True,,Smyrna,GA,30080.0,US,3100 Jonquil Drive,,,,True,False,6/1/25,1
+3273,xga3350h,True,,Atlanta,GA,30354.0,US,3350 Hamilton Boulevard,,,,True,False,6/1/25,1
+3623,xga3471a,True,,Atlanta,GA,30331.0,US,3471 Atlanta Industrial Parkway,,,,True,False,6/1/25,1
+3668,xga3651c,True,,Doraville,GA,30340.0,US,3651 Clearview Place,,,,True,False,6/1/25,1
+3356,xga401wi,True,,Atlanta,GA,30312.0,US,401 Windsor Street SW,,,,True,False,6/1/25,1
+1681,xga4225,True,,Norcross,GA,30319.0,US,4225 Phil Niekro Parkway,,,,True,False,6/1/25,1
+3635,xga4450c,True,,Atlanta,GA,30336.0,US,4450 Commerce Circle,,,,True,False,6/1/25,1
+1886,xga4507m,True,,Atlanta,GA,30319.0,US,4507 Mills Place,,,,True,False,6/1/25,1
+2990,xga4600f,True,,Atlanta,GA,30036.0,US,4600&4630 Frederick Drive,,,,True,False,6/1/25,1
+1696,xga4601,False,,College Park,GA,30349.0,US,4601 Welcome All Road,,,8/1/23,True,False,6/1/25,1
+1892,xga4680n,True,,Tucker,GA,30084.0,US,4680 North Royal Atlanta Drive,,,,True,False,6/1/25,1
+1733,xga5070,True,,Stonecrest,GA,30038.0,US,5070 Minola Drive,,,,True,False,6/1/25,1
+1893,xga5121b,True,,Norcross,GA,30071.0,US,5121 Buford Highway,,,,True,False,6/1/25,1
+1897,xga800in,True,,Marietta,GA,30062.0,US,800-850 Industrial Park Drive,,,,True,False,6/1/25,1
+2721,xga800wh,True,,Atlanta,GA,30336.0,US,800 Wharton Drive,,,,True,False,6/1/25,1
+1679,xga9330,True,,Alpharetta,GA,30319.0,US,9330 Industrial Trace,,,,True,False,6/1/25,1
+3376,xga9335i,True,,Alpharetta,GA,30004.0,US,9335 Industrial Trace,,,,True,False,6/1/25,1
+1754,xgadors,False,,Marietta,GA,30066.0,US,2009 Dorsey Road,,,2/13/24,True,False,6/1/25,1
+1391,xgahire1,True,,Decatur,GA,30030.0,US,196 Rio Circle,,,,True,False,6/1/25,1
+1392,xgahire2,True,,Decatur,GA,30030.0,US,201 Laredo Drive,,,,True,False,6/1/25,1
+1393,xgahire3,True,,Decatur,GA,30030.0,US,210 Rio Circle,,,,True,False,6/1/25,1
+1394,xgahire4,True,,Decatur,GA,30030.0,US,224 Rio Circle,,,,True,False,6/1/25,1
+1395,xgahire5,True,,Decatur,GA,30030.0,US,246 Rio Circle,,,,True,False,6/1/25,1
+1396,xgahire6,True,,Decatur,GA,30030.0,US,252 Rio Circle,,,,True,False,6/1/25,1
+1397,xgahire7,True,,Decatur,GA,30030.0,US,2980 Pine Street,,,,True,False,6/1/25,1
+1398,xgahire8,True,,Decatur,GA,30030.0,US,3000 Pine Street,,,,True,False,6/1/25,1
+1640,xgamc200,True,,Acworth,GA,30101.0,US,4200 McEver Drive,,,,True,False,6/1/25,1
+1641,xgamc220,True,,Acworth,GA,30101.0,US,4220 McEver Drive,,,,True,False,6/1/25,1
+1642,xgamc255,True,,Acworth,GA,30101.0,US,4255 McEver Drive,,,,True,False,6/1/25,1
+1643,xgamc260,True,,Acworth,GA,30101.0,US,4260 McEver Drive,,,,True,False,6/1/25,1
+1590,xgashaw1,True,,Hiram,GA,30141.0,US,986 Rosedale Dr,,,,True,False,6/1/25,1
+1591,xgashaw2,True,,Marietta,GA,30060.0,US,922 Mountain Ind Dr,,,,True,False,6/1/25,1
+1592,xgashaw3,True,,Marietta,GA,30060.0,US,899 Mountain Ind Dr,,,,True,False,6/1/25,1
+1593,xgashaw4,True,,Powder Springs,GA,30127.0,US,"3275 Florence Rd, Bldg 300",,,,True,False,6/1/25,1
+1594,xgashaw5,True,,Powder Springs,GA,30127.0,US,"3275 Florence Rd, Bldg 200",,,,True,False,6/1/25,1
+1595,xgashaw6,True,,Powder Springs,GA,30127.0,US,"3275 Florence Rd, Bldg 100",,,,True,False,6/1/25,1
+2986,xil1000a,True,,West Chicago,IL,60185.0,US,1000 Atlantic Drive,,,,True,False,6/1/25,1
+3640,xil1000e,True,,Chicago,IL,60619.0,US,1000 E 87th St,,,,True,False,6/1/25,1
+2985,xil1001a,True,,Elk Grove Village,IL,60007.0,US,1001 Arthur Avenue,,,,True,False,6/1/25,1
+3738,xil1100h,True,,Elk Grove Village,IL,60007.0,US,1100-1150 Howard,,,,True,False,6/1/25,1
+1665,xil1111,True,,Elgin,IL,60123.0,US,1111 Bowes Rd,,,,True,False,6/1/25,1
+3377,xil11697,True,,Northlake,IL,60164.0,US,11697 W Grand,,,,True,False,6/1/25,1
+3626,xil1200p,True,,Elk Grove Village,IL,60007.0,US,1200 Pratt Boulevard,,,,True,False,6/1/25,1
+3301,xil121lo,True,,Addison,IL,60101.0,US,121 South Lombard Road,,,,True,False,6/1/25,1
+3548,xil141be,True,,Bensenville,IL,60106.0,US,141-145 Bernice,,,,True,False,6/1/25,1
+1663,xil1600,True,,Hanover Park,IL,60133.0,US,1600 Hunter Rd,,,,True,False,6/1/25,1
+3367,xil1600b,True,,Des Plaines,IL,60018.0,US,1600 Birchwood Avenue,,,,True,False,6/1/25,1
+1659,xil1601,False,,Elk Grove Village,IL,60007.0,US,1601 Lunt Ave,,,2/29/24,True,False,6/1/25,1
+3368,xil1630b,True,,Des Plaines,IL,60018.0,US,1630 Birchwood Avenue,,,,True,False,6/1/25,1
+1661,xil1688,True,,Glendale Heights,IL,60139.0,US,1688 Glen Ellyn Rd,,,,True,False,6/1/25,1
+3739,xil1701b,True,,Des Plaines,IL,60018.0,US,1701 Birchwood,,,,True,False,6/1/25,1
+1684,xil1951,False,,Elk Grove Village,IL,60007.0,US,1951 Touhy Ave,,,12/2/21,True,False,6/1/25,1
+1664,xil1terr,True,,Bolingbrook,IL,60440.0,US,1 Territorial Court,,,,True,False,6/1/25,1
+3547,xil201ja,True,,Bensenville,IL,60106.0,US,201 James Street,,,,True,False,6/1/25,1
+1734,xil2101,True,,Elk Grove Village,IL,60007.0,US,2101 Arthur Avenue,,,,True,False,6/1/25,1
+3669,xil222ja,True,,Bensenville,IL,60106.0,US,222 James Street,,,,True,False,6/1/25,1
+3545,xil231ja,True,,Bensenville,IL,60106.0,US,231 James Street,,,,True,False,6/1/25,1
+3546,xil240ja,False,,Bensenville,IL,60106.0,US,240-252 James Street,,,12/19/23,True,False,6/1/25,1
+1891,xil2500w,True,,Chicago,IL,60612.0,US,2500 West Lake,,,,True,False,6/1/25,1
+1789,xil250n,True,,Chicago,IL,60612.0,US,250 North Washtenaw Avenue,,,,True,False,6/1/25,1
+3639,xil2710l,False,,Chicago,IL,60612.0,US,2710 W Lake St,,,11/13/23,True,False,6/1/25,1
+1662,xil305e,True,,Carol Stream,IL,60188.0,US,305 E North Ave,,,,True,False,6/1/25,1
+1900,xil464no,True,,Wheeling,IL,60090.0,US,464 Northgate Parkway,,,,True,False,6/1/25,1
+1873,xil529t,True,,Bensenville,IL,60106.0,US,529 Thomas Drive,,,,True,False,6/1/25,1
+1874,xil700h,True,,Glendale Heights,IL,60139.0,US,700 High Grove Boulevard,,,,True,False,6/1/25,1
+1660,xil747,True,,Elk Grove Village,IL,60007.0,US,747-777 Chase Ave,,,,True,False,6/1/25,1
+1899,xil770ar,True,,Elk Grove Village,IL,60007.0,US,770 Arthur Avenue,,,,True,False,6/1/25,1
+3638,xil7760m,True,,Niles,IL,60714.0,US,7760 N Merrimac,,,,True,False,6/1/25,1
+1901,xil77whe,True,,Wheeling,IL,60090.0,US,77 Wheeling Road,,,,True,False,6/1/25,1
+1680,xil900b,True,,Mt. Prospect,IL,60056.0,US,900 East Business Center Drive,,,,True,False,6/1/25,1
+1645,xilmitch,True,,Glandale Heights,IL,60139.0,US,561 Mitchell Ave,,,,True,False,6/1/25,1
+1657,xilmount,True,,Franklin Park,IL,60103.0,US,3325 Mount Prospect Road,,,,True,False,6/1/25,1
+1902,xky4175a,True,,Florence,KY,41042.0,US,4175 Aero ParkWay,,,,True,False,6/1/25,1
+1683,xnj1010,True,,Voorhees Township,NJ,8043.0,US,1010 Old Egg Harbor,,,,True,False,6/1/25,1
+1735,xnj108n,True,,Robbinsville,NJ,8691.0,US,108 North Gold Drive,,,,True,False,6/1/25,1
+1788,xnj10tw,True,,Moorestown,NJ,8057.0,US,10 Twosome Drive,,,,True,False,6/1/25,1
+3351,xnj121hi,False,,Woolwich Township,NJ,8085.0,US,121 High Hill Road-Unit B,,,3/31/23,True,False,6/1/25,1
+3302,xnj121mo,True,,Moonachie,NJ,7074.0,US,121 Moonachie Ave,,,,True,False,6/1/25,1
+1878,xnj125al,True,,Whippany,NJ,7981.0,US,125 Algonquin Parkway,12/17/21,,,True,False,6/1/25,1
+1882,xnj128ba,True,,Oakland,NJ,7436.0,US,128 Bauer Drive,12/17/21,,,True,False,6/1/25,1
+1879,xnj145al,True,,Whippany,NJ,7981.0,US,145 Algonquin Parkway,12/17/21,,,True,False,6/1/25,1
+1898,xnj14rol,True,,Mount Laurel,NJ,19130.0,US,14 Roland Avenue,,,,True,False,6/1/25,1
+1785,xnj14th,True,,Hamilton,NJ,8619.0,US,14-16 Thomas J Rhodes,,,,True,False,6/1/25,1
+1880,xnj156al,True,,Whippany,NJ,7981.0,US,156 Algonquin Parkway,12/17/21,,,True,False,6/1/25,1
+1904,xnj1601s,True,,Pennsauken,NJ,8110.0,US,1601-1641 Sherman Avenue,,,,True,False,6/1/25,1
+1876,xnj17pol,True,,Fairlawn,NJ,7410.0,US,17-01 Pollitt Drive,12/17/21,,,True,False,6/1/25,1
+3728,xnj1803u,True,,Delran,NJ,8075.0,US,1803 Underwood Boulevard,,,,True,False,6/1/25,1
+3795,xnj1980o,True,,Cherry Hill,NJ,8034.0,US,1980 Old Cuthbert Road,,,,True,False,6/1/25,1
+3642,xnj19ind,True,,Mahwah,NJ,7430.0,US,19 Industrial Avenue,,,,True,False,6/1/25,1
+1877,xnj19nev,True,,Fairlawn,NJ,7410.0,US,19-05 Nevins Road,12/17/21,,,True,False,6/1/25,1
+2989,xnj200ri,True,,Millstone,NJ,8535.0,US,200 Rike Drive,,,,True,False,6/1/25,1
+1388,xnj2036b,True,,Mount Laurel,NJ,8054.0,US,2036 Briggs Road,,,,True,False,6/1/25,1
+3388,xnj2050h,True,,Burlington,NJ,8016.0,US,20-50 Harkins Drive,,,,True,False,6/1/25,1
+2987,xnj2075h,True,,Logan Township,NJ,8085.0,US,2075 High Hill Road,,,,True,False,6/1/25,1
+1787,xnj220r,True,,Medford,NJ,8055.0,US,220 Route 70,,,,True,False,6/1/25,1
+1387,xnj3001i,True,,Mount Laurel,NJ,8054.0,US,3001 Irwin Road,,,,True,False,6/1/25,1
+1881,xnj30les,True,,Whippany,NJ,7981.0,US,30 Leslie Court,12/17/21,,,True,False,6/1/25,1
+1677,xnj313c,True,,Swedesboro,NJ,19130.0,US,313 Church Street,,,,True,False,6/1/25,1
+1695,xnj390n,True,,Moorestown,NJ,19102.0,US,390 New Albany Road,,,,True,False,6/1/25,1
+3272,xnj400wa,True,,Gloucester City,NJ,8030.0,US,400 Water Street,,,,True,False,6/1/25,1
+1884,xnj40pot,True,,Oakland,NJ,7436.0,US,40 Potash Road,12/17/21,,,True,False,6/1/25,1
+1676,xnj420be,False,,Bellmawr,NJ,8031.0,US,420 Benigno Boulevard,,,,True,False,6/1/25,1
+1675,xnj440be,False,,Bellmawr,NJ,8031.0,US,440 Benigno Boulevard,,,,True,False,6/1/25,1
+1678,xnj52col,True,,Blackwood,NJ,19102.0,US,52 Coles Road,,,,True,False,6/1/25,1
+3637,xnj59cha,True,,Somerville,NJ,8876.0,US,59 Chambers Brook Road,,,,True,False,6/1/25,1
+1883,xnj5thor,True,,Oakland,NJ,7436.0,US,5 Thornton Road,12/17/21,,,True,False,6/1/25,1
+1389,xnj6000i,True,,Mount Laurel,NJ,8054.0,US,6000 Irwin Road,,,,True,False,6/1/25,1
+3667,xnj6900r,True,,Pennsauken,NJ,8110.0,US,6900 River Road,,,,True,False,6/1/25,1
+3374,xnj6925s,True,,Pennsauken,NJ,7307.0,US,6925 Sherman Ave,,,,True,False,6/1/25,1
+1674,xnj6965,True,,Pennsauken,NJ,8109.0,US,6965 Airport Highway Lane,,,,True,False,6/1/25,1
+3652,xnj70cat,True,,Florence,NJ,8016.0,US,70 Cathy Lane,,,,True,False,6/1/25,1
+1887,xnj740co,True,,Delanco,NJ,8075.0,US,740 Coopertown Road,,,,True,False,6/1/25,1
+1668,xnj7550,True,,Pennsauken,NJ,8110.0,US,7550 North Crescent Boulevard,,,,True,False,6/1/25,1
+1682,xnj845l,True,,Moorestown,NJ,8057.0,US,845 Lancer Drive,,,,True,False,6/1/25,1
+1673,xnj900k,False,,Somerdale,NJ,8083.0,US,900 Kennedy Boulevard,,,,True,False,6/1/25,1
+2994,xnj9100p,True,,Pennsauken,NJ,8110.0,US,9100 Pennsauken Highway,,,,True,False,6/1/25,1
+1885,xnj95bau,True,,Oakland,NJ,7436.0,US,95 Bauer Drive,12/17/21,,,True,False,6/1/25,1
+1655,xnjcentr,True,,Pennsauken,NJ,8109.0,US,7055 W Central Highway,,,,True,False,6/1/25,1
+1599,xnjmorri,False,,Maple Shade,NJ,8052.0,US,14 Morris,,,10/9/24,True,False,6/1/25,1
+1588,xnjmway0,True,,Hainesport,NJ,8036.0,US,Mary Way Road,,,,True,False,6/1/25,1
+1584,xnjmway3,True,,Hainesport,NJ,8036.0,US,3 Mary Way,,,,True,False,6/1/25,1
+1585,xnjmway5,True,,Hainesport,NJ,8036.0,US,5 Mary Way,,,,True,False,6/1/25,1
+1586,xnjmway7,True,,Hainesport,NJ,8036.0,US,7 Mary Way,,,,True,False,6/1/25,1
+1587,xnjmway9,True,,Hainesport,NJ,8036.0,US,9 Mary Way,,,,True,False,6/1/25,1
+1589,xnjmwayr,True,,Hainesport,NJ,8036.0,US,1359 Route 38,,,,True,False,6/1/25,1
+3671,xoh154co,True,,Loveland,OH,45140.0,US,154 Commerce Blvd,,,,True,False,6/1/25,1
+1786,xoh382c,True,,Cincinnati,OH,45246.0,US,382 Circle Freeway Drive,,,,True,False,6/1/25,1
+1755,xoh8655,True,,Fairfield,OH,45011.0,US,8655 Seward Road,,,,True,False,6/1/25,1
+2724,xohcolu1,True,,Columbus,OH,43219.0,US,3000 – 3004 E 14th Avenue,,,,True,False,6/1/25,1
+2725,xohcolu2,True,,Columbus,OH,43219.0,US,3045 – 3065 Switzer Avenue,,,,True,False,6/1/25,1
+2726,xohcolu3,True,,Columbus,OH,43219.0,US,3040 – 3050 E 14th Avenue,,,,True,False,6/1/25,1
+2727,xohcolu4,True,,Columbus,OH,43219.0,US,1149 – 1161 Rarig Avenue,,,,True,False,6/1/25,1
+1654,xohcomme,True,,"West Chester, Butler County",OH,5246.0,US,10021 Commerce Park Drive,,,,True,False,6/1/25,1
+1383,xohmost,True,,Sharonville,OH,45241.0,US,12080 Mosteller Road,,,,True,False,6/1/25,1
+1756,xpa12111,True,,Bensalem,PA,19020.0,US,1211 Ford Road,,,,True,False,6/1/25,1
+2958,xpa18rai,True,,Royersford,PA,19468.0,US,18 Railroad Street,,,,True,False,6/1/25,1
+1667,xpa1peae,True,,Bristol,PA,19007.0,US,1 Pearl Buck Court,,,,True,False,6/1/25,1
+3641,xpa3041m,True,,Bensalem,PA,19020.0,US,3041 Marwin Road,,,,True,False,6/1/25,1
+1757,xpa327c,False,,Philadelphia,PA,19120.0,US,327 East Chew Avenue,,,3/31/23,True,False,6/1/25,1
+1758,xpa327cr,True,,Philadelphia,PA,19120.0,US,327 East Chew Avenue R,,,,True,False,6/1/25,1
+3304,xpa4200m,True,,Philadelphia,PA,19124.0,US,4200 Macalester Street,,,,True,False,6/1/25,1
+3306,xpa500ma,True,,Fort Washington,PA,19034.0,US,500 Maryland Avenue,,,,True,False,6/1/25,1
+1656,xpastate,False,,Philadelphia,PA,19136.0,US,8800 State Road,,,12/1/23,True,False,6/1/25,1
+1666,xtn187bo,False,,Jackson,TN,38301.0,US,187 Bobrick Drive,,,10/28/24,True,False,6/1/25,1
+1658,xtn225bo,True,,Jackson,TN,38301.0,US,225 Bobrick Drive,,,,True,False,6/1/25,1
+3364,xtn3961o,True,,Memphis,TN,38118.0,US,3961 Outland Road,,,,True,False,6/1/25,1
+1790,xtnawg1,False,,Memphis,TN,38118.0,US,4641 Burbank Road,,,12/8/23,True,False,6/1/25,1
+1791,xtnawg2,False,,Memphis,TN,38118.0,US,4690 Hungerford Road,,,9/29/23,True,False,6/1/25,1
+1372,xtndelp1,True,,Memphis,TN,38118.0,US,4290 Delp Street,4/12/21,,,True,False,6/1/25,1
+2952,xtndelp2,True,,Memphis,TN,38118.0,US,4319 Delp Street,,,,True,False,6/1/25,1
+3622,xtx1050k,True,,Dallas,TX,75220.0,US,10501 King William Drive,,,,True,False,6/1/25,1
+3307,xtx10704,True,,Dallas,TX,75220.0,US,10704 - 10710 Composite Drive,,,,True,False,6/1/25,1
+3201,xtx111pl,True,,Dallas,TX,75238.0,US,11100 Plano Road,,,,True,False,6/1/25,1
+1686,xtx1121,True,,Arlington,TX,76011.0,US,1121 108th Street,,,,True,False,6/1/25,1
+3625,xtx11839,True,,Dallas,TX,75228.0,US,11839 Shiloh Rd,,,,True,False,6/1/25,1
+1896,xtx12150,True,,Dallas,TX,75228.0,US,12150 Shiloh Road,,,,True,False,6/1/25,1
+3389,xtx1709i,False,,Dallas,TX,1709.0,US,"I-45 Logistics Center, Hutchins",,,5/24/22,True,False,6/1/25,1
+3575,xtx1709s,True,,Hutchins,TX,75141.0,US,I-45 Logistics Center,,,,True,False,6/1/25,1
+3624,xtx1721s,True,,Arlington,TX,76010.0,US,1721 Susan Dr,,,,True,False,6/1/25,1
+3204,xtx1919a,True,,Lubbock,TX,79404.0,US,1919 Avenue E,,,,True,False,6/1/25,1
+2988,xtx2125v,True,,Irving,TX,75061.0,US,2125 Vanco Drive,,,,True,False,6/1/25,1
+3621,xtx2445s,True,,Dallas,TX,75228.0,US,2445 Santa Anna Avenue,,,,True,False,6/1/25,1
+2992,xtx2616a,True,,Dallas,TX,75220.0,US,2616 Andjon Drive,,,,True,False,6/1/25,1
+1685,xtx2655,True,,Dallas,TX,75220.0,US,2655 Freewood Drive,,,,True,False,6/1/25,1
+3203,xtx310an,True,,San Antonio,TX,78219.0,US,3101 Aniol Street,,,,True,False,6/1/25,1
+1895,xtx3662m,True,,Garland,TX,75042.0,US,3662-3670 Miller Park Drive,,,,True,False,6/1/25,1
+3579,xtx3857m,True,,Garland,TX,75042.0,US,3857 Miller Park Drive,,,,True,False,6/1/25,1
+1888,xtx4201n,True,,Fort Worth,TX,76137.0,US,4201 N Beach Street,,,,True,False,6/1/25,1
+3629,xtx4666d,True,,Dallas,TX,75236.0,US,4666 Duncanville Road,,,,True,False,6/1/25,1
+3274,xtx4679w,False,,San Antonio,TX,78218.0,US,4679 Walzem Road,,,3/25/22,True,False,6/1/25,1
+3202,xtx467wa,True,,San Antonio,TX,78218.0,US,4679 Walzem Road,,,,True,False,6/1/25,1
+2720,xtx8154b,True,,San Antonio,TX,78266.0,US,8154 Bracken Creek Drive,,,,True,False,6/1/25,1
+1390,xtxball,True,,San Antonio,TX,78217.0,US,9615 Ball Street,,,,True,False,6/1/25,1
+1639,xtxdrysd,False,,Houston,TX,77041.0,US,9820 Drysdale Lane,,,12/13/23,True,False,6/1/25,1
+1598,xtxglen,True,,Dallas,TX,75233.0,US,3113 Glenfield Avenue,,,,True,False,6/1/25,1
+1652,xtxmorto,True,,Dallas,TX,75236.0,US,4000 Dan Morton Dr,,,,True,False,6/1/25,1
+1653,xtxritti,True,,San Antonio,TX,78218.0,US,4728 Goldfield Drive,,,,True,False,6/1/25,1
+1378,xtxwebbl,False,,San Antonio,TX,78218.0,US,7903 Webbles Dr,,,5/20/24,True,False,6/1/25,1

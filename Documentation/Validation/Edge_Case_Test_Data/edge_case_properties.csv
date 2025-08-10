@@ -1,0 +1,37 @@
+property_hmy,property_code,property_name,property_type,rentable_area,market_name,test_scenario
+PROP001,PROP001,Test Industrial Complex A,Industrial,50000,Test Market,Multiple_Amendments_Testing
+PROP002,PROP002,Test Office Building B,Office,25000,Test Market,Amendment_Sequence_Gaps
+PROP003,PROP003,Test Retail Center C,Retail,30000,Test Market,Duplicate_Sequence_Testing
+PROP004,PROP004,Test Warehouse D,Industrial,75000,Test Market,Status_Testing
+PROP005,PROP005,Test Mixed-Use E,Mixed-Use,40000,Test Market,Termination_Testing
+PROP006,PROP006,Test Office Park F,Office,35000,Test Market,Draft_Status_Testing
+PROP006A,PROP006A,Test Cancelled Building,Office,20000,Test Market,Cancelled_Status_Testing
+PROP007,PROP007,Test Month-to-Month Building,Industrial,45000,Test Market,Null_End_Date_Testing
+PROP008,PROP008,Test Future Lease Building,Office,28000,Test Market,Future_Date_Testing
+PROP009,PROP009,Test Expired Lease Building,Retail,22000,Test Market,Expired_Lease_Testing
+PROP010,PROP010,Test Boundary Date Building,Industrial,38000,Test Market,Date_Boundary_Testing
+PROP010A,PROP010A,Test Expiring Building A,Office,32000,Test Market,12_Month_Expiring_Testing
+PROP010B,PROP010B,Test Long Term Building,Industrial,55000,Test Market,Long_Term_Lease_Testing
+PROP011,PROP011,Test Zero Rent Building,Mixed-Use,25000,Test Market,Zero_Rent_Testing
+PROP012,PROP012,Test Negative Rent Building,Office,18000,Test Market,Negative_Rent_Testing
+PROP013,PROP013,Test High Rent Building,Premium Office,15000,Test Market,Extreme_Rent_Testing
+PROP013A,PROP013A,Test Zero SF Building,Office,20000,Test Market,Zero_SF_Testing
+PROP014,PROP014,Test Multi-Property Tenant A,Industrial,60000,Test Market,Multi_Property_Testing
+PROP015,PROP015,Test Multi-Property Tenant B,Industrial,85000,Test Market,Multi_Property_Testing
+PROP016,PROP016,Test Multi-Unit Building,Office,40000,Test Market,Multi_Unit_Testing
+PROP017,PROP017,Test Missing SF Building,Retail,30000,Test Market,Null_SF_Testing
+PROP018,PROP018,Test Missing Rent Building,Industrial,42000,Test Market,Null_Rent_Testing
+PROP019,PROP019,Test Missing Date Building,Office,26000,Test Market,Null_Date_Testing
+PROP019A,PROP019A,Test MTM Building,Mixed-Use,33000,Test Market,MTM_Testing
+PROP020,PROP020,Test New Lease Building,Office,28000,Test Market,New_Lease_Activity
+PROP021,PROP021,Test Renewal Building,Industrial,48000,Test Market,Renewal_Activity
+PROP022,PROP022,Test Termination Building,Retail,24000,Test Market,Termination_Activity
+PROP023,PROP023,Test Rent Change Building,Office,35000,Test Market,Rent_Change_Analysis
+PROP024,PROP024,Test Short Lease Building,Retail,12000,Test Market,Short_Term_Testing
+PROP025,PROP025,Test Long Lease Building,Industrial,95000,Test Market,Long_Term_Testing
+PROP026,PROP026,Test Expiring Lease Building,Office,31000,Test Market,WALT_Testing
+PROP100,PROP100,Test Performance Building,Industrial,100000,Test Market,Performance_Testing
+PROP201,PROP201,Realistic Industrial Complex,Industrial,250000,Real Market,Realistic_Scenario
+PROP202,PROP202,Realistic Office Tower,Office,45000,Real Market,Realistic_Scenario
+PROP203,PROP203,Realistic Shopping Center,Retail,80000,Real Market,Realistic_Scenario
+PROP204,PROP204,Realistic Warehouse,Industrial,150000,Real Market,Realistic_Scenario

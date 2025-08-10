@@ -1,0 +1,133 @@
+YARDI POWER BI DATA MODEL VALIDATION RESULTS
+=============================================
+Generated: 2025-08-09 03:21:55
+Baseline Assessment - Pre-Cleanup
+
+OVERALL INTEGRITY SCORE: 75.9/100 (Grade: C - Needs Improvement)
+
+TABLE INVENTORY VALIDATION
+==========================
+Expected Tables: 32
+Actual Tables Found: 29  
+Missing Tables: 14 (43.75%)
+Extra Tables: 11
+Matching Tables: 18 (56.25%)
+
+CRITICAL MISSING TABLES (14):
+- bridge_propertymarkets
+- control_active_scenario  
+- dim_assetstatus
+- dim_marketsegment
+- dim_moveoutreasons
+- dim_newleasereason
+- dim_renewalreason
+- dim_tenant (CRITICAL - breaks rent roll)
+- dim_unittypelist
+- dim_yearbuiltcategory
+- external_market_growth_projections
+- fact_leasingactivity (CRITICAL - no leasing metrics)
+- fact_marketrentsurvey
+- ref_book_override_logic
+
+ORPHANED RECORDS ANALYSIS
+=========================
+fact_total Total Records: 506,367
+Property Orphaned Records: 164,646 (32.52%)
+Account Orphaned Records: 0 (0.00%)
+
+Financial Impact:
+- Total Transaction Amount: $2,577,271,529.29
+- Orphaned Amount: $822,064,997.15 (31.90%)
+- Affected Property IDs: 579 unique properties
+
+Top Orphaned Properties:
+- Property ID 2828: 3,177 records
+- Property ID 2829: 2,776 records  
+- Property ID 1604: 2,699 records
+- Property ID 3599: 2,310 records
+- Property ID 1606: 2,219 records
+
+AMENDMENT DUPLICATE ANALYSIS
+============================
+Total Amendments: 2,472
+Active Amendments: 2,471 (Activated + Superseded)
+Amendment Status Distribution:
+- Activated: 1,520 (61.5%)
+- Superseded: 951 (38.5%)
+- In Process: 1 (0.04%)
+
+Unique Property/Tenant Combinations: 1,304
+Duplicate Latest Amendments: 0 (0.00%) ✓ PERFECT
+
+MISSING RENT CHARGES ANALYSIS
+=============================
+Active Amendments: 2,471
+Amendments with Charges: 1,736 (70.25%)
+Amendments WITHOUT Charges: 735 (29.75%)
+Total Charge Records: 19,371
+
+BASELINE METRICS
+===============
+Total Records Across All Tables: 1,266,394
+Tables with Data: 28
+
+Top Tables by Record Count:
+1. fact_occupancyrentarea: 601,319 records (47.5%)
+2. fact_total: 506,367 records (40.0%)  
+3. dim_propertyattributes: 30,485 records (2.4%)
+4. fact_fp_fmvm_marketunitrates: 25,388 records (2.0%)
+5. dim_accounttreeaccountmapping: 22,856 records (1.8%)
+
+Critical Tables Present: 4/4 (100%)
+- ✓ fact_total
+- ✓ fact_occupancyrentarea  
+- ✓ dim_property
+- ✓ dim_fp_amendmentsunitspropertytenant
+- ✓ dim_fp_amendmentchargeschedule
+
+INTEGRITY SCORE BREAKDOWN
+=========================
+Table Completeness: 56.2/100 (weight: 30%)
+Amendment Integrity: 100.0/100 (weight: 25%)
+Orphan Integrity: 67.5/100 (weight: 20%)
+Charges Integrity: 70.3/100 (weight: 15%)
+Critical Tables: 100.0/100 (weight: 10%)
+
+CRITICAL ISSUES SUMMARY
+=======================
+Total Issues Found: 16
+
+High Priority Issues:
+1. 164,646 orphaned property records (32.52% of fact_total)
+2. 735 amendments missing rent charges (29.75% of active amendments)
+3. 14 missing tables (43.75% of expected schema)
+4. Property key mismatch (property hmy vs property id)
+
+Business Impact:
+- $822M in orphaned transactions (31.90% of total value)
+- Rent roll accuracy compromised (70.25% coverage)
+- Financial reporting reliability at risk
+
+RECOMMENDED ACTIONS
+==================
+IMMEDIATE (Priority 1):
+1. Remove 164,646 orphaned fact_total records
+2. Extract missing dim_tenant table
+3. Standardize property key relationships
+4. Populate 735 missing rent charges
+
+SHORT-TERM (Priority 2):
+1. Add fact_leasingactivity table
+2. Add remaining missing dimension tables  
+3. Implement data quality monitoring
+4. Re-validate model integrity
+
+TARGET METRICS (Post-Cleanup):
+- Integrity Score: 90+ (from 75.9)
+- Orphaned Records: <5% (from 32.52%)
+- Missing Charges: <10% (from 29.75%)
+- Table Completeness: 90%+ (from 56.25%)
+
+VALIDATION STATUS: COMPLETE
+NEXT PHASE: Data cleanup and remediation
+CRITICAL PATH: Fix orphaned records → Add missing tables → DAX validation

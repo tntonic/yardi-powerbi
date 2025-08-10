@@ -1,0 +1,294 @@
+property_code,property_name,city,state,tenant_id,suite,square_feet,monthly_rent,annual_rent,rent_psf,lease_start,lease_end,lease_type,status
+xfl11660,11660 Central Parkway,Jacksonville,FL,t0000670,11660,65806,46290.77,555489.24,8.441315989423456,3/1/2025,2/28/2026,Renewal,Activated
+xfl3333c,3333 N Canal Street,Jacksonville,FL,t0000842,100,83800,0.0,0.0,0.0,8/12/2013,12/31/2026,Original Lease,Superseded
+xfl3333c,3333 N Canal Street,Jacksonville,FL,t0001015,200,39000,0.0,0.0,0.0,4/1/2023,3/31/2026,Original Lease,Superseded
+xfl3900w,3900 West Coachman Avenue,Tampa,FL,t0000668,BRIDGE,1731,0.0,0.0,0.0,7/1/2024,6/30/2027,Renewal,Superseded
+xfl420sw,420 S. Ware Boulevard,Tampa,FL,t0000744,A,9070,3588.91,43066.92,4.748282249173098,10/1/2022,9/30/2025,Renewal,Activated
+xfl420sw,420 S. Ware Boulevard,Tampa,FL,t0000942,B,6832,7297.12,87565.44,12.816955503512881,10/1/2022,9/30/2027,Original Lease,Activated
+xfl420sw,420 S. Ware Boulevard,Tampa,FL,t0001339,C,8956,9702.33,116427.95999999999,12.99999553372041,10/1/2024,10/31/2029,Original Lease,Activated
+xfl4646g,4646 South Grady Avenue,Tampa,FL,t0000689,4646,79188,0.0,0.0,0.0,7/1/2024,6/30/2027,Renewal,Superseded
+xfl6704n,6704 N 54th St,Tampa,FL,t0001381,6706,20700,0.0,0.0,0.0,11/22/2024,5/31/2029,Original Lease,Superseded
+xfl6704n,6704 N 54th St,Tampa,FL,t0001382,6710,10368,8208.0,98496.0,9.5,12/1/2024,11/30/2025,Renewal,Activated
+xfl6704n,6704 N 54th St,Tampa,FL,t0001383,6708,10332,4939.41,59272.92,5.7368292682926825,11/22/2024,9/30/2027,Original Lease,Activated
+xfl6704n,6704 N 54th St,Tampa,FL,t0001384,6704,20000,13333.33,159999.96,7.999998,11/22/2024,2/28/2029,Original Lease,Activated
+xfl7720p,7720 Philips Highway,Jacksonville,FL,t0000716,B-C,47943,23490.73,281888.76,5.879664601714536,6/1/2025,11/30/2026,Renewal,Activated
+xfl7720p,7720 Philips Highway,Jacksonville,FL,t0000717,A,42952,0.0,0.0,0.0,5/1/2020,8/31/2025,Original Lease,Superseded
+xfl7720p,7720 Philips Highway,Jacksonville,FL,t0001501,A,52467,32791.88,393502.55999999994,7.500001143575961,6/1/2025,11/30/2030,Original Lease,Activated
+xflstuar,6959 Stuart Avenue,Jacksonville,FL,t0000464,6959,22734,10584.95,127019.40000000001,5.587199788862497,9/1/2020,8/31/2025,Original Lease,Activated
+xga1145b,1145 Battlecreek Road,Jonesboro,GA,t0000952,1145,67656,33828.0,405936.0,6.0,9/1/2024,8/31/2027,Renewal,Activated
+xga1157,1157 Battlecreek Road,Jonesboro,GA,t0000593,,166493,0.0,0.0,0.0,2/28/2025,,Proposal in DM,Activated
+xga130j,130 James Aldredge Boulevard,Atlanta,GA,t0000745,130,38164,16346.91,196162.91999999998,5.139998951891835,6/15/2022,7/31/2027,Original Lease,Activated
+xga1585r,1585 Roadhaven Drive,Stone Mountain,GA,t0000966,A,48000,36951.41,443416.92000000004,9.2378525,12/1/2022,3/31/2033,Original Lease,Activated
+xga1610s,1610 Spectrum Drive,Lawrenceville,GA,t0000851,A,27000,15392.01,184704.12,6.840893333333333,6/15/2022,3/31/2028,Original Lease,Activated
+xga2100b,2100 Boggs Road,Duluth,GA,t0000639,2100,103289,59913.39,718960.6799999999,6.960670352118812,1/1/2022,12/31/2028,Original Lease,Activated
+xga265c,265 Castleberry Industrial Drive,Cumming,GA,t0000768,265,82486,42741.77,512901.24,6.218039909802876,5/15/2022,7/15/2032,Original Lease,Activated
+xga2900j,2900 Jones Mill,Peachtree Corners,GA,t0001008,A,58225,0.0,0.0,0.0,3/13/2023,8/31/2033,Original Lease,Superseded
+xga2900j,2900 Jones Mill,Peachtree Corners,GA,t0001241,A,58362,49364.53,592374.36,10.150001028066207,7/1/2024,8/31/2029,Original Lease,Activated
+xga3350h,3350 Hamilton Boulevard,Atlanta,GA,t0000711,100,31825,15329.04,183948.48,5.779999371563237,2/22/2022,2/28/2027,Original Lease,Activated
+xga3471a,3471 Atlanta Industrial Parkway,Atlanta,GA,t0000796,3471,36072,21778.47,261341.64,7.245,6/1/2024,5/31/2026,Renewal,Activated
+xga3651c,3651 Clearview Place,Doraville,GA,t0000876,BB,0,8.3333,99.99959999999999,0.0,6/20/2022,6/30/2032,Original Lease,Activated
+xga3651c,3651 Clearview Place,Doraville,GA,t0000931,3651,20030,19047.96,228575.52,11.411658512231652,11/1/2022,12/31/2027,Original Lease,Activated
+xga401wi,401 Windsor Street SW,Atlanta,GA,t0000753,401,37500,30468.75,365625.0,9.75,12/1/1990,11/30/2026,Original Lease,Activated
+xga4225,4225 Phil Niekro Parkway,Norcross,GA,t0000569,110-111,5179,3804.42,45653.04,8.815029928557637,3/1/2023,2/28/2026,Renewal,Activated
+xga4225,4225 Phil Niekro Parkway,Norcross,GA,t0000571,112,2730,1919.02,23028.239999999998,8.435252747252747,7/1/2023,6/30/2028,Renewal,Activated
+xga4225,4225 Phil Niekro Parkway,Norcross,GA,t0000778,104     //101,15477,11606.47,139277.63999999998,8.999007559604573,6/1/2022,8/31/2027,Original Lease,Activated
+xga4225,4225 Phil Niekro Parkway,Norcross,GA,t0000961,107,2323,2093.8,25125.600000000002,10.816013775290573,11/1/2022,10/31/2027,Original Lease,Activated
+xga4450c,4450 Commerce Circle,Atlanta,GA,t0001012,A,18700,10112.96,121355.51999999999,6.489599999999999,3/26/2023,6/30/2028,Original Lease,Activated
+xga4507m,4507 Mills Place,Atlanta,GA,t0000641,WARHSE,87928,35097.93,421175.16000000003,4.79000045491766,5/1/2025,4/30/2030,Renewal,Activated
+xga4507m,4507 Mills Place,Atlanta,GA,t0000643,I,4137,2509.78,30117.36,7.28,10/1/2023,9/30/2026,Renewal,Activated
+xga4507m,4507 Mills Place,Atlanta,GA,t0000644,G-H,12040,0.0,0.0,0.0,10/1/2024,,Holdover,Superseded
+xga4507m,4507 Mills Place,Atlanta,GA,t0001340,G-H,12040,7023.33,84279.95999999999,6.999996677740863,10/1/2024,9/30/2027,Original Lease,Activated
+xga4600f,4600&4630 Frederick Drive,Atlanta,GA,t0000681,4600-F,10000,5408.0,64896.0,6.4896,4/1/2025,6/30/2025,Holdover,Activated
+xga4600f,4600&4630 Frederick Drive,Atlanta,GA,t0000682,4600-E,20000,13250.0,159000.0,7.95,5/1/2025,4/30/2028,Renewal,Activated
+xga4600f,4600&4630 Frederick Drive,Atlanta,GA,t0000683,4600-A,15035,10963.02,131556.24,8.749999334885267,5/1/2025,4/30/2026,Renewal,Activated
+xga4600f,4600&4630 Frederick Drive,Atlanta,GA,t0000684,,0,0.0,0.0,0.0,2/17/2023,,Assignment,Activated
+xga4600f,4600&4630 Frederick Drive,Atlanta,GA,t0000685,4630-B,12500,7041.67,84500.04000000001,6.760003200000001,7/1/2022,6/30/2025,Renewal,Superseded
+xga4600f,4600&4630 Frederick Drive,Atlanta,GA,t0000686,4630-D,15000,6250.0,75000.0,5.0,3/1/2021,4/30/2026,Original Lease,Activated
+xga4600f,4600&4630 Frederick Drive,Atlanta,GA,t0000687,4630-C,7437,0.0,0.0,0.0,11/29/2017,1/31/2026,Original Lease,Superseded
+xga4600f,4600&4630 Frederick Drive,Atlanta,GA,t0001049,4630-A,7529,4730.72,56768.64,7.539997343604728,8/15/2023,8/31/2028,Original Lease,Activated
+xga4600f,4600&4630 Frederick Drive,Atlanta,GA,t0001177,4630-C,7438,5124.78,61497.36,8.267996773326162,4/1/2024,6/30/2029,Original Lease,Activated
+xga4601,4601 Welcome All Road,College Park,GA,t0000965,RAILYARD,0,0.0,0.0,0.0,1/1/2023,12/31/2029,Original Lease,Superseded
+xga4680n,4680 North Royal Atlanta Drive,Tucker,GA,t0000635,4680,60669,25606.31,307275.72000000003,5.06478959600455,7/1/2020,6/30/2030,Original Lease,Activated
+xga5070,5070 Minola Drive,Stonecrest,GA,t0001040,5070-W,48276,0.0,0.0,0.0,8/1/2023,10/31/2028,Original Lease,Superseded
+xga5121b,5121 Buford Highway,Norcross,GA,t0000636,5121,31000,13000.0,156000.0,5.032258064516129,2/1/2020,1/31/2030,Original Lease,Activated
+xga800in,800-850 Industrial Park Drive,Marietta,GA,t0000640,850-B,25000,12921.08,155052.96,6.2021184,9/1/2019,12/31/2026,Original Lease,Activated
+xga800in,800-850 Industrial Park Drive,Marietta,GA,t0000941,800-A,47532,28411.94,340943.27999999997,7.172920979550618,9/1/2022,8/31/2027,Original Lease,Activated
+xga800wh,800 Wharton Drive,Atlanta,GA,t0000646,A,58370,24320.83,291849.96,4.999999314716464,7/1/2021,6/30/2026,Original Lease,Activated
+xga800wh,800 Wharton Drive,Atlanta,GA,t0000647,B,1600,728.0,8736.0,5.46,1/1/2024,6/30/2026,Renewal,Activated
+xga9330,9330 Industrial Trace,Alpharetta,GA,t0000542,,22500,0.0,0.0,0.0,4/30/2025,,Proposal in DM,Activated
+xgadors,2009 Dorsey Road,Marietta,GA,t0000583,750,20500,0.0,0.0,0.0,7/1/2023,6/30/2026,Renewal,Superseded
+xgadors,2009 Dorsey Road,Marietta,GA,t0000584,600,12234,0.0,0.0,0.0,10/1/2015,9/30/2025,Original Lease,Superseded
+xgadors,2009 Dorsey Road,Marietta,GA,t0000585,500,12098,0.0,0.0,0.0,7/1/2010,2/3/2026,Original Lease,Superseded
+xgadors,2009 Dorsey Road,Marietta,GA,t0000586,100     //200     //300     //400,76625,0.0,0.0,0.0,11/1/2022,10/31/2029,Expansion,Superseded
+xgadors,2009 Dorsey Road,Marietta,GA,t0000590,710,10979,0.0,0.0,0.0,5/1/2022,10/31/2029,Renewal,Superseded
+xgahire1,196 Rio Circle,Decatur,GA,t0000436,196,42000,18447.84,221374.08000000002,5.270811428571429,1/1/2021,10/31/2025,Remeasure,Activated
+xgahire2,201 Laredo Drive,Decatur,GA,t0000437,201,30000,13165.12,157981.44,5.2660480000000005,1/1/2021,10/31/2025,Remeasure,Activated
+xgahire3,210 Rio Circle,Decatur,GA,t0000438,210,40841,18520.7,222248.40000000002,5.441796234176441,1/1/2021,10/31/2025,Remeasure,Activated
+xgahire4,224 Rio Circle,Decatur,GA,t0000439,224,33000,15718.5,188622.0,5.7158181818181815,1/1/2021,10/31/2025,Remeasure,Activated
+xgahire5,246 Rio Circle,Decatur,GA,t0000440,246,37500,17861.93,214343.16,5.7158176,1/1/2021,10/31/2025,Remeasure,Activated
+xgahire6,252 Rio Circle,Decatur,GA,t0000441,252,16600,7284.7,87416.4,5.266048192771084,1/1/2021,10/31/2025,Remeasure,Activated
+xgahire7,2980 Pine Street,Decatur,GA,t0000442,2980,27322,11989.91,143878.91999999998,5.26604640948686,11/1/2020,10/31/2025,Original Lease,Activated
+xgahire8,3000 Pine Street,Decatur,GA,t0000443,3000,20000,8776.75,105321.0,5.26605,1/1/2021,10/31/2025,Remeasure,Activated
+xgamc200,4200 McEver Drive,Acworth,GA,t0000501,4200,45000,17532.0,210384.0,4.6752,9/1/2000,8/31/2025,Original Lease,Activated
+xgamc220,4220 McEver Drive,Acworth,GA,t0000502,4220,36352,33080.32,396963.83999999997,10.92,7/1/2023,7/31/2028,Renewal,Activated
+xgamc255,4255 McEver Drive,Acworth,GA,t0000503,4255,45376,23241.59,278899.08,6.146400740479549,7/1/2023,7/31/2028,Renewal,Activated
+xgamc260,4260 McEver Drive,Acworth,GA,t0000504,4260,16704,15200.64,182407.68,10.92,7/1/2023,7/31/2028,Renewal,Activated
+xgashaw1,986 Rosedale Dr,Hiram,GA,t0000469,986,16000,8960.0,107520.0,6.72,6/4/2021,6/30/2029,Original Lease,Activated
+xgashaw2,922 Mountain Ind Dr,Marietta,GA,t0000471,922,11300,7614.49,91373.88,8.086184070796461,6/4/2021,6/30/2029,Original Lease,Activated
+xgashaw3,899 Mountain Ind Dr,Marietta,GA,t0000470,899,26880,16889.19,202670.27999999997,7.539816964285714,6/4/2021,6/30/2029,Original Lease,Activated
+xgashaw4,"3275 Florence Rd, Bldg 300",Powder Springs,GA,t0000474,300,22200,11724.96,140699.52,6.337816216216216,6/4/2021,6/30/2029,Original Lease,Activated
+xgashaw5,"3275 Florence Rd, Bldg 200",Powder Springs,GA,t0000473,200,17766,9949.36,119392.32,6.720270178993584,6/4/2021,6/30/2029,Original Lease,Activated
+xgashaw6,"3275 Florence Rd, Bldg 100",Powder Springs,GA,t0000472,100,11275,6314.25,75771.0,6.720266075388027,6/4/2021,6/30/2029,Original Lease,Activated
+xil1000a,1000 Atlantic Drive,West Chicago,IL,t0000678,1000,43356,21983.05,263796.6,6.084431220592305,9/1/2021,8/31/2026,Original Lease,Activated
+xil1000e,1000 E 87th St,Chicago,IL,t0000917,100,34330,18969.11,227629.32,6.63062394407224,8/1/2022,9/30/2027,Original Lease,Activated
+xil1001a,1001 Arthur Avenue,Elk Grove Village,IL,t0000679,1001,19963,13774.47,165293.63999999998,8.28,1/1/2024,1/31/2029,Renewal,Activated
+xil1100h,1100-1150 Howard,Elk Grove Village,IL,t0000922,1100,7500,5451.68,65420.16,8.722688,11/1/2020,12/31/2025,Original Lease,Activated
+xil1100h,1100-1150 Howard,Elk Grove Village,IL,t0000925,1150,7500,5191.41,62296.92,8.306256,4/1/1995,7/31/2025,Original Lease,Activated
+xil1100h,1100-1150 Howard,Elk Grove Village,IL,t0001359,1130,8613,5742.0,68904.0,8.0,2/1/2025,1/31/2030,Original Lease,Activated
+xil1111,1111 Bowes Rd,Elgin,IL,t0000510,100,144578,79192.81,950313.72,6.573017471537855,4/1/2012,3/31/2027,Original Lease,Activated
+xil11697,11697 W Grand,Northlake,IL,t0000767,11697,48340,0.0,0.0,0.0,4/25/2022,4/30/2029,Original Lease,Superseded
+xil1200p,1200 Pratt Boulevard,Elk Grove Village,IL,t0000815,1200,32000,19001.55,228018.59999999998,7.125581249999999,10/1/2006,9/30/2026,Original Lease,Activated
+xil121lo,121 South Lombard Road,Addison,IL,t0000731,121,20000,14300.0,171600.0,8.58,2/29/2024,8/28/2027,Renewal,Activated
+xil141be,141-145 Bernice,Bensenville,IL,t0000787,143,2925,2319.59,27835.08,9.516266666666667,4/1/2020,10/31/2026,Original Lease,Activated
+xil141be,141-145 Bernice,Bensenville,IL,t0000788,145,5850,4519.13,54229.56,9.270010256410256,7/1/2023,7/31/2025,Renewal,Activated
+xil1600,1600 Hunter Rd,Hanover Park,IL,t0000514,100,238423,139278.77,1671345.2399999998,7.010000041942261,6/21/1995,11/30/2025,Original Lease,Activated
+xil1600b,1600 Birchwood Avenue,Des Plaines,IL,t0000775,1600,64216,36547.17,438566.04,6.829544661766538,3/31/2022,3/31/2032,Original Lease,Activated
+xil1601,1601 Lunt Ave,Elk Grove Village,IL,t0000520,1601B,35791,0.0,0.0,0.0,8/1/2015,10/31/2028,Original Lease,Superseded
+xil1601,1601 Lunt Ave,Elk Grove Village,IL,t0000521,1601A,27809,0.0,0.0,0.0,7/1/2018,10/31/2028,Original Lease,Superseded
+xil1630b,1630 Birchwood Avenue,Des Plaines,IL,t0000774,1630,40550,23078.17,276938.04,6.829544759556103,3/31/2022,3/31/2032,Original Lease,Activated
+xil1688,1688 Glen Ellyn Rd,Glendale Heights,IL,t0000518,1688,84804,30882.79,370593.48,4.37,7/1/2024,6/30/2029,Renewal,Activated
+xil1701b,1701 Birchwood,Des Plaines,IL,t0000921,100,48790,56555.74,678668.88,13.909999590079934,1/1/2025,6/30/2025,Holdover,Activated
+xil1terr,1 Territorial Court,Bolingbrook,IL,t0000511,A       //B       //C,52403,0.0,0.0,0.0,1/1/2025,12/31/2029,Proposal in DM,Activated
+xil1terr,1 Territorial Court,Bolingbrook,IL,t0000512,,0,0.0,0.0,0.0,6/3/2022,,Assignment,Superseded
+xil201ja,201 James Street,Bensenville,IL,t0000793,1060,1971,1616.22,19394.64,9.84,11/1/2024,10/31/2027,Renewal,Activated
+xil201ja,201 James Street,Bensenville,IL,t0000950,1080,5382,4485.0,53820.0,10.0,10/1/2022,9/30/2025,Original Lease,Activated
+xil201ja,201 James Street,Bensenville,IL,t0001155,201,7020,5780.0,69360.0,9.88034188034188,5/1/2024,4/30/2029,Original Lease,Activated
+xil201ja,201 James Street,Bensenville,IL,t0001418,1070,4680,3900.0,46800.0,10.0,2/1/2025,3/31/2028,Original Lease,Activated
+xil201ja,201 James Street,Bensenville,IL,t0001448,1050,2934,2200.5,26406.0,9.0,4/1/2025,3/31/2028,Original Lease,Activated
+xil2101,2101 Arthur Avenue,Elk Grove Village,IL,t0000594,B-C,34455,27276.88,327322.56,9.500001741401828,6/1/2025,8/31/2030,Renewal,Activated
+xil2101,2101 Arthur Avenue,Elk Grove Village,IL,t0001197,200,26994,20807.88,249694.56,9.250002222716159,11/1/2024,4/30/2029,Original Lease,Activated
+xil222ja,222 James Street,Bensenville,IL,t0000881,222,11020,8925.24,107102.88,9.718954627949184,4/1/2024,3/31/2029,Renewal,Activated
+xil222ja,222 James Street,Bensenville,IL,t0000907,224,12905,0.0,0.0,0.0,10/17/2022,11/30/2027,Original Lease,Superseded
+xil222ja,222 James Street,Bensenville,IL,t0001016,224,12905,11340.91,136090.91999999998,10.545596280511429,5/1/2023,6/30/2028,Original Lease,Activated
+xil231ja,231 James Street,Bensenville,IL,t0000798,,0,0.0,0.0,0.0,7/1/2023,,Assignment,Activated
+xil231ja,231 James Street,Bensenville,IL,t0000804,241     //1071,10267,7563.36,90760.31999999999,8.840003895977402,9/1/2023,6/30/2026,Expansion,Activated
+xil231ja,231 James Street,Bensenville,IL,t0001013,237     //239,15000,12062.5,144750.0,9.65,4/1/2023,5/31/2028,Original Lease,Activated
+xil231ja,231 James Street,Bensenville,IL,t0001050,233,2139,1853.8,22245.6,10.399999999999999,8/2/2023,8/31/2026,Original Lease,Activated
+xil231ja,231 James Street,Bensenville,IL,t0001417,235,7500,6406.25,76875.0,10.25,3/1/2025,2/29/2028,Original Lease,Activated
+xil240ja,240-252 James Street,Bensenville,IL,t0000810,244,3500,0.0,0.0,0.0,7/1/2010,6/30/2025,Original Lease,Superseded
+xil2500w,2500 West Lake,Chicago,IL,t0000642,2500,13000,10937.5,131250.0,10.096153846153847,1/1/2024,8/31/2027,Renewal,Activated
+xil250n,250 North Washtenaw Avenue,Chicago,IL,t0000608,250,46000,36685.0,440220.0,9.57,1/1/2024,12/31/2026,Renewal,Activated
+xil305e,305 E North Ave,Carol Stream,IL,t0001039,305,32838,24190.66,290287.92,8.84,10/1/2023,12/31/2030,Original Lease,Activated
+xil464no,464 Northgate Parkway,Wheeling,IL,t0000655,464,26927,19449.04,233388.48,8.667451999851451,10/1/2024,3/31/2027,Renewal,Activated
+xil529t,529 Thomas Drive,Bensenville,IL,t0000610,529,62000,31522.88,378274.56,6.101202580645161,11/1/2013,3/31/2029,Original Lease,Activated
+xil747,747-777 Chase Ave,Elk Grove Village,IL,t0000519,747,123200,68793.51,825522.1199999999,6.700666558441558,10/1/2011,1/31/2030,Original Lease,Activated
+xil770ar,770 Arthur Avenue,Elk Grove Village,IL,t0000718,780,21741,12493.65,149923.8,6.895901752449289,6/1/2025,10/31/2025,Holdover,Activated
+xil770ar,770 Arthur Avenue,Elk Grove Village,IL,t0001516,770,41455,50091.46,601097.52,14.50000048245085,6/1/2025,5/31/2026,Original Lease,Activated
+xil7760m,7760 N Merrimac,Niles,IL,t0000859,100,55980,28713.1,344557.19999999995,6.155005359056805,6/1/2022,5/31/2029,Original Lease,Activated
+xil77whe,77 Wheeling Road,Wheeling,IL,t0000665,77,78882,51795.9,621550.8,7.879501026850233,10/1/2024,3/31/2027,Renewal,Activated
+xil900b,900 East Business Center Drive,Mt. Prospect,IL,t0000540,A,30307,18467.98,221615.76,7.312362160556967,1/1/2019,5/31/2026,Original Lease,Activated
+xil900b,900 East Business Center Drive,Mt. Prospect,IL,t0000541,B,13231,7447.93,89375.16,6.754981482881113,10/1/2020,12/31/2025,Original Lease,Activated
+xilmitch,561 Mitchell Ave,Glandale Heights,IL,t0000505,561,30000,20000.0,240000.0,8.0,7/1/2016,6/30/2026,Original Lease,Activated
+xilmount,3325 Mount Prospect Road,Franklin Park,IL,t0000509,1,64002,26095.47,313145.64,4.892747726633543,12/15/2015,12/14/2030,Original Lease,Activated
+xky4175a,4175 Aero ParkWay,Florence,KY,t0000662,4175    //LAND,180000,80668.17,968018.04,5.377878,7/1/2017,6/30/2027,Original Lease,Activated
+xnj1010,1010 Old Egg Harbor,Voorhees Township,NJ,t0000579,1010,73489,0.0,0.0,0.0,11/1/2024,,Holdover,Superseded
+xnj10tw,10 Twosome Drive,Moorestown,NJ,t0000927,10,45375,32718.4,392620.80000000005,8.652800000000001,9/1/2022,8/31/2029,Original Lease,Activated
+xnj121mo,121 Moonachie Ave,Moonachie,NJ,t0000742,121,62000,81375.0,976500.0,15.75,4/1/2025,3/31/2027,Renewal,Activated
+xnj125al,125 Algonquin Parkway,Whippany,NJ,t0000613,01,21000,17500.0,210000.0,10.0,1/1/2020,12/31/2029,Original Lease,Activated
+xnj125al,125 Algonquin Parkway,Whippany,NJ,t0000614,02,50000,0.0,0.0,0.0,1/27/2023,12/31/2025,Renewal,Superseded
+xnj125al,125 Algonquin Parkway,Whippany,NJ,t0001173,02,50000,67166.67,806000.04,16.1200008,4/1/2024,4/30/2029,Original Lease,Activated
+xnj128ba,128 Bauer Drive,Oakland,NJ,t0000624,01,10341,12831.46,153977.52,14.890002901073396,10/1/2022,9/30/2027,Renewal,Activated
+xnj128ba,128 Bauer Drive,Oakland,NJ,t0000991,04,10699,13017.12,156205.44,14.600003738667166,1/1/2023,1/31/2028,Original Lease,Activated
+xnj128ba,128 Bauer Drive,Oakland,NJ,t0001074,02,21142,25194.2167,302330.6004,14.300000018919686,11/1/2023,12/31/2030,Original Lease,Activated
+xnj145al,145 Algonquin Parkway,Whippany,NJ,t0000621,02,11777,10027.13,120325.56,10.21699583934788,7/1/2021,9/30/2026,Original Lease,Activated
+xnj145al,145 Algonquin Parkway,Whippany,NJ,t0001185,01,11701,14138.71,169664.52,14.500001709255619,7/1/2024,8/31/2029,Original Lease,Activated
+xnj14rol,14 Roland Avenue,Mount Laurel,NJ,t0000664,,0,0.0,0.0,0.0,7/31/2023,,Assignment,Activated
+xnj14th,14-16 Thomas J Rhodes,Hamilton,NJ,t0000605,14A,35894,19951.08,239412.96000000002,6.669999442803812,5/1/2022,4/30/2027,Renewal,Activated
+xnj14th,14-16 Thomas J Rhodes,Hamilton,NJ,t0000797,14B,8510,8209.49,98513.88,11.576249118683902,6/1/2022,5/31/2027,Original Lease,Activated
+xnj156al,156 Algonquin Parkway,Whippany,NJ,t0000622,01,5566,0.0,0.0,0.0,11/1/2022,,Holdover,Superseded
+xnj1601s,1601-1641 Sherman Avenue,Pennsauken,NJ,t0000660,1641,9960,4873.42,58481.04,5.871590361445783,5/1/2021,4/30/2026,Original Lease,Activated
+xnj1601s,1601-1641 Sherman Avenue,Pennsauken,NJ,t0000661,1601-C-1,9012,8591.44,103097.28,11.44,8/1/2024,2/28/2027,Expansion,Activated
+xnj17pol,17-01 Pollitt Drive,Fairlawn,NJ,t0000629,01,8438,6680.08,80160.95999999999,9.499995259540174,2/15/2021,1/31/2026,Original Lease,Activated
+xnj17pol,17-01 Pollitt Drive,Fairlawn,NJ,t0000630,02,20897,24954.5,299454.0,14.32999952146241,6/1/2023,10/31/2025,Expansion,Superseded
+xnj17pol,17-01 Pollitt Drive,Fairlawn,NJ,t0000632,04,15179,17027.21,204326.52,13.461131826866064,11/1/2021,10/31/2031,Original Lease,Activated
+xnj17pol,17-01 Pollitt Drive,Fairlawn,NJ,t0000634,4.1,20962,25329.08,303948.96,14.499998091785136,9/2/2021,12/31/2028,Original Lease,Activated
+xnj17pol,17-01 Pollitt Drive,Fairlawn,NJ,t0001021,,0,0.0,0.0,0.0,12/23/2023,,Assignment,Activated
+xnj17pol,17-01 Pollitt Drive,Fairlawn,NJ,t0001156,05,20994,23653.24,283838.88,13.52,2/1/2024,1/31/2027,Original Lease,Activated
+xnj1980o,1980 Old Cuthbert Road,Cherry Hill,NJ,t0000923,1980,14000,0.0,0.0,0.0,8/5/2022,7/31/2025,Original Lease,Superseded
+xnj19ind,19 Industrial Avenue,Mahwah,NJ,t0000850,CENTER  //SECNR,22060,0.0,0.0,0.0,10/21/2022,10/31/2029,Expansion,Superseded
+xnj19ind,19 Industrial Avenue,Mahwah,NJ,t0000862,SCNR,6480,7079.4,84952.79999999999,13.109999999999998,5/22/2022,5/31/2027,Original Lease,Activated
+xnj19ind,19 Industrial Avenue,Mahwah,NJ,t0000864,CENTER  //SECNR,21817,27725.77,332709.24,15.249999541641838,4/21/2025,2/28/2029,Expansion,Activated
+xnj19nev,19-05 Nevins Road,Fairlawn,NJ,t0000627,01      //02      //03,151799,192911.23,2314934.7600000002,15.250000065876588,2/1/2025,10/31/2029,Expansion,Activated
+xnj200ri,200 Rike Drive,Millstone,NJ,t0000704,200,63000,70958.33,851499.96,13.51587238095238,10/1/2024,9/30/2028,Renewal,Activated
+xnj2036b,2036 Briggs Road,Mount Laurel,NJ,t0000450,100,10000,6958.33,83499.95999999999,8.349995999999999,5/1/2016,4/30/2026,Original Lease,Activated
+xnj2036b,2036 Briggs Road,Mount Laurel,NJ,t0000452,200,5025,3132.25,37587.0,7.48,1/1/2017,12/31/2026,Original Lease,Activated
+xnj2036b,2036 Briggs Road,Mount Laurel,NJ,t0000453,300,9849,4860.89,58330.68000000001,5.922497715504113,1/1/2019,3/31/2029,Original Lease,Activated
+xnj2036b,2036 Briggs Road,Mount Laurel,NJ,t0000454,400,15075,10688.2,128258.40000000001,8.508019900497514,4/1/2020,3/31/2030,Original Lease,Activated
+xnj2050h,20-50 Harkins Drive,Burlington,NJ,t0000779,,0,0.0,0.0,0.0,4/4/2025,,Assignment,Activated
+xnj2075h,2075 High Hill Road,Logan Township,NJ,t0000703,2075,33078,19578.66,234943.91999999998,7.102724469435878,3/1/2017,2/28/2027,Original Lease,Activated
+xnj220r,220 Route 70,Medford,NJ,t0000598,A,60880,0.0,0.0,0.0,10/28/2022,,Holdover,Activated
+xnj220r,220 Route 70,Medford,NJ,t0001151,B,23545,17854.96,214259.52,9.100000849437247,12/1/2023,12/31/2028,Original Lease,Activated
+xnj3001i,3001 Irwin Road,Mount Laurel,NJ,t0000458,B,24805,0.0,0.0,0.0,5/1/2024,,Holdover,Superseded
+xnj3001i,3001 Irwin Road,Mount Laurel,NJ,t0000459,C       //E,37838,23087.02,277044.24,7.321852106348115,11/1/2023,10/31/2033,Expansion,Activated
+xnj3001i,3001 Irwin Road,Mount Laurel,NJ,t0000959,D,3555,2589.76,31077.120000000003,8.741805907172996,11/1/2024,10/31/2025,Renewal,Activated
+xnj30les,30 Leslie Court,Whippany,NJ,t0001007,40,9247,11720.57,140646.84,15.209996755704552,3/1/2023,2/28/2026,Original Lease,Activated
+xnj30les,30 Leslie Court,Whippany,NJ,t0001042,30,16003,22590.9,271090.80000000005,16.939998750234334,10/16/2023,9/30/2028,Original Lease,Activated
+xnj313c,313 Church Street,Swedesboro,NJ,t0000547,313,67000,29591.67,355100.04,5.300000597014925,9/9/2021,9/30/2026,Original Lease,Activated
+xnj400wa,400 Water Street,Gloucester City,NJ,t0000715,400,38550,28430.63,341167.56,8.850001556420233,1/1/2025,12/31/2029,Renewal,Activated
+xnj40pot,40 Potash Road,Oakland,NJ,t0000617,01,60994,88949.58,1067394.96,17.49999934419779,11/1/2022,10/31/2027,Renewal,Activated
+xnj420be,420 Benigno Boulevard,Bellmawr,NJ,t0000573,A-1,1894,2566.67,30800.04,16.261900739176347,4/1/2024,5/31/2029,Renewal,Activated
+xnj440be,440 Benigno Boulevard,Bellmawr,NJ,t0000554,A-7,1232,0.0,0.0,0.0,9/7/2020,,Original Lease,Superseded
+xnj440be,440 Benigno Boulevard,Bellmawr,NJ,t0000556,A-5,525,650.13,7801.5599999999995,14.860114285714285,12/1/2019,11/30/2026,Original Lease,Activated
+xnj440be,440 Benigno Boulevard,Bellmawr,NJ,t0000558,A-2,2218,2369.0,28428.0,12.816952209197476,8/1/2023,7/31/2028,Renewal,Activated
+xnj440be,440 Benigno Boulevard,Bellmawr,NJ,t0000658,A-1,1777,2369.33,28431.96,15.999977490151942,10/15/2024,10/31/2028,Expansion,Activated
+xnj440be,440 Benigno Boulevard,Bellmawr,NJ,t0001219,A3,825,1062.19,12746.28,15.450036363636364,5/1/2024,5/31/2026,Original Lease,Activated
+xnj52col,52 Coles Road,Blackwood,NJ,t0000549,52,62000,21978.37,263740.44,4.253878064516129,5/1/2021,4/30/2026,Original Lease,Activated
+xnj59cha,59 Chambers Brook Road,Somerville,NJ,t0000831,100,10272,12463.36,149560.32,14.56,11/1/2023,10/31/2026,Renewal,Activated
+xnj5thor,5 Thornton Road,Oakland,NJ,t0000618,01,150801,110970.73,1331648.76,8.830503511249926,11/1/2021,10/31/2031,Original Lease,Activated
+xnj6000i,6000 Irwin Road,Mount Laurel,NJ,t0001081,6000,46188,0.0,0.0,0.0,12/1/2023,11/30/2027,Proposal in DM,Activated
+xnj6000i,6000 Irwin Road,Mount Laurel,NJ,t0001153,6000,46188,48035.52,576426.24,12.48,12/1/2023,11/30/2027,Original Lease,Activated
+xnj6925s,6925 Sherman Ave,Pennsauken,NJ,t0000784,6925,30000,14800.0,177600.0,5.92,4/26/2022,4/30/2029,Original Lease,Activated
+xnj6965,6965 Airport Highway Lane,Pennsauken,NJ,t0000545,6965,103000,58452.5,701430.0,6.81,8/31/2021,10/31/2031,Original Lease,Activated
+xnj70cat,70 Cathy Lane,Florence,NJ,t0000845,1,13500,7000.0,84000.0,6.222222222222222,6/24/2022,1/13/2026,Original Lease,Activated
+xnj70cat,70 Cathy Lane,Florence,NJ,t0001030,B,5740,4477.2,53726.399999999994,9.36,7/1/2023,1/31/2026,Original Lease,Activated
+xnj740co,740 Coopertown Road,Delanco,NJ,t0000669,740,133283,68208.97,818507.64,6.141125574904526,12/14/2021,12/31/2026,Original Lease,Activated
+xnj7550,7550 North Crescent Boulevard,Pennsauken,NJ,t0000536,7550,22000,14764.64,177175.68,8.05344,4/1/2021,4/1/2026,Original Lease,Activated
+xnj845l,845 Lancer Drive,Moorestown,NJ,t0000553,845,16800,15385.91,184630.91999999998,10.989935714285714,12/1/2020,11/30/2025,Original Lease,Activated
+xnj900k,900 Kennedy Boulevard,Somerdale,NJ,t0000544,900,41500,0.0,0.0,0.0,11/1/2021,10/31/2026,Renewal,Superseded
+xnj9100p,9100 Pennsauken Highway,Pennsauken,NJ,t0000714,9100,47256,22739.97,272879.64,5.774497206703911,5/1/2024,4/30/2029,Renewal,Activated
+xnj95bau,95 Bauer Drive,Oakland,NJ,t0000619,01,6792,10754.0,129048.0,19.0,7/1/2024,6/30/2027,Renewal,Activated
+xnjcentr,7055 W Central Highway,Pennsauken,NJ,t0000770,7055-1,20721,0.0,0.0,0.0,5/1/2022,5/31/2027,Original Lease,Superseded
+xnjcentr,7055 W Central Highway,Pennsauken,NJ,t0000958,7055-2,9967,0.0,0.0,0.0,8/1/2024,,Holdover,Superseded
+xnjmway3,3 Mary Way,Hainesport,NJ,t0000771,A       //B       //C,42560,29809.73,357716.76,8.404999060150375,2/1/2023,1/31/2033,Original Lease,Activated
+xnjmway5,5 Mary Way,Hainesport,NJ,t0000486,A       //B,19914,15856.89,190282.68,9.555221452244652,9/1/2023,8/31/2030,Renewal,Activated
+xnjmway5,5 Mary Way,Hainesport,NJ,t0000488,C,20086,16608.61,199303.32,9.922499253211193,3/1/2023,2/29/2028,Renewal,Activated
+xnjmway5,5 Mary Way,Hainesport,NJ,t0000495,ANT-A,0,1937.93,23255.16,0.0,12/1/2024,11/30/2029,License Agreement,Activated
+xnjmway5,5 Mary Way,Hainesport,NJ,t0000496,ANT-B,0,1243.12,14917.439999999999,0.0,6/1/2016,9/30/2026,Renewal,Activated
+xnjmway7,7 Mary Way,Hainesport,NJ,t0000497,A,20000,9355.83,112269.95999999999,5.613498,6/1/2025,8/31/2025,Holdover,Activated
+xnjmway7,7 Mary Way,Hainesport,NJ,t0000805,B,20000,13261.25,159135.0,7.95675,2/1/2023,1/31/2028,Original Lease,Activated
+xnjmway9,9 Mary Way,Hainesport,NJ,t0000485,A,7500,3218.75,38625.0,5.15,9/1/2021,8/31/2026,Renewal,Activated
+xnjmway9,9 Mary Way,Hainesport,NJ,t0000491,A1      //B,34205,25262.5,303150.0,8.862739365589826,5/1/2022,4/30/2027,Expansion,Activated
+xoh154co,154 Commerce Blvd,Loveland,OH,t0000857,154,79918,35134.7,421616.39999999997,5.2756125028153855,7/12/2022,2/28/2027,Original Lease,Activated
+xoh382c,382 Circle Freeway Drive,Cincinnati,OH,t0000603,382,47848,27856.51,334278.12,6.986250626985454,5/1/2024,4/30/2029,Renewal,Activated
+xoh8655,8655 Seward Road,Fairfield,OH,t0000604,8655,30512,15177.5,182130.0,5.969126900891452,10/1/2020,9/30/2025,Original Lease,Activated
+xohcolu1,3000 – 3004 E 14th Avenue,Columbus,OH,t0000671,3000,44000,24058.56,288702.72000000003,6.561425454545455,4/1/2016,3/31/2026,Original Lease,Activated
+xohcolu1,3000 – 3004 E 14th Avenue,Columbus,OH,t0000675,3004,17850,8478.75,101745.0,5.7,10/1/2020,9/30/2025,Original Lease,Activated
+xohcolu2,3045 – 3065 Switzer Avenue,Columbus,OH,t0000772,3045,6330,4520.68,54248.16,8.570009478672986,9/19/2022,10/31/2027,Original Lease,Activated
+xohcolu2,3045 – 3065 Switzer Avenue,Columbus,OH,t0000773,3055,5980,4445.13,53341.56,8.919993311036789,9/19/2022,10/31/2025,Original Lease,Activated
+xohcolu2,3045 – 3065 Switzer Avenue,Columbus,OH,t0000889,3065,5620,4177.53,50130.36,8.919992882562278,9/19/2022,10/31/2027,Original Lease,Activated
+xohcolu3,3040 – 3050 E 14th Avenue,Columbus,OH,t0000676,3050,5625,2835.0,34020.0,6.048,10/12/2020,9/30/2025,Original Lease,Activated
+xohcolu3,3040 – 3050 E 14th Avenue,Columbus,OH,t0001073,3040,5893,4066.17,48794.04,8.28,2/1/2024,9/30/2025,Original Lease,Activated
+xohcolu4,1149 – 1161 Rarig Avenue,Columbus,OH,t0000673,1161,28808,16924.7,203096.40000000002,7.050000000000001,1/1/2019,8/31/2028,Original Lease,Activated
+xohcomme,10021 Commerce Park Drive,"West Chester, Butler County",OH,t0000508,10021,80414,32634.68,391616.16000000003,4.869999751287089,3/1/2023,2/29/2028,Renewal,Activated
+xohmost,12080 Mosteller Road,Sharonville,OH,t0000434,A       //B,111087,39724.68,476696.16000000003,4.291196629668638,3/1/2025,2/28/2027,Renewal,Activated
+xohmost,12080 Mosteller Road,Sharonville,OH,t0000688,D,114027,36393.62,436723.44000000006,3.830000263095583,3/1/2022,5/31/2029,Original Lease,Activated
+xohmost,12080 Mosteller Road,Sharonville,OH,t0001072,,0,0.0,0.0,0.0,11/27/2024,,Assignment,Activated
+xohmost,12080 Mosteller Road,Sharonville,OH,t0001147,C,47107,21433.69,257204.27999999997,5.460001273696053,3/1/2024,3/31/2026,Original Lease,Activated
+xpa12111,1211 Ford Road,Bensalem,PA,t0000601,,106045,0.0,0.0,0.0,12/15/2024,,Proposal in DM,Activated
+xpa18rai,18 Railroad Street,Royersford,PA,t0000702,200,189746,108945.83,1307349.96,6.8900001054040665,1/14/2023,1/31/2026,Renewal,Activated
+xpa1peae,1 Pearl Buck Court,Bristol,PA,t0000534,A,14000,12250.0,147000.0,10.5,2/1/2025,1/31/2028,Renewal,Activated
+xpa1peae,1 Pearl Buck Court,Bristol,PA,t0000535,,0,0.0,0.0,0.0,10/13/2023,,Assignment,Activated
+xpa3041m,3041 Marwin Road,Bensalem,PA,t0000878,C,8000,0.0,0.0,0.0,11/1/2022,,Holdover,Superseded
+xpa3041m,3041 Marwin Road,Bensalem,PA,t0000882,A       //B       //B1,34895,29151.17,349814.04,10.02476114056455,4/15/2024,3/31/2030,Expansion,Activated
+xpa3041m,3041 Marwin Road,Bensalem,PA,t0000883,C1,9640,0.0,0.0,0.0,11/1/2022,,Holdover,Superseded
+xpa3041m,3041 Marwin Road,Bensalem,PA,t0001371,A1,40492,35430.5,425166.0,10.5,12/1/2024,2/28/2030,Original Lease,Activated
+xpa327c,327 East Chew Avenue,Philadelphia,PA,t0000602,327,170390,0.0,0.0,0.0,11/6/2018,11/5/2028,Original Lease,Superseded
+xpa4200m,4200 Macalester Street,Philadelphia,PA,t0000747,4200,40791,19093.97,229127.64,5.617112598367287,3/15/2025,3/14/2030,Renewal,Activated
+xpa500ma,500 Maryland Avenue,Fort Washington,PA,t0000748,500,138391,48750.0,585000.0,4.227153499866321,10/1/2016,9/30/2026,Original Lease,Activated
+xpastate,8800 State Road,Philadelphia,PA,t0000507,8800,17063,0.0,0.0,0.0,4/1/2021,3/31/2026,Original Lease,Superseded
+xtn225bo,225 Bobrick Drive,Jackson,TN,t0000523,229,20840,4000.0,48000.0,2.3032629558541267,9/15/2004,5/31/2026,Original Lease,Activated
+xtn225bo,225 Bobrick Drive,Jackson,TN,t0000652,101,45820,13555.08,162660.96,3.549999127018769,1/1/2022,12/31/2028,Original Lease,Activated
+xtn225bo,225 Bobrick Drive,Jackson,TN,t0001006,103,33340,0.0,0.0,0.0,3/1/2023,2/28/2028,Original Lease,Superseded
+xtn3961o,3961 Outland Road,Memphis,TN,t0000999,3961,74906,28401.86,340822.32,4.550000267001308,2/1/2023,2/28/2026,Original Lease,Activated
+xtndelp1,4290 Delp Street,Memphis,TN,t0000445,4319B,72000,0.0,0.0,0.0,4/8/2021,4/30/2026,Original Lease,Superseded
+xtndelp1,4290 Delp Street,Memphis,TN,t0000449,4310,22743,8149.58,97794.95999999999,4.300002638174383,9/1/2023,8/31/2026,Renewal,Activated
+xtndelp1,4290 Delp Street,Memphis,TN,t0000638,4354,63840,20748.0,248976.0,3.9,1/1/2025,12/31/2025,Renewal,Activated
+xtndelp1,4290 Delp Street,Memphis,TN,t0000967,4318,25137,7629.83,91557.95999999999,3.6423582766439906,1/1/2023,12/31/2025,Original Lease,Activated
+xtndelp1,4290 Delp Street,Memphis,TN,t0001060,4290,41496,14800.24,177602.88,4.28,11/1/2023,10/31/2028,Original Lease,Activated
+xtndelp2,4319 Delp Street,Memphis,TN,t0000691,4319B,72000,17550.62,210607.44,2.9251033333333334,4/8/2021,4/30/2026,Original Lease,Activated
+xtx1050k,10501 King William Drive,Dallas,TX,t0000819,10501,4691,3720.75,44649.0,9.518013216798124,8/1/2024,9/30/2029,Renewal,Activated
+xtx1050k,10501 King William Drive,Dallas,TX,t0000822,10507,5036,3928.08,47136.96,9.36,2/1/2024,9/30/2029,Renewal,Activated
+xtx1050k,10501 King William Drive,Dallas,TX,t0000824,10529   //11523,12665,10269.2,123230.40000000001,9.72999605211212,6/1/2023,6/30/2028,Expansion,Activated
+xtx1050k,10501 King William Drive,Dallas,TX,t0000826,10519,7490,6073.14,72877.68000000001,9.729997329773031,6/1/2023,5/31/2026,Renewal,Activated
+xtx1050k,10501 King William Drive,Dallas,TX,t0000828,10537,6525,0.0,0.0,0.0,8/1/2024,,Holdover,Superseded
+xtx1050k,10501 King William Drive,Dallas,TX,t0001056,10515,6635,5175.3,62103.600000000006,9.360000000000001,9/1/2023,8/31/2026,Original Lease,Activated
+xtx1050k,10501 King William Drive,Dallas,TX,t0001091,10511,5423,4229.94,50759.28,9.36,11/1/2023,10/31/2028,Original Lease,Activated
+xtx10704,10704 - 10710 Composite Drive,Dallas,TX,t0000762,10704,27300,17833.1,213997.19999999998,7.838725274725274,1/1/2023,12/31/2027,Renewal,Activated
+xtx111pl,11100 Plano Road,Dallas,TX,t0000706,11100,136882,62572.93,750875.16,5.485565377478412,6/7/2018,6/6/2038,Original Lease,Activated
+xtx1121,1121 108th Street,Arlington,TX,t0000994,A,50545,29157.05,349884.6,6.922239588485508,2/10/2023,3/31/2028,Original Lease,Activated
+xtx11839,11839 Shiloh Rd,Dallas,TX,t0000818,11839,99750,68987.1,827845.2000000001,8.2992,6/1/2025,8/31/2025,Renewal,Activated
+xtx12150,12150 Shiloh Road,Dallas,TX,t0000697,120,20551,8343.26,100119.12,4.871739574716559,8/1/2018,9/30/2025,Original Lease,Activated
+xtx12150,12150 Shiloh Road,Dallas,TX,t0000698,112,10495,7094.62,85135.44,8.112,4/1/2023,3/31/2028,Renewal,Activated
+xtx12150,12150 Shiloh Road,Dallas,TX,t0000701,104,11473,8742.19,104906.28,9.143753159592086,10/1/2023,9/30/2028,Renewal,Activated
+xtx1709s,I-45 Logistics Center,Hutchins,TX,t0000790,100,150018,58131.98,697583.76,4.650000399952006,7/20/2021,10/31/2027,Original Lease,Activated
+xtx1709s,I-45 Logistics Center,Hutchins,TX,t0000791,150,95281,32951.35,395416.19999999995,4.150000524763594,12/31/2021,3/31/2028,Original Lease,Activated
+xtx1721s,1721 Susan Dr,Arlington,TX,t0000817,,0,0.0,0.0,0.0,1/29/2021,,Assignment,Activated
+xtx1919a,1919 Avenue E,Lubbock,TX,t0000707,1919,79970,28596.16,343153.92,4.291033137426535,6/7/2018,6/6/2038,Original Lease,Activated
+xtx2445s,2445 Santa Anna Avenue,Dallas,TX,t0000807,2445,40116,25039.07,300468.83999999997,7.489999999999999,5/19/2022,5/31/2027,Original Lease,Activated
+xtx2616a,2616 Andjon Drive,Dallas,TX,t0000708,2616,8923,6803.79,81645.48,9.150003362097948,6/1/2024,5/31/2026,Renewal,Activated
+xtx2616a,2616 Andjon Drive,Dallas,TX,t0001024,2614,8204,6285.36,75424.31999999999,9.193603120429058,6/1/2023,7/31/2028,Original Lease,Activated
+xtx2655,2655 Freewood Drive,Dallas,TX,t0000759,2655,30840,11436.5,137238.0,4.45,7/1/2023,6/30/2026,Renewal,Activated
+xtx310an,3101 Aniol Street,San Antonio,TX,t0000705,3101,104000,42094.07,505128.83999999997,4.857008076923076,6/7/2018,6/6/2038,Original Lease,Activated
+xtx3662m,3662-3670 Miller Park Drive,Garland,TX,t0000653,3662,14900,5617.16,67405.92,4.523887248322148,11/1/2016,4/30/2027,Original Lease,Activated
+xtx3662m,3662-3670 Miller Park Drive,Garland,TX,t0001000,3670,26126,17072.47,204869.64,7.841599938758326,4/1/2023,5/31/2028,Original Lease,Activated
+xtx3857m,3857 Miller Park Drive,Garland,TX,t0000829,3857,59028,0.0,0.0,0.0,5/10/2022,5/31/2027,Original Lease,Superseded
+xtx4201n,4201 N Beach Street,Fort Worth,TX,t0000696,100,182500,108338.79,1300065.48,7.123646465753424,11/1/2022,12/31/2032,Renewal,Activated
+xtx4666d,4666 Duncanville Road,Dallas,TX,t0000846,4666,162792,56849.07,682188.84,4.1905550641309155,6/21/2022,6/30/2025,Original Lease,Superseded
+xtx467wa,4679 Walzem Road,San Antonio,TX,t0000780,4679,40394,25485.92,305831.04,7.571199683121255,1/1/2023,12/31/2026,Renewal,Activated
+xtx467wa,4679 Walzem Road,San Antonio,TX,t0000943,AD,0,6000.0,72000.0,0.0,5/14/2024,5/13/2034,Renewal,Activated
+xtx467wa,4679 Walzem Road,San Antonio,TX,t0001254,,0,0.0,0.0,0.0,5/14/2024,5/14/2034,Proposal in DM,Activated
+xtx8154b,8154 Bracken Creek Drive,San Antonio,TX,t0000666,100,35510,21542.73,258512.76,7.279998873556745,4/1/2024,3/31/2027,Renewal,Activated
+xtx8154b,8154 Bracken Creek Drive,San Antonio,TX,t0001051,200,25100,22405.93,268871.16000000003,10.711998406374503,10/1/2023,1/31/2034,Original Lease,Activated
+xtxball,9615 Ball Street,San Antonio,TX,t0000435,9615,29772,0.0,0.0,0.0,11/1/2020,1/31/2027,Original Lease,Superseded
+xtxball,9615 Ball Street,San Antonio,TX,t0001003,9615,29772,28847.08,346164.96,11.627198710197503,4/1/2023,5/31/2028,Expansion,Activated
+xtxdrysd,9820 Drysdale Lane,Houston,TX,t0000612,9820,26448,0.0,0.0,0.0,1/1/2022,3/31/2027,Original Lease,Superseded
+xtxglen,3113 Glenfield Avenue,Dallas,TX,t0000543,3113,115200,39863.0,478356.0,4.152395833333333,10/1/2021,9/30/2026,Original Lease,Activated
+xtxmorto,4000 Dan Morton Dr,Dallas,TX,t0000522,100,77536,0.0,0.0,0.0,11/1/2019,2/28/2030,Original Lease,Superseded
+xtxmorto,4000 Dan Morton Dr,Dallas,TX,t0000526,106,132133,49949.53,599394.36,4.536295702057775,9/1/2020,2/28/2031,Original Lease,Activated
+xtxritti,4728 Goldfield Drive,San Antonio,TX,t0000528,7,8809,5591.01,67092.12,7.616315132251106,10/1/2020,9/30/2025,Original Lease,Activated
+xtxritti,4728 Goldfield Drive,San Antonio,TX,t0000529,4       //5       //6,26413,15644.15,187729.8,7.107477378563586,2/15/2021,6/14/2026,Original Lease,Activated
+xtxritti,4728 Goldfield Drive,San Antonio,TX,t0000530,1       //2,16490,12510.9833,150131.7996,9.104414772589449,1/1/2024,12/31/2028,Renewal,Activated
+xtxritti,4728 Goldfield Drive,San Antonio,TX,t0000531,3,8809,0.0,0.0,0.0,4/1/2021,,Original Lease,Superseded
+xtxritti,4728 Goldfield Drive,San Antonio,TX,t0000539,8,17280,10184.4,122212.79999999999,7.072499999999999,4/1/2018,10/30/2025,Original Lease,Activated
+xtxritti,4728 Goldfield Drive,San Antonio,TX,t0001017,3,8730,0.0,0.0,0.0,4/15/2023,6/30/2026,Original Lease,Superseded
+xtxwebbl,7903 Webbles Dr,San Antonio,TX,t0000432,7903,25355,0.0,0.0,0.0,12/1/2023,,Holdover,Superseded

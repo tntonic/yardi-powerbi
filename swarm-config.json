@@ -1,0 +1,85 @@
+{
+  "swarm": {
+    "name": "PowerBI-Yardi-Development",
+    "topology": "hierarchical",
+    "maxAgents": 8,
+    "strategy": "parallel",
+    "features": {
+      "memory": true,
+      "autoSpawn": true,
+      "github": false
+    }
+  },
+  "agents": [
+    {
+      "type": "powerbi-dax-validator",
+      "name": "DAX-Validator",
+      "role": "Validate DAX syntax and business logic",
+      "priority": 1
+    },
+    {
+      "type": "powerbi-measure-accuracy-tester",
+      "name": "Accuracy-Tester",
+      "role": "Test measure accuracy against Yardi reports (95%+ target)",
+      "priority": 1
+    },
+    {
+      "type": "yardi-powerbi-data-integrity-validator",
+      "name": "Data-Integrity",
+      "role": "Validate 32-table architecture and relationships",
+      "priority": 2
+    },
+    {
+      "type": "powerbi-yardi-amendment-validator",
+      "name": "Amendment-Logic",
+      "role": "Validate amendment-based rent roll calculations",
+      "priority": 1
+    },
+    {
+      "type": "powerbi-test-orchestrator",
+      "name": "Test-Orchestrator",
+      "role": "Coordinate comprehensive testing workflows",
+      "priority": 2
+    },
+    {
+      "type": "performance-optimizer",
+      "name": "Performance-Opt",
+      "role": "Optimize dashboard load times (<10 seconds)",
+      "priority": 3
+    },
+    {
+      "type": "data-architect",
+      "name": "Data-Architect",
+      "role": "Design and optimize data model structure",
+      "priority": 2
+    },
+    {
+      "type": "test-scenario-generator",
+      "name": "Test-Generator",
+      "role": "Create edge case scenarios for validation",
+      "priority": 3
+    }
+  ],
+  "workflows": {
+    "validation": {
+      "description": "Full validation workflow for Power BI solution",
+      "steps": [
+        "Data integrity validation",
+        "DAX syntax validation",
+        "Amendment logic validation",
+        "Accuracy testing (95%+ target)",
+        "Performance testing (<10s load)"
+      ]
+    },
+    "development": {
+      "description": "DAX measure development workflow",
+      "steps": [
+        "Requirements analysis",
+        "DAX measure creation",
+        "Unit testing",
+        "Integration testing",
+        "Documentation"
+      ]
+    }
+  }
+}

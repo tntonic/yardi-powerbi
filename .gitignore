@@ -1,0 +1,36 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Node modules
+node_modules/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*~
+*.backup
+
+# Test output
+test_results/
+*.test.json

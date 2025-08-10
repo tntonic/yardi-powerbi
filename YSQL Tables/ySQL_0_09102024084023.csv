@@ -1,0 +1,685 @@
+Market,Property Code,Property Address,scode
+"Atlanta","gacre100","100 Crescent Center Pkwy",800     
+"Atlanta","gacre100","100 Crescent Center Pkwy",320     
+"Atlanta","gacre100","100 Crescent Center Pkwy",1000    
+"Atlanta","gacre100","100 Crescent Center Pkwy",1100    
+"Atlanta","gacre100","100 Crescent Center Pkwy",200     
+"Atlanta","gacre100","100 Crescent Center Pkwy",110     
+"Atlanta","gacre100","100 Crescent Center Pkwy",1200    
+"Atlanta","gacre100","100 Crescent Center Pkwy",1250    
+"Atlanta","gacre100","100 Crescent Center Pkwy",1290    
+"Atlanta","gacre100","100 Crescent Center Pkwy",260     
+"Atlanta","gacre100","100 Crescent Center Pkwy",500     
+"Atlanta","gacre100","100 Crescent Center Pkwy",290     
+"Atlanta","gacre100","100 Crescent Center Pkwy",340     
+"Atlanta","gacre100","100 Crescent Center Pkwy",350     
+"Atlanta","gacre100","100 Crescent Center Pkwy",395     
+"Atlanta","gacre100","100 Crescent Center Pkwy",390     
+"Atlanta","gacre100","100 Crescent Center Pkwy",400     
+"Atlanta","gacre100","100 Crescent Center Pkwy",520     
+"Atlanta","gacre100","100 Crescent Center Pkwy",550     
+"Atlanta","gacre100","100 Crescent Center Pkwy",600     
+"Atlanta","gacre100","100 Crescent Center Pkwy",620     
+"Atlanta","gacre100","100 Crescent Center Pkwy",625     
+"Atlanta","gacre100","100 Crescent Center Pkwy",650     
+"Atlanta","gacre100","100 Crescent Center Pkwy",655     
+"Atlanta","gacre100","100 Crescent Center Pkwy",660     
+"Atlanta","gacre100","100 Crescent Center Pkwy",670     
+"Atlanta","gacre100","100 Crescent Center Pkwy",700     
+"Atlanta","gacre100","100 Crescent Center Pkwy",950     
+"Atlanta","gacre100","100 Crescent Center Pkwy",102     
+"Atlanta","gacre100","100 Crescent Center Pkwy",104     
+"Atlanta","gacre100","100 Crescent Center Pkwy",120     
+"Atlanta","gacre100","100 Crescent Center Pkwy",190     
+"Atlanta","gacre100","100 Crescent Center Pkwy",330     
+"Atlanta","gacre100","100 Crescent Center Pkwy",475     
+"Atlanta","gacre100","100 Crescent Center Pkwy",900     
+"Atlanta","gacre100","100 Crescent Center Pkwy",680     
+"Atlanta","gacre100","100 Crescent Center Pkwy",450     
+"Atlanta","gacre100","100 Crescent Center Pkwy",180     
+"Atlanta","gacre100","100 Crescent Center Pkwy",220     
+"Atlanta","gacre100","100 Crescent Center Pkwy","ROOF    "
+"Atlanta","gacre100","100 Crescent Center Pkwy",575     
+"Atlanta","gacre100","100 Crescent Center Pkwy",1025    
+"Atlanta","gacre100","100 Crescent Center Pkwy",100     
+"Atlanta","gacre100","100 Crescent Center Pkwy",240     
+"Atlanta","gacre100","100 Crescent Center Pkwy",300     
+"Memphis","nikedeal","165 Wingo Road i",100     
+"Memphis","xtndelp1","4290 Delp Street",4290    
+"Memphis","xtndelp1","4290 Delp Street",4310    
+"Memphis","xtndelp1","4290 Delp Street",4354    
+"Memphis","xtndelp1","4290 Delp Street",4318    
+"Jacksonville","xflstuar","6959 Stuart Avenue",6959    
+"Cincinnati","xohmost ","12080 Mosteller","A       "
+"Cincinnati","xohmost ","12080 Mosteller","B       "
+"Cincinnati","xohmost ","12080 Mosteller","C       "
+"Cincinnati","xohmost ","12080 Mosteller","D       "
+"Cincinnati","xohmost ","12080 Mosteller","PARK    "
+"Philadelphia","xnj3001i","3001 Irwin Road","A       "
+"Philadelphia","xnj3001i","3001 Irwin Road","B       "
+"Philadelphia","xnj3001i","3001 Irwin Road","C       "
+"Philadelphia","xnj3001i","3001 Irwin Road","E       "
+"Philadelphia","xnj3001i","3001 Irwin Road","D       "
+"Philadelphia","xnj2036b","2036 Briggs Road",100     
+"Philadelphia","xnj2036b","2036 Briggs Road",200     
+"Philadelphia","xnj2036b","2036 Briggs Road",300     
+"Philadelphia","xnj2036b","2036 Briggs Road",400     
+"Philadelphia","xnj6000i","6000 Irwin Road",6000    
+"San Antonio","xtxball ","9615 Ball Street",9615    
+"Atlanta","xgahire1","196 Rio Cir Decatur, GA",196     
+"Atlanta","xgahire2","201 Laredo Dr Decatur, GA",201     
+"Atlanta","xgahire3","210 Rio Circle",210     
+"Atlanta","xgahire4","224 Rio Circle",224     
+"Atlanta","xgahire5","246 Rio Circle",246     
+"Atlanta","xgahire6","252 Rio Circle",252     
+"Atlanta","xgahire7","2980 Pine St ",2980    
+"Atlanta","xgahire8","3000 Pine St",3000    
+"Philadelphia","xnjmway3","3 Mary Way","A       "
+"Philadelphia","xnjmway3","3 Mary Way","B       "
+"Philadelphia","xnjmway3","3 Mary Way","C       "
+"Philadelphia","xnjmway5","5 Mary Way","A       "
+"Philadelphia","xnjmway5","5 Mary Way","B       "
+"Philadelphia","xnjmway5","5 Mary Way","C       "
+"Philadelphia","xnjmway5","5 Mary Way","ANT-A   "
+"Philadelphia","xnjmway5","5 Mary Way","ANT-B   "
+"Philadelphia","xnjmway7","7 Mary Way","A       "
+"Philadelphia","xnjmway7","7 Mary Way","B       "
+"Philadelphia","xnjmway9","9 Mary Way","A       "
+"Philadelphia","xnjmway9","9 Mary Way","A1      "
+"Philadelphia","xnjmway9","9 Mary Way","B       "
+"Atlanta","xgashaw1","986 Rosedale Dr ",986     
+"Atlanta","xgashaw2","922 Mountain Ind Dr                           ",922     
+"Atlanta","xgashaw3","899 Mountain Ind Dr",899     
+"Atlanta","xgashaw4","3275 Florence Rd, Bldg 300",300     
+"Atlanta","xgashaw5","3275 Florence Rd, Bldg 200                      ",200     
+"Atlanta","xgashaw6","3275 Florence Rd, Bldg 100                      ",100     
+"Dallas","xtxglen ","3113 Glenfield Avenue",3113    
+"Philadelphia","xnjmorri","14 Morris Avenue",14      
+"Atlanta","xgamc200","4200 McEver Industrial Drive ",4200    
+"Atlanta","xgamc220","4220 McEver Industrial Drive ",4220    
+"Atlanta","xgamc220","4220 McEver Industrial Drive ","MEZZ    "
+"Atlanta","xgamc255","4255 McEver Industrial Drive NW","MEZZ    "
+"Atlanta","xgamc255","4255 McEver Industrial Drive NW",4255    
+"Atlanta","xgamc260","4260 McEver Industrial Drive ",4260    
+"Chicago","xilmitch","561 Mitchell Avenue ",561     
+"Dallas","xtxmorto","4000 Dan Morton Dr",100     
+"Dallas","xtxmorto","4000 Dan Morton Dr",106     
+"San Antonio","xtxritti","4728 Goldfield Drive",7       
+"San Antonio","xtxritti","4728 Goldfield Drive",8       
+"San Antonio","xtxritti","4728 Goldfield Drive",4       
+"San Antonio","xtxritti","4728 Goldfield Drive",3       
+"San Antonio","xtxritti","4728 Goldfield Drive",1       
+"San Antonio","xtxritti","4728 Goldfield Drive",2       
+"San Antonio","xtxritti","4728 Goldfield Drive",5       
+"San Antonio","xtxritti","4728 Goldfield Drive",6       
+"Cincinnati","xohcomme","10021 Commerce Park Drive",10021   
+"Philadelphia","xnjcentr","7055 Central highway","7055-1  "
+"Philadelphia","xnjcentr","7055 Central highway","7055-2  "
+"Chicago","xilmount","3325 Mount Prospect Road",1       
+"Memphis","xtn225bo","225 Bobrick Drive",101     
+"Memphis","xtn225bo","225 Bobrick Drive",229     
+"Memphis","xtn225bo","225 Bobrick Drive",103     
+"Chicago","xil747  ","747-777 Chase Ave",747     
+"Chicago","xil1688 ","1688 Glen Ellyn Rd",1688    
+"Chicago","xil305e ","305 E North Ave",305     
+"Chicago","xil305e ","305 E North Ave",307     
+"Chicago","xil1600 ","1600 Hunter Rd",100     
+"Chicago","xil1terr","1 Territorial Court","A       "
+"Chicago","xil1terr","1 Territorial Court","B       "
+"Chicago","xil1terr","1 Territorial Court","C       "
+"Chicago","xil1111 ","1111 Bowes Rd",100     
+"Memphis","xtn187bo","187 Bobrick Drive",100     
+"Philadelphia","xpa1peae","1 Pearl Buck Court","A       "
+"Philadelphia","xpa1peae","1 Pearl Buck Court","B       "
+"Philadelphia","xnj7550 ","7550 North Crescent Boulevard",7550    
+"Atlanta","xga130j ","130 James Aldredge Boulevard ",130     
+"Philadelphia","xnj900k ","900 Kennedy Boulevard",900     
+"Philadelphia","xnj6965 ","6965 Airport Highway Lane",6965    
+"Philadelphia","xnj440be","440 Benigno Boulevard","A-1     "
+"Philadelphia","xnj440be","440 Benigno Boulevard","A-7     "
+"Philadelphia","xnj440be","440 Benigno Boulevard","A-4     "
+"Philadelphia","xnj440be","440 Benigno Boulevard","A-5     "
+"Philadelphia","xnj440be","440 Benigno Boulevard","A-6     "
+"Philadelphia","xnj440be","440 Benigno Boulevard","A-2     "
+"Philadelphia","xnj440be","440 Benigno Boulevard","BB      "
+"Philadelphia","xnj440be","440 Benigno Boulevard","C-E     "
+"Philadelphia","xnj440be","440 Benigno Boulevard","F       "
+"Philadelphia","xnj440be","440 Benigno Boulevard","BF      "
+"Philadelphia","xnj440be","440 Benigno Boulevard","G-H     "
+"Philadelphia","xnj440be","440 Benigno Boulevard","A3      "
+"Philadelphia","xnj420be","420 Benigno Boulevard","B       "
+"Philadelphia","xnj420be","420 Benigno Boulevard","A2-BF   "
+"Philadelphia","xnj420be","420 Benigno Boulevard","C-J     "
+"Philadelphia","xnj420be","420 Benigno Boulevard","A       "
+"Philadelphia","xnj420be","420 Benigno Boulevard","A-1     "
+"Philadelphia","xnj313c ","313 Church Street",313     
+"Philadelphia","xnj52col","52 Coles Road",52      
+"Atlanta","xga9330 ","9330 Industrial Trace",9330    
+"Chicago","xil900b "," 900 Business Center Drive","A       "
+"Chicago","xil900b "," 900 Business Center Drive","B       "
+"Atlanta","xga4225 ","4225 Phil Niekro Parkway",104     
+"Atlanta","xga4225 ","4225 Phil Niekro Parkway",107     
+"Atlanta","xga4225 ","4225 Phil Niekro Parkway","108-109 "
+"Atlanta","xga4225 ","4225 Phil Niekro Parkway","110-111 "
+"Atlanta","xga4225 ","4225 Phil Niekro Parkway",112     
+"Atlanta","xga4225 ","4225 Phil Niekro Parkway","114-116 "
+"Atlanta","xga4225 ","4225 Phil Niekro Parkway",101     
+"Philadelphia","xnj845l ","845 Lancer Drive",845     
+"Philadelphia","xnj1010 ","1010 Old Egg Harbor Road",1010    
+"Dallas","xtx2655 ","2655 Freewood Drive",2655    
+"Dallas","xtx1121 ","1121 108th Street","A       "
+"Dallas","xtx1121 ","1121 108th Street","B       "
+"Atlanta","xga265c ","265 Castleberry Industrial Drive",265     
+"Philadelphia","xnj390n ","390 New Albany Road  ",390     
+"Atlanta","xga1157 ","1157 Battlecreek Road",1157    
+"Atlanta","xga5070 ","5070 Minola Drive","5070-W  "
+"Chicago","xil2101 ","2101 Arthur Avenue","B-C     "
+"Chicago","xil2101 ","2101 Arthur Avenue",200     
+"Philadelphia","xnj108n ","108 North Gold Drive ",108     
+"Cincinnati","xoh8655 ","8655 Seward Road",8655    
+"Philadelphia","xpa12111","1211 Ford Road ",1211    
+"Philadelphia","xnj14th ","14-16 Thomas J Rhodes Industrial Drive","14A     "
+"Philadelphia","xnj14th ","14-16 Thomas J Rhodes Industrial Drive","14B     "
+"Cincinnati","xoh382c ","382 Circle Freeway Drive",382     
+"Philadelphia","xnj220r ","220 Route 70","A       "
+"Philadelphia","xnj220r ","220 Route 70","B       "
+"Philadelphia","xnj10tw ","10 Twosome Drive",10      
+"Chicago","xil250n ","250 North Washtenaw Avenue",250     
+"Chicago","xil529t ","529 Thomas Drive",529     
+"Chicago","xil700h ","700 High Grove Boulevard",700     
+"Northern NJ/New York","xnj17pol","17-01 Pollitt Drive",01      
+"Northern NJ/New York","xnj17pol","17-01 Pollitt Drive",02      
+"Northern NJ/New York","xnj17pol","17-01 Pollitt Drive",03      
+"Northern NJ/New York","xnj17pol","17-01 Pollitt Drive",04      
+"Northern NJ/New York","xnj17pol","17-01 Pollitt Drive",05      
+"Northern NJ/New York","xnj17pol","17-01 Pollitt Drive",4.1     
+"Northern NJ/New York","xnj17pol","17-01 Pollitt Drive","ROOF    "
+"Northern NJ/New York","xnj19nev","19-05 Nevins Road",01      
+"Northern NJ/New York","xnj19nev","19-05 Nevins Road",02      
+"Northern NJ/New York","xnj19nev","19-05 Nevins Road",03      
+"Northern NJ/New York","xnj125al","125 Algonquin Parkway",01      
+"Northern NJ/New York","xnj125al","125 Algonquin Parkway",02      
+"Northern NJ/New York","xnj145al","145 Algonquin Parkway",01      
+"Northern NJ/New York","xnj145al","145 Algonquin Parkway",02      
+"Northern NJ/New York","xnj145al","145 Algonquin Parkway",03      
+"Northern NJ/New York","xnj156al","156 Algonquin Parkway",01      
+"Northern NJ/New York","xnj156al","156 Algonquin Parkway",02      
+"Northern NJ/New York","xnj30les","30 Leslie Court",30      
+"Northern NJ/New York","xnj30les","30 Leslie Court",40      
+"Northern NJ/New York","xnj128ba","128 Bauer Drive",01      
+"Northern NJ/New York","xnj128ba","128 Bauer Drive",02      
+"Northern NJ/New York","xnj128ba","128 Bauer Drive",04      
+"Northern NJ/New York","xnj5thor","5 Thornton Road",01      
+"Northern NJ/New York","xnj40pot","40 Potash Road",01      
+"Northern NJ/New York","xnj95bau","95 Bauer Drive",01      
+"Atlanta","xga4507m","4507 Mills Place Southwest","G-H     "
+"Atlanta","xga4507m","4507 Mills Place Southwest","I       "
+"Atlanta","xga4507m","4507 Mills Place Southwest","WARHSE  "
+"Philadelphia","xnj740co","740 Coopertown Road ",740     
+"Dallas","xtx4201n","4201 North Beach Street ",100     
+"Chicago","xil2500w","2500 West Lake Street",2500    
+"Atlanta","xga4680n","4680 North Royal Atlanta Drive",4680    
+"Atlanta","xga5121b","5121 Buford Highway",5121    
+"Atlanta","xga2100b","2100 Boggs Road Northwest",2100    
+"Dallas","xtx3662m","3662-3670 Miller Park Drive",3670    
+"Dallas","xtx3662m","3662-3670 Miller Park Drive",3662    
+"Dallas","xtx12150","12150 Shiloh Road ",104     
+"Dallas","xtx12150","12150 Shiloh Road ",112     
+"Dallas","xtx12150","12150 Shiloh Road ",120     
+"Atlanta","xga800in","800-850 Industrial Park Drive","800-A   "
+"Atlanta","xga800in","800-850 Industrial Park Drive","850-B   "
+"Atlanta","xga800in","800-850 Industrial Park Drive","MEZZ    "
+"Philadelphia","xnj14rol","14 Roland Avenue",14      
+"Chicago","xil770ar","770 Arthur Avenue",770     
+"Chicago","xil770ar","770 Arthur Avenue",780     
+"Chicago","xil464no","464 Northgate Parkway",464     
+"Chicago","xil77whe","77 Wheeling Road",77      
+"Cincinnati","xky4175a","4175 Aero ParkWay",4175    
+"Cincinnati","xky4175a","4175 Aero ParkWay","LAND    "
+"Philadelphia","xnj1601s","1601-1641 Sherman Avenue",1641    
+"Philadelphia","xnj1601s","1601-1641 Sherman Avenue","1601-DE "
+"Philadelphia","xnj1601s","1601-1641 Sherman Avenue","1601-A-C"
+"Philadelphia","xnj1601s","1601-1641 Sherman Avenue","1601-C-1"
+"San Antonio","xtx8154b","8154 Bracken Creek Drive",100     
+"San Antonio","xtx8154b","8154 Bracken Creek Drive",200     
+"Atlanta","xga800wh","800 Wharton Dr Southwest","A       "
+"Atlanta","xga800wh","800 Wharton Dr Southwest","B       "
+"Jacksonville","xfl11660","11660 Central Parkway ",11660   
+"Columbus","xohcolu1","3000 – 3004 E 14th Avenue",3000    
+"Columbus","xohcolu1","3000 – 3004 E 14th Avenue",3004    
+"Columbus","xohcolu2","3045 – 3065 Switzer Avenue",3045    
+"Columbus","xohcolu2","3045 – 3065 Switzer Avenue",3055    
+"Columbus","xohcolu2","3045 – 3065 Switzer Avenue",3065    
+"Columbus","xohcolu3","3040 – 3050 E 14th Avenue",3040    
+"Columbus","xohcolu3","3040 – 3050 E 14th Avenue",3050    
+"Columbus","xohcolu4","1149 – 1161 Rarig Avenue",1161    
+"Memphis","xtndelp2","4319 Delp Street","4319A   "
+"Memphis","xtndelp2","4319 Delp Street","4319B   "
+"Philadelphia","xpa18rai","18 Railroad Street",18      
+"Chicago","xil1001a","1001 Arthur Avenue",1001    
+"Chicago","xil1000a","1000 Atlantic Drive",1000    
+"Philadelphia","xnj2075h","2075 High Hill Road",2075    
+"Dallas","xtx2125v","2125 Vanco Drive ",2125    
+"Philadelphia","xnj200ri","200 Rike Drive",200     
+"Atlanta","xga4600f","4600 & 4630 Frederick Drive ","4600-A  "
+"Atlanta","xga4600f","4600 & 4630 Frederick Drive ","4600-E  "
+"Atlanta","xga4600f","4600 & 4630 Frederick Drive ","4600-F  "
+"Atlanta","xga4600f","4600 & 4630 Frederick Drive ","4630-A  "
+"Atlanta","xga4600f","4600 & 4630 Frederick Drive ","4630-B  "
+"Atlanta","xga4600f","4600 & 4630 Frederick Drive ","4630-C  "
+"Atlanta","xga4600f","4600 & 4630 Frederick Drive ","4630-D  "
+"Dallas","xtx2616a","2616 Andjon Drive",2610    
+"Dallas","xtx2616a","2616 Andjon Drive",2616    
+"Dallas","xtx2616a","2616 Andjon Drive",2614    
+"Philadelphia","xnj9100p","9100 Pennsauken Highway  ",9100    
+"Dallas","xtx111pl","11100 Plano Road",11100   
+"San Antonio","xtx467wa","4679 Walzem Road",4679    
+"San Antonio","xtx467wa","4679 Walzem Road","AD      "
+"San Antonio","xtx310an","3101 Aniol Street",3101    
+"Lubbock","xtx1919a","1919 Avenue E",1919    
+"Philadelphia","xnj400wa","400 Water Street",400     
+"Atlanta","xga3350h","3350 Hamilton Boulevard SW",100     
+"Atlanta","xga3350h","3350 Hamilton Boulevard SW",200     
+"Atlanta","xga3350h","3350 Hamilton Boulevard SW",300     
+"Jacksonville","xfl7720p","7720 Philips Highway","A       "
+"Jacksonville","xfl7720p","7720 Philips Highway","B-C     "
+"Chicago","xil121lo","121 South Lombard Road",121     
+"Northern NJ/New York","xnj121mo","121 Moonachie Ave",121     
+"Philadelphia","xpa4200m","4200 Macalester Street",4200    
+"Philadelphia","xpa500ma","500 Maryland Avenue",500     
+"Philadelphia","xpa500ma","500 Maryland Avenue","B       "
+"Dallas","xtx10704","10704 - 10710 Composite Drive ",10704   
+"Tampa","xfl420sw","420 S. Ware Boulevard ","A       "
+"Tampa","xfl420sw","420 S. Ware Boulevard ","C       "
+"Tampa","xfl420sw","420 S. Ware Boulevard ","B       "
+"Atlanta","xga401wi","401 Windsor Street SW, Atlanta, GA 30312",401     
+"Memphis","xtn3961o","3961 Outland Drive",3961    
+"Chicago","xil1600b","1600 Birchwood Avenue",1600    
+"Chicago","xil1630b","1630 Birchwood Avenue",1630    
+"Philadelphia","xnj6925s","6925 Sherman Ave",6925    
+"Atlanta","xga9335i","9335 Industrial Trace",100     
+"Chicago","xil11697"," 11697 W Grand",11697   
+"Philadelphia","xnj2050h","20-50 Harkins Drive",2050    
+"Chicago","xil231ja","231 James Street ",231     
+"Chicago","xil231ja","231 James Street ",233     
+"Chicago","xil231ja","231 James Street ",235     
+"Chicago","xil231ja","231 James Street ",237     
+"Chicago","xil231ja","231 James Street ",241     
+"Chicago","xil231ja","231 James Street ",1071    
+"Chicago","xil231ja","231 James Street ",239     
+"Chicago","xil201ja","201 James Street",201     
+"Chicago","xil201ja","201 James Street",1050    
+"Chicago","xil201ja","201 James Street",1060    
+"Chicago","xil201ja","201 James Street",1070    
+"Chicago","xil201ja","201 James Street",1080    
+"Chicago","xil141be","141-145 Bernice",141     
+"Chicago","xil141be","141-145 Bernice",143     
+"Chicago","xil141be","141-145 Bernice",145     
+"Northern NJ/New York","3nj00001","1000 Brighton Street ",1000    
+"Miami","3fl00001","14735 NW 25th Court",14735   
+"Dallas","xtx1709s","1709 S interstate Hwy 45",100     
+"Dallas","xtx1709s","1709 S interstate Hwy 45",150     
+"Dallas","xtx3857m","3857 Miller Park Drive",3857    
+"Dallas","xtx2445s","2445 Santa Anna Avenue",2445    
+"Dallas","xtx1050k","10501 King William Drive",10511   
+"Dallas","xtx1050k","10501 King William Drive",10507   
+"Dallas","xtx1050k","10501 King William Drive",10529   
+"Dallas","xtx1050k","10501 King William Drive",10537   
+"Dallas","xtx1050k","10501 King William Drive",10501   
+"Dallas","xtx1050k","10501 King William Drive",10515   
+"Dallas","xtx1050k","10501 King William Drive",10519   
+"Dallas","xtx1050k","10501 King William Drive",11523   
+"Atlanta","xga3471a","3471 Atlanta Industrial Parkway ",3471    
+"Dallas","xtx1721s","1721 Susan Drive",1721    
+"Dallas","xtx11839","11839 Shiloh Rd",11839   
+"Chicago","xil1200p","1200 Pratt Boulevard",1200    
+"Miami","3fl00002","7970 Central Industrial Drive","PARK    "
+"Miami","3fl00002","7970 Central Industrial Drive",1       
+"Dallas","xtx4666d","4666 Duncanville Road",4666    
+"Philadelphia","3pa00001","9 S. Forrest Avenue",300     
+"Philadelphia","3pa00001","9 S. Forrest Avenue",100     
+"Philadelphia","3pa00001","9 S. Forrest Avenue",200     
+"Atlanta","xga1610s","1610 Spectrum Drive","A       "
+"Atlanta","xga2900j","2900 Jones Mill Road","A       "
+"Baltimore","3md00001","9176 Red Branch Road","A-E     "
+"Baltimore","3md00001","9176 Red Branch Road","T       "
+"Baltimore","3md00001","9176 Red Branch Road","Q       "
+"Baltimore","3md00001","9176 Red Branch Road","G       "
+"Baltimore","3md00001","9176 Red Branch Road","F       "
+"Baltimore","3md00001","9176 Red Branch Road","L       "
+"Baltimore","3md00001","9176 Red Branch Road","H       "
+"Baltimore","3md00001","9176 Red Branch Road","IJK     "
+"Baltimore","3md00001","9176 Red Branch Road","MN      "
+"Baltimore","3md00001","9176 Red Branch Road","OP      "
+"Baltimore","3md00001","9176 Red Branch Road","RS      "
+"Atlanta","3ga00001","2160 Hills Avenue Northwest","B       "
+"Atlanta","3ga00001","2160 Hills Avenue Northwest","A       "
+"Atlanta","3ga00001","2160 Hills Avenue Northwest","C       "
+"Atlanta","xga4450c","4450 Commerce Drive Southwest","A       "
+"Northern NJ/New York","xnj59cha","59 Chambers Brook Road",100     
+"Chicago","xil7760m","7760 North Merrimac Avenue",100     
+"Chicago","xil1000e","1000 East 87th Street",100     
+"Philadelphia","xpa3041m","3041 Marwin Road","A       "
+"Philadelphia","xpa3041m","3041 Marwin Road","B       "
+"Philadelphia","xpa3041m","3041 Marwin Road","B1      "
+"Philadelphia","xpa3041m","3041 Marwin Road","C       "
+"Philadelphia","xpa3041m","3041 Marwin Road","C1      "
+"Philadelphia","xpa3041m","3041 Marwin Road","D       "
+"Northern NJ/New York","xnj19ind","19 Industrial Avenue","CENTER  "
+"Northern NJ/New York","xnj19ind","19 Industrial Avenue","NE      "
+"Northern NJ/New York","xnj19ind","19 Industrial Avenue","NWCNR   "
+"Northern NJ/New York","xnj19ind","19 Industrial Avenue","SCNR    "
+"Northern NJ/New York","xnj19ind","19 Industrial Avenue","SECNR   "
+"Memphis","3tn00001","3338 Democrat Road","AD      "
+"Memphis","3tn00001","3338 Democrat Road",1       
+"Memphis","3tn00001","3338 Democrat Road",2       
+"Memphis","3tn00001","3338 Democrat Road",3       
+"Memphis","3tn00001","3338 Democrat Road",4       
+"Memphis","3tn00001","3338 Democrat Road",5       
+"Memphis","3tn00001","3338 Democrat Road",6       
+"Memphis","3tn00001","3338 Democrat Road",7       
+"Memphis","3tn00001","3338 Democrat Road",8       
+"Memphis","3tn00001","3338 Democrat Road",9       
+"Memphis","3tn00001","3338 Democrat Road",10      
+"Memphis","3tn00002","3298 Democrat Road",1       
+"Memphis","3tn00003","3276 Democrat Road",1       
+"Memphis","3tn00003","3276 Democrat Road",2       
+"Memphis","3tn00003","3276 Democrat Road",3       
+"Memphis","3tn00003","3276 Democrat Road",8       
+"Memphis","3tn00003","3276 Democrat Road",6       
+"Memphis","3tn00003","3276 Democrat Road","4-5     "
+"Memphis","3tn00003","3276 Democrat Road",7       
+"Memphis","3tn00004","3272 Democrat Road",1       
+"Memphis","3tn00005","3262-3268 Democrat Road","1-5     "
+"Memphis","3tn00005","3262-3268 Democrat Road",6       
+"Memphis","3tn00005","3262-3268 Democrat Road","4-7     "
+"Memphis","3tn00005","3262-3268 Democrat Road",1       
+"Memphis","3tn00005","3262-3268 Democrat Road","2-3     "
+"Memphis","3tn00005","3262-3268 Democrat Road","1-5B    "
+"Memphis","3tn00005","3262-3268 Democrat Road","6-10    "
+"Northern NJ/New York","3nj00002","153 Bauer Drive",153     
+"Miami","3fl00003","3330 Northwest 60th Street",3330    
+"Philadelphia","xnj70cat","70 Cathy Lane",1       
+"Philadelphia","xnj70cat","70 Cathy Lane","B       "
+"Philadelphia","xnj6900r","6900 River Road",6900    
+"Atlanta","xga3651c","3651 Clearview Place",3651    
+"Atlanta","xga3651c","3651 Clearview Place","BB      "
+"Chicago","xil222ja","222 James Street",222     
+"Chicago","xil222ja","222 James Street",224     
+"Atlanta","xga1585r","1585 Roadhaven Drive","A       "
+"Cincinnati","xoh154co","154 Commerce Drive",154     
+"Baltimore","3md00002","6704 Curtis Court","A       "
+"Baltimore","3md00002","6704 Curtis Court","B       "
+"Philadelphia","xnj1803u","1803 Underwood Boulevard",1803    
+"Atlanta","3ga00002","801 Blacklawn Road SW","F       "
+"Atlanta","3ga00002","801 Blacklawn Road SW","N       "
+"Atlanta","3ga00002","801 Blacklawn Road SW",1       
+"Atlanta","3ga00002","801 Blacklawn Road SW","OPQR    "
+"Chicago","3il00001","410 Factory RD",410     
+"Columbus","3oh00001","2098 Integrity Drive N",2060    
+"Columbus","3oh00001","2098 Integrity Drive N",2064    
+"Columbus","3oh00001","2098 Integrity Drive N",2066    
+"Columbus","3oh00001","2098 Integrity Drive N",2078    
+"Columbus","3oh00001","2098 Integrity Drive N",2080    
+"Columbus","3oh00001","2098 Integrity Drive N",2098    
+"Columbus","3oh00001","2098 Integrity Drive N",2068    
+"Chicago","xil1100h","1100 Howard Street",1130    
+"Chicago","xil1100h","1100 Howard Street",1100    
+"Chicago","xil1100h","1100 Howard Street",1150    
+"Chicago","xil1701b","1701 Birchwood Avenue",100     
+"Northern NJ/New York","3nj00003","26 Hanes Drive",100     
+"Northern NJ/New York","3nj00003","26 Hanes Drive",200     
+"Chicago","3il00002","150-152 Railroad Avenue",100     
+"Chicago","3il00002","150-152 Railroad Avenue",150     
+"Philadelphia","xnj1980o","1980 Old Cuthbert Road",1980    
+"Atlanta","3ga00003","1100 Shallowford Road",1100    
+"Miami","3fl00004","13281 NW 43rd Ave",100     
+"Chicago","3il00003","2100 West 32nd Street",2100    
+"Chicago","3il00004","3380 Grand Ave",3380    
+"Long Island","3ny00001","180 Heartland Boulevard",180     
+"Dallas","3tx00001","12621-12623 International Pkwy","STE-A   "
+"Dallas","3tx00002","1801 South Great Southwest Parkway",300     
+"Dallas","3tx00002","1801 South Great Southwest Parkway",500     
+"Dallas","3tx00002","1801 South Great Southwest Parkway",600     
+"Dallas","3tx00002","1801 South Great Southwest Parkway",800     
+"Dallas","3tx00002","1801 South Great Southwest Parkway",700     
+"Dallas","3tx00002","1801 South Great Southwest Parkway","C       "
+"Dallas","3tx00002","1801 South Great Southwest Parkway",100     
+"Atlanta","xga1145b","1145 Battlecreek Road",1145    
+"Philadelphia","3nj00005","1425 Grandview Avenue",1425    
+"Philadelphia","3nj00004","1253 Glen Avenue",1253    
+"Cincinnati","3oh00002","2701 Bobmeyer Road","A       "
+"Baltimore","3md00003","8361 Town Center Court",100     
+"Baltimore","3md00004","7120 Ambassador Road",7122    
+"Baltimore","3md00004","7120 Ambassador Road",7120    
+"Baltimore","3md00004","7120 Ambassador Road",7128    
+"Baltimore","3md00004","7120 Ambassador Road",7130    
+"Baltimore","3md00004","7120 Ambassador Road",7132    
+"Baltimore","3md00004","7120 Ambassador Road",7124    
+"Baltimore","3md00004","7120 Ambassador Road","PARK    "
+"Atlanta","3ga00004","2005 Marietta Rd NW","B       "
+"Atlanta","3ga00004","2005 Marietta Rd NW","A       "
+"Chicago","3il00005","955 Estes Avenue",100     
+"Chicago","3il00006","1221 Landmeier",1221    
+"Dallas","3tx00003","2300 E Randol Mill Road",100     
+"Dallas","3tx00004","2220 Chemsearch Blvd",150     
+"Dallas","3tx00004","2220 Chemsearch Blvd",200     
+"Dallas","3tx00005","1111 Northpoint Drive",1111    
+"Dallas","3tx00006","1601 Valley View Lane",1601    
+"Dallas","3tx00007","1460 N Glenville Drive",1460    
+"Dallas","3tx00008","1301 Ridgeview Drive",150     
+"Dallas","3tx00008","1301 Ridgeview Drive",100     
+"Dallas","3tx00009","631 S Royal Lane",100     
+"Dallas","3tx00009","631 S Royal Lane",200     
+"Chicago","3il00007","800-812 Greenleaf Avenue",800     
+"Chicago","3il00007","800-812 Greenleaf Avenue",802     
+"Chicago","3il00007","800-812 Greenleaf Avenue",810     
+"Chicago","3il00007","800-812 Greenleaf Avenue",812     
+"Miami","3fl00005","920 Northwest 159th Drive ","A       "
+"Northern NJ/New York","3nj00006","3140 Route 22",3140    
+"Charlotte, NC","3nc00001","10000 Industrial Dr",10000   
+"Miami","3fl00006","4390 Westroads Drive ","AB      "
+"Miami","3fl00006","4390 Westroads Drive ","C       "
+"Miami","3fl00006","4390 Westroads Drive ","D       "
+"Northern NJ/New York","3nj00007","1145 Edgewater Avenue",1145    
+"Northern NJ/New York","3nj00008","1125 Hendricks Causeway",1125    
+"Columbus","3oh00003","3232 Allegheny Avenue",3232    
+"Northern NJ/New York","3nj00009","1654 High Hill Road",1654    
+"Miami","3fl00007","4570 NW 128th Street","BB      "
+"Miami","3fl00007","4570 NW 128th Street",4570    
+"Dallas","3tx00010","1501 Kings Road ",1501    
+"Dallas","3tx00011","1101 Venture Ct. ",120     
+"Dallas","3tx00011","1101 Venture Ct. ",1101    
+"Dallas","3tx00012","4525 McEwen Road",4535    
+"Dallas","3tx00012","4525 McEwen Road",4525    
+"Dallas","3tx00013","4450 Alpha Road",1       
+"Dallas","3tx00013","4450 Alpha Road",2       
+"Atlanta","3ga00005","370 Gees Mill Business Pkwy","A       "
+"Charlotte, NC","3nc00002","4112 Joe Street",4112    
+"Charlotte, NC","3nc00003","9701 Brookford Street","A       "
+"Charlotte, NC","3nc00003","9701 Brookford Street","B       "
+"Charlotte, NC","3nc00004","2101 Westinghouse Boulevard","C       "
+"Charlotte, NC","3nc00004","2101 Westinghouse Boulevard","D       "
+"Charlotte, NC","3nc00004","2101 Westinghouse Boulevard","ANT     "
+"Charlotte, NC","3nc00004","2101 Westinghouse Boulevard","A       "
+"Northern NJ/New York","3nj00010","1 Pearl Court","A       "
+"Northern NJ/New York","3nj00010","1 Pearl Court","B       "
+"Northern NJ/New York","3nj00010","1 Pearl Court","C       "
+"Northern NJ/New York","3nj00011","2 Pearl Court",2       
+"Northern NJ/New York","3nj00012","3 Pearl Court","C       "
+"Northern NJ/New York","3nj00012","3 Pearl Court","3-DEF   "
+"Northern NJ/New York","3nj00012","3 Pearl Court","B       "
+"Northern NJ/New York","3nj00012","3 Pearl Court","A       "
+"Northern NJ/New York","3nj00013","5 Pearl Court","D       "
+"Northern NJ/New York","3nj00013","5 Pearl Court","A       "
+"Northern NJ/New York","3nj00013","5 Pearl Court","BC      "
+"Northern NJ/New York","3nj00014","6 Pearl Court","M       "
+"Northern NJ/New York","3nj00014","6 Pearl Court","C       "
+"Northern NJ/New York","3nj00014","6 Pearl Court","H       "
+"Northern NJ/New York","3nj00014","6 Pearl Court","G       "
+"Northern NJ/New York","3nj00014","6 Pearl Court","A       "
+"Northern NJ/New York","3nj00014","6 Pearl Court","DEFN    "
+"Northern NJ/New York","3nj00014","6 Pearl Court","J       "
+"Northern NJ/New York","3nj00014","6 Pearl Court","B       "
+"Northern NJ/New York","3nj00014","6 Pearl Court","K       "
+"Northern NJ/New York","3nj00015","7 Pearl Court","E       "
+"Northern NJ/New York","3nj00015","7 Pearl Court","F       "
+"Northern NJ/New York","3nj00015","7 Pearl Court","D       "
+"Northern NJ/New York","3nj00015","7 Pearl Court","ABC     "
+"Northern NJ/New York","3nj00016","59 Route 17",59      
+"Charlotte, NC","3nc00005","2200 Executive Street",100     
+"Baltimore","3md00005","221 Cockeysville Road","A       "
+"Baltimore","3md00005","221 Cockeysville Road","B       "
+"Baltimore","3md00005","221 Cockeysville Road","C       "
+"Northern NJ/New York","3nj00017","16 McKee Drive",16      
+"Northern NJ/New York","3nj00018","91 McKee Drive",4       
+"Northern NJ/New York","3nj00018","91 McKee Drive","B       "
+"Northern NJ/New York","3nj00018","91 McKee Drive","C       "
+"Northern NJ/New York","3nj00018","91 McKee Drive","D       "
+"Northern NJ/New York","3nj00018","91 McKee Drive","E       "
+"Northern NJ/New York","3nj00018","91 McKee Drive","CABLE   "
+"Northern NJ/New York","3nj00018","91 McKee Drive","F       "
+"Northern NJ/New York","3nj00019","70-82 McKee Drive",70      
+"Northern NJ/New York","3nj00019","70-82 McKee Drive","82B     "
+"Northern NJ/New York","3nj00019","70-82 McKee Drive",90      
+"Northern NJ/New York","3nj00019","70-82 McKee Drive","70-A02  "
+"Northern NJ/New York","3nj00019","70-82 McKee Drive","70E     "
+"Cincinnati","3oh00004","4000-4024 Precision Dr ",100     
+"Cincinnati","3oh00004","4000-4024 Precision Dr ",200     
+"Cincinnati","3oh00004","4000-4024 Precision Dr ",300     
+"Cincinnati","3oh00004","4000-4024 Precision Dr ",400     
+"Charlotte, NC","3nc00006","464 East Plaza Drive",1       
+"Charlotte, NC","3nc00006","464 East Plaza Drive",2       
+"Charlotte, NC","3nc00006","464 East Plaza Drive",3       
+"Charlotte, NC","3nc00006","464 East Plaza Drive",4       
+"Charlotte, NC","3nc00007","12210 Vance Davis","E       "
+"Charlotte, NC","3nc00007","12210 Vance Davis","A       "
+"Charlotte, NC","3nc00008","12140 Vance Davis",100     
+"Miami","3fl00008","13000 Northwest 38th Avenue",100     
+"Miami","3fl00009","13001 NW 38th Ave","A       "
+"Miami","3fl00009","13001 NW 38th Ave","B       "
+"Miami","3fl00010","12900 NW 38th Ave",100     
+"Miami","3fl00011","2479 Eunice Ave",100     
+"Baltimore","3md00006","2915 Wilmarco Ave",100     
+"Dallas","3tx00014","10755 Sanden Drive",200     
+"Dallas","3tx00014","10755 Sanden Drive",100     
+"Dallas","3tx00014","10755 Sanden Drive",300     
+"Atlanta","iga001  ","4600-4680 Lewis Road",4600    
+"Atlanta","iga001  ","4600-4680 Lewis Road","PARK    "
+"Atlanta","iga001  ","4600-4680 Lewis Road",4680    
+"Atlanta","iga001  ","4600-4680 Lewis Road",4640    
+"Dallas","3tx00015","1800-20 N Glenville Drive",136     
+"Dallas","3tx00015","1800-20 N Glenville Drive","136W    "
+"Dallas","3tx00015","1800-20 N Glenville Drive","116A    "
+"Dallas","3tx00015","1800-20 N Glenville Drive","122_124 "
+"Dallas","3tx00015","1800-20 N Glenville Drive","108A    "
+"Dallas","3tx00015","1800-20 N Glenville Drive",120     
+"Dallas","3tx00015","1800-20 N Glenville Drive","122A    "
+"Dallas","3tx00015","1800-20 N Glenville Drive","120A    "
+"Dallas","3tx00015","1800-20 N Glenville Drive",102     
+"Dallas","3tx00015","1800-20 N Glenville Drive","124A    "
+"Dallas","3tx00015","1800-20 N Glenville Drive",100     
+"Dallas","3tx00015","1800-20 N Glenville Drive","100A    "
+"Dallas","3tx00015","1800-20 N Glenville Drive","102A    "
+"Dallas","3tx00015","1800-20 N Glenville Drive",116     
+"Dallas","3tx00015","1800-20 N Glenville Drive","100B    "
+"Dallas","3tx00015","1800-20 N Glenville Drive",114     
+"Dallas","3tx00015","1800-20 N Glenville Drive",128     
+"Dallas","3tx00015","1800-20 N Glenville Drive",108     
+"Dallas","3tx00015","1800-20 N Glenville Drive",124     
+"Dallas","3tx00015","1800-20 N Glenville Drive",122     
+"Long Island","iny001  ","105 E Jefryn Blvd",100     
+"Charlotte, NC","inc001  ","1620-1640 Federal Ave",1620    
+"Charlotte, NC","inc001  ","1620-1640 Federal Ave",1640    
+"Northern NJ/New York","3nj00020","200-204 Evans Way","A       "
+"Northern NJ/New York","3nj00020","200-204 Evans Way","B       "
+"Northern NJ/New York","3nj00021","12 Daniel Road","ROOF    "
+"Northern NJ/New York","3nj00021","12 Daniel Road",100     
+"Atlanta","3ga00006","3905 Steve Reynolds Blvd",100     
+"Atlanta","3ga00006","3905 Steve Reynolds Blvd",120     
+"Atlanta","3ga00006","3905 Steve Reynolds Blvd",160     
+"Atlanta","3ga00007","4025 Steve Reynolds Blvd",120     
+"Atlanta","3ga00007","4025 Steve Reynolds Blvd",110     
+"Atlanta","3ga00007","4025 Steve Reynolds Blvd",106     
+"Atlanta","3ga00007","4025 Steve Reynolds Blvd",100     
+"Atlanta","3ga00007","4025 Steve Reynolds Blvd",114     
+"Long Island","3ny00002","120-200 Adams Blvd","PARK    "
+"Long Island","3ny00002","120-200 Adams Blvd","AB      "
+"Long Island","3ny00002","120-200 Adams Blvd","CDEFG   "
+"Long Island","3ny00002","120-200 Adams Blvd","H       "
+"Long Island","3ny00002","120-200 Adams Blvd","J       "
+"Columbus","3oh00005","4848 Evanswood Drive",100     
+"Columbus","3oh00005","4848 Evanswood Drive",200     
+"Cincinnati","3oh00006","8490 Seward Road",100     
+"Memphis","3tn00006","3696 Knight Road",200     
+"Memphis","3tn00006","3696 Knight Road",101     
+"Memphis","3tn00007","5465 E. Raines Rd","05-12   "
+"Memphis","3tn00007","5465 E. Raines Rd","01-04   "
+"Memphis","3tn00008","5425 E. Raines Rd","9-10    "
+"Memphis","3tn00008","5425 E. Raines Rd",11      
+"Memphis","3tn00008","5425 E. Raines Rd",2       
+"Memphis","3tn00008","5425 E. Raines Rd",3       
+"Memphis","3tn00008","5425 E. Raines Rd",4       
+"Memphis","3tn00008","5425 E. Raines Rd",7       
+"Memphis","3tn00008","5425 E. Raines Rd",1       
+"Memphis","3tn00008","5425 E. Raines Rd",8       
+"Memphis","3tn00008","5425 E. Raines Rd",5       
+"Memphis","3tn00009","5445 E. Raines Rd","1B      "
+"Memphis","3tn00009","5445 E. Raines Rd","1A      "
+"Memphis","3tn00009","5445 E. Raines Rd","2A      "
+"Memphis","3tn00010","4105 S Mendenhall Road",100     
+"Memphis","3tn00011","4287 Delp Street",100     
+"Memphis","3tn00012","3845 Crowfarn Drive",100     
+"Memphis","3tn00013","4026-4080 Senator Street",3       
+"Memphis","3tn00013","4026-4080 Senator Street",2       
+"Memphis","3tn00013","4026-4080 Senator Street",1       
+"Memphis","3tn00014","3755 Knight Arnold Road",100     
+"Jacksonville","3fl00012","2550 Cabot Commerce Dr",21      
+"Jacksonville","3fl00012","2550 Cabot Commerce Dr",22      
+"Jacksonville","3fl00012","2550 Cabot Commerce Dr",400     
+"Jacksonville","3fl00012","2550 Cabot Commerce Dr",600     
+"Atlanta","iga005  ","1695 Marietta Blvd NW",1       
+"Jacksonville","3fl00013","11070 Cabot Commerce Circle",2       
+"Jacksonville","3fl00013","11070 Cabot Commerce Circle",1       
+"Jacksonville","3fl00014","11084 Cabot Commerce Circle","100-300 "
+"Jacksonville","3fl00014","11084 Cabot Commerce Circle",200     
+"Jacksonville","3fl00015","2562 Cabot Commerce Circle",1       
+"Memphis","3tn00015","4519 Old Lamar Avenue",1       
+"Memphis","3tn00016","4133-4175 Senator St",9       
+"Memphis","3tn00016","4133-4175 Senator St",8       
+"Memphis","3tn00016","4133-4175 Senator St",2       
+"Memphis","3tn00016","4133-4175 Senator St","3-4     "
+"Memphis","3tn00016","4133-4175 Senator St",1       
+"Memphis","3tn00016","4133-4175 Senator St",11      
+"Memphis","3tn00016","4133-4175 Senator St",12      
+"Memphis","3tn00016","4133-4175 Senator St",6       
+"Memphis","3tn00016","4133-4175 Senator St",5       
+"Memphis","3tn00017","4179-4189 Senator St",2       
+"Memphis","3tn00017","4179-4189 Senator St","2A      "
+"Memphis","3tn00017","4179-4189 Senator St",3       
+"Memphis","3tn00017","4179-4189 Senator St",4       
+"Memphis","3tn00017","4179-4189 Senator St",5       
+"Memphis","3tn00018","4533 Old Lamar Ave",100     
+"Chicago","3il00008","1060 N Garfield",100     
+"Chicago","3il00008","1060 N Garfield",200     
+"Chicago","3il00008","1060 N Garfield","1066-68 "
+"Chicago","3il00008","1060 N Garfield",1072    
+"Chicago","3il00008","1060 N Garfield",1062    
+"Chicago","3il00008","1060 N Garfield",1060    
+"Chicago","3il00008","1060 N Garfield",1064    
+"Chicago","3il00008","1060 N Garfield",1070    
+"Northern NJ/New York","inj001  ","100 Lehigh Drive",100     
+"Atlanta","3ga00009","48-50 Best Friend Road",1       
+"Atlanta","3ga00008","1056 Personal Place",1       
+"Atlanta","3ga00010","3285 Saturn Ct",1       
+"Long Island","3ny00003","180 Motor Parkway",100     
+"Long Island","iny002  ","1800 Arctic Avenue",100     
+"Baltimore","3md00007","1200 Bernard Drive",100     
+"Atlanta","3ga00011","1400 Beaver Ruin Rd",100     
+"Dallas","3tx00017","2901 S. Cravens Rd.",100     
+"Dallas","3tx00018","6151 Cowley Road",100     
+"Dallas","3tx00019","2833 S Cravens Road",100     
+"Northern NJ/New York","3nj00024","15 Gloria Lane",100     
+"Northern NJ/New York","3nj00024","15 Gloria Lane",200     
+"Northern NJ/New York","3nj00024","15 Gloria Lane",300     
+"Chicago","3il00009","825 26th Street",100     
