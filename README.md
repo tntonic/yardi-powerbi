@@ -2,25 +2,30 @@
 
 ## 📋 Overview
 
-**STATUS: PRODUCTION READY v4.1** ✅ | **VALIDATION: COMPLETE** 🔍 | **YSQL ENHANCED** 🚀
+**STATUS: PRODUCTION READY v5.1** ✅ | **VALIDATION: COMPLETE** 🔍 | **YSQL ENHANCED** 🚀
 
 This is a comprehensive Faropoint Yardi to Power BI analytics project providing commercial real estate business intelligence. The solution includes a complete, self-contained documentation set for implementing Power BI dashboards with validated accuracy and performance.
 
 **Key Achievements:**
 - ✅ **32-table optimized data model** with YSQL-validated mappings
-- ✅ **125 production-ready DAX measures** (v4.1 with YSQL improvements)
+- ✅ **217+ production-ready DAX measures** (v5.1 with dynamic date handling)
 - ✅ **97-99% rent roll accuracy** validated against native Yardi reports
 - ✅ **97-98% leasing activity accuracy** with enhanced analytics
 - ✅ **Complete dashboard templates** with 8 dashboard specifications
 - ✅ **YSQL integration** for direct Yardi data validation
 - ✅ **Month-to-month lease tracking** with proper identification logic
 
-**Latest Updates (v4.1 - 2025-08-09):**
+**Latest Updates (v5.1 - 2025-08-10):**
+- ✅ **Dynamic Date Handling**: All measures now use `dim_lastclosedperiod` for date references (replacing TODAY())
+- ✅ **217+ Production Measures**: Complete suite across 5 functional areas
+- ✅ **Enhanced Analytics**: Net absorption, credit risk, leasing spreads, pipeline analysis
+- ✅ **Zero Hard-Coded Dates**: Fully dynamic system aligned with Yardi periods
+- 📊 See [CHANGELOG_v5.1.md](CHANGELOG_v5.1.md) and [VERSION_5.1_SUMMARY.md](VERSION_5.1_SUMMARY.md) for details
+
+**Previous Updates (v4.1 - 2025-08-09):**
 - ✅ **YSQL Integration**: Added amendment type exclusions based on Yardi native logic
 - ✅ **New Measures**: Month-to-month lease indicators and property status filters
 - ✅ **Enhanced Validation**: Python scripts for YSQL-based accuracy testing
-- ✅ **Documentation**: Complete YSQL mapping and enumeration reference
-- 📊 See [YSQL_Integration_Improvements.md](Documentation/YSQL_Integration_Improvements.md) for details
 
 ## Business Value
 
@@ -88,26 +93,26 @@ This is a comprehensive Faropoint Yardi to Power BI analytics project providing 
 ## 🎯 Quick Navigation
 
 ### 🚀 **START HERE** (Essential Implementation Path)
-1. **✅ Quick_Start_Checklist.md** - Step-by-step implementation timeline
-2. **🏗️ Complete_Data_Model_Guide.md** - 32-table architecture documentation
-3. **⚡ Complete_DAX_Library_Production_Ready.dax** - All 122 production-ready measures
-4. **📊 Dashboard Templates** - Production-ready dashboard designs
-5. **🔍 Validation_and_Testing_Guide.md** - Accuracy verification procedures
+1. **✅ [Quick_Start_Checklist.md](Documentation/Core_Guides/Quick_Start_Checklist.md)** - Step-by-step implementation timeline
+2. **🏗️ [Complete_Data_Model_Guide.md](Documentation/Core_Guides/Complete_Data_Model_Guide.md)** - 32-table architecture documentation
+3. **⚡ [Claude_AI_Reference/DAX_Measures/](Claude_AI_Reference/DAX_Measures/)** - All 217+ production-ready measures (v5.1)
+4. **📊 [Dashboard Templates](Claude_AI_Reference/Dashboard_Templates/)** - Production-ready dashboard designs
+5. **🔍 [Validation_and_Testing_Guide.md](Documentation/Validation/Validation_and_Testing_Guide.md)** - Accuracy verification procedures
 
 ### Essential Documentation Files
 
 #### Core Implementation Files
 - **CLAUDE.md** - Overview and guidance for working with the solution architecture
-- **Complete_Data_Model_Guide.md** - Detailed 32-table structure with relationships and cardinalities
-- **Complete_DAX_Library_Production_Ready.dax** - All 122 measures in single file
-- **Quick_Start_Checklist.md** - Comprehensive implementation timeline with validation checkpoints
+- **[Complete_Data_Model_Guide.md](Documentation/Core_Guides/Complete_Data_Model_Guide.md)** - Detailed 32-table structure with relationships and cardinalities
+- **Claude_AI_Reference/DAX_Measures/** - All 217+ measures organized by functional area (v5.1)
+- **[Quick_Start_Checklist.md](Documentation/Core_Guides/Quick_Start_Checklist.md)** - Comprehensive implementation timeline with validation checkpoints
 
 #### Essential Reference Guides
-- **Account_Mapping_Reference.md** - Complete GL account structure and usage patterns
-- **Business_Logic_Reference.md** - Detailed calculation explanations and business rules
-- **Calculation_Patterns_Reference.md** - DAX calculation patterns from Tableau conversion
-- **Granularity_Best_Practices.md** - Table grain specifications and aggregation rules
-- **Book_Strategy_Guide.md** - Understanding Yardi accounting books (Accrual, FPR, Budget)
+- **[Account_Mapping_Reference.md](Documentation/Reference/Account_Mapping_Reference.md)** - Complete GL account structure and usage patterns
+- **[Business_Logic_Reference.md](Documentation/Reference/Business_Logic_Reference.md)** - Detailed calculation explanations and business rules
+- **[Calculation_Patterns_Reference.md](Documentation/Reference/Calculation_Patterns_Reference.md)** - DAX calculation patterns from Tableau conversion
+- **[Granularity_Best_Practices.md](Documentation/Reference/Granularity_Best_Practices.md)** - Table grain specifications and aggregation rules
+- **[Book_Strategy_Guide.md](Documentation/Reference/Book_Strategy_Guide.md)** - Understanding Yardi accounting books (Accrual, FPR, Budget)
 
 #### Dashboard Templates
 - **Executive_Summary_Dashboard.md** - High-level KPI overview with trend analysis
@@ -116,13 +121,13 @@ This is a comprehensive Faropoint Yardi to Power BI analytics project providing 
 - **Rent_Roll_Dashboard.md** - Current rent roll analysis with lease expiration analysis
 
 #### Specialized Features
-- **Rent_Roll_Implementation.md** - Amendment-based rent roll logic achieving 95-99% accuracy
-- **Leasing_Activity_Analysis.md** - Enhanced leasing metrics beyond standard reporting
+- **[Rent_Roll_Implementation.md](Documentation/Implementation/Rent_Roll_Implementation.md)** - Amendment-based rent roll logic achieving 95-99% accuracy
+- **[Leasing_Activity_Analysis.md](Documentation/Implementation/Leasing_Activity_Analysis.md)** - Enhanced leasing metrics beyond standard reporting
 
 #### Support Documentation
-- **Common_Issues_Solutions.md** - Troubleshooting guide for frequently encountered problems
-- **Validation_and_Testing_Guide.md** - Accuracy verification procedures
-- **Data_Dictionary.md** - Complete field definitions and business meanings
+- **[Common_Issues_Solutions.md](Documentation/Implementation/Common_Issues_Solutions.md)** - Troubleshooting guide for frequently encountered problems
+- **[Validation_and_Testing_Guide.md](Documentation/Validation/Validation_and_Testing_Guide.md)** - Accuracy verification procedures
+- **[Data_Dictionary.md](Documentation/Core_Guides/Data_Dictionary.md)** - Complete field definitions and business meanings
 
 ## 🎯 Implementation Approach
 
@@ -145,21 +150,21 @@ All documentation reflects the **production-ready state**:
 
 ### For New Implementers
 1. **Review Prerequisites**: Ensure all technical and access requirements are met above
-2. **Follow Checklist**: Use Quick_Start_Checklist.md for systematic implementation
-3. **Import Complete Library**: Use Complete_DAX_Library_Production_Ready.dax for all measures
+2. **Follow Checklist**: Use [Quick_Start_Checklist.md](Documentation/Core_Guides/Quick_Start_Checklist.md) for systematic implementation
+3. **Import Measures**: Use files from Claude_AI_Reference/DAX_Measures/ for all 217+ measures
 4. **Build Dashboards**: Follow Dashboard Templates for proven designs
 
 ### For Power BI Developers
-1. **Data Model**: Implement 32-table structure per Complete_Data_Model_Guide.md
-2. **Measures**: Import all 122 measures from Complete_DAX_Library_Production_Ready.dax
-3. **Validation**: Follow Validation_and_Testing_Guide.md for accuracy verification
-4. **Optimization**: Apply performance guidelines from Common_Issues_Solutions.md
+1. **Data Model**: Implement 32-table structure per [Complete_Data_Model_Guide.md](Documentation/Core_Guides/Complete_Data_Model_Guide.md)
+2. **Measures**: Import all 217+ measures from Claude_AI_Reference/DAX_Measures/ (v5.1)
+3. **Validation**: Follow [Validation_and_Testing_Guide.md](Documentation/Validation/Validation_and_Testing_Guide.md) for accuracy verification
+4. **Optimization**: Apply performance guidelines from [Common_Issues_Solutions.md](Documentation/Implementation/Common_Issues_Solutions.md)
 
 ### For Business Analysts
-1. **Business Logic**: Review Business_Logic_Reference.md for calculation explanations
+1. **Business Logic**: Review [Business_Logic_Reference.md](Documentation/Reference/Business_Logic_Reference.md) for calculation explanations
 2. **Dashboard Features**: Explore Dashboard Templates for available analytics capabilities
-3. **Specialized Analytics**: Review Rent_Roll_Implementation.md and Leasing_Activity_Analysis.md
-4. **Data Dictionary**: Reference Data_Dictionary.md for field definitions and meanings
+3. **Specialized Analytics**: Review [Rent_Roll_Implementation.md](Documentation/Implementation/Rent_Roll_Implementation.md) and [Leasing_Activity_Analysis.md](Documentation/Implementation/Leasing_Activity_Analysis.md)
+4. **Data Dictionary**: Reference [Data_Dictionary.md](Documentation/Core_Guides/Data_Dictionary.md) for field definitions and meanings
 
 ## 📊 Key Capabilities Documented
 
@@ -253,7 +258,7 @@ All documentation reflects the **production-ready state**:
 
 ## 📋 Documentation Standards
 
-**Version**: Production Ready v1.2  
+**Version**: Production Ready v5.1 (Dynamic Date Handling)  
 **Last Updated**: August 2025  
 **Validation Status**: Complete - All measures tested against real data  
 **Implementation Status**: Ready for production deployment

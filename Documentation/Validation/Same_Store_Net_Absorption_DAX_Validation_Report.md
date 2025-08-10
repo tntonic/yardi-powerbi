@@ -1,7 +1,7 @@
 # Same-Store Net Absorption DAX Measures Validation Report
 
 **Validation Date**: August 10, 2025  
-**DAX Library Version**: v4.1 Production  
+**DAX Library Version**: v5.1 Production  
 **Measures Added**: 6 new measures following FPR methodology  
 **Target Accuracy**: Q4 2024 Fund 2 benchmarks  
 
@@ -140,7 +140,7 @@ NOT ISBLANK(dim_property[dispose date])
 
 // Could enhance with additional validation
 NOT ISBLANK(dim_property[dispose date]) && 
-dim_property[dispose date] <= TODAY()
+dim_property[dispose date] <= CALCULATE(MAX(dim_lastclosedperiod[last closed period]), ALL(dim_lastclosedperiod))
 ```
 
 ### 6. `Acquisition SF`
@@ -276,5 +276,5 @@ The same-store net absorption measures have been successfully implemented follow
 ---
 
 **Validation Completed By**: Claude Code - DAX Validation Expert  
-**Validation Framework**: Power BI DAX Best Practices v4.1  
+**Validation Framework**: Power BI DAX Best Practices v5.1  
 **Compliance Standard**: Yardi Real Estate Analytics Framework

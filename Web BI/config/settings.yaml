@@ -1,49 +1,141 @@
 # Yardi PowerBI Dashboard Configuration
-# Settings for the web-based analytics platform
+# Application settings and customization options
 
-app:
+# Dashboard Settings
+dashboard:
   title: "Yardi PowerBI Dashboard"
-  description: "Interactive commercial real estate analytics dashboard"
-  version: "1.0.0"
-  author: "Yardi PowerBI Team"
-
+  subtitle: "Commercial Real Estate Analytics Platform"
+  version: "5.1"
+  theme: "light"
+  
+# Database Settings
 database:
   path: "database/yardi.duckdb"
   read_only: true
-  timeout: 30  # seconds
+  connection_timeout: 30
+  query_timeout: 60
   
-data:
-  source_path: "../Data/Yardi_Tables"
-  refresh_interval_hours: 24
-  cache_duration_minutes: 60
-  
+# Performance Settings
 performance:
-  max_query_timeout: 30  # seconds
-  chart_sample_size: 10000  # rows
-  table_page_size: 500  # rows
-  enable_caching: true
+  cache_ttl: 300  # 5 minutes
+  slow_query_threshold: 2.0  # seconds
+  max_query_results: 10000
   
+# UI Settings
 ui:
-  theme: "light"  # light/dark
-  sidebar_expanded: true
+  page_layout: "wide"
+  sidebar_state: "expanded"
   chart_height: 400
-  table_height: 500
+  max_properties_display: 10
   
-features:
-  enable_exports: true
-  enable_filters: true
-  enable_drill_downs: true
-  show_query_info: false  # for debugging
+# Color Schemes
+colors:
+  primary: "#1f77b4"
+  secondary: "#17a2b8"
+  success: "#28a745"
+  warning: "#ffc107"
+  danger: "#dc3545"
+  info: "#17a2b8"
   
-security:
-  enable_auth: false  # set to true for production
-  session_timeout_minutes: 480  # 8 hours
+# Chart Settings
+charts:
+  default_height: 400
+  color_scales:
+    revenue: "Blues"
+    noi: "Greens"
+    margin: "RdYlGn"
+    risk: "RdYlBu"
   
+# Export Settings
+export:
+  default_format: "csv"
+  include_timestamp: true
+  max_rows: 50000
+  
+# Error Handling
+error_handling:
+  show_detailed_errors: false
+  log_errors: true
+  max_error_display_length: 200
+  
+# Dashboard Components
+components:
+  executive_summary:
+    enabled: true
+    refresh_interval: 300
+  rent_roll:
+    enabled: true
+    refresh_interval: 300
+  leasing_activity:
+    enabled: true
+    refresh_interval: 300
+  financial_metrics:
+    enabled: true
+    refresh_interval: 300
+  credit_risk:
+    enabled: true
+    refresh_interval: 300
+    
+# Data Validation
+validation:
+  require_properties: true
+  require_date_range: true
+  min_date_range_days: 1
+  max_date_range_days: 3650  # 10 years
+  
+# Business Logic
+business:
+  noi_margin_target: 50.0
+  occupancy_target: 85.0
+  cap_rate_target: 6.5
+  credit_score_threshold: 6.0
+  
+# Navigation
+navigation:
+  default_dashboard: "Executive Summary"
+  available_dashboards:
+    - "Executive Summary"
+    - "Rent Roll Analysis"
+    - "Leasing Activity"
+    - "Financial Performance"
+    - "Credit Risk Analysis"
+    
+# Filters
+filters:
+  default_fund: "All Funds"
+  default_book: "All Books"
+  available_funds:
+    - "All Funds"
+    - "Fund 1"
+    - "Fund 2"
+    - "Fund 3"
+  available_books:
+    - "All Books"
+    - "Book 46 (FPR)"
+    - "Book 1 (Standard)"
+    
+# Help and Documentation
+help:
+  show_tooltips: true
+  show_help_buttons: true
+  documentation_url: "https://github.com/your-username/yardi-powerbi"
+  support_email: "support@example.com"
+  
+# Logging
 logging:
-  level: "INFO"  # DEBUG/INFO/WARNING/ERROR
+  level: "INFO"
   file: "logs/dashboard.log"
+  max_file_size: "10MB"
+  backup_count: 5
   
-deployment:
-  port: 8501
-  host: "0.0.0.0"
-  environment: "development"  # development/staging/production
+# Security
+security:
+  enable_authentication: false
+  session_timeout: 3600  # 1 hour
+  max_login_attempts: 3
+  
+# Monitoring
+monitoring:
+  enable_metrics: true
+  track_user_actions: true
+  performance_monitoring: true

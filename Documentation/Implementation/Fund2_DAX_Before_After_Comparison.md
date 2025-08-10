@@ -26,7 +26,10 @@
 ### BEFORE (v2.0 - Existing Logic)
 ```dax
 Current Monthly Rent = 
-VAR CurrentDate = TODAY()
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
 RETURN
 CALCULATE(
     SUM(dim_fp_amendmentchargeschedule[monthly amount]),
@@ -65,7 +68,10 @@ CALCULATE(
 ### AFTER (v3.0 - Fund 2 Fixed Logic)
 ```dax
 Current Monthly Rent = 
-VAR CurrentDate = TODAY()
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
 // Step 1: Get base amendments with business rule filters
 VAR BaseAmendments = 
     CALCULATETABLE(  // ← EFFICIENT PATTERN
@@ -243,7 +249,10 @@ SUMX(  // ← SAFER COUNTING PATTERN
 ### BEFORE (v2.0)
 ```dax
 WALT (Months) = 
-VAR CurrentDate = TODAY()
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
 VAR FilteredAmendments = 
     FILTER(
         dim_fp_amendmentsunitspropertytenant,
@@ -262,7 +271,10 @@ RETURN DIVIDE(WeightedTerms, TotalSF)  // May include non-revenue generating lea
 ### AFTER (v3.0)
 ```dax
 WALT (Months) = 
-VAR CurrentDate = TODAY()
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
 // Step 1: Get base amendments with business rule filters
 VAR BaseAmendments = 
     CALCULATETABLE(

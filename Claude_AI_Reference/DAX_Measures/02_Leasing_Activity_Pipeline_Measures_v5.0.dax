@@ -120,7 +120,7 @@ New Leases Pipeline Count =
 CALCULATE(
     COUNTROWS([_BaseValidLeasingDeals]),
     (
-        fact_leasingactivity[Proposal Type] IN {"New Lease", "New"} ||
+        fact_leasingactivity[Proposal Type] IN {"New Lease", "New"} OR
         (
             fact_leasingactivity[Cash Flow Type] = "Proposal" &&
             ISBLANK(fact_leasingactivity[Proposal Type])
@@ -134,7 +134,7 @@ Pipeline New Leases Executed Count =
 CALCULATE(
     COUNTROWS([_BaseValidLeasingDeals]),
     (
-        fact_leasingactivity[Proposal Type] IN {"New Lease", "New"} ||
+        fact_leasingactivity[Proposal Type] IN {"New Lease", "New"} OR
         (
             fact_leasingactivity[Cash Flow Type] = "Proposal" &&
             NOT(
@@ -155,7 +155,7 @@ Pipeline New Leases Executed SF =
 CALCULATE(
     SUM(fact_leasingactivity[dArea]),
     (
-        fact_leasingactivity[Proposal Type] IN {"New Lease", "New"} ||
+        fact_leasingactivity[Proposal Type] IN {"New Lease", "New"} OR
         (
             fact_leasingactivity[Cash Flow Type] = "Proposal" &&
             NOT(
@@ -177,7 +177,7 @@ Renewals Pipeline Count =
 CALCULATE(
     COUNTROWS([_BaseValidLeasingDeals]),
     (
-        fact_leasingactivity[Proposal Type] IN {"Renewal", "Renew"} ||
+        fact_leasingactivity[Proposal Type] IN {"Renewal", "Renew"} OR
         (
             fact_leasingactivity[Cash Flow Type] = "Proposal" &&
             CALCULATE(
@@ -196,7 +196,7 @@ Pipeline Renewals Executed Count =
 CALCULATE(
     COUNTROWS([_BaseValidLeasingDeals]),
     (
-        fact_leasingactivity[Proposal Type] IN {"Renewal", "Renew"} ||
+        fact_leasingactivity[Proposal Type] IN {"Renewal", "Renew"} OR
         (
             fact_leasingactivity[Cash Flow Type] = "Proposal" &&
             CALCULATE(
@@ -215,7 +215,7 @@ Pipeline Renewals Executed SF =
 CALCULATE(
     SUM(fact_leasingactivity[dArea]),
     (
-        fact_leasingactivity[Proposal Type] IN {"Renewal", "Renew"} ||
+        fact_leasingactivity[Proposal Type] IN {"Renewal", "Renew"} OR
         (
             fact_leasingactivity[Cash Flow Type] = "Proposal" &&
             CALCULATE(
@@ -989,7 +989,10 @@ AVERAGEX(
 
 Deals in Pipeline 0-30 Days = 
 // Count of deals in pipeline for 0-30 days
-VAR Today = TODAY()
+VAR Today = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
 RETURN
 CALCULATE(
     COUNTROWS([_BaseValidLeasingDeals]),
@@ -999,7 +1002,10 @@ CALCULATE(
 
 Deals in Pipeline 31-90 Days = 
 // Count of deals in pipeline for 31-90 days
-VAR Today = TODAY()
+VAR Today = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
 RETURN
 CALCULATE(
     COUNTROWS([_BaseValidLeasingDeals]),
@@ -1010,7 +1016,10 @@ CALCULATE(
 
 Deals in Pipeline 90+ Days = 
 // Count of deals in pipeline for 90+ days
-VAR Today = TODAY()
+VAR Today = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
 RETURN
 CALCULATE(
     COUNTROWS([_BaseValidLeasingDeals]),

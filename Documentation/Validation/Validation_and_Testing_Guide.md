@@ -545,7 +545,7 @@ RETURN
 // Alert Conditions
 Alert Required = 
 VAR HealthScore = [Model Health Score]
-VAR DataFreshness = DATEDIFF(MAX(fact_total[month]), TODAY(), DAY)
+VAR DataFreshness = DATEDIFF(MAX(fact_total[month]), CALCULATE(MAX(dim_lastclosedperiod[last closed period]), ALL(dim_lastclosedperiod)), DAY)
 VAR CriticalErrors = [Critical Error Count]
 RETURN
     HealthScore < 90 || DataFreshness > 31 || CriticalErrors > 10
@@ -573,7 +573,7 @@ RETURN
 ## Validation Checklist
 
 ### Pre-Production Validation
-- [ ] All 77 measures execute without errors
+- [ ] All 217+ measures execute without errors
 - [ ] Validation dashboard shows >95% overall health score
 - [ ] Cross-system validation completed for key measures
 - [ ] Performance benchmarks met (<10 sec dashboard load)

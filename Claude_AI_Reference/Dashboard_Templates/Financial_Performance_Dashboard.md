@@ -488,16 +488,20 @@ CONCATENATEX(
 ```dax
 // Revenue Forecast (Simple Linear Trend)
 Revenue Forecast = 
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
 VAR HistoricalRevenue = 
     CALCULATETABLE(
         VALUES(dim_date[date]),
-        dim_date[date] >= EDATE(TODAY(), -12),
-        dim_date[date] <= TODAY()
+        dim_date[date] >= EDATE(CurrentDate, -12),
+        dim_date[date] <= CurrentDate
     )
 VAR TrendSlope = 
     // Calculate trend using statistical functions
     LINEST([Total Revenue], MONTH(dim_date[date]))
-VAR ForecastMonths = DATEDIFF(TODAY(), MAX(dim_date[date]), MONTH)
+VAR ForecastMonths = DATEDIFF(CurrentDate, MAX(dim_date[date]), MONTH)
 RETURN [Total Revenue] + (TrendSlope * ForecastMonths)
 
 // NOI Projection

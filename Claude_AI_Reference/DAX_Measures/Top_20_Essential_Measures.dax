@@ -1,7 +1,8 @@
 // =====================================================
-// TOP 20 ESSENTIAL DAX MEASURES FOR POWER BI
-// Extracted from Complete DAX Library v4.0 Production
+// TOP 20 ESSENTIAL DAX MEASURES FOR POWER BI - v5.1
+// Extracted from Complete DAX Library v5.1 Production
 // For use with Claude.ai assistance in dashboard development
+// v5.1 Update: Added properly weighted average calculations
 // =====================================================
 
 // =====================================================
@@ -75,13 +76,41 @@ Total Rentable Area =
 // Total rentable square footage across portfolio
 SUM(fact_occupancyrentarea[rentable area])
 
-Average Rent PSF = 
-// Average rent per square foot for occupied space
+Portfolio Rent PSF = 
+// Portfolio-level rent per square foot (total rent / total occupied area)
+// Note: This is NOT a weighted average - it's total portfolio rent divided by total area
 DIVIDE(
     SUM(fact_occupancyrentarea[total rent]) * 12,
     SUM(fact_occupancyrentarea[occupied area]),
     0
 )
+
+Property Weighted Average Rent PSF = 
+// NEW v5.1: Properly weighted average rent PSF across properties
+// Weights by each property's occupied area for accurate portfolio average
+VAR PropertyRentDetails = 
+    SUMMARIZE(
+        fact_occupancyrentarea,
+        dim_property[property hmy],
+        "PropertyRent", SUM(fact_occupancyrentarea[total rent]) * 12,
+        "PropertyOccupiedArea", SUM(fact_occupancyrentarea[occupied area])
+    )
+VAR ValidProperties = 
+    FILTER(
+        PropertyRentDetails,
+        [PropertyOccupiedArea] > 0
+    )
+VAR PropertyLevelPSF = 
+    ADDCOLUMNS(
+        ValidProperties,
+        "PropertyPSF", DIVIDE([PropertyRent], [PropertyOccupiedArea], 0)
+    )
+VAR TotalWeightedRent = 
+    SUMX(PropertyLevelPSF, [PropertyPSF] * [PropertyOccupiedArea])
+VAR TotalArea = 
+    SUMX(PropertyLevelPSF, [PropertyOccupiedArea])
+RETURN 
+    DIVIDE(TotalWeightedRent, TotalArea, 0)
 
 // =====================================================
 // RENT ROLL MEASURES (6-8)
@@ -90,7 +119,10 @@ DIVIDE(
 Current Monthly Rent = 
 // Current monthly rent from latest amendments with active charges
 // Uses amendment-based logic for accuracy
-VAR CurrentDate = TODAY()
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
 RETURN
 SUMX(
     FILTER(
@@ -98,7 +130,7 @@ SUMX(
         dim_fp_amendmentsunitspropertytenant[amendment status] IN {"Activated", "Superseded"} &&
         NOT(dim_fp_amendmentsunitspropertytenant[amendment type] IN {"Termination", "Proposal in DM"}) &&
         dim_fp_amendmentsunitspropertytenant[amendment start date] <= CurrentDate &&
-        (dim_fp_amendmentsunitspropertytenant[amendment end date] >= CurrentDate || 
+        (dim_fp_amendmentsunitspropertytenant[amendment end date] >= CurrentDate OR 
          ISBLANK(dim_fp_amendmentsunitspropertytenant[amendment end date]))
     ),
     CALCULATE(
@@ -118,7 +150,10 @@ DIVIDE([Current Monthly Rent] * 12, [Current Leased SF], 0)
 
 Current Leased SF = 
 // Currently leased square footage from active amendments
-VAR CurrentDate = TODAY()
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
 RETURN
 SUMX(
     FILTER(
@@ -126,7 +161,7 @@ SUMX(
         dim_fp_amendmentsunitspropertytenant[amendment status] IN {"Activated", "Superseded"} &&
         NOT(dim_fp_amendmentsunitspropertytenant[amendment type] IN {"Termination", "Proposal in DM"}) &&
         dim_fp_amendmentsunitspropertytenant[amendment start date] <= CurrentDate &&
-        (dim_fp_amendmentsunitspropertytenant[amendment end date] >= CurrentDate || 
+        (dim_fp_amendmentsunitspropertytenant[amendment end date] >= CurrentDate OR 
          ISBLANK(dim_fp_amendmentsunitspropertytenant[amendment end date]))
     ),
     dim_fp_amendmentsunitspropertytenant[amendment sf]
@@ -138,7 +173,10 @@ SUMX(
 
 WALT (Months) = 
 // Weighted Average Lease Term in months
-VAR CurrentDate = TODAY()
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
 VAR TotalWeightedTerm = 
     SUMX(
         FILTER(
@@ -146,7 +184,7 @@ VAR TotalWeightedTerm =
             dim_fp_amendmentsunitspropertytenant[amendment status] IN {"Activated", "Superseded"} &&
             NOT(dim_fp_amendmentsunitspropertytenant[amendment type] IN {"Termination", "Proposal in DM"}) &&
             dim_fp_amendmentsunitspropertytenant[amendment start date] <= CurrentDate &&
-            (dim_fp_amendmentsunitspropertytenant[amendment end date] >= CurrentDate || 
+            (dim_fp_amendmentsunitspropertytenant[amendment end date] >= CurrentDate OR 
              ISBLANK(dim_fp_amendmentsunitspropertytenant[amendment end date]))
         ),
         VAR MonthsRemaining = 
@@ -268,4 +306,5 @@ RETURN WeightedScore
 // 2. Amendment-based measures require proper status filtering ("Activated" + "Superseded")
 // 3. Revenue accounts (4xxxx) are stored as negative in GL - multiply by -1
 // 4. All measures are validated to 95-99% accuracy against native Yardi reports
-// 5. For detailed implementation guidance, refer to Complete_DAX_Library_v4_Production.dax
+// 5. For detailed implementation guidance, refer to Complete_DAX_Library_v5_Production.dax
+// 6. v5.1: Portfolio Rent PSF is total-based; use Property Weighted Average Rent PSF for true averages

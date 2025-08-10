@@ -1,0 +1,446 @@
+/*
+=================================================================
+ENHANCED TIME INTELLIGENCE MEASURES FOR P&L WITH BOOK CONTEXT
+=================================================================
+
+Purpose: Comprehensive time intelligence functions that maintain book selection context
+Business Logic: All time measures respect the selected book ID for consistent reporting
+Version: 1.1 (Enhanced)
+Date: 2025-08-10
+Author: Claude Code DAX Expert
+
+ENHANCEMENT FEATURES:
+- Complete MTD, QTD, YTD functionality with book context
+- Rolling periods (3M, 6M, 12M) with book selection
+- Enhanced prior period comparisons
+- Improved error handling and performance optimization
+- Calendar intelligence with fiscal year support
+=================================================================
+*/
+
+-- ============================================
+-- ENHANCED CORE TIME INTELLIGENCE (MTD/QTD/YTD)
+-- ============================================
+
+-- Month-to-Date (MTD) with Book Context
+Revenue MTD = 
+VAR SelectedBook = [Selected Book ID]
+VAR CurrentDate = [Current Date]
+RETURN
+IF(
+    NOT ISBLANK(SelectedBook),
+    CALCULATE(
+        [Total Revenue],
+        DATESMTD(dim_calendar[date]),
+        fact_total[book_id] = SelectedBook
+    ),
+    BLANK()
+)
+
+-- Quarter-to-Date (QTD) with Book Context
+Revenue QTD = 
+VAR SelectedBook = [Selected Book ID]
+VAR CurrentDate = [Current Date]
+RETURN
+IF(
+    NOT ISBLANK(SelectedBook),
+    CALCULATE(
+        [Total Revenue],
+        DATESQTD(dim_calendar[date]),
+        fact_total[book_id] = SelectedBook
+    ),
+    BLANK()
+)
+
+-- Year-to-Date (YTD) with Book Context - Enhanced
+Revenue YTD Enhanced = 
+VAR SelectedBook = [Selected Book ID]
+VAR CurrentDate = [Current Date]
+RETURN
+IF(
+    NOT ISBLANK(SelectedBook),
+    CALCULATE(
+        [Total Revenue],
+        DATESYTD(dim_calendar[date]),
+        fact_total[book_id] = SelectedBook
+    ),
+    BLANK()
+)
+
+-- NOI Time Intelligence Measures
+NOI MTD = 
+VAR SelectedBook = [Selected Book ID]
+RETURN
+IF(
+    NOT ISBLANK(SelectedBook),
+    CALCULATE(
+        [NOI (Net Operating Income)],
+        DATESMTD(dim_calendar[date]),
+        fact_total[book_id] = SelectedBook
+    ),
+    BLANK()
+)
+
+NOI QTD = 
+VAR SelectedBook = [Selected Book ID]
+RETURN
+IF(
+    NOT ISBLANK(SelectedBook),
+    CALCULATE(
+        [NOI (Net Operating Income)],
+        DATESQTD(dim_calendar[date]),
+        fact_total[book_id] = SelectedBook
+    ),
+    BLANK()
+)
+
+NOI YTD = 
+VAR SelectedBook = [Selected Book ID]
+RETURN
+IF(
+    NOT ISBLANK(SelectedBook),
+    CALCULATE(
+        [NOI (Net Operating Income)],
+        DATESYTD(dim_calendar[date]),
+        fact_total[book_id] = SelectedBook
+    ),
+    BLANK()
+)
+
+-- ============================================
+-- PRIOR PERIOD COMPARISONS WITH BOOK CONTEXT
+-- ============================================
+
+-- Prior Month Same Book (Enhanced)
+Revenue Prior Month = 
+VAR SelectedBook = [Selected Book ID]
+VAR CurrentDate = [Current Date]
+RETURN
+IF(
+    NOT ISBLANK(SelectedBook),
+    CALCULATE(
+        [Total Revenue],
+        DATEADD(dim_calendar[date], -1, MONTH),
+        fact_total[book_id] = SelectedBook
+    ),
+    BLANK()
+)
+
+-- Prior Quarter Same Book
+Revenue Prior Quarter = 
+VAR SelectedBook = [Selected Book ID]
+RETURN
+IF(
+    NOT ISBLANK(SelectedBook),
+    CALCULATE(
+        [Total Revenue],
+        DATEADD(dim_calendar[date], -1, QUARTER),
+        fact_total[book_id] = SelectedBook
+    ),
+    BLANK()
+)
+
+-- Prior Year MTD/QTD/YTD Comparisons
+Revenue PY MTD = 
+VAR SelectedBook = [Selected Book ID]
+RETURN
+IF(
+    NOT ISBLANK(SelectedBook),
+    CALCULATE(
+        [Total Revenue],
+        SAMEPERIODLASTYEAR(DATESMTD(dim_calendar[date])),
+        fact_total[book_id] = SelectedBook
+    ),
+    BLANK()
+)
+
+Revenue PY QTD = 
+VAR SelectedBook = [Selected Book ID]
+RETURN
+IF(
+    NOT ISBLANK(SelectedBook),
+    CALCULATE(
+        [Total Revenue],
+        SAMEPERIODLASTYEAR(DATESQTD(dim_calendar[date])),
+        fact_total[book_id] = SelectedBook
+    ),
+    BLANK()
+)
+
+Revenue PY YTD = 
+VAR SelectedBook = [Selected Book ID]
+RETURN
+IF(
+    NOT ISBLANK(SelectedBook),
+    CALCULATE(
+        [Total Revenue],
+        SAMEPERIODLASTYEAR(DATESYTD(dim_calendar[date])),
+        fact_total[book_id] = SelectedBook
+    ),
+    BLANK()
+)
+
+-- ============================================
+-- ROLLING PERIODS WITH BOOK CONTEXT
+-- ============================================
+
+-- Rolling 3 Months (Last 3 Complete Months)
+Revenue Rolling 3M = 
+VAR SelectedBook = [Selected Book ID]
+VAR CurrentDate = [Current Date]
+VAR ThreeMonthsAgo = DATE(YEAR(CurrentDate), MONTH(CurrentDate) - 3, 1)
+VAR LastMonthEnd = EOMONTH(CurrentDate, -1)
+RETURN
+IF(
+    NOT ISBLANK(SelectedBook),
+    CALCULATE(
+        [Total Revenue],
+        dim_calendar[date] >= ThreeMonthsAgo && dim_calendar[date] <= LastMonthEnd,
+        fact_total[book_id] = SelectedBook
+    ),
+    BLANK()
+)
+
+-- Rolling 6 Months
+Revenue Rolling 6M = 
+VAR SelectedBook = [Selected Book ID]
+VAR CurrentDate = [Current Date]
+VAR SixMonthsAgo = DATE(YEAR(CurrentDate), MONTH(CurrentDate) - 6, 1)
+VAR LastMonthEnd = EOMONTH(CurrentDate, -1)
+RETURN
+IF(
+    NOT ISBLANK(SelectedBook),
+    CALCULATE(
+        [Total Revenue],
+        dim_calendar[date] >= SixMonthsAgo && dim_calendar[date] <= LastMonthEnd,
+        fact_total[book_id] = SelectedBook
+    ),
+    BLANK()
+)
+
+-- Rolling 12 Months (TTM - Trailing Twelve Months)
+Revenue TTM = 
+VAR SelectedBook = [Selected Book ID]
+VAR CurrentDate = [Current Date]
+RETURN
+IF(
+    NOT ISBLANK(SelectedBook),
+    CALCULATE(
+        [Total Revenue],
+        DATESINPERIOD(dim_calendar[date], CurrentDate, -12, MONTH),
+        fact_total[book_id] = SelectedBook
+    ),
+    BLANK()
+)
+
+-- ============================================
+-- GROWTH CALCULATIONS WITH ERROR HANDLING
+-- ============================================
+
+-- Month-over-Month Growth %
+Revenue MoM Growth % = 
+VAR CurrentMonth = [Total Revenue]
+VAR PriorMonth = [Revenue Prior Month]
+RETURN
+IF(
+    AND(NOT ISBLANK(CurrentMonth), NOT ISBLANK(PriorMonth), PriorMonth <> 0),
+    DIVIDE(CurrentMonth - PriorMonth, ABS(PriorMonth), BLANK()) * 100,
+    BLANK()
+)
+
+-- Quarter-over-Quarter Growth %
+Revenue QoQ Growth % = 
+VAR CurrentQuarter = [Revenue QTD]
+VAR PriorQuarter = [Revenue Prior Quarter]
+RETURN
+IF(
+    AND(NOT ISBLANK(CurrentQuarter), NOT ISBLANK(PriorQuarter), PriorQuarter <> 0),
+    DIVIDE(CurrentQuarter - PriorQuarter, ABS(PriorQuarter), BLANK()) * 100,
+    BLANK()
+)
+
+-- Enhanced YoY Growth with Better Error Handling
+Revenue YoY Growth Enhanced % = 
+VAR CurrentYear = [Revenue YTD Enhanced]
+VAR PriorYear = [Revenue PY YTD]
+RETURN
+IF(
+    AND(NOT ISBLANK(CurrentYear), NOT ISBLANK(PriorYear), PriorYear <> 0),
+    DIVIDE(CurrentYear - PriorYear, ABS(PriorYear), BLANK()) * 100,
+    BLANK()
+)
+
+-- ============================================
+-- FISCAL YEAR INTELLIGENCE (Customizable)
+-- ============================================
+
+-- Fiscal YTD (Assuming April start - modify as needed)
+Revenue Fiscal YTD = 
+VAR SelectedBook = [Selected Book ID]
+VAR FiscalYearStart = 4  -- April = 4, change this for different fiscal year start
+RETURN
+IF(
+    NOT ISBLANK(SelectedBook),
+    CALCULATE(
+        [Total Revenue],
+        DATESYTD(dim_calendar[date], DATE(YEAR(dim_calendar[date]), FiscalYearStart, 1)),
+        fact_total[book_id] = SelectedBook
+    ),
+    BLANK()
+)
+
+-- Fiscal Prior Year YTD
+Revenue Fiscal PY YTD = 
+VAR SelectedBook = [Selected Book ID]
+VAR FiscalYearStart = 4  -- April = 4
+RETURN
+IF(
+    NOT ISBLANK(SelectedBook),
+    CALCULATE(
+        [Total Revenue],
+        SAMEPERIODLASTYEAR(DATESYTD(dim_calendar[date], DATE(YEAR(dim_calendar[date]), FiscalYearStart, 1))),
+        fact_total[book_id] = SelectedBook
+    ),
+    BLANK()
+)
+
+-- ============================================
+-- ADVANCED TIME INTELLIGENCE MEASURES
+-- ============================================
+
+-- Moving Average (3-Month)
+Revenue 3M Moving Average = 
+VAR SelectedBook = [Selected Book ID]
+VAR CurrentDate = [Current Date]
+RETURN
+IF(
+    NOT ISBLANK(SelectedBook),
+    DIVIDE(
+        CALCULATE(
+            [Total Revenue],
+            DATESINPERIOD(dim_calendar[date], CurrentDate, -3, MONTH),
+            fact_total[book_id] = SelectedBook
+        ),
+        3,
+        BLANK()
+    ),
+    BLANK()
+)
+
+-- Cumulative Revenue (Year-to-Date Running Total)
+Revenue Cumulative YTD = 
+VAR SelectedBook = [Selected Book ID]
+VAR MaxDateInContext = MAX(dim_calendar[date])
+RETURN
+IF(
+    NOT ISBLANK(SelectedBook),
+    CALCULATE(
+        [Total Revenue],
+        FILTER(
+            ALL(dim_calendar[date]),
+            dim_calendar[date] <= MaxDateInContext &&
+            YEAR(dim_calendar[date]) = YEAR(MaxDateInContext)
+        ),
+        fact_total[book_id] = SelectedBook
+    ),
+    BLANK()
+)
+
+-- Period-over-Period Index (Base 100)
+Revenue Period Index = 
+VAR CurrentPeriod = [Total Revenue]
+VAR BasePeriod = [Revenue PY]
+RETURN
+IF(
+    AND(NOT ISBLANK(CurrentPeriod), NOT ISBLANK(BasePeriod), BasePeriod <> 0),
+    DIVIDE(CurrentPeriod, BasePeriod, BLANK()) * 100,
+    BLANK()
+)
+
+-- ============================================
+-- MULTI-BOOK TIME INTELLIGENCE COMPARISON
+-- ============================================
+
+-- YTD Comparison Across Books (for variance analysis)
+YTD Actuals vs Forecast Variance = 
+VAR ActualsYTD = CALCULATE([Revenue YTD Enhanced], fact_total[book_id] = 1)
+VAR ForecastYTD = [Revenue YTD Enhanced]  -- Uses selected book
+RETURN 
+IFERROR(ActualsYTD - ForecastYTD, BLANK())
+
+-- YTD Variance %
+YTD Actuals vs Forecast Variance % = 
+VAR ActualsYTD = CALCULATE([Revenue YTD Enhanced], fact_total[book_id] = 1)
+VAR Variance = [YTD Actuals vs Forecast Variance]
+RETURN
+IF(
+    AND(NOT ISBLANK(ActualsYTD), ActualsYTD <> 0),
+    DIVIDE(Variance, ABS(ActualsYTD), BLANK()) * 100,
+    BLANK()
+)
+
+-- ============================================
+-- TIME INTELLIGENCE VALIDATION MEASURES
+-- ============================================
+
+-- Data Coverage by Time Period
+MTD Data Coverage % = 
+VAR SelectedBook = [Selected Book ID]
+VAR MTDDays = CALCULATE(DISTINCTCOUNT(dim_calendar[date]), DATESMTD(dim_calendar[date]))
+VAR MTDDataDays = CALCULATE(
+    DISTINCTCOUNT(fact_total[date]),
+    DATESMTD(dim_calendar[date]),
+    fact_total[book_id] = SelectedBook,
+    NOT ISBLANK(fact_total[amount])
+)
+RETURN DIVIDE(MTDDataDays, MTDDays, 0) * 100
+
+-- Time Intelligence Health Score
+Time Intelligence Health Score = 
+VAR MTDCoverage = [MTD Data Coverage %]
+VAR HasYTDData = IF(NOT ISBLANK([Revenue YTD Enhanced]), 1, 0)
+VAR HasPYData = IF(NOT ISBLANK([Revenue PY YTD]), 1, 0)
+VAR HasQTDData = IF(NOT ISBLANK([Revenue QTD]), 1, 0)
+RETURN
+(MTDCoverage/100 * 0.4) + (HasYTDData * 0.3) + (HasPYData * 0.2) + (HasQTDData * 0.1)
+
+/*
+=================================================================
+IMPLEMENTATION GUIDE FOR ENHANCED TIME INTELLIGENCE:
+=================================================================
+
+1. CALENDAR TABLE REQUIREMENTS:
+   - dim_calendar[date] must be continuous date column
+   - Should include fiscal year attributes if using fiscal measures
+   - Mark dim_calendar[date] as Date Table in model
+
+2. FACT TABLE REQUIREMENTS:
+   - fact_total[date] should align with dim_calendar[date]
+   - Ensure fact_total[book_id] contains all referenced book IDs
+   - Verify date range coverage matches business requirements
+
+3. RELATIONSHIP REQUIREMENTS:
+   - Active relationship: dim_calendar[date] ↔ fact_total[date]
+   - Consider bi-directional filtering for calendar if needed
+
+4. PERFORMANCE OPTIMIZATION:
+   - Consider date table optimization for large datasets
+   - Add proper indexes on date and book_id columns
+   - Monitor time intelligence measure performance
+
+5. TESTING CHECKLIST:
+   ✓ MTD totals match manual calculations
+   ✓ YTD progression is cumulative and accurate
+   ✓ Prior year comparisons align with actuals
+   ✓ Growth calculations handle zero/null values
+   ✓ Fiscal year calculations use correct start month
+   ✓ Rolling periods exclude current incomplete period
+   ✓ Multi-book comparisons maintain context correctly
+
+6. DASHBOARD USAGE:
+   - Use these measures with date slicers for period selection
+   - Combine with book selection for scenario analysis
+   - Include time intelligence health score for data quality monitoring
+   - Consider separate visuals for different time grains (MTD/QTD/YTD)
+=================================================================
+*/

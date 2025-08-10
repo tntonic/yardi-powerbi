@@ -1,10 +1,11 @@
 // ============================================
-// Phase 2: DAX Validation Measures
+// Phase 2: DAX Validation Measures - v5.1
 // ============================================
 // Purpose: Validate all 122 DAX measures for syntax and business logic
 // Target: Core financial, occupancy, rent roll, and leasing measures
 // Author: Validation Team
 // Date: 2025-08-08
+// v5.1 Update: Added weighted average validation
 // ============================================
 
 // ============================================
@@ -93,14 +94,14 @@ VAR Revenue = [Total Revenue]
 VAR Expenses = [Operating Expenses]
 VAR NOI = [NOI (Net Operating Income)]
 VAR NOIMargin = [NOI Margin %]
-VAR RevenuePSF = [Revenue PSF]
+VAR RevenuePSF = DIVIDE([Total Revenue], [Total Rentable Area], 0)
 
 VAR Issues = 
     IF(Revenue <= 0, "❌ Revenue not positive; ", "") &
     IF(Expenses <= 0, "❌ Expenses not positive; ", "") &
     IF(ABS(NOI - (Revenue - Expenses)) > 0.01, "❌ NOI calculation error; ", "") &
-    IF(NOIMargin < 20 || NOIMargin > 80, "⚠️ NOI margin unusual (" & FORMAT(NOIMargin, "0.0%") & "); ", "") &
-    IF(RevenuePSF < 10 || RevenuePSF > 200, "⚠️ Revenue PSF unusual ($" & FORMAT(RevenuePSF, "0.00") & "); ", "")
+    IF(NOIMargin < 20 OR NOIMargin > 80, "⚠️ NOI margin unusual (" & FORMAT(NOIMargin, "0.0%") & "); ", "") &
+    IF(RevenuePSF < 10 OR RevenuePSF > 200, "⚠️ Revenue PSF unusual ($" & FORMAT(RevenuePSF, "0.00") & "); ", "")
 
 RETURN 
     IF(Issues = "", "✅ All financial validations passed", Issues)
@@ -149,9 +150,9 @@ VAR AreaConsistencyTest =
     RETURN IF(OccupiedArea <= RentableArea, 100, 0)
 
 VAR RentPSFTest = 
-    // Average rent PSF should be reasonable ($5-$100 monthly)
-    VAR AvgRentPSF = [Average Rent PSF]
-    VAR MonthlyRentPSF = AvgRentPSF / 12
+    // Portfolio rent PSF should be reasonable ($5-$100 monthly)
+    VAR PortfolioRentPSF = [Portfolio Rent PSF]
+    VAR MonthlyRentPSF = PortfolioRentPSF / 12
     RETURN 
         SWITCH(
             TRUE(),
@@ -171,7 +172,7 @@ VAR OccupiedArea = SUM(fact_occupancyrentarea[occupied area])
 VAR RentableArea = SUM(fact_occupancyrentarea[rentable area])
 
 VAR Issues = 
-    IF(PhysOcc < 0 || PhysOcc > 105, "❌ Physical occupancy out of range (" & FORMAT(PhysOcc, "0.0%") & "); ", "") &
+    IF(PhysOcc < 0 OR PhysOcc > 105, "❌ Physical occupancy out of range (" & FORMAT(PhysOcc, "0.0%") & "); ", "") &
     IF(ABS((PhysOcc + VacRate) - 100) > 1, "❌ Physical + Vacancy ≠ 100%; ", "") &
     IF(EconOcc > PhysOcc * 1.1, "⚠️ Economic > Physical occupancy; ", "") &
     IF(OccupiedArea > RentableArea, "❌ Occupied area exceeds rentable area; ", "")
@@ -245,7 +246,7 @@ VAR RentableSF = SUM(dim_property[rentable area])
 VAR Issues = 
     IF(CurrentRent <= 0, "❌ Current monthly rent not positive; ", "") &
     IF(LeasedSF > RentableSF * 1.05, "❌ Leased SF exceeds rentable area; ", "") &
-    IF(RentRollPSF < 5 || RentRollPSF > 100, "⚠️ Rent PSF unusual ($" & FORMAT(RentRollPSF, "0.00") & "); ", "")
+    IF(RentRollPSF < 5 OR RentRollPSF > 100, "⚠️ Rent PSF unusual ($" & FORMAT(RentRollPSF, "0.00") & "); ", "")
 
 RETURN 
     IF(Issues = "", "✅ All rent roll validations passed", Issues)
@@ -271,7 +272,10 @@ VAR DateConsistencyTest =
     VAR FutureDates = 
         CALCULATE(
             COUNTROWS(fact_leasingactivity),
-            fact_leasingactivity[activity date] > TODAY()
+            fact_leasingactivity[activity date] > CALCULATE(
+                MAX(dim_lastclosedperiod[last closed period]),
+                ALL(dim_lastclosedperiod)
+            )
         )
     VAR TotalActivities = COUNTROWS(fact_leasingactivity)
     RETURN IF(TotalActivities = 0, 100, (1 - DIVIDE(FutureDates, TotalActivities, 0)) * 100)
@@ -312,8 +316,8 @@ VAR RetentionRate = [Retention Rate %]
 VAR NetActivity = [Net Leasing Activity SF]
 
 VAR Issues = 
-    IF(RetentionRate < 0 || RetentionRate > 100, "❌ Retention rate out of range; ", "") &
-    IF(NewLeases < 0 || Renewals < 0 || Terminations < 0, "❌ Negative activity counts; ", "")
+    IF(RetentionRate < 0 OR RetentionRate > 100, "❌ Retention rate out of range; ", "") &
+    IF(NewLeases < 0 OR Renewals < 0 OR Terminations < 0, "❌ Negative activity counts; ", "")
 
 RETURN 
     IF(Issues = "", "✅ All leasing activity validations passed", Issues)
@@ -421,19 +425,79 @@ RETURN
 Validation Status Message = 
 VAR Score = [Master Validation Score]
 VAR IssueCount = 
-    COUNTROWS(
-        FILTER(
-            {
-                [Financial Validation Score],
-                [Occupancy Validation Score],
-                [Rent Roll Validation Score],
-                [Leasing Activity Validation Score],
-                [Data Quality Score],
-                [Performance Validation Score]
-            },
-            [Value] < 90
-        )
-    )
+    IF([Financial Validation Score] < 90, 1, 0) +
+    IF([Occupancy Validation Score] < 90, 1, 0) +
+    IF([Rent Roll Validation Score] < 90, 1, 0) +
+    IF([Leasing Activity Validation Score] < 90, 1, 0) +
+    IF([Data Quality Score] < 90, 1, 0) +
+    IF([Performance Validation Score] < 90, 1, 0)
 RETURN 
     "Overall Score: " & FORMAT(Score, "0.0") & "% | " &
     IF(IssueCount = 0, "All systems operational", FORMAT(IssueCount, "0") & " area(s) need attention")
+
+// ============================================
+// 2.9 WEIGHTED AVERAGE VALIDATION (NEW v5.1)
+// ============================================
+
+Weighted Average Validation = 
+// NEW v5.1: Validates weighted average calculations against portfolio totals
+// Ensures proper weighting logic and identifies potential calculation issues
+VAR PortfolioPSF = [Portfolio Rent PSF]
+VAR WeightedAvgPSF = [Property Weighted Average Rent PSF]
+VAR Variance = ABS(PortfolioPSF - WeightedAvgPSF)
+VAR VariancePercent = DIVIDE(Variance, PortfolioPSF, 0) * 100
+VAR Status = 
+    SWITCH(
+        TRUE(),
+        ISBLANK(WeightedAvgPSF), "⚠️ No weighted average calculated",
+        VariancePercent > 20, "🔴 High variance (" & FORMAT(VariancePercent, "0.0%") & ") - check property mix",
+        VariancePercent > 10, "🟡 Moderate variance (" & FORMAT(VariancePercent, "0.0%") & ") - expected for diverse portfolio",
+        "✅ Weighted average within expected range"
+    )
+RETURN Status
+
+Property Mix Skew Analysis = 
+// NEW v5.1: Analyzes if portfolio is skewed by large properties
+// Helps identify when weighted averages differ significantly from simple averages
+VAR PropertyCount = COUNTROWS(SUMMARIZE(fact_occupancyrentarea, dim_property[property hmy]))
+VAR Top5Properties = 
+    TOPN(
+        5,
+        SUMMARIZE(
+            fact_occupancyrentarea,
+            dim_property[property hmy],
+            "PropertyArea", SUM(fact_occupancyrentarea[occupied area])
+        ),
+        [PropertyArea], DESC
+    )
+VAR Top5Area = SUMX(Top5Properties, [PropertyArea])
+VAR TotalArea = SUM(fact_occupancyrentarea[occupied area])
+VAR Top5Percent = DIVIDE(Top5Area, TotalArea, 0) * 100
+VAR SkewLevel = 
+    SWITCH(
+        TRUE(),
+        Top5Percent > 80, "🔴 Extreme skew - Top 5 properties = " & FORMAT(Top5Percent, "0%") & " of area",
+        Top5Percent > 60, "🟡 High skew - Top 5 properties = " & FORMAT(Top5Percent, "0%") & " of area",
+        Top5Percent > 40, "🟢 Moderate skew - Top 5 properties = " & FORMAT(Top5Percent, "0%") & " of area",
+        "✅ Well distributed - Top 5 properties = " & FORMAT(Top5Percent, "0%") & " of area"
+    )
+RETURN SkewLevel
+
+Weighted vs Simple Average Comparison = 
+// NEW v5.1: Shows the difference between weighted and simple averages
+// Useful for understanding portfolio composition impact
+VAR WeightedPSF = [Property Weighted Average Rent PSF]
+VAR SimplePSF = [Portfolio Rent PSF]
+VAR Difference = WeightedPSF - SimplePSF
+VAR PercentDiff = DIVIDE(Difference, SimplePSF, 0) * 100
+RETURN 
+    "Weighted: $" & FORMAT(WeightedPSF, "0.00") & "/SF | " &
+    "Simple: $" & FORMAT(SimplePSF, "0.00") & "/SF | " &
+    "Difference: " & FORMAT(PercentDiff, "+0.0%;-0.0%")
+
+// =====================================================
+// END OF VALIDATION & DATA QUALITY MEASURES v5.1
+// Total Measures: 11
+// Purpose: Monitor data quality and measure accuracy
+// v5.1 Update: Added weighted average validation
+// =====================================================

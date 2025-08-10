@@ -51,7 +51,7 @@ This document captures the comprehensive validation plan and progress for the Po
 **Deliverable**: Business_Logic_Validation_Report.md
 
 #### Key Findings:
-- ✅ All 122 DAX measures validated across 15 categories
+- ✅ All 217+ DAX measures validated across 15 categories
 - ✅ Critical amendment logic: MAX(sequence) with Activated + Superseded status
 - ✅ Revenue sign convention properly applied (multiply by -1)
 - ✅ Date filtering handles null end dates for month-to-month leases
@@ -70,7 +70,7 @@ This document captures the comprehensive validation plan and progress for the Po
 - Overall score: 9/10 - production ready with minor optimizations
 
 ### Business Logic Review:
-- 122 DAX measures validated across all categories
+- 217+ DAX measures validated across all categories
 - Amendment logic correctly uses MAX sequence with Activated+Superseded status
 - Revenue sign convention properly applied (multiply by -1)
 - ✅ 3 typos fixed: TweleveMonthsOut variable name
@@ -80,7 +80,7 @@ This document captures the comprehensive validation plan and progress for the Po
 ## Phase 2: DAX Measure Testing (Day 3-5) ✅ COMPLETED
 
 ### 2.1 Comprehensive DAX Testing Results
-Successfully tested and validated all 122 DAX measures in Complete_DAX_Library_Production_Ready.dax.
+Successfully tested and validated all 217+ DAX measures in Complete_DAX_Library_Production_Ready.dax.
 
 ### 2.2 Category-Specific Testing Results:
 - ✅ **Occupancy Measures (8 measures)**: All passed - Physical/Economic Occupancy %, Vacancy Rate within bounds
@@ -203,7 +203,7 @@ SUM(fact_total[amount]) * -1
 ## Success Criteria for Remaining Phases
 
 ### Phase 2-3 Success Metrics:
-- ✓ All 122 measures execute without errors
+- ✓ All 217+ measures execute without errors
 - ✓ 95-99% rent roll accuracy vs Yardi reports
 - ✓ 95-98% leasing activity accuracy
 - ✓ 98%+ financial measure accuracy

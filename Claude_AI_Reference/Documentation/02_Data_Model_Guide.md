@@ -1,8 +1,23 @@
 # Complete Data Model Guide
 
+## ⚠️ Critical Update - Version 5.1 (2025-08-10)
+
+### Required Table for Dynamic Date Handling
+**IMPORTANT**: The `dim_lastclosedperiod` table is now required for all date references in DAX measures.
+
+**Table Structure:**
+```
+dim_lastclosedperiod
+├── last closed period: Date field containing Yardi's current closed period
+├── Purpose: Replaces TODAY() for all date calculations
+└── Update frequency: Refreshes with each data sync from Yardi
+```
+
+**Implementation Note:** All v5.1 DAX measures reference this table instead of using TODAY() to ensure alignment with Yardi financial periods.
+
 ## Overview
 
-This guide provides comprehensive instructions for building the optimized 28-table Power BI data model for Yardi BI analytics. The model follows star schema principles with specialized structures for commercial real estate analytics.
+This guide provides comprehensive instructions for building the optimized 32-table Power BI data model for Yardi BI analytics. The model follows star schema principles with specialized structures for commercial real estate analytics.
 
 ## Data Model Architecture
 
@@ -122,6 +137,38 @@ dim_fp_terminationtomoveoutreas (Termination Bridge)
 ├── Composite Key: amendment hmy + moveout reason hmy
 ├── Purpose: Links terminations to specific reasons
 └── Enables: Retention analysis and churn prevention
+```
+
+#### Customer Identity and Credit Risk Data Model
+```
+dim_fp_customercreditscorecustomdata (Credit & Company Data)
+├── Primary Key: hmy_creditscore
+├── Join Key: hmyperson_customer → dim_commcustomer.customer_id
+├── Business Key: customer code (c0000xxx format)
+├── Attributes: customer name, credit score (0-10), company info
+├── Purpose: Credit risk assessment and company intelligence
+└── Coverage: Subset of customers with credit assessments
+
+dim_fp_customertoparentmap (Corporate Structure)
+├── Primary Key: Composite (customer hmy + parent customer hmy)
+├── Join Key: customer hmy → dim_commcustomer.customer_id
+├── Business Key: customer code (c0000xxx format)
+├── Attributes: customer name, parent relationships
+├── Purpose: Corporate hierarchy and parent company mapping
+└── Usage: Aggregate risk at parent company level
+
+Customer Data Flow:
+dim_commcustomer (tenant_id, customer_id, tenant_code, lessee_name)
+    ├──→ dim_fp_customercreditscorecustomdata (via customer_id = hmyperson_customer)
+    │    └── Returns: customer code, customer name, credit score
+    └──→ dim_fp_customertoparentmap (via customer_id = customer hmy)
+         └── Returns: customer code, customer name, parent company
+
+Lookup Priority Logic:
+1. Check dim_fp_customercreditscorecustomdata first (primary source)
+2. If not found, check dim_fp_customertoparentmap (secondary source)
+3. If neither, use dim_commcustomer.lessee_name (fallback)
+4. Customer codes are consistent when present in both tables
 ```
 
 ### Fact Tables (7 tables)
@@ -256,6 +303,19 @@ dim_fp_amendmentsunitspropertytenant ↔ dim_fp_unitto_amendmentmapping (amendme
 Property Chain:
 dim_property → dim_fp_amendmentsunitspropertytenant (property hmy)
 dim_commcustomer → dim_fp_amendmentsunitspropertytenant (tenant hmy)
+```
+
+#### Customer Identity Relationships
+```
+dim_commcustomer → dim_fp_customercreditscorecustomdata (customer_id = hmyperson_customer)
+dim_commcustomer → dim_fp_customertoparentmap (customer_id = customer hmy)
+dim_fp_customertoparentmap → dim_fp_customercreditscorecustomdata (parent customer hmy = hmyperson_customer)
+
+Configuration:
+- Cross Filter Direction: Single (dim_commcustomer → credit/parent tables)
+- Cardinality: One to Zero-or-One (1:0..1)
+- Make Relationship Active: Yes
+- Note: Not all customers have credit scores or parent mappings
 ```
 
 ### Relationship Validation

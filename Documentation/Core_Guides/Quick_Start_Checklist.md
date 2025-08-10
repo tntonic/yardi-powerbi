@@ -1,5 +1,7 @@
 # Quick Start Checklist
 
+**⚠️ IMPORTANT v5.1 UPDATE**: As of v5.1, all DAX measures use `dim_lastclosedperiod[last closed period]` for date reference instead of `TODAY()`. This ensures consistency with Yardi financial reporting periods and automatically updates when data is refreshed.
+
 ## Validation Status
 - ✅ **Phase 1: Architecture & Business Logic** - COMPLETED (Score: 96/100)
 - 🔄 **Phase 2: DAX Testing** - IN PROGRESS (Occupancy ✅, Financial ✅, Rent Roll ⏳, Leasing ⏳)
@@ -48,7 +50,7 @@
 - [ ] Model performance tested with sample data
 
 #### Day 5-7: Core Measures Implementation
-- [ ] **Complete DAX Measures Library** imported (122 production-ready measures)
+- [ ] **Complete DAX Measures Library** imported (217+ production-ready measures)
   - [ ] Occupancy Measures (Physical & Economic Occupancy, Vacancy Rate, etc.)
   - [ ] Financial Measures (Revenue, NOI, FPR NOI, etc.)
   - [ ] Rent Roll Measures (Current Monthly Rent, Rent PSF, etc.)

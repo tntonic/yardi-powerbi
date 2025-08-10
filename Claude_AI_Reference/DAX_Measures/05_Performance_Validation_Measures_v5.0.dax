@@ -153,17 +153,29 @@ RETURN DIVIDE(TenantsWithCredit, TotalTenants, 0) * 100
 _Performance Monitor = 
 // Hidden measure for tracking optimization effectiveness
 // Use in development environment to validate performance improvements
-VAR StartTime = NOW()
+VAR StartTime = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
 VAR TestResult = [Current Monthly Rent] + [WALT (Months)] + [New Leases Count]
-VAR EndTime = NOW()
+VAR EndTime = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
 VAR ExecutionSeconds = DATEDIFF(StartTime, EndTime, SECOND)
 RETURN "Execution time: " & ExecutionSeconds & "s | Result: $" & FORMAT(TestResult, "#,0")
 
 _Leasing Performance Monitor = 
 // Hidden measure for monitoring leasing analytics performance
-VAR StartTime = NOW()
+VAR StartTime = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
 VAR TestResult = [Total Leasing Deals] + [Active Leasing Pipeline Count] + [Executed Deals Count]
-VAR EndTime = NOW()
+VAR EndTime = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
 VAR ExecutionSeconds = DATEDIFF(StartTime, EndTime, SECOND)
 RETURN "Leasing metrics execution: " & ExecutionSeconds & "s | Total deals: " & TestResult
 
@@ -207,8 +219,8 @@ VAR RentPSF = DIVIDE(CurrentRent * 12, CurrentSF, 0)
 VAR AccuracyStatus = 
     SWITCH(
         TRUE(),
-        RentPSF < 3 || RentPSF > 15, "🔴 REVIEW NEEDED (PSF: $" & FORMAT(RentPSF, "0.00") & ")",
-        RentPSF < 5 || RentPSF > 12, "🟡 MONITOR (PSF: $" & FORMAT(RentPSF, "0.00") & ")",
+        RentPSF < 3 OR RentPSF > 15, "🔴 REVIEW NEEDED (PSF: $" & FORMAT(RentPSF, "0.00") & ")",
+        RentPSF < 5 OR RentPSF > 12, "🟡 MONITOR (PSF: $" & FORMAT(RentPSF, "0.00") & ")",
         "✅ WITHIN RANGE (PSF: $" & FORMAT(RentPSF, "0.00") & ")"
     )
 RETURN AccuracyStatus
@@ -237,7 +249,7 @@ VAR ValidationStatus =
     SWITCH(
         TRUE(),
         Coverage < 50, "🔴 LOW COVERAGE (" & FORMAT(Coverage, "0%") & ")",
-        AvgScore < 4 || AvgScore > 9, "🟡 UNUSUAL SCORES (Avg: " & FORMAT(AvgScore, "0.0") & ")",
+        AvgScore < 4 OR AvgScore > 9, "🟡 UNUSUAL SCORES (Avg: " & FORMAT(AvgScore, "0.0") & ")",
         "✅ DATA QUALITY GOOD"
     )
 RETURN ValidationStatus
@@ -263,7 +275,7 @@ RETURN ValidationCheck & " (Total: " & FORMAT(SameStoreNetAbs/1000, "#,0") & "K 
 Critical Data Alerts = 
 // Critical data quality alerts summary
 VAR RentRollAlert = 
-    IF([Current Monthly Rent] < 1000000 || [Current Monthly Rent] > 10000000, "🔴 RENT ROLL", "")
+    IF([Current Monthly Rent] < 1000000 OR [Current Monthly Rent] > 10000000, "🔴 RENT ROLL", "")
 VAR LeasingAlert = 
     IF([Leasing Data Quality Score %] < 90, "🔴 LEASING DATA", "")
 VAR CreditAlert = 
@@ -271,7 +283,7 @@ VAR CreditAlert =
 VAR AlertList = 
     CONCATENATE(
         CONCATENATE(RentRollAlert, IF(RentRollAlert <> "" && LeasingAlert <> "", " | ", "")),
-        CONCATENATE(LeasingAlert, IF((RentRollAlert <> "" || LeasingAlert <> "") && CreditAlert <> "", " | ", ""))
+        CONCATENATE(LeasingAlert, IF((RentRollAlert <> "" OR LeasingAlert <> "") && CreditAlert <> "", " | ", ""))
     ) & CreditAlert
 RETURN 
     IF(AlertList = "", "✅ NO CRITICAL ALERTS", "⚠️ ALERTS: " & AlertList)
@@ -290,15 +302,15 @@ RETURN
 Business Rule Alerts = 
 // Business rule validation alerts
 VAR OccupancyAlert = 
-    IF([Physical Occupancy %] > 100 || [Physical Occupancy %] < 0, "🔴 OCCUPANCY OUT OF RANGE", "")
+    IF([Physical Occupancy %] > 100 OR [Physical Occupancy %] < 0, "🔴 OCCUPANCY OUT OF RANGE", "")
 VAR RentPSFAlert = 
-    IF([Current Rent Roll PSF] > 20 || [Current Rent Roll PSF] < 2, "🔴 RENT PSF UNUSUAL", "")
+    IF([Current Rent Roll PSF] > 20 OR [Current Rent Roll PSF] < 2, "🔴 RENT PSF UNUSUAL", "")
 VAR WaltAlert = 
-    IF([WALT (Months)] > 200 || [WALT (Months)] < 0, "🔴 WALT OUT OF RANGE", "")
+    IF([WALT (Months)] > 200 OR [WALT (Months)] < 0, "🔴 WALT OUT OF RANGE", "")
 VAR AlertList = 
     CONCATENATE(
         CONCATENATE(OccupancyAlert, IF(OccupancyAlert <> "" && RentPSFAlert <> "", " | ", "")),
-        CONCATENATE(RentPSFAlert, IF((OccupancyAlert <> "" || RentPSFAlert <> "") && WaltAlert <> "", " | ", ""))
+        CONCATENATE(RentPSFAlert, IF((OccupancyAlert <> "" OR RentPSFAlert <> "") && WaltAlert <> "", " | ", ""))
     ) & WaltAlert
 RETURN
     IF(AlertList = "", "✅ BUSINESS RULES OK", "⚠️ " & AlertList)
@@ -313,8 +325,8 @@ VAR DataQualityScore = ([Fund 2 Data Quality Score] + [Leasing Data Quality Scor
 VAR AccuracyScore = 
     SWITCH(
         TRUE(),
-        [Current Monthly Rent] < 1000000 || [Current Monthly Rent] > 10000000, 50,
-        [Physical Occupancy %] > 100 || [Physical Occupancy %] < 50, 70,
+        [Current Monthly Rent] < 1000000 OR [Current Monthly Rent] > 10000000, 50,
+        [Physical Occupancy %] > 100 OR [Physical Occupancy %] < 50, 70,
         90
     )
 VAR PerformanceScore = 
@@ -376,7 +388,10 @@ RETURN
 Data Refresh Status = 
 // Data refresh status indicator
 VAR LastScoreDate = [Latest Credit Score Date]
-VAR DaysOld = DATEDIFF(LastScoreDate, TODAY(), DAY)
+VAR DaysOld = DATEDIFF(LastScoreDate, CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+), DAY)
 VAR FreshnessStatus = 
     SWITCH(
         TRUE(),

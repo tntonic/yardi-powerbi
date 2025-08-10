@@ -1,8 +1,31 @@
 # DAX Measure Implementation Guide
 
+## ⚠️ Critical Update - Version 5.1 (2025-08-10)
+
+### Dynamic Date Handling Change
+**BREAKING CHANGE**: All DAX measures now use `dim_lastclosedperiod` for date references instead of TODAY().
+
+**Migration Requirements:**
+1. Import `dim_lastclosedperiod` table into your data model
+2. Replace ALL instances of `TODAY()` with the new pattern shown below
+3. Verify the table contains the current Yardi closed period date
+4. Test all date-dependent measures after migration
+
+**Date Pattern - MUST USE THIS:**
+```dax
+// NEW PATTERN (v5.1+) - Use this everywhere
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
+
+// OLD PATTERN (DEPRECATED) - Do not use
+VAR CurrentDate = TODAY()
+```
+
 ## Overview
 
-This guide provides step-by-step instructions for implementing all 77 production-ready DAX measures in the Yardi BI Power BI solution. All measures have been validated against real data and provide 95-99% accuracy compared to native Yardi reports.
+This guide provides step-by-step instructions for implementing all 217+ production-ready DAX measures in the Yardi BI Power BI solution (v5.1). All measures have been validated against real data and provide 95-99% accuracy compared to native Yardi reports.
 
 ## Implementation Strategy
 
@@ -171,7 +194,10 @@ NOI Timing Difference = [FPR NOI] - [NOI (Net Operating Income)]
 ```dax
 // 1. Current Monthly Rent (Complex Amendment Logic)
 Current Monthly Rent = 
-VAR CurrentDate = TODAY()
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
 RETURN
 CALCULATE(
     SUM(dim_fp_amendmentchargeschedule[monthly amount]),
@@ -211,7 +237,10 @@ CALCULATE(
 ```dax
 // 2. Current Leased SF (Same Logic as Monthly Rent)
 Current Leased SF = 
-VAR CurrentDate = TODAY()
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
 RETURN
 CALCULATE(
     SUM(dim_fp_amendmentsunitspropertytenant[amendment sf]),
@@ -501,7 +530,10 @@ SUMMARIZE(
 ```dax
 // Good: Using variables
 Optimized Measure = 
-VAR CurrentDate = TODAY()
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
 VAR ActiveAmendments = 
     FILTER(
         dim_fp_amendmentsunitspropertytenant,
@@ -521,7 +553,10 @@ CALCULATE(
     FILTER(
         dim_fp_amendmentsunitspropertytenant,
         [amendment status] IN {"Activated", "Superseded"} &&
-        [amendment start date] <= TODAY()
+        [amendment start date] <= CALCULATE(
+            MAX(dim_lastclosedperiod[last closed period]),
+            ALL(dim_lastclosedperiod)
+        )
     )
 ) +
 CALCULATE(
@@ -529,7 +564,10 @@ CALCULATE(
     FILTER(
         dim_fp_amendmentsunitspropertytenant,
         [amendment status] IN {"Activated", "Superseded"} &&
-        [amendment start date] <= TODAY()
+        [amendment start date] <= CALCULATE(
+            MAX(dim_lastclosedperiod[last closed period]),
+            ALL(dim_lastclosedperiod)
+        )
     )
 )
 ```
@@ -581,12 +619,23 @@ FILTER(
 
 ```dax
 // Incorrect: Null dates cause issues
-[amendment start date] <= TODAY() &&
-[amendment end date] >= TODAY()
+[amendment start date] <= CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+) &&
+[amendment end date] >= CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
 
-// Correct: Handle null end dates
-[amendment start date] <= TODAY() &&
-([amendment end date] >= TODAY() OR ISBLANK([amendment end date]))
+// Correct: Handle null end dates (v5.1 pattern)
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
+RETURN
+[amendment start date] <= CurrentDate &&
+([amendment end date] >= CurrentDate OR ISBLANK([amendment end date]))
 ```
 
 ### Issue 3: Time Intelligence Not Working

@@ -1,5 +1,7 @@
 # Business Logic Reference
 
+**⚠️ IMPORTANT v5.1 UPDATE**: As of v5.1, all DAX measures use `dim_lastclosedperiod[last closed period]` for date reference instead of `TODAY()`. This ensures consistency with Yardi financial reporting periods and automatically updates when data is refreshed.
+
 ## Overview
 
 This document serves as the comprehensive reference for all business logic implemented in the Yardi BI Power BI solution. It provides detailed explanations of calculation methodologies, data relationships, and business rules that ensure accurate and consistent reporting across all dashboards and analyses.
@@ -1104,10 +1106,11 @@ Documentation Maintenance:
 
 ## Summary
 
-This comprehensive business logic reference documents the calculation methodologies, business rules, and reporting standards for all 122 measures in the Yardi BI Power BI solution:
+This comprehensive business logic reference documents the calculation methodologies, business rules, and reporting standards for all 217+ measures in the Yardi BI Power BI solution:
 
-- **77 Core Business Measures**: Foundational metrics for occupancy, financial performance, rent roll, and leasing activity
-- **45 Advanced Analytics Measures**: Strategic intelligence including market analysis, predictive analytics, and investment decision support
+- **Core Business Measures**: Foundational metrics for occupancy, financial performance, rent roll, and leasing activity
+- **Advanced Analytics Measures**: Strategic intelligence including market analysis, predictive analytics, and investment decision support
+- **Enhanced Analytics Measures**: Credit risk analysis, net absorption methodology, and performance validation
 - **4 Strategic Dashboards**: Market Intelligence, Investment Analytics, Tenant Intelligence, and Enhanced Executive Summary
 - **Complete Data Integration**: Including MRG market growth projections and bridge table specifications
 

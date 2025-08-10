@@ -146,6 +146,15 @@ Examples:
 - dim_property → dim_commcustomer (property id)
 - → dim_fp_amendmentsunitspropertytenant (tenant id)
 - → dim_fp_naicstotenantmap (tenant id)
+- → dim_fp_customercreditscorecustomdata (customer id = hmyperson_customer)
+- → dim_fp_customertoparentmap (customer id = customer hmy)
+
+**Customer Code Lookup Logic**:
+1. Customer codes (c0000xxx format) are stored in two tables
+2. Use customer_id as the join key for lookups
+3. Priority: Check dim_fp_customercreditscorecustomdata first, then dim_fp_customertoparentmap
+4. Both tables contain consistent codes when overlap exists
+5. Use lessee_name as fallback when customer name not found in either table
 
 ### 4. dim_account
 **Purpose**: Chart of accounts for financial reporting
@@ -255,9 +264,37 @@ Excluded from NOI:
 - ↔ fact_total (month) - Bi-directional
 - ↔ fact_occupancyrentarea (first day of month) - Bi-directional
 
+### 6. dim_lastclosedperiod (v5.1+)
+**Purpose**: Stores the last closed accounting period date from Yardi
+**Grain**: One row (system-level configuration)
+**Business Key**: database id
+**Critical for**: All date-based DAX calculations in v5.1+
+
+| Column Name | Data Type | Description | Business Rules | Example Values |
+|-------------|-----------|-------------|----------------|----------------|
+| last closed period | Date | Last closed accounting date | Updated during Yardi close process | 2025-07-01 |
+| database id | Integer | Database identifier | Always 1 for single database | 1 |
+
+**Usage Notes**:
+- Replaces TODAY() function in all DAX measures as of v5.1
+- Ensures consistency with Yardi financial reporting periods
+- Automatically updates when data is refreshed
+- All DAX measures reference this date for current period calculations
+
+**DAX Pattern**:
+```dax
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
+```
+
+**Key Relationships**:
+- None (standalone configuration table)
+
 ## Fact Tables
 
-### 6. dim_book
+### 7. dim_book
 **Purpose**: Accounting book perspectives for financial reporting
 **Grain**: One row per accounting book
 **Business Key**: book id
@@ -662,6 +699,13 @@ Access Controls:
 
 **Key Relationships**:
 - dim_commcustomer → dim_fp_customercreditscorecustomdata (customer_id = hmyperson_customer)
+- dim_fp_customertoparentmap → dim_fp_customercreditscorecustomdata (parent customer hmy = hmyperson_customer)
+
+**Data Model Notes**:
+- Primary join from dim_commcustomer using customer_id field
+- Contains customer codes (c0000xxx format) for business identification
+- Not all customers have credit scores - this is a subset of dim_commcustomer
+- Customer codes are unique and consistent across tables
 
 **Credit Score Scale**:
 ```
@@ -690,6 +734,7 @@ Access Controls:
 | customer name | Text | Customer/entity name | Display name | "ABC Corporation - Chicago" |
 
 **Key Relationships**:
+- dim_commcustomer → dim_fp_customertoparentmap (customer_id = customer hmy)
 - dim_fp_customercreditscorecustomdata ← dim_fp_customertoparentmap (customer hmy)
 - dim_fp_customercreditscorecustomdata ← dim_fp_customertoparentmap (parent customer hmy)
 

@@ -149,7 +149,10 @@ Conditional Formatting:
 ```dax
 // Primary Measure
 Active Tenant Count = 
-VAR CurrentDate = TODAY()
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
 RETURN
 CALCULATE(
     DISTINCTCOUNT(dim_fp_amendmentsunitspropertytenant[tenant hmy]),
@@ -298,7 +301,10 @@ Sorting: By Monthly Rent (Descending)
 Current Rent Base = [Current Monthly Rent]
 
 Q1 Expirations = 
-VAR CurrentDate = TODAY()
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
 VAR Q1EndDate = EOMONTH(CurrentDate, 3)
 RETURN
 CALCULATE(
@@ -313,8 +319,12 @@ CALCULATE(
 )
 
 Q2 Expirations = 
-VAR Q1EndDate = EOMONTH(TODAY(), 3)
-VAR Q2EndDate = EOMONTH(TODAY(), 6)
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
+VAR Q1EndDate = EOMONTH(CurrentDate, 3)
+VAR Q2EndDate = EOMONTH(CurrentDate, 6)
 RETURN
 CALCULATE(
     SUM(dim_fp_amendmentchargeschedule[monthly amount]),
@@ -486,7 +496,10 @@ Monthly Rent = [Tenant Monthly Rent]
 Annual Rent PSF = [Tenant Rent PSF]
 
 Lease Status = 
-VAR CurrentDate = TODAY()
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
 VAR EndDate = [Lease End]
 VAR MonthsToExpiry = DATEDIFF(CurrentDate, EndDate, MONTH)
 RETURN 
@@ -553,7 +566,14 @@ Tenant Renewal Probability % =
 VAR TenantQuality = [Tenant Quality Score] // From advanced calculations
 VAR RentGap = [Market Rent Gap %]
 VAR LeaseTermRemaining = 
-    DATEDIFF(TODAY(), [Lease End], MONTH)
+    DATEDIFF(
+        CALCULATE(
+            MAX(dim_lastclosedperiod[last closed period]),
+            ALL(dim_lastclosedperiod)
+        ),
+        [Lease End],
+        MONTH
+    )
 VAR IndustryStability = 
     SWITCH(
         [Industry],

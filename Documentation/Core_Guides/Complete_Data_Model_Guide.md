@@ -1,8 +1,10 @@
 # Complete Data Model Guide
 
+**⚠️ IMPORTANT v5.1 UPDATE**: As of v5.1, all DAX measures use `dim_lastclosedperiod[last closed period]` for date reference instead of `TODAY()`. This ensures consistency with Yardi financial reporting periods and automatically updates when data is refreshed.
+
 ## Overview
 
-This guide provides comprehensive instructions for building the optimized 28-table Power BI data model for Yardi BI analytics. The model follows star schema principles with specialized structures for commercial real estate analytics.
+This guide provides comprehensive instructions for building the optimized 32-table Power BI data model for Yardi BI analytics. The model follows star schema principles with specialized structures for commercial real estate analytics.
 
 ## Data Model Architecture
 
@@ -602,7 +604,7 @@ grep -A15 "fact_occupancy_rent_area:" "Yardi Data Model_MT.lsdl.yaml" | grep "Te
 After completing the data model setup:
 
 1. **Validate Relationships**: Test all table joins work correctly
-2. **Import DAX Measures**: Begin implementing the 115 production measures
+2. **Import DAX Measures**: Begin implementing the 217+ production measures
 3. **Performance Tuning**: Optimize for your specific data volumes
 4. **Create Dashboards**: Start building dashboard templates
 5. **User Testing**: Validate model with business users

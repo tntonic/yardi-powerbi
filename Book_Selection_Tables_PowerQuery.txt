@@ -1,0 +1,182 @@
+/*
+=================================================================
+SUPPORTING TABLES FOR DYNAMIC BOOK SELECTION
+=================================================================
+
+These Power Query (M) scripts create the necessary tables for the 
+dynamic book selection architecture.
+
+Version: 1.0
+Date: 2025-08-10
+*/
+
+-- ============================================
+-- 1. BOOK MODE SELECTION TABLE
+-- ============================================
+
+/*
+Table Name: Book Mode
+Purpose: User selection for book analysis mode
+Usage: Connect to slicer for dynamic book selection
+*/
+
+let
+    Source = #table(
+        type table [Mode = text, Description = text, Default_Book_ID = number],
+        {
+            {"Actuals", "Book 1 - Accrual (Historical Data)", 1},
+            {"6Y Forecast Latest", "Book 31 - BA-6Y-Q4-23-28 (Most Recent 6Y)", 31},
+            {"11Y Forecast Latest", "Book 45 - BA-11Y-Q1-25-35 (Most Recent 11Y)", 45},
+            {"FPR", "Book 46 - Financial Planning & Reporting", 46},
+            {"Budget", "Book 6 - Standard Budget", 6},
+            {"Custom", "User-Selected Book", null}
+        }
+    )
+in
+    Source
+
+-- ============================================
+-- 2. BOOK SELECTION REFERENCE TABLE
+-- ============================================
+
+/*
+Table Name: Book Selection  
+Purpose: Complete book reference for custom selection
+Usage: Connect to slicer when "Custom" mode is selected
+*/
+
+let
+    Source = #table(
+        type table [Book_ID = number, Book_Name = text, Book_Type = text, Forecast_Period = text, Is_Active = logical],
+        {
+            {0, "Cash", "Actuals", null, true},
+            {1, "Accrual", "Actuals", null, true},
+            {6, "Budget", "Budget", null, true},
+            {24, "BA-6Y-Q3-22-27", "6Y Forecast", "Q3 2022-2027", true},
+            {25, "BA-6Y-Q4.-23-28", "6Y Forecast", "Q4 2023-2028", true},
+            {26, "Business Plan Budget-6y", "Budget", "6-Year Plan", true},
+            {28, "BA-6Y-Q1.-23-28", "6Y Forecast", "Q1 2023-2028", true},
+            {29, "BA-6Y-Q2-23-28", "6Y Forecast", "Q2 2023-2028", true},
+            {30, "BA-6Y-Q3-23-28", "6Y Forecast", "Q3 2023-2028", true},
+            {31, "BA-6Y-Q4-23-28", "6Y Forecast", "Q4 2023-2028", true},
+            {34, "BA-6Y-Q2.-23-28", "6Y Forecast", "Q2 2023-2028", true},
+            {36, "Business Plan Budget-11y", "Budget", "11-Year Plan", true},
+            {37, "BA-11Y-Q1-24-34", "11Y Forecast", "Q1 2024-2034", true},
+            {43, "BA-11Y-Q3-24-34", "11Y Forecast", "Q3 2024-2034", true},
+            {45, "BA-11Y-Q1-25-35", "11Y Forecast", "Q1 2025-2035", true},
+            {46, "FPR", "FPR", null, true}
+        }
+    )
+in
+    Source
+
+-- ============================================
+-- 3. BOOK COMPARISON MATRIX TABLE
+-- ============================================
+
+/*
+Table Name: Book Comparison Matrix
+Purpose: Pre-defined book comparisons for analysis
+Usage: Quick selection for common comparison scenarios
+*/
+
+let
+    Source = #table(
+        type table [Comparison_Name = text, Primary_Book_ID = number, Secondary_Book_ID = number, Description = text],
+        {
+            {"Actuals vs Latest 6Y Forecast", 1, 31, "Current actuals vs most recent 6-year forecast"},
+            {"Actuals vs Latest 11Y Forecast", 1, 45, "Current actuals vs most recent 11-year forecast"},
+            {"Actuals vs Budget", 1, 6, "Current actuals vs approved budget"},
+            {"Actuals vs FPR", 1, 46, "Current actuals vs financial planning assumptions"},
+            {"6Y vs 11Y Forecast", 31, 45, "Short-term vs long-term forecast comparison"},
+            {"Budget vs 6Y Forecast", 6, 31, "Budget vs business plan forecast"},
+            {"FPR vs Latest Forecast", 46, 45, "FPR assumptions vs latest long-term forecast"}
+        }
+    )
+in
+    Source
+
+-- ============================================
+-- 4. FORECAST SCENARIO ANALYSIS TABLE
+-- ============================================
+
+/*
+Table Name: Forecast Scenarios
+Purpose: Grouping forecasts for scenario analysis
+Usage: Multi-book analysis and sensitivity testing
+*/
+
+let
+    Source = #table(
+        type table [Scenario_Name = text, Book_IDs = text, Scenario_Type = text, Description = text],
+        {
+            {"All 6Y Forecasts", "24,25,28,29,30,31,34", "6Y Analysis", "All available 6-year forecast books"},
+            {"All 11Y Forecasts", "37,43,45", "11Y Analysis", "All available 11-year forecast books"},
+            {"All BA Forecasts", "24,25,28,29,30,31,34,37,43,45", "Complete Analysis", "All BA- forecast books"},
+            {"Latest Forecasts", "31,45", "Current Planning", "Most recent forecasts only"},
+            {"Budget Comparison", "6,26,36", "Budget Analysis", "All budget-related books"}
+        }
+    )
+in
+    Source
+
+/*
+=================================================================
+POWER BI IMPLEMENTATION STEPS:
+=================================================================
+
+1. CREATE TABLES:
+   a. Go to Power Query Editor
+   b. Create New Source > Blank Query
+   c. Replace content with each M script above
+   d. Name tables appropriately:
+      - "Book Mode"
+      - "Book Selection" 
+      - "Book Comparison Matrix"
+      - "Forecast Scenarios"
+
+2. TABLE RELATIONSHIPS:
+   - Book Selection[Book_ID] -> fact_total[book_id] (Many-to-One)
+   - No relationships needed for other tables (they're for slicers)
+
+3. SLICER SETUP:
+   - Primary Slicer: Book Mode[Mode]
+   - Secondary Slicer: Book Selection[Book_Name] (show when Custom selected)
+   - Scenario Slicer: Book Comparison Matrix[Comparison_Name]
+
+4. MEASURE MODIFICATIONS:
+   If using slicers, update the book selection logic:
+   
+   Selected Book ID = 
+   VAR Mode = SELECTEDVALUE('Book Mode'[Mode])
+   VAR CustomBookID = SELECTEDVALUE('Book Selection'[Book_ID])
+   VAR DefaultBookID = SELECTEDVALUE('Book Mode'[Default_Book_ID])
+   RETURN 
+   SWITCH(Mode,
+       "Custom", CustomBookID,
+       DefaultBookID
+   )
+
+5. DASHBOARD LAYOUT:
+   Top Section:
+   - Book Mode slicer (radio buttons)
+   - Book Selection slicer (dropdown, conditional visibility)
+   
+   Main Section:
+   - Revenue/Expense cards with dynamic titles
+   - Trend charts with book comparison
+   - Variance analysis section
+   
+   Bottom Section:
+   - Data quality indicators
+   - Last update information
+
+6. CONDITIONAL FORMATTING:
+   - Green: Actuals data
+   - Blue: 6Y forecasts  
+   - Purple: 11Y forecasts
+   - Orange: Budget data
+   - Gray: FPR data
+
+=================================================================
+*/

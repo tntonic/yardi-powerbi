@@ -608,6 +608,107 @@ RETURN CurrentDate <= LastClosedDate
    5. Verify account mapping and period selection
    ```
 
+## Date Handling Issues (v5.1+)
+
+### 6a. TODAY() Function Deprecated
+
+#### Symptoms
+- Measures showing incorrect current period data
+- Date calculations not aligned with Yardi closed periods
+- Inconsistent results across different measures
+- Reports showing future or outdated information
+
+#### Root Cause
+As of v5.1, all DAX measures must use the Yardi closed period date from `dim_lastclosedperiod` table instead of TODAY() function.
+
+#### Solution
+
+**Update Pattern for All Measures**
+```dax
+// OLD PATTERN (v5.0 and earlier) - NO LONGER SUPPORTED
+VAR CurrentDate = TODAY()
+
+// NEW PATTERN (v5.1+) - REQUIRED
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
+```
+
+**Verification Steps**
+```
+1. Check dim_lastclosedperiod table exists in data model
+2. Verify table contains current closed period date
+3. Search all measures for TODAY() usage
+4. Replace with new pattern
+5. Test all affected measures
+```
+
+### 6b. Date Misalignment with Yardi
+
+#### Symptoms
+- Financial reports don't match Yardi for "current" period
+- Lease expiration dates seem off
+- Pipeline aging calculations incorrect
+
+#### Common Causes & Solutions
+
+**Missing dim_lastclosedperiod Table**
+```
+Problem: Table not included in data model
+Solution:
+1. Import dim_lastclosedperiod from Data/Yardi_Tables/
+2. Ensure no relationships (standalone table)
+3. Verify single row with correct date
+4. Refresh data model
+```
+
+**Incorrect Date Reference**
+```
+Problem: Measures still using TODAY() or hard-coded dates
+Solution:
+1. Global search for "TODAY()" in all DAX
+2. Search for hard-coded dates like DATE(2025,7,1)
+3. Replace with dynamic reference pattern
+4. Test each measure after update
+```
+
+**Data Refresh Issues**
+```
+Problem: dim_lastclosedperiod not updating with refresh
+Solution:
+1. Verify data source includes this table
+2. Check refresh settings include all tables
+3. Confirm Yardi export includes latest closed period
+4. Manual update if needed (temporary fix)
+```
+
+### 6c. Testing Date-Based Calculations
+
+**Create Test Measure**
+```dax
+Current Period Test = 
+VAR YardiDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
+VAR SystemDate = TODAY()
+RETURN 
+"Yardi: " & FORMAT(YardiDate, "MM/DD/YYYY") & 
+" | System: " & FORMAT(SystemDate, "MM/DD/YYYY") & 
+" | Difference: " & DATEDIFF(YardiDate, SystemDate, DAY) & " days"
+```
+
+**Validation Checklist**
+```
+□ All rent roll measures use Yardi date
+□ Lease expiration calculations aligned
+□ Pipeline aging uses correct reference date
+□ WALT calculations based on Yardi period
+□ Financial period filters working correctly
+□ No TODAY() functions remaining in code
+```
+
 ## Dashboard Display Issues
 
 ### 7. Visual Rendering Problems

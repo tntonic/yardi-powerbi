@@ -3,9 +3,10 @@
 // PowerBI Dashboard Documentation - Comprehensive Credit Risk Analytics
 // Based on dim_fp_customercreditscorecustomdata + dim_fp_customertoparentmap tables
 // Production Date: 2025-08-10
-// Total Measures: 30
+// Total Measures: 45
 // 
 // CONTENTS:
+// - Customer code and identity lookups
 // - Core credit score measures
 // - Credit risk categorization
 // - Enhanced tenant risk analysis
@@ -14,6 +15,133 @@
 // - Advanced risk metrics
 // - Dashboard KPIs and health scores
 // =====================================================
+
+// =====================================================
+// CUSTOMER CODE AND IDENTITY LOOKUPS
+// =====================================================
+
+Customer Code Lookup = 
+// Retrieves customer code with priority logic
+// Priority: 1) Credit scores table, 2) Parent map table
+VAR CustomerID = SELECTEDVALUE(dim_commcustomer[customer id])
+VAR CreditCode = 
+    LOOKUPVALUE(
+        dim_fp_customercreditscorecustomdata[customer code],
+        dim_fp_customercreditscorecustomdata[hmyperson_customer], 
+        CustomerID
+    )
+VAR ParentCode = 
+    LOOKUPVALUE(
+        dim_fp_customertoparentmap[customer code],
+        dim_fp_customertoparentmap[customer hmy], 
+        CustomerID
+    )
+RETURN 
+    COALESCE(CreditCode, ParentCode)
+
+Customer Name Enhanced = 
+// Retrieves company name with comprehensive fallback logic
+// Priority: 1) Credit table, 2) Parent table, 3) dim_commcustomer
+VAR CustomerID = SELECTEDVALUE(dim_commcustomer[customer id])
+VAR CreditName = 
+    LOOKUPVALUE(
+        dim_fp_customercreditscorecustomdata[customer name],
+        dim_fp_customercreditscorecustomdata[hmyperson_customer], 
+        CustomerID
+    )
+VAR ParentName = 
+    LOOKUPVALUE(
+        dim_fp_customertoparentmap[customer name],
+        dim_fp_customertoparentmap[customer hmy], 
+        CustomerID
+    )
+VAR LesseeName = SELECTEDVALUE(dim_commcustomer[lessee name])
+RETURN 
+    COALESCE(CreditName, ParentName, LesseeName)
+
+Has Customer Code = 
+// Boolean flag indicating if customer code exists in either table
+VAR CustomerID = SELECTEDVALUE(dim_commcustomer[customer id])
+VAR HasCode = 
+    NOT ISBLANK(
+        LOOKUPVALUE(
+            dim_fp_customercreditscorecustomdata[customer code],
+            dim_fp_customercreditscorecustomdata[hmyperson_customer], 
+            CustomerID
+        )
+    ) OR
+    NOT ISBLANK(
+        LOOKUPVALUE(
+            dim_fp_customertoparentmap[customer code],
+            dim_fp_customertoparentmap[customer hmy], 
+            CustomerID
+        )
+    )
+RETURN HasCode
+
+Customer Display Name = 
+// Formatted display name with code if available
+VAR CustomerCode = [Customer Code Lookup]
+VAR CustomerName = [Customer Name Enhanced]
+RETURN 
+    IF(
+        NOT ISBLANK(CustomerCode),
+        CustomerCode & " - " & CustomerName,
+        CustomerName
+    )
+
+Customer Code Source = 
+// Identifies which table provides the customer code
+VAR CustomerID = SELECTEDVALUE(dim_commcustomer[customer id])
+VAR HasCreditCode = 
+    NOT ISBLANK(
+        LOOKUPVALUE(
+            dim_fp_customercreditscorecustomdata[customer code],
+            dim_fp_customercreditscorecustomdata[hmyperson_customer], 
+            CustomerID
+        )
+    )
+VAR HasParentCode = 
+    NOT ISBLANK(
+        LOOKUPVALUE(
+            dim_fp_customertoparentmap[customer code],
+            dim_fp_customertoparentmap[customer hmy], 
+            CustomerID
+        )
+    )
+RETURN 
+    SWITCH(
+        TRUE(),
+        HasCreditCode && HasParentCode, "Both Tables",
+        HasCreditCode, "Credit Scores",
+        HasParentCode, "Parent Map",
+        "No Code"
+    )
+
+Count Customers with Codes = 
+// Count of customers that have customer codes in either table
+COUNTROWS(
+    FILTER(
+        dim_commcustomer,
+        VAR CustomerID = dim_commcustomer[customer id]
+        VAR HasCode = 
+            NOT ISBLANK(
+                LOOKUPVALUE(
+                    dim_fp_customercreditscorecustomdata[customer code],
+                    dim_fp_customercreditscorecustomdata[hmyperson_customer], 
+                    CustomerID
+                )
+            ) OR
+            NOT ISBLANK(
+                LOOKUPVALUE(
+                    dim_fp_customertoparentmap[customer code],
+                    dim_fp_customertoparentmap[customer hmy], 
+                    CustomerID
+                )
+            )
+        RETURN HasCode
+    )
+)
 
 // =====================================================
 // CORE CREDIT SCORE MEASURES
@@ -179,7 +307,7 @@ COUNTROWS(
     FILTER(
         dim_commcustomer,
         dim_commcustomer[is at risk tenant] = 1
-        || RELATED(dim_fp_customercreditscorecustomdata[credit score]) < 4
+        OR RELATED(dim_fp_customercreditscorecustomdata[credit score]) < 4
     )
 )
 
@@ -202,7 +330,7 @@ SUMX(
             "CreditScore", RELATED(dim_fp_customercreditscorecustomdata[credit score]),
             "MonthlyRent", [Current Monthly Rent]
         ),
-        [CreditScore] < 4 || dim_commcustomer[is at risk tenant] = 1
+        [CreditScore] < 4 OR dim_commcustomer[is at risk tenant] = 1
     ),
     [MonthlyRent]
 ) * 12
@@ -263,6 +391,87 @@ COUNTROWS(
     FILTER(
         dim_fp_customertoparentmap,
         NOT ISBLANK(dim_fp_customertoparentmap[parent customer hmy])
+    )
+)
+
+Parent Company Name = 
+// Retrieves parent company name if relationship exists
+VAR CustomerID = SELECTEDVALUE(dim_commcustomer[customer id])
+VAR ParentID = 
+    LOOKUPVALUE(
+        dim_fp_customertoparentmap[parent customer hmy],
+        dim_fp_customertoparentmap[customer hmy], 
+        CustomerID
+    )
+VAR ParentName = 
+    IF(
+        NOT ISBLANK(ParentID),
+        LOOKUPVALUE(
+            dim_fp_customercreditscorecustomdata[customer name],
+            dim_fp_customercreditscorecustomdata[hmyperson_customer], 
+            ParentID
+        )
+    )
+RETURN ParentName
+
+Parent Company Code = 
+// Retrieves parent company code if relationship exists
+VAR CustomerID = SELECTEDVALUE(dim_commcustomer[customer id])
+VAR ParentID = 
+    LOOKUPVALUE(
+        dim_fp_customertoparentmap[parent customer hmy],
+        dim_fp_customertoparentmap[customer hmy], 
+        CustomerID
+    )
+VAR ParentCode = 
+    IF(
+        NOT ISBLANK(ParentID),
+        LOOKUPVALUE(
+            dim_fp_customercreditscorecustomdata[customer code],
+            dim_fp_customercreditscorecustomdata[hmyperson_customer], 
+            ParentID
+        )
+    )
+RETURN ParentCode
+
+Is Subsidiary = 
+// Boolean flag indicating if customer is a subsidiary
+VAR CustomerID = SELECTEDVALUE(dim_commcustomer[customer id])
+VAR ParentID = 
+    LOOKUPVALUE(
+        dim_fp_customertoparentmap[parent customer hmy],
+        dim_fp_customertoparentmap[customer hmy], 
+        CustomerID
+    )
+RETURN NOT ISBLANK(ParentID)
+
+Count Parent Companies = 
+// Count of unique parent companies in the portfolio
+COUNTROWS(
+    SUMMARIZE(
+        FILTER(
+            dim_fp_customertoparentmap,
+            NOT ISBLANK(dim_fp_customertoparentmap[parent customer hmy])
+        ),
+        dim_fp_customertoparentmap[parent customer hmy]
+    )
+)
+
+Count Subsidiaries = 
+// Count of customers that are subsidiaries
+COUNTROWS(
+    FILTER(
+        dim_commcustomer,
+        VAR CustomerID = dim_commcustomer[customer id]
+        VAR IsSubsidiary = 
+            NOT ISBLANK(
+                LOOKUPVALUE(
+                    dim_fp_customertoparentmap[parent customer hmy],
+                    dim_fp_customertoparentmap[customer hmy], 
+                    CustomerID
+                )
+            )
+        RETURN IsSubsidiary
     )
 )
 
@@ -430,8 +639,8 @@ VAR RevenueAtRiskPct = [Revenue at Risk %]
 RETURN
     SWITCH(
         TRUE(),
-        AvgCreditScore < 5 || RevenueAtRiskPct > 15, "🔴 High Risk",
-        AvgCreditScore < 6.5 || RevenueAtRiskPct > 10, "🟡 Medium Risk",
+        AvgCreditScore < 5 OR RevenueAtRiskPct > 15, "🔴 High Risk",
+        AvgCreditScore < 6.5 OR RevenueAtRiskPct > 10, "🟡 Medium Risk",
         "🟢 Low Risk"
     )
 
@@ -500,10 +709,30 @@ VAR RiskComponent = (1 - MIN([Revenue at Risk %], 25) / 25) * 25
 RETURN
     ROUND(ScoreComponent + CoverageComponent + RiskComponent, 0)
 
+Customer Risk Category with Code = 
+// Risk category with customer code for reporting
+VAR CreditScore = [Parent Company Credit Score]
+VAR CustomerCode = [Customer Code Lookup]
+VAR RiskCategory = 
+    SWITCH(
+        TRUE(),
+        ISBLANK(CreditScore), "No Score",
+        CreditScore >= 8, "Low Risk",
+        CreditScore >= 6, "Medium Risk",
+        CreditScore >= 4, "High Risk",
+        "Very High Risk"
+    )
+RETURN 
+    IF(
+        NOT ISBLANK(CustomerCode),
+        CustomerCode & " (" & RiskCategory & ")",
+        RiskCategory
+    )
+
 // =====================================================
 // END OF CREDIT RISK & TENANT ANALYSIS MEASURES v5.0
-// Total Measures: 30
+// Total Measures: 45 (including customer code mappings)
 // Status: PRODUCTION READY - Comprehensive credit risk analytics
 // Integration Status: Compatible with dim_fp_customercreditscorecustomdata + dim_fp_customertoparentmap
-// Features: Credit scoring, risk categorization, parent company analysis, portfolio health
+// Features: Customer codes, credit scoring, risk categorization, parent company analysis, portfolio health
 // =====================================================

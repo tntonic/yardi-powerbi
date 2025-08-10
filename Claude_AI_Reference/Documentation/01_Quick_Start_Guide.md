@@ -1,5 +1,31 @@
 # Quick Start Checklist
 
+## ⚠️ Critical Update - Version 5.1 (2025-08-10)
+
+### Dynamic Date Handling Change
+**BREAKING CHANGE**: All DAX measures now use `dim_lastclosedperiod` for date references instead of TODAY().
+
+**Required Actions:**
+1. ✅ Ensure `dim_lastclosedperiod` table is imported with your data model
+2. ✅ Update any custom measures using the new pattern:
+   ```dax
+   // OLD PATTERN (v5.0 and earlier)
+   VAR CurrentDate = TODAY()
+   
+   // NEW PATTERN (v5.1+)
+   VAR CurrentDate = CALCULATE(
+       MAX(dim_lastclosedperiod[last closed period]),
+       ALL(dim_lastclosedperiod)
+   )
+   ```
+3. ✅ Verify the `dim_lastclosedperiod` table contains the correct Yardi closed period date
+4. ✅ Test all date-dependent measures after implementation
+
+**Benefits:**
+- Consistent alignment with Yardi financial reporting periods
+- Automatic updates when data is refreshed
+- No hard-coded dates in the system
+
 ## Validation Status
 - ✅ **Phase 1: Architecture & Business Logic** - COMPLETED (Score: 96/100)
 - 🔄 **Phase 2: DAX Testing** - IN PROGRESS (Occupancy ✅, Financial ✅, Rent Roll ⏳, Leasing ⏳)
@@ -48,7 +74,7 @@
 - [ ] Model performance tested with sample data
 
 #### Day 5-7: Core Measures Implementation
-- [ ] **Complete DAX Measures Library** imported (122 production-ready measures)
+- [ ] **Complete DAX Measures Library** imported (217+ production-ready measures v5.1)
   - [ ] Occupancy Measures (Physical & Economic Occupancy, Vacancy Rate, etc.)
   - [ ] Financial Measures (Revenue, NOI, FPR NOI, etc.)
   - [ ] Rent Roll Measures (Current Monthly Rent, Rent PSF, etc.)
@@ -67,7 +93,7 @@
 ### Phase 2: Advanced Analytics (Week 2-3)
 
 #### Day 11-12: Rent Roll Implementation
-- [ ] **Rent Roll Measures** imported and tested (10+ measures)
+- [ ] **Rent Roll Measures** imported and tested (42 measures from 01_Core_Financial_Rent_Roll_Measures_v5.0.dax)
   - [ ] Current Monthly Rent
   - [ ] Current Rent Roll PSF
   - [ ] Current Leased SF
@@ -76,7 +102,7 @@
   - [ ] Rent roll accuracy test (95%+ target accuracy)
 
 #### Day 13-14: Leasing Activity Implementation
-- [ ] **Leasing Activity Measures** imported and tested (15+ measures)
+- [ ] **Leasing Activity Measures** imported and tested (85 measures from 02_Leasing_Activity_Pipeline_Measures_v5.0.dax)
   - [ ] New Leases Count & SF
   - [ ] Renewals Count & SF
   - [ ] Terminations Count & SF

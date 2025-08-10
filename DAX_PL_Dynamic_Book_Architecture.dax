@@ -1,0 +1,379 @@
+/*
+=================================================================
+P&L MEASURE ARCHITECTURE WITH DYNAMIC BOOK SELECTION
+=================================================================
+
+Purpose: Dynamic P&L reporting with actuals (Book 1) vs forecasts (BA- books)
+Business Logic: 
+- Book 1 (Accrual) = Primary actuals source
+- BA- books = Forecast scenarios (10 total books)
+- Dynamic selection based on user choice or automatic logic
+
+Version: 1.0
+Date: 2025-08-10
+Author: Claude Code Data Architecture
+
+BOOK REFERENCE:
+===============
+ACTUALS:
+- Book 1: Accrual (Primary actuals)
+- Book 0: Cash 
+- Book 46: FPR (Financial Planning & Reporting)
+
+FORECASTS (BA- Books):
+6-Year Forecasts (7 books):
+- Book 24: BA-6Y-Q3-22-27
+- Book 25: BA-6Y-Q4.-23-28  
+- Book 28: BA-6Y-Q1.-23-28
+- Book 29: BA-6Y-Q2-23-28
+- Book 30: BA-6Y-Q3-23-28
+- Book 31: BA-6Y-Q4-23-28
+- Book 34: BA-6Y-Q2.-23-28
+
+11-Year Forecasts (3 books):
+- Book 37: BA-11Y-Q1-24-34
+- Book 43: BA-11Y-Q3-24-34  
+- Book 45: BA-11Y-Q1-25-35
+
+OTHER BUDGET BOOKS:
+- Book 6: Budget
+- Book 26: Business Plan Budget-6y
+- Book 36: Business Plan Budget-11y
+*/
+
+-- ============================================
+-- 1. CORE BOOK SELECTION MEASURES
+-- ============================================
+
+-- Base Book Selection Logic
+Book Selection Mode = 
+IF(
+    ISBLANK(SELECTEDVALUE('Book Mode'[Mode])),
+    "Actuals", -- Default to actuals
+    SELECTEDVALUE('Book Mode'[Mode])
+)
+
+-- Current Date for Time Intelligence
+Current Date = 
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
+RETURN CurrentDate
+
+-- Dynamic Book ID Selection
+Selected Book ID = 
+VAR Mode = [Book Selection Mode]
+VAR CurrentDate = [Current Date]
+RETURN 
+SWITCH(Mode,
+    "Actuals", 1, -- Book 1 (Accrual)
+    "6Y Forecast Latest", 31, -- Most recent 6Y book (BA-6Y-Q4-23-28)
+    "11Y Forecast Latest", 45, -- Most recent 11Y book (BA-11Y-Q1-25-35) 
+    "FPR", 46, -- FPR book
+    "Budget", 6, -- Standard budget
+    "Custom", SELECTEDVALUE('Book Selection'[Book ID], 1), -- User selection
+    1 -- Fallback to actuals
+)
+
+-- Book Name Display
+Selected Book Name = 
+VAR BookID = [Selected Book ID]
+RETURN
+SWITCH(BookID,
+    0, "Cash",
+    1, "Accrual (Actuals)",
+    6, "Budget", 
+    24, "BA-6Y-Q3-22-27",
+    25, "BA-6Y-Q4.-23-28",
+    26, "Business Plan Budget-6y",
+    28, "BA-6Y-Q1.-23-28", 
+    29, "BA-6Y-Q2-23-28",
+    30, "BA-6Y-Q3-23-28",
+    31, "BA-6Y-Q4-23-28",
+    34, "BA-6Y-Q2.-23-28",
+    36, "Business Plan Budget-11y",
+    37, "BA-11Y-Q1-24-34",
+    43, "BA-11Y-Q3-24-34", 
+    45, "BA-11Y-Q1-25-35",
+    46, "FPR",
+    "Unknown Book"
+)
+
+-- Book Type Classification
+Book Type = 
+VAR BookID = [Selected Book ID] 
+RETURN
+SWITCH(TRUE(),
+    BookID = 1, "Actuals",
+    BookID IN {24,25,28,29,30,31,34}, "6Y Forecast",
+    BookID IN {37,43,45}, "11Y Forecast", 
+    BookID IN {6,26,36}, "Budget",
+    BookID = 46, "FPR",
+    "Other"
+)
+
+-- ============================================
+-- 2. BASE FINANCIAL MEASURES WITH BOOK LOGIC  
+-- ============================================
+
+-- Base Amount with Dynamic Book Selection
+Base Amount = 
+VAR SelectedBook = [Selected Book ID]
+RETURN
+CALCULATE(
+    SUM(fact_total[amount]),
+    fact_total[book_id] = SelectedBook
+)
+
+-- Revenue (4xxxx accounts, multiply by -1 as they're stored negative)
+Total Revenue = 
+VAR SelectedBook = [Selected Book ID]
+RETURN
+CALCULATE(
+    SUM(fact_total[amount]) * -1,
+    fact_total[book_id] = SelectedBook,
+    LEFT(fact_total[account_number], 1) = "4"
+) 
+
+-- Operating Expenses (5xxxx accounts)
+Operating Expenses = 
+VAR SelectedBook = [Selected Book ID]
+RETURN
+CALCULATE(
+    SUM(fact_total[amount]), 
+    fact_total[book_id] = SelectedBook,
+    LEFT(fact_total[account_number], 1) = "5"
+)
+
+-- Net Operating Income (NOI)
+NOI (Net Operating Income) = 
+[Total Revenue] - [Operating Expenses]
+
+-- NOI Margin %
+NOI Margin % = 
+DIVIDE([NOI (Net Operating Income)], [Total Revenue], 0) * 100
+
+-- ============================================
+-- 3. COMPARATIVE ANALYSIS MEASURES
+-- ============================================
+
+-- Actuals vs Forecast Variance
+Actuals vs Forecast Variance = 
+VAR ActualsAmount = CALCULATE([Base Amount], fact_total[book_id] = 1)
+VAR ForecastAmount = [Base Amount] 
+RETURN ForecastAmount - ActualsAmount
+
+-- Actuals vs Forecast Variance %
+Actuals vs Forecast Variance % = 
+VAR ActualsAmount = CALCULATE([Base Amount], fact_total[book_id] = 1)
+VAR Variance = [Actuals vs Forecast Variance]
+RETURN 
+IF(
+    ActualsAmount <> 0,
+    DIVIDE(Variance, ABS(ActualsAmount), 0) * 100,
+    BLANK()
+)
+
+-- Forecast Accuracy Score (0-100)
+Forecast Accuracy Score = 
+VAR VariancePercent = ABS([Actuals vs Forecast Variance %])
+RETURN
+MAX(0, 100 - VariancePercent)
+
+-- ============================================
+-- 4. MULTI-BOOK COMPARATIVE MEASURES
+-- ============================================
+
+-- Revenue - Multiple Books Comparison
+Revenue Actuals = CALCULATE([Total Revenue], fact_total[book_id] = 1)
+Revenue 6Y Forecast = CALCULATE([Total Revenue], fact_total[book_id] = 31) -- Latest 6Y
+Revenue 11Y Forecast = CALCULATE([Total Revenue], fact_total[book_id] = 45) -- Latest 11Y  
+Revenue Budget = CALCULATE([Total Revenue], fact_total[book_id] = 6)
+Revenue FPR = CALCULATE([Total Revenue], fact_total[book_id] = 46)
+
+-- NOI - Multiple Books Comparison  
+NOI Actuals = CALCULATE([NOI (Net Operating Income)], fact_total[book_id] = 1)
+NOI 6Y Forecast = CALCULATE([NOI (Net Operating Income)], fact_total[book_id] = 31)
+NOI 11Y Forecast = CALCULATE([NOI (Net Operating Income)], fact_total[book_id] = 45)
+NOI Budget = CALCULATE([NOI (Net Operating Income)], fact_total[book_id] = 6)
+NOI FPR = CALCULATE([NOI (Net Operating Income)], fact_total[book_id] = 46)
+
+-- ============================================
+-- 5. TIME INTELLIGENCE WITH BOOK SELECTION
+-- ============================================
+
+-- Prior Year Same Book
+Revenue PY = 
+VAR SelectedBook = [Selected Book ID]
+RETURN
+CALCULATE(
+    [Total Revenue],
+    SAMEPERIODLASTYEAR(dim_calendar[date]),
+    fact_total[book_id] = SelectedBook
+)
+
+-- Year-over-Year Growth
+Revenue YoY Growth % = 
+VAR CurrentYearRevenue = [Total Revenue]
+VAR PriorYearRevenue = [Revenue PY]
+RETURN
+DIVIDE(CurrentYearRevenue - PriorYearRevenue, PriorYearRevenue, 0) * 100
+
+-- Year-to-Date with Book Selection  
+Revenue YTD = 
+VAR SelectedBook = [Selected Book ID]
+RETURN
+CALCULATE(
+    [Total Revenue],
+    DATESYTD(dim_calendar[date]),
+    fact_total[book_id] = SelectedBook
+)
+
+-- ============================================
+-- 6. FORECAST SCENARIO ANALYSIS
+-- ============================================
+
+-- Best Case Scenario (Highest forecast)
+Revenue Best Case = 
+VAR BA6YBooks = {24,25,28,29,30,31,34}
+VAR BA11YBooks = {37,43,45}
+VAR AllBABooks = BA6YBooks + BA11YBooks
+RETURN
+MAXX(
+    ADDCOLUMNS(
+        FILTER(VALUES(fact_total[book_id]), fact_total[book_id] IN AllBABooks),
+        "BookRevenue", CALCULATE([Total Revenue], fact_total[book_id] = EARLIER(fact_total[book_id]))
+    ),
+    [BookRevenue]
+)
+
+-- Worst Case Scenario (Lowest forecast)
+Revenue Worst Case = 
+VAR BA6YBooks = {24,25,28,29,30,31,34} 
+VAR BA11YBooks = {37,43,45}
+VAR AllBABooks = BA6YBooks + BA11YBooks
+RETURN
+MINX(
+    ADDCOLUMNS(
+        FILTER(VALUES(fact_total[book_id]), fact_total[book_id] IN AllBABooks),
+        "BookRevenue", CALCULATE([Total Revenue], fact_total[book_id] = EARLIER(fact_total[book_id]))
+    ),
+    [BookRevenue]
+)
+
+-- Average Forecast
+Revenue Average Forecast = 
+VAR BA6YBooks = {24,25,28,29,30,31,34}
+VAR BA11YBooks = {37,43,45} 
+VAR AllBABooks = BA6YBooks + BA11YBooks
+RETURN
+AVERAGEX(
+    ADDCOLUMNS(
+        FILTER(VALUES(fact_total[book_id]), fact_total[book_id] IN AllBABooks),
+        "BookRevenue", CALCULATE([Total Revenue], fact_total[book_id] = EARLIER(fact_total[book_id]))
+    ),
+    [BookRevenue]
+)
+
+-- ============================================
+-- 7. DATA QUALITY & VALIDATION MEASURES
+-- ============================================
+
+-- Book Data Coverage Check
+Book Data Coverage % = 
+VAR SelectedBook = [Selected Book ID]
+VAR TotalRecords = CALCULATE(COUNTROWS(fact_total), ALL(fact_total[book_id]))
+VAR BookRecords = CALCULATE(COUNTROWS(fact_total), fact_total[book_id] = SelectedBook)
+RETURN DIVIDE(BookRecords, TotalRecords, 0) * 100
+
+-- Last Data Update for Selected Book
+Last Data Update = 
+VAR SelectedBook = [Selected Book ID]
+RETURN
+CALCULATE(
+    MAX(fact_total[last_modified_date]),
+    fact_total[book_id] = SelectedBook
+)
+
+-- Data Quality Score for Selected Book
+Data Quality Score = 
+VAR SelectedBook = [Selected Book ID] 
+VAR TotalRecords = CALCULATE(COUNTROWS(fact_total), fact_total[book_id] = SelectedBook)
+VAR RecordsWithoutNulls = CALCULATE(
+    COUNTROWS(fact_total),
+    fact_total[book_id] = SelectedBook,
+    NOT ISBLANK(fact_total[amount]),
+    NOT ISBLANK(fact_total[account_number])
+)
+RETURN DIVIDE(RecordsWithoutNulls, TotalRecords, 0) * 100
+
+-- ============================================
+-- 8. EXECUTIVE SUMMARY MEASURES
+-- ============================================
+
+-- P&L Summary Status
+PL Summary Status = 
+VAR BookType = [Book Type]
+VAR DataQuality = [Data Quality Score]
+VAR Coverage = [Book Data Coverage %]
+RETURN
+SWITCH(TRUE(),
+    DataQuality >= 95 && Coverage >= 1, "Excellent",
+    DataQuality >= 90 && Coverage >= 0.5, "Good", 
+    DataQuality >= 80, "Fair",
+    "Needs Attention"
+)
+
+-- P&L Dashboard Readiness
+PL Dashboard Readiness = 
+VAR Status = [PL Summary Status]
+RETURN
+SWITCH(Status,
+    "Excellent", "✅ Ready",
+    "Good", "⚠️ Minor Issues", 
+    "Fair", "🔄 Review Needed",
+    "❌ Critical Issues"
+)
+
+/*
+=================================================================
+IMPLEMENTATION NOTES:
+=================================================================
+
+1. REQUIRED TABLES:
+   - fact_total (with book_id column)
+   - dim_book (book reference)
+   - dim_calendar (for time intelligence)
+   - dim_lastclosedperiod (for current date)
+
+2. REQUIRED SLICER TABLES:
+   Create 'Book Mode' table with values:
+   - Actuals
+   - 6Y Forecast Latest  
+   - 11Y Forecast Latest
+   - FPR
+   - Budget
+   - Custom
+
+   Create 'Book Selection' table with all book IDs for custom selection
+
+3. PERFORMANCE CONSIDERATIONS:
+   - Measures use CALCULATE with specific book_id filters
+   - Time intelligence functions maintain book context
+   - Multi-book comparisons use separate calculations
+
+4. VALIDATION REQUIREMENTS:
+   - Verify account_number patterns (4xxxx for revenue, 5xxxx for expenses)
+   - Confirm book_id values match dim_book
+   - Test time intelligence across all books
+   - Validate revenue sign convention (stored negative, display positive)
+
+5. DASHBOARD LAYOUT SUGGESTIONS:
+   - Book selection slicer at top
+   - Current vs prior comparisons
+   - Actuals vs forecast variance analysis
+   - Forecast scenario planning section
+   - Data quality monitoring panel
+=================================================================
+*/

@@ -9,7 +9,7 @@ This guide explains the purpose and contents of each folder in the Yardi PowerBI
 **Purpose**: Clean, self-contained reference library for Claude.ai projects
 **When to use**: Upload this entire folder to Claude.ai when building Power BI dashboards
 **Contents**:
-- `DAX_Measures/` - Production v4.1 DAX library with 127 measures
+- `DAX_Measures/` - Production v5.0 DAX library with 217+ measures
 - `Documentation/` - Core guides numbered 01-05 for easy reference
 - `Dashboard_Templates/` - 4 ready-to-use dashboard specifications
 - `Reference_Guides/` - Business logic, mappings, and patterns
@@ -85,9 +85,12 @@ This guide explains the purpose and contents of each folder in the Yardi PowerBI
 
 ## 📋 Key Files Reference
 
-### Production DAX (v4.1):
-- **Primary**: `Claude_AI_Reference/DAX_Measures/Complete_DAX_Library_v4.1_Production.dax`
-- **Backup**: `Documentation/Core_Guides/Complete_DAX_Library_v4.1_Production.dax`
+### Production DAX (v5.0):
+- **Core Financial**: `Claude_AI_Reference/DAX_Measures/01_Core_Financial_Rent_Roll_Measures_v5.0.dax` (42 measures)
+- **Leasing Activity**: `Claude_AI_Reference/DAX_Measures/02_Leasing_Activity_Pipeline_Measures_v5.0.dax` (85 measures)
+- **Credit Risk**: `Claude_AI_Reference/DAX_Measures/03_Credit_Risk_Tenant_Analysis_Measures_v5.0.dax` (45 measures)
+- **Net Absorption**: `Claude_AI_Reference/DAX_Measures/04_Net_Absorption_Fund_Analysis_Measures_v5.0.dax` (35 measures)
+- **Performance**: `Claude_AI_Reference/DAX_Measures/05_Performance_Validation_Measures_v5.0.dax` (25 measures)
 - **Top 20**: `Claude_AI_Reference/DAX_Measures/Top_20_Essential_Measures.dax`
 
 ### Critical Documentation:

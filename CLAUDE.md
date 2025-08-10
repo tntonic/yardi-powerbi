@@ -14,8 +14,12 @@ This is a Power BI analytics solution for commercial real estate data from Yardi
 Yardi PowerBI/
 ├── Claude_AI_Reference/            # CLEAN REFERENCE FILES FOR CLAUDE.AI
 │   ├── README.md                   # How to use with Claude.ai
-│   ├── DAX_Measures/               # Production DAX measures
-│   │   ├── Complete_DAX_Library_v4_Production.dax
+│   ├── DAX_Measures/               # Production DAX measures (v5.1)
+│   │   ├── 01_Core_Financial_Rent_Roll_Measures_v5.0.dax
+│   │   ├── 02_Leasing_Activity_Pipeline_Measures_v5.0.dax
+│   │   ├── 03_Credit_Risk_Tenant_Analysis_Measures_v5.0.dax
+│   │   ├── 04_Net_Absorption_Fund_Analysis_Measures_v5.0.dax
+│   │   ├── 05_Performance_Validation_Measures_v5.0.dax
 │   │   ├── Top_20_Essential_Measures.dax
 │   │   └── Validation_Measures.dax
 │   ├── Documentation/              # Core guides (numbered for order)
@@ -141,6 +145,30 @@ FILTER(
 
 // Active amendments only
 dim_fp_amendmentsunitspropertytenant[amendment status] IN {"Activated", "Superseded"}
+
+// Current date from Yardi closed period (v5.1+ pattern)
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
+```
+
+### Date Handling Pattern (v5.1+)
+**IMPORTANT**: As of v5.1, all DAX measures use the Yardi closed period date instead of TODAY():
+- **Pattern**: Reference `dim_lastclosedperiod[last closed period]` for the current date
+- **Benefits**: Ensures consistency with Yardi financial reporting periods
+- **Updates**: Automatically when data is refreshed from Yardi
+- **Current Value**: Dynamically reads from the table (e.g., "2025-07-01")
+
+```dax
+// OLD PATTERN (v5.0 and earlier)
+VAR CurrentDate = TODAY()
+
+// NEW PATTERN (v5.1+)
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
 ```
 
 ## Top 25 Most-Used DAX Measures
@@ -216,7 +244,7 @@ Before deployment, ensure:
 
 ## Key Production Files
 
-### DAX Measures (Use v5.0 Production - Organized by Function)
+### DAX Measures (v5.1 - Dynamic Date Handling)
 - **Core Financial**: `Claude_AI_Reference/DAX_Measures/01_Core_Financial_Rent_Roll_Measures_v5.0.dax` (42 measures)
 - **Leasing Activity**: `Claude_AI_Reference/DAX_Measures/02_Leasing_Activity_Pipeline_Measures_v5.0.dax` (85 measures)
 - **Credit Risk**: `Claude_AI_Reference/DAX_Measures/03_Credit_Risk_Tenant_Analysis_Measures_v5.0.dax` (30 measures)  
@@ -226,6 +254,7 @@ Before deployment, ensure:
 - **Historical (Archived)**: `Archive/DAX_Versions_Historical/` (v4.1 and earlier)
 
 ### Critical Data Tables
+- `dim_lastclosedperiod` - **v5.1**: Yardi closed period date for all date references (replaces TODAY())
 - `dim_fp_amendmentsunitspropertytenant` - Core table for rent roll (must filter latest sequence)
 - `dim_fp_amendmentchargeschedule` - Charge details linked to amendments  
 - `dim_fp_terminationtomoveoutreas` - Termination details for net absorption analysis
@@ -261,6 +290,72 @@ When filtering for specific funds:
 1. Use filtered data in `Data/Fund2_Filtered/` for Fund 2
 2. Run `python Development/Python_Scripts/filter_fund2_data.py` to regenerate
 3. Validate with `python Development/Fund2_Validation_Results/validate_fund2_accuracy.py`
+
+## Customer Code Mapping Logic
+
+### Table Relationships for Customer Identity
+
+The customer identification system uses a three-table architecture to provide business-friendly codes and company information:
+
+```
+dim_commcustomer (Primary Tenant Table)
+├── tenant_id: Unique tenant identifier in system
+├── customer_id: Links to credit and parent tables (JOIN KEY)
+├── tenant_code: Technical code (t0000xxx format)
+└── lessee_name: Legal company name
+
+dim_fp_customercreditscorecustomdata (Credit & Company Data)
+├── hmyperson_customer: = customer_id from dim_commcustomer (JOIN)
+├── customer code: Business code (c0000xxx format)
+├── customer name: Company display name
+└── credit score: Risk assessment (0-10 scale)
+
+dim_fp_customertoparentmap (Corporate Structure)
+├── customer hmy: = customer_id from dim_commcustomer (JOIN)
+├── customer code: Business code (c0000xxx format)
+├── customer name: Company display name
+└── parent customer hmy: Link to parent company
+```
+
+### Customer Code Lookup Priority
+
+When retrieving customer codes and names, follow this priority:
+
+1. **Primary Source**: `dim_fp_customercreditscorecustomdata`
+   - Check using customer_id = hmyperson_customer
+   - Returns customer code and enhanced company name
+   
+2. **Secondary Source**: `dim_fp_customertoparentmap`
+   - Check using customer_id = customer hmy
+   - Returns customer code if not in credit table
+   
+3. **Fallback**: `dim_commcustomer`
+   - Use lessee_name when no match in other tables
+   - Always available for all tenants
+
+### DAX Pattern for Customer Lookups
+
+```dax
+Customer Code Lookup = 
+VAR CustomerID = SELECTEDVALUE(dim_commcustomer[customer id])
+VAR CreditCode = LOOKUPVALUE(
+    dim_fp_customercreditscorecustomdata[customer code],
+    dim_fp_customercreditscorecustomdata[hmyperson_customer], CustomerID
+)
+VAR ParentCode = LOOKUPVALUE(
+    dim_fp_customertoparentmap[customer code],
+    dim_fp_customertoparentmap[customer hmy], CustomerID
+)
+RETURN COALESCE(CreditCode, ParentCode)
+```
+
+### Key Points
+
+- Customer codes (c0000xxx format) are business-friendly identifiers
+- Codes are consistent when present in both credit and parent tables
+- Not all customers have codes - subset based on credit assessment
+- Use customer_id as the primary join key for all lookups
+- Parent company relationships enable consolidated risk assessment
 
 ## Credit Score and Risk Analysis
 
@@ -473,7 +568,8 @@ Refer to `Claude_AI_Reference/Documentation/05_Business_Logic_Reference.md` for 
 
 ---
 
-**Version 5.0 Status**: Production Ready - Comprehensive Analytics
+**Version 5.1 Status**: Production Ready - Dynamic Date Handling
 **Total Measures**: 217+ across 5 functional areas
-**New Features**: Net absorption, leasing spreads, credit risk, downtime analysis
+**Key Update**: All measures now use dim_lastclosedperiod for date reference (replacing TODAY())
+**Features**: Net absorption, leasing spreads, credit risk, downtime analysis
 **Accuracy Targets**: 95-99% across all measure categories

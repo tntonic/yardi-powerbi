@@ -4,6 +4,15 @@
 
 This is a curated reference library designed specifically for teams building Power BI dashboards with assistance from Claude.ai. The library contains production-ready DAX measures, comprehensive documentation, and validated implementation patterns for commercial real estate analytics using Yardi data.
 
+## ⚠️ Critical Update: v5.1 Date Handling
+
+**IMPORTANT**: As of v5.1, all DAX measures use the Yardi closed period date dynamically:
+- **Old Pattern (v5.0)**: `VAR CurrentDate = TODAY()`
+- **New Pattern (v5.1)**: `VAR CurrentDate = CALCULATE(MAX(dim_lastclosedperiod[last closed period]), ALL(dim_lastclosedperiod))`
+- **Benefits**: Ensures consistency with Yardi financial reporting periods
+- **Automatic Updates**: Date updates when Power BI data is refreshed
+- **Required Table**: `dim_lastclosedperiod` must be in your data model
+
 ## 📚 How to Use with Claude.ai
 
 ### Setting Up Your Claude.ai Project
@@ -33,10 +42,10 @@ This is a curated reference library designed specifically for teams building Pow
 
 ## 📁 Library Structure
 
-### DAX_Measures/
+### DAX_Measures/ (Total: 217+ measures v5.1)
 - **01_Core_Financial_Rent_Roll_Measures_v5.0.dax** - 42 core financial and rent roll measures
 - **02_Leasing_Activity_Pipeline_Measures_v5.0.dax** - 85 leasing activity and pipeline measures
-- **03_Credit_Risk_Tenant_Analysis_Measures_v5.0.dax** - 30 credit risk and tenant analysis measures  
+- **03_Credit_Risk_Tenant_Analysis_Measures_v5.0.dax** - 45 credit risk and tenant analysis measures (expanded with customer code mappings)
 - **04_Net_Absorption_Fund_Analysis_Measures_v5.0.dax** - 35 net absorption and fund-specific measures
 - **05_Performance_Validation_Measures_v5.0.dax** - 25 performance monitoring and validation measures
 - **Top_20_Essential_Measures.dax** - Most commonly used measures (quick reference)
@@ -143,8 +152,9 @@ Your implementation is successful when:
 
 ---
 
-**Version**: 5.0 Production Ready (Comprehensive Analytics)
+**Version**: 5.1 Production Ready (Dynamic Date Handling)
 **Last Updated**: 2025-08-10  
 **Validated Against**: Yardi Voyager 7S with enhanced data integration
 **Power BI Version**: Latest (2024.x or newer recommended)
-**New in v5.0**: Net absorption (FPR methodology), leasing spreads analysis, credit risk scoring, downtime tracking, comprehensive pipeline analytics, fund-specific enhanced filtering
+**New in v5.1**: All measures now use `dim_lastclosedperiod` for dynamic date references (replacing TODAY())
+**v5.0 Features**: Net absorption (FPR methodology), leasing spreads analysis, credit risk scoring, downtime tracking, comprehensive pipeline analytics, fund-specific enhanced filtering

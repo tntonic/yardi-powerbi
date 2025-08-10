@@ -19,7 +19,10 @@ This framework provides comprehensive validation logic, automated data quality c
 Fund 2 Data Quality Score = 
 // Comprehensive data quality validation for Fund 2 accuracy monitoring
 // Returns: 0-100 score (target: 95%+)
-VAR CurrentDate = TODAY()
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
 
 // Base metrics
 VAR TotalAmendments = COUNTROWS(dim_fp_amendmentsunitspropertytenant)
@@ -84,7 +87,10 @@ RETURN ROUND(FinalScore, 1)
 Fund 2 Missing Charges Alert = 
 // Alert measure for monitoring missing charge schedules with severity levels
 // Returns: Risk level and count of problematic amendments
-VAR CurrentDate = TODAY()
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
 
 VAR AmendmentsWithoutCharges = 
     COUNTROWS(
@@ -177,7 +183,10 @@ ValidationStatus & " | " &
 Fund 2 Amendment Logic Check = 
 // Validates that amendment selection logic is working correctly
 // Returns: Status of latest amendment WITH charges logic
-VAR CurrentDate = TODAY()
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
 
 // Test the amendment selection logic
 VAR TotalPropertyTenantCombinations = 
