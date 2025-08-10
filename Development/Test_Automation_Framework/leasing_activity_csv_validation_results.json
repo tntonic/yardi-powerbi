@@ -1,0 +1,411 @@
+{
+  "timestamp": "2025-08-09T22:51:35.793260",
+  "csv_file": "/Users/michaeltang/Documents/GitHub/BI/Yardi PowerBI/FPR Working Docs/fund2_fund3_occ_absorption_spreads_downtime_detailed.csv",
+  "csv_rows": 4,
+  "occupancy_metrics": {
+    "Fund 2_Q1 2025": {
+      "contract_occupancy": {
+        "expected": 90.1,
+        "calculated": 90.0,
+        "variance": -0.09999999999999432,
+        "accuracy": 99.88901220865705
+      },
+      "adjusted_occupancy": {
+        "expected": 88.3,
+        "calculated": 87.5,
+        "variance": -0.7999999999999972,
+        "accuracy": 99.09399773499435
+      },
+      "economic_occupancy": {
+        "expected": 83.6,
+        "calculated": 85.5,
+        "variance": 1.9000000000000057,
+        "accuracy": 97.72727272727272
+      },
+      "vacant_suites": {
+        "expected": 31,
+        "calculated": 30,
+        "variance": -1,
+        "accuracy": 96.7741935483871
+      },
+      "vacancy_sf": {
+        "expected": 2600000,
+        "calculated": 200000.0,
+        "variance": -2400000.0,
+        "accuracy": 7.692307692307693
+      },
+      "lease_up_sf": {
+        "expected": 1300000,
+        "calculated": 120000.0,
+        "variance": -1180000.0,
+        "accuracy": 9.230769230769226
+      }
+    },
+    "Fund 2_Q2 2025": {
+      "contract_occupancy": {
+        "expected": 89.1,
+        "calculated": 90.0,
+        "variance": 0.9000000000000057,
+        "accuracy": 98.98989898989899
+      },
+      "adjusted_occupancy": {
+        "expected": 88.1,
+        "calculated": 87.5,
+        "variance": -0.5999999999999943,
+        "accuracy": 99.31895573212259
+      },
+      "economic_occupancy": {
+        "expected": 80.9,
+        "calculated": 85.5,
+        "variance": 4.599999999999994,
+        "accuracy": 94.31396786155749
+      },
+      "vacant_suites": {
+        "expected": 32,
+        "calculated": 30,
+        "variance": -2,
+        "accuracy": 93.75
+      },
+      "vacancy_sf": {
+        "expected": 2400000,
+        "calculated": 200000.0,
+        "variance": -2200000.0,
+        "accuracy": 8.333333333333343
+      },
+      "lease_up_sf": {
+        "expected": 1200000,
+        "calculated": 120000.0,
+        "variance": -1080000.0,
+        "accuracy": 10.0
+      }
+    },
+    "Fund 3_Q1 2025": {
+      "contract_occupancy": {
+        "expected": 93.4,
+        "calculated": 90.0,
+        "variance": -3.4000000000000057,
+        "accuracy": 96.35974304068522
+      },
+      "economic_occupancy": {
+        "expected": 88.04,
+        "calculated": 85.5,
+        "variance": -2.5400000000000063,
+        "accuracy": 97.11494775102226
+      },
+      "vacant_suites": {
+        "expected": 22,
+        "calculated": 25,
+        "variance": 3,
+        "accuracy": 86.36363636363636
+      },
+      "vacancy_sf": {
+        "expected": 1400000,
+        "calculated": 150000.0,
+        "variance": -1250000.0,
+        "accuracy": 10.714285714285708
+      },
+      "lease_up_sf": {
+        "expected": 1000000,
+        "calculated": 90000.0,
+        "variance": -910000.0,
+        "accuracy": 9.0
+      }
+    },
+    "Fund 3_Q2 2025": {
+      "contract_occupancy": {
+        "expected": 93.0,
+        "calculated": 90.0,
+        "variance": -3.0,
+        "accuracy": 96.7741935483871
+      },
+      "adjusted_occupancy": {
+        "expected": 92.9,
+        "calculated": 86.66666666666667,
+        "variance": -6.233333333333334,
+        "accuracy": 93.2902762827413
+      },
+      "economic_occupancy": {
+        "expected": 85.6,
+        "calculated": 85.5,
+        "variance": -0.09999999999999432,
+        "accuracy": 99.88317757009347
+      },
+      "vacant_suites": {
+        "expected": 30,
+        "calculated": 25,
+        "variance": -5,
+        "accuracy": 83.33333333333334
+      },
+      "vacancy_sf": {
+        "expected": 1600000,
+        "calculated": 150000.0,
+        "variance": -1450000.0,
+        "accuracy": 9.375
+      },
+      "lease_up_sf": {
+        "expected": 1100000,
+        "calculated": 90000.0,
+        "variance": -1010000.0,
+        "accuracy": 8.181818181818173
+      }
+    }
+  },
+  "absorption_metrics": {
+    "Fund 2_Q1 2025": {
+      "gross_absorption_sf": {
+        "expected": 198000,
+        "calculated": 200000,
+        "variance": 2000,
+        "accuracy": 98.98989898989899
+      },
+      "move_outs_sf": {
+        "expected": 712000,
+        "calculated": 100000,
+        "variance": -612000,
+        "accuracy": 14.044943820224717
+      },
+      "net_absorption_sf": {
+        "expected": -514000,
+        "calculated": 100000,
+        "variance": 614000,
+        "accuracy": 0
+      },
+      "largest_move_out": {
+        "expected": 457000,
+        "calculated": 50000,
+        "variance": -407000,
+        "accuracy": 10.940919037199123
+      },
+      "largest_move_in": {
+        "expected": 95000,
+        "calculated": 60000,
+        "variance": -35000,
+        "accuracy": 63.15789473684211
+      }
+    },
+    "Fund 2_Q2 2025": {
+      "gross_absorption_sf": {
+        "expected": 258000,
+        "calculated": 200000,
+        "variance": -58000,
+        "accuracy": 77.51937984496124
+      },
+      "move_outs_sf": {
+        "expected": 458000,
+        "calculated": 100000,
+        "variance": -358000,
+        "accuracy": 21.834061135371172
+      },
+      "net_absorption_sf": {
+        "expected": -200000,
+        "calculated": 100000,
+        "variance": 300000,
+        "accuracy": 0
+      },
+      "largest_move_out": {
+        "expected": 202000,
+        "calculated": 50000,
+        "variance": -152000,
+        "accuracy": 24.752475247524757
+      },
+      "largest_move_in": {
+        "expected": 127000,
+        "calculated": 60000,
+        "variance": -67000,
+        "accuracy": 47.24409448818898
+      }
+    },
+    "Fund 3_Q1 2025": {
+      "gross_absorption_sf": {
+        "expected": 365000,
+        "calculated": 150000,
+        "variance": -215000,
+        "accuracy": 41.0958904109589
+      },
+      "move_outs_sf": {
+        "expected": 111000,
+        "calculated": 80000,
+        "variance": -31000,
+        "accuracy": 72.07207207207207
+      },
+      "net_absorption_sf": {
+        "expected": 254000,
+        "calculated": 70000,
+        "variance": -184000,
+        "accuracy": 27.559055118110237
+      },
+      "largest_move_out": {
+        "expected": 33000,
+        "calculated": 40000,
+        "variance": 7000,
+        "accuracy": 78.78787878787878
+      },
+      "largest_move_in": {
+        "expected": 126000,
+        "calculated": 50000,
+        "variance": -76000,
+        "accuracy": 39.682539682539684
+      }
+    },
+    "Fund 3_Q2 2025": {
+      "gross_absorption_sf": {
+        "expected": 112000,
+        "calculated": 150000,
+        "variance": 38000,
+        "accuracy": 66.07142857142857
+      },
+      "move_outs_sf": {
+        "expected": 250600,
+        "calculated": 80000,
+        "variance": -170600,
+        "accuracy": 31.92338387869114
+      },
+      "net_absorption_sf": {
+        "expected": -138600,
+        "calculated": 70000,
+        "variance": 208600,
+        "accuracy": 0
+      },
+      "largest_move_out": {
+        "expected": 135000,
+        "calculated": 40000,
+        "variance": -95000,
+        "accuracy": 29.629629629629633
+      },
+      "largest_move_in": {
+        "expected": 64000,
+        "calculated": 50000,
+        "variance": -14000,
+        "accuracy": 78.125
+      }
+    }
+  },
+  "spread_metrics": {
+    "Fund 2_Q1 2025": {
+      "leasing_spread": {
+        "expected": 11.0,
+        "calculated": 30,
+        "variance": 19.0,
+        "accuracy": 0
+      },
+      "escalation_rate": {
+        "expected": 3.73,
+        "calculated": 3.7,
+        "variance": -0.029999999999999805,
+        "accuracy": 99.19571045576409
+      },
+      "renewal_rate_quarter": {
+        "expected": 72.0,
+        "calculated": 50,
+        "variance": -22.0,
+        "accuracy": 69.44444444444444
+      },
+      "renewal_rate_ltm": {
+        "expected": 66.0,
+        "calculated": 60,
+        "variance": -6.0,
+        "accuracy": 90.9090909090909
+      },
+      "downtime_months": {
+        "expected": 8.4,
+        "calculated": 8,
+        "variance": -0.40000000000000036,
+        "accuracy": 95.23809523809524
+      }
+    },
+    "Fund 2_Q2 2025": {
+      "leasing_spread": {
+        "expected": 42.0,
+        "calculated": 30,
+        "variance": -12.0,
+        "accuracy": 71.42857142857143
+      },
+      "escalation_rate": {
+        "expected": 3.93,
+        "calculated": 3.7,
+        "variance": -0.22999999999999998,
+        "accuracy": 94.14758269720102
+      },
+      "renewal_rate_quarter": {
+        "expected": 17.0,
+        "calculated": 50,
+        "variance": 33.0,
+        "accuracy": 0
+      },
+      "renewal_rate_ltm": {
+        "expected": 68.0,
+        "calculated": 60,
+        "variance": -8.0,
+        "accuracy": 88.23529411764706
+      },
+      "downtime_months": {
+        "expected": 8.0,
+        "calculated": 8,
+        "variance": 0.0,
+        "accuracy": 100.0
+      }
+    },
+    "Fund 3_Q1 2025": {
+      "leasing_spread": {
+        "expected": 67.0,
+        "calculated": 45,
+        "variance": -22.0,
+        "accuracy": 67.16417910447761
+      },
+      "escalation_rate": {
+        "expected": 3.49,
+        "calculated": 3.5,
+        "variance": 0.009999999999999787,
+        "accuracy": 99.71346704871061
+      },
+      "renewal_rate_quarter": {
+        "expected": 42.0,
+        "calculated": 60,
+        "variance": 18.0,
+        "accuracy": 57.142857142857146
+      },
+      "renewal_rate_ltm": {
+        "expected": 57.0,
+        "calculated": 57,
+        "variance": 0.0,
+        "accuracy": 100.0
+      }
+    },
+    "Fund 3_Q2 2025": {
+      "leasing_spread": {
+        "expected": 23.0,
+        "calculated": 45,
+        "variance": 22.0,
+        "accuracy": 4.347826086956516
+      },
+      "escalation_rate": {
+        "expected": 5.66,
+        "calculated": 3.5,
+        "variance": -2.16,
+        "accuracy": 61.83745583038869
+      },
+      "renewal_rate_quarter": {
+        "expected": 83.0,
+        "calculated": 60,
+        "variance": -23.0,
+        "accuracy": 72.28915662650603
+      },
+      "renewal_rate_ltm": {
+        "expected": 57.0,
+        "calculated": 57,
+        "variance": 0.0,
+        "accuracy": 100.0
+      }
+    }
+  },
+  "overall_accuracy": {
+    "overall_accuracy": 59.016858974221876,
+    "min_accuracy": 0.0,
+    "max_accuracy": 100.0,
+    "total_metrics_tested": 61,
+    "metrics_above_95": 17,
+    "metrics_above_90": 22,
+    "metrics_above_80": 25,
+    "meets_95_target": "False"
+  }
+}

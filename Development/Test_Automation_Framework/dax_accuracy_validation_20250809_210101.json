@@ -1,0 +1,238 @@
+{
+  "validation_timestamp": "2025-08-09T21:01:01.085182",
+  "scenarios_tested": {
+    "q4_2024_fund2": {
+      "scenario": "Q4 2024 Fund 2 Leasing Activity",
+      "timestamp": "2025-08-09T21:01:01.085246",
+      "measures_tested": {
+        "deal_counts": {
+          "new_leases": {
+            "actual": 0,
+            "expected": 4,
+            "variance": -4,
+            "accuracy": 0.0
+          },
+          "renewals": {
+            "actual": 4,
+            "expected": 4,
+            "variance": 0,
+            "accuracy": 100.0
+          },
+          "total_deals": {
+            "actual": 8,
+            "expected": 8,
+            "variance": 0,
+            "accuracy": 100.0
+          },
+          "accuracy": 66.66666666666667,
+          "status": "FAIL"
+        },
+        "square_footage": {
+          "total_sf": {
+            "actual": 370990.0,
+            "expected": 286978,
+            "variance": 84012.0,
+            "accuracy": 70.72528207737179
+          },
+          "new_lease_sf": {
+            "actual": 0.0,
+            "expected": null,
+            "accuracy": 100.0
+          },
+          "renewal_sf": {
+            "actual": 135224.0,
+            "expected": null,
+            "accuracy": 100.0
+          },
+          "avg_deal_size": {
+            "actual": 46373.75,
+            "expected": null,
+            "accuracy": 100.0
+          },
+          "accuracy": 70.72528207737179,
+          "status": "FAIL"
+        },
+        "weighted_rates": {
+          "current_rate_psf": {
+            "actual": 12055.969497144128,
+            "expected": 7.18,
+            "variance": 12048.789497144127,
+            "accuracy": 0.0
+          },
+          "bp_rate_psf": {
+            "actual": 5.54,
+            "expected": 5.54,
+            "accuracy": 100.0
+          },
+          "accuracy": 0.0,
+          "status": "FAIL"
+        },
+        "escalations": {
+          "avg_escalation": {
+            "actual": 1.5043181756920672,
+            "expected": 3.89,
+            "variance": -2.385681824307933,
+            "accuracy": 38.67141839825366
+          },
+          "accuracy": 38.67141839825366,
+          "status": "FAIL"
+        },
+        "spreads": {
+          "spread_over_prior": {
+            "actual": 0.0,
+            "expected": 38.0,
+            "accuracy": 0.0
+          },
+          "spread_over_bp": {
+            "actual": 0.0,
+            "expected": 30.0,
+            "accuracy": 0.0
+          },
+          "accuracy": 0.0,
+          "status": "NOT_IMPLEMENTED"
+        },
+        "terms": {
+          "avg_term_months": {
+            "actual": 19.66827677295884,
+            "expected": 46,
+            "variance": -26.33172322704116,
+            "accuracy": 42.75712341947574
+          },
+          "accuracy": 42.75712341947574,
+          "status": "FAIL"
+        }
+      },
+      "overall_accuracy": 36.47008176029464,
+      "status": "FAIL",
+      "issues": [],
+      "recommendations": [
+        "\u26a0\ufe0f CRITICAL: Overall accuracy below 95% - measures not suitable for production",
+        "\ud83d\udd27 Fix deal count logic in deal_counts measures",
+        "\ud83d\udd27 Review and fix square_footage measure calculations",
+        "\ud83d\udd27 Fix weighted rate calculation in weighted_rates measures - likely PSF calculation error",
+        "\ud83d\udd27 Review and fix escalations measure calculations",
+        "\ud83d\udd27 Review and fix terms measure calculations"
+      ]
+    },
+    "q4_2024_fund3": {
+      "scenario": "Q4 2024 Fund 3 Leasing Activity",
+      "timestamp": "2025-08-09T21:01:01.109529",
+      "measures_tested": {
+        "deal_counts": {
+          "new_leases": {
+            "actual": 0,
+            "expected": 3,
+            "variance": -3,
+            "accuracy": 0.0
+          },
+          "renewals": {
+            "actual": 9,
+            "expected": 6,
+            "variance": 3,
+            "accuracy": 50.0
+          },
+          "total_deals": {
+            "actual": 9,
+            "expected": 9,
+            "variance": 0,
+            "accuracy": 100.0
+          },
+          "accuracy": 50.0,
+          "status": "FAIL"
+        },
+        "square_footage": {
+          "total_sf": {
+            "actual": 310472.0,
+            "expected": 194272,
+            "variance": 116200.0,
+            "accuracy": 40.186954373249876
+          },
+          "new_lease_sf": {
+            "actual": 0.0,
+            "expected": null,
+            "accuracy": 100.0
+          },
+          "renewal_sf": {
+            "actual": 310472.0,
+            "expected": null,
+            "accuracy": 100.0
+          },
+          "avg_deal_size": {
+            "actual": 34496.88888888889,
+            "expected": null,
+            "accuracy": 100.0
+          },
+          "accuracy": 40.186954373249876,
+          "status": "FAIL"
+        },
+        "weighted_rates": {
+          "current_rate_psf": {
+            "actual": 6.984959577675282,
+            "expected": 9.55,
+            "variance": -2.565040422324719,
+            "accuracy": 73.1409379861286
+          },
+          "bp_rate_psf": {
+            "actual": 9.19,
+            "expected": 9.19,
+            "accuracy": 100.0
+          },
+          "accuracy": 73.1409379861286,
+          "status": "FAIL"
+        },
+        "escalations": {
+          "avg_escalation": {
+            "actual": 3.8118139477956143,
+            "expected": 3.45,
+            "variance": 0.36181394779561415,
+            "accuracy": 89.51263919433002
+          },
+          "accuracy": 89.51263919433002,
+          "status": "FAIL"
+        },
+        "spreads": {
+          "spread_over_prior": {
+            "actual": 0.0,
+            "expected": 45.0,
+            "accuracy": 0.0
+          },
+          "spread_over_bp": {
+            "actual": 0.0,
+            "expected": 4.0,
+            "accuracy": 0.0
+          },
+          "accuracy": 0.0,
+          "status": "NOT_IMPLEMENTED"
+        },
+        "terms": {
+          "avg_term_months": {
+            "actual": 54.807628385168385,
+            "expected": 44,
+            "variance": 10.807628385168385,
+            "accuracy": 75.4372082155264
+          },
+          "accuracy": 75.4372082155264,
+          "status": "FAIL"
+        }
+      },
+      "overall_accuracy": 54.71295662820582,
+      "status": "FAIL",
+      "issues": [],
+      "recommendations": [
+        "\u26a0\ufe0f CRITICAL: Overall accuracy below 95% - measures not suitable for production",
+        "\ud83d\udd27 Fix deal count logic in deal_counts measures",
+        "\ud83d\udd27 Review and fix square_footage measure calculations",
+        "\ud83d\udd27 Fix weighted rate calculation in weighted_rates measures - likely PSF calculation error",
+        "\ud83d\udd27 Review and fix escalations measure calculations",
+        "\ud83d\udd27 Review and fix terms measure calculations"
+      ]
+    }
+  },
+  "summary": {
+    "total_scenarios": 4,
+    "passed": 0,
+    "failed": 2,
+    "warnings": 0,
+    "overall_status": "FAIL"
+  }
+}

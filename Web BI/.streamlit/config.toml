@@ -1,0 +1,53 @@
+[global]
+# Global configuration options
+
+# Set to false to disable the option to share your app
+showErrorDetails = true
+
+[server]
+# Server settings
+port = 8501
+headless = true
+enableCORS = false
+enableXsrfProtection = true
+
+# File watcher configuration
+fileWatcherType = "auto"
+runOnSave = false
+
+# Session state
+maxUploadSize = 200
+
+[browser]
+# Browser settings
+gatherUsageStats = false
+serverAddress = "localhost"
+serverPort = 8501
+
+[theme]
+# UI theme settings
+primaryColor = "#1f77b4"
+backgroundColor = "#ffffff"  
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
+
+[client]
+# Client settings
+caching = true
+displayEnabled = true
+
+[runner]
+# Runner settings
+magicEnabled = true
+installTracer = false
+fixMatplotlib = true
+
+[logger]
+# Logging settings
+level = "info"
+
+[deprecation]
+# Deprecation warnings
+showfileUploaderEncoding = false
+showPyplotGlobalUse = false

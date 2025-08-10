@@ -1,0 +1,49 @@
+# Yardi PowerBI Dashboard Configuration
+# Settings for the web-based analytics platform
+
+app:
+  title: "Yardi PowerBI Dashboard"
+  description: "Interactive commercial real estate analytics dashboard"
+  version: "1.0.0"
+  author: "Yardi PowerBI Team"
+
+database:
+  path: "database/yardi.duckdb"
+  read_only: true
+  timeout: 30  # seconds
+  
+data:
+  source_path: "../Data/Yardi_Tables"
+  refresh_interval_hours: 24
+  cache_duration_minutes: 60
+  
+performance:
+  max_query_timeout: 30  # seconds
+  chart_sample_size: 10000  # rows
+  table_page_size: 500  # rows
+  enable_caching: true
+  
+ui:
+  theme: "light"  # light/dark
+  sidebar_expanded: true
+  chart_height: 400
+  table_height: 500
+  
+features:
+  enable_exports: true
+  enable_filters: true
+  enable_drill_downs: true
+  show_query_info: false  # for debugging
+  
+security:
+  enable_auth: false  # set to true for production
+  session_timeout_minutes: 480  # 8 hours
+  
+logging:
+  level: "INFO"  # DEBUG/INFO/WARNING/ERROR
+  file: "logs/dashboard.log"
+  
+deployment:
+  port: 8501
+  host: "0.0.0.0"
+  environment: "development"  # development/staging/production

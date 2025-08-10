@@ -1,0 +1,78 @@
+================================================================================
+LEASING ACTIVITY DAX MEASURES VALIDATION REPORT
+================================================================================
+Validation Date: 2025-08-09 20:57:26
+Data Quality Score: 99.8%
+Total Records: 2,675
+Q4 2024 Executed Deals: 63
+
+OVERALL VALIDATION RESULTS:
+----------------------------------------
+Overall Accuracy: 79.9%
+Meets 95% Target: ✗ FAIL
+Performance Target: ✓ PASS
+Data Quality: ✓ PASS
+
+DEAL COUNTS VALIDATION:
+----------------------------------------
+Fund_2:
+  New Leases: 0 (exp: 4) - 0.0% accuracy
+  Renewals: 6 (exp: 4) - 50.0% accuracy
+  Total: 8 (exp: 8) - 100.0% accuracy
+
+Fund_3:
+  New Leases: 0 (exp: 3) - 0.0% accuracy
+  Renewals: 7 (exp: 6) - 83.3% accuracy
+  Total: 9 (exp: 9) - 100.0% accuracy
+
+
+SQUARE FOOTAGE VALIDATION:
+----------------------------------------
+Fund_2:
+  Total SF: 458,059 (exp: 286,978) - 40.4% accuracy
+  Variance: 171,081 SF
+
+Fund_3:
+  Total SF: 184,725 (exp: 194,272) - 95.1% accuracy
+  Variance: -9,547 SF
+
+
+WEIGHTED RATES VALIDATION:
+----------------------------------------
+Fund_2:
+  Current Rate: $117182.97 (exp: $7.18) - -1631874.8% accuracy
+
+Fund_3:
+  Current Rate: $115.92 (exp: $9.55) - -1013.9% accuracy
+
+
+ESCALATION VALIDATION:
+----------------------------------------
+Fund_2:
+  Escalation: 2.17% (exp: 3.89%) - 55.8% accuracy
+
+Fund_3:
+  Escalation: 2.78% (exp: 3.45%) - 80.5% accuracy
+
+
+RENEWAL RATES VALIDATION:
+----------------------------------------
+Fund_2:
+  Renewal Rate: 75.0% (target: ~60%) - 85.0% accuracy
+
+Fund_3:
+  Renewal Rate: 77.8% (target: ~60%) - 82.2% accuracy
+
+
+PERFORMANCE VALIDATION:
+----------------------------------------
+Average Execution Time: 0.000 seconds
+All Measures < 3s: ✓ PASS
+
+RECOMMENDATIONS:
+----------------------------------------
+⚠ Measures below 95% accuracy - review calculation logic
+✓ Data quality excellent (97.9% expected)
+✓ Performance meets targets (<3 seconds)
+
+================================================================================

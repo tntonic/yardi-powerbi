@@ -1,0 +1,118 @@
+================================================================================
+LEASING ACTIVITY CSV VALIDATION REPORT
+================================================================================
+Validation Date: 2025-08-09 22:51:35
+CSV File: fund2_fund3_occ_absorption_spreads_downtime_detailed.csv
+CSV Rows: 4
+
+OVERALL VALIDATION RESULTS:
+----------------------------------------
+Overall Accuracy: 59.0%
+Meets 95% Target: ✗ FAIL
+Metrics Tested: 61
+Metrics ≥95%: 17
+Metrics ≥90%: 22
+Min/Max Accuracy: 0.0% / 100.0%
+
+OCCUPANCY METRICS:
+----------------------------------------
+
+Fund 2_Q1 2025:
+  contract_occupancy: 90.0 (exp: 90.1) - 99.9% accuracy
+  adjusted_occupancy: 87.5 (exp: 88.3) - 99.1% accuracy
+  economic_occupancy: 85.5 (exp: 83.6) - 97.7% accuracy
+  vacant_suites: 30.0 (exp: 31.0) - 96.8% accuracy
+  vacancy_sf: 200,000 (exp: 2,600,000) - 7.7% accuracy
+  lease_up_sf: 120,000 (exp: 1,300,000) - 9.2% accuracy
+
+Fund 2_Q2 2025:
+  contract_occupancy: 90.0 (exp: 89.1) - 99.0% accuracy
+  adjusted_occupancy: 87.5 (exp: 88.1) - 99.3% accuracy
+  economic_occupancy: 85.5 (exp: 80.9) - 94.3% accuracy
+  vacant_suites: 30.0 (exp: 32.0) - 93.8% accuracy
+  vacancy_sf: 200,000 (exp: 2,400,000) - 8.3% accuracy
+  lease_up_sf: 120,000 (exp: 1,200,000) - 10.0% accuracy
+
+Fund 3_Q1 2025:
+  contract_occupancy: 90.0 (exp: 93.4) - 96.4% accuracy
+  economic_occupancy: 85.5 (exp: 88.0) - 97.1% accuracy
+  vacant_suites: 25.0 (exp: 22.0) - 86.4% accuracy
+  vacancy_sf: 150,000 (exp: 1,400,000) - 10.7% accuracy
+  lease_up_sf: 90,000 (exp: 1,000,000) - 9.0% accuracy
+
+Fund 3_Q2 2025:
+  contract_occupancy: 90.0 (exp: 93.0) - 96.8% accuracy
+  adjusted_occupancy: 86.7 (exp: 92.9) - 93.3% accuracy
+  economic_occupancy: 85.5 (exp: 85.6) - 99.9% accuracy
+  vacant_suites: 25.0 (exp: 30.0) - 83.3% accuracy
+  vacancy_sf: 150,000 (exp: 1,600,000) - 9.4% accuracy
+  lease_up_sf: 90,000 (exp: 1,100,000) - 8.2% accuracy
+
+ABSORPTION METRICS:
+----------------------------------------
+
+Fund 2_Q1 2025:
+  gross_absorption_sf: 200,000 (exp: 198,000) - 99.0% accuracy
+  move_outs_sf: 100,000 (exp: 712,000) - 14.0% accuracy
+  net_absorption_sf: 100,000 (exp: -514,000) - 0.0% accuracy
+  largest_move_out: 50000.0 (exp: 457000.0) - 10.9% accuracy
+  largest_move_in: 60000.0 (exp: 95000.0) - 63.2% accuracy
+
+Fund 2_Q2 2025:
+  gross_absorption_sf: 200,000 (exp: 258,000) - 77.5% accuracy
+  move_outs_sf: 100,000 (exp: 458,000) - 21.8% accuracy
+  net_absorption_sf: 100,000 (exp: -200,000) - 0.0% accuracy
+  largest_move_out: 50000.0 (exp: 202000.0) - 24.8% accuracy
+  largest_move_in: 60000.0 (exp: 127000.0) - 47.2% accuracy
+
+Fund 3_Q1 2025:
+  gross_absorption_sf: 150,000 (exp: 365,000) - 41.1% accuracy
+  move_outs_sf: 80,000 (exp: 111,000) - 72.1% accuracy
+  net_absorption_sf: 70,000 (exp: 254,000) - 27.6% accuracy
+  largest_move_out: 40000.0 (exp: 33000.0) - 78.8% accuracy
+  largest_move_in: 50000.0 (exp: 126000.0) - 39.7% accuracy
+
+Fund 3_Q2 2025:
+  gross_absorption_sf: 150,000 (exp: 112,000) - 66.1% accuracy
+  move_outs_sf: 80,000 (exp: 250,600) - 31.9% accuracy
+  net_absorption_sf: 70,000 (exp: -138,600) - 0.0% accuracy
+  largest_move_out: 40000.0 (exp: 135000.0) - 29.6% accuracy
+  largest_move_in: 50000.0 (exp: 64000.0) - 78.1% accuracy
+
+SPREAD & RATE METRICS:
+----------------------------------------
+
+Fund 2_Q1 2025:
+  leasing_spread: 30.0% (exp: 11.0%) - 0.0% accuracy
+  escalation_rate: 3.7% (exp: 3.7%) - 99.2% accuracy
+  renewal_rate_quarter: 50.0% (exp: 72.0%) - 69.4% accuracy
+  renewal_rate_ltm: 60.0% (exp: 66.0%) - 90.9% accuracy
+  downtime_months: 8.0 (exp: 8.4) - 95.2% accuracy
+
+Fund 2_Q2 2025:
+  leasing_spread: 30.0% (exp: 42.0%) - 71.4% accuracy
+  escalation_rate: 3.7% (exp: 3.9%) - 94.1% accuracy
+  renewal_rate_quarter: 50.0% (exp: 17.0%) - 0.0% accuracy
+  renewal_rate_ltm: 60.0% (exp: 68.0%) - 88.2% accuracy
+  downtime_months: 8.0 (exp: 8.0) - 100.0% accuracy
+
+Fund 3_Q1 2025:
+  leasing_spread: 45.0% (exp: 67.0%) - 67.2% accuracy
+  escalation_rate: 3.5% (exp: 3.5%) - 99.7% accuracy
+  renewal_rate_quarter: 60.0% (exp: 42.0%) - 57.1% accuracy
+  renewal_rate_ltm: 57.0% (exp: 57.0%) - 100.0% accuracy
+
+Fund 3_Q2 2025:
+  leasing_spread: 45.0% (exp: 23.0%) - 4.3% accuracy
+  escalation_rate: 3.5% (exp: 5.7%) - 61.8% accuracy
+  renewal_rate_quarter: 60.0% (exp: 83.0%) - 72.3% accuracy
+  renewal_rate_ltm: 57.0% (exp: 57.0%) - 100.0% accuracy
+
+RECOMMENDATIONS:
+----------------------------------------
+✗ DAX measures below target (<90%)
+✗ Significant fixes required
+⚠ Less than 80% of metrics meet 95% accuracy
+⚠ Review individual metric calculations
+
+================================================================================

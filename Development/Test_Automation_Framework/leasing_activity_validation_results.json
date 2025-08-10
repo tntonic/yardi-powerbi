@@ -1,0 +1,170 @@
+{
+  "timestamp": "2025-08-09T20:57:26.654273",
+  "data_quality_score": 99.77570093457943,
+  "total_records": 2675,
+  "q4_2024_executed_deals": 63,
+  "deal_counts": {
+    "Fund_2": {
+      "new_leases_actual": 0,
+      "new_leases_expected": 4,
+      "new_leases_variance": -4,
+      "renewals_actual": 6,
+      "renewals_expected": 4,
+      "renewals_variance": 2,
+      "total_deals_actual": 8,
+      "total_deals_expected": 8,
+      "total_deals_variance": 0,
+      "expansions_actual": 0,
+      "accuracy_new_leases": 0.0,
+      "accuracy_renewals": 50.0,
+      "accuracy_total": 100.0
+    },
+    "Fund_3": {
+      "new_leases_actual": 0,
+      "new_leases_expected": 3,
+      "new_leases_variance": -3,
+      "renewals_actual": 7,
+      "renewals_expected": 6,
+      "renewals_variance": 1,
+      "total_deals_actual": 9,
+      "total_deals_expected": 9,
+      "total_deals_variance": 0,
+      "expansions_actual": 0,
+      "accuracy_new_leases": 0.0,
+      "accuracy_renewals": 83.33333333333334,
+      "accuracy_total": 100.0
+    }
+  },
+  "square_footage": {
+    "Fund_2": {
+      "total_sf_actual": 458059.0,
+      "total_sf_expected": 286978,
+      "variance": 171081.0,
+      "accuracy": 40.385325704409404,
+      "new_lease_sf": 0.0,
+      "renewal_sf": 273132.0,
+      "average_deal_size": 57257.375
+    },
+    "Fund_3": {
+      "total_sf_actual": 184725.0,
+      "total_sf_expected": 194272,
+      "variance": -9547.0,
+      "accuracy": 95.08575605336847,
+      "new_lease_sf": 0.0,
+      "renewal_sf": 133886.0,
+      "average_deal_size": 20525.0
+    }
+  },
+  "weighted_rates": {
+    "Fund_2": {
+      "current_rate_actual": 117182.9694837521,
+      "current_rate_expected": 7.18,
+      "current_rate_variance": 117175.7894837521,
+      "current_rate_accuracy": -1631874.7838962688,
+      "bp_rate_actual": 5.54,
+      "bp_rate_expected": 5.54,
+      "total_area": 458059.0,
+      "deals_with_valid_data": 8
+    },
+    "Fund_3": {
+      "current_rate_actual": 115.9240398863175,
+      "current_rate_expected": 9.55,
+      "current_rate_variance": 106.3740398863175,
+      "current_rate_accuracy": -1013.8642920033245,
+      "bp_rate_actual": 9.19,
+      "bp_rate_expected": 9.19,
+      "total_area": 184725.0,
+      "deals_with_valid_data": 9
+    }
+  },
+  "escalations": {
+    "Fund_2": {
+      "escalation_actual": 2.171032552575105,
+      "escalation_expected": 3.89,
+      "variance": -1.718967447424895,
+      "accuracy": 55.81060546465566,
+      "deals_with_escalation": 8,
+      "min_escalation": 0.0,
+      "max_escalation": 4.0
+    },
+    "Fund_3": {
+      "escalation_actual": 2.775547435376912,
+      "escalation_expected": 3.45,
+      "variance": -0.6744525646230883,
+      "accuracy": 80.45065030078004,
+      "deals_with_escalation": 9,
+      "min_escalation": 0.0,
+      "max_escalation": 3.75
+    }
+  },
+  "renewal_rates": {
+    "Fund_2": {
+      "renewal_rate_actual": 75.0,
+      "renewal_rate_target": 60.0,
+      "renewals_count": 6,
+      "total_deals": 8,
+      "accuracy": 85.0,
+      "within_target_range": false
+    },
+    "Fund_3": {
+      "renewal_rate_actual": 77.77777777777779,
+      "renewal_rate_target": 60.0,
+      "renewals_count": 7,
+      "total_deals": 9,
+      "accuracy": 82.22222222222221,
+      "within_target_range": false
+    }
+  },
+  "performance": {
+    "Total Leasing Deals": {
+      "execution_time_seconds": 1e-06,
+      "within_target": true,
+      "result": 100.0
+    },
+    "New Leases Executed Count": {
+      "execution_time_seconds": 1e-06,
+      "within_target": true,
+      "result": 63
+    },
+    "Renewals Executed Count": {
+      "execution_time_seconds": 1e-06,
+      "within_target": true,
+      "result": 63
+    },
+    "Weighted Average Starting Rent PSF": {
+      "execution_time_seconds": 2.4e-05,
+      "within_target": true,
+      "result": 1134.478607936508
+    },
+    "Weighted Average Escalation Rate %": {
+      "execution_time_seconds": 1.7e-05,
+      "within_target": true,
+      "result": 3.4228571428571426
+    },
+    "Overall Deal Conversion Rate %": {
+      "execution_time_seconds": 0.0,
+      "within_target": true,
+      "result": 100.0
+    },
+    "average_execution_time": 7.333333333333333e-06,
+    "all_within_target": true
+  },
+  "overall_accuracy": {
+    "overall_accuracy": 79.86931996817947,
+    "individual_scores": [
+      100.0,
+      40.385325704409404,
+      -1631874.7838962688,
+      55.81060546465566,
+      85.0,
+      100.0,
+      95.08575605336847,
+      -1013.8642920033245,
+      80.45065030078004,
+      82.22222222222221
+    ],
+    "meets_target_95_percent": "False",
+    "performance_within_target": true,
+    "data_quality_acceptable": true
+  }
+}

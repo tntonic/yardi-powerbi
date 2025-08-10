@@ -1,0 +1,509 @@
+// =====================================================
+// CREDIT RISK & TENANT ANALYSIS DAX MEASURES - VERSION 5.0
+// PowerBI Dashboard Documentation - Comprehensive Credit Risk Analytics
+// Based on dim_fp_customercreditscorecustomdata + dim_fp_customertoparentmap tables
+// Production Date: 2025-08-10
+// Total Measures: 30
+// 
+// CONTENTS:
+// - Core credit score measures
+// - Credit risk categorization
+// - Enhanced tenant risk analysis
+// - Parent company analysis
+// - Credit score trends and analysis
+// - Advanced risk metrics
+// - Dashboard KPIs and health scores
+// =====================================================
+
+// =====================================================
+// CORE CREDIT SCORE MEASURES
+// =====================================================
+
+Average Tenant Credit Score = 
+// Average credit score across all tenants with scores
+VAR TenantCredits = 
+    SUMMARIZE(
+        FILTER(
+            ADDCOLUMNS(
+                dim_commcustomer,
+                "CreditScore", 
+                RELATED(dim_fp_customercreditscorecustomdata[credit score])
+            ),
+            NOT ISBLANK([CreditScore])
+        ),
+        dim_commcustomer[tenant id],
+        "Score", [CreditScore]
+    )
+RETURN
+    AVERAGEX(TenantCredits, [Score])
+
+Weighted Average Credit Score = 
+// Weighted average credit score by current monthly rent
+VAR TenantCreditRent = 
+    SUMMARIZE(
+        FILTER(
+            ADDCOLUMNS(
+                dim_commcustomer,
+                "CreditScore", RELATED(dim_fp_customercreditscorecustomdata[credit score]),
+                "MonthlyRent", [Current Monthly Rent]
+            ),
+            NOT ISBLANK([CreditScore]) && [MonthlyRent] > 0
+        ),
+        dim_commcustomer[tenant id],
+        "Score", [CreditScore],
+        "Rent", [MonthlyRent]
+    )
+RETURN
+    SUMX(TenantCreditRent, [Score] * [Rent]) / SUMX(TenantCreditRent, [Rent])
+
+Portfolio Credit Risk Score = 
+// Portfolio credit risk score (0-100 scale)
+VAR AvgScore = [Average Tenant Credit Score]
+RETURN
+    IF(
+        ISBLANK(AvgScore),
+        BLANK(),
+        ROUND(AvgScore * 10, 0)
+    )
+
+// =====================================================
+// CREDIT RISK CATEGORIZATION
+// =====================================================
+
+Tenant Credit Risk Category = 
+// Credit risk category for individual tenants
+VAR CreditScore = RELATED(dim_fp_customercreditscorecustomdata[credit score])
+RETURN
+    SWITCH(
+        TRUE(),
+        ISBLANK(CreditScore), "No Score",
+        CreditScore >= 8, "Low Risk (8-10)",
+        CreditScore >= 6, "Medium Risk (6-7.9)",
+        CreditScore >= 4, "High Risk (4-5.9)",
+        "Very High Risk (<4)"
+    )
+
+Credit Risk Distribution = 
+// Portfolio credit risk distribution summary
+VAR LowRisk = 
+    COUNTROWS(
+        FILTER(
+            dim_fp_customercreditscorecustomdata,
+            dim_fp_customercreditscorecustomdata[credit score] >= 8
+        )
+    )
+VAR MediumRisk = 
+    COUNTROWS(
+        FILTER(
+            dim_fp_customercreditscorecustomdata,
+            dim_fp_customercreditscorecustomdata[credit score] >= 6 
+            && dim_fp_customercreditscorecustomdata[credit score] < 8
+        )
+    )
+VAR HighRisk = 
+    COUNTROWS(
+        FILTER(
+            dim_fp_customercreditscorecustomdata,
+            dim_fp_customercreditscorecustomdata[credit score] >= 4 
+            && dim_fp_customercreditscorecustomdata[credit score] < 6
+        )
+    )
+VAR VeryHighRisk = 
+    COUNTROWS(
+        FILTER(
+            dim_fp_customercreditscorecustomdata,
+            dim_fp_customercreditscorecustomdata[credit score] < 4
+        )
+    )
+RETURN
+    "Low: " & LowRisk & " | Med: " & MediumRisk & " | High: " & HighRisk & " | Very High: " & VeryHighRisk
+
+Low Risk Tenant Count = 
+// Count of tenants in low risk category (8-10)
+COUNTROWS(
+    FILTER(
+        dim_fp_customercreditscorecustomdata,
+        dim_fp_customercreditscorecustomdata[credit score] >= 8
+    )
+)
+
+Medium Risk Tenant Count = 
+// Count of tenants in medium risk category (6-7.9)
+COUNTROWS(
+    FILTER(
+        dim_fp_customercreditscorecustomdata,
+        dim_fp_customercreditscorecustomdata[credit score] >= 6 
+        && dim_fp_customercreditscorecustomdata[credit score] < 8
+    )
+)
+
+High Risk Tenant Count = 
+// Count of tenants in high risk category (4-5.9)
+COUNTROWS(
+    FILTER(
+        dim_fp_customercreditscorecustomdata,
+        dim_fp_customercreditscorecustomdata[credit score] >= 4 
+        && dim_fp_customercreditscorecustomdata[credit score] < 6
+    )
+)
+
+Very High Risk Tenant Count = 
+// Count of tenants in very high risk category (<4)
+COUNTROWS(
+    FILTER(
+        dim_fp_customercreditscorecustomdata,
+        dim_fp_customercreditscorecustomdata[credit score] < 4
+    )
+)
+
+// =====================================================
+// ENHANCED TENANT RISK ANALYSIS
+// =====================================================
+
+Enhanced Tenant Risk Flag = 
+// Enhanced tenant risk flag (combines existing risk with credit score)
+VAR IsAtRisk = RELATED(dim_commcustomer[is at risk tenant])
+VAR CreditScore = RELATED(dim_fp_customercreditscorecustomdata[credit score])
+RETURN
+    SWITCH(
+        TRUE(),
+        IsAtRisk = 1, "At Risk (Yardi Flag)",
+        CreditScore < 4, "At Risk (Credit Score)",
+        CreditScore < 6, "Watch List",
+        "Stable"
+    )
+
+Count At-Risk Tenants Enhanced = 
+// Count of at-risk tenants (enhanced with credit scores)
+COUNTROWS(
+    FILTER(
+        dim_commcustomer,
+        dim_commcustomer[is at risk tenant] = 1
+        || RELATED(dim_fp_customercreditscorecustomdata[credit score]) < 4
+    )
+)
+
+Count Watch List Tenants = 
+// Count of tenants on watch list (credit score 4-6)
+COUNTROWS(
+    FILTER(
+        dim_fp_customercreditscorecustomdata,
+        dim_fp_customercreditscorecustomdata[credit score] >= 4
+        && dim_fp_customercreditscorecustomdata[credit score] < 6
+    )
+)
+
+Revenue at Risk = 
+// Revenue at risk from low credit score tenants
+SUMX(
+    FILTER(
+        ADDCOLUMNS(
+            dim_commcustomer,
+            "CreditScore", RELATED(dim_fp_customercreditscorecustomdata[credit score]),
+            "MonthlyRent", [Current Monthly Rent]
+        ),
+        [CreditScore] < 4 || dim_commcustomer[is at risk tenant] = 1
+    ),
+    [MonthlyRent]
+) * 12
+
+Revenue at Risk % = 
+// Revenue at risk percentage
+DIVIDE(
+    [Revenue at Risk],
+    [Total Revenue],
+    0
+) * 100
+
+Watch List Revenue = 
+// Revenue from tenants on watch list (credit score 4-6)
+SUMX(
+    FILTER(
+        ADDCOLUMNS(
+            dim_commcustomer,
+            "CreditScore", RELATED(dim_fp_customercreditscorecustomdata[credit score]),
+            "MonthlyRent", [Current Monthly Rent]
+        ),
+        [CreditScore] >= 4 && [CreditScore] < 6
+    ),
+    [MonthlyRent]
+) * 12
+
+Watch List Revenue % = 
+// Watch list revenue as percentage of total revenue
+DIVIDE(
+    [Watch List Revenue],
+    [Total Revenue],
+    0
+) * 100
+
+// =====================================================
+// PARENT COMPANY ANALYSIS
+// =====================================================
+
+Parent Company Credit Score = 
+// Parent company credit score (inherits from parent if available)
+VAR DirectScore = RELATED(dim_fp_customercreditscorecustomdata[credit score])
+VAR ParentCustomerID = RELATED(dim_fp_customertoparentmap[parent customer hmy])
+VAR ParentScore = 
+    IF(
+        NOT ISBLANK(ParentCustomerID),
+        CALCULATE(
+            AVERAGE(dim_fp_customercreditscorecustomdata[credit score]),
+            dim_fp_customercreditscorecustomdata[hmyperson_customer] = ParentCustomerID
+        ),
+        BLANK()
+    )
+RETURN
+    COALESCE(DirectScore, ParentScore)
+
+Count Tenants with Parent Company = 
+// Count of tenants with parent company mapping
+COUNTROWS(
+    FILTER(
+        dim_fp_customertoparentmap,
+        NOT ISBLANK(dim_fp_customertoparentmap[parent customer hmy])
+    )
+)
+
+Parent Company Analysis = 
+// Parent company portfolio analysis
+VAR TotalTenants = COUNTROWS(dim_commcustomer)
+VAR TenantsWithParents = [Count Tenants with Parent Company]
+VAR ParentCoverage = DIVIDE(TenantsWithParents, TotalTenants, 0) * 100
+RETURN
+    "Parent Coverage: " & FORMAT(ParentCoverage, "0.0%") & 
+    " (" & TenantsWithParents & " of " & TotalTenants & " tenants)"
+
+Corporate Structure Revenue = 
+// Revenue from tenants with corporate parent structures
+SUMX(
+    FILTER(
+        ADDCOLUMNS(
+            dim_commcustomer,
+            "HasParent", NOT ISBLANK(RELATED(dim_fp_customertoparentmap[parent customer hmy])),
+            "MonthlyRent", [Current Monthly Rent]
+        ),
+        [HasParent] = TRUE
+    ),
+    [MonthlyRent]
+) * 12
+
+Corporate Structure Revenue % = 
+// Corporate structure revenue as percentage of total
+DIVIDE(
+    [Corporate Structure Revenue],
+    [Total Revenue],
+    0
+) * 100
+
+// =====================================================
+// CREDIT SCORE TRENDS AND ANALYSIS
+// =====================================================
+
+Latest Credit Score Date = 
+// Latest credit score date in the portfolio
+MAX(dim_fp_customercreditscorecustomdata[date])
+
+Count Tenants with Credit Scores = 
+// Count of tenants with credit scores
+COUNTROWS(
+    FILTER(
+        dim_fp_customercreditscorecustomdata,
+        NOT ISBLANK(dim_fp_customercreditscorecustomdata[credit score])
+    )
+)
+
+Credit Score Coverage % = 
+// Credit score coverage percentage
+DIVIDE(
+    [Count Tenants with Credit Scores],
+    COUNTROWS(dim_commcustomer),
+    0
+) * 100
+
+Average Credit Score by Fund = 
+// Average credit score by fund
+CALCULATE(
+    [Average Tenant Credit Score],
+    ALLEXCEPT(dim_property, dim_property[property code])
+)
+
+Fund 2 Average Credit Score = 
+// Average credit score for Fund 2 tenants
+CALCULATE(
+    [Average Tenant Credit Score],
+    dim_property[Fund] = "Fund 2"
+)
+
+Fund 3 Average Credit Score = 
+// Average credit score for Fund 3 tenants
+CALCULATE(
+    [Average Tenant Credit Score],
+    dim_property[Fund] = "Fund 3"
+)
+
+// =====================================================
+// ADVANCED RISK METRICS
+// =====================================================
+
+Top 5 Tenant Credit Risk = 
+// Portfolio concentration risk (top 5 tenants by rent)
+VAR Top5Tenants = 
+    TOPN(
+        5,
+        ADDCOLUMNS(
+            dim_commcustomer,
+            "MonthlyRent", [Current Monthly Rent],
+            "CreditScore", RELATED(dim_fp_customercreditscorecustomdata[credit score])
+        ),
+        [MonthlyRent],
+        DESC
+    )
+RETURN
+    AVERAGEX(
+        FILTER(Top5Tenants, NOT ISBLANK([CreditScore])),
+        [CreditScore]
+    )
+
+Industry Risk Score = 
+// Industry risk concentration
+VAR IndustryAvg = 
+    CALCULATE(
+        AVERAGE(dim_fp_customercreditscorecustomdata[credit score]),
+        ALLEXCEPT(dim_fp_customercreditscorecustomdata, dim_fp_customercreditscorecustomdata[primary industry])
+    )
+RETURN
+    IF(ISBLANK(IndustryAvg), BLANK(), ROUND(IndustryAvg, 2))
+
+Credit Score Variance = 
+// Credit score variance (measure of portfolio risk concentration)
+VAR Scores = 
+    ADDCOLUMNS(
+        FILTER(
+            dim_fp_customercreditscorecustomdata,
+            NOT ISBLANK(dim_fp_customercreditscorecustomdata[credit score])
+        ),
+        "Score", dim_fp_customercreditscorecustomdata[credit score]
+    )
+VAR AvgScore = AVERAGEX(Scores, [Score])
+VAR Variance = 
+    AVERAGEX(
+        Scores,
+        POWER([Score] - AvgScore, 2)
+    )
+RETURN
+    SQRT(Variance)
+
+Portfolio Credit Concentration = 
+// Portfolio concentration in high-risk categories
+VAR HighRiskRevenue = [Revenue at Risk] + [Watch List Revenue]
+VAR TotalRevenue = [Total Revenue]
+VAR ConcentrationPct = DIVIDE(HighRiskRevenue, TotalRevenue, 0) * 100
+RETURN
+    SWITCH(
+        TRUE(),
+        ConcentrationPct > 25, "HIGH CONCENTRATION (" & FORMAT(ConcentrationPct, "0.0%") & ")",
+        ConcentrationPct > 15, "MODERATE CONCENTRATION (" & FORMAT(ConcentrationPct, "0.0%") & ")",
+        "LOW CONCENTRATION (" & FORMAT(ConcentrationPct, "0.0%") & ")"
+    )
+
+// =====================================================
+// DASHBOARD KPIS AND HEALTH SCORES
+// =====================================================
+
+Portfolio Health Score = 
+// Overall portfolio health score (0-100)
+VAR CreditScore = [Average Tenant Credit Score]
+VAR OccupancyRate = [Physical Occupancy %]
+VAR AtRiskPct = DIVIDE([Count At-Risk Tenants Enhanced], COUNTROWS(dim_commcustomer), 0)
+VAR CreditWeight = IF(ISBLANK(CreditScore), 0, (CreditScore / 10) * 40)
+VAR OccupancyWeight = IF(ISBLANK(OccupancyRate), 0, (OccupancyRate / 100) * 40)
+VAR RiskWeight = (1 - AtRiskPct) * 20
+RETURN
+    ROUND(CreditWeight + OccupancyWeight + RiskWeight, 0)
+
+Risk Alert Flag = 
+// Risk alert flag based on credit metrics
+VAR AvgCreditScore = [Average Tenant Credit Score]
+VAR RevenueAtRiskPct = [Revenue at Risk %]
+RETURN
+    SWITCH(
+        TRUE(),
+        AvgCreditScore < 5 || RevenueAtRiskPct > 15, "🔴 High Risk",
+        AvgCreditScore < 6.5 || RevenueAtRiskPct > 10, "🟡 Medium Risk",
+        "🟢 Low Risk"
+    )
+
+Credit Risk Summary = 
+// Executive summary of credit risk metrics
+VAR AvgScore = [Average Tenant Credit Score]
+VAR Coverage = [Credit Score Coverage %]
+VAR AtRisk = [Revenue at Risk %]
+RETURN
+    "Avg Score: " & FORMAT(AvgScore, "0.0") & 
+    " | Coverage: " & FORMAT(Coverage, "0%") & 
+    " | Revenue at Risk: " & FORMAT(AtRisk, "0.0%")
+
+Tenant Risk Alert = 
+// Tenant-level risk alert
+VAR CreditScore = RELATED(dim_fp_customercreditscorecustomdata[credit score])
+VAR YardiRisk = RELATED(dim_commcustomer[is at risk tenant])
+VAR MonthlyRent = [Current Monthly Rent]
+RETURN
+    SWITCH(
+        TRUE(),
+        YardiRisk = 1, "⚠️ YARDI FLAG",
+        CreditScore < 4, "🔴 CREDIT RISK",
+        CreditScore < 6 && MonthlyRent > 10000, "🟡 WATCH (HIGH RENT)",
+        CreditScore < 6, "🟡 WATCH LIST",
+        "✅ STABLE"
+    )
+
+Fund Risk Comparison = 
+// Risk comparison between funds
+VAR Fund2Score = [Fund 2 Average Credit Score]
+VAR Fund3Score = [Fund 3 Average Credit Score]
+VAR Fund2Risk = 
+    CALCULATE(
+        [Revenue at Risk %],
+        dim_property[Fund] = "Fund 2"
+    )
+VAR Fund3Risk = 
+    CALCULATE(
+        [Revenue at Risk %],
+        dim_property[Fund] = "Fund 3"
+    )
+RETURN
+    "Fund 2: " & FORMAT(Fund2Score, "0.0") & " score, " & FORMAT(Fund2Risk, "0.0%") & " at risk | " &
+    "Fund 3: " & FORMAT(Fund3Score, "0.0") & " score, " & FORMAT(Fund3Risk, "0.0%") & " at risk"
+
+Portfolio Credit Trends = 
+// Portfolio credit trends indicator
+VAR CurrentAvg = [Average Tenant Credit Score]
+VAR HistoricalAvg = 6.5  // Historical benchmark
+VAR Trend = 
+    SWITCH(
+        TRUE(),
+        CurrentAvg > HistoricalAvg + 0.5, "📈 IMPROVING",
+        CurrentAvg < HistoricalAvg - 0.5, "📉 DECLINING",
+        "➡️ STABLE"
+    )
+RETURN
+    Trend & " (Current: " & FORMAT(CurrentAvg, "0.0") & ", Benchmark: " & FORMAT(HistoricalAvg, "0.0") & ")"
+
+Credit Quality Index = 
+// Overall credit quality index (0-100)
+VAR ScoreComponent = (MIN([Average Tenant Credit Score], 10) / 10) * 50
+VAR CoverageComponent = ([Credit Score Coverage %] / 100) * 25
+VAR RiskComponent = (1 - MIN([Revenue at Risk %], 25) / 25) * 25
+RETURN
+    ROUND(ScoreComponent + CoverageComponent + RiskComponent, 0)
+
+// =====================================================
+// END OF CREDIT RISK & TENANT ANALYSIS MEASURES v5.0
+// Total Measures: 30
+// Status: PRODUCTION READY - Comprehensive credit risk analytics
+// Integration Status: Compatible with dim_fp_customercreditscorecustomdata + dim_fp_customertoparentmap
+// Features: Credit scoring, risk categorization, parent company analysis, portfolio health
+// =====================================================

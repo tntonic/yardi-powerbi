@@ -609,4 +609,192 @@ Access Controls:
 - Regular access reviews and certifications
 ```
 
+## Extended Yardi Tables (Added in v5.0)
+
+### 16. fact_leasingactivity
+**Purpose**: Pipeline and deal flow management for leasing activity tracking
+**Grain**: One row per leasing deal/prospect
+**Business Key**: Combination of Property + Tenant + Deal Stage
+
+| Column Name | Data Type | Description | Business Rules | Example Values |
+|-------------|-----------|-------------|----------------|----------------|
+| Property HMY | Integer | Property identifier | Foreign key to dim_property | 12345 |
+| Tenant HMY | Integer | Tenant/prospect identifier | Foreign key to dim_commcustomer | 54321 |
+| Tenant Code | Text | Tenant reference code | Alphanumeric code | "ABCC01" |
+| Deal Stage | Text | Current deal stage | Lead, Tour, Proposal, Negotiation, Executed, Dead Deal | "Proposal" |
+| Proposal Type | Text | Type of proposal | New Lease, Renewal, Expansion | "New Lease" |
+| Cash Flow Type | Text | Cash flow classification | Proposal, Prior Lease | "Proposal" |
+| dArea | Integer | Deal square footage | Must be > 0 | 5000 |
+| Starting Rent | Decimal | Monthly starting rent | Must be >= 0 | 12500.00 |
+| iTerm | Integer | Lease term in months | Must be > 0 | 60 |
+| Escalation Rate | Decimal | Annual escalation % | 0-10 typical range | 3.0 |
+| dtStartDate | Date | Deal start date | Valid date | 2025-01-01 |
+| dtcreated | Date | Deal creation date | Valid date | 2024-11-15 |
+| dTotalNPV | Decimal | Total Net Present Value | Can be negative | 850000.00 |
+| dNER | Decimal | Net Effective Rent | Monthly amount | 11800.00 |
+| dIRR | Decimal | Internal Rate of Return | Decimal percentage (0.08 = 8%) | 0.085 |
+
+**Key Relationships**:
+- dim_property ← fact_leasingactivity (Property HMY)
+- dim_commcustomer ← fact_leasingactivity (Tenant HMY)
+
+**Usage Notes**:
+- Used for pipeline forecasting and deal flow analysis
+- Separate from amendment-based measures (official financial reporting)
+- Updated as deals progress through stages
+- Dead deals retained for analysis
+
+### 17. dim_fp_customercreditscorecustomdata
+**Purpose**: Credit scores and comprehensive company information for risk analysis
+**Grain**: One row per customer credit record
+**Business Key**: hmyperson_customer
+
+| Column Name | Data Type | Description | Business Rules | Example Values |
+|-------------|-----------|-------------|----------------|----------------|
+| hmyperson_customer | Integer | Customer ID reference | Foreign key to dim_commcustomer.customer_id | 54321 |
+| customer name | Text | Company name | Not null | "ABC Corporation" |
+| credit score | Decimal | Numeric credit score | Typical range 0-10 | 7.5 |
+| date | Date | Credit score date | Valid date | 2024-12-01 |
+| company location | Text | Company address | Full address string | "123 Main St, Chicago, IL 60601" |
+| annual revenue | Decimal | Company annual revenue | In dollars | 25000000.00 |
+| primary industry | Text | Industry classification | NAICS-based | "Professional Services" |
+| ownership | Text | Ownership structure | Private, Public, PE-backed | "Private" |
+
+**Key Relationships**:
+- dim_commcustomer → dim_fp_customercreditscorecustomdata (customer_id = hmyperson_customer)
+
+**Credit Score Scale**:
+```
+8.0-10.0: Low Risk - Strong creditworthiness
+6.0-7.9:  Medium Risk - Moderate creditworthiness  
+4.0-5.9:  High Risk - Elevated risk profile
+0.0-3.9:  Very High Risk - Significant credit concerns
+```
+
+**Usage Notes**:
+- 191 tenant records with credit scores
+- Used for portfolio credit risk analysis
+- Updated periodically with credit bureau data
+- Combined with Yardi risk flags for enhanced analysis
+
+### 18. dim_fp_customertoparentmap
+**Purpose**: Maps customer entities to parent companies for corporate structure analysis
+**Grain**: One row per customer-to-parent relationship
+**Business Key**: customer hmy
+
+| Column Name | Data Type | Description | Business Rules | Example Values |
+|-------------|-----------|-------------|----------------|----------------|
+| customer hmy | Integer | Child customer ID | Foreign key to customer | 54321 |
+| parent customer hmy | Integer | Parent customer ID | Foreign key to customer | 54300 |
+| customer code | Text | Customer reference code | Alphanumeric | "ABCC01" |
+| customer name | Text | Customer/entity name | Display name | "ABC Corporation - Chicago" |
+
+**Key Relationships**:
+- dim_fp_customercreditscorecustomdata ← dim_fp_customertoparentmap (customer hmy)
+- dim_fp_customercreditscorecustomdata ← dim_fp_customertoparentmap (parent customer hmy)
+
+**Usage Notes**:
+- 1000 customer mapping records
+- Enables parent company credit score inheritance
+- Used for corporate structure risk analysis
+- Supports consolidated tenant reporting
+
+### 19. fact_fp_fmvm_marketunitrates
+**Purpose**: Fair Market Value Model - Market unit rates for benchmarking
+**Grain**: One row per unit per valuation period
+**Business Key**: unit hmy + valuation_date
+
+| Column Name | Data Type | Description | Business Rules | Example Values |
+|-------------|-----------|-------------|----------------|----------------|
+| unit hmy | Integer | Unit identifier | Foreign key to dim_unit | 98765 |
+| property hmy | Integer | Property identifier | Foreign key to dim_property | 12345 |
+| valuation_date | Date | Market rate date | Valid date | 2024-12-31 |
+| market_rent_psf | Decimal | Market rent per SF (annual) | Must be > 0 | 32.50 |
+| market_rent_monthly | Decimal | Total monthly market rent | Must be > 0 | 13541.67 |
+| confidence_level | Text | Rate confidence | High, Medium, Low | "High" |
+| source | Text | Data source | Comparable, Survey, Model | "Comparable" |
+| last_updated | Date | Update timestamp | Valid date | 2025-01-15 |
+
+**Key Relationships**:
+- dim_unit ← fact_fp_fmvm_marketunitrates (unit hmy)
+- dim_property ← fact_fp_fmvm_marketunitrates (property hmy)
+
+**Usage Notes**:
+- Used for market rate benchmarking
+- Supports lease spread analysis over market rates
+- Updated quarterly or as market conditions change
+- Confidence levels indicate data reliability
+
+### 20. dim_fp_terminationtomoveoutreas
+**Purpose**: Lease termination details with move-out reasons for net absorption analysis
+**Grain**: One row per lease termination
+**Business Key**: amendment hmy + termination sequence
+
+| Column Name | Data Type | Description | Business Rules | Example Values |
+|-------------|-----------|-------------|----------------|----------------|
+| amendment hmy | Integer | Amendment identifier | Foreign key to amendments | 789123 |
+| property hmy | Integer | Property identifier | Foreign key to dim_property | 12345 |
+| property code | Text | Property code | Matches dim_property | "DOP01" |
+| tenant hmy | Integer | Tenant identifier | Foreign key to dim_commcustomer | 54321 |
+| amendment sequence | Integer | Amendment sequence number | 0 = original, 1+ = amendments | 1 |
+| amendment type | Text | Amendment type | Always "Termination" for this table | "Termination" |
+| amendment status | Text | Termination status | Activated, Superseded | "Activated" |
+| amendment end date | Date | Lease termination date | Valid date | 2024-12-31 |
+| amendment sf | Integer | Terminated square footage | Must be > 0 | 5000 |
+| move out reason | Text | Reason for termination | Business reasons | "Lease Expiration" |
+| notice date | Date | Termination notice date | Valid date | 2024-10-31 |
+| actual move out | Date | Actual vacate date | Valid date | 2024-12-31 |
+
+**Key Relationships**:
+- dim_fp_amendmentsunitspropertytenant ← dim_fp_terminationtomoveoutreas (amendment hmy)
+- dim_property ← dim_fp_terminationtomoveoutreas (property hmy)
+- dim_commcustomer ← dim_fp_terminationtomoveoutreas (tenant hmy)
+
+**Move-Out Reason Categories**:
+```
+Natural Expiration: Lease term ended normally
+Early Termination: Tenant exercised early termination
+Expansion: Tenant moved to larger space in same property
+Relocation: Tenant moved to different property
+Business Closure: Tenant went out of business
+Default: Lease terminated due to tenant default
+```
+
+**Usage Notes**:
+- Critical for same-store net absorption calculations (FPR methodology)
+- Must include both "Activated" AND "Superseded" status for complete data
+- Uses latest amendment sequence logic to prevent double-counting
+- Links to amendment table for comprehensive lease lifecycle tracking
+
+## Table Relationships Summary (Updated for v5.0)
+
+### Core Entity Relationships
+```
+dim_property (1) → (M) dim_unit → (M) dim_fp_amendmentsunitspropertytenant
+dim_commcustomer (1) → (M) dim_fp_amendmentsunitspropertytenant
+dim_fp_amendmentsunitspropertytenant (1) → (M) dim_fp_amendmentchargeschedule
+dim_fp_amendmentsunitspropertytenant (1) → (M) dim_fp_terminationtomoveoutreas
+```
+
+### Financial Data Flow
+```
+dim_property (1) → (M) fact_total ← (M) dim_account
+fact_total ← (M) dim_book
+dim_property (1) → (M) fact_occupancyrentarea
+```
+
+### Leasing Pipeline & Credit Analysis
+```
+dim_property (1) → (M) fact_leasingactivity ← (M) dim_commcustomer
+dim_commcustomer (1) → (1) dim_fp_customercreditscorecustomdata
+dim_fp_customertoparentmap (M) → (1) dim_fp_customercreditscorecustomdata (parent)
+dim_unit (1) → (M) fact_fp_fmvm_marketunitrates ← (M) dim_property
+```
+
+### Calendar Relationships (Bi-directional)
+```
+dim_date ↔ fact_total (month)
+dim_date ↔ fact_occupancyrentarea (first day of month)
+```
+
 This comprehensive data dictionary serves as the authoritative reference for all data elements in the Yardi BI Power BI solution, ensuring consistent understanding and proper usage of data across all development and analysis activities.

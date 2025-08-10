@@ -34,16 +34,21 @@ This is a curated reference library designed specifically for teams building Pow
 ## 📁 Library Structure
 
 ### DAX_Measures/
-- **Complete_DAX_Library_v4_Production.dax** - All 125 production measures (v4.1)
-- **Top_20_Essential_Measures.dax** - Most commonly used measures
+- **01_Core_Financial_Rent_Roll_Measures_v5.0.dax** - 42 core financial and rent roll measures
+- **02_Leasing_Activity_Pipeline_Measures_v5.0.dax** - 85 leasing activity and pipeline measures
+- **03_Credit_Risk_Tenant_Analysis_Measures_v5.0.dax** - 30 credit risk and tenant analysis measures  
+- **04_Net_Absorption_Fund_Analysis_Measures_v5.0.dax** - 35 net absorption and fund-specific measures
+- **05_Performance_Validation_Measures_v5.0.dax** - 25 performance monitoring and validation measures
+- **Top_20_Essential_Measures.dax** - Most commonly used measures (quick reference)
 - **Validation_Measures.dax** - Testing and validation measures
 
 ### Documentation/
 - **01_Quick_Start_Guide.md** - Implementation timeline and checklist
 - **02_Data_Model_Guide.md** - 32-table architecture details
-- **03_Data_Dictionary.md** - Column definitions and data types
+- **03_Data_Dictionary.md** - Column definitions and data types (updated with v5.0 tables)
 - **04_Implementation_Guide.md** - Step-by-step implementation
-- **05_Common_Issues_Solutions.md** - Troubleshooting guide
+- **05_Business_Logic_Reference.md** - Comprehensive business logic for all calculations
+- **06_Common_Issues_Solutions.md** - Troubleshooting guide
 
 ### Dashboard_Templates/
 - **Executive_Summary_Dashboard.md** - C-suite level KPIs
@@ -53,9 +58,9 @@ This is a curated reference library designed specifically for teams building Pow
 
 ### Reference_Guides/
 - **Account_Mapping_Reference.md** - GL account structure (4xxxx, 5xxxx)
-- **Business_Logic_Reference.md** - Core business rules
 - **Calculation_Patterns.md** - Common DAX patterns
 - **Column_Name_Mapping.md** - PowerBI to Yardi field mapping
+- **Granularity_Best_Practices.md** - Data granularity guidelines
 - **Table_Relationships.md** - Data model relationships
 
 ### Validation_Framework/
@@ -130,7 +135,7 @@ When properly implemented, this solution delivers:
 ## 📈 Success Metrics
 
 Your implementation is successful when:
-- ✅ All 122 DAX measures execute without errors
+- ✅ All 217+ DAX measures execute without errors
 - ✅ Rent roll accuracy: 95-99% vs Yardi reports
 - ✅ Dashboard performance: <10 second load times
 - ✅ Users can self-serve analytics without IT support
@@ -138,8 +143,8 @@ Your implementation is successful when:
 
 ---
 
-**Version**: 4.1 Production Ready (YSQL Enhanced)
-**Last Updated**: 2025-08-09
-**Validated Against**: Yardi Voyager 7S with YSQL integration
+**Version**: 5.0 Production Ready (Comprehensive Analytics)
+**Last Updated**: 2025-08-10  
+**Validated Against**: Yardi Voyager 7S with enhanced data integration
 **Power BI Version**: Latest (2024.x or newer recommended)
-**New in v4.1**: Month-to-month lease indicators, property status filtering, YSQL validation
+**New in v5.0**: Net absorption (FPR methodology), leasing spreads analysis, credit risk scoring, downtime tracking, comprehensive pipeline analytics, fund-specific enhanced filtering

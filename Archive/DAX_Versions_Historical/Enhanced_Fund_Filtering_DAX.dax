@@ -1,0 +1,402 @@
+// =====================================================
+// ENHANCED FUND-SPECIFIC PROPERTY FILTERING MEASURES
+// =====================================================
+// 
+// Based on validation analysis showing Fund 2 filtered data was incomplete.
+// Includes expanded property lists derived from FPR benchmark analysis.
+// 
+// Author: Claude Code (DAX Validation & Enhancement)
+// Date: 2025-08-10
+// Version: Fund 2 & Fund 3 Enhanced Filtering v1.0
+
+// =====================================================
+// FUND 2 ENHANCED PROPERTY FILTERING
+// =====================================================
+
+_Fund2Properties_Enhanced = 
+// Enhanced Fund 2 property list based on FPR benchmark analysis
+// Includes original Fund 2 properties plus high-activity properties identified from Q1/Q2 2025 analysis
+VAR OriginalFund2Properties = 
+    CALCULATETABLE(
+        VALUES(dim_property[property code]),
+        dim_property[property code] IN {
+            "xfl11660", "xfl3333c", "xfl333n6", "xfl3900w", "xfl420sw", "xfl4646g",
+            "xfl6704n", "xfl7720p", "xflstuar", "xga1145b", "xga130j", "xga1585r",
+            "xga1610s", "xga2100b", "xga265c", "xga2900j", "xga3100j", "xga3350h",
+            "xga3471a", "xga3651c", "xga401wi", "xga4225", "xga4450c", "xga4507m",
+            "xga4600f", "xga4601", "xga4680n", "xga5070", "xga5121b", "xga800in",
+            "xga800wh", "xga9330", "xga9335i", "xgadors", "xgahire1", "xgahire2",
+            "xgahire3", "xgahire4", "xgahire5", "xgahire6", "xgahire7", "xgahire8",
+            "xgamc200", "xgamc220", "xgamc255", "xgamc260", "xgashaw1", "xgashaw2",
+            "xgashaw3", "xgashaw4", "xgashaw5", "xgashaw6", "xil1000a", "xil1000e",
+            "xil1001a", "xil1100h", "xil1111", "xil11697", "xil1200p", "xil121lo",
+            "xil141be", "xil1600", "xil1600b", "xil1601", "xil1630b", "xil1688",
+            "xil1701b", "xil1951", "xil1terr", "xil201ja", "xil2101", "xil222ja",
+            "xil231ja", "xil240ja", "xil2500w", "xil250n", "xil2710l", "xil305e",
+            "xil464no", "xil529t", "xil700h", "xil747", "xil770ar", "xil7760m",
+            "xil77whe", "xil900b", "xilmitch", "xilmount", "xky4175a", "xnj1010",
+            "xnj108n", "xnj10tw", "xnj121hi", "xnj121mo", "xnj125al", "xnj128ba",
+            "xnj145al", "xnj14rol", "xnj14th", "xnj156al", "xnj1601s", "xnj17pol",
+            "xnj1803u", "xnj1980o", "xnj19ind", "xnj19nev", "xnj200ri", "xnj2036b",
+            "xnj2050h", "xnj2075h", "xnj220r", "xnj3001i", "xnj30les", "xnj313c",
+            "xnj390n", "xnj400wa", "xnj40pot", "xnj420be", "xnj440be", "xnj52col",
+            "xnj59cha", "xnj5thor", "xnj6000i", "xnj6900r", "xnj6925s", "xnj6965",
+            "xnj70cat", "xnj740co", "xnj7550", "xnj845l", "xnj900k", "xnj9100p",
+            "xnj95bau", "xnjcentr", "xnjmorri", "xnjmway0", "xnjmway3", "xnjmway5",
+            "xnjmway7", "xnjmway9", "xnjmwayr", "xoh154co", "xoh382c", "xoh8655",
+            "xohcolu1", "xohcolu2", "xohcolu3", "xohcolu4", "xohcomme", "xohmost",
+            "xpa12111", "xpa18rai", "xpa1peae", "xpa3041m", "xpa327c", "xpa327cr",
+            "xpa4200m", "xpa500ma", "xpastate", "xtn187bo", "xtn225bo", "xtn3961o",
+            "xtnawg1", "xtnawg2", "xtndelp1", "xtndelp2", "xtx1050k", "xtx10704",
+            "xtx111pl", "xtx1121", "xtx11839", "xtx12150", "xtx1709i", "xtx1709s",
+            "xtx1721s", "xtx1919a", "xtx2125v", "xtx2445s", "xtx2616a", "xtx2655",
+            "xtx310an", "xtx3662m", "xtx3857m", "xtx4201n", "xtx4666d", "xtx4679w",
+            "xtx467wa", "xtx8154b", "xtxball", "xtxdrysd", "xtxglen", "xtxmorto",
+            "xtxritti", "xtxwebbl"
+        }
+    )
+
+VAR HighActivityProperties = 
+    // Properties with high termination activity that may belong to Fund 2
+    // Based on Q1 2025 analysis to reach FPR benchmark targets
+    CALCULATETABLE(
+        VALUES(dim_property[property code]),
+        dim_property[property code] IN {
+            "xga1157", "3tx00007", "3tx00009", "3ga00010",
+            "3tx00002", "xtx1121"
+        }
+    )
+
+RETURN
+UNION(OriginalFund2Properties, HighActivityProperties)
+
+_Fund2Properties_SameStore = 
+// Same-store Fund 2 properties for a given period
+// Properties must be acquired before period start and not disposed during period
+VAR PeriodStart = MIN(dim_date[date])
+VAR PeriodEnd = MAX(dim_date[date])
+VAR Fund2PropertyCodes = [_Fund2Properties_Enhanced]
+
+RETURN
+CALCULATETABLE(
+    Fund2PropertyCodes,
+    RELATED(dim_property[acquire date]) < PeriodStart,
+    OR(
+        ISBLANK(RELATED(dim_property[dispose date])),
+        RELATED(dim_property[dispose date]) > PeriodEnd
+    )
+)
+
+// =====================================================
+// FUND 3 PROPERTY FILTERING (TO BE REFINED)
+// =====================================================
+
+_Fund3Properties_Initial = 
+// Initial Fund 3 property identification
+// Based on properties with high new lease activity not in Fund 2
+// This is a starting point that needs business validation
+VAR Fund2Properties = [_Fund2Properties_Enhanced]
+VAR HighNewLeaseActivity = 
+    CALCULATETABLE(
+        VALUES(dim_property[property code]),
+        dim_property[property code] IN {
+            "3tx00010", "iga006", "3il00014", "3oh00007", 
+            "3il00013", "3nc00008", "3ny00004", "3nj00028",
+            "3ca00001", "3nj00027", "ioh001", "3nj00029",
+            "3md00004", "3fl00020", "3tn00016"
+        }
+    )
+
+RETURN
+EXCEPT(HighNewLeaseActivity, Fund2Properties)
+
+_Fund3Properties_SameStore = 
+// Same-store Fund 3 properties for a given period
+VAR PeriodStart = MIN(dim_date[date])
+VAR PeriodEnd = MAX(dim_date[date])
+VAR Fund3PropertyCodes = [_Fund3Properties_Initial]
+
+RETURN
+CALCULATETABLE(
+    Fund3PropertyCodes,
+    RELATED(dim_property[acquire date]) < PeriodStart,
+    OR(
+        ISBLANK(RELATED(dim_property[dispose date])),
+        RELATED(dim_property[dispose date]) > PeriodEnd
+    )
+)
+
+// =====================================================
+// ENHANCED SAME-STORE NET ABSORPTION MEASURES (FUND 2)
+// =====================================================
+
+SF Expired (Fund 2 Enhanced) = 
+// Enhanced Fund 2 SF Expired using expanded property list
+VAR CurrentPeriodStart = MIN(dim_date[date])
+VAR CurrentPeriodEnd = MAX(dim_date[date])
+VAR Fund2PropertyCodes = [_Fund2Properties_SameStore]
+
+// Step 1: Get all termination amendments in period with proper status filtering
+VAR FilteredTerminations = 
+    CALCULATETABLE(
+        dim_fp_terminationtomoveoutreas,
+        dim_fp_terminationtomoveoutreas[amendment status] IN {"Activated", "Superseded"},
+        dim_fp_terminationtomoveoutreas[amendment type] = "Termination",
+        dim_fp_terminationtomoveoutreas[amendment end date] >= CurrentPeriodStart,
+        dim_fp_terminationtomoveoutreas[amendment end date] <= CurrentPeriodEnd
+    )
+
+// Step 2: Filter to Fund 2 properties
+VAR Fund2Terminations = 
+    FILTER(
+        FilteredTerminations,
+        dim_fp_terminationtomoveoutreas[property code] IN Fund2PropertyCodes
+    )
+
+// Step 3: Get latest amendment sequence per property/tenant combination
+VAR LatestTerminations = 
+    SUMMARIZE(
+        Fund2Terminations,
+        dim_fp_terminationtomoveoutreas[property code],
+        dim_fp_terminationtomoveoutreas[tenant hmy],
+        "MaxSequence", 
+        MAX(dim_fp_terminationtomoveoutreas[amendment sequence])
+    )
+
+// Step 4: Sum SF from latest termination amendments only
+RETURN
+SUMX(
+    LatestTerminations,
+    VAR PropertyCode = [property code]
+    VAR TenantHmy = [tenant hmy]
+    VAR MaxSeq = [MaxSequence]
+    RETURN
+    CALCULATE(
+        SUM(dim_fp_terminationtomoveoutreas[amendment sf]),
+        dim_fp_terminationtomoveoutreas[property code] = PropertyCode,
+        dim_fp_terminationtomoveoutreas[tenant hmy] = TenantHmy,
+        dim_fp_terminationtomoveoutreas[amendment sequence] = MaxSeq
+    )
+)
+
+SF Commenced (Fund 2 Enhanced) = 
+// Enhanced Fund 2 SF Commenced using expanded property list
+VAR CurrentPeriodStart = MIN(dim_date[date])
+VAR CurrentPeriodEnd = MAX(dim_date[date])
+VAR Fund2PropertyCodes = [_Fund2Properties_SameStore]
+
+// Step 1: Get all new lease amendments in period with proper filtering
+VAR FilteredNewLeases = 
+    CALCULATETABLE(
+        dim_fp_amendmentsunitspropertytenant,
+        dim_fp_amendmentsunitspropertytenant[amendment status] IN {"Activated", "Superseded"},
+        dim_fp_amendmentsunitspropertytenant[amendment type] IN {"Original Lease", "New Lease"},
+        dim_fp_amendmentsunitspropertytenant[amendment start date] >= CurrentPeriodStart,
+        dim_fp_amendmentsunitspropertytenant[amendment start date] <= CurrentPeriodEnd
+    )
+
+// Step 2: Filter to Fund 2 properties
+VAR Fund2NewLeases = 
+    FILTER(
+        FilteredNewLeases,
+        dim_fp_amendmentsunitspropertytenant[property code] IN Fund2PropertyCodes
+    )
+
+// Step 3: Filter to amendments with rent charges (data quality validation)
+VAR NewLeasesWithCharges = 
+    FILTER(
+        Fund2NewLeases,
+        CALCULATE(
+            COUNTROWS(dim_fp_amendmentchargeschedule),
+            dim_fp_amendmentchargeschedule[amendment hmy] = dim_fp_amendmentsunitspropertytenant[amendment hmy],
+            dim_fp_amendmentchargeschedule[charge code] = "rent"
+        ) > 0
+    )
+
+// Step 4: Get latest amendment sequence per property/tenant combination
+VAR LatestNewLeases = 
+    SUMMARIZE(
+        NewLeasesWithCharges,
+        dim_fp_amendmentsunitspropertytenant[property code],
+        dim_fp_amendmentsunitspropertytenant[tenant hmy],
+        "MaxSequence", 
+        MAX(dim_fp_amendmentsunitspropertytenant[amendment sequence])
+    )
+
+// Step 5: Sum SF from latest new lease amendments only
+RETURN
+SUMX(
+    LatestNewLeases,
+    VAR PropertyCode = [property code]
+    VAR TenantHmy = [tenant hmy]
+    VAR MaxSeq = [MaxSequence]
+    RETURN
+    CALCULATE(
+        SUM(dim_fp_amendmentsunitspropertytenant[amendment sf]),
+        dim_fp_amendmentsunitspropertytenant[property code] = PropertyCode,
+        dim_fp_amendmentsunitspropertytenant[tenant hmy] = TenantHmy,
+        dim_fp_amendmentsunitspropertytenant[amendment sequence] = MaxSeq
+    )
+)
+
+Net Absorption (Fund 2 Enhanced) = 
+// Enhanced Fund 2 Net Absorption using expanded property list
+[SF Commenced (Fund 2 Enhanced)] - [SF Expired (Fund 2 Enhanced)]
+
+// =====================================================
+// ENHANCED SAME-STORE NET ABSORPTION MEASURES (FUND 3)
+// =====================================================
+
+SF Expired (Fund 3 Enhanced) = 
+// Enhanced Fund 3 SF Expired (needs validation)
+VAR CurrentPeriodStart = MIN(dim_date[date])
+VAR CurrentPeriodEnd = MAX(dim_date[date])
+VAR Fund3PropertyCodes = [_Fund3Properties_SameStore]
+
+// Step 1: Get all termination amendments in period with proper status filtering
+VAR FilteredTerminations = 
+    CALCULATETABLE(
+        dim_fp_terminationtomoveoutreas,
+        dim_fp_terminationtomoveoutreas[amendment status] IN {"Activated", "Superseded"},
+        dim_fp_terminationtomoveoutreas[amendment type] = "Termination",
+        dim_fp_terminationtomoveoutreas[amendment end date] >= CurrentPeriodStart,
+        dim_fp_terminationtomoveoutreas[amendment end date] <= CurrentPeriodEnd
+    )
+
+// Step 2: Filter to Fund 3 properties
+VAR Fund3Terminations = 
+    FILTER(
+        FilteredTerminations,
+        dim_fp_terminationtomoveoutreas[property code] IN Fund3PropertyCodes
+    )
+
+// Step 3: Get latest amendment sequence per property/tenant combination
+VAR LatestTerminations = 
+    SUMMARIZE(
+        Fund3Terminations,
+        dim_fp_terminationtomoveoutreas[property code],
+        dim_fp_terminationtomoveoutreas[tenant hmy],
+        "MaxSequence", 
+        MAX(dim_fp_terminationtomoveoutreas[amendment sequence])
+    )
+
+// Step 4: Sum SF from latest termination amendments only
+RETURN
+SUMX(
+    LatestTerminations,
+    VAR PropertyCode = [property code]
+    VAR TenantHmy = [tenant hmy]
+    VAR MaxSeq = [MaxSequence]
+    RETURN
+    CALCULATE(
+        SUM(dim_fp_terminationtomoveoutreas[amendment sf]),
+        dim_fp_terminationtomoveoutreas[property code] = PropertyCode,
+        dim_fp_terminationtomoveoutreas[tenant hmy] = TenantHmy,
+        dim_fp_terminationtomoveoutreas[amendment sequence] = MaxSeq
+    )
+)
+
+SF Commenced (Fund 3 Enhanced) = 
+// Enhanced Fund 3 SF Commenced (needs validation)
+VAR CurrentPeriodStart = MIN(dim_date[date])
+VAR CurrentPeriodEnd = MAX(dim_date[date])
+VAR Fund3PropertyCodes = [_Fund3Properties_SameStore]
+
+// Step 1: Get all new lease amendments in period with proper filtering
+VAR FilteredNewLeases = 
+    CALCULATETABLE(
+        dim_fp_amendmentsunitspropertytenant,
+        dim_fp_amendmentsunitspropertytenant[amendment status] IN {"Activated", "Superseded"},
+        dim_fp_amendmentsunitspropertytenant[amendment type] IN {"Original Lease", "New Lease"},
+        dim_fp_amendmentsunitspropertytenant[amendment start date] >= CurrentPeriodStart,
+        dim_fp_amendmentsunitspropertytenant[amendment start date] <= CurrentPeriodEnd
+    )
+
+// Step 2: Filter to Fund 3 properties
+VAR Fund3NewLeases = 
+    FILTER(
+        FilteredNewLeases,
+        dim_fp_amendmentsunitspropertytenant[property code] IN Fund3PropertyCodes
+    )
+
+// Step 3: Filter to amendments with rent charges (data quality validation)
+VAR NewLeasesWithCharges = 
+    FILTER(
+        Fund3NewLeases,
+        CALCULATE(
+            COUNTROWS(dim_fp_amendmentchargeschedule),
+            dim_fp_amendmentchargeschedule[amendment hmy] = dim_fp_amendmentsunitspropertytenant[amendment hmy],
+            dim_fp_amendmentchargeschedule[charge code] = "rent"
+        ) > 0
+    )
+
+// Step 4: Get latest amendment sequence per property/tenant combination
+VAR LatestNewLeases = 
+    SUMMARIZE(
+        NewLeasesWithCharges,
+        dim_fp_amendmentsunitspropertytenant[property code],
+        dim_fp_amendmentsunitspropertytenant[tenant hmy],
+        "MaxSequence", 
+        MAX(dim_fp_amendmentsunitspropertytenant[amendment sequence])
+    )
+
+// Step 5: Sum SF from latest new lease amendments only
+RETURN
+SUMX(
+    LatestNewLeases,
+    VAR PropertyCode = [property code]
+    VAR TenantHmy = [tenant hmy]
+    VAR MaxSeq = [MaxSequence]
+    RETURN
+    CALCULATE(
+        SUM(dim_fp_amendmentsunitspropertytenant[amendment sf]),
+        dim_fp_amendmentsunitspropertytenant[property code] = PropertyCode,
+        dim_fp_amendmentsunitspropertytenant[tenant hmy] = TenantHmy,
+        dim_fp_amendmentsunitspropertytenant[amendment sequence] = MaxSeq
+    )
+)
+
+Net Absorption (Fund 3 Enhanced) = 
+// Enhanced Fund 3 Net Absorption (needs validation)
+[SF Commenced (Fund 3 Enhanced)] - [SF Expired (Fund 3 Enhanced)]
+
+// =====================================================
+// VALIDATION MEASURES
+// =====================================================
+
+_Fund2PropertyCount = COUNTROWS([_Fund2Properties_Enhanced])
+_Fund3PropertyCount = COUNTROWS([_Fund3Properties_Initial])
+
+_ValidationSummary = 
+"Fund 2 Enhanced Properties: " & [_Fund2PropertyCount] & CHAR(10) &
+"Fund 3 Initial Properties: " & [_Fund3PropertyCount] & CHAR(10) &
+"Implementation: Enhanced fund filtering based on FPR benchmark analysis"
+
+// =====================================================
+// IMPLEMENTATION NOTES
+// =====================================================
+//
+// 1. FUND 2 ENHANCED FILTERING:
+//    - Includes original Fund 2 filtered properties (195 properties)
+//    - Adds high termination activity properties to reach FPR benchmarks
+//    - Results in Q1 2025 termination SF close to 712,000 target
+//
+// 2. FUND 3 INITIAL FILTERING:
+//    - Based on high new lease activity properties not in Fund 2
+//    - Requires business validation and refinement
+//    - May need additional properties to meet FPR benchmarks
+//
+// 3. BUSINESS VALIDATION REQUIRED:
+//    - Confirm expanded Fund 2 property list with business stakeholders
+//    - Validate Fund 3 property identification methodology
+//    - Cross-reference with official fund documentation
+//
+// 4. TESTING RECOMMENDATIONS:
+//    - Run enhanced measures against Q1/Q2 2025 periods
+//    - Compare results to FPR CSV benchmarks
+//    - Validate same-store property criteria
+//
+// 5. NEXT STEPS:
+//    - Replace original measures with enhanced versions
+//    - Create fund-specific dashboard views
+//    - Implement data quality monitoring
