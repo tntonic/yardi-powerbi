@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-This is a Power BI analytics solution for commercial real estate data from Yardi systems. The repository contains comprehensive documentation for implementing a 32-table data model with 122 production-ready DAX measures, achieving 95-99% accuracy against native Yardi reports.
+This is a Power BI analytics solution for commercial real estate data from Yardi systems. The repository contains comprehensive documentation for implementing a 32-table data model with 217+ production-ready DAX measures (v5.1), achieving 95-99% accuracy against native Yardi reports.
 
 **IMPORTANT**: This project is designed as a reference library for teams building Power BI dashboards with Claude.ai assistance. The clean, production-ready files are organized in the `Claude_AI_Reference` folder for easy upload to Claude.ai projects.
 
@@ -15,11 +15,11 @@ Yardi PowerBI/
 ├── Claude_AI_Reference/            # CLEAN REFERENCE FILES FOR CLAUDE.AI
 │   ├── README.md                   # How to use with Claude.ai
 │   ├── DAX_Measures/               # Production DAX measures (v5.1)
-│   │   ├── 01_Core_Financial_Rent_Roll_Measures_v5.0.dax
-│   │   ├── 02_Leasing_Activity_Pipeline_Measures_v5.0.dax
-│   │   ├── 03_Credit_Risk_Tenant_Analysis_Measures_v5.0.dax
-│   │   ├── 04_Net_Absorption_Fund_Analysis_Measures_v5.0.dax
-│   │   ├── 05_Performance_Validation_Measures_v5.0.dax
+│   │   ├── 01_Core_Financial_Rent_Roll_Measures_v5.1.dax
+│   │   ├── 02_Leasing_Activity_Pipeline_Measures_v5.1.dax
+│   │   ├── 03_Credit_Risk_Tenant_Analysis_Measures_v5.1.dax
+│   │   ├── 04_Net_Absorption_Fund_Analysis_Measures_v5.1.dax
+│   │   ├── 05_Performance_Validation_Measures_v5.1.dax
 │   │   ├── Top_20_Essential_Measures.dax
 │   │   └── Validation_Measures.dax
 │   ├── Documentation/              # Core guides (numbered for order)
@@ -62,8 +62,14 @@ python amendment_logic_validator.py
 # Analyze orphaned records
 python orphaned_records_analysis.py
 
-# Validate DAX syntax
-python dax_syntax_validator.py
+# Validate DAX syntax (v5.1)
+python validate_v51_dax.py
+
+# Find duplicate measures
+python find_duplicate_measures.py
+
+# v5.1 validation summary
+python v51_validation_summary.py
 
 # Generate rent roll for specific date
 python generate_rent_roll_for_date.py --date "2025-06-30"
@@ -76,7 +82,7 @@ python data_cleanup_execution.py
 ```bash
 # Run complete test orchestration
 cd Development/Test_Automation_Framework
-python test_orchestrator.py --all
+python test_orchestrator.py
 
 # Run specific test suites
 python powerbi_validation_suite.py          # Data integrity validation
@@ -245,11 +251,11 @@ Before deployment, ensure:
 ## Key Production Files
 
 ### DAX Measures (v5.1 - Dynamic Date Handling)
-- **Core Financial**: `Claude_AI_Reference/DAX_Measures/01_Core_Financial_Rent_Roll_Measures_v5.0.dax` (42 measures)
-- **Leasing Activity**: `Claude_AI_Reference/DAX_Measures/02_Leasing_Activity_Pipeline_Measures_v5.0.dax` (85 measures)
-- **Credit Risk**: `Claude_AI_Reference/DAX_Measures/03_Credit_Risk_Tenant_Analysis_Measures_v5.0.dax` (30 measures)  
-- **Net Absorption**: `Claude_AI_Reference/DAX_Measures/04_Net_Absorption_Fund_Analysis_Measures_v5.0.dax` (35 measures)
-- **Performance**: `Claude_AI_Reference/DAX_Measures/05_Performance_Validation_Measures_v5.0.dax` (25 measures)
+- **Core Financial**: `Claude_AI_Reference/DAX_Measures/01_Core_Financial_Rent_Roll_Measures_v5.1.dax` (42 measures)
+- **Leasing Activity**: `Claude_AI_Reference/DAX_Measures/02_Leasing_Activity_Pipeline_Measures_v5.1.dax` (85 measures)
+- **Credit Risk**: `Claude_AI_Reference/DAX_Measures/03_Credit_Risk_Tenant_Analysis_Measures_v5.1.dax` (30 measures)  
+- **Net Absorption**: `Claude_AI_Reference/DAX_Measures/04_Net_Absorption_Fund_Analysis_Measures_v5.1.dax` (35 measures)
+- **Performance**: `Claude_AI_Reference/DAX_Measures/05_Performance_Validation_Measures_v5.1.dax` (25 measures)
 - **Quick Reference**: `Claude_AI_Reference/DAX_Measures/Top_20_Essential_Measures.dax`
 - **Historical (Archived)**: `Archive/DAX_Versions_Historical/` (v4.1 and earlier)
 
@@ -568,8 +574,9 @@ Refer to `Claude_AI_Reference/Documentation/05_Business_Logic_Reference.md` for 
 
 ---
 
-**Version 5.1 Status**: Production Ready - Dynamic Date Handling
-**Total Measures**: 217+ across 5 functional areas
-**Key Update**: All measures now use dim_lastclosedperiod for date reference (replacing TODAY())
+**Version 5.1 Status**: Production Ready - Harmonized & Tested
+**Total Measures**: 217+ across 5 functional areas (454 total with variations)
+**Key Update**: All measures use dim_lastclosedperiod for date reference (replacing TODAY())
 **Features**: Net absorption, leasing spreads, credit risk, downtime analysis
 **Accuracy Targets**: 95-99% across all measure categories
+**Test Coverage**: 100% syntax validation, duplicate detection, pattern compliance

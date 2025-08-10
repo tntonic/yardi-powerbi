@@ -1,11 +1,11 @@
 // ============================================
-// Phase 2: DAX Validation Measures - v5.1
+// DAX VALIDATION MEASURES - VERSION 5.1
 // ============================================
 // Purpose: Validate all 122 DAX measures for syntax and business logic
 // Target: Core financial, occupancy, rent roll, and leasing measures
 // Author: Validation Team
-// Date: 2025-08-08
-// v5.1 Update: Added weighted average validation
+// Date: 2025-08-10
+// v5.1 Update: Added weighted average validation and date source checks
 // ============================================
 
 // ============================================

@@ -1,9 +1,9 @@
 // =====================================================
-// CREDIT RISK & TENANT ANALYSIS DAX MEASURES - VERSION 5.0
+// CREDIT RISK & TENANT ANALYSIS DAX MEASURES - VERSION 5.1
 // PowerBI Dashboard Documentation - Comprehensive Credit Risk Analytics
 // Based on dim_fp_customercreditscorecustomdata + dim_fp_customertoparentmap tables
 // Production Date: 2025-08-10
-// Total Measures: 45
+// Total Measures: 30
 // 
 // CONTENTS:
 // - Customer code and identity lookups
@@ -22,7 +22,7 @@
 
 Customer Code Lookup = 
 // Retrieves customer code with priority logic
-// Priority: 1) Credit scores table, 2) Parent map table
+// Priority: (1) Credit scores table, (2) Parent map table
 VAR CustomerID = SELECTEDVALUE(dim_commcustomer[customer id])
 VAR CreditCode = 
     LOOKUPVALUE(
@@ -41,7 +41,7 @@ RETURN
 
 Customer Name Enhanced = 
 // Retrieves company name with comprehensive fallback logic
-// Priority: 1) Credit table, 2) Parent table, 3) dim_commcustomer
+// Priority: (1) Credit table, (2) Parent table, (3) dim_commcustomer
 VAR CustomerID = SELECTEDVALUE(dim_commcustomer[customer id])
 VAR CreditName = 
     LOOKUPVALUE(
@@ -247,7 +247,7 @@ RETURN
     "Low: " & LowRisk & " | Med: " & MediumRisk & " | High: " & HighRisk & " | Very High: " & VeryHighRisk
 
 Low Risk Tenant Count = 
-// Count of tenants in low risk category (8-10)
+// Count of tenants in low risk category [8-10]
 COUNTROWS(
     FILTER(
         dim_fp_customercreditscorecustomdata,
@@ -256,7 +256,7 @@ COUNTROWS(
 )
 
 Medium Risk Tenant Count = 
-// Count of tenants in medium risk category (6-7.9)
+// Count of tenants in medium risk category [6-7.9]
 COUNTROWS(
     FILTER(
         dim_fp_customercreditscorecustomdata,
@@ -266,7 +266,7 @@ COUNTROWS(
 )
 
 High Risk Tenant Count = 
-// Count of tenants in high risk category (4-5.9)
+// Count of tenants in high risk category [4-5.9]
 COUNTROWS(
     FILTER(
         dim_fp_customercreditscorecustomdata,
@@ -410,7 +410,8 @@ VAR ParentName =
             dim_fp_customercreditscorecustomdata[customer name],
             dim_fp_customercreditscorecustomdata[hmyperson_customer], 
             ParentID
-        )
+        ),
+        BLANK()
     )
 RETURN ParentName
 
@@ -430,7 +431,8 @@ VAR ParentCode =
             dim_fp_customercreditscorecustomdata[customer code],
             dim_fp_customercreditscorecustomdata[hmyperson_customer], 
             ParentID
-        )
+        ),
+        BLANK()
     )
 RETURN ParentCode
 
@@ -730,8 +732,8 @@ RETURN
     )
 
 // =====================================================
-// END OF CREDIT RISK & TENANT ANALYSIS MEASURES v5.0
-// Total Measures: 45 (including customer code mappings)
+// END OF CREDIT RISK & TENANT ANALYSIS MEASURES v5.1
+// Total Measures: 30 (including customer code mappings)
 // Status: PRODUCTION READY - Comprehensive credit risk analytics
 // Integration Status: Compatible with dim_fp_customercreditscorecustomdata + dim_fp_customertoparentmap
 // Features: Customer codes, credit scoring, risk categorization, parent company analysis, portfolio health

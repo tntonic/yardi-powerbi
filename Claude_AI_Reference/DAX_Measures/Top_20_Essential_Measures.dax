@@ -1,5 +1,5 @@
 // =====================================================
-// TOP 20 ESSENTIAL DAX MEASURES FOR POWER BI - v5.1
+// TOP 20 ESSENTIAL DAX MEASURES FOR POWER BI - VERSION 5.1
 // Extracted from Complete DAX Library v5.1 Production
 // For use with Claude.ai assistance in dashboard development
 // v5.1 Update: Added properly weighted average calculations
@@ -308,3 +308,4 @@ RETURN WeightedScore
 // 4. All measures are validated to 95-99% accuracy against native Yardi reports
 // 5. For detailed implementation guidance, refer to Complete_DAX_Library_v5_Production.dax
 // 6. v5.1: Portfolio Rent PSF is total-based; use Property Weighted Average Rent PSF for true averages
+// 7. All date references use dim_lastclosedperiod[last closed period] for consistency

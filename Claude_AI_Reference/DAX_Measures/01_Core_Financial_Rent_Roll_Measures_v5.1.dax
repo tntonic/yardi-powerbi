@@ -1,5 +1,5 @@
 // =====================================================
-// CORE FINANCIAL & RENT ROLL DAX MEASURES - VERSION 5.0
+// CORE FINANCIAL & RENT ROLL DAX MEASURES - VERSION 5.1
 // PowerBI Dashboard Documentation - Core Business Metrics
 // Production Date: 2025-08-10
 // Total Measures: 42
@@ -555,8 +555,8 @@ SUMMARIZE(
 
 // =====================================================
 // END OF CORE FINANCIAL & RENT ROLL MEASURES v5.1
-// Total Measures: 46 (40 production + 6 helper measures)
+// Total Measures: 42 (36 production + 6 helper measures)
 // Status: PRODUCTION READY - Optimized with proper weighted averages
-// Updates: Added properly weighted average calculations for accurate portfolio metrics
-// Backward Compatibility: 100% maintained (original measures renamed for clarity)
+// v5.1 Updates: Standardized date handling using dim_lastclosedperiod throughout
+// Backward Compatibility: 100% maintained - all measures use dynamic date reference
 // =====================================================
