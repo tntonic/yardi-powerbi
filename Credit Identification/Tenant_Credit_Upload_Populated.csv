@@ -1,0 +1,128 @@
+Required field?,N/A,N/A,No,Yes,NO,NO,NO,NO,NO,NO,NO,NO,Yes,NO,NO,NO,NO,NO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Field Type,ID Field for loader- Only load items that have the ID,Ignore-for internal use only,"Free Text-short (1-2 rows)
+Note for the Internal team- this field is taken from the Tenant column on the report",Date,Free Text-short (1-2 rows),Number,Number,Hyperlink/Free text,Free Text-long (paragraph),Free Text-short (1-2 rows),Free Text-short (1-2 rows),Free Text-short (1-2 rows),Number,Number,Number,Number,Number,Number,,,,,Hyperlink/Free text,Free Text-long (paragraph),,,,,,,,,,,,,,,,,,,,,,,,
+Field Name,Customer ID,File Name,Company Name/s,Credit Check Date ,HQ  Location,Annual Revenues,Year Founded,Website,Description,Ownership,Primary Industry,Competitive Position Industry Group,Credit Rating,Gross Profit,EBIT,EBITDA,Total Assets,Total Debt,Current Ratio,Quick Ratio,Net Debt / EBITDA,Debt / Assets,Report Attachment Link,General Notes ,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000011,,American Builders & Contractor Supply Co. TN,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000011,,American Builders & Contractor Supply Co. TN,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000023,,"Faropoint Ventures, LLC NJ",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000026,,FedEx -Federal Express Corp.,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000046,,Nidia Valadez and Alejandro Contreras,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000053,,Terrazzo & Marble Supply Company of IL,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000056,,"True World Foods Columbus, LLC",,,,,,,,,,,,,,,,,,,,,Credit match: True World Foods Columbus LLC
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000056,,"True World Foods Columbus, LLC",,,,,,,,,,,,,,,,,,,,,Credit match: True World Foods Columbus LLC
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000075,,AFS World Truck Repair LP,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000095,,American HVAC Inc,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000100,,"Amphenol EEC, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000136,,Bengal Converting Services,,,,,,,,,,,,,,,,,,,,,"Credit match: Bengal Converting Services, Inc."
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000142,,Biogen Laboratory Corporation,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000147,,"Blendco Systems, LLC",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000159,,Bunting Magnetics Company,,,,,,,,,,,,,,,,,,,,,Credit match: Bunting Magnetics Co.
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000164,,Cablevision of Oakland,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000177,,"CCL Label, INC.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000178,,Centerpoint Marketing Inc.,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000181,,"CF17 Management, LLC",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000193,,"Clingan Steel, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000194,,"Clique Here, LLC",,,,,,,,,,,,,,,,,,,,,Credit match: Clique Here LLC
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000199,,Combocap Inc.,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000206,,"Content Critical Solutions, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000209,,"Corporate Facility Services USA, LLC",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000215,,Cryovation LLC,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000225,,"Daring Design, LLC",,,,,,,,,,,,,,,,,,,,,"Credit match: Daring Design, LLC"
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000244,,"Dynamic Rubber, Inc.",,,,,,,,,,,,,,,,,,,,,"Credit match: Dynamic Rubber, Inc. (DR)"
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000245,,"EA Engineering, Science, and Technology, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000251,,"Economy Tire, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000255,,"Ehmke Manufacturing Co., Inc",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000270,,Event Link,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000279,,Fastenal Company,,,,,,,,,,,,,,,,,,,,,Credit match: Fastenal Company
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000281,,"FCX Performance, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000284,,"Fitzsimmons Surgical Supply, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000301,,"G&W Products, LLC.",,,,,,,,,,,,,,,,,,,,,"Credit match: G & W Products, Inc."
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000309,,"Garland, LLC",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000324,,Goldstein & Burton,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000330,,Greif Packaging LLC,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000367,,"Insight North America, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000378,,"Jade Carpentry Contractors, Inc.",,,,,,,,,,,,,,,,,,,,,"Credit match: Jade Carpentry Contractors, Inc."
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000385,,"JL Services Group, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000402,,"Keller Warehousing & Co-Packaging, LLC",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000410,,"KPower Global Logistics, LLC",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000414,,"Kreg Therapeutics, Inc",,,,,,,,,,,,,,,,,,,,,Credit match: KREG THERAPEUTICS LLC (KT)
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000416,,"Kyodo Shipping and Trading USA, Corp",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000418,,L&W Supply Corporation,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000424,,"LCR Embedded Systems, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000493,,"Motion Industries, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000494,,Motorvation LLC,,,,,,,,,,,,,,,,,,,,,Credit match: Motorvation LLC
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000498,,"Myers Tire Supply Distribution, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000522,,OEM Accessories  Incorporated,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000524,,Ohio Department of Administrative Services,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000525,,Ohio Department of Job and Family Services,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000531,,Overhead Door Corporation,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000531,,Overhead Door Corporation,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000533,,"Pacesetter Steel Service, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000544,,Pelton Shepherd Industries Inc,,,,,,,,,,,,,,,,,,,,,"Credit match: Pelton-Shepherd Industries, Inc."
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000558,,Postal Service,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000574,,Pulseworks LLC,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000576,,City of Charlotte,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000586,,"RD Foods America, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000622,,Setzer's and Co. Inc.,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000627,,"Shingle & Gibb Automation, LLC",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000632,,"Sigma Global, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000638,,"Snap Tire, Inc.",,,,,,,,,,,,,,,,,,,,,"Credit match: Snap Tire, Inc."
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000645,,"South State, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000678,,Superior Supply Chain Management Inc,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000696,,The Gorilla Glue Company LLC,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000704,,The Printer Inc. (TPI),,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000726,,Turbo Systems US Inc.,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000735,,"United Refrigeration, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000746,,VIE DE France Yamazaki Inc,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000751,,"Webtech, INC",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000753,,Werner Aero Services,,,,,,,,,,,,,,,,,,,,,"Credit match: Werner Aero, LLC"
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000759,,"Xcision Medical Systems, LLC",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000766,,Z.One Concept USA,,,,,,,,,,,,,,,,,,,,,"Credit match: Z.One Concept USA, Inc."
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000771,,Marcolin U.S.A. Eyewear Corp.,,,,,,,,,,,,,,,,,,,,,Credit match: Macrolin U.S.A. Eyewear Corp (sub of Marcolin Group)
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000792,,Merritt LLC,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000793,,NJ/NY Gotham Football Club LLC,,,,,,,,,,,,,,,,,,,,,Credit match: NJ/NY Gotham Football Club LLC
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000795,,"Darby Dental Supply, LLC",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000803,,KJ's Discount Outlet LLC,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000805,,LINCARE INC.,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000820,,"Fluid Fleet Services, LLC",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000870,,"cbdMD, Inc.",,,,,,,,,,,,,,,,,,,,,"Credit match: cbdMD, Inc."
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000872,,"Atlas Copco Compressors, LLC",,,,,,,,,,,,,,,,,,,,,Credit match: Atlas Copco AB
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000873,,"Bates Enterprises, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000891,,"Proximate Concepts, LLC & iNPLANT, LLC",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000897,,"CFC Group, LLC",,,,,,,,,,,,,,,,,,,,,"Credit match: CFC Group, LLC"
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000899,,CORMED USA INC.,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000908,,Brasfield Gorrie,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000918,,Prime Egrocery Inc,,,,,,,,,,,,,,,,,,,,,"Credit match: Prime Egrocery, Inc."
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000934,,"Tri-State Car Wash Supplies, LLC",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000942,,"Logisteed America, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000945,,"NYSE GROUP, INC.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000951,,"Laker Partners, LLC",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000958,,"B & D Industrial, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000959,,"Mash Enterprise, LLC",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000962,,"Delta Landscape Supply of Georgia, Inc",,,,,,,,,,,,,,,,,,,,,"Credit match: Delta Landscape Supply Of Georgia, Inc."
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000969,,USCutter Inc.,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000972,,"Midwest Industrial Rubber, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000973,,"Aluma-Form, Inc.",,,,,,,,,,,,,,,,,,,,,"Credit match: Aluma-Form, Inc"
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000974,,Dematic Corp.,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000976,,"The Juice Plus+ Company, LLC",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000985,,"All-N-Express, LLC",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000988,,Kee Pest Control Inc.,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000990,,"William R. Eubanks Interior Design, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000996,,"La Michoacana Wholesale, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000997,,Shearer Supply Inc.,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0000999,,"Worksite Consultants, LLC",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0001021,,"Matheson Tri-Gas, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0001036,,"Genband Industries, LLC",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0001048,,Flower Shop El Chapin LLC,,,,,,,,,,,,,,,,,,,,,"Credit match: Flower Shop El Chap In, LLC"
+,,,,,,,,,,,,,,,,,,,,,,,,,c0001058,,Innoved Institute LLC,,,,,,,,,,,,,,,,,,,,,"Credit match: Innoved Institute, LLC"
+,,,,,,,,,,,,,,,,,,,,,,,,,c0001069,,"Quench USA, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0001070,,Harimatec Inc.,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0001071,,"American Traffic Solutions, Inc.",,,,,,,,,,,,,,,,,,,,,"Credit match: American Traffic Solutions, Inc. (ATS) sub of Verra Mobility"
+,,,,,,,,,,,,,,,,,,,,,,,,,c0001072,,Digi America Inc.,,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0001073,,"Diagnostic Support Services, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0001073,,"Diagnostic Support Services, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0001074,,"On Time Express, LLC",,,,,,,,,,,,,,,,,,,,,"Credit match: ORAS Express, LLC"
+,,,,,,,,,,,,,,,,,,,,,,,,,c0001075,,"Florida DeliCo, LLC",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0001076,,"Atlantic Tape Company, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0001077,,"Pro-Cam Georgia, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available
+,,,,,,,,,,,,,,,,,,,,,,,,,c0001078,,"SHLA Group, Inc.",,,,,,,,,,,,,,,,,,,,,No credit report available

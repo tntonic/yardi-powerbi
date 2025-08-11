@@ -1,0 +1,63 @@
+{
+  "topology": "hierarchical",
+  "maxAgents": 8,
+  "strategy": "parallel",
+  "autoSpawn": true,
+  "memory": {
+    "enabled": true,
+    "persistence": true,
+    "namespace": "claude-flow-swarm"
+  },
+  "agents": {
+    "coordinator": {
+      "type": "orchestrator",
+      "role": "primary",
+      "capabilities": ["task-distribution", "monitoring", "resource-allocation"]
+    },
+    "workers": [
+      {
+        "type": "coder",
+        "count": 2,
+        "capabilities": ["implementation", "refactoring", "debugging"]
+      },
+      {
+        "type": "researcher",
+        "count": 2,
+        "capabilities": ["analysis", "documentation", "best-practices"]
+      },
+      {
+        "type": "tester",
+        "count": 1,
+        "capabilities": ["unit-testing", "integration-testing", "validation"]
+      },
+      {
+        "type": "reviewer",
+        "count": 1,
+        "capabilities": ["code-review", "security-audit", "performance-analysis"]
+      }
+    ]
+  },
+  "communication": {
+    "mode": "hierarchical",
+    "channels": {
+      "primary": "coordinator-to-workers",
+      "secondary": "peer-to-peer",
+      "feedback": "workers-to-coordinator"
+    }
+  },
+  "execution": {
+    "parallel": true,
+    "batchSize": 4,
+    "timeout": 300000,
+    "retryPolicy": {
+      "maxRetries": 3,
+      "backoffMultiplier": 2
+    }
+  },
+  "monitoring": {
+    "enabled": true,
+    "metricsCollection": true,
+    "realTimeUpdates": true,
+    "logLevel": "info"
+  }
+}

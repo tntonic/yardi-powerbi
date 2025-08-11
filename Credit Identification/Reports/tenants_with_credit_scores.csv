@@ -1,0 +1,30 @@
+tenant_name,fund,property,market,activity,yardi_match_found,customer_code,matched_customer_name,match_confidence,credit_score,credit_score_date,match_source,match_method
+A&J Direct,Fund 2,201 James Street,Chicago,New,No,,"A&J Direct, Inc.",100.0,,,customer_table_no_credit,fuzzy_token_sort
+"Amphenol EEC, Inc.",Fund 2,1701 Birchwood,Chicago,Renew,No,c0000100,"Amphenol EEC, Inc.",100.0,,,customer_table_no_credit,fuzzy_token_sort
+Bengal Converting Services Inc.,Fund 2,18 Railroad Street,Philadelphia,Renew,No,c0000136,"Novartis Services, Inc.",82.35294117647058,8.31,10/29/2024,credit_score_table,fuzzy_partial
+Bengal GRP LLC,Fund 2,18 Railroad Street,Philadelphia,New,No,,"ALL, LLC",80.0,9.0,12/31/2022,credit_score_table,fuzzy_partial
+"Blendco Systems, LLC (Dubois)",Fund 2,1 Pearl Buck Court,North New Jersey,Restructure,No,c0000147,"Blendco Systems, LLC (Dubois)",100.0,,,customer_table_no_id,fuzzy_token_sort
+Bunting Magnetics Company,Fund 2,1100-1150 Howard,Chicago,Renew,No,c0000159,Bunting Magnetics Company,100.0,,,customer_table_no_credit,fuzzy_token_sort
+"CONTENT CRITICAL SOLUTIONS, INC",Fund 2,121 Moonachie Ave,North New Jersey,Renew,No,c0000206,"CONTENT CRITICAL SOLUTIONS, INC",100.0,,,customer_table_no_id,fuzzy_token_sort
+"EA Engineering, Science, and Technology, Inc.",Fund 2,1601-1641 Sherman Avenue,Philadelphia,New,No,c0000245,"EA Engineering, Science, and Technology, Inc.",100.0,,,customer_table_no_credit,fuzzy_token_sort
+"Family Vending, LLC",Fund 2,201 James Street,Chicago,New,No,,USA Family Moving of Atlanta LLC,81.4814814814815,4.5,1/25/2024,credit_score_table,fuzzy_partial
+"G&W Products, LLC",Fund 2,8655 Seward Road,Cincinnati,Renew,No,c0000301,Garden State Lumber Products Corp,85.71428571428572,7.8,9/30/2022,credit_score_table,fuzzy_partial
+International General Trading Corp,Fund 2,2616 Andjon Drive,Dallas,New,No,,P.T. International LLC,89.65517241379311,9.7,1/28/2022,credit_score_table,fuzzy_partial
+KREG,Fund 2,3045-3065 Switzer Avenue,Columbus,Renew,No,c0000414,KREG,100.0,,,customer_table_no_credit,fuzzy_token_sort
+Olive My Pickle,Fund 2,7720 Philips Highway,Jacksonville,New,No,,,0.0,,,,
+Trident ExIm LLC,Fund 2,900 Business Center Drive,Chicago,New,No,,Trident ExIm LLC,100.0,,,customer_table_no_credit,fuzzy_token_sort
+VIE DE France Yamazaki Inc,Fund 2,4507 Mills Place,Atlanta,Renew,No,c0000746,VIE DE France Yamazaki Inc,100.0,,,customer_table_no_id,fuzzy_token_sort
+"Aluma-Form, Inc.",Fund 3,3755 Knight Arnold Road,Memphis,Renew,No,c0000973,"ALL, LLC",80.0,9.0,12/31/2022,credit_score_table,fuzzy_partial
+"Beard Integrated Systems, Inc.",Fund 3,1501 Kings Road,Dallas,New,No,,"Beard Integrated Systems, Inc.",100.0,,,customer_table_no_id,fuzzy_token_sort
+Buckhead Elite Gym (dba Champion Gymnastics and Cheer),Fund 3,2160 Hills Avenue,Atlanta,New,No,,Buckhead Elite Gym (dba Champion Gymnastics and Cheer),100.0,,,customer_table_no_id,fuzzy_token_sort
+CFC Group,Fund 3,2160 Hills Avenue,Atlanta,New,No,c0000897,CFC Group,100.0,,,customer_table_no_id,fuzzy_token_sort
+Circuit Works Corporation,Fund 3,10755 Sanden Drive,Dallas,New,No,,Circuit Works Corporation,100.0,,,customer_table_no_credit,fuzzy_token_sort
+Digi America,Fund 3,155 Pierce Street,Northern NJ/New York,New,No,,"RD Foods America, Inc.",81.81818181818181,5.0,5/20/2024,credit_score_table,fuzzy_partial
+Icon Mechanical,Fund 3,12140 Vance Davis,Charlotte,New,No,,"ALL, LLC",80.0,9.0,12/31/2022,credit_score_table,fuzzy_partial
+Intercontinental Exchange,Fund 3,3 Pearl Court,North New Jersey,New,No,,Intercontinental Exchange,100.0,,,customer_table_no_id,fuzzy_token_sort
+Koontz Electric,Fund 3,3338 Democrat Road,Memphis,New,No,,Frontier Electric Supply Inc.,80.0,4.5,11/28/2023,credit_score_table,fuzzy_partial
+March Products Inc DBA Goldcrest LLC,Fund 3,1101 Venture Ct.,Dallas,New,No,,,0.0,,,,
+Marcolin U.S.A. Eyewear Corp.,Fund 3,3140 Route 22,Northern NJ/New York,Renew,No,c0000771,Marcolin U.S.A. Eyewear Corp.,100.0,,,customer_table_no_id,fuzzy_token_sort
+Prime Egrocery Inc,Fund 3,9176 Red Branch,Baltimore/DC,New,No,c0000918,Prime Egrocery Inc,100.0,,,customer_table_no_credit,fuzzy_token_sort
+"SRS Distribution, Inc.",Fund 3,1400 Beaver Ruin Rd,Atlanta,Renew,No,c0000051,"Myers Tire Supply Distribution, Inc.",89.65517241379311,8.6,6/30/2023,credit_score_table,fuzzy_partial
+USCutter Inc.,Fund 3,3696 Knight Road,Memphis,Renew,No,c0000969,USCutter Inc.,100.0,,,customer_table_no_credit,fuzzy_token_sort

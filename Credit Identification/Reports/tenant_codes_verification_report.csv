@@ -1,0 +1,15 @@
+tenant_name,fund,credit_score,tenant_code,tenant_id,customer_id,property_id,match_type,matched_name,match_score,code_format
+A&J Direct,Fund 2,3.5,t0001418,70329,72382.0,3547,lessee_name,"A&J Direct, Inc.",100,Standard
+Bengal GRP LLC,Fund 2,4.0,t0001428,71381,,2958,lessee_name,"Bengal GRP, LLC",100,Standard
+"Family Vending, LLC",Fund 2,4.0,t0001448,72579,73156.0,3547,lessee_name,"Family Vending, LLC",100,Standard
+International General Trading Corp,Fund 2,3.5,t0001535,75169,75561.0,2992,lessee_name,International General Trading Corp.,100,Standard
+Olive My Pickle,Fund 2,5.0,t0001501,73876,75350.0,3278,dba_name,Olive My Pickle,100,Standard
+Trident ExIm LLC,Fund 2,4.0,t0001454,72597,75199.0,1680,lessee_name,Trident ExIm LLC,100,Standard
+"Beard Integrated Systems, Inc.",Fund 3,4.5,ml1BFC9C,68009,,7171,lessee_name,"Beard Integrated Systems, Inc.",100,Non-standard
+Buckhead Elite Gym (dba Champion Gymnastics and Cheer),Fund 3,4.0,ml008F42,58354,,6303,lessee_name,Buckhead Elite Gym (dba Champion Gymnastics and Cheer),100,Non-standard
+Circuit Works Corporation,Fund 3,5.0,mlCBC44C,77987,72547.0,7508,lessee_name,Circuit Works Corporation,100,Non-standard
+Digi America,Fund 3,5.0,ml148964,78078,72594.0,7754,lessee_name,Digi America Inc.,100,Non-standard
+Icon Mechanical,Fund 3,5.0,t0001407,67756,71383.0,6078,dba_name,Icon Mechanical,100,Standard
+Intercontinental Exchange,Fund 3,7.5,ml2C5278,68211,,7118,lessee_name,Intercontinental Exchange,100,Non-standard
+Koontz Electric,Fund 3,6.0,t0001518,74973,74997.0,3643,lessee_name,"Koontz Electric Company, Inc.",100,Standard
+March Products Inc DBA Goldcrest LLC,Fund 3,3.5,ml3B6E29,77991,,7505,lessee_name,March Products Inc DBA Gold Crest LLC,81,Non-standard

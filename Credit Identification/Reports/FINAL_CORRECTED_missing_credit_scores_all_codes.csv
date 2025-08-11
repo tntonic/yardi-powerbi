@@ -1,0 +1,30 @@
+tenant_name,credit_score,fund,property,market,customer_code,tenant_code,tenant_code_format,tenant_id,customer_id,code_status,action_required
+A&J Direct,3.5,Fund 2,201 James Street,Chicago,,t0001418,Standard,70329,72382.0,Has Tenant Code + Customer ID (needs c-code),Add Credit Score to Yardi
+"Amphenol EEC, Inc.",7.0,Fund 2,1701 Birchwood,Chicago,c0000100,,N/A,,,Has Customer Code Only,Add Credit Score to Yardi
+Bengal Converting Services Inc.,2.0,Fund 2,18 Railroad Street,Philadelphia,c0000136,,N/A,,,Has Customer Code Only,Add Credit Score to Yardi
+Bengal GRP LLC,4.0,Fund 2,18 Railroad Street,Philadelphia,,t0001428,Standard,71381,,Has Tenant Code Only (needs customer record),Add Credit Score to Yardi
+"Blendco Systems, LLC (Dubois)",4.0,Fund 2,1 Pearl Buck Court,North New Jersey,c0000147,,N/A,,,Has Customer Code Only,Add Credit Score to Yardi
+Bunting Magnetics Company,6.0,Fund 2,1100-1150 Howard,Chicago,c0000159,,N/A,,,Has Customer Code Only,Add Credit Score to Yardi
+"CONTENT CRITICAL SOLUTIONS, INC",6.0,Fund 2,121 Moonachie Ave,North New Jersey,c0000206,,N/A,,,Has Customer Code Only,Add Credit Score to Yardi
+"EA Engineering, Science, and Technology, Inc.",5.0,Fund 2,1601-1641 Sherman Avenue,Philadelphia,c0000245,,N/A,,,Has Customer Code Only,Add Credit Score to Yardi
+"Family Vending, LLC",4.0,Fund 2,201 James Street,Chicago,,t0001448,Standard,72579,73156.0,Has Tenant Code + Customer ID (needs c-code),Add Credit Score to Yardi
+"G&W Products, LLC",5.5,Fund 2,8655 Seward Road,Cincinnati,c0000301,,N/A,,,Has Customer Code Only,Add Credit Score to Yardi
+International General Trading Corp,3.5,Fund 2,2616 Andjon Drive,Dallas,,t0001535,Standard,75169,75561.0,Has Tenant Code + Customer ID (needs c-code),Add Credit Score to Yardi
+KREG,4.5,Fund 2,3045-3065 Switzer Avenue,Columbus,c0000414,,N/A,,,Has Customer Code Only,Add Credit Score to Yardi
+Olive My Pickle,5.0,Fund 2,7720 Philips Highway,Jacksonville,,t0001501,Standard,73876,75350.0,Has Tenant Code + Customer ID (needs c-code),Add Credit Score to Yardi
+Trident ExIm LLC,4.0,Fund 2,900 Business Center Drive,Chicago,,t0001454,Standard,72597,75199.0,Has Tenant Code + Customer ID (needs c-code),Add Credit Score to Yardi
+VIE DE France Yamazaki Inc,5.5,Fund 2,4507 Mills Place,Atlanta,c0000746,,N/A,,,Has Customer Code Only,Add Credit Score to Yardi
+"Aluma-Form, Inc.",5.0,Fund 3,3755 Knight Arnold Road,Memphis,c0000973,,N/A,,,Has Customer Code Only,Add Credit Score to Yardi
+"Beard Integrated Systems, Inc.",4.5,Fund 3,1501 Kings Road,Dallas,,ml1BFC9C,Non-standard,68009,,Has Tenant Code Only (needs customer record),Add Credit Score to Yardi
+Buckhead Elite Gym (dba Champion Gymnastics and Cheer),4.0,Fund 3,2160 Hills Avenue,Atlanta,,ml008F42,Non-standard,58354,,Has Tenant Code Only (needs customer record),Add Credit Score to Yardi
+CFC Group,4.5,Fund 3,2160 Hills Avenue,Atlanta,c0000897,,N/A,,,Has Customer Code Only,Add Credit Score to Yardi
+Circuit Works Corporation,5.0,Fund 3,10755 Sanden Drive,Dallas,,mlCBC44C,Non-standard,77987,72547.0,Has Tenant Code + Customer ID (needs c-code),Add Credit Score to Yardi
+Digi America,5.0,Fund 3,155 Pierce Street,Northern NJ/New York,,ml148964,Non-standard,78078,72594.0,Has Tenant Code + Customer ID (needs c-code),Add Credit Score to Yardi
+Icon Mechanical,5.0,Fund 3,12140 Vance Davis,Charlotte,,t0001407,Standard,67756,71383.0,Has Tenant Code + Customer ID (needs c-code),Add Credit Score to Yardi
+Intercontinental Exchange,7.5,Fund 3,3 Pearl Court,North New Jersey,,ml2C5278,Non-standard,68211,,Has Tenant Code Only (needs customer record),Add Credit Score to Yardi
+Koontz Electric,6.0,Fund 3,3338 Democrat Road,Memphis,,t0001518,Standard,74973,74997.0,Has Tenant Code + Customer ID (needs c-code),Add Credit Score to Yardi
+March Products Inc DBA Goldcrest LLC,3.5,Fund 3,1101 Venture Ct.,Dallas,,ml3B6E29,Non-standard,77991,,Has Tenant Code Only (needs customer record),Add Credit Score to Yardi
+Marcolin U.S.A. Eyewear Corp.,5.5,Fund 3,3140 Route 22,Northern NJ/New York,c0000771,,N/A,,,Has Customer Code Only,Add Credit Score to Yardi
+Prime Egrocery Inc,4.0,Fund 3,9176 Red Branch,Baltimore/DC,c0000918,,N/A,,,Has Customer Code Only,Add Credit Score to Yardi
+"SRS Distribution, Inc.",8.0,Fund 3,1400 Beaver Ruin Rd,Atlanta,c0000051,,N/A,,,Has Customer Code Only,Add Credit Score to Yardi
+USCutter Inc.,4.0,Fund 3,3696 Knight Road,Memphis,c0000969,,N/A,,,Has Customer Code Only,Add Credit Score to Yardi

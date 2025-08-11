@@ -1,0 +1,15 @@
+tenant_name,fund,property,credit_score,tenant_code_found,tenant_code,customer_id,matched_name,match_confidence,amendment_match,amendment_confidence
+A&J Direct,Fund 2,201 James Street,3.5,Yes,t0001418,72382.0,"A&J Direct, Inc.",100,,0
+Bengal GRP LLC,Fund 2,18 Railroad Street,4.0,Yes,t0001428,,"Bengal GRP, LLC",100,,0
+"Family Vending, LLC",Fund 2,201 James Street,4.0,Yes,t0001448,73156.0,"Family Vending, LLC",100,,0
+International General Trading Corp,Fund 2,2616 Andjon Drive,3.5,Yes,t0001535,75561.0,International General Trading Corp.,100,,0
+Olive My Pickle,Fund 2,7720 Philips Highway,5.0,Yes,t0001501,75350.0,Olive My Pickle,100,,0
+Trident ExIm LLC,Fund 2,900 Business Center Drive,4.0,Yes,t0001454,75199.0,Trident ExIm LLC,100,,0
+"Beard Integrated Systems, Inc.",Fund 3,1501 Kings Road,4.5,Yes,ml1BFC9C,,"Beard Integrated Systems, Inc.",100,,0
+Buckhead Elite Gym (dba Champion Gymnastics and Cheer),Fund 3,2160 Hills Avenue,4.0,Yes,ml008F42,,Buckhead Elite Gym (dba Champion Gymnastics and Cheer),100,,0
+Circuit Works Corporation,Fund 3,10755 Sanden Drive,5.0,Yes,mlCBC44C,72547.0,Circuit Works Corporation,100,,0
+Digi America,Fund 3,155 Pierce Street,5.0,Yes,ml148964,72594.0,Digi America Inc.,100,,0
+Icon Mechanical,Fund 3,12140 Vance Davis,5.0,Yes,t0001407,71383.0,Icon Mechanical,100,,0
+Intercontinental Exchange,Fund 3,3 Pearl Court,7.5,Yes,ml2C5278,,Intercontinental Exchange,100,,0
+Koontz Electric,Fund 3,3338 Democrat Road,6.0,Yes,t0001518,74997.0,"Koontz Electric Company, Inc.",100,,0
+March Products Inc DBA Goldcrest LLC,Fund 3,1101 Venture Ct.,3.5,Yes,ml3B6E29,,March Products Inc DBA Gold Crest LLC,81,,0

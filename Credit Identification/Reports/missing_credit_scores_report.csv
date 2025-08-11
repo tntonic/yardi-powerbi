@@ -1,0 +1,30 @@
+tenant_name,faropoint_credit_score,fund,property,market,activity,yardi_match_found,yardi_matched_name,yardi_match_confidence,yardi_credit_score,customer_code,customer_code_confidence,customer_code_source,status
+A&J Direct,3.5,Fund 2,201 James Street,Chicago,New,No,,0,,,0,,Missing in Yardi
+"Amphenol EEC, Inc.",7.0,Fund 2,1701 Birchwood,Chicago,Renew,No,,0,,c0000100,100,parent_map_table,Missing in Yardi
+Bengal Converting Services Inc.,2.0,Fund 2,18 Railroad Street,Philadelphia,Renew,No,,0,,c0000136,100,parent_map_table,Missing in Yardi
+Bengal GRP LLC,4.0,Fund 2,18 Railroad Street,Philadelphia,New,No,,0,,,0,,Missing in Yardi
+"Blendco Systems, LLC (Dubois)",4.0,Fund 2,1 Pearl Buck Court,North New Jersey,Restructure,No,,0,,c0000147,100,customer_table,Missing in Yardi
+Bunting Magnetics Company,6.0,Fund 2,1100-1150 Howard,Chicago,Renew,No,,0,,c0000159,100,parent_map_table,Missing in Yardi
+"CONTENT CRITICAL SOLUTIONS, INC",6.0,Fund 2,121 Moonachie Ave,North New Jersey,Renew,No,,0,,c0000206,100,parent_map_table,Missing in Yardi
+"EA Engineering, Science, and Technology, Inc.",5.0,Fund 2,1601-1641 Sherman Avenue,Philadelphia,New,No,,0,,c0000245,100,parent_map_table,Missing in Yardi
+"Family Vending, LLC",4.0,Fund 2,201 James Street,Chicago,New,No,,0,,,0,,Missing in Yardi
+"G&W Products, LLC",5.5,Fund 2,8655 Seward Road,Cincinnati,Renew,No,,0,,c0000301,100,parent_map_table,Missing in Yardi
+International General Trading Corp,3.5,Fund 2,2616 Andjon Drive,Dallas,New,No,,0,,,0,,Missing in Yardi
+KREG,4.5,Fund 2,3045-3065 Switzer Avenue,Columbus,Renew,No,,0,,c0000414,100,customer_table,Missing in Yardi
+Olive My Pickle,5.0,Fund 2,7720 Philips Highway,Jacksonville,New,No,,0,,,0,,Missing in Yardi
+Trident ExIm LLC,4.0,Fund 2,900 Business Center Drive,Chicago,New,No,,0,,,0,,Missing in Yardi
+VIE DE France Yamazaki Inc,5.5,Fund 2,4507 Mills Place,Atlanta,Renew,No,,0,,c0000746,100,parent_map_table,Missing in Yardi
+"Aluma-Form, Inc.",5.0,Fund 3,3755 Knight Arnold Road,Memphis,Renew,No,,0,,c0000973,100,parent_map_table,Missing in Yardi
+"Beard Integrated Systems, Inc.",4.5,Fund 3,1501 Kings Road,Dallas,New,No,,0,,,0,,Missing in Yardi
+Buckhead Elite Gym (dba Champion Gymnastics and Cheer),4.0,Fund 3,2160 Hills Avenue,Atlanta,New,No,,0,,,0,,Missing in Yardi
+CFC Group,4.5,Fund 3,2160 Hills Avenue,Atlanta,New,No,,0,,c0000897,100,parent_map_table,Missing in Yardi
+Circuit Works Corporation,5.0,Fund 3,10755 Sanden Drive,Dallas,New,No,,0,,,0,,Missing in Yardi
+Digi America,5.0,Fund 3,155 Pierce Street,Northern NJ/New York,New,No,,0,,,0,,Missing in Yardi
+Icon Mechanical,5.0,Fund 3,12140 Vance Davis,Charlotte,New,No,,0,,,0,,Missing in Yardi
+Intercontinental Exchange,7.5,Fund 3,3 Pearl Court,North New Jersey,New,No,,0,,,0,,Missing in Yardi
+Koontz Electric,6.0,Fund 3,3338 Democrat Road,Memphis,New,No,,0,,,0,,Missing in Yardi
+March Products Inc DBA Goldcrest LLC,3.5,Fund 3,1101 Venture Ct.,Dallas,New,No,,0,,,0,,Missing in Yardi
+Marcolin U.S.A. Eyewear Corp.,5.5,Fund 3,3140 Route 22,Northern NJ/New York,Renew,No,,0,,c0000771,100,parent_map_table,Missing in Yardi
+Prime Egrocery Inc,4.0,Fund 3,9176 Red Branch,Baltimore/DC,New,No,,0,,c0000918,100,parent_map_table,Missing in Yardi
+"SRS Distribution, Inc.",8.0,Fund 3,1400 Beaver Ruin Rd,Atlanta,Renew,No,,0,,c0000051,100,parent_map_table,Missing in Yardi
+USCutter Inc.,4.0,Fund 3,3696 Knight Road,Memphis,Renew,No,,0,,c0000969,100,parent_map_table,Missing in Yardi

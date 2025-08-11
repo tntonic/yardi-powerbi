@@ -181,18 +181,13 @@ class YardiDashboard:
         """Initialize database connection with enhanced error handling"""
         try:
             if not self.db_path.exists():
-                st.error(f"""
-                <div class="error-message">
-                    <h4>🚨 Database Not Found</h4>
-                    <p>Database not found at: <code>{self.db_path}</code></p>
-                    <p><strong>To fix this:</strong></p>
-                    <ol>
-                        <li>Navigate to the database directory: <code>cd database</code></li>
-                        <li>Run the initialization script: <code>python init_db.py</code></li>
-                        <li>Ensure CSV files are available in the Data/Yardi_Tables directory</li>
-                    </ol>
-                </div>
-                """, unsafe_allow_html=True)
+                st.error(f"🚨 Database Not Found at: {self.db_path}")
+                st.info("""
+                To fix this:
+                1. Navigate to the database directory: `cd database`
+                2. Run the initialization script: `python init_db.py`
+                3. Ensure CSV files are available in the Data/Yardi_Tables directory
+                """)
                 st.stop()
                 
             self.conn = duckdb.connect(str(self.db_path), read_only=True)
@@ -203,18 +198,13 @@ class YardiDashboard:
             st.success("✅ Database connection established successfully!")
             
         except Exception as e:
-            st.error(f"""
-            <div class="error-message">
-                <h4>🚨 Database Connection Failed</h4>
-                <p><strong>Error:</strong> {str(e)}</p>
-                <p><strong>Possible solutions:</strong></p>
-                <ul>
-                    <li>Check if the database file exists and is accessible</li>
-                    <li>Ensure you have read permissions for the database file</li>
-                    <li>Try restarting the application</li>
-                </ul>
-            </div>
-            """, unsafe_allow_html=True)
+            st.error(f"🚨 Database Connection Failed: {str(e)}")
+            st.info("""
+            Possible solutions:
+            • Check if the database file exists and is accessible
+            • Ensure you have read permissions for the database file
+            • Try restarting the application
+            """)
             st.stop()
     
     @st.cache_data(ttl=300)  # Cache for 5 minutes
@@ -232,13 +222,11 @@ class YardiDashboard:
             return df
             
         except Exception as e:
-            st.error(f"""
-            <div class="error-message">
-                <h4>🚨 Query Execution Failed</h4>
-                <p><strong>Error:</strong> {str(e)}</p>
-                <p><strong>Query:</strong> <code>{query[:200]}...</code></p>
-            </div>
-            """, unsafe_allow_html=True)
+            st.error(f"🚨 Query Execution Failed: {str(e)}")
+            if len(query) > 200:
+                st.code(f"Query: {query[:200]}...", language="sql")
+            else:
+                st.code(f"Query: {query}", language="sql")
             return pd.DataFrame()
     
     @st.cache_data(ttl=600)  # Cache for 10 minutes
@@ -427,41 +415,154 @@ dashboard.render_header(dashboard_choice)
 # Load dashboard components based on selection with error handling
 try:
     if dashboard_choice == "Executive Summary":
-        from components.executive_summary import render_executive_summary
-        render_executive_summary(dashboard, date_range, selected_properties, fund_filter, book_filter)
+        # Use enhanced executive summary with strategic KPIs
+        from components.executive_summary_enhanced import render_executive_dashboard
+        
+        # Extract property codes from the selected properties
+        property_codes = []
+        if selected_properties:
+            for prop in selected_properties:
+                # Extract the property code (part before the dash)
+                if ' - ' in prop:
+                    property_codes.append(prop.split(' - ')[0])
+                else:
+                    property_codes.append(prop)
+        
+        # Parse fund filter to extract actual fund identifier
+        fund_value = None
+        if fund_filter == "Fund 1":
+            fund_value = "1"
+        elif fund_filter == "Fund 2":
+            fund_value = "2"
+        elif fund_filter == "Fund 3":
+            fund_value = "3"
+        # "All Funds" means no filter
+        
+        # Parse book filter to extract actual book ID
+        book_value = None
+        if book_filter == "Book 46 (FPR)":
+            book_value = "46"
+        elif book_filter == "Book 1 (Standard)":
+            book_value = "1"
+        # "All Books" means no filter
+        
+        filters = {
+            'property_ids': property_codes,
+            'date_range': date_range,
+            'fund_filter': fund_value,
+            'book_filter': book_value
+        }
+        render_executive_dashboard(dashboard.conn, filters)
 
     elif dashboard_choice == "Rent Roll Analysis":
-        from components.rent_roll import render_rent_roll_analysis
-        render_rent_roll_analysis(dashboard, date_range, selected_properties, fund_filter)
+        # Use true rent roll with amendment-based logic
+        from components.rent_roll_true import render_rent_roll_dashboard
+        
+        # Extract property codes (reuse logic from above)
+        property_codes = []
+        if selected_properties:
+            for prop in selected_properties:
+                if ' - ' in prop:
+                    property_codes.append(prop.split(' - ')[0])
+                else:
+                    property_codes.append(prop)
+        
+        # Parse fund filter (reuse logic from above)
+        fund_value = None
+        if fund_filter == "Fund 1":
+            fund_value = "1"
+        elif fund_filter == "Fund 2":
+            fund_value = "2"
+        elif fund_filter == "Fund 3":
+            fund_value = "3"
+        
+        filters = {
+            'property_ids': property_codes,
+            'date_range': date_range,
+            'fund_filter': fund_value
+        }
+        render_rent_roll_dashboard(dashboard.conn, filters)
 
     elif dashboard_choice == "Leasing Activity":
         from components.leasing_activity import render_leasing_activity
-        render_leasing_activity(dashboard, date_range, selected_properties, fund_filter)
+        
+        # Extract property codes for consistency
+        property_codes = []
+        if selected_properties:
+            for prop in selected_properties:
+                if ' - ' in prop:
+                    property_codes.append(prop.split(' - ')[0])
+                else:
+                    property_codes.append(prop)
+        
+        # Parse fund filter
+        fund_value = None
+        if fund_filter == "Fund 1":
+            fund_value = "1"
+        elif fund_filter == "Fund 2":
+            fund_value = "2"
+        elif fund_filter == "Fund 3":
+            fund_value = "3"
+        
+        render_leasing_activity(dashboard, date_range, property_codes, fund_value)
 
     elif dashboard_choice == "Financial Performance":
         from components.financial_metrics import render_financial_performance
-        render_financial_performance(dashboard, date_range, selected_properties, fund_filter, book_filter)
+        
+        # Extract property codes
+        property_codes = []
+        if selected_properties:
+            for prop in selected_properties:
+                if ' - ' in prop:
+                    property_codes.append(prop.split(' - ')[0])
+                else:
+                    property_codes.append(prop)
+        
+        # Parse fund filter
+        fund_value = None
+        if fund_filter == "Fund 1":
+            fund_value = "1"
+        elif fund_filter == "Fund 2":
+            fund_value = "2"
+        elif fund_filter == "Fund 3":
+            fund_value = "3"
+        
+        # Parse book filter
+        book_value = None
+        if book_filter == "Book 46 (FPR)":
+            book_value = "46"
+        elif book_filter == "Book 1 (Standard)":
+            book_value = "1"
+        
+        render_financial_performance(dashboard, date_range, property_codes, fund_value, book_value)
 
     elif dashboard_choice == "Credit Risk Analysis":
         from components.credit_risk import render_credit_risk_analysis
-        render_credit_risk_analysis(dashboard, date_range, selected_properties, fund_filter)
+        
+        # Extract property codes
+        property_codes = []
+        if selected_properties:
+            for prop in selected_properties:
+                if ' - ' in prop:
+                    property_codes.append(prop.split(' - ')[0])
+                else:
+                    property_codes.append(prop)
+        
+        # Parse fund filter
+        fund_value = None
+        if fund_filter == "Fund 1":
+            fund_value = "1"
+        elif fund_filter == "Fund 2":
+            fund_value = "2"
+        elif fund_filter == "Fund 3":
+            fund_value = "3"
+        
+        render_credit_risk_analysis(dashboard, date_range, property_codes, fund_value)
 
 except ImportError as e:
-    st.error(f"""
-    <div class="error-message">
-        <h4>🚨 Component Import Error</h4>
-        <p>Failed to load dashboard component: {str(e)}</p>
-        <p>Please ensure all component files are present in the components directory.</p>
-    </div>
-    """, unsafe_allow_html=True)
+    st.error(f"🚨 Component Import Error: Failed to load dashboard component: {str(e)}. Please ensure all component files are present in the components directory.")
 except Exception as e:
-    st.error(f"""
-    <div class="error-message">
-        <h4>🚨 Dashboard Error</h4>
-        <p>An error occurred while rendering the dashboard: {str(e)}</p>
-        <p>Please try refreshing the page or contact support if the issue persists.</p>
-    </div>
-    """, unsafe_allow_html=True)
+    st.error(f"🚨 Dashboard Error: An error occurred while rendering the dashboard: {str(e)}. Please try refreshing the page or contact support if the issue persists.")
 
 # Enhanced footer
 st.markdown("---")

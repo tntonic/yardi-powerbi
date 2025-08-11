@@ -215,6 +215,44 @@ class YardiDatabaseInitializer:
             except Exception as e:
                 logger.error(f"Error creating view {view_name}: {str(e)}")
                 
+    def load_advanced_views(self):
+        """Load advanced SQL views from separate SQL files"""
+        sql_files = [
+            "amendment_views.sql",      # Amendment-based logic (foundation)
+            "net_absorption_views.sql", # Net absorption calculations
+            "portfolio_health_views.sql", # Strategic KPIs
+            "advanced_views.sql"        # Original advanced views
+        ]
+        
+        for sql_file in sql_files:
+            sql_path = Path(__file__).parent / sql_file
+            if sql_path.exists():
+                logger.info(f"Loading views from {sql_file}")
+                try:
+                    with open(sql_path, 'r') as f:
+                        sql_content = f.read()
+                        
+                    # Split by semicolon and execute each statement
+                    statements = [s.strip() for s in sql_content.split(';') if s.strip() and not s.strip().startswith('--')]
+                    
+                    for statement in statements:
+                        # Skip comments and validation queries
+                        if statement.startswith('/*') or '--' in statement[:10]:
+                            continue
+                        try:
+                            self.conn.execute(statement)
+                            # Extract view name from CREATE statement
+                            if 'CREATE OR REPLACE VIEW' in statement:
+                                view_name = statement.split('VIEW')[1].split('AS')[0].strip()
+                                logger.info(f"  Created view: {view_name}")
+                        except Exception as e:
+                            logger.warning(f"  Error executing statement: {str(e)[:100]}")
+                            
+                except Exception as e:
+                    logger.error(f"Error loading {sql_file}: {str(e)}")
+            else:
+                logger.warning(f"SQL file not found: {sql_file}")
+    
     def create_materialized_views(self):
         """Create materialized views for performance-critical queries"""
         mat_views = {
@@ -324,15 +362,21 @@ class YardiDatabaseInitializer:
             logger.info("=" * 50)
             self.create_base_views()
             
+            # Load advanced SQL views
+            logger.info("=" * 50)
+            logger.info("Step 4: Loading advanced SQL views")
+            logger.info("=" * 50)
+            self.load_advanced_views()
+            
             # Create materialized views
             logger.info("=" * 50)
-            logger.info("Step 4: Creating materialized views")
+            logger.info("Step 5: Creating materialized views")
             logger.info("=" * 50)
             self.create_materialized_views()
             
             # Validate data quality
             logger.info("=" * 50)
-            logger.info("Step 5: Validating data quality")
+            logger.info("Step 6: Validating data quality")
             logger.info("=" * 50)
             self.validate_data_quality()
             
@@ -361,6 +405,42 @@ class YardiDatabaseInitializer:
             self.close()
 
 if __name__ == "__main__":
+    import sys
+    
+    # Parse command line arguments
+    run_optimization = "--with-optimization" in sys.argv or "-opt" in sys.argv
+    db_path = "yardi.duckdb"
+    
+    # Check for custom database path
+    if "--db-path" in sys.argv:
+        idx = sys.argv.index("--db-path")
+        if idx + 1 < len(sys.argv):
+            db_path = sys.argv[idx + 1]
+    
     # Initialize the database
-    db = YardiDatabaseInitializer("yardi.duckdb")
+    logger.info("Starting database initialization...")
+    db = YardiDatabaseInitializer(db_path)
     db.initialize_database()
+    
+    # Run performance optimization if requested
+    if run_optimization:
+        logger.info("\nStarting performance optimization...")
+        try:
+            # Import and run performance optimizer
+            from optimize_performance import YardiPerformanceOptimizer
+            optimizer = YardiPerformanceOptimizer(db_path)
+            optimizer.optimize_database()
+            logger.info("Database initialization and optimization complete!")
+        except ImportError:
+            logger.error("Performance optimizer not available. Run separately:")
+            logger.error("  python run_optimization.py --full")
+        except Exception as e:
+            logger.error(f"Performance optimization failed: {e}")
+            logger.info("Database initialization completed successfully.")
+            logger.info("Run optimization separately: python run_optimization.py --full")
+    else:
+        logger.info("\nDatabase initialization complete!")
+        logger.info("To run performance optimization:")
+        logger.info("  python run_optimization.py --full")
+        logger.info("  # or")
+        logger.info("  python init_db.py --with-optimization")

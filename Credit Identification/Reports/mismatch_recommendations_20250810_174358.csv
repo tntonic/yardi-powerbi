@@ -1,0 +1,51 @@
+Priority,Customer ID,Tenant Name,Wrong Credit,Similarity,Action,Details
+CRITICAL,c0000270,Event Link,"EventLink, LLC (wholly‐owned sub of EL Holding Company, Inc. and Subsidiaries)",24.0%,REPLACE - Obtain correct credit report,Wrong company entirely. Currently has FP TCE_v6.66 - EventLink (2024-04-09).pdf
+CRITICAL,,Harimatec Inc.,"Harimatec, Inc (wholly-owned sub of Harima Chemicals Group, Inc - TYO: 4410)",24.7%,REPLACE - Obtain correct credit report,Wrong company entirely. Currently has FP TCE_v7.53 - Harimatec Inc (2025-08-06).pdf
+CRITICAL,c0000385,"JL Services Group, Inc.","Precision Facility Group, LLC / Precision Commercial Services, LLC (jointly PG)",25.8%,REPLACE - Obtain correct credit report,Wrong company entirely. Currently has FP TCE_v7.51 - Precision Group (2025-05-15).pdf
+CRITICAL,c0000766,Z.One Concept USA,"Z.One Concept USA, Inc. (owned by Beautynova Group, backed by PAI Partners and Bluegem Capital Partners)",28.8%,REPLACE - Obtain correct credit report,Wrong company entirely. Currently has FP TCE_v6.68 - ZOne (2024-05-22).pdf
+MEDIUM,c0001069,"Quench USA, Inc.","Quench USA, Inc (sub of Culligan, owned by BDT Capital)",36.9%,VERIFY - Check if parent/sub relationship is acceptable,May be acceptable if parent company guarantees
+MEDIUM,,Digi America Inc.,"DIGI America, Inc. (wholly-owned sub of Teraoka Seiko Co., LTD)",41.2%,VERIFY - Check if parent/sub relationship is acceptable,May be acceptable if parent company guarantees
+MEDIUM,c0000147,"Blendco Systems, LLC","Momentum Exterior Systems, LLC - sub of HITT",42.1%,VERIFY - Check if parent/sub relationship is acceptable,May be acceptable if parent company guarantees
+MEDIUM,c0000746,VIE DE France Yamazaki Inc,"Vie De France Yamazaki, Inc. (Wholly-owned subsidiary of Yamazaki Baking Company, Ltd)",46.3%,VERIFY - Check if parent/sub relationship is acceptable,May be acceptable if parent company guarantees
+MEDIUM,c0000586,"RD Foods America, Inc.",RD Foods Americas Inc. (wholly-owned sub of RD Corporation),50.7%,VERIFY - Check if parent/sub relationship is acceptable,May be acceptable if parent company guarantees
+MEDIUM,c0000771,Marcolin U.S.A. Eyewear Corp.,Macrolin U.S.A. Eyewear Corp (sub of Marcolin Group),63.0%,VERIFY - Check if parent/sub relationship is acceptable,May be acceptable if parent company guarantees
+MEDIUM,,"American Traffic Solutions, Inc.","American Traffic Solutions, Inc. (ATS) sub of Verra Mobility",67.4%,VERIFY - Check if parent/sub relationship is acceptable,May be acceptable if parent company guarantees
+LOW,c0000330,Greif Packaging LLC,"GC Packaging, LLC (GCP) - acquired by Fanatics Holdings",32.8%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0000367,"Insight North America, Inc.","ACTEGA North America, Inc.(Guarantor & partent ACTEGA Gmbh, overall part of Altana AG)",33.6%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0000209,"Corporate Facility Services USA, LLC","Precision Facility Group, LLC / Precision Commercial Services, LLC (jointly PG)",39.6%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,,"Atlantic Tape Company, Inc.","Currey & Company, Inc.",41.4%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0000095,American HVAC Inc,"American Musical Supply, Inc. (AMS)",44.4%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0000142,Biogen Laboratory Corporation,Chemed Corporation,46.2%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,,"Pro-Cam Georgia, Inc.","Delta Landscape Supply Of Georgia, Inc.",48.1%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0000997,Shearer Supply Inc.,"American Musical Supply, Inc. (AMS)",50.0%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0000951,"Laker Partners, LLC","Proven Partners Group, LLC (PPG)",50.0%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0000958,"B & D Industrial, Inc.","Mitchell Industrial Tire Co., Inc. (MITCO)",50.9%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,,"SHLA Group, Inc.","Clean Solutions Group, Inc. (CSG)",51.2%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0000945,"NYSE GROUP, INC.","Clean Solutions Group, Inc. (CSG)",51.2%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0000638,"Snap Tire, Inc.","USA Wheel & Tire Outlet, Inc.",52.6%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0000632,"Sigma Global, Inc.","Global Packaging, Inc.",52.9%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0000988,Kee Pest Control Inc.,"Control Works, Inc.",52.9%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0000726,Turbo Systems US Inc.,"Beard Integrated Systems, Inc.",53.3%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0000899,CORMED USA INC.,"Core & Main, Inc.",53.8%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0000622,Setzer's and Co. Inc.,"SABBOW AND CO., INC.",55.2%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0000181,"CF17 Management, LLC","WeldFit Management Holdings, LLC",59.1%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0000645,"South State, Inc.","Seal South, Inc.",59.3%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,,"Florida DeliCo, LLC","Florida Food Products, LLC",59.5%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,,"Diagnostic Support Services, Inc.","Triangle Services, Inc.",60.0%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,,"Diagnostic Support Services, Inc.","Triangle Services, Inc.",60.0%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0000759,"Xcision Medical Systems, LLC","Viscot Medical, LLC",61.5%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0000531,Overhead Door Corporation,Chemed Corporation,62.9%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0000531,Overhead Door Corporation,Chemed Corporation,62.9%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0000872,"Atlas Copco Compressors, LLC",Atlas Copco AB,63.2%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0000522,OEM Accessories  Incorporated,Corning Incorporated,65.1%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0000215,Cryovation LLC,Motorvation LLC,66.7%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0000985,"All-N-Express, LLC","ORAS Express, LLC",66.7%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0000418,L&W Supply Corporation,ABC Supply Holding Corporation,68.2%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0000753,Werner Aero Services,"Werner Aero, LLC",68.8%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,,"On Time Express, LLC","ORAS Express, LLC",69.0%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0001036,"Genband Industries, LLC","945 Industries, LLC",70.6%,VERIFY - Confirm same company,Appears to be name variation of same company
+LOW,c0000873,"Bates Enterprises, Inc.","Insight Enterprises, Inc.",76.2%,VERIFY - Confirm same company,Appears to be name variation of same company
+HIGH,c0000678,Superior Supply Chain Management Inc,"IMI Management, Inc. (IMI)",47.3%,REPLACE - Wrong company in similar industry,Industry confusion - needs correct credit report
+HIGH,c0000410,"KPower Global Logistics, LLC",GEMACP Logistics,55.0%,REPLACE - Wrong company in similar industry,Industry confusion - needs correct credit report
+HIGH,c0000178,Centerpoint Marketing Inc.,Marketing.com,55.6%,REPLACE - Wrong company in similar industry,Industry confusion - needs correct credit report
+HIGH,c0000959,"Mash Enterprise, LLC","Insight Enterprises, Inc.",73.7%,REPLACE - Wrong company in similar industry,Industry confusion - needs correct credit report

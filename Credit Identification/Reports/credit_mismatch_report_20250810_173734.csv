@@ -1,0 +1,51 @@
+Customer ID,Tenant Name,Matched Credit Name,Match Score,Calculated Similarity,Match Method,Credit File,Mismatch Flag
+c0000270,Event Link,"EventLink, LLC (wholly‐owned sub of EL Holding Company, Inc. and Subsidiaries)",90,24.0,Partial match,FP TCE_v6.66 - EventLink (2024-04-09).pdf,HIGH
+,Harimatec Inc.,"Harimatec, Inc (wholly-owned sub of Harima Chemicals Group, Inc - TYO: 4410)",100,24.7,Token fuzzy match,FP TCE_v7.53 - Harimatec Inc (2025-08-06).pdf,HIGH
+c0000385,"JL Services Group, Inc.","Precision Facility Group, LLC / Precision Commercial Services, LLC (jointly PG)",80,25.8,Token fuzzy match,FP TCE_v7.51 - Precision Group (2025-05-15).pdf,HIGH
+c0000766,Z.One Concept USA,"Z.One Concept USA, Inc. (owned by Beautynova Group, backed by PAI Partners and Bluegem Capital Partners)",100,28.8,Token fuzzy match,FP TCE_v6.68 - ZOne (2024-05-22).pdf,HIGH
+c0000330,Greif Packaging LLC,"GC Packaging, LLC (GCP) - acquired by Fanatics Holdings",81,32.8,Token fuzzy match,FP TCE_v7.53 - GC Packaging (2025-07-31).pdf,HIGH
+c0000367,"Insight North America, Inc.","ACTEGA North America, Inc.(Guarantor & partent ACTEGA Gmbh, overall part of Altana AG)",81,33.6,Token fuzzy match,"FP TCE_v6.67 - ACTEGA North America, Inc. (2024-04-16).pdf",HIGH
+c0001069,"Quench USA, Inc.","Quench USA, Inc (sub of Culligan, owned by BDT Capital)",100,36.9,Token fuzzy match,FP TCE_v7.44 - Quench USA (2025-01-16).pdf,HIGH
+c0000209,"Corporate Facility Services USA, LLC","Precision Facility Group, LLC / Precision Commercial Services, LLC (jointly PG)",75,39.6,Token fuzzy match,FP TCE_v7.51 - Precision Group (2025-05-15).pdf,HIGH
+,Digi America Inc.,"DIGI America, Inc. (wholly-owned sub of Teraoka Seiko Co., LTD)",100,41.2,Token fuzzy match,FP TCE_v7.45 - DIGI America (2025-03-11).pdf,HIGH
+,"Atlantic Tape Company, Inc.","Currey & Company, Inc.",76,41.4,Token fuzzy match,FP TCE_v7.42 - Currey & Company (2024-08-09).pdf,HIGH
+c0000147,"Blendco Systems, LLC","Momentum Exterior Systems, LLC - sub of HITT",73,42.1,Token fuzzy match,FP TCE_v7.53 - Momentum Glass (2025-06-04).pdf,HIGH
+c0000095,American HVAC Inc,"American Musical Supply, Inc. (AMS)",83,44.4,Token fuzzy match,"FP TCE_v6.57 - Master_American Musical Supply, Inc. (2023-09-21).pdf",HIGH
+c0000142,Biogen Laboratory Corporation,Chemed Corporation,76,46.2,Token fuzzy match,FP TCE_v6.67 - RotoRooter Plumbing & Drain Service (2024-04-16).pdf,HIGH
+c0000746,VIE DE France Yamazaki Inc,"Vie De France Yamazaki, Inc. (Wholly-owned subsidiary of Yamazaki Baking Company, Ltd)",100,46.3,Token fuzzy match,FP TCE_v7.44 - Vie de France Yamazaki (2024-12-12).pdf,HIGH
+c0000678,Superior Supply Chain Management Inc,"IMI Management, Inc. (IMI)",88,47.3,Token fuzzy match,FP TCE_v7.45 - IMI Management (2025-01-29).pdf,HIGH
+,"Pro-Cam Georgia, Inc.","Delta Landscape Supply Of Georgia, Inc.",73,48.1,Token fuzzy match,FP TCE_v7.44 - Delta Landscaping (2024-11-05).pdf,HIGH
+c0000997,Shearer Supply Inc.,"American Musical Supply, Inc. (AMS)",71,50.0,Token fuzzy match,"FP TCE_v6.57 - Master_American Musical Supply, Inc. (2023-09-21).pdf",MEDIUM
+c0000951,"Laker Partners, LLC","Proven Partners Group, LLC (PPG)",80,50.0,Token fuzzy match,FP TCE_v7.42 - Proven Partners Group (2024-08-06).pdf,MEDIUM
+c0000586,"RD Foods America, Inc.",RD Foods Americas Inc. (wholly-owned sub of RD Corporation),75,50.7,Token fuzzy match,FP TCE_v6.67 - RD Foods Americas Inc. (2026-05-20).pdf,MEDIUM
+c0000958,"B & D Industrial, Inc.","Mitchell Industrial Tire Co., Inc. (MITCO)",88,50.9,Token fuzzy match,FP TCE_v7.44 - Mitchell Industrial Tire (2024-10-16).pdf,MEDIUM
+,"SHLA Group, Inc.","Clean Solutions Group, Inc. (CSG)",78,51.2,Token fuzzy match,FP TCE_v7.44 - CSG (2025-02-12).pdf,MEDIUM
+c0000945,"NYSE GROUP, INC.","Clean Solutions Group, Inc. (CSG)",78,51.2,Token fuzzy match,FP TCE_v7.44 - CSG (2025-02-12).pdf,MEDIUM
+c0000638,"Snap Tire, Inc.","USA Wheel & Tire Outlet, Inc.",76,52.6,Token fuzzy match,FP TCE_v7.44 - USA Wheel & Tire (2024-11-23).pdf,MEDIUM
+c0000632,"Sigma Global, Inc.","Global Packaging, Inc.",77,52.9,Token fuzzy match,FP TCE_v7.53 - Global Packaging (2025-07-23).pdf,MEDIUM
+c0000988,Kee Pest Control Inc.,"Control Works, Inc.",76,52.9,Fuzzy match,FP TCE_v7.53 - Control Works (2025-08-04).pdf,MEDIUM
+c0000726,Turbo Systems US Inc.,"Beard Integrated Systems, Inc.",71,53.3,Token fuzzy match,FP TCE_v7.44 - Beard Integrated Systems (2024-10-21).pdf,MEDIUM
+c0000899,CORMED USA INC.,"Core & Main, Inc.",74,53.8,Token fuzzy match,FP TCE_v6.23 - Core & Main_v2.pdf,MEDIUM
+c0000410,"KPower Global Logistics, LLC",GEMACP Logistics,72,55.0,Token fuzzy match,FP TCE_v6.65 - Gemcap (2023-11-17).pdf,MEDIUM
+c0000622,Setzer's and Co. Inc.,"SABBOW AND CO., INC.",74,55.2,Token fuzzy match,FP TCE_v7.44 - WTC Granite (2024-11-20).pdf,MEDIUM
+c0000178,Centerpoint Marketing Inc.,Marketing.com,82,55.6,Token fuzzy match,FP TCE_v7.25 - Marketing.com (12.15.23).pdf,MEDIUM
+c0000181,"CF17 Management, LLC","WeldFit Management Holdings, LLC",85,59.1,Token fuzzy match,FP TCE_v7.44 - WeldFit (2024-11-05).pdf,MEDIUM
+c0000645,"South State, Inc.","Seal South, Inc.",83,59.3,Token fuzzy match,FP TCE_v7.44 - Seal South (2024-12-03).pdf,MEDIUM
+,"Florida DeliCo, LLC","Florida Food Products, LLC",76,59.5,Token fuzzy match,FP TCE_v7.45 - Florida Food Products (2025-02-28).pdf,MEDIUM
+,"Diagnostic Support Services, Inc.","Triangle Services, Inc.",73,60.0,Token fuzzy match,FP TCE_v7.44 - Triangle Services (2024-11-19).pdf,MEDIUM
+,"Diagnostic Support Services, Inc.","Triangle Services, Inc.",73,60.0,Token fuzzy match,FP TCE_v7.44 - Triangle Services (2024-11-19).pdf,MEDIUM
+c0000759,"Xcision Medical Systems, LLC","Viscot Medical, LLC",76,61.5,Token fuzzy match,FP TCE_v7.44 - Viscot Medical (2024-12-28).pdf,MEDIUM
+c0000531,Overhead Door Corporation,Chemed Corporation,76,62.9,Token fuzzy match,FP TCE_v6.67 - RotoRooter Plumbing & Drain Service (2024-04-16).pdf,MEDIUM
+c0000531,Overhead Door Corporation,Chemed Corporation,76,62.9,Token fuzzy match,FP TCE_v6.67 - RotoRooter Plumbing & Drain Service (2024-04-16).pdf,MEDIUM
+c0000771,Marcolin U.S.A. Eyewear Corp.,Macrolin U.S.A. Eyewear Corp (sub of Marcolin Group),100,63.0,Token fuzzy match,FP TCE_v7.52 - Marcolin (2025-05-06).pdf,MEDIUM
+c0000872,"Atlas Copco Compressors, LLC",Atlas Copco AB,88,63.2,Token fuzzy match,FP TCE_v6.23 - Atlas Copco_v2.pdf,MEDIUM
+c0000522,OEM Accessories  Incorporated,Corning Incorporated,75,65.1,Token fuzzy match,FP TCE_v7.45 - Corning Incorporated (2025-01-28).pdf,MEDIUM
+c0000215,Cryovation LLC,Motorvation LLC,76,66.7,Token fuzzy match,FP TCE_v6.65 - Motorvation LLC (2023-11-07).pdf,MEDIUM
+c0000985,"All-N-Express, LLC","ORAS Express, LLC",81,66.7,Token fuzzy match,FP TCE_v7.44 - ORAS Express (2024-11-28).pdf,MEDIUM
+,"American Traffic Solutions, Inc.","American Traffic Solutions, Inc. (ATS) sub of Verra Mobility",100,67.4,Token fuzzy match,FP TCE_v7.52 - American Traffic Solutions (2025-05-09).pdf,MEDIUM
+c0000418,L&W Supply Corporation,ABC Supply Holding Corporation,77,68.2,Fuzzy match,FP TCE_v7.44 - ABC Supply Corp (2024-10-08).pdf,MEDIUM
+c0000753,Werner Aero Services,"Werner Aero, LLC",85,68.8,Token fuzzy match,FP TCE_v7.44 - WernerAero (2024-11-22).pdf,MEDIUM
+,"On Time Express, LLC","ORAS Express, LLC",81,69.0,Token fuzzy match,FP TCE_v7.44 - ORAS Express (2024-11-28).pdf,MEDIUM
+c0001036,"Genband Industries, LLC","945 Industries, LLC",75,70.6,Fuzzy match,FP TCE_v7.45 - 945 Industries (2025-04-18).pdf,MEDIUM
+c0000959,"Mash Enterprise, LLC","Insight Enterprises, Inc.",71,73.7,Token fuzzy match,FP TCE_v7.44 - Insight Enterprise (2024-10-11).pdf,MEDIUM
+c0000873,"Bates Enterprises, Inc.","Insight Enterprises, Inc.",83,76.2,Token fuzzy match,FP TCE_v7.44 - Insight Enterprise (2024-10-11).pdf,MEDIUM

@@ -1,0 +1,5 @@
+risk_category,Count,Avg Score,Total Revenue (M)
+High Risk,5,2.7,218.8
+Low Risk,24,6.02,65830.1
+Medium Risk,39,4.41,3359.4
+No Score,79,,11762.0

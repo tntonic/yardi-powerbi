@@ -1,0 +1,151 @@
+customer_id,tenant_id,tenant_name,property_address,property_name,property_code,fund,naics,lease_id,credit_score,credit_score_date,parent_customer_id,tenant_risk,amendment_start_date,amendment_type,amendment_status
+c0000696,t0000434,The Gorilla Glue Company LLC,"nan Sharonville, OH 45241.0",12080 Mosteller Road,xohmost,2,,265496.0,,,,,,Renewal,Activated
+c0000181,t0000459,"CF17 Management, LLC","nan Mount Laurel, NJ 8054.0",3001 Irwin Road,xnj3001i,2,,185185.0,,,,,,Expansion,Activated
+c0000215,t0000491,Cryovation LLC,"nan Hainesport, NJ 8036.0",9 Mary Way,xnjmway9,2,,265406.0,,,,,,Expansion,Activated
+c0000558,t0000501,Postal Service,"nan Acworth, GA 30101.0",4200 McEver Drive,xgamc200,2,,262977.0,,,,,,Renewal,Activated
+c0000726,t0000511,Turbo Systems US Inc.,"nan Bolingbrook, IL 60440.0",1 Territorial Court,xil1terr,2,,265508.0,,,,,,Proposal in DM,Activated
+c0000367,t0000514,"Insight North America, Inc.","nan Hanover Park, IL 60133.0",1600 Hunter Rd,xil1600,2,,282706.0,,,,,,Renewal,Activated
+c0000147,t0000534,"Blendco Systems, LLC","nan Bristol, PA 19007.0",1 Pearl Buck Court,xpa1peae,2,,275718.0,,,,,,Renewal,Activated
+c0000244,t0000540,"Dynamic Rubber, Inc.","nan Mt. Prospect, IL 60056.0",900 East Business Center Drive,xil900b,2,,357007.0,,,,,,Proposal in DM,Activated
+c0000498,t0000542,"Myers Tire Supply Distribution, Inc.","nan Alpharetta, GA 30319.0",9330 Industrial Trace,xga9330,2,,265461.0,,,,,,Termination,Activated
+c0000209,t0000547,"Corporate Facility Services USA, LLC","nan Swedesboro, NJ 19130.0",313 Church Street,xnj313c,2,,369069.0,,,,,,Original Lease,Activated
+c0000627,t0000553,"Shingle & Gibb Automation, LLC","nan Moorestown, NJ 8057.0",845 Lancer Drive,xnj845l,2,,350861.0,,,,,,Original Lease,Activated
+c0000177,t0000578,"CCL Label, INC.","nan Moorestown, NJ 19102.0",390 New Albany Road,xnj390n,2,,242556.0,,,,,,Termination,Activated
+c0000751,t0000582,"Webtech, INC","nan Robbinsville, NJ 8691.0",108 North Gold Drive,xnj108n,2,,280804.0,,,,,,Termination,Activated
+c0000494,t0000593,Motorvation LLC,"nan Jonesboro, GA 30236.0",1157 Battlecreek Road,xga1157,2,,308922.0,,,,,,Termination,Activated
+c0000178,t0000594,Centerpoint Marketing Inc.,"nan Elk Grove Village, IL 60007.0",2101 Arthur Avenue,xil2101,2,,282702.0,,,,,,Renewal,Activated
+c0000193,t0000595,"Clingan Steel, Inc.","nan Elk Grove Village, IL 60007.0",2101 Arthur Avenue,xil2101,2,,208512.0,,,,,,Original Lease,Activated
+c0000301,t0000604,"G&W Products, LLC.","nan Fairfield, OH 45011.0",8655 Seward Road,xoh8655,2,,303735.0,,,,,,Renewal,Activated
+c0000199,t0000614,Combocap Inc.,"nan Whippany, NJ 7981.0",125 Algonquin Parkway,xnj125al,2,,271608.0,,,,,,Termination,Activated
+c0000164,t0000617,Cablevision of Oakland,"nan Oakland, NJ 7436.0",40 Potash Road,xnj40pot,2,,271605.0,,,,,,Renewal,Activated
+c0000324,t0000624,Goldstein & Burton,"nan Oakland, NJ 7436.0",128 Bauer Drive,xnj128ba,2,,271604.0,,,,,,Renewal,Activated
+c0000586,t0000627,"RD Foods America, Inc.","nan Fairlawn, NJ 7410.0",19-05 Nevins Road,xnj19nev,2,,248020.0,,,,,,Expansion,Activated
+c0000142,t0000629,Biogen Laboratory Corporation,"nan Fairlawn, NJ 7410.0",17-01 Pollitt Drive,xnj17pol,2,,343070.0,,,,,,Original Lease,Activated
+c0000416,t0000630,"Kyodo Shipping and Trading USA, Corp","nan Fairlawn, NJ 7410.0",17-01 Pollitt Drive,xnj17pol,2,,265452.0,,,,,,Renewal,Activated
+c0000410,t0000638,"KPower Global Logistics, LLC","nan Memphis, TN 38118.0",4290 Delp Street,xtndelp1,2,,265619.0,,,,,,Renewal,Activated
+c0000746,t0000641,VIE DE France Yamazaki Inc,"nan Atlanta, GA 30319.0",4507 Mills Place,xga4507m,2,,286196.0,,,,,,Renewal,Activated
+c0000632,t0000649,"Sigma Global, Inc.","nan Elk Grove Village, IL 60007.0",770 Arthur Avenue,xil770ar,2,,241614.0,,,,,,Termination,Activated
+c0000645,t0000658,"South State, Inc.","nan Bellmawr, NJ 8031.0",440 Benigno Boulevard,xnj440be,2,,275719.0,,,,,,Contraction,Activated
+c0000704,t0000661,The Printer Inc. (TPI),"nan Pennsauken, NJ 8110.0",1601-1641 Sherman Avenue,xnj1601s,2,,194197.0,,,,,,Expansion,Activated
+c0000053,t0000665,Terrazzo & Marble Supply Company of IL,"nan Wheeling, IL 60090.0",77 Wheeling Road,xil77whe,2,,265493.0,,,,,,Renewal,Activated
+c0000281,t0000671,"FCX Performance, Inc.","nan Columbus, OH 43219.0",3000 – 3004 E 14th Avenue,xohcolu1,2,,356996.0,,,,,,Original Lease,Activated
+c0000056,t0000675,"True World Foods Columbus, LLC","nan Columbus, OH 43219.0",3000 – 3004 E 14th Avenue,xohcolu1,2,,303737.0,,,,,,Proposal in DM,Activated
+c0000095,t0000681,American HVAC Inc,"nan Atlanta, GA 30036.0",4600&4630 Frederick Drive,xga4600f,2,,265386.0,,,,,,Holdover,Activated
+c0000279,t0000682,Fastenal Company,"nan Atlanta, GA 30036.0",4600&4630 Frederick Drive,xga4600f,2,,266095.0,,,,,,Renewal,Activated
+c0000544,t0000683,Pelton Shepherd Industries Inc,"nan Atlanta, GA 30036.0",4600&4630 Frederick Drive,xga4600f,2,,266088.0,,,,,,Renewal,Activated
+c0000574,t0000685,Pulseworks LLC,"nan Atlanta, GA 30036.0",4600&4630 Frederick Drive,xga4600f,2,,262831.0,,,,,,Renewal,Activated
+c0000678,t0000686,Superior Supply Chain Management Inc,"nan Atlanta, GA 30036.0",4600&4630 Frederick Drive,xga4600f,2,,342229.0,,,,,,Original Lease,Activated
+c0000136,t0000702,Bengal Converting Services,"nan Royersford, PA 19468.0",18 Railroad Street,xpa18rai,2,,265392.0,,,,,,Renewal,Activated
+c0000330,t0000704,Greif Packaging LLC,"nan Millstone, NJ 8535.0",200 Rike Drive,xnj200ri,2,,302101.0,,,,,,Renewal,Activated
+c0000418,t0000715,L&W Supply Corporation,"nan Gloucester City, NJ 8030.0",400 Water Street,xnj400wa,2,,184774.0,,,,,,Renewal,Activated
+c0000622,t0000716,Setzer's and Co. Inc.,"nan Jacksonville, FL 32256.0",7720 Philips Highway,xfl7720p,2,,351110.0,,,,,,Renewal,Activated
+c0000270,t0000718,Event Link,"nan Elk Grove Village, IL 60007.0",770 Arthur Avenue,xil770ar,2,,265418.0,,,,,,Holdover,Activated
+c0000206,t0000742,"Content Critical Solutions, Inc.","nan Moonachie, NJ 7074.0",121 Moonachie Ave,xnj121mo,2,,228429.0,,,,,,Renewal,Activated
+c0000255,t0000747,"Ehmke Manufacturing Co., Inc","nan Philadelphia, PA 19124.0",4200 Macalester Street,xpa4200m,2,,252809.0,,,,,,Renewal,Activated
+c0000026,t0000748,FedEx -Federal Express Corp.,"nan Fort Washington, PA 19034.0",500 Maryland Avenue,xpa500ma,2,,364336.0,,,,,,Original Lease,Activated
+c0000414,t0000773,"Kreg Therapeutics, Inc","nan Columbus, OH 43219.0",3045 – 3065 Switzer Avenue,xohcolu2,2,,265450.0,4.5,2025-07-01,,,,Renewal,Activated
+c0000378,t0000788,"Jade Carpentry Contractors, Inc.","nan Bensenville, IL 60106.0",141-145 Bernice,xil141be,2,,265439.0,,,,,,Renewal,Activated
+c0000385,t0000793,"JL Services Group, Inc.","nan Bensenville, IL 60106.0",201 James Street,xil201ja,2,,228227.0,,,,,,Renewal,Activated
+c0000284,t0000804,"Fitzsimmons Surgical Supply, Inc.","nan Bensenville, IL 60106.0",231 James Street,xil231ja,2,,265424.0,,,,,,Expansion,Activated
+c0000251,t0000818,"Economy Tire, Inc.","nan Dallas, TX 75228.0",11839 Shiloh Rd,xtx11839,2,,257046.0,,,,,,Renewal,Activated
+c0000046,t0000824,Nidia Valadez and Alejandro Contreras,"nan Dallas, TX 75220.0",10501 King William Drive,xtx1050k,2,,265381.0,,,,,,Expansion,Activated
+c0000531,t0000845,Overhead Door Corporation,"nan Florence, NJ 8016.0",70 Cathy Lane,xnj70cat,2,,346039.0,,,,,,Original Lease,Activated
+c0000402,t0000846,"Keller Warehousing & Co-Packaging, LLC","nan Dallas, TX 75236.0",4666 Duncanville Road,xtx4666d,2,,327867.0,,,,,,Renewal,Activated
+c0000522,t0000850,OEM Accessories  Incorporated,"nan Mahwah, NJ 7430.0",19 Industrial Avenue,xnj19ind,2,,265464.0,,,,,,Termination,Activated
+c0000753,t0000864,Werner Aero Services,"nan Mahwah, NJ 7430.0",19 Industrial Avenue,xnj19ind,2,,262499.0,,,,,,Expansion,Activated
+c0000735,t0000881,"United Refrigeration, Inc.","nan Bensenville, IL 60106.0",222 James Street,xil222ja,2,,205891.0,,,,,,Renewal,Activated
+c0000075,t0000882,AFS World Truck Repair LP,"nan Bensalem, PA 19020.0",3041 Marwin Road,xpa3041m,2,,265383.0,,,,,,Expansion,Activated
+c0000100,t0000921,"Amphenol EEC, Inc.","nan Des Plaines, IL 60018.0",1701 Birchwood,xil1701b,2,,270802.0,,,,,,Renewal,Activated
+c0000159,t0000925,Bunting Magnetics Company,"nan Elk Grove Village, IL 60007.0",1100-1150 Howard,xil1100h,2,,316642.0,,,,,,Renewal,Activated
+c0000805,t0000950,LINCARE INC.,"nan Bensenville, IL 60106.0",201 James Street,xil201ja,2,,265453.0,,,,,,Renewal,Activated
+c0000638,t0000952,"Snap Tire, Inc.","nan Jonesboro, GA 30236.0",1145 Battlecreek Road,xga1145b,2,,215692.0,,,,,,Renewal,Activated
+c0000023,t0000959,"Faropoint Ventures, LLC NJ","nan Mount Laurel, NJ 8054.0",3001 Irwin Road,xnj3001i,2,,265421.0,,,,,,Renewal,Activated
+c0000795,t0000967,"Darby Dental Supply, LLC","nan Memphis, TN 38118.0",4290 Delp Street,xtndelp1,2,,265411.0,,,,,,Original Lease,Activated
+c0000792,t0000991,Merritt LLC,"nan Oakland, NJ 7436.0",128 Bauer Drive,xnj128ba,2,,265456.0,,,,,,Original Lease,Activated
+c0000793,t0001007,NJ/NY Gotham Football Club LLC,"nan Whippany, NJ 7981.0",30 Leslie Court,xnj30les,2,,265433.0,,,,,,Original Lease,Activated
+c0000803,t0001012,KJ's Discount Outlet LLC,"nan Atlanta, GA 30336.0",4450 Commerce Circle,xga4450c,2,,265447.0,,,,,,Original Lease,Activated
+c0000056,t0001073,"True World Foods Columbus, LLC","nan Columbus, OH 43219.0",3040 – 3050 E 14th Avenue,xohcolu3,2,,187489.0,,,,,,Proposal in DM,Activated
+c0000942,t0001197,"Logisteed America, Inc.","nan Elk Grove Village, IL 60007.0",2101 Arthur Avenue,xil2101,2,,228176.0,,,,,,Original Lease,Activated
+c0001021,t0001339,"Matheson Tri-Gas, Inc.","nan Tampa, FL 33619.0",420 S. Ware Boulevard,xfl420sw,2,,273540.0,,,,,,Original Lease,Activated
+,t0001340,"MAGIC SCREEN PRINT LLC, and RETRO VERT, LLC","nan Atlanta, GA 30319.0",4507 Mills Place,xga4507m,2,,193722.0,,,,,,Proposal in DM,Activated
+c0001036,t0001359,"Genband Industries, LLC","nan Elk Grove Village, IL 60007.0",1100-1150 Howard,xil1100h,2,,280572.0,,,,,,Original Lease,Activated
+,t0001382,Roboreco Inc.,"nan Tampa, FL 33610.0",6704 N 54th St,xfl6704n,2,,369683.0,,,,,,Renewal,Activated
+,t0001385,"Atlantic Tape Company, Inc.","nan Tampa, FL 33610.0",6704 N 54th St,xfl6704n,2,,314022.0,,,,,,Termination,Activated
+c0001058,t0001397,Innoved Institute LLC,"nan Elk Grove Village, IL 60007.0",770 Arthur Avenue,xil770ar,2,,295114.0,,,,,,Original Lease,Activated
+c0001069,t0001417,"Quench USA, Inc.","nan Bensenville, IL 60106.0",231 James Street,xil231ja,2,,303704.0,,,,,,Original Lease,Activated
+,t0001418,"A&J Direct, Inc.","nan Bensenville, IL 60106.0",201 James Street,xil201ja,2,,303705.0,,,,,,Original Lease,Activated
+,t0001428,,"nan Royersford, PA 19468.0",18 Railroad Street,xpa18rai,2,,307577.0,,,,,,Original Lease,Activated
+,t0001448,"Family Vending, LLC","nan Bensenville, IL 60106.0",201 James Street,xil201ja,2,,315907.0,,,,,,Original Lease,Activated
+,t0001454,Trident ExIm LLC,"nan Mt. Prospect, IL 60056.0",900 East Business Center Drive,xil900b,2,,316641.0,4.0,2025-07-01,,,,Original Lease,Activated
+,t0001501,"Florida DeliCo, LLC","nan Jacksonville, FL 32256.0",7720 Philips Highway,xfl7720p,2,,313095.0,,,,,,Original Lease,Activated
+,t0001516,Turner Construction Company,"nan Elk Grove Village, IL 60007.0",770 Arthur Avenue,xil770ar,2,,341326.0,,,,,,Original Lease,Activated
+c0000245,t0001523,"EA Engineering, Science, and Technology, Inc.","nan Pennsauken, NJ 8110.0",1601-1641 Sherman Avenue,xnj1601s,2,,342884.0,5.0,2025-07-01,,,,Original Lease,Activated
+,t0001535,International General Trading Corp.,"nan Dallas, TX 75220.0",2616 Andjon Drive,xtx2616a,2,,347122.0,3.5,2025-07-01,,,,Original Lease,Activated
+,t0001669,,"nan Glendale Heights, IL 60139.0",700 High Grove Boulevard,xil700h,2,,367963.0,,,,,,Proposal in DM,Activated
+c0000225,t0000835,"Daring Design, LLC","nan Columbia, MD 21045.0",9176 Red Branch,3md00001,3,,300258.0,,,,,,Renewal,Activated
+c0000759,t0000841,"Xcision Medical Systems, LLC","nan Columbia, MD 21045.0",9176 Red Branch,3md00001,3,,211740.0,,,,,,Renewal,Activated
+c0000424,t0000847,"LCR Embedded Systems, Inc.","nan Norristown, PA 19401.0",9 S. Forrest Avenue,3pa00001,3,,280806.0,,,,,,Renewal,Activated
+c0000011,t0000865,American Builders & Contractor Supply Co. TN,"nan Memphis, TN 38118.0",3298 Democrat,3tn00002,3,,304038.0,,2025-07-01,,,,Renewal,Activated
+c0000309,t0000866,"Garland, LLC","nan Miami, FL 33142.0",3330 NW 60th St,3fl00003,3,,214119.0,,,,,,Renewal,Activated
+c0000493,t0000874,"Motion Industries, Inc.","nan Memphis, TN 38118.0",3272 Democrat,3tn00004,3,,220178.0,,,,,,Renewal,Activated
+c0000531,t0000891,Overhead Door Corporation,"nan Memphis, TN 38118.0",3338-3352 Democrat,3tn00001,3,,234269.0,,,,,,Renewal,Activated
+c0000766,t0000908,Z.One Concept USA,"nan Wayne, NJ 7470.0",26 Hanes Drive,3nj00003,3,,248018.0,,,,,,Renewal,Activated
+c0000194,t0000910,"Clique Here, LLC","nan Conyers, GA 30012.0",801 Blacklawn Road,3ga00002,3,,217127.0,,,,,,Renewal,Activated
+c0000533,t0000924,"Pacesetter Steel Service, Inc.","nan Marietta, GA 30066.0",1100 Shallowford Rd,3ga00003,3,,300464.0,3.0,2025-07-01,,,,Renewal,Activated
+c0000524,t0000930,Ohio Department of Administrative Services,"nan Columbus, OH 43209.0",2060-2098 N Integrity Dr,3oh00001,3,,265412.0,,,,,,Renewal,Activated
+c0000525,t0000934,Ohio Department of Job and Family Services,"nan Columbus, OH 43209.0",2060-2098 N Integrity Dr,3oh00001,3,,265465.0,,,,,,Renewal,Activated
+c0000771,t0001002,Marcolin U.S.A. Eyewear Corp.,"nan Branchburg, NJ 8876.0",3140 Route 22,3nj00006,3,,333216.0,5.5,2025-07-01,,,,Renewal,Activated
+c0000820,t0001023,"Fluid Fleet Services, LLC","nan Windsor Mill, MD 21244.0",7120 Ambassador Road,3md00004,3,,232023.0,,,,,,Termination,Activated
+c0000870,t0001082,"cbdMD, Inc.","nan Charlotte, NC 28273.0",2101 Westinghouse Boulevard,3nc00004,3,,284934.0,,,,,,Renewal,Activated
+c0000872,t0001088,"Atlas Copco Compressors, LLC","nan Charlotte, NC 28273.0",2101 Westinghouse Boulevard,3nc00004,3,,372602.0,,,,,,Original Lease,Activated
+c0000873,t0001089,"Bates Enterprises, Inc.","nan Charlotte, NC 28206.0",4112 Joe Street,3nc00002,3,,313522.0,,,,,,Original Lease,Activated
+c0000908,t0001100,Brasfield Gorrie,"nan Atlanta, GA 30318.0",2005 Marietta Rd,3ga00004,3,,193825.0,,,,,,Original Lease,Activated
+c0000576,t0001116,City of Charlotte,"nan Charlotte, NC 28208.0",2200 Executive Street,3nc00005,3,,197903.0,,,,,,Original Lease,Activated
+c0000891,t0001129,"Proximate Concepts, LLC & iNPLANT, LLC","nan Allendale, NJ 7401.0",6 Pearl Court,3nj00014,3,,297185.0,,,,,,Original Lease,Activated
+c0000899,t0001144,CORMED USA INC.,"nan Allendale, NJ 7401.0",3 Pearl Court,3nj00012,3,,255862.0,,,,,,Original Lease,Activated
+c0000951,t0001179,"Laker Partners, LLC","nan Cockeysville, MD 21030.0",221 Cockeysville Road,3md00005,3,,316552.0,,,,,,Proposal in DM,Activated
+c0000011,t0001187,American Builders & Contractor Supply Co. TN,"nan Memphis, TN 38118.0",3338-3352 Democrat,3tn00001,3,,222187.0,,2025-07-01,,,,Renewal,Activated
+c0000934,t0001204,"Tri-State Car Wash Supplies, LLC","nan Richardson, TX 75081.0",1800-20 N Glenville Drive,3tx00015,3,,241796.0,,,,,,Renewal,Activated
+c0000958,t0001245,"B & D Industrial, Inc.","nan Norcross, GA 30093.0",3905 Steve Reynolds Blvd,3ga00006,3,,313971.0,,,,,,Contraction,Activated
+c0000959,t0001246,"Mash Enterprise, LLC","nan Norcross, GA 30093.0",3905 Steve Reynolds Blvd,3ga00006,3,,313535.0,,,,,,Expansion,Activated
+c0000962,t0001251,"Delta Landscape Supply of Georgia, Inc","nan Norcross, GA 30093.0",4025 Steve Reynolds Blvd,3ga00007,3,,280211.0,,,,,,Renewal,Activated
+,t0001271,"Champion Gymnastics & Cheer, LLC,","nan Atlanta, GA 30318.0",2160 Hills Avenue,3ga00001,3,,262464.0,,,,,,Original Lease,Activated
+c0000969,t0001273,USCutter Inc.,"nan Memphis, TN 38118.0",3696 Knight Road,3tn00006,3,,272237.0,4.0,2025-07-01,,,,Renewal,Activated
+c0000976,t0001278,"The Juice Plus+ Company, LLC","nan Memphis, TN 38141.0",5445 E Raines,3tn00009,3,,280644.0,,,,,,Termination,Activated
+c0000972,t0001280,"Midwest Industrial Rubber, Inc.","nan Memphis, TN 38115.0",5425 E Raines,3tn00008,3,,275483.0,,,,,,Termination,Activated
+c0000973,t0001281,"Aluma-Form, Inc.","nan Memphis, TN 38118.0",3755 Knight Arnold Road,3tn00014,3,,273925.0,5.0,2025-07-01,,,,Renewal,Activated
+c0000974,t0001284,Dematic Corp.,"nan Memphis, TN 38141.0",5465 E Raines,3tn00007,3,,288065.0,,2025-07-01,,,,Renewal,Activated
+c0000990,t0001294,"William R. Eubanks Interior Design, Inc.","nan Memphis, TN 38118.0",4133-4175 Senator St,3tn00016,3,,296393.0,,,,,,Original Lease,Activated
+c0000985,t0001296,"All-N-Express, LLC","nan Memphis, TN 38118.0",4133-4175 Senator St,3tn00016,3,,297384.0,,2025-07-01,,,,Renewal,Activated
+c0000988,t0001299,Kee Pest Control Inc.,"nan Memphis, TN 38118.0",4133-4175 Senator St,3tn00016,3,,273921.0,,,,,,Renewal,Activated
+c0000999,t0001302,"Worksite Consultants, LLC","nan Memphis, TN 38115.0",5425 E Raines,3tn00008,3,,273933.0,,,,,,Termination,Activated
+c0000997,t0001309,Shearer Supply Inc.,"nan Memphis, TN 38118.0",4026-4080 Senator Street,3tn00013,3,,273919.0,,,,,,Renewal,Activated
+c0000996,t0001315,"La Michoacana Wholesale, Inc.","nan Memphis, TN 38118.0",4026-4080 Senator Street,3tn00013,3,,273920.0,,,,,,Renewal,Activated
+,t0001322,"Diagnostic Support Services, Inc.","nan Lombard, IL 60148.0",1064 N Garfield,3il00008,3,,356987.0,,,,,,Original Lease,Activated
+,t0001325,"Diagnostic Support Services, Inc.","nan Lombard, IL 60148.0",1064 N Garfield,3il00008,3,,356989.0,,,,,,Original Lease,Activated
+,t0001329,"MWD Logistics, Inc.","nan Morrow, GA 30260.0",1056 Personal Place,3ga00008,3,,308308.0,,,,,,Original Lease,Activated
+c0000897,t0001341,"CFC Group, LLC","nan Atlanta, GA 30318.0",2160 Hills Avenue,3ga00001,3,,274657.0,,,,,,Original Lease,Activated
+,t0001350,"SRS Distribution, Inc.","nan Norcross, GA 30093.0",1400 Beaver Ruin Rd,3ga00011,3,,282563.0,,,,,,Renewal,Activated
+,t0001351,Ken Color Laboratories,"nan Fairfield, NJ 7004.0",15 Gloria Lane,3nj00024,3,,367458.0,,,,,,Original Lease,Activated
+,t0001352,"Beard Integrated Systems, Inc.","nan Garland, TX 75042.0",1501 Kings Road,3tx00010,3,,278135.0,,,,,,Original Lease,Activated
+c0001048,t0001363,Flower Shop El Chapin LLC,"nan Dallas, TX 75238.0",10755 Sanden Drive,3tx00014,3,,281878.0,,,,,,Original Lease,Activated
+c0000945,t0001386,"NYSE GROUP, INC.","nan Allendale, NJ 7401.0",3 Pearl Court,3nj00012,3,,282689.0,,,,,,Original Lease,Activated
+,t0001399,"American Expediting Logistics, LLC","nan Folcroft, PA 19032.0",801 Primos Avenue,3pa00003,3,,297171.0,,,,,,Renewal,Activated
+,t0001407,"IMI Management, INC","nan Charlotte, NC 28269.0",12140 Vance Davis,3nc00008,3,,296166.0,,,,,,Original Lease,Activated
+,t0001411,"Miller Equipment Services, LLC","nan Westville, NJ 8093.0",601 Ryan Avenue,3nj00027,3,,340937.0,,,,,,Original Lease,Activated
+,t0001420,Circuit Works Corporation,"nan Dallas, TX 75238.0",10755 Sanden Drive,3tx00014,3,,304774.0,,,,,,Original Lease,Activated
+,t0001430,"American Traffic Solutions, Inc.","nan Norristown, PA 19401.0",9 S. Forrest Avenue,3pa00001,3,,309706.0,,,,,,Original Lease,Activated
+,t0001434,"SHLA Group, Inc.","nan Torrance, CA 90503.0",605-655 Hawaii Avenue,3ca00001,3,,329732.0,,,,,,Renewal,Activated
+,t0001442,1265 Naperville Drive LLC,"nan Romeoville, IL 60446.0",1265 Naperville Drive,3il00013,3,,312252.0,,,,,,Original Lease,Activated
+c0000918,t0001443,Prime Egrocery Inc,"nan Columbia, MD 21045.0",9176 Red Branch,3md00001,3,,311827.0,,,,,,Original Lease,Activated
+,t0001449,"QG Geophysics, Inc.","nan Richardson, TX 75081.0",1800-20 N Glenville Drive,3tx00015,3,,316451.0,,,,,,Original Lease,Activated
+,t0001452,Digi America Inc.,"nan Somerset, NJ 8873.0",155 Pierce Street,3nj00028,3,,316536.0,5.0,2025-07-01,,,,Original Lease,Activated
+,t0001462,March Products Inc.,"nan Carrollton, TX 75006.0",1101 Venture Ct.,3tx00011,3,,327829.0,,,,,,Original Lease,Activated
+,t0001497,"On Time Express, LLC","nan Ontario, CA 91761.0",1930 S. Rochester Avenue,3ca00005,3,,341087.0,,,,,,Original Lease,Activated
+,t0001518,"Koontz Electric Company, Inc.","nan Memphis, TN 38118.0",3338-3352 Democrat,3tn00001,3,,311196.0,6.0,2025-07-01,,,,Original Lease,Activated
+,t0001553,"Pro-Cam Georgia, Inc.","nan Marietta, GA 30062.0",1775 West Oak Parkway,3ga00016,3,,371416.0,,,,,,Original Lease,Activated
+,t0001560,Harimatec Inc.,"nan Duluth, GA 30096.0",1965 Evergreen Boulevard,3ga00019,3,,370652.0,,,,,,Holdover,Activated
+,t0001564,ADT LLC,"nan Duluth, GA 30096.0",1965 Evergreen Boulevard,3ga00019,3,,364628.0,,,,,,Original Lease,Activated
+,t0001586,Sposa Fashions LLC,"nan Orlando, FL 32822.0",6901 TPC Drive,3fl00027,3,,369302.0,,,,,,Original Lease,Activated
+,t0001640,"S-L Distribution Company, LLC","nan Rockaway, NJ 7866.0",400 Forge Way,3nj00034,3,,364665.0,,,,,,Original Lease,Activated
+,t0001700,Olive My Pickle,"nan Jacksonville, FL 32256.0",7720 Philips Highway,xfl7720p,2,,,5.0,2025-07-01,,,2025-07-01,New,Activated

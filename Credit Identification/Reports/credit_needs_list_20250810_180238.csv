@@ -1,0 +1,97 @@
+customer_id,tenant_name,property,fund,lease_id,priority,category,folder_status,priority_num
+c0000178,Centerpoint Marketing Inc.,2101 Arthur Avenue,2,282702,CRITICAL,critical_cleared,HAS_1_FILES,1
+c0000270,Event Link,770 Arthur Avenue,2,265418,CRITICAL,critical_cleared,HAS_1_FILES,1
+c0000385,"JL Services Group, Inc.",201 James Street,2,228227,CRITICAL,critical_cleared,NO_FOLDER,1
+c0000410,"KPower Global Logistics, LLC",4290 Delp Street,2,265619,CRITICAL,critical_cleared,HAS_1_FILES,1
+c0000959,"Mash Enterprise, LLC",3905 Steve Reynolds Blvd,3,313535,CRITICAL,critical_cleared,NO_FOLDER,1
+c0000678,Superior Supply Chain Management Inc,4600&4630 Frederick Drive,2,342229,CRITICAL,critical_cleared,HAS_1_FILES,1
+c0001071,"American Traffic Solutions, Inc.",9 S. Forrest Avenue,3,309706,HIGH,new_customer_ids,EMPTY,2
+c0001076,"Atlantic Tape Company, Inc.",6704 N 54th St,2,314022,HIGH,new_customer_ids,EMPTY,2
+c0001073,"Diagnostic Support Services, Inc.",1064 N Garfield,3,356987,HIGH,new_customer_ids,EMPTY,2
+c0001073,"Diagnostic Support Services, Inc.",1064 N Garfield,3,356989,HIGH,new_customer_ids,EMPTY,2
+c0001072,Digi America Inc.,155 Pierce Street,3,316536,HIGH,new_customer_ids,EMPTY,2
+c0001075,"Florida DeliCo, LLC",7720 Philips Highway,2,313095,HIGH,new_customer_ids,EMPTY,2
+c0001048,Flower Shop El Chapin LLC,10755 Sanden Drive,3,281878,HIGH,new_customer_ids,HAS_1_FILES,2
+c0001036,"Genband Industries, LLC",1100-1150 Howard,2,280572,HIGH,new_customer_ids,HAS_1_FILES,2
+c0001070,Harimatec Inc.,1965 Evergreen Boulevard,3,370652,HIGH,new_customer_ids,EMPTY,2
+c0001058,Innoved Institute LLC,770 Arthur Avenue,2,295114,HIGH,new_customer_ids,HAS_1_FILES,2
+c0001021,"Matheson Tri-Gas, Inc.",420 S. Ware Boulevard,2,273540,HIGH,new_customer_ids,NO_FOLDER,2
+c0001074,"On Time Express, LLC",1930 S. Rochester Avenue,3,341087,HIGH,new_customer_ids,EMPTY,2
+c0001077,"Pro-Cam Georgia, Inc.",1775 West Oak Parkway,3,371416,HIGH,new_customer_ids,EMPTY,2
+c0001069,"Quench USA, Inc.",231 James Street,2,303704,HIGH,new_customer_ids,HAS_1_FILES,2
+c0001078,"SHLA Group, Inc.",605-655 Hawaii Avenue,3,329732,HIGH,new_customer_ids,EMPTY,2
+c0000075,AFS World Truck Repair LP,3041 Marwin Road,2,265383,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000100,"Amphenol EEC, Inc.",1701 Birchwood,2,270802,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000177,"CCL Label, INC.",390 New Albany Road,2,242556,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000164,Cablevision of Oakland,40 Potash Road,2,271605,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000193,"Clingan Steel, Inc.",2101 Arthur Avenue,2,208512,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000199,Combocap Inc.,125 Algonquin Parkway,2,271608,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000206,"Content Critical Solutions, Inc.",121 Moonachie Ave,2,228429,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000795,"Darby Dental Supply, LLC",4290 Delp Street,2,265411,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000245,"EA Engineering, Science, and Technology, Inc.",1601-1641 Sherman Avenue,2,342884,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000251,"Economy Tire, Inc.",11839 Shiloh Rd,2,257046,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000281,"FCX Performance, Inc.",3000 – 3004 E 14th Avenue,2,356996,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000023,"Faropoint Ventures, LLC NJ",3001 Irwin Road,2,265421,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000026,FedEx -Federal Express Corp.,500 Maryland Avenue,2,364336,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000284,"Fitzsimmons Surgical Supply, Inc.",231 James Street,2,265424,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000324,Goldstein & Burton,128 Bauer Drive,2,271604,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000803,KJ's Discount Outlet LLC,4450 Commerce Circle,2,265447,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000402,"Keller Warehousing & Co-Packaging, LLC",4666 Duncanville Road,2,327867,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000416,"Kyodo Shipping and Trading USA, Corp",17-01 Pollitt Drive,2,265452,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000805,LINCARE INC.,201 James Street,2,265453,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000942,"Logisteed America, Inc.",2101 Arthur Avenue,2,228176,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000792,Merritt LLC,128 Bauer Drive,2,265456,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000498,"Myers Tire Supply Distribution, Inc.",9330 Industrial Trace,2,265461,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000046,Nidia Valadez and Alejandro Contreras,10501 King William Drive,2,265381,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000558,Postal Service,4200 McEver Drive,2,262977,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000574,Pulseworks LLC,4600&4630 Frederick Drive,2,262831,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000627,"Shingle & Gibb Automation, LLC",845 Lancer Drive,2,350861,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000053,Terrazzo & Marble Supply Company of IL,77 Wheeling Road,2,265493,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000696,The Gorilla Glue Company LLC,12080 Mosteller Road,2,265496,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000704,The Printer Inc. (TPI),1601-1641 Sherman Avenue,2,194197,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000735,"United Refrigeration, Inc.",222 James Street,2,205891,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000751,"Webtech, INC",108 North Gold Drive,2,280804,MEDIUM,no_match_high_value,NO_FOLDER,3
+c0000011,American Builders & Contractor Supply Co. TN,3298 Democrat,3,304038,LOW,no_match_regular,NO_FOLDER,4
+c0000011,American Builders & Contractor Supply Co. TN,3338-3352 Democrat,3,222187,LOW,no_match_regular,NO_FOLDER,4
+c0000908,Brasfield Gorrie,2005 Marietta Rd,3,193825,LOW,no_match_regular,NO_FOLDER,4
+c0000576,City of Charlotte,2200 Executive Street,3,197903,LOW,no_match_regular,NO_FOLDER,4
+c0000974,Dematic Corp.,5465 E Raines,3,288065,LOW,no_match_regular,NO_FOLDER,4
+c0000820,"Fluid Fleet Services, LLC",7120 Ambassador Road,3,232023,LOW,no_match_regular,NO_FOLDER,4
+c0000309,"Garland, LLC",3330 NW 60th St,3,214119,LOW,no_match_regular,NO_FOLDER,4
+c0000424,"LCR Embedded Systems, Inc.",9 S. Forrest Avenue,3,280806,LOW,no_match_regular,NO_FOLDER,4
+c0000996,"La Michoacana Wholesale, Inc.",4026-4080 Senator Street,3,273920,LOW,no_match_regular,NO_FOLDER,4
+c0000972,"Midwest Industrial Rubber, Inc.",5425 E Raines,3,275483,LOW,no_match_regular,NO_FOLDER,4
+c0000524,Ohio Department of Administrative Services,2060-2098 N Integrity Dr,3,265412,LOW,no_match_regular,NO_FOLDER,4
+c0000525,Ohio Department of Job and Family Services,2060-2098 N Integrity Dr,3,265465,LOW,no_match_regular,NO_FOLDER,4
+c0000533,"Pacesetter Steel Service, Inc.",1100 Shallowford Rd,3,300464,LOW,no_match_regular,NO_FOLDER,4
+c0000891,"Proximate Concepts, LLC & iNPLANT, LLC",6 Pearl Court,3,297185,LOW,no_match_regular,NO_FOLDER,4
+c0000976,"The Juice Plus+ Company, LLC",5445 E Raines,3,280644,LOW,no_match_regular,NO_FOLDER,4
+c0000934,"Tri-State Car Wash Supplies, LLC",1800-20 N Glenville Drive,3,241796,LOW,no_match_regular,NO_FOLDER,4
+c0000969,USCutter Inc.,3696 Knight Road,3,272237,LOW,no_match_regular,NO_FOLDER,4
+c0000990,"William R. Eubanks Interior Design, Inc.",4133-4175 Senator St,3,296393,LOW,no_match_regular,NO_FOLDER,4
+c0000999,"Worksite Consultants, LLC",5425 E Raines,3,273933,LOW,no_match_regular,NO_FOLDER,4
+NEEDS_ID,1265 Naperville Drive LLC,1265 Naperville Drive,3,312252,ASSIGN_ID_FIRST,missing_customer_id,NO_ID,6
+NEEDS_ID,"A&J Direct, Inc.",201 James Street,2,303705,ASSIGN_ID_FIRST,missing_customer_id,NO_ID,6
+NEEDS_ID,ADT LLC,1965 Evergreen Boulevard,3,364628,ASSIGN_ID_FIRST,missing_customer_id,NO_ID,6
+NEEDS_ID,"American Expediting Logistics, LLC",801 Primos Avenue,3,297171,ASSIGN_ID_FIRST,missing_customer_id,NO_ID,6
+NEEDS_ID,"Beard Integrated Systems, Inc.",1501 Kings Road,3,278135,ASSIGN_ID_FIRST,missing_customer_id,NO_ID,6
+NEEDS_ID,"Champion Gymnastics & Cheer, LLC,",2160 Hills Avenue,3,262464,ASSIGN_ID_FIRST,missing_customer_id,NO_ID,6
+NEEDS_ID,Circuit Works Corporation,10755 Sanden Drive,3,304774,ASSIGN_ID_FIRST,missing_customer_id,NO_ID,6
+NEEDS_ID,"Family Vending, LLC",201 James Street,2,315907,ASSIGN_ID_FIRST,missing_customer_id,NO_ID,6
+NEEDS_ID,"IMI Management, INC",12140 Vance Davis,3,296166,ASSIGN_ID_FIRST,missing_customer_id,NO_ID,6
+NEEDS_ID,International General Trading Corp.,2616 Andjon Drive,2,347122,ASSIGN_ID_FIRST,missing_customer_id,NO_ID,6
+NEEDS_ID,Ken Color Laboratories,15 Gloria Lane,3,367458,ASSIGN_ID_FIRST,missing_customer_id,NO_ID,6
+NEEDS_ID,"Koontz Electric Company, Inc.",3338-3352 Democrat,3,311196,ASSIGN_ID_FIRST,missing_customer_id,NO_ID,6
+NEEDS_ID,"MAGIC SCREEN PRINT LLC, and RETRO VERT, LLC",4507 Mills Place,2,193722,ASSIGN_ID_FIRST,missing_customer_id,NO_ID,6
+NEEDS_ID,"MWD Logistics, Inc.",1056 Personal Place,3,308308,ASSIGN_ID_FIRST,missing_customer_id,NO_ID,6
+NEEDS_ID,March Products Inc.,1101 Venture Ct.,3,327829,ASSIGN_ID_FIRST,missing_customer_id,NO_ID,6
+NEEDS_ID,"Miller Equipment Services, LLC",601 Ryan Avenue,3,340937,ASSIGN_ID_FIRST,missing_customer_id,NO_ID,6
+NEEDS_ID,"QG Geophysics, Inc.",1800-20 N Glenville Drive,3,316451,ASSIGN_ID_FIRST,missing_customer_id,NO_ID,6
+NEEDS_ID,Roboreco Inc.,6704 N 54th St,2,369683,ASSIGN_ID_FIRST,missing_customer_id,NO_ID,6
+NEEDS_ID,"S-L Distribution Company, LLC",400 Forge Way,3,364665,ASSIGN_ID_FIRST,missing_customer_id,NO_ID,6
+NEEDS_ID,"SRS Distribution, Inc.",1400 Beaver Ruin Rd,3,282563,ASSIGN_ID_FIRST,missing_customer_id,NO_ID,6
+NEEDS_ID,Sposa Fashions LLC,6901 TPC Drive,3,369302,ASSIGN_ID_FIRST,missing_customer_id,NO_ID,6
+NEEDS_ID,Trident ExIm LLC,900 East Business Center Drive,2,316641,ASSIGN_ID_FIRST,missing_customer_id,NO_ID,6
+NEEDS_ID,Turner Construction Company,770 Arthur Avenue,2,341326,ASSIGN_ID_FIRST,missing_customer_id,NO_ID,6
+NEEDS_ID,,18 Railroad Street,2,307577,ASSIGN_ID_FIRST,missing_customer_id,NO_ID,6
+NEEDS_ID,,700 High Grove Boulevard,2,367963,ASSIGN_ID_FIRST,missing_customer_id,NO_ID,6

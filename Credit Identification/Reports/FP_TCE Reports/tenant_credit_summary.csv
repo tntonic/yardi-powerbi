@@ -1,0 +1,151 @@
+tenant_name,fund,property_name,combined_credit_score,combined_credit_rating,risk_level,score_source
+Bengal Converting Services,2,18 Railroad Street,2.0,,High Risk,TCE Evaluation
+NJ/NY Gotham Football Club LLC,2,30 Leslie Court,2.5,,High Risk,TCE Evaluation
+"American Expediting Logistics, LLC",3,801 Primos Avenue,3.0,,High Risk,TCE Evaluation
+"Pacesetter Steel Service, Inc.",3,1100 Shallowford Rd,3.0,,High Risk,Q2 2025 PDF
+"cbdMD, Inc.",3,2101 Westinghouse Boulevard,3.0,,High Risk,TCE Evaluation
+"A&J Direct, Inc.",2,201 James Street,3.5,CC,High Risk,TCE Evaluation
+Flower Shop El Chapin LLC,3,10755 Sanden Drive,3.5,CC,High Risk,TCE Evaluation
+International General Trading Corp.,2,2616 Andjon Drive,3.5,,High Risk,Q2 2025 PDF
+"MWD Logistics, Inc.",3,1056 Personal Place,3.5,,High Risk,TCE Evaluation
+"Champion Gymnastics & Cheer, LLC,",3,2160 Hills Avenue,4.0,CCC,Medium-High Risk,TCE Evaluation
+"Daring Design, LLC",3,9176 Red Branch,4.0,CCC,Medium-High Risk,TCE Evaluation
+"Family Vending, LLC",2,201 James Street,4.0,CCC,Medium-High Risk,TCE Evaluation
+Ken Color Laboratories,3,15 Gloria Lane,4.0,CCC,Medium-High Risk,TCE Evaluation
+Prime Egrocery Inc,3,9176 Red Branch,4.0,CCC,Medium-High Risk,TCE Evaluation
+Trident ExIm LLC,2,900 East Business Center Drive,4.0,CCC,Medium-High Risk,Both (Q2 Primary)
+USCutter Inc.,3,3696 Knight Road,4.0,,Medium-High Risk,Q2 2025 PDF
+"Beard Integrated Systems, Inc.",3,1501 Kings Road,4.5,,Medium-High Risk,TCE Evaluation
+"CFC Group, LLC",3,2160 Hills Avenue,4.5,,Medium-High Risk,TCE Evaluation
+"Delta Landscape Supply of Georgia, Inc",3,4025 Steve Reynolds Blvd,4.5,,Medium-High Risk,TCE Evaluation
+"Dynamic Rubber, Inc.",2,900 East Business Center Drive,4.5,,Medium-High Risk,TCE Evaluation
+"Kreg Therapeutics, Inc",2,3045 – 3065 Switzer Avenue,4.5,,Medium-High Risk,Q2 2025 PDF
+March Products Inc.,3,1101 Venture Ct.,4.5,,Medium-High Risk,TCE Evaluation
+"Aluma-Form, Inc.",3,3755 Knight Arnold Road,5.0,,Medium Risk,Both (Q2 Primary)
+Circuit Works Corporation,3,10755 Sanden Drive,5.0,B,Medium Risk,TCE Evaluation
+Digi America Inc.,3,155 Pierce Street,5.0,,Medium Risk,Q2 2025 PDF
+"EA Engineering, Science, and Technology, Inc.",2,1601-1641 Sherman Avenue,5.0,,Medium Risk,Q2 2025 PDF
+Innoved Institute LLC,2,770 Arthur Avenue,5.0,,Medium Risk,TCE Evaluation
+"Jade Carpentry Contractors, Inc.",2,141-145 Bernice,5.0,,Medium Risk,TCE Evaluation
+Olive My Pickle,2,7720 Philips Highway,5.0,,Medium Risk,Q2 2025 PDF
+Pelton Shepherd Industries Inc,2,4600&4630 Frederick Drive,5.0,B,Medium Risk,TCE Evaluation
+"True World Foods Columbus, LLC",2,3000 – 3004 E 14th Avenue,5.0,,Medium Risk,TCE Evaluation
+"True World Foods Columbus, LLC",2,3040 – 3050 E 14th Avenue,5.0,,Medium Risk,TCE Evaluation
+Marcolin U.S.A. Eyewear Corp.,3,3140 Route 22,5.5,,Medium Risk,Q2 2025 PDF
+Bunting Magnetics Company,2,1100-1150 Howard,6.0,,Medium Risk,TCE Evaluation
+"Koontz Electric Company, Inc.",3,3338-3352 Democrat,6.0,BB,Medium Risk,Both (Q2 Primary)
+Fastenal Company,2,4600&4630 Frederick Drive,9.5,,Low Risk,TCE Evaluation
+1265 Naperville Drive LLC,3,1265 Naperville Drive,,,Not Evaluated,No Score
+ADT LLC,3,1965 Evergreen Boulevard,,,Not Evaluated,No Score
+AFS World Truck Repair LP,2,3041 Marwin Road,,,Not Evaluated,No Score
+"All-N-Express, LLC",3,4133-4175 Senator St,,,Not Evaluated,No Score
+American Builders & Contractor Supply Co. TN,3,3298 Democrat,,,Not Evaluated,No Score
+American Builders & Contractor Supply Co. TN,3,3338-3352 Democrat,,,Not Evaluated,No Score
+American HVAC Inc,2,4600&4630 Frederick Drive,,,Not Evaluated,No Score
+"American Traffic Solutions, Inc.",3,9 S. Forrest Avenue,,,Not Evaluated,No Score
+"Amphenol EEC, Inc.",2,1701 Birchwood,,,Not Evaluated,No Score
+"Atlantic Tape Company, Inc.",2,6704 N 54th St,,,Not Evaluated,No Score
+"Atlas Copco Compressors, LLC",3,2101 Westinghouse Boulevard,,,Not Evaluated,No Score
+"B & D Industrial, Inc.",3,3905 Steve Reynolds Blvd,,,Not Evaluated,No Score
+"Bates Enterprises, Inc.",3,4112 Joe Street,,,Not Evaluated,No Score
+Biogen Laboratory Corporation,2,17-01 Pollitt Drive,,,Not Evaluated,No Score
+"Blendco Systems, LLC",2,1 Pearl Buck Court,,,Not Evaluated,No Score
+Brasfield Gorrie,3,2005 Marietta Rd,,,Not Evaluated,No Score
+"CCL Label, INC.",2,390 New Albany Road,,,Not Evaluated,No Score
+"CF17 Management, LLC",2,3001 Irwin Road,,,Not Evaluated,No Score
+CORMED USA INC.,3,3 Pearl Court,,,Not Evaluated,No Score
+Cablevision of Oakland,2,40 Potash Road,,,Not Evaluated,No Score
+Centerpoint Marketing Inc.,2,2101 Arthur Avenue,,,Not Evaluated,No Score
+City of Charlotte,3,2200 Executive Street,,,Not Evaluated,No Score
+"Clingan Steel, Inc.",2,2101 Arthur Avenue,,,Not Evaluated,No Score
+"Clique Here, LLC",3,801 Blacklawn Road,,,Not Evaluated,No Score
+Combocap Inc.,2,125 Algonquin Parkway,,,Not Evaluated,No Score
+"Content Critical Solutions, Inc.",2,121 Moonachie Ave,,,Not Evaluated,No Score
+"Corporate Facility Services USA, LLC",2,313 Church Street,,,Not Evaluated,No Score
+Cryovation LLC,2,9 Mary Way,,,Not Evaluated,No Score
+"Darby Dental Supply, LLC",2,4290 Delp Street,,,Not Evaluated,No Score
+Dematic Corp.,3,5465 E Raines,,,Not Evaluated,No Score
+"Diagnostic Support Services, Inc.",3,1064 N Garfield,,,Not Evaluated,No Score
+"Diagnostic Support Services, Inc.",3,1064 N Garfield,,,Not Evaluated,No Score
+"Economy Tire, Inc.",2,11839 Shiloh Rd,,,Not Evaluated,No Score
+"Ehmke Manufacturing Co., Inc",2,4200 Macalester Street,,,Not Evaluated,No Score
+Event Link,2,770 Arthur Avenue,,,Not Evaluated,No Score
+"FCX Performance, Inc.",2,3000 – 3004 E 14th Avenue,,,Not Evaluated,No Score
+"Faropoint Ventures, LLC NJ",2,3001 Irwin Road,,,Not Evaluated,No Score
+FedEx -Federal Express Corp.,2,500 Maryland Avenue,,,Not Evaluated,No Score
+"Fitzsimmons Surgical Supply, Inc.",2,231 James Street,,,Not Evaluated,No Score
+"Florida DeliCo, LLC",2,7720 Philips Highway,,,Not Evaluated,No Score
+"Fluid Fleet Services, LLC",3,7120 Ambassador Road,,,Not Evaluated,No Score
+"G&W Products, LLC.",2,8655 Seward Road,,,Not Evaluated,No Score
+"Garland, LLC",3,3330 NW 60th St,,,Not Evaluated,No Score
+"Genband Industries, LLC",2,1100-1150 Howard,,,Not Evaluated,No Score
+Goldstein & Burton,2,128 Bauer Drive,,,Not Evaluated,No Score
+Greif Packaging LLC,2,200 Rike Drive,,,Not Evaluated,No Score
+Harimatec Inc.,3,1965 Evergreen Boulevard,,,Not Evaluated,No Score
+"IMI Management, INC",3,12140 Vance Davis,,,Not Evaluated,No Score
+"Insight North America, Inc.",2,1600 Hunter Rd,,,Not Evaluated,No Score
+"JL Services Group, Inc.",2,201 James Street,,,Not Evaluated,No Score
+KJ's Discount Outlet LLC,2,4450 Commerce Circle,,,Not Evaluated,No Score
+"KPower Global Logistics, LLC",2,4290 Delp Street,,,Not Evaluated,No Score
+Kee Pest Control Inc.,3,4133-4175 Senator St,,,Not Evaluated,No Score
+"Keller Warehousing & Co-Packaging, LLC",2,4666 Duncanville Road,,,Not Evaluated,No Score
+"Kyodo Shipping and Trading USA, Corp",2,17-01 Pollitt Drive,,,Not Evaluated,No Score
+L&W Supply Corporation,2,400 Water Street,,,Not Evaluated,No Score
+"LCR Embedded Systems, Inc.",3,9 S. Forrest Avenue,,,Not Evaluated,No Score
+LINCARE INC.,2,201 James Street,,,Not Evaluated,No Score
+"La Michoacana Wholesale, Inc.",3,4026-4080 Senator Street,,,Not Evaluated,No Score
+"Laker Partners, LLC",3,221 Cockeysville Road,,,Not Evaluated,No Score
+"Logisteed America, Inc.",2,2101 Arthur Avenue,,,Not Evaluated,No Score
+"MAGIC SCREEN PRINT LLC, and RETRO VERT, LLC",2,4507 Mills Place,,,Not Evaluated,No Score
+"Mash Enterprise, LLC",3,3905 Steve Reynolds Blvd,,,Not Evaluated,No Score
+"Matheson Tri-Gas, Inc.",2,420 S. Ware Boulevard,,,Not Evaluated,No Score
+Merritt LLC,2,128 Bauer Drive,,,Not Evaluated,No Score
+"Midwest Industrial Rubber, Inc.",3,5425 E Raines,,,Not Evaluated,No Score
+"Miller Equipment Services, LLC",3,601 Ryan Avenue,,,Not Evaluated,No Score
+"Motion Industries, Inc.",3,3272 Democrat,,,Not Evaluated,No Score
+Motorvation LLC,2,1157 Battlecreek Road,,,Not Evaluated,No Score
+"Myers Tire Supply Distribution, Inc.",2,9330 Industrial Trace,,,Not Evaluated,No Score
+"NYSE GROUP, INC.",3,3 Pearl Court,,,Not Evaluated,No Score
+Nidia Valadez and Alejandro Contreras,2,10501 King William Drive,,,Not Evaluated,No Score
+OEM Accessories  Incorporated,2,19 Industrial Avenue,,,Not Evaluated,No Score
+Ohio Department of Administrative Services,3,2060-2098 N Integrity Dr,,,Not Evaluated,No Score
+Ohio Department of Job and Family Services,3,2060-2098 N Integrity Dr,,,Not Evaluated,No Score
+"On Time Express, LLC",3,1930 S. Rochester Avenue,,,Not Evaluated,No Score
+Overhead Door Corporation,2,70 Cathy Lane,,,Not Evaluated,No Score
+Overhead Door Corporation,3,3338-3352 Democrat,,,Not Evaluated,No Score
+Postal Service,2,4200 McEver Drive,,,Not Evaluated,No Score
+"Pro-Cam Georgia, Inc.",3,1775 West Oak Parkway,,,Not Evaluated,No Score
+"Proximate Concepts, LLC & iNPLANT, LLC",3,6 Pearl Court,,,Not Evaluated,No Score
+Pulseworks LLC,2,4600&4630 Frederick Drive,,,Not Evaluated,No Score
+"QG Geophysics, Inc.",3,1800-20 N Glenville Drive,,,Not Evaluated,No Score
+"Quench USA, Inc.",2,231 James Street,,,Not Evaluated,No Score
+"RD Foods America, Inc.",2,19-05 Nevins Road,,,Not Evaluated,No Score
+Roboreco Inc.,2,6704 N 54th St,,,Not Evaluated,No Score
+"S-L Distribution Company, LLC",3,400 Forge Way,,,Not Evaluated,No Score
+"SHLA Group, Inc.",3,605-655 Hawaii Avenue,,,Not Evaluated,No Score
+"SRS Distribution, Inc.",3,1400 Beaver Ruin Rd,,,Not Evaluated,No Score
+Setzer's and Co. Inc.,2,7720 Philips Highway,,,Not Evaluated,No Score
+Shearer Supply Inc.,3,4026-4080 Senator Street,,,Not Evaluated,No Score
+"Shingle & Gibb Automation, LLC",2,845 Lancer Drive,,,Not Evaluated,No Score
+"Sigma Global, Inc.",2,770 Arthur Avenue,,,Not Evaluated,No Score
+"Snap Tire, Inc.",2,1145 Battlecreek Road,,,Not Evaluated,No Score
+"South State, Inc.",2,440 Benigno Boulevard,,,Not Evaluated,No Score
+Sposa Fashions LLC,3,6901 TPC Drive,,,Not Evaluated,No Score
+Superior Supply Chain Management Inc,2,4600&4630 Frederick Drive,,,Not Evaluated,No Score
+Terrazzo & Marble Supply Company of IL,2,77 Wheeling Road,,,Not Evaluated,No Score
+The Gorilla Glue Company LLC,2,12080 Mosteller Road,,,Not Evaluated,No Score
+"The Juice Plus+ Company, LLC",3,5445 E Raines,,,Not Evaluated,No Score
+The Printer Inc. (TPI),2,1601-1641 Sherman Avenue,,,Not Evaluated,No Score
+"Tri-State Car Wash Supplies, LLC",3,1800-20 N Glenville Drive,,,Not Evaluated,No Score
+Turbo Systems US Inc.,2,1 Territorial Court,,,Not Evaluated,No Score
+Turner Construction Company,2,770 Arthur Avenue,,,Not Evaluated,No Score
+"United Refrigeration, Inc.",2,222 James Street,,,Not Evaluated,No Score
+VIE DE France Yamazaki Inc,2,4507 Mills Place,,,Not Evaluated,No Score
+"Webtech, INC",2,108 North Gold Drive,,,Not Evaluated,No Score
+Werner Aero Services,2,19 Industrial Avenue,,,Not Evaluated,No Score
+"William R. Eubanks Interior Design, Inc.",3,4133-4175 Senator St,,,Not Evaluated,No Score
+"Worksite Consultants, LLC",3,5425 E Raines,,,Not Evaluated,No Score
+"Xcision Medical Systems, LLC",3,9176 Red Branch,,,Not Evaluated,No Score
+Z.One Concept USA,3,26 Hanes Drive,,,Not Evaluated,No Score
+,2,18 Railroad Street,,,Not Evaluated,No Score
+,2,700 High Grove Boulevard,,,Not Evaluated,No Score

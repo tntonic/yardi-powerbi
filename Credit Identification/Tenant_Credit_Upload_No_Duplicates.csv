@@ -1,0 +1,4 @@
+Required field?,,,No,Yes,NO,NO,NO,NO,NO,NO,NO,NO,Yes,NO,NO,NO,NO,NO,,,,,,
+Field Type,ID Field for loader- Only load items that have the ID,Ignore-for internal use only,"Free Text-short (1-2 rows)
+Note for the Internal team- this field is taken from the Tenant column on the report",Date,Free Text-short (1-2 rows),Number,Number,Hyperlink/Free text,Free Text-long (paragraph),Free Text-short (1-2 rows),Free Text-short (1-2 rows),Free Text-short (1-2 rows),Number,Number,Number,Number,Number,Number,,,,,Hyperlink/Free text,Free Text-long (paragraph)
+Field Name,Customer ID,File Name,Company Name/s,Credit Check Date,HQ Location,Annual Revenues,Year Founded,Website,Description,Ownership,Primary Industry,Competitive Position Industry Group,Credit Rating,Gross Profit,EBIT,EBITDA,Total Assets,Total Debt,Current Ratio,Quick Ratio,Net Debt / EBITDA,Debt / Assets,Report Attachment Link,General Notes

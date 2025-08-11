@@ -1,0 +1,11 @@
+customer_id,tenant_name,matched_credit_name,actual_similarity,match_score,match_method
+c0000753,Werner Aero Services,"Werner Aero, LLC",70.96774193548387,85.0,Token fuzzy match
+c0000985,"All-N-Express, LLC","ORAS Express, LLC",72.0,81.0,Token fuzzy match
+c0000873,"Bates Enterprises, Inc.","Insight Enterprises, Inc.",72.22222222222221,83.0,Token fuzzy match
+,"Koontz Electric Company, Inc.","Koontz Electric Company, Incorporated",75.0,86.0,Fuzzy match
+c0000255,"Ehmke Manufacturing Co., Inc","CNC Manufacturing, Inc.",77.77777777777779,81.0,Fuzzy match
+c0000493,"Motion Industries, Inc.","Ox Industries, Inc.",80.0,84.0,Fuzzy match
+,"IMI Management, INC","IMI Management, Inc. (IMI)",82.35294117647058,90.0,Fuzzy match
+c0000244,"Dynamic Rubber, Inc.","Dynamic Rubber, Inc. (DR)",84.84848484848484,95.0,PDF-assisted
+c0000414,"Kreg Therapeutics, Inc",KREG THERAPEUTICS LLC (KT),87.17948717948718,95.0,PDF-assisted
+,Circuit Works Corporation,Circuit Works Corporation (CWC),87.5,95.0,PDF-assisted

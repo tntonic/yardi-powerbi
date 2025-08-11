@@ -1,0 +1,334 @@
+// =====================================================
+// PORTFOLIO HEALTH SCORE - COMPREHENSIVE ANALYSIS
+// Version: 5.1
+// Purpose: Provides detailed portfolio health scoring with component breakdown
+// =====================================================
+
+// Comprehensive Portfolio Health Score Table
+// This calculated table provides the complete scoring breakdown needed for dashboards
+v_portfolio_health_score = 
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
+
+VAR OccupancyMetrics = 
+    CALCULATETABLE(
+        SUMMARIZE(
+            fact_occupancyrentarea,
+            "TotalOccupied", SUM(fact_occupancyrentarea[occupied area]),
+            "TotalRentable", SUM(fact_occupancyrentarea[rentable area])
+        ),
+        FILTER(
+            dim_calendar,
+            dim_calendar[Date] = EOMONTH(CurrentDate, -1)
+        )
+    )
+
+VAR OccupancyRate = 
+    DIVIDE(
+        SUMX(OccupancyMetrics, [TotalOccupied]),
+        SUMX(OccupancyMetrics, [TotalRentable]),
+        0
+    ) * 100
+
+VAR FinancialMetrics = 
+    CALCULATETABLE(
+        SUMMARIZE(
+            fact_total,
+            "Revenue", CALCULATE(
+                SUM(fact_total[amount]) * -1,
+                dim_property[property type] = "Commercial",
+                dim_chartofaccounts[account] >= "4000" && dim_chartofaccounts[account] < "5000"
+            ),
+            "Expenses", CALCULATE(
+                SUM(fact_total[amount]),
+                dim_property[property type] = "Commercial",
+                dim_chartofaccounts[account] >= "5000" && dim_chartofaccounts[account] < "6000"
+            )
+        )
+    )
+
+VAR NOI = SUMX(FinancialMetrics, [Revenue] - [Expenses])
+VAR NOIMargin = DIVIDE(NOI, SUMX(FinancialMetrics, [Revenue]), 0) * 100
+
+VAR CreditMetrics = 
+    CALCULATETABLE(
+        SUMMARIZE(
+            dim_fp_customercreditscorecustomdata,
+            "AvgCreditScore", AVERAGE(dim_fp_customercreditscorecustomdata[credit score]),
+            "TotalTenants", COUNTROWS(dim_fp_customercreditscorecustomdata),
+            "HighRiskCount", COUNTROWS(
+                FILTER(
+                    dim_fp_customercreditscorecustomdata,
+                    dim_fp_customercreditscorecustomdata[credit score] < 4
+                )
+            )
+        )
+    )
+
+VAR AvgCreditScore = SUMX(CreditMetrics, [AvgCreditScore])
+VAR CreditRiskRate = DIVIDE(
+    SUMX(CreditMetrics, [HighRiskCount]),
+    SUMX(CreditMetrics, [TotalTenants]),
+    0
+)
+
+VAR LeasingMetrics = 
+    CALCULATETABLE(
+        SUMMARIZE(
+            dim_fp_amendmentsunitspropertytenant,
+            "NewLeases", COUNTROWS(
+                FILTER(
+                    dim_fp_amendmentsunitspropertytenant,
+                    dim_fp_amendmentsunitspropertytenant[amendment reason] = "New Lease" &&
+                    dim_fp_amendmentsunitspropertytenant[amendment status] IN {"Activated", "Superseded"} &&
+                    YEAR(dim_fp_amendmentsunitspropertytenant[lease commencement date]) = YEAR(CurrentDate)
+                )
+            ),
+            "Renewals", COUNTROWS(
+                FILTER(
+                    dim_fp_amendmentsunitspropertytenant,
+                    dim_fp_amendmentsunitspropertytenant[amendment reason] = "Renewal" &&
+                    dim_fp_amendmentsunitspropertytenant[amendment status] IN {"Activated", "Superseded"} &&
+                    YEAR(dim_fp_amendmentsunitspropertytenant[lease commencement date]) = YEAR(CurrentDate)
+                )
+            )
+        )
+    )
+
+VAR LeasingActivity = SUMX(LeasingMetrics, [NewLeases] + [Renewals])
+VAR LeasingVelocity = MIN(100, LeasingActivity / 10 * 100) // Normalize to 100
+
+// Calculate component points (each out of 25 for total of 100)
+VAR OccupancyPoints = 
+    SWITCH(
+        TRUE(),
+        OccupancyRate >= 95, 25,
+        OccupancyRate >= 90, 20,
+        OccupancyRate >= 85, 15,
+        OccupancyRate >= 80, 10,
+        OccupancyRate >= 75, 5,
+        0
+    )
+
+VAR FinancialPoints = 
+    SWITCH(
+        TRUE(),
+        NOIMargin >= 70, 25,
+        NOIMargin >= 60, 20,
+        NOIMargin >= 50, 15,
+        NOIMargin >= 40, 10,
+        NOIMargin >= 30, 5,
+        0
+    )
+
+VAR CreditPoints = 
+    SWITCH(
+        TRUE(),
+        AvgCreditScore >= 8 && CreditRiskRate < 0.05, 25,
+        AvgCreditScore >= 7 && CreditRiskRate < 0.10, 20,
+        AvgCreditScore >= 6 && CreditRiskRate < 0.15, 15,
+        AvgCreditScore >= 5 && CreditRiskRate < 0.20, 10,
+        AvgCreditScore >= 4, 5,
+        0
+    )
+
+VAR LeasingPoints = 
+    SWITCH(
+        TRUE(),
+        LeasingVelocity >= 80, 25,
+        LeasingVelocity >= 60, 20,
+        LeasingVelocity >= 40, 15,
+        LeasingVelocity >= 20, 10,
+        LeasingVelocity >= 10, 5,
+        0
+    )
+
+VAR TotalScore = OccupancyPoints + FinancialPoints + CreditPoints + LeasingPoints
+
+VAR HealthCategory = 
+    SWITCH(
+        TRUE(),
+        TotalScore >= 90, "Excellent",
+        TotalScore >= 75, "Good",
+        TotalScore >= 60, "Fair",
+        TotalScore >= 40, "Needs Attention",
+        "Critical"
+    )
+
+RETURN
+    DATATABLE(
+        "portfolio_health_score", INTEGER,
+        "health_category", STRING,
+        "occupancy_points", INTEGER,
+        "financial_points", INTEGER,
+        "credit_points", INTEGER,
+        "leasing_points", INTEGER,
+        {
+            {TotalScore, HealthCategory, OccupancyPoints, FinancialPoints, CreditPoints, LeasingPoints}
+        }
+    )
+
+// =====================================================
+// INDIVIDUAL COMPONENT MEASURES
+// =====================================================
+
+Occupancy Points = 
+VAR OccupancyRate = [Physical Occupancy %]
+RETURN
+    SWITCH(
+        TRUE(),
+        OccupancyRate >= 95, 25,
+        OccupancyRate >= 90, 20,
+        OccupancyRate >= 85, 15,
+        OccupancyRate >= 80, 10,
+        OccupancyRate >= 75, 5,
+        0
+    )
+
+Financial Points = 
+VAR NOIMargin = [NOI Margin %]
+RETURN
+    SWITCH(
+        TRUE(),
+        NOIMargin >= 70, 25,
+        NOIMargin >= 60, 20,
+        NOIMargin >= 50, 15,
+        NOIMargin >= 40, 10,
+        NOIMargin >= 30, 5,
+        0
+    )
+
+Credit Points = 
+VAR AvgCreditScore = [Average Tenant Credit Score]
+VAR CreditRiskRate = DIVIDE([Count At-Risk Tenants Enhanced], [Total Active Tenants], 0)
+RETURN
+    SWITCH(
+        TRUE(),
+        AvgCreditScore >= 8 && CreditRiskRate < 0.05, 25,
+        AvgCreditScore >= 7 && CreditRiskRate < 0.10, 20,
+        AvgCreditScore >= 6 && CreditRiskRate < 0.15, 15,
+        AvgCreditScore >= 5 && CreditRiskRate < 0.20, 10,
+        AvgCreditScore >= 4, 5,
+        0
+    )
+
+Leasing Points = 
+VAR CurrentDate = CALCULATE(
+    MAX(dim_lastclosedperiod[last closed period]),
+    ALL(dim_lastclosedperiod)
+)
+VAR NewLeases = CALCULATE(
+    COUNTROWS(dim_fp_amendmentsunitspropertytenant),
+    dim_fp_amendmentsunitspropertytenant[amendment reason] = "New Lease",
+    dim_fp_amendmentsunitspropertytenant[amendment status] IN {"Activated", "Superseded"},
+    YEAR(dim_fp_amendmentsunitspropertytenant[lease commencement date]) = YEAR(CurrentDate)
+)
+VAR Renewals = CALCULATE(
+    COUNTROWS(dim_fp_amendmentsunitspropertytenant),
+    dim_fp_amendmentsunitspropertytenant[amendment reason] = "Renewal",
+    dim_fp_amendmentsunitspropertytenant[amendment status] IN {"Activated", "Superseded"},
+    YEAR(dim_fp_amendmentsunitspropertytenant[lease commencement date]) = YEAR(CurrentDate)
+)
+VAR LeasingActivity = NewLeases + Renewals
+VAR LeasingVelocity = MIN(100, LeasingActivity / 10 * 100)
+RETURN
+    SWITCH(
+        TRUE(),
+        LeasingVelocity >= 80, 25,
+        LeasingVelocity >= 60, 20,
+        LeasingVelocity >= 40, 15,
+        LeasingVelocity >= 20, 10,
+        LeasingVelocity >= 10, 5,
+        0
+    )
+
+Portfolio Health Category = 
+VAR TotalScore = [Portfolio Health Score]
+RETURN
+    SWITCH(
+        TRUE(),
+        TotalScore >= 90, "Excellent",
+        TotalScore >= 75, "Good",
+        TotalScore >= 60, "Fair",
+        TotalScore >= 40, "Needs Attention",
+        "Critical"
+    )
+
+Portfolio Health Status = 
+VAR Category = [Portfolio Health Category]
+RETURN
+    SWITCH(
+        Category,
+        "Excellent", "✓ Excellent Health",
+        "Good", "✓ Good Health",
+        "Fair", "⚠ Fair Health",
+        "Needs Attention", "⚠ Needs Attention",
+        "Critical", "⚠ Critical - Immediate Action Required"
+    )
+
+// =====================================================
+// SUPPORTING MEASURES
+// =====================================================
+
+Total Active Tenants = 
+CALCULATE(
+    COUNTROWS(
+        FILTER(
+            SUMMARIZE(
+                dim_fp_amendmentsunitspropertytenant,
+                dim_fp_amendmentsunitspropertytenant[tenant hmy],
+                dim_fp_amendmentsunitspropertytenant[property hmy],
+                "MaxSeq", MAX(dim_fp_amendmentsunitspropertytenant[amendment sequence])
+            ),
+            VAR CurrentSeq = [MaxSeq]
+            RETURN
+                CALCULATE(
+                    COUNTROWS(dim_fp_amendmentsunitspropertytenant),
+                    dim_fp_amendmentsunitspropertytenant[amendment sequence] = CurrentSeq,
+                    dim_fp_amendmentsunitspropertytenant[amendment status] IN {"Activated", "Superseded"}
+                ) > 0
+        )
+    )
+)
+
+// Enhanced Portfolio Health Score (with all components)
+Portfolio Health Score Enhanced = 
+VAR OccupancyPts = [Occupancy Points]
+VAR FinancialPts = [Financial Points]
+VAR CreditPts = [Credit Points]
+VAR LeasingPts = [Leasing Points]
+RETURN
+    OccupancyPts + FinancialPts + CreditPts + LeasingPts
+
+// Component Contribution Analysis
+Health Score Breakdown = 
+VAR OccupancyPts = [Occupancy Points]
+VAR FinancialPts = [Financial Points]
+VAR CreditPts = [Credit Points]
+VAR LeasingPts = [Leasing Points]
+VAR TotalScore = OccupancyPts + FinancialPts + CreditPts + LeasingPts
+RETURN
+    "Occupancy: " & OccupancyPts & "/25 | " &
+    "Financial: " & FinancialPts & "/25 | " &
+    "Credit: " & CreditPts & "/25 | " &
+    "Leasing: " & LeasingPts & "/25 | " &
+    "Total: " & TotalScore & "/100"
+
+// Alert Level Based on Health Score
+Health Alert Level = 
+VAR Score = [Portfolio Health Score Enhanced]
+RETURN
+    SWITCH(
+        TRUE(),
+        Score >= 90, "None",
+        Score >= 75, "Low",
+        Score >= 60, "Medium",
+        Score >= 40, "High",
+        "Critical"
+    )
+
+// =====================================================
+// END OF PORTFOLIO HEALTH SCORE MEASURES
+// =====================================================

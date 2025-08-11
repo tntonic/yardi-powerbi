@@ -1,0 +1,113 @@
+[
+  {
+    "timestamp": "2025-08-10T18:06:28.825047",
+    "total_records": 149,
+    "customer_id_metrics": {
+      "with_ids": 124,
+      "without_ids": 25,
+      "coverage_pct": 83.22
+    },
+    "credit_match_metrics": {
+      "with_credit": 80,
+      "no_match": 69,
+      "coverage_pct": 53.69
+    },
+    "match_quality": {
+      "high_confidence": 40,
+      "medium_confidence": 40,
+      "low_confidence": 0,
+      "manual_corrections": 2
+    },
+    "match_methods": {
+      "No match": 69,
+      "Token fuzzy match": 39,
+      "PDF-assisted": 21,
+      "Fuzzy match": 17,
+      "Manual correction": 2,
+      "Base name match": 1
+    },
+    "folder_metrics": {
+      "total_customer_ids": 120,
+      "folders_exist": 65,
+      "folders_missing": 55,
+      "folders_empty": 9,
+      "folders_with_files": 56,
+      "total_pdfs": 56
+    },
+    "quality_score": 61.44
+  },
+  {
+    "timestamp": "2025-08-10T19:02:23.081796",
+    "total_records": 149,
+    "customer_id_metrics": {
+      "with_ids": 124,
+      "without_ids": 25,
+      "coverage_pct": 83.22
+    },
+    "credit_match_metrics": {
+      "with_credit": 45,
+      "no_match": 104,
+      "coverage_pct": 30.2
+    },
+    "match_quality": {
+      "high_confidence": 36,
+      "medium_confidence": 9,
+      "low_confidence": 0,
+      "manual_corrections": 2
+    },
+    "match_methods": {
+      "No match": 104,
+      "PDF-assisted": 21,
+      "Fuzzy match": 14,
+      "Token fuzzy match": 7,
+      "Manual correction": 2,
+      "Base name match": 1
+    },
+    "folder_metrics": {
+      "total_customer_ids": 120,
+      "folders_exist": 65,
+      "folders_missing": 55,
+      "folders_empty": 9,
+      "folders_with_files": 56,
+      "total_pdfs": 56
+    },
+    "quality_score": 61.05
+  },
+  {
+    "timestamp": "2025-08-10T19:09:44.152379",
+    "total_records": 149,
+    "customer_id_metrics": {
+      "with_ids": 124,
+      "without_ids": 25,
+      "coverage_pct": 83.22
+    },
+    "credit_match_metrics": {
+      "with_credit": 41,
+      "no_match": 104,
+      "coverage_pct": 27.52
+    },
+    "match_quality": {
+      "high_confidence": 36,
+      "medium_confidence": 5,
+      "low_confidence": 0,
+      "manual_corrections": 2
+    },
+    "match_methods": {
+      "No match": 104,
+      "PDF-assisted": 21,
+      "Fuzzy match": 12,
+      "Token fuzzy match": 5,
+      "Manual correction": 2,
+      "Base name match": 1
+    },
+    "folder_metrics": {
+      "total_customer_ids": 120,
+      "folders_exist": 65,
+      "folders_missing": 55,
+      "folders_empty": 9,
+      "folders_with_files": 56,
+      "total_pdfs": 56
+    },
+    "quality_score": 62.31
+  }
+]
