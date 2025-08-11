@@ -1,0 +1,979 @@
+PDF ORGANIZATION REPORT
+============================================================
+
+SUMMARY
+------------------------------
+Total PDFs processed: 233
+Successfully organized: 32
+Unmatched: 201
+Errors: 0
+
+SUCCESSFULLY ORGANIZED
+------------------------------
+c0000056 - True World Foods Columbus, LLC
+  Original: FP TCE_v7.45 - TWF (2025-01-30).pdf
+  New: c0000056_True_World_Foods_Columbus_LLC.pdf
+  Match Score: 100.0%
+
+c0000100 - Amphenol EEC, Inc.
+  Original: FP TCE_v7.44 - Amphenol (2025-01-13).pdf
+  New: c0000100_Amphenol_EEC_Inc.pdf
+  Match Score: 80.0%
+
+c0000136 - Bengal Converting Services
+  Original: FP TCE_v7.45 - Bengal Converting Services (2025-02-06).pdf
+  New: c0000136_Bengal_Converting_Services.pdf
+  Match Score: 100.0%
+
+c0000159 - Bunting Magnetics Company
+  Original: FP TCE_v7.45 - Bunting Magnetics (2025-03-04).pdf
+  New: c0000159_Bunting_Magnetics_Company.pdf
+  Match Score: 100.0%
+
+c0000194 - Clique Here, LLC
+  Original: FP TCE_v6.67 - Clique Here LLC (2024-04-30).pdf
+  New: c0000194_Clique_Here_LLC.pdf
+  Match Score: 100.0%
+
+c0000225 - Daring Design, LLC
+  Original: FP TCE_v7.45 - Daring Design (2025-02-23).pdf
+  New: c0000225_Daring_Design_LLC.pdf
+  Match Score: 100.0%
+
+c0000244 - Dynamic Rubber, Inc.
+  Original: FP TCE_v7.53 - Dynamic Rubber (2025-07-22).pdf
+  New: c0000244_Dynamic_Rubber_Inc.pdf
+  Match Score: 100.0%
+
+c0000270 - Event Link
+  Original: FP TCE_v6.66 - EventLink (2024-04-09).pdf
+  New: c0000270_Event_Link.pdf
+  Match Score: 94.7%
+
+c0000279 - Fastenal Company
+  Original: FP TCE_v7.44 - Fastenal (2024-11-05).pdf
+  New: c0000279_Fastenal_Company.pdf
+  Match Score: 100.0%
+
+c0000301 - G&W Products, LLC.
+  Original: FP TCE_v7.45 - G&W Products (2025-02-27).pdf
+  New: c0000301_GW_Products_LLC.pdf
+  Match Score: 100.0%
+
+c0000330 - Greif Packaging LLC
+  Original: FP TCE_v7.53 - GC Packaging (2025-07-31).pdf
+  New: c0000330_Greif_Packaging_LLC.pdf
+  Match Score: 81.5%
+
+c0000378 - Jade Carpentry Contractors, Inc.
+  Original: FP TCE_v7.45 - Jade Carpentry Contractors (2025-02-22).pdf
+  New: c0000378_Jade_Carpentry_Contractors_Inc.pdf
+  Match Score: 100.0%
+
+c0000414 - Kreg Therapeutics, Inc
+  Original: FP TCE_v7.51 - Kreg Therapeutic (2025-04-23).pdf
+  New: c0000414_Kreg_Therapeutics_Inc.pdf
+  Match Score: 97.0%
+
+c0000493 - Motion Industries, Inc.
+  Original: FP TCE_v6.68 - Ox Industries (2024-09-10).pdf
+  New: c0000493_Motion_Industries_Inc.pdf
+  Match Score: 100.0%
+
+c0000493 - Motion Industries, Inc.
+  Original: FP TCE_v6.68 - Ox Industries PROFORMA (2024-09-18).pdf
+  New: c0000493_Motion_Industries_Inc.pdf
+  Match Score: 100.0%
+
+c0000494 - Motorvation LLC
+  Original: FP TCE_v7.44 - Motorvation (2024-11-19).pdf
+  New: c0000494_Motorvation_LLC.pdf
+  Match Score: 100.0%
+
+c0000494 - Motorvation LLC
+  Original: FP TCE_v6.65 - Motorvation LLC (2023-11-07).pdf
+  New: c0000494_Motorvation_LLC.pdf
+  Match Score: 100.0%
+
+c0000544 - Pelton Shepherd Industries Inc
+  Original: FP TCE_v7.45 - Pelton Shepherd (2025-04-01).pdf
+  New: c0000544_Pelton_Shepherd_Industries_Inc.pdf
+  Match Score: 100.0%
+
+c0000586 - RD Foods America, Inc.
+  Original: FP TCE_v6.67 - RD Foods Americas Inc. (2026-05-20).pdf
+  New: c0000586_RD_Foods_America_Inc.pdf
+  Match Score: 97.0%
+
+c0000696 - The Gorilla Glue Company LLC
+  Original: FP TCE_v7.44 - The Gorilla Glue Company (2024-12-07).pdf
+  New: c0000696_The_Gorilla_Glue_Company_LLC.pdf
+  Match Score: 100.0%
+
+c0000746 - VIE DE France Yamazaki Inc
+  Original: FP TCE_v7.44 - Vie de France Yamazaki (2024-12-12).pdf
+  New: c0000746_VIE_DE_France_Yamazaki_Inc.pdf
+  Match Score: 100.0%
+
+c0000793 - NJ/NY Gotham Football Club LLC
+  Original: FP TCE_v7.53 - NJ NY Gotham Football (2025-06-08).pdf
+  New: c0000793_NJNY_Gotham_Football_Club_LLC.pdf
+  Match Score: 100.0%
+
+c0000805 - LINCARE INC.
+  Original: FP TCE_v7.44 - Lincare Inc (2025-01-19).pdf
+  New: c0000805_LINCARE_INC.pdf
+  Match Score: 100.0%
+
+c0000870 - cbdMD, Inc.
+  Original: FP TCE_v7.44 - cbdMD (2024-11-25).pdf
+  New: c0000870_cbdMD_Inc.pdf
+  Match Score: 100.0%
+
+c0000897 - CFC Group, LLC
+  Original: FP TCE_v7.44 - CFC Group (2025-01-15).pdf
+  New: c0000897_CFC_Group_LLC.pdf
+  Match Score: 100.0%
+
+c0000918 - Prime Egrocery Inc
+  Original: FP TCE_v7.45 - Prime Egrocery (2025-02-28).pdf
+  New: c0000918_Prime_Egrocery_Inc.pdf
+  Match Score: 100.0%
+
+c0000962 - Delta Landscape Supply of Georgia, Inc
+  Original: FP TCE_v7.44 - Delta Landscaping (2024-11-05).pdf
+  New: c0000962_Delta_Landscape_Supply_of_Georgia_Inc.pdf
+  Match Score: 100.0%
+
+c0000973 - Aluma-Form, Inc.
+  Original: FP TCE_v7.52 - AlumaForm (2025-05-13).pdf
+  New: c0000973_Aluma-Form_Inc.pdf
+  Match Score: 100.0%
+
+c0000997 - Shearer Supply Inc.
+  Original: FP TCE_v7.45 - Shearer Supply (2025-03-24).pdf
+  New: c0000997_Shearer_Supply_Inc.pdf
+  Match Score: 100.0%
+
+c0001048 - Flower Shop El Chapin LLC
+  Original: FP TCE_v7.44 - Flower Shop El Chapin (2024-11-05).pdf
+  New: c0001048_Flower_Shop_El_Chapin_LLC.pdf
+  Match Score: 100.0%
+
+c0001058 - Innoved Institute LLC
+  Original: FP TCE_v7.44 - Innoved Institute (2024-12-11).pdf
+  New: c0001058_Innoved_Institute_LLC.pdf
+  Match Score: 100.0%
+
+c0001069 - Quench USA, Inc.
+  Original: FP TCE_v7.44 - Quench USA (2025-01-16).pdf
+  New: c0001069_Quench_USA_Inc.pdf
+  Match Score: 100.0%
+
+
+UNMATCHED PDFS
+------------------------------
+FP TCE_v6.23 - Atlas Copco_v2.pdf
+  Extracted Company: None
+  Best Match Score: 0.0%
+
+FP TCE_v6.23 - Core & Main_v2.pdf
+  Extracted Company: None
+  Best Match Score: 0.0%
+
+FP TCE_v6.23 - cbdMD_v2.pdf
+  Extracted Company: None
+  Best Match Score: 0.0%
+
+FP TCE_v6.26 - RX Source (2023-08-16).pdf
+  Extracted Company: RX Source
+  Best Match Score: 50.0%
+
+FP TCE_v6.57 - LB Plastics (2023-10-03).pdf
+  Extracted Company: LB Plastics
+  Best Match Score: 54.5%
+
+FP TCE_v6.57 - Leading Pharma (2023-09-18).pdf
+  Extracted Company: Leading Pharma
+  Best Match Score: 46.5%
+
+FP TCE_v6.57 - Master_American Musical Supply, Inc. (2023-09-21).pdf
+  Extracted Company: Master_American Musical Supply, Inc.
+  Best Match Score: 57.6%
+
+FP TCE_v6.57 - Master_Lincoln Educational Services Corp (2023-09-21).pdf
+  Extracted Company: Master_Lincoln Educational Services Corp
+  Best Match Score: 52.6%
+
+FP TCE_v6.63 - Acme Lock  Door Experts (2023-10-04).pdf
+  Extracted Company: Acme Lock  Door Experts
+  Best Match Score: 41.9%
+
+FP TCE_v6.64 - Absolute Pallet, Inc. (2023-10-05).pdf
+  Extracted Company: Absolute Pallet, Inc.
+  Best Match Score: 52.2%
+
+FP TCE_v6.64 - Best Nest Inc. (2023-10-13).pdf
+  Extracted Company: Best Nest Inc.
+  Best Match Score: 54.5%
+
+FP TCE_v6.64 - Multi-Color Corporation (2023-10-02).pdf
+  Extracted Company: Multi-Color Corporation
+  Best Match Score: 62.1%
+
+FP TCE_v6.64 - Pinnacle Cosmetic Packaging (2023-10-09).pdf
+  Extracted Company: Pinnacle Cosmetic Packaging
+  Best Match Score: 55.0%
+
+FP TCE_v6.65 - Atlas Packaging Inc (2023-11-17).pdf
+  Extracted Company: Atlas Packaging Inc
+  Best Match Score: 66.7%
+
+FP TCE_v6.65 - BES Associates (2023-12-10).pdf
+  Extracted Company: BES Associates
+  Best Match Score: 51.9%
+
+FP TCE_v6.65 - Beautylish (2023-12-22).pdf
+  Extracted Company: Beautylish
+  Best Match Score: 47.1%
+
+FP TCE_v6.65 - Christie Lites (2023-11-22).pdf
+  Extracted Company: Christie Lites
+  Best Match Score: 48.6%
+
+FP TCE_v6.65 - Crown Packaging (2023-10-10).pdf
+  Extracted Company: Crown Packaging
+  Best Match Score: 73.3%
+
+FP TCE_v6.65 - DME Express (2023-11-02).pdf
+  Extracted Company: DME Express
+  Best Match Score: 60.6%
+
+FP TCE_v6.65 - Gemcap (2023-11-17).pdf
+  Extracted Company: Gemcap
+  Best Match Score: 66.7%
+
+FP TCE_v6.65 - IMCD (2023-11-27).pdf
+  Extracted Company: IMCD
+  Best Match Score: 44.4%
+
+FP TCE_v6.65 - Krowne Metal Corporation (2024-01-19).pdf
+  Extracted Company: Krowne Metal Corporation
+  Best Match Score: 58.1%
+
+FP TCE_v6.65 - New York Label & Box Works (2024-01-17).pdf
+  Extracted Company: New York Label & Box Works
+  Best Match Score: 41.7%
+
+FP TCE_v6.65 - S&M Transportation (2023-11-16).pdf
+  Extracted Company: S&M Transportation
+  Best Match Score: 62.1%
+
+FP TCE_v6.65 - Simonik Transportation & Warehousing Group (2023-10-25).pdf
+  Extracted Company: Simonik Transportation & Warehousing Group
+  Best Match Score: 47.3%
+
+FP TCE_v6.65 - Wincup.Inc. and Subsidiaries (2024-03-29).pdf
+  Extracted Company: Wincup.Inc. and Subsidiaries
+  Best Match Score: 41.2%
+
+FP TCE_v6.66 - Beverly Knits Inc. (2024-02-23).pdf
+  Extracted Company: Beverly Knits Inc.
+  Best Match Score: 43.5%
+
+FP TCE_v6.66 - Boston Battery, LLC (2024-04-01).pdf
+  Extracted Company: Boston Battery, LLC
+  Best Match Score: 48.0%
+
+FP TCE_v6.66 - Central Salvage (2024-04-13).pdf
+  Extracted Company: Central Salvage
+  Best Match Score: 48.3%
+
+FP TCE_v6.66 - Southern Aluminum Finishing Company, Inc. (2024-03-29).pdf
+  Extracted Company: Southern Aluminum Finishing Company, Inc.
+  Best Match Score: 43.5%
+
+FP TCE_v6.66 - Vantec Hitachi Transport System (USA), Inc. (2024-03-23).pdf
+  Extracted Company: Vantec Hitachi Transport System (USA), Inc.
+  Best Match Score: 49.1%
+
+FP TCE_v6.66 - Whitaker Group (2024-04-12).pdf
+  Extracted Company: Whitaker Group
+  Best Match Score: 61.5%
+
+FP TCE_v6.67 - ACTEGA North America, Inc. (2024-04-16).pdf
+  Extracted Company: ACTEGA North America, Inc.
+  Best Match Score: 73.2%
+
+FP TCE_v6.67 - RotoRooter Plumbing & Drain Service (2024-04-16).pdf
+  Extracted Company: RotoRooter Plumbing & Drain Service
+  Best Match Score: 50.0%
+
+FP TCE_v6.67 - Unifoil Holdings Inc. (2024-05-01).pdf
+  Extracted Company: Unifoil Holdings Inc.
+  Best Match Score: 50.0%
+
+FP TCE_v6.68 - Reliable Restoration (2024-06-17)(1).pdf
+  Extracted Company: Reliable Restoration (2024-06-17)
+  Best Match Score: 44.4%
+
+FP TCE_v6.68 - Reliable Restoration (2024-06-17).pdf
+  Extracted Company: Reliable Restoration
+  Best Match Score: 58.5%
+
+FP TCE_v6.68 - ZOne (2024-05-22).pdf
+  Extracted Company: ZOne
+  Best Match Score: 50.0%
+
+FP TCE_v6.69 - Premio Foods (2024-07-08).pdf
+  Extracted Company: Premio Foods
+  Best Match Score: 51.4%
+
+FP TCE_v7.25 - Marketing.com (12.15.23).pdf
+  Extracted Company: None
+  Best Match Score: 0.0%
+
+FP TCE_v7.42 - Currey & Company (2024-08-09).pdf
+  Extracted Company: Currey & Company
+  Best Match Score: 47.1%
+
+FP TCE_v7.42 - MWD Logistics (2024-08-13).pdf
+  Extracted Company: MWD Logistics
+  Best Match Score: 61.1%
+
+FP TCE_v7.42 - Proven Partners Group (2024-08-06).pdf
+  Extracted Company: Proven Partners Group
+  Best Match Score: 50.0%
+
+FP TCE_v7.42 - Window Nation (2024-08-21).pdf
+  Extracted Company: Window Nation
+  Best Match Score: 52.6%
+
+FP TCE_v7.44 - A&J Direct (2025-01-08).pdf
+  Extracted Company: A&J Direct
+  Best Match Score: 52.6%
+
+FP TCE_v7.44 - ABC Supply Corp (2024-10-08).pdf
+  Extracted Company: ABC Supply Corp
+  Best Match Score: 66.7%
+
+FP TCE_v7.44 - Actron Engineering (2025-01-25).pdf
+  Extracted Company: Actron Engineering
+  Best Match Score: 47.3%
+
+FP TCE_v7.44 - American Expediting Logistics (2024-12-29).pdf
+  Extracted Company: American Expediting Logistics
+  Best Match Score: 50.0%
+
+FP TCE_v7.44 - Beard Integrated Systems (2024-10-21).pdf
+  Extracted Company: Beard Integrated Systems
+  Best Match Score: 64.9%
+
+FP TCE_v7.44 - Bo Sports (2025-01-19).pdf
+  Extracted Company: Bo Sports
+  Best Match Score: 48.0%
+
+FP TCE_v7.44 - Brady (2024-09-17) - LIGHT ASSESSMENT.pdf
+  Extracted Company: None
+  Best Match Score: 0.0%
+
+FP TCE_v7.44 - Bread Partners (2024-09-12).pdf
+  Extracted Company: Bread Partners
+  Best Match Score: 50.0%
+
+FP TCE_v7.44 - Brew Theory (2024-12-09).pdf
+  Extracted Company: Brew Theory
+  Best Match Score: 56.0%
+
+FP TCE_v7.44 - Bronner Brothers (2024-10-17).pdf
+  Extracted Company: Bronner Brothers
+  Best Match Score: 55.6%
+
+FP TCE_v7.44 - C&J Contractors (2024-11-01).pdf
+  Extracted Company: C&J Contractors
+  Best Match Score: 59.5%
+
+FP TCE_v7.44 - CK Life Sciences (2024-11-14).pdf
+  Extracted Company: CK Life Sciences
+  Best Match Score: 51.9%
+
+FP TCE_v7.44 - CNC Manufacturing (2025-01-23).pdf
+  Extracted Company: CNC Manufacturing
+  Best Match Score: 77.8%
+
+FP TCE_v7.44 - CSG (2025-01-03).pdf
+  Extracted Company: CSG
+  Best Match Score: 33.3%
+
+FP TCE_v7.44 - CSG (2025-01-16).pdf
+  Extracted Company: CSG
+  Best Match Score: 33.3%
+
+FP TCE_v7.44 - CSG (2025-02-12).pdf
+  Extracted Company: CSG
+  Best Match Score: 33.3%
+
+FP TCE_v7.44 - Cal Plate (2024-12-27).pdf
+  Extracted Company: Cal Plate
+  Best Match Score: 66.7%
+
+FP TCE_v7.44 - Cal Plate (2024-12-31).pdf
+  Extracted Company: Cal Plate
+  Best Match Score: 66.7%
+
+FP TCE_v7.44 - Caldic (2024-10-14).pdf
+  Extracted Company: Caldic
+  Best Match Score: 46.2%
+
+FP TCE_v7.44 - Caldic (2024-12-19).pdf
+  Extracted Company: Caldic
+  Best Match Score: 46.2%
+
+FP TCE_v7.44 - Caseys Coffee (2024-11-01).pdf
+  Extracted Company: Caseys Coffee
+  Best Match Score: 45.5%
+
+FP TCE_v7.44 - Cheer Gym (2024-10-31).pdf
+  Extracted Company: Cheer Gym
+  Best Match Score: 52.2%
+
+FP TCE_v7.44 - Circuit Works Corporation (2025-01-23).pdf
+  Extracted Company: Circuit Works Corporation
+  Best Match Score: 57.1%
+
+FP TCE_v7.44 - CurlMix (2024-11-21).pdf
+  Extracted Company: CurlMix
+  Best Match Score: 40.0%
+
+FP TCE_v7.44 - Del Val Food Ingredients (2025-01-17).pdf
+  Extracted Company: Del Val Food Ingredients
+  Best Match Score: 43.2%
+
+FP TCE_v7.44 - DuBois Chemical (2024-12-17).pdf
+  Extracted Company: DuBois Chemical
+  Best Match Score: 51.6%
+
+FP TCE_v7.44 - Flack Steel (2024-09-06).pdf
+  Extracted Company: Flack Steel
+  Best Match Score: 66.7%
+
+FP TCE_v7.44 - FleetPride (2024-10-23).pdf
+  Extracted Company: FleetPride
+  Best Match Score: 53.3%
+
+FP TCE_v7.44 - Florida Packaging & Graphics (2024-11-18).pdf
+  Extracted Company: Florida Packaging & Graphics
+  Best Match Score: 53.7%
+
+FP TCE_v7.44 - Flowers Baking (2024-10-17).pdf
+  Extracted Company: Flowers Baking
+  Best Match Score: 62.9%
+
+FP TCE_v7.44 - Genuine Parts Company (2024-11-16).pdf
+  Extracted Company: Genuine Parts Company
+  Best Match Score: 50.0%
+
+FP TCE_v7.44 - Greif, Inc (2025-01-12).pdf
+  Extracted Company: Greif, Inc
+  Best Match Score: 50.0%
+
+FP TCE_v7.44 - ICE (2024-12-18).pdf
+  Extracted Company: ICE
+  Best Match Score: 42.9%
+
+FP TCE_v7.44 - Insight Enterprise (2024-10-11)(1).pdf
+  Extracted Company: Insight Enterprise (2024-10-11)
+  Best Match Score: 56.5%
+
+FP TCE_v7.44 - Insight Enterprise (2024-10-11).pdf
+  Extracted Company: Insight Enterprise
+  Best Match Score: 78.8%
+
+FP TCE_v7.44 - K&A Industries (2024-11-08).pdf
+  Extracted Company: K&A Industries
+  Best Match Score: 50.0%
+
+FP TCE_v7.44 - Laser Precision (2024-10-15).pdf
+  Extracted Company: Laser Precision
+  Best Match Score: 56.2%
+
+FP TCE_v7.44 - Licaflex (2024-12-06).pdf
+  Extracted Company: Licaflex
+  Best Match Score: 46.2%
+
+FP TCE_v7.44 - Licaflex (2025-01-01).pdf
+  Extracted Company: Licaflex
+  Best Match Score: 46.2%
+
+FP TCE_v7.44 - Lonestar Wholesale & Distribution (2025-01-24).pdf
+  Extracted Company: Lonestar Wholesale & Distribution
+  Best Match Score: 51.9%
+
+FP TCE_v7.44 - Mitchell Industrial Tire (2024-10-16).pdf
+  Extracted Company: Mitchell Industrial Tire
+  Best Match Score: 69.4%
+
+FP TCE_v7.44 - Modern Equipment Co Inc (2024-11-27).pdf
+  Extracted Company: Modern Equipment Co Inc
+  Best Match Score: 43.8%
+
+FP TCE_v7.44 - Modular Closets (2024-11-26).pdf
+  Extracted Company: Modular Closets
+  Best Match Score: 44.4%
+
+FP TCE_v7.44 - NI-JO (2024-11-18).pdf
+  Extracted Company: NI-JO
+  Best Match Score: 28.6%
+
+FP TCE_v7.44 - NewCo, Plastics (2025-01-16).pdf
+  Extracted Company: NewCo, Plastics
+  Best Match Score: 52.6%
+
+FP TCE_v7.44 - NewCo, Plastics (2025-02-05).pdf
+  Extracted Company: NewCo, Plastics
+  Best Match Score: 52.6%
+
+FP TCE_v7.44 - Novartis (2024-10-29).pdf
+  Extracted Company: Novartis
+  Best Match Score: 55.6%
+
+FP TCE_v7.44 - ORAS Express (2024-11-28).pdf
+  Extracted Company: ORAS Express
+  Best Match Score: 64.0%
+
+FP TCE_v7.44 - OmniMax International (2024-09-10).pdf
+  Extracted Company: OmniMax International
+  Best Match Score: 50.0%
+
+FP TCE_v7.44 - OnScent (2024-11-20).pdf
+  Extracted Company: OnScent
+  Best Match Score: 54.5%
+
+FP TCE_v7.44 - OnScent (2025-02-19).pdf
+  Extracted Company: OnScent
+  Best Match Score: 54.5%
+
+FP TCE_v7.44 - Pan-Y-Mas (2024-10-14).pdf
+  Extracted Company: Pan-Y-Mas
+  Best Match Score: 46.2%
+
+FP TCE_v7.44 - Piab (2024-10-24).pdf
+  Extracted Company: Piab
+  Best Match Score: 37.5%
+
+FP TCE_v7.44 - Plastics Family Holdings (2024-12-16).pdf
+  Extracted Company: Plastics Family Holdings
+  Best Match Score: 43.1%
+
+FP TCE_v7.44 - Precision Roll Solutions (2024-10-10) - Consolidated.pdf
+  Extracted Company: None
+  Best Match Score: 0.0%
+
+FP TCE_v7.44 - Pride Delivery (2024-12-12).pdf
+  Extracted Company: Pride Delivery
+  Best Match Score: 64.3%
+
+FP TCE_v7.44 - Project Coal (2024-11-29).pdf
+  Extracted Company: Project Coal
+  Best Match Score: 47.1%
+
+FP TCE_v7.44 - S&S Truck Parts (2024-12-06).pdf
+  Extracted Company: S&S Truck Parts
+  Best Match Score: 60.0%
+
+FP TCE_v7.44 - Sannova Analytical (2024-12-31).pdf
+  Extracted Company: Sannova Analytical
+  Best Match Score: 45.7%
+
+FP TCE_v7.44 - Seal South (2024-12-03).pdf
+  Extracted Company: Seal South
+  Best Match Score: 50.0%
+
+FP TCE_v7.44 - Thaler Machine Holdings (2024-11-12) FY-24 & Proforma.pdf
+  Extracted Company: None
+  Best Match Score: 0.0%
+
+FP TCE_v7.44 - Thaler Machine Holdings (2024-11-12).pdf
+  Extracted Company: Thaler Machine Holdings
+  Best Match Score: 45.5%
+
+FP TCE_v7.44 - Traffic Control Devices (2025-01-08).pdf
+  Extracted Company: Traffic Control Devices
+  Best Match Score: 53.7%
+
+FP TCE_v7.44 - Triangle Services (2024-11-19).pdf
+  Extracted Company: Triangle Services
+  Best Match Score: 71.4%
+
+FP TCE_v7.44 - USA Wheel & Tire (2024-11-23).pdf
+  Extracted Company: USA Wheel & Tire
+  Best Match Score: 60.9%
+
+FP TCE_v7.44 - Valley Forge (2024-12-30).pdf
+  Extracted Company: Valley Forge
+  Best Match Score: 48.0%
+
+FP TCE_v7.44 - Viscot Medical (2024-12-28).pdf
+  Extracted Company: Viscot Medical
+  Best Match Score: 55.6%
+
+FP TCE_v7.44 - Vitaquest (2024-11-14).pdf
+  Extracted Company: Vitaquest
+  Best Match Score: 42.1%
+
+FP TCE_v7.44 - VoidForm (2024-08-28).pdf
+  Extracted Company: VoidForm
+  Best Match Score: 44.4%
+
+FP TCE_v7.44 - WTC Granite (2024-11-20).pdf
+  Extracted Company: WTC Granite
+  Best Match Score: 50.0%
+
+FP TCE_v7.44 - WeldFit (2024-11-05).pdf
+  Extracted Company: WeldFit
+  Best Match Score: 42.9%
+
+FP TCE_v7.44 - WernerAero (2024-11-22).pdf
+  Extracted Company: WernerAero
+  Best Match Score: 66.7%
+
+FP TCE_v7.44 - YesVideo (2024-10-04).pdf
+  Extracted Company: YesVideo
+  Best Match Score: 44.4%
+
+FP TCE_v7.44 - Zeus Scientific (2024-11-15).pdf
+  Extracted Company: Zeus Scientific
+  Best Match Score: 43.8%
+
+FP TCE_v7.44 - Zina (2024-10-24).pdf
+  Extracted Company: Zina
+  Best Match Score: 40.0%
+
+FP TCE_v7.44 - Zina - FY-24 (A) (2024-11-21).pdf
+  Extracted Company: Zina
+  Best Match Score: 40.0%
+
+FP TCE_v7.45 - 945 Industries (2025-04-18).pdf
+  Extracted Company: 945 Industries
+  Best Match Score: 0.0%
+
+FP TCE_v7.45 - All Metals (2025-03-20).pdf
+  Extracted Company: All Metals
+  Best Match Score: 48.3%
+
+FP TCE_v7.45 - All Metals - PROFORMA (2025-03-20).pdf
+  Extracted Company: All Metals
+  Best Match Score: 48.3%
+
+FP TCE_v7.45 - Antego Tire & Wheel (2025-03-18).pdf
+  Extracted Company: Antego Tire & Wheel
+  Best Match Score: 50.0%
+
+FP TCE_v7.45 - Bengal Grp, LLC (2025-02-02).pdf
+  Extracted Company: Bengal Grp, LLC
+  Best Match Score: 52.9%
+
+FP TCE_v7.45 - Cavaform (2025-03-05).pdf
+  Extracted Company: Cavaform
+  Best Match Score: 66.7%
+
+FP TCE_v7.45 - Chicagoland Quad Cities Express (2025-02-10).pdf
+  Extracted Company: Chicagoland Quad Cities Express
+  Best Match Score: 45.5%
+
+FP TCE_v7.45 - Clarion Technologies (2025-03-05).pdf
+  Extracted Company: Clarion Technologies
+  Best Match Score: 49.1%
+
+FP TCE_v7.45 - Clarion Technologies (2025-04-21).pdf
+  Extracted Company: Clarion Technologies
+  Best Match Score: 49.1%
+
+FP TCE_v7.45 - Corning Incorporated (2025-01-28).pdf
+  Extracted Company: Corning Incorporated
+  Best Match Score: 60.0%
+
+FP TCE_v7.45 - DIGI America (2025-03-11).pdf
+  Extracted Company: DIGI America
+  Best Match Score: 69.0%
+
+FP TCE_v7.45 - Enzo Biochem (2025-03-18).pdf
+  Extracted Company: Enzo Biochem
+  Best Match Score: 52.2%
+
+FP TCE_v7.45 - Estee Lauder Companies (2025-04-07).pdf
+  Extracted Company: Estee Lauder Companies
+  Best Match Score: 48.6%
+
+FP TCE_v7.45 - Family Vending (2025-02-14).pdf
+  Extracted Company: Family Vending
+  Best Match Score: 45.7%
+
+FP TCE_v7.45 - Five Star Food Service (2025-03-24).pdf
+  Extracted Company: Five Star Food Service
+  Best Match Score: 61.1%
+
+FP TCE_v7.45 - Five Star Food Service (2025-03-27).pdf
+  Extracted Company: Five Star Food Service
+  Best Match Score: 61.1%
+
+FP TCE_v7.45 - Florida Food Products (2025-02-28).pdf
+  Extracted Company: Florida Food Products
+  Best Match Score: 60.6%
+
+FP TCE_v7.45 - Gofo, Inc (2025-03-19).pdf
+  Extracted Company: Gofo, Inc
+  Best Match Score: 40.0%
+
+FP TCE_v7.45 - HT Airsystems Carolinas (2025-01-26).pdf
+  Extracted Company: HT Airsystems Carolinas
+  Best Match Score: 56.4%
+
+FP TCE_v7.45 - Humboldt Manufacturing (2025-02-24).pdf
+  Extracted Company: Humboldt Manufacturing
+  Best Match Score: 78.0%
+
+FP TCE_v7.45 - IMI Management (2025-01-29).pdf
+  Extracted Company: IMI Management
+  Best Match Score: 75.9%
+
+FP TCE_v7.45 - Infinite Windows (2025-03-21).pdf
+  Extracted Company: Infinite Windows
+  Best Match Score: 42.4%
+
+FP TCE_v7.45 - Ludlow Manufacturing (2025-03-12).pdf
+  Extracted Company: Ludlow Manufacturing
+  Best Match Score: 71.8%
+
+FP TCE_v7.45 - March Products - Gold Crest (2025-03-18).pdf
+  Extracted Company: March Products - Gold Crest
+  Best Match Score: 46.2%
+
+FP TCE_v7.45 - Modernfoldstyles (2025-03-04).pdf
+  Extracted Company: Modernfoldstyles
+  Best Match Score: 44.4%
+
+FP TCE_v7.45 - NVGTN (2025-02-13).pdf
+  Extracted Company: NVGTN
+  Best Match Score: 40.0%
+
+FP TCE_v7.45 - Packaging By Design (2025-03-07).pdf
+  Extracted Company: Packaging By Design
+  Best Match Score: 68.8%
+
+FP TCE_v7.45 - Polyart (2025-03-12).pdf
+  Extracted Company: Polyart
+  Best Match Score: 50.0%
+
+FP TCE_v7.45 - Sybridge - (2025-03-20).pdf
+  Extracted Company: Sybridge -
+  Best Match Score: 46.2%
+
+FP TCE_v7.45 - Sybridge - PROFORMA (2025-03-20).pdf
+  Extracted Company: Sybridge
+  Best Match Score: 50.0%
+
+FP TCE_v7.45 - Trident EXIM (2025-03-10).pdf
+  Extracted Company: Trident EXIM
+  Best Match Score: 48.3%
+
+FP TCE_v7.45 - TruckPro (2025-02-12).pdf
+  Extracted Company: TruckPro
+  Best Match Score: 42.4%
+
+FP TCE_v7.45 - TruckPro (2025-04-29).pdf
+  Extracted Company: TruckPro
+  Best Match Score: 42.4%
+
+FP TCE_v7.45 - USA Cabinet Store (2025-03-03).pdf
+  Extracted Company: USA Cabinet Store
+  Best Match Score: 48.8%
+
+FP TCE_v7.45 - Verra Mobility Corp (2025-03-17).pdf
+  Extracted Company: Verra Mobility Corp
+  Best Match Score: 47.6%
+
+FP TCE_v7.45 - Young Innovations (2025-03-06).pdf
+  Extracted Company: Young Innovations
+  Best Match Score: 59.3%
+
+FP TCE_v7.45 - YunExpress (2025-03-25).pdf
+  Extracted Company: YunExpress
+  Best Match Score: 69.6%
+
+FP TCE_v7.51 - Federal Rent-A-Fence (2025-04-25).pdf
+  Extracted Company: Federal Rent-A-Fence
+  Best Match Score: 47.6%
+
+FP TCE_v7.51 - Koontz Electric (2025-05-01).pdf
+  Extracted Company: Koontz Electric
+  Best Match Score: 48.3%
+
+FP TCE_v7.51 - MetalTech (2025-05-05).pdf
+  Extracted Company: MetalTech
+  Best Match Score: 62.5%
+
+FP TCE_v7.51 - NCD Distributors (2025-05-08).pdf
+  Extracted Company: NCD Distributors
+  Best Match Score: 54.5%
+
+FP TCE_v7.51 - Olive My Pickle (2025-04-22).pdf
+  Extracted Company: Olive My Pickle
+  Best Match Score: 53.8%
+
+FP TCE_v7.51 - PTI (2025-04-30).pdf
+  Extracted Company: PTI
+  Best Match Score: 50.0%
+
+FP TCE_v7.51 - Precision Group (2025-05-15).pdf
+  Extracted Company: Precision Group
+  Best Match Score: 45.5%
+
+FP TCE_v7.51 - Precision Group (2025-05-22).pdf
+  Extracted Company: Precision Group
+  Best Match Score: 45.5%
+
+FP TCE_v7.51 - Precision Metal Industries (2025-04-18).pdf
+  Extracted Company: Precision Metal Industries
+  Best Match Score: 57.9%
+
+FP TCE_v7.52 - American Architectural Millwork (2025-05-12).pdf
+  Extracted Company: American Architectural Millwork
+  Best Match Score: 50.0%
+
+FP TCE_v7.52 - American Spraytech (2025-07-08) - PROFORMA.pdf
+  Extracted Company: None
+  Best Match Score: 0.0%
+
+FP TCE_v7.52 - American Spraytech (2025-07-08).pdf
+  Extracted Company: American Spraytech
+  Best Match Score: 71.0%
+
+FP TCE_v7.52 - American Traffic Solutions (2025-05-09).pdf
+  Extracted Company: American Traffic Solutions
+  Best Match Score: 60.0%
+
+FP TCE_v7.52 - C&D Printing (2025-06-02).pdf
+  Extracted Company: C&D Printing
+  Best Match Score: 48.5%
+
+FP TCE_v7.52 - Chemisys Inc (2025-05-29).pdf
+  Extracted Company: Chemisys Inc
+  Best Match Score: 42.9%
+
+FP TCE_v7.52 - EA Engineering (2025-05-20).pdf
+  Extracted Company: EA Engineering
+  Best Match Score: 54.9%
+
+FP TCE_v7.52 - EZ Livery Leasing (2025-05-30).pdf
+  Extracted Company: EZ Livery Leasing
+  Best Match Score: 48.3%
+
+FP TCE_v7.52 - Foxlink (2025-05-27).pdf
+  Extracted Company: Foxlink
+  Best Match Score: 47.1%
+
+FP TCE_v7.52 - International General Trading Group (2025-05-24).pdf
+  Extracted Company: International General Trading Group
+  Best Match Score: 41.5%
+
+FP TCE_v7.52 - MWD Logistics (2025-05-14).pdf
+  Extracted Company: MWD Logistics
+  Best Match Score: 61.1%
+
+FP TCE_v7.52 - Marcolin (2025-05-06).pdf
+  Extracted Company: Marcolin
+  Best Match Score: 57.1%
+
+FP TCE_v7.52 - Sunshine State (2025-05-15).pdf
+  Extracted Company: Sunshine State
+  Best Match Score: 72.0%
+
+FP TCE_v7.52 - TX Logistics & Fulfillment (2025-05-29).pdf
+  Extracted Company: TX Logistics & Fulfillment
+  Best Match Score: 42.6%
+
+FP TCE_v7.53 - ADT (2025-07-17).pdf
+  Extracted Company: ADT
+  Best Match Score: 40.0%
+
+FP TCE_v7.53 - Advanced Flower Capital (2025-06-09).pdf
+  Extracted Company: Advanced Flower Capital
+  Best Match Score: 50.0%
+
+FP TCE_v7.53 - All Round Bakery Products (2025-07-08).pdf
+  Extracted Company: All Round Bakery Products
+  Best Match Score: 54.1%
+
+FP TCE_v7.53 - Base Power (2025-07-14).pdf
+  Extracted Company: Base Power
+  Best Match Score: 53.8%
+
+FP TCE_v7.53 - Baseball Lifestyle 101 (2025-07-02).pdf
+  Extracted Company: Baseball Lifestyle 101
+  Best Match Score: 42.1%
+
+FP TCE_v7.53 - Cigarette Boat (2025-07-18).pdf
+  Extracted Company: Cigarette Boat
+  Best Match Score: 46.2%
+
+FP TCE_v7.53 - Coherent (2025-07-18).pdf
+  Extracted Company: Coherent
+  Best Match Score: 50.0%
+
+FP TCE_v7.53 - Control Works (2025-08-04).pdf
+  Extracted Company: Control Works
+  Best Match Score: 57.1%
+
+FP TCE_v7.53 - Europastry (2025-08-01).pdf
+  Extracted Company: Europastry
+  Best Match Score: 41.7%
+
+FP TCE_v7.53 - FlexCraft (2025-06-15).pdf
+  Extracted Company: FlexCraft
+  Best Match Score: 42.9%
+
+FP TCE_v7.53 - Global Packaging (2025-07-23).pdf
+  Extracted Company: Global Packaging
+  Best Match Score: 71.0%
+
+FP TCE_v7.53 - Gossamer Security Solutions (2025-08-03).pdf
+  Extracted Company: Gossamer Security Solutions
+  Best Match Score: 62.7%
+
+FP TCE_v7.53 - Great Wall Textile (2025-06-05).pdf
+  Extracted Company: Great Wall Textile
+  Best Match Score: 43.8%
+
+FP TCE_v7.53 - Harimatec Inc (2025-08-06).pdf
+  Extracted Company: Harimatec Inc
+  Best Match Score: 50.0%
+
+FP TCE_v7.53 - Ken Color (2025-07-21).pdf
+  Extracted Company: Ken Color
+  Best Match Score: 50.0%
+
+FP TCE_v7.53 - Momentum Glass (2025-06-04).pdf
+  Extracted Company: Momentum Glass
+  Best Match Score: 46.7%
+
+FP TCE_v7.53 - Profile Food Ingredients (2025-08-07).pdf
+  Extracted Company: Profile Food Ingredients
+  Best Match Score: 50.0%
+
+FP TCE_v7.53 - Rocky Mountain NexBev (2025-08-09).pdf
+  Extracted Company: Rocky Mountain NexBev
+  Best Match Score: 42.1%
+
+FP TCE_v7.53 - Spectrum (NYSE CHTR) (2025-06-09).pdf
+  Extracted Company: Spectrum (NYSE CHTR)
+  Best Match Score: 41.2%
+
+FP TCE_v7.53 - TopBuild Corp (NYSE BLD) (2025-06-10).pdf
+  Extracted Company: TopBuild Corp (NYSE BLD)
+  Best Match Score: 43.8%
+
+FP TCE_v7.53 - Whole Stones, LLC (2025-07-29).pdf
+  Extracted Company: Whole Stones, LLC
+  Best Match Score: 56.0%
+

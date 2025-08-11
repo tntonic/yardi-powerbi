@@ -1,0 +1,234 @@
+Status,Customer_ID,Tenant_Name,Original_Filename,New_Filename,Match_Score
+Matched,c0000997,Shearer Supply Inc.,FP TCE_v7.45 - Shearer Supply (2025-03-24).pdf,c0000997_Shearer_Supply_Inc.pdf,100.0
+Matched,c0000494,Motorvation LLC,FP TCE_v7.44 - Motorvation (2024-11-19).pdf,c0000494_Motorvation_LLC.pdf,100.0
+Matched,c0000973,"Aluma-Form, Inc.",FP TCE_v7.52 - AlumaForm (2025-05-13).pdf,c0000973_Aluma-Form_Inc.pdf,100.0
+Matched,c0000244,"Dynamic Rubber, Inc.",FP TCE_v7.53 - Dynamic Rubber (2025-07-22).pdf,c0000244_Dynamic_Rubber_Inc.pdf,100.0
+Matched,c0000493,"Motion Industries, Inc.",FP TCE_v6.68 - Ox Industries (2024-09-10).pdf,c0000493_Motion_Industries_Inc.pdf,100.0
+Matched,c0000870,"cbdMD, Inc.",FP TCE_v7.44 - cbdMD (2024-11-25).pdf,c0000870_cbdMD_Inc.pdf,100.0
+Matched,c0000194,"Clique Here, LLC",FP TCE_v6.67 - Clique Here LLC (2024-04-30).pdf,c0000194_Clique_Here_LLC.pdf,100.0
+Matched,c0000586,"RD Foods America, Inc.",FP TCE_v6.67 - RD Foods Americas Inc. (2026-05-20).pdf,c0000586_RD_Foods_America_Inc.pdf,97.0
+Matched,c0000696,The Gorilla Glue Company LLC,FP TCE_v7.44 - The Gorilla Glue Company (2024-12-07).pdf,c0000696_The_Gorilla_Glue_Company_LLC.pdf,100.0
+Matched,c0001069,"Quench USA, Inc.",FP TCE_v7.44 - Quench USA (2025-01-16).pdf,c0001069_Quench_USA_Inc.pdf,100.0
+Matched,c0000100,"Amphenol EEC, Inc.",FP TCE_v7.44 - Amphenol (2025-01-13).pdf,c0000100_Amphenol_EEC_Inc.pdf,80.0
+Matched,c0000301,"G&W Products, LLC.",FP TCE_v7.45 - G&W Products (2025-02-27).pdf,c0000301_GW_Products_LLC.pdf,100.0
+Matched,c0000805,LINCARE INC.,FP TCE_v7.44 - Lincare Inc (2025-01-19).pdf,c0000805_LINCARE_INC.pdf,100.0
+Matched,c0000279,Fastenal Company,FP TCE_v7.44 - Fastenal (2024-11-05).pdf,c0000279_Fastenal_Company.pdf,100.0
+Matched,c0000962,"Delta Landscape Supply of Georgia, Inc",FP TCE_v7.44 - Delta Landscaping (2024-11-05).pdf,c0000962_Delta_Landscape_Supply_of_Georgia_Inc.pdf,100.0
+Matched,c0000056,"True World Foods Columbus, LLC",FP TCE_v7.45 - TWF (2025-01-30).pdf,c0000056_True_World_Foods_Columbus_LLC.pdf,100.0
+Matched,c0000494,Motorvation LLC,FP TCE_v6.65 - Motorvation LLC (2023-11-07).pdf,c0000494_Motorvation_LLC.pdf,100.0
+Matched,c0000378,"Jade Carpentry Contractors, Inc.",FP TCE_v7.45 - Jade Carpentry Contractors (2025-02-22).pdf,c0000378_Jade_Carpentry_Contractors_Inc.pdf,100.0
+Matched,c0000544,Pelton Shepherd Industries Inc,FP TCE_v7.45 - Pelton Shepherd (2025-04-01).pdf,c0000544_Pelton_Shepherd_Industries_Inc.pdf,100.0
+Matched,c0000270,Event Link,FP TCE_v6.66 - EventLink (2024-04-09).pdf,c0000270_Event_Link.pdf,94.7
+Matched,c0000159,Bunting Magnetics Company,FP TCE_v7.45 - Bunting Magnetics (2025-03-04).pdf,c0000159_Bunting_Magnetics_Company.pdf,100.0
+Matched,c0000897,"CFC Group, LLC",FP TCE_v7.44 - CFC Group (2025-01-15).pdf,c0000897_CFC_Group_LLC.pdf,100.0
+Matched,c0001048,Flower Shop El Chapin LLC,FP TCE_v7.44 - Flower Shop El Chapin (2024-11-05).pdf,c0001048_Flower_Shop_El_Chapin_LLC.pdf,100.0
+Matched,c0000746,VIE DE France Yamazaki Inc,FP TCE_v7.44 - Vie de France Yamazaki (2024-12-12).pdf,c0000746_VIE_DE_France_Yamazaki_Inc.pdf,100.0
+Matched,c0000918,Prime Egrocery Inc,FP TCE_v7.45 - Prime Egrocery (2025-02-28).pdf,c0000918_Prime_Egrocery_Inc.pdf,100.0
+Matched,c0000225,"Daring Design, LLC",FP TCE_v7.45 - Daring Design (2025-02-23).pdf,c0000225_Daring_Design_LLC.pdf,100.0
+Matched,c0001058,Innoved Institute LLC,FP TCE_v7.44 - Innoved Institute (2024-12-11).pdf,c0001058_Innoved_Institute_LLC.pdf,100.0
+Matched,c0000493,"Motion Industries, Inc.",FP TCE_v6.68 - Ox Industries PROFORMA (2024-09-18).pdf,c0000493_Motion_Industries_Inc.pdf,100.0
+Matched,c0000330,Greif Packaging LLC,FP TCE_v7.53 - GC Packaging (2025-07-31).pdf,c0000330_Greif_Packaging_LLC.pdf,81.5
+Matched,c0000136,Bengal Converting Services,FP TCE_v7.45 - Bengal Converting Services (2025-02-06).pdf,c0000136_Bengal_Converting_Services.pdf,100.0
+Matched,c0000793,NJ/NY Gotham Football Club LLC,FP TCE_v7.53 - NJ NY Gotham Football (2025-06-08).pdf,c0000793_NJNY_Gotham_Football_Club_LLC.pdf,100.0
+Matched,c0000414,"Kreg Therapeutics, Inc",FP TCE_v7.51 - Kreg Therapeutic (2025-04-23).pdf,c0000414_Kreg_Therapeutics_Inc.pdf,97.0
+Unmatched,,Polyart,FP TCE_v7.45 - Polyart (2025-03-12).pdf,,50.0
+Unmatched,,Five Star Food Service,FP TCE_v7.45 - Five Star Food Service (2025-03-27).pdf,,61.1
+Unmatched,,Insight Enterprise,FP TCE_v7.44 - Insight Enterprise (2024-10-11).pdf,,78.8
+Unmatched,,Reliable Restoration (2024-06-17),FP TCE_v6.68 - Reliable Restoration (2024-06-17)(1).pdf,,44.4
+Unmatched,,Thaler Machine Holdings,FP TCE_v7.44 - Thaler Machine Holdings (2024-11-12).pdf,,45.5
+Unmatched,,CurlMix,FP TCE_v7.44 - CurlMix (2024-11-21).pdf,,40.0
+Unmatched,,CSG,FP TCE_v7.44 - CSG (2025-02-12).pdf,,33.3
+Unmatched,,Base Power,FP TCE_v7.53 - Base Power (2025-07-14).pdf,,53.8
+Unmatched,,All Metals,FP TCE_v7.45 - All Metals (2025-03-20).pdf,,48.3
+Unmatched,,Whitaker Group,FP TCE_v6.66 - Whitaker Group (2024-04-12).pdf,,61.5
+Unmatched,,PTI,FP TCE_v7.51 - PTI (2025-04-30).pdf,,50.0
+Unmatched,,Caseys Coffee,FP TCE_v7.44 - Caseys Coffee (2024-11-01).pdf,,45.5
+Unmatched,,Pan-Y-Mas,FP TCE_v7.44 - Pan-Y-Mas (2024-10-14).pdf,,46.2
+Unmatched,,Trident EXIM,FP TCE_v7.45 - Trident EXIM (2025-03-10).pdf,,48.3
+Unmatched,,Bronner Brothers,FP TCE_v7.44 - Bronner Brothers (2024-10-17).pdf,,55.6
+Unmatched,,DME Express,FP TCE_v6.65 - DME Express (2023-11-02).pdf,,60.6
+Unmatched,,"Bengal Grp, LLC","FP TCE_v7.45 - Bengal Grp, LLC (2025-02-02).pdf",,52.9
+Unmatched,,945 Industries,FP TCE_v7.45 - 945 Industries (2025-04-18).pdf,,0.0
+Unmatched,,Modular Closets,FP TCE_v7.44 - Modular Closets (2024-11-26).pdf,,44.4
+Unmatched,,IMI Management,FP TCE_v7.45 - IMI Management (2025-01-29).pdf,,75.9
+Unmatched,,Sannova Analytical,FP TCE_v7.44 - Sannova Analytical (2024-12-31).pdf,,45.7
+Unmatched,,,FP TCE_v6.23 - Atlas Copco_v2.pdf,,0.0
+Unmatched,,Master_Lincoln Educational Services Corp,FP TCE_v6.57 - Master_Lincoln Educational Services Corp (2023-09-21).pdf,,52.6
+Unmatched,,RotoRooter Plumbing & Drain Service,FP TCE_v6.67 - RotoRooter Plumbing & Drain Service (2024-04-16).pdf,,50.0
+Unmatched,,Florida Packaging & Graphics,FP TCE_v7.44 - Florida Packaging & Graphics (2024-11-18).pdf,,53.7
+Unmatched,,OmniMax International,FP TCE_v7.44 - OmniMax International (2024-09-10).pdf,,50.0
+Unmatched,,NVGTN,FP TCE_v7.45 - NVGTN (2025-02-13).pdf,,40.0
+Unmatched,,Project Coal,FP TCE_v7.44 - Project Coal (2024-11-29).pdf,,47.1
+Unmatched,,FlexCraft,FP TCE_v7.53 - FlexCraft (2025-06-15).pdf,,42.9
+Unmatched,,S&S Truck Parts,FP TCE_v7.44 - S&S Truck Parts (2024-12-06).pdf,,60.0
+Unmatched,,WTC Granite,FP TCE_v7.44 - WTC Granite (2024-11-20).pdf,,50.0
+Unmatched,,Beard Integrated Systems,FP TCE_v7.44 - Beard Integrated Systems (2024-10-21).pdf,,64.9
+Unmatched,,Valley Forge,FP TCE_v7.44 - Valley Forge (2024-12-30).pdf,,48.0
+Unmatched,,All Metals,FP TCE_v7.45 - All Metals - PROFORMA (2025-03-20).pdf,,48.3
+Unmatched,,MetalTech,FP TCE_v7.51 - MetalTech (2025-05-05).pdf,,62.5
+Unmatched,,Traffic Control Devices,FP TCE_v7.44 - Traffic Control Devices (2025-01-08).pdf,,53.7
+Unmatched,,ABC Supply Corp,FP TCE_v7.44 - ABC Supply Corp (2024-10-08).pdf,,66.7
+Unmatched,,ORAS Express,FP TCE_v7.44 - ORAS Express (2024-11-28).pdf,,64.0
+Unmatched,,BES Associates,FP TCE_v6.65 - BES Associates (2023-12-10).pdf,,51.9
+Unmatched,,Global Packaging,FP TCE_v7.53 - Global Packaging (2025-07-23).pdf,,71.0
+Unmatched,,WernerAero,FP TCE_v7.44 - WernerAero (2024-11-22).pdf,,66.7
+Unmatched,,Packaging By Design,FP TCE_v7.45 - Packaging By Design (2025-03-07).pdf,,68.8
+Unmatched,,Olive My Pickle,FP TCE_v7.51 - Olive My Pickle (2025-04-22).pdf,,53.8
+Unmatched,,Corning Incorporated,FP TCE_v7.45 - Corning Incorporated (2025-01-28).pdf,,60.0
+Unmatched,,Leading Pharma,FP TCE_v6.57 - Leading Pharma (2023-09-18).pdf,,46.5
+Unmatched,,TopBuild Corp (NYSE BLD),FP TCE_v7.53 - TopBuild Corp (NYSE BLD) (2025-06-10).pdf,,43.8
+Unmatched,,Clarion Technologies,FP TCE_v7.45 - Clarion Technologies (2025-04-21).pdf,,49.1
+Unmatched,,"Whole Stones, LLC","FP TCE_v7.53 - Whole Stones, LLC (2025-07-29).pdf",,56.0
+Unmatched,,Flack Steel,FP TCE_v7.44 - Flack Steel (2024-09-06).pdf,,66.7
+Unmatched,,Licaflex,FP TCE_v7.44 - Licaflex (2024-12-06).pdf,,46.2
+Unmatched,,ADT,FP TCE_v7.53 - ADT (2025-07-17).pdf,,40.0
+Unmatched,,Young Innovations,FP TCE_v7.45 - Young Innovations (2025-03-06).pdf,,59.3
+Unmatched,,TX Logistics & Fulfillment,FP TCE_v7.52 - TX Logistics & Fulfillment (2025-05-29).pdf,,42.6
+Unmatched,,Clarion Technologies,FP TCE_v7.45 - Clarion Technologies (2025-03-05).pdf,,49.1
+Unmatched,,,FP TCE_v7.52 - American Spraytech (2025-07-08) - PROFORMA.pdf,,0.0
+Unmatched,,Bread Partners,FP TCE_v7.44 - Bread Partners (2024-09-12).pdf,,50.0
+Unmatched,,Laser Precision,FP TCE_v7.44 - Laser Precision (2024-10-15).pdf,,56.2
+Unmatched,,K&A Industries,FP TCE_v7.44 - K&A Industries (2024-11-08).pdf,,50.0
+Unmatched,,Christie Lites,FP TCE_v6.65 - Christie Lites (2023-11-22).pdf,,48.6
+Unmatched,,"Boston Battery, LLC","FP TCE_v6.66 - Boston Battery, LLC (2024-04-01).pdf",,48.0
+Unmatched,,Cal Plate,FP TCE_v7.44 - Cal Plate (2024-12-27).pdf,,66.7
+Unmatched,,Caldic,FP TCE_v7.44 - Caldic (2024-10-14).pdf,,46.2
+Unmatched,,IMCD,FP TCE_v6.65 - IMCD (2023-11-27).pdf,,44.4
+Unmatched,,A&J Direct,FP TCE_v7.44 - A&J Direct (2025-01-08).pdf,,52.6
+Unmatched,,Cal Plate,FP TCE_v7.44 - Cal Plate (2024-12-31).pdf,,66.7
+Unmatched,,Humboldt Manufacturing,FP TCE_v7.45 - Humboldt Manufacturing (2025-02-24).pdf,,78.0
+Unmatched,,Actron Engineering,FP TCE_v7.44 - Actron Engineering (2025-01-25).pdf,,47.3
+Unmatched,,CSG,FP TCE_v7.44 - CSG (2025-01-03).pdf,,33.3
+Unmatched,,Del Val Food Ingredients,FP TCE_v7.44 - Del Val Food Ingredients (2025-01-17).pdf,,43.2
+Unmatched,,Chicagoland Quad Cities Express,FP TCE_v7.45 - Chicagoland Quad Cities Express (2025-02-10).pdf,,45.5
+Unmatched,,Beverly Knits Inc.,FP TCE_v6.66 - Beverly Knits Inc. (2024-02-23).pdf,,43.5
+Unmatched,,Ludlow Manufacturing,FP TCE_v7.45 - Ludlow Manufacturing (2025-03-12).pdf,,71.8
+Unmatched,,EA Engineering,FP TCE_v7.52 - EA Engineering (2025-05-20).pdf,,54.9
+Unmatched,,Crown Packaging,FP TCE_v6.65 - Crown Packaging (2023-10-10).pdf,,73.3
+Unmatched,,NI-JO,FP TCE_v7.44 - NI-JO (2024-11-18).pdf,,28.6
+Unmatched,,Verra Mobility Corp,FP TCE_v7.45 - Verra Mobility Corp (2025-03-17).pdf,,47.6
+Unmatched,,Bo Sports,FP TCE_v7.44 - Bo Sports (2025-01-19).pdf,,48.0
+Unmatched,,"ACTEGA North America, Inc.","FP TCE_v6.67 - ACTEGA North America, Inc. (2024-04-16).pdf",,73.2
+Unmatched,,WeldFit,FP TCE_v7.44 - WeldFit (2024-11-05).pdf,,42.9
+Unmatched,,ICE,FP TCE_v7.44 - ICE (2024-12-18).pdf,,42.9
+Unmatched,,Flowers Baking,FP TCE_v7.44 - Flowers Baking (2024-10-17).pdf,,62.9
+Unmatched,,FleetPride,FP TCE_v7.44 - FleetPride (2024-10-23).pdf,,53.3
+Unmatched,,Multi-Color Corporation,FP TCE_v6.64 - Multi-Color Corporation (2023-10-02).pdf,,62.1
+Unmatched,,Best Nest Inc.,FP TCE_v6.64 - Best Nest Inc. (2023-10-13).pdf,,54.5
+Unmatched,,VoidForm,FP TCE_v7.44 - VoidForm (2024-08-28).pdf,,44.4
+Unmatched,,Cheer Gym,FP TCE_v7.44 - Cheer Gym (2024-10-31).pdf,,52.2
+Unmatched,,Circuit Works Corporation,FP TCE_v7.44 - Circuit Works Corporation (2025-01-23).pdf,,57.1
+Unmatched,,Momentum Glass,FP TCE_v7.53 - Momentum Glass (2025-06-04).pdf,,46.7
+Unmatched,,Novartis,FP TCE_v7.44 - Novartis (2024-10-29).pdf,,55.6
+Unmatched,,CK Life Sciences,FP TCE_v7.44 - CK Life Sciences (2024-11-14).pdf,,51.9
+Unmatched,,Profile Food Ingredients,FP TCE_v7.53 - Profile Food Ingredients (2025-08-07).pdf,,50.0
+Unmatched,,"Absolute Pallet, Inc.","FP TCE_v6.64 - Absolute Pallet, Inc. (2023-10-05).pdf",,52.2
+Unmatched,,Viscot Medical,FP TCE_v7.44 - Viscot Medical (2024-12-28).pdf,,55.6
+Unmatched,,Federal Rent-A-Fence,FP TCE_v7.51 - Federal Rent-A-Fence (2025-04-25).pdf,,47.6
+Unmatched,,EZ Livery Leasing,FP TCE_v7.52 - EZ Livery Leasing (2025-05-30).pdf,,48.3
+Unmatched,,Great Wall Textile,FP TCE_v7.53 - Great Wall Textile (2025-06-05).pdf,,43.8
+Unmatched,,DIGI America,FP TCE_v7.45 - DIGI America (2025-03-11).pdf,,69.0
+Unmatched,,"Gofo, Inc","FP TCE_v7.45 - Gofo, Inc (2025-03-19).pdf",,40.0
+Unmatched,,"Master_American Musical Supply, Inc.","FP TCE_v6.57 - Master_American Musical Supply, Inc. (2023-09-21).pdf",,57.6
+Unmatched,,USA Wheel & Tire,FP TCE_v7.44 - USA Wheel & Tire (2024-11-23).pdf,,60.9
+Unmatched,,Estee Lauder Companies,FP TCE_v7.45 - Estee Lauder Companies (2025-04-07).pdf,,48.6
+Unmatched,,Acme Lock  Door Experts,FP TCE_v6.63 - Acme Lock  Door Experts (2023-10-04).pdf,,41.9
+Unmatched,,Caldic,FP TCE_v7.44 - Caldic (2024-12-19).pdf,,46.2
+Unmatched,,,FP TCE_v7.44 - Brady (2024-09-17) - LIGHT ASSESSMENT.pdf,,0.0
+Unmatched,,YesVideo,FP TCE_v7.44 - YesVideo (2024-10-04).pdf,,44.4
+Unmatched,,"Greif, Inc","FP TCE_v7.44 - Greif, Inc (2025-01-12).pdf",,50.0
+Unmatched,,,FP TCE_v6.23 - cbdMD_v2.pdf,,0.0
+Unmatched,,Marcolin,FP TCE_v7.52 - Marcolin (2025-05-06).pdf,,57.1
+Unmatched,,Vitaquest,FP TCE_v7.44 - Vitaquest (2024-11-14).pdf,,42.1
+Unmatched,,"NewCo, Plastics","FP TCE_v7.44 - NewCo, Plastics (2025-01-16).pdf",,52.6
+Unmatched,,TruckPro,FP TCE_v7.45 - TruckPro (2025-02-12).pdf,,42.4
+Unmatched,,Spectrum (NYSE CHTR),FP TCE_v7.53 - Spectrum (NYSE CHTR) (2025-06-09).pdf,,41.2
+Unmatched,,Pride Delivery,FP TCE_v7.44 - Pride Delivery (2024-12-12).pdf,,64.3
+Unmatched,,Europastry,FP TCE_v7.53 - Europastry (2025-08-01).pdf,,41.7
+Unmatched,,Proven Partners Group,FP TCE_v7.42 - Proven Partners Group (2024-08-06).pdf,,50.0
+Unmatched,,"Vantec Hitachi Transport System (USA), Inc.","FP TCE_v6.66 - Vantec Hitachi Transport System (USA), Inc. (2024-03-23).pdf",,49.1
+Unmatched,,Unifoil Holdings Inc.,FP TCE_v6.67 - Unifoil Holdings Inc. (2024-05-01).pdf,,50.0
+Unmatched,,Zeus Scientific,FP TCE_v7.44 - Zeus Scientific (2024-11-15).pdf,,43.8
+Unmatched,,Koontz Electric,FP TCE_v7.51 - Koontz Electric (2025-05-01).pdf,,48.3
+Unmatched,,Beautylish,FP TCE_v6.65 - Beautylish (2023-12-22).pdf,,47.1
+Unmatched,,Modern Equipment Co Inc,FP TCE_v7.44 - Modern Equipment Co Inc (2024-11-27).pdf,,43.8
+Unmatched,,Florida Food Products,FP TCE_v7.45 - Florida Food Products (2025-02-28).pdf,,60.6
+Unmatched,,Plastics Family Holdings,FP TCE_v7.44 - Plastics Family Holdings (2024-12-16).pdf,,43.1
+Unmatched,,NCD Distributors,FP TCE_v7.51 - NCD Distributors (2025-05-08).pdf,,54.5
+Unmatched,,Precision Group,FP TCE_v7.51 - Precision Group (2025-05-15).pdf,,45.5
+Unmatched,,"NewCo, Plastics","FP TCE_v7.44 - NewCo, Plastics (2025-02-05).pdf",,52.6
+Unmatched,,Zina,FP TCE_v7.44 - Zina (2024-10-24).pdf,,40.0
+Unmatched,,American Spraytech,FP TCE_v7.52 - American Spraytech (2025-07-08).pdf,,71.0
+Unmatched,,YunExpress,FP TCE_v7.45 - YunExpress (2025-03-25).pdf,,69.6
+Unmatched,,RX Source,FP TCE_v6.26 - RX Source (2023-08-16).pdf,,50.0
+Unmatched,,Window Nation,FP TCE_v7.42 - Window Nation (2024-08-21).pdf,,52.6
+Unmatched,,Piab,FP TCE_v7.44 - Piab (2024-10-24).pdf,,37.5
+Unmatched,,March Products - Gold Crest,FP TCE_v7.45 - March Products - Gold Crest (2025-03-18).pdf,,46.2
+Unmatched,,Cavaform,FP TCE_v7.45 - Cavaform (2025-03-05).pdf,,66.7
+Unmatched,,MWD Logistics,FP TCE_v7.42 - MWD Logistics (2024-08-13).pdf,,61.1
+Unmatched,,,FP TCE_v7.44 - Precision Roll Solutions (2024-10-10) - Consolidated.pdf,,0.0
+Unmatched,,Atlas Packaging Inc,FP TCE_v6.65 - Atlas Packaging Inc (2023-11-17).pdf,,66.7
+Unmatched,,Rocky Mountain NexBev,FP TCE_v7.53 - Rocky Mountain NexBev (2025-08-09).pdf,,42.1
+Unmatched,,Premio Foods,FP TCE_v6.69 - Premio Foods (2024-07-08).pdf,,51.4
+Unmatched,,Wincup.Inc. and Subsidiaries,FP TCE_v6.65 - Wincup.Inc. and Subsidiaries (2024-03-29).pdf,,41.2
+Unmatched,,Advanced Flower Capital,FP TCE_v7.53 - Advanced Flower Capital (2025-06-09).pdf,,50.0
+Unmatched,,Triangle Services,FP TCE_v7.44 - Triangle Services (2024-11-19).pdf,,71.4
+Unmatched,,Enzo Biochem,FP TCE_v7.45 - Enzo Biochem (2025-03-18).pdf,,52.2
+Unmatched,,Modernfoldstyles,FP TCE_v7.45 - Modernfoldstyles (2025-03-04).pdf,,44.4
+Unmatched,,Chemisys Inc,FP TCE_v7.52 - Chemisys Inc (2025-05-29).pdf,,42.9
+Unmatched,,Licaflex,FP TCE_v7.44 - Licaflex (2025-01-01).pdf,,46.2
+Unmatched,,Precision Group,FP TCE_v7.51 - Precision Group (2025-05-22).pdf,,45.5
+Unmatched,,ZOne,FP TCE_v6.68 - ZOne (2024-05-22).pdf,,50.0
+Unmatched,,Central Salvage,FP TCE_v6.66 - Central Salvage (2024-04-13).pdf,,48.3
+Unmatched,,OnScent,FP TCE_v7.44 - OnScent (2025-02-19).pdf,,54.5
+Unmatched,,CNC Manufacturing,FP TCE_v7.44 - CNC Manufacturing (2025-01-23).pdf,,77.8
+Unmatched,,Sunshine State,FP TCE_v7.52 - Sunshine State (2025-05-15).pdf,,72.0
+Unmatched,,Family Vending,FP TCE_v7.45 - Family Vending (2025-02-14).pdf,,45.7
+Unmatched,,Lonestar Wholesale & Distribution,FP TCE_v7.44 - Lonestar Wholesale & Distribution (2025-01-24).pdf,,51.9
+Unmatched,,Genuine Parts Company,FP TCE_v7.44 - Genuine Parts Company (2024-11-16).pdf,,50.0
+Unmatched,,C&D Printing,FP TCE_v7.52 - C&D Printing (2025-06-02).pdf,,48.5
+Unmatched,,OnScent,FP TCE_v7.44 - OnScent (2024-11-20).pdf,,54.5
+Unmatched,,New York Label & Box Works,FP TCE_v6.65 - New York Label & Box Works (2024-01-17).pdf,,41.7
+Unmatched,,Foxlink,FP TCE_v7.52 - Foxlink (2025-05-27).pdf,,47.1
+Unmatched,,Currey & Company,FP TCE_v7.42 - Currey & Company (2024-08-09).pdf,,47.1
+Unmatched,,American Architectural Millwork,FP TCE_v7.52 - American Architectural Millwork (2025-05-12).pdf,,50.0
+Unmatched,,Gossamer Security Solutions,FP TCE_v7.53 - Gossamer Security Solutions (2025-08-03).pdf,,62.7
+Unmatched,,Ken Color,FP TCE_v7.53 - Ken Color (2025-07-21).pdf,,50.0
+Unmatched,,HT Airsystems Carolinas,FP TCE_v7.45 - HT Airsystems Carolinas (2025-01-26).pdf,,56.4
+Unmatched,,American Traffic Solutions,FP TCE_v7.52 - American Traffic Solutions (2025-05-09).pdf,,60.0
+Unmatched,,LB Plastics,FP TCE_v6.57 - LB Plastics (2023-10-03).pdf,,54.5
+Unmatched,,MWD Logistics,FP TCE_v7.52 - MWD Logistics (2025-05-14).pdf,,61.1
+Unmatched,,,FP TCE_v6.23 - Core & Main_v2.pdf,,0.0
+Unmatched,,Reliable Restoration,FP TCE_v6.68 - Reliable Restoration (2024-06-17).pdf,,58.5
+Unmatched,,CSG,FP TCE_v7.44 - CSG (2025-01-16).pdf,,33.3
+Unmatched,,Control Works,FP TCE_v7.53 - Control Works (2025-08-04).pdf,,57.1
+Unmatched,,Baseball Lifestyle 101,FP TCE_v7.53 - Baseball Lifestyle 101 (2025-07-02).pdf,,42.1
+Unmatched,,"Southern Aluminum Finishing Company, Inc.","FP TCE_v6.66 - Southern Aluminum Finishing Company, Inc. (2024-03-29).pdf",,43.5
+Unmatched,,Seal South,FP TCE_v7.44 - Seal South (2024-12-03).pdf,,50.0
+Unmatched,,Simonik Transportation & Warehousing Group,FP TCE_v6.65 - Simonik Transportation & Warehousing Group (2023-10-25).pdf,,47.3
+Unmatched,,C&J Contractors,FP TCE_v7.44 - C&J Contractors (2024-11-01).pdf,,59.5
+Unmatched,,Brew Theory,FP TCE_v7.44 - Brew Theory (2024-12-09).pdf,,56.0
+Unmatched,,International General Trading Group,FP TCE_v7.52 - International General Trading Group (2025-05-24).pdf,,41.5
+Unmatched,,Harimatec Inc,FP TCE_v7.53 - Harimatec Inc (2025-08-06).pdf,,50.0
+Unmatched,,Antego Tire & Wheel,FP TCE_v7.45 - Antego Tire & Wheel (2025-03-18).pdf,,50.0
+Unmatched,,Infinite Windows,FP TCE_v7.45 - Infinite Windows (2025-03-21).pdf,,42.4
+Unmatched,,Krowne Metal Corporation,FP TCE_v6.65 - Krowne Metal Corporation (2024-01-19).pdf,,58.1
+Unmatched,,Sybridge,FP TCE_v7.45 - Sybridge - PROFORMA (2025-03-20).pdf,,50.0
+Unmatched,,All Round Bakery Products,FP TCE_v7.53 - All Round Bakery Products (2025-07-08).pdf,,54.1
+Unmatched,,TruckPro,FP TCE_v7.45 - TruckPro (2025-04-29).pdf,,42.4
+Unmatched,,,FP TCE_v7.44 - Thaler Machine Holdings (2024-11-12) FY-24 & Proforma.pdf,,0.0
+Unmatched,,,FP TCE_v7.25 - Marketing.com (12.15.23).pdf,,0.0
+Unmatched,,American Expediting Logistics,FP TCE_v7.44 - American Expediting Logistics (2024-12-29).pdf,,50.0
+Unmatched,,Coherent,FP TCE_v7.53 - Coherent (2025-07-18).pdf,,50.0
+Unmatched,,Insight Enterprise (2024-10-11),FP TCE_v7.44 - Insight Enterprise (2024-10-11)(1).pdf,,56.5
+Unmatched,,Precision Metal Industries,FP TCE_v7.51 - Precision Metal Industries (2025-04-18).pdf,,57.9
+Unmatched,,Pinnacle Cosmetic Packaging,FP TCE_v6.64 - Pinnacle Cosmetic Packaging (2023-10-09).pdf,,55.0
+Unmatched,,Five Star Food Service,FP TCE_v7.45 - Five Star Food Service (2025-03-24).pdf,,61.1
+Unmatched,,USA Cabinet Store,FP TCE_v7.45 - USA Cabinet Store (2025-03-03).pdf,,48.8
+Unmatched,,DuBois Chemical,FP TCE_v7.44 - DuBois Chemical (2024-12-17).pdf,,51.6
+Unmatched,,Zina,FP TCE_v7.44 - Zina - FY-24 (A) (2024-11-21).pdf,,40.0
+Unmatched,,Gemcap,FP TCE_v6.65 - Gemcap (2023-11-17).pdf,,66.7
+Unmatched,,Mitchell Industrial Tire,FP TCE_v7.44 - Mitchell Industrial Tire (2024-10-16).pdf,,69.4
+Unmatched,,S&M Transportation,FP TCE_v6.65 - S&M Transportation (2023-11-16).pdf,,62.1
+Unmatched,,Cigarette Boat,FP TCE_v7.53 - Cigarette Boat (2025-07-18).pdf,,46.2
+Unmatched,,Sybridge -,FP TCE_v7.45 - Sybridge - (2025-03-20).pdf,,46.2
