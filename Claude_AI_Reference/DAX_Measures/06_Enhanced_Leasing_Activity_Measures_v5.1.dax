@@ -1,14 +1,15 @@
 // =====================================================
 // ENHANCED LEASING ACTIVITY MEASURES WITH FUND FILTERING
 // =====================================================
-// Version: 1.0
+// Version: 5.1
 // Created: 2025-01-12
+// Updated: 2025-01-12
 // Purpose: SF-weighted rent calculations, lease spreads, and downtime analysis
 // 
 // REQUIREMENTS:
 // 1. fact_leasingactivity table must be loaded
 // 2. Relationship: fact_leasingactivity[Tenant Code] → dim_commcustomer[tenant code]
-// 3. Relationship: fact_leasingactivity[Property HMY] → dim_property[property hmy]
+// 3. Relationship: fact_leasingactivity[Property HMY] → dim_property[id]
 // 4. Relationship: fact_leasingactivity[dtStartDate] → dim_date[date]
 // 5. dim_property must have [Fund] column from Power Query merge
 //

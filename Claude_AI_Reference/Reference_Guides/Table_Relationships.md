@@ -101,6 +101,15 @@ dim_property → fact_expiringleaseunitarea
 ├── Cardinality: One to Many (1:*)
 ├── Filter Direction: Single (property → fact)
 └── Business Purpose: Links properties to lease expiration data
+
+dim_property → fact_leasingactivity (Enhanced v5.1)
+├── Join: id = Property HMY
+├── Cardinality: One to Many (1:*)
+├── Filter Direction: Single (property → fact)
+├── Business Purpose: Links leasing deals to properties for fund filtering
+├── Grain Impact: Enables fund-level analysis and downtime matching
+├── Required for: Enhanced leasing measures, downtime analysis
+└── Note: Critical for SF-weighted calculations and fund filtering
 ```
 
 #### Property → Dimension Relationships
@@ -167,6 +176,15 @@ dim_date ↔ fact_expiringleaseunitarea
 ├── Cardinality: One to Many (1:*)
 ├── Filter Direction: Both (bi-directional)
 └── Business Purpose: Lease term and expiration analysis
+
+dim_date ↔ fact_leasingactivity (Enhanced v5.1)
+├── Join: date = dtStartDate (active)
+├── Additional: date = dtEndDate (inactive - use USERELATIONSHIP)
+├── Cardinality: One to Many (1:*)
+├── Filter Direction: Both (bi-directional)
+├── Business Purpose: Time intelligence for pipeline analysis
+├── Downtime Analysis: dtEndDate critical for vacancy calculations
+└── Usage: Deal flow timing, downtime periods, trend analysis
 ```
 
 ## Financial Dimension Relationships
@@ -278,6 +296,14 @@ dim_commcustomer → fact_accountsreceivable
 ├── Filter Direction: Single (customer → AR)
 ├── Business Purpose: Tenant AR and collection tracking
 └── Usage: Cash flow and collection analysis
+
+dim_commcustomer → fact_leasingactivity (Enhanced v5.1)
+├── Join: tenant code = Tenant Code
+├── Cardinality: One to Many (1:*)
+├── Filter Direction: Single (customer → fact)
+├── Business Purpose: Links tenants to leasing pipeline deals
+├── Data Quality: ~98% match rate on tenant codes
+└── Usage: Pipeline analysis, deal tracking, spread calculations
 ```
 
 ## Enhanced Analytics Relationships

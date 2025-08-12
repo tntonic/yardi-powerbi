@@ -42,31 +42,30 @@ This is a curated reference library designed specifically for teams building Pow
 
 ## 📁 Library Structure
 
-### DAX_Measures/ (Total: 257+ measures v5.1 including enhanced)
-- **01_Core_Financial_Rent_Roll_Measures_v5.0.dax** - 42 core financial and rent roll measures
-- **02_Leasing_Activity_Pipeline_Measures_v5.0.dax** - 85 leasing activity and pipeline measures
-- **03_Credit_Risk_Tenant_Analysis_Measures_v5.0.dax** - 45 credit risk and tenant analysis measures (expanded with customer code mappings)
-- **04_Net_Absorption_Fund_Analysis_Measures_v5.0.dax** - 35 net absorption and fund-specific measures
-- **05_Performance_Validation_Measures_v5.0.dax** - 25 performance monitoring and validation measures
-- **Top_20_Essential_Measures.dax** - Most commonly used measures (quick reference)
-- **Validation_Measures.dax** - Testing and validation measures
-
-### Enhanced Leasing Measures (New - 40+ additional measures):
-- **../Enhanced_Leasing_Activity_Measures.dax** - Advanced leasing analytics including:
+### DAX_Measures/ (Total: 257+ measures v5.1)
+- **01_Core_Financial_Rent_Roll_Measures_v5.1.dax** - 42 core financial and rent roll measures
+- **02_Leasing_Activity_Pipeline_Measures_v5.1.dax** - 85 leasing activity and pipeline measures
+- **03_Credit_Risk_Tenant_Analysis_Measures_v5.1.dax** - 45 credit risk and tenant analysis measures
+- **04_Net_Absorption_Fund_Analysis_Measures_v5.1.dax** - 35 net absorption and fund-specific measures
+- **05_Performance_Validation_Measures_v5.1.dax** - 25 performance monitoring and validation measures
+- **06_Enhanced_Leasing_Activity_Measures_v5.1.dax** - 40+ enhanced leasing measures with:
   - SF-weighted rent calculations for accurate portfolio averages
-  - Lease vacancy downtime analysis (months between prior lease end and new lease start)
+  - Lease vacancy downtime analysis (prior lease end to new lease start)
   - Lease spread vs prior lease with area weighting
-  - Fund-specific measures for Fund 2 and Fund 3
+  - Fund-specific filtering for Fund 2 and Fund 3
   - Lost rent from downtime calculations
-- **../Leasing_Activity_Downtime_Analysis.md** - Complete implementation guide
+- **Top_25_Essential_Measures.dax** - Most commonly used measures (expanded from Top 20)
+- **Validation_Measures.dax** - Testing and validation measures
 
 ### Documentation/
 - **01_Quick_Start_Guide.md** - Implementation timeline and checklist
 - **02_Data_Model_Guide.md** - 32-table architecture details
-- **03_Data_Dictionary.md** - Column definitions and data types (updated with v5.0 tables)
+- **03_Data_Dictionary.md** - Column definitions and data types (v5.1)
 - **04_Implementation_Guide.md** - Step-by-step implementation
-- **05_Business_Logic_Reference.md** - Comprehensive business logic for all calculations
+- **05_Business_Logic_Reference.md** - Comprehensive business logic (v5.1 enhanced)
 - **06_Common_Issues_Solutions.md** - Troubleshooting guide
+- **07_Leasing_Activity_Downtime_Guide.md** - Downtime analysis implementation
+- **Measure_Cross_Reference.md** - When to use standard vs enhanced measures
 
 ### Dashboard_Templates/
 - **Executive_Summary_Dashboard.md** - C-suite level KPIs
@@ -84,7 +83,8 @@ This is a curated reference library designed specifically for teams building Pow
 ### Validation_Framework/
 - **Testing_Guide.md** - How to validate your implementation
 - **Accuracy_Benchmarks.md** - Expected accuracy levels
-- **Validation_Scripts.sql** - SQL scripts for data validation
+- **Phase1_Data_Model_Validation.sql** - Data model integrity checks
+- **Downtime_Validation.sql** - Lease downtime calculation validation
 
 ## 🔑 Key Concepts to Remember
 

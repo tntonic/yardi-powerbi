@@ -1,8 +1,9 @@
 // =====================================================
-// TOP 20 ESSENTIAL DAX MEASURES FOR POWER BI - VERSION 5.1
+// TOP 25 ESSENTIAL DAX MEASURES FOR POWER BI - VERSION 5.1
 // Extracted from Complete DAX Library v5.1 Production
 // For use with Claude.ai assistance in dashboard development
 // v5.1 Update: Added properly weighted average calculations
+// v5.1 Enhanced: Expanded to Top 25 with enhanced leasing measures
 // =====================================================
 
 // =====================================================
@@ -21,14 +22,50 @@ CALCULATE(
 )
 
 Operating Expenses = 
-// Operating expenses excluding specific exclusions
-// Account ranges: 50000-59999 (expenses), excluding corporate overhead and depreciation
+// Calculates property-level operating expenses for NOI computation
+// ================================================================
+// INCLUDES (Account ranges 50000000-59999999):
+//   - 50000000-50999999: Property Management (fees, administrative costs)
+//   - 51000000-51999999: Utilities (electric, gas, water, sewer, trash)
+//   - 52000000-52999999: Repairs & Maintenance (HVAC, roof, general R&M)
+//   - 53000000-53999999: Contracted Services (janitorial, landscaping, security)
+//   - 54000000-54999999: Insurance & Taxes (property insurance, real estate taxes)
+//   - 55000000-55999999: Marketing & Leasing (advertising, broker fees)
+//
+// EXCLUDES (Corporate/Non-Operating Items):
+//   - 64001100-64001106: Audit Fees (corporate overhead)
+//   - 64001200: Tax Compliance Fees (corporate overhead)
+//   - 64001300: Legal Fees (corporate overhead)
+//   - 64001600: Other Corporate Overhead
+//   - 64001700: Professional & Consulting Fees (corporate overhead)
+//   - 64006000: Depreciation & Amortization (non-cash expense)
+//
+// WHY THESE EXCLUSIONS?
+//   NOI (Net Operating Income) represents property-level performance only.
+//   Corporate overhead items like legal, audit, and professional fees are
+//   excluded as they don't reflect the property's operational efficiency.
+//   Depreciation is excluded as it's a non-cash accounting expense.
+//
+// Sign Convention: Expenses stored as positive values in GL
+// ================================================================
 CALCULATE(
     ABS(SUM(fact_total[amount])),
     dim_account[account code] >= 50000000,
     dim_account[account code] < 60000000,
-    NOT(dim_account[account code] IN {64001100, 64001101, 64001102, 64001103, 64001104, 64001105, 64001106, 64001600}),
-    dim_account[account code] <> 64006000,
+    NOT(dim_account[account code] IN {
+        64001100,  // Audit Fees - Corporate Overhead
+        64001101,  // Audit Fees variant - Corporate Overhead
+        64001102,  // Audit Fees variant - Corporate Overhead
+        64001103,  // Audit Fees variant - Corporate Overhead
+        64001104,  // Audit Fees variant - Corporate Overhead
+        64001105,  // Audit Fees variant - Corporate Overhead
+        64001106,  // Audit Fees variant - Corporate Overhead
+        64001200,  // Tax Compliance Fees - Corporate Overhead
+        64001300,  // Legal Fees - Corporate Overhead
+        64001600,  // Corporate Overhead - General
+        64001700   // Professional & Consulting Fees - Corporate Overhead
+    }),
+    dim_account[account code] <> 64006000,  // Exclude Depreciation (non-cash)
     fact_total[amount type] = "Actual",
     dim_book[book] = "Accrual"
 )
@@ -91,7 +128,7 @@ Property Weighted Average Rent PSF =
 VAR PropertyRentDetails = 
     SUMMARIZE(
         fact_occupancyrentarea,
-        dim_property[property hmy],
+        dim_property[id],
         "PropertyRent", SUM(fact_occupancyrentarea[total rent]) * 12,
         "PropertyOccupiedArea", SUM(fact_occupancyrentarea[occupied area])
     )
@@ -300,6 +337,163 @@ VAR WeightedScore =
 RETURN WeightedScore
 
 // =====================================================
+// ENHANCED LEASING MEASURES (21-25) - NEW IN v5.1
+// =====================================================
+
+Executed Leases Weighted Rent PSF = 
+// #21: SF-weighted average rent for accurate portfolio metrics
+// REQUIRES: fact_leasingactivity[Property HMY] → dim_property[id] relationship
+VAR ExecutedDeals = 
+    FILTER(
+        fact_leasingactivity,
+        fact_leasingactivity[Deal Stage] = "Executed" &&
+        NOT ISBLANK(RELATED(dim_commcustomer[tenant id])) &&
+        fact_leasingactivity[dArea] > 0 &&
+        NOT ISBLANK(fact_leasingactivity[Starting Rent])
+    )
+VAR TotalWeightedRent = 
+    SUMX(ExecutedDeals, fact_leasingactivity[Starting Rent] * 12 * fact_leasingactivity[dArea])
+VAR TotalArea = 
+    SUMX(ExecutedDeals, fact_leasingactivity[dArea])
+RETURN 
+    DIVIDE(TotalWeightedRent, TotalArea, 0)
+
+Average Downtime Months (New Leases) = 
+// #22: Vacancy period between prior lease end and new lease start
+// Calculates months of revenue loss from vacant space
+VAR NewLeases = 
+    FILTER(
+        fact_leasingactivity,
+        fact_leasingactivity[Cash Flow Type] = "Proposal" &&
+        fact_leasingactivity[Proposal Type] = "New Lease" &&
+        fact_leasingactivity[Deal Stage] = "Executed" &&
+        NOT ISBLANK(fact_leasingactivity[dtStartDate]) &&
+        NOT ISBLANK(fact_leasingactivity[Property HMY])
+    )
+VAR DowntimeCalc = 
+    ADDCOLUMNS(
+        NewLeases,
+        "DowntimeMonths",
+        VAR CurrentProperty = fact_leasingactivity[Property HMY]
+        VAR NewLeaseStart = fact_leasingactivity[dtStartDate]
+        VAR PriorLeaseEnd = 
+            CALCULATE(
+                MAX(fact_leasingactivity[dtEndDate]),
+                FILTER(
+                    ALL(fact_leasingactivity),
+                    fact_leasingactivity[Property HMY] = CurrentProperty &&
+                    fact_leasingactivity[Cash Flow Type] = "Prior Lease" &&
+                    fact_leasingactivity[dtEndDate] < NewLeaseStart &&
+                    NOT ISBLANK(fact_leasingactivity[dtEndDate])
+                )
+            )
+        RETURN
+            IF(
+                NOT ISBLANK(PriorLeaseEnd),
+                DATEDIFF(PriorLeaseEnd, NewLeaseStart, MONTH),
+                BLANK()
+            )
+    )
+RETURN
+    AVERAGEX(
+        FILTER(DowntimeCalc, NOT ISBLANK([DowntimeMonths]) && [DowntimeMonths] >= 0),
+        [DowntimeMonths]
+    )
+
+Lost Rent from Downtime = 
+// #23: Revenue impact of vacancy periods
+// Quantifies financial cost of space downtime
+VAR NewLeases = 
+    FILTER(
+        fact_leasingactivity,
+        fact_leasingactivity[Cash Flow Type] = "Proposal" &&
+        fact_leasingactivity[Proposal Type] = "New Lease" &&
+        fact_leasingactivity[Deal Stage] = "Executed" &&
+        NOT ISBLANK(fact_leasingactivity[Starting Rent])
+    )
+VAR LostRentCalc = 
+    SUMX(
+        NewLeases,
+        VAR CurrentProperty = fact_leasingactivity[Property HMY]
+        VAR NewLeaseStart = fact_leasingactivity[dtStartDate]
+        VAR NewMonthlyRent = fact_leasingactivity[Starting Rent]
+        VAR PriorLeaseEnd = 
+            CALCULATE(
+                MAX(fact_leasingactivity[dtEndDate]),
+                FILTER(
+                    ALL(fact_leasingactivity),
+                    fact_leasingactivity[Property HMY] = CurrentProperty &&
+                    fact_leasingactivity[Cash Flow Type] = "Prior Lease" &&
+                    fact_leasingactivity[dtEndDate] < NewLeaseStart
+                )
+            )
+        VAR DowntimeMonths = 
+            IF(
+                NOT ISBLANK(PriorLeaseEnd) && DATEDIFF(PriorLeaseEnd, NewLeaseStart, MONTH) >= 0,
+                DATEDIFF(PriorLeaseEnd, NewLeaseStart, MONTH),
+                0
+            )
+        RETURN DowntimeMonths * NewMonthlyRent
+    )
+RETURN LostRentCalc
+
+Executed Lease Spread vs Prior % = 
+// #24: Weighted average spread between current and prior lease rates
+// Shows rent growth achievement with proper SF weighting
+VAR CurrentLeases = 
+    FILTER(
+        fact_leasingactivity,
+        fact_leasingactivity[Cash Flow Type] = "Proposal" &&
+        fact_leasingactivity[Deal Stage] = "Executed" &&
+        fact_leasingactivity[dArea] > 0 &&
+        NOT ISBLANK(fact_leasingactivity[Starting Rent])
+    )
+VAR PriorLeases = 
+    FILTER(
+        fact_leasingactivity,
+        fact_leasingactivity[Cash Flow Type] = "Prior Lease" &&
+        fact_leasingactivity[dArea] > 0 &&
+        NOT ISBLANK(fact_leasingactivity[Starting Rent])
+    )
+VAR CurrentWeightedRate = 
+    DIVIDE(
+        SUMX(CurrentLeases, fact_leasingactivity[Starting Rent] * fact_leasingactivity[dArea]),
+        SUMX(CurrentLeases, fact_leasingactivity[dArea]),
+        0
+    )
+VAR PriorWeightedRate = 
+    DIVIDE(
+        SUMX(PriorLeases, fact_leasingactivity[Starting Rent] * fact_leasingactivity[dArea]),
+        SUMX(PriorLeases, fact_leasingactivity[dArea]),
+        0
+    )
+RETURN 
+    IF(
+        PriorWeightedRate > 0,
+        DIVIDE(CurrentWeightedRate - PriorWeightedRate, PriorWeightedRate) * 100,
+        BLANK()
+    )
+
+Fund Executed Leases Weighted Rent PSF = 
+// #25: Dynamic fund-filtered weighted rent calculation
+// Adapts to selected fund context for comparative analysis
+VAR SelectedFund = SELECTEDVALUE(dim_property[Fund])
+VAR ExecutedDeals = 
+    FILTER(
+        fact_leasingactivity,
+        fact_leasingactivity[Deal Stage] = "Executed" &&
+        RELATED(dim_property[Fund]) = SelectedFund &&
+        fact_leasingactivity[dArea] > 0 &&
+        NOT ISBLANK(fact_leasingactivity[Starting Rent])
+    )
+VAR TotalWeightedRent = 
+    SUMX(ExecutedDeals, fact_leasingactivity[Starting Rent] * 12 * fact_leasingactivity[dArea])
+VAR TotalArea = 
+    SUMX(ExecutedDeals, fact_leasingactivity[dArea])
+RETURN 
+    DIVIDE(TotalWeightedRent, TotalArea, 0)
+
+// =====================================================
 // NOTES ON USAGE WITH CLAUDE.AI:
 // =====================================================
 // 1. These measures assume the standard 32-table Yardi data model
@@ -309,3 +503,6 @@ RETURN WeightedScore
 // 5. For detailed implementation guidance, refer to Complete_DAX_Library_v5_Production.dax
 // 6. v5.1: Portfolio Rent PSF is total-based; use Property Weighted Average Rent PSF for true averages
 // 7. All date references use dim_lastclosedperiod[last closed period] for consistency
+// 8. Enhanced measures (21-25) require fact_leasingactivity[Property HMY] → dim_property[id] relationship
+// 9. Downtime calculations use prior lease end dates for accurate vacancy analysis
+// 10. All rent calculations use SF-weighting for accurate portfolio metrics

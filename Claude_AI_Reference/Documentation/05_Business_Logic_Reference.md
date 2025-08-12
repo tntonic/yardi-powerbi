@@ -9,10 +9,11 @@ This document provides comprehensive business logic definitions for all key calc
 1. [Net Absorption Methodology (FPR)](#net-absorption-methodology-fpr)
 2. [Leasing Spread Analysis](#leasing-spread-analysis)
 3. [Downtime and Pipeline Analysis](#downtime-and-pipeline-analysis)
-4. [Credit Risk Methodology](#credit-risk-methodology)
-5. [Amendment-Based Calculations](#amendment-based-calculations)
-6. [Pipeline vs Financial Measures](#pipeline-vs-financial-measures)
-7. [Fund-Specific Logic](#fund-specific-logic)
+4. [Enhanced Leasing Metrics (v5.1)](#enhanced-leasing-metrics-v51)
+5. [Credit Risk Methodology](#credit-risk-methodology)
+6. [Amendment-Based Calculations](#amendment-based-calculations)
+7. [Pipeline vs Financial Measures](#pipeline-vs-financial-measures)
+8. [Fund-Specific Logic](#fund-specific-logic)
 
 ---
 
@@ -186,6 +187,110 @@ VAR WeightedRate =
 - **Good**: 61-90 days average  
 - **Fair**: 91-120 days average
 - **Needs Attention**: > 120 days average
+
+---
+
+## Enhanced Leasing Metrics (v5.1)
+
+### SF-Weighted Rent Calculations
+**Purpose**: Provide accurate portfolio-level rent metrics by properly weighting by square footage
+
+#### Correct Weighting Methodology
+**Formula**: `SUM(Rent × SF) / SUM(SF)` 
+
+**Why This Matters**:
+- Large leases have proportionally greater impact on portfolio metrics
+- Simple averages treat a 1,000 SF lease the same as a 50,000 SF lease
+- Weighted calculations reflect true portfolio performance
+
+#### Implementation Pattern
+```dax
+Executed Leases Weighted Rent PSF = 
+VAR ExecutedDeals = 
+    FILTER(
+        fact_leasingactivity,
+        fact_leasingactivity[Deal Stage] = "Executed" &&
+        fact_leasingactivity[dArea] > 0
+    )
+VAR TotalWeightedRent = 
+    SUMX(ExecutedDeals, fact_leasingactivity[Starting Rent] * 12 * fact_leasingactivity[dArea])
+VAR TotalArea = 
+    SUMX(ExecutedDeals, fact_leasingactivity[dArea])
+RETURN 
+    DIVIDE(TotalWeightedRent, TotalArea, 0)
+```
+
+**Applied To**:
+- New Leases Weighted Rent PSF
+- Renewals Weighted Rent PSF
+- Expansions Weighted Rent PSF
+- Fund-specific weighted calculations
+
+### Lease Vacancy Downtime Analysis
+**Definition**: Months between prior lease end date and new lease start date (new leases only)
+
+#### Calculation Methodology
+**Data Flow**:
+1. Identify new lease: `fact_leasingactivity[Proposal Type] = "New Lease"`
+2. Find prior lease end: `MAX(fact_leasingactivity[dtEndDate])` where:
+   - Same Property HMY
+   - Cash Flow Type = "Prior Lease"
+   - dtEndDate < New Lease Start Date
+3. Calculate downtime: `DATEDIFF(Prior Lease End, New Lease Start, MONTH)`
+
+**Business Rules**:
+- Only applies to new leases (renewals have no gap by definition)
+- Requires Property HMY relationship to dim_property
+- Negative values indicate overlap (filtered out)
+- Blank values indicate no prior lease found (first-time lease)
+
+#### Lost Rent Calculation
+**Formula**: `Downtime Months × New Monthly Rent`
+
+**Purpose**: Quantifies revenue impact of vacancy periods
+
+**Implementation**:
+```dax
+Lost Rent from Downtime = 
+SUMX(
+    NewLeases,
+    VAR DowntimeMonths = [Calculate downtime logic]
+    VAR NewMonthlyRent = fact_leasingactivity[Starting Rent]
+    RETURN DowntimeMonths * NewMonthlyRent
+)
+```
+
+### Lease Spread vs Prior Lease
+**Definition**: Percentage difference between current and prior lease rates
+
+#### Weighted Spread Calculation
+**Formula**: `(Current Weighted Rate - Prior Weighted Rate) / Prior Weighted Rate × 100`
+
+**Where**:
+- Current Weighted Rate = `SUM(Current Rent × SF) / SUM(SF)` for Cash Flow Type = "Proposal"
+- Prior Weighted Rate = `SUM(Prior Rent × SF) / SUM(SF)` for Cash Flow Type = "Prior Lease"
+
+**Segmentation**:
+- Overall Executed Lease Spread
+- New Lease Spread vs Prior
+- Renewal Spread vs Prior
+
+### Fund-Specific Filtering
+**Requirement**: Property HMY → dim_property[id] relationship
+
+**Pattern**:
+```dax
+Fund 2 Weighted Rent PSF = 
+CALCULATE(
+    [Executed Leases Weighted Rent PSF],
+    dim_property[Fund] = "Fund 2"
+)
+```
+
+**Applied To**:
+- Fund 2 & Fund 3 specific metrics
+- Comparative fund analysis
+- Fund-level downtime and spread calculations
 
 ---
 

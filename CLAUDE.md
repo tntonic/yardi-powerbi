@@ -257,6 +257,7 @@ Before deployment, ensure:
 - **Credit Risk**: `Claude_AI_Reference/DAX_Measures/03_Credit_Risk_Tenant_Analysis_Measures_v5.1.dax` (30 measures)  
 - **Net Absorption**: `Claude_AI_Reference/DAX_Measures/04_Net_Absorption_Fund_Analysis_Measures_v5.1.dax` (35 measures)
 - **Performance**: `Claude_AI_Reference/DAX_Measures/05_Performance_Validation_Measures_v5.1.dax` (25 measures)
+- **Dashboard Measures**: `Claude_AI_Reference/DAX_Measures/Faropoint_Portfolio_Dashboard_Measures.dax` (30+ measures with correct column names)
 - **Quick Reference**: `Claude_AI_Reference/DAX_Measures/Top_20_Essential_Measures.dax`
 - **Historical (Archived)**: `Archive/DAX_Versions_Historical/` (v4.1 and earlier)
 
@@ -429,6 +430,57 @@ SWITCH(
     "Very High Risk"
 )
 ```
+
+## Weighted Average Calculations Pattern
+
+### CRITICAL: Proper Weighting Methodology
+
+When calculating portfolio-wide averages, always use **SF-weighted calculations** to ensure accurate representation:
+
+#### Incorrect Pattern (Simple Average):
+```dax
+// WRONG - This gives equal weight to all properties/leases
+Average Rent = AVERAGEX(Leases, [Rent PSF])
+```
+
+#### Correct Pattern (Weighted Average):
+```dax
+// CORRECT - Weights by square footage
+Weighted Average Rent = 
+VAR TotalRent = SUM([Annual Rent])
+VAR TotalSF = SUM([Leased SF])
+RETURN DIVIDE(TotalRent, TotalSF, 0)
+
+// Or alternatively:
+Weighted Average Rent = 
+SUMX(Leases, [Rent PSF] * [SF]) / SUM([SF])
+```
+
+### Key Weighted Measures:
+
+1. **Weighted Average Base Rent PSF**
+   - Formula: Total Annual Rent ÷ Total Leased SF
+   - NOT: Average of individual rent PSF values
+
+2. **Weighted Average Lease Term**
+   - Formula: SUM(Lease Term × SF) ÷ SUM(SF)
+   - NOT: Average of lease terms
+
+3. **Weighted Average Occupancy**
+   - Formula: SUM(Occupied SF) ÷ SUM(Rentable SF)
+   - NOT: Average of occupancy percentages
+
+### Column Name Corrections for Amendments Table
+
+**IMPORTANT**: The `dim_fp_amendmentsunitspropertytenant` table uses specific column names:
+
+| Correct Column Name | Common Mistake | Usage |
+|-------------------|----------------|--------|
+| `amendment start date` | "lease begin date" | Lease commencement |
+| `amendment end date` | "lease end date" | Lease expiration |
+| `amendment sf` | "unit sqft" | Leased square footage |
+| `amendment status` | "status" | Active indicator |
+| `amendment sequence` | "sequence" | Latest amendment filter |
 
 ## New in v5.0: Enhanced Analytics Features
 
