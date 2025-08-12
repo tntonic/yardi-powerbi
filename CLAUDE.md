@@ -253,6 +253,7 @@ Before deployment, ensure:
 ### DAX Measures (v5.1 - Dynamic Date Handling)
 - **Core Financial**: `Claude_AI_Reference/DAX_Measures/01_Core_Financial_Rent_Roll_Measures_v5.1.dax` (42 measures)
 - **Leasing Activity**: `Claude_AI_Reference/DAX_Measures/02_Leasing_Activity_Pipeline_Measures_v5.1.dax` (85 measures)
+- **Enhanced Leasing Activity**: `Enhanced_Leasing_Activity_Measures.dax` (40+ measures with SF-weighting, downtime analysis)
 - **Credit Risk**: `Claude_AI_Reference/DAX_Measures/03_Credit_Risk_Tenant_Analysis_Measures_v5.1.dax` (30 measures)  
 - **Net Absorption**: `Claude_AI_Reference/DAX_Measures/04_Net_Absorption_Fund_Analysis_Measures_v5.1.dax` (35 measures)
 - **Performance**: `Claude_AI_Reference/DAX_Measures/05_Performance_Validation_Measures_v5.1.dax` (25 measures)
@@ -473,6 +474,38 @@ SWITCH(
 - Good: 61-90 days  
 - Fair: 91-120 days
 - Needs Attention: > 120 days
+
+### Enhanced Leasing Activity Measures (New)
+**Purpose**: Advanced leasing analytics with SF-weighted calculations and vacancy downtime analysis.
+
+**Key Features**:
+1. **SF-Weighted Rent Calculations**: All rent metrics properly weighted by square footage
+   - Formula: `SUM(Rent × SF) / SUM(SF)` for accurate portfolio averages
+   - Separate measures for New Leases, Renewals, and Expansions
+
+2. **Lease Vacancy Downtime Analysis** (New Leases Only):
+   - Calculates months between prior lease end date and new lease start date
+   - Uses `fact_leasingactivity[dtEndDate]` from "Prior Lease" records
+   - Matches to `fact_leasingactivity[dtStartDate]` for "New Lease" proposals
+   - Includes lost rent calculation for revenue impact assessment
+
+3. **Lease Spread vs Prior Lease**:
+   - Compares current executed lease rates to prior lease rates
+   - Uses "Cash Flow Type" field to distinguish current vs prior
+   - Area-weighted for accurate portfolio-level spreads
+
+4. **Fund-Specific Filtering**:
+   - Dynamic filtering using `RELATED(dim_property[Fund])`
+   - Dedicated measures for Fund 2 and Fund 3 analysis
+   - Requires Property HMY relationship to dim_property
+
+**Required Relationships**:
+- `fact_leasingactivity[Property HMY]` → `dim_property[property hmy]` (Many-to-One)
+- Enables fund filtering and property-level downtime matching
+
+**Implementation Files**:
+- **DAX Measures**: `Enhanced_Leasing_Activity_Measures.dax` (40+ measures)
+- **Documentation**: `Leasing_Activity_Downtime_Analysis.md`
 
 ### Credit Risk Methodology
 **Purpose**: Portfolio credit risk assessment and tenant analysis.

@@ -1,0 +1,578 @@
+// =====================================================
+// ENHANCED LEASING ACTIVITY MEASURES WITH FUND FILTERING
+// =====================================================
+// Version: 1.0
+// Created: 2025-01-12
+// Purpose: SF-weighted rent calculations, lease spreads, and downtime analysis
+// 
+// REQUIREMENTS:
+// 1. fact_leasingactivity table must be loaded
+// 2. Relationship: fact_leasingactivity[Tenant Code] → dim_commcustomer[tenant code]
+// 3. Relationship: fact_leasingactivity[Property HMY] → dim_property[property hmy]
+// 4. Relationship: fact_leasingactivity[dtStartDate] → dim_date[date]
+// 5. dim_property must have [Fund] column from Power Query merge
+//
+// =====================================================
+
+// =====================================================
+// SECTION 1: SF-WEIGHTED RENT CALCULATIONS
+// =====================================================
+
+Executed Leases Weighted Rent PSF = 
+// Area-weighted average rent per square foot for executed leases
+VAR ExecutedDeals = 
+    FILTER(
+        fact_leasingactivity,
+        fact_leasingactivity[Deal Stage] = "Executed" &&
+        NOT ISBLANK(RELATED(dim_commcustomer[tenant id])) &&
+        fact_leasingactivity[dArea] > 0 &&
+        NOT ISBLANK(fact_leasingactivity[Starting Rent])
+    )
+VAR TotalWeightedRent = 
+    SUMX(ExecutedDeals, fact_leasingactivity[Starting Rent] * 12 * fact_leasingactivity[dArea])
+VAR TotalArea = 
+    SUMX(ExecutedDeals, fact_leasingactivity[dArea])
+RETURN 
+    DIVIDE(TotalWeightedRent, TotalArea, 0)
+
+New Leases Weighted Rent PSF = 
+// Area-weighted average rent for new leases only
+VAR NewLeaseDeals = 
+    FILTER(
+        fact_leasingactivity,
+        fact_leasingactivity[Deal Stage] = "Executed" &&
+        fact_leasingactivity[Proposal Type] = "New Lease" &&
+        NOT ISBLANK(RELATED(dim_commcustomer[tenant id])) &&
+        fact_leasingactivity[dArea] > 0 &&
+        NOT ISBLANK(fact_leasingactivity[Starting Rent])
+    )
+VAR TotalWeightedRent = 
+    SUMX(NewLeaseDeals, fact_leasingactivity[Starting Rent] * 12 * fact_leasingactivity[dArea])
+VAR TotalArea = 
+    SUMX(NewLeaseDeals, fact_leasingactivity[dArea])
+RETURN 
+    DIVIDE(TotalWeightedRent, TotalArea, 0)
+
+Renewals Weighted Rent PSF = 
+// Area-weighted average rent for renewals only
+VAR RenewalDeals = 
+    FILTER(
+        fact_leasingactivity,
+        fact_leasingactivity[Deal Stage] = "Executed" &&
+        fact_leasingactivity[Proposal Type] = "Renewal" &&
+        NOT ISBLANK(RELATED(dim_commcustomer[tenant id])) &&
+        fact_leasingactivity[dArea] > 0 &&
+        NOT ISBLANK(fact_leasingactivity[Starting Rent])
+    )
+VAR TotalWeightedRent = 
+    SUMX(RenewalDeals, fact_leasingactivity[Starting Rent] * 12 * fact_leasingactivity[dArea])
+VAR TotalArea = 
+    SUMX(RenewalDeals, fact_leasingactivity[dArea])
+RETURN 
+    DIVIDE(TotalWeightedRent, TotalArea, 0)
+
+Expansions Weighted Rent PSF = 
+// Area-weighted average rent for expansions only
+VAR ExpansionDeals = 
+    FILTER(
+        fact_leasingactivity,
+        fact_leasingactivity[Deal Stage] = "Executed" &&
+        fact_leasingactivity[Proposal Type] = "Expansion" &&
+        NOT ISBLANK(RELATED(dim_commcustomer[tenant id])) &&
+        fact_leasingactivity[dArea] > 0 &&
+        NOT ISBLANK(fact_leasingactivity[Starting Rent])
+    )
+VAR TotalWeightedRent = 
+    SUMX(ExpansionDeals, fact_leasingactivity[Starting Rent] * 12 * fact_leasingactivity[dArea])
+VAR TotalArea = 
+    SUMX(ExpansionDeals, fact_leasingactivity[dArea])
+RETURN 
+    DIVIDE(TotalWeightedRent, TotalArea, 0)
+
+// =====================================================
+// SECTION 2: LEASE SPREAD VS PRIOR LEASE CALCULATIONS
+// =====================================================
+
+Executed Lease Spread vs Prior % = 
+// Weighted average spread comparing current leases to prior leases
+VAR CurrentLeases = 
+    FILTER(
+        fact_leasingactivity,
+        fact_leasingactivity[Cash Flow Type] = "Proposal" &&
+        fact_leasingactivity[Deal Stage] = "Executed" &&
+        fact_leasingactivity[dArea] > 0 &&
+        NOT ISBLANK(fact_leasingactivity[Starting Rent])
+    )
+VAR PriorLeases = 
+    FILTER(
+        fact_leasingactivity,
+        fact_leasingactivity[Cash Flow Type] = "Prior Lease" &&
+        fact_leasingactivity[dArea] > 0 &&
+        NOT ISBLANK(fact_leasingactivity[Starting Rent])
+    )
+VAR CurrentWeightedRate = 
+    DIVIDE(
+        SUMX(CurrentLeases, fact_leasingactivity[Starting Rent] * fact_leasingactivity[dArea]),
+        SUMX(CurrentLeases, fact_leasingactivity[dArea]),
+        0
+    )
+VAR PriorWeightedRate = 
+    DIVIDE(
+        SUMX(PriorLeases, fact_leasingactivity[Starting Rent] * fact_leasingactivity[dArea]),
+        SUMX(PriorLeases, fact_leasingactivity[dArea]),
+        0
+    )
+RETURN 
+    IF(
+        PriorWeightedRate > 0,
+        DIVIDE(CurrentWeightedRate - PriorWeightedRate, PriorWeightedRate) * 100,
+        BLANK()
+    )
+
+New Lease Spread vs Prior % = 
+// Spread for new leases only
+VAR CurrentNewLeases = 
+    FILTER(
+        fact_leasingactivity,
+        fact_leasingactivity[Cash Flow Type] = "Proposal" &&
+        fact_leasingactivity[Proposal Type] = "New Lease" &&
+        fact_leasingactivity[Deal Stage] = "Executed" &&
+        fact_leasingactivity[dArea] > 0 &&
+        NOT ISBLANK(fact_leasingactivity[Starting Rent])
+    )
+VAR PriorLeases = 
+    FILTER(
+        fact_leasingactivity,
+        fact_leasingactivity[Cash Flow Type] = "Prior Lease" &&
+        fact_leasingactivity[dArea] > 0 &&
+        NOT ISBLANK(fact_leasingactivity[Starting Rent])
+    )
+VAR CurrentWeightedRate = 
+    DIVIDE(
+        SUMX(CurrentNewLeases, fact_leasingactivity[Starting Rent] * fact_leasingactivity[dArea]),
+        SUMX(CurrentNewLeases, fact_leasingactivity[dArea]),
+        0
+    )
+VAR PriorWeightedRate = 
+    DIVIDE(
+        SUMX(PriorLeases, fact_leasingactivity[Starting Rent] * fact_leasingactivity[dArea]),
+        SUMX(PriorLeases, fact_leasingactivity[dArea]),
+        0
+    )
+RETURN 
+    IF(
+        PriorWeightedRate > 0,
+        DIVIDE(CurrentWeightedRate - PriorWeightedRate, PriorWeightedRate) * 100,
+        BLANK()
+    )
+
+Renewal Spread vs Prior % = 
+// Spread for renewals only
+VAR CurrentRenewals = 
+    FILTER(
+        fact_leasingactivity,
+        fact_leasingactivity[Cash Flow Type] = "Proposal" &&
+        fact_leasingactivity[Proposal Type] = "Renewal" &&
+        fact_leasingactivity[Deal Stage] = "Executed" &&
+        fact_leasingactivity[dArea] > 0 &&
+        NOT ISBLANK(fact_leasingactivity[Starting Rent])
+    )
+VAR PriorLeases = 
+    FILTER(
+        fact_leasingactivity,
+        fact_leasingactivity[Cash Flow Type] = "Prior Lease" &&
+        fact_leasingactivity[dArea] > 0 &&
+        NOT ISBLANK(fact_leasingactivity[Starting Rent])
+    )
+VAR CurrentWeightedRate = 
+    DIVIDE(
+        SUMX(CurrentRenewals, fact_leasingactivity[Starting Rent] * fact_leasingactivity[dArea]),
+        SUMX(CurrentRenewals, fact_leasingactivity[dArea]),
+        0
+    )
+VAR PriorWeightedRate = 
+    DIVIDE(
+        SUMX(PriorLeases, fact_leasingactivity[Starting Rent] * fact_leasingactivity[dArea]),
+        SUMX(PriorLeases, fact_leasingactivity[dArea]),
+        0
+    )
+RETURN 
+    IF(
+        PriorWeightedRate > 0,
+        DIVIDE(CurrentWeightedRate - PriorWeightedRate, PriorWeightedRate) * 100,
+        BLANK()
+    )
+
+// =====================================================
+// SECTION 3: DOWNTIME ANALYSIS (NEW LEASES ONLY)
+// =====================================================
+
+Average Downtime Months (New Leases) = 
+// Calculate average downtime between prior lease end and new lease start
+VAR NewLeases = 
+    FILTER(
+        fact_leasingactivity,
+        fact_leasingactivity[Cash Flow Type] = "Proposal" &&
+        fact_leasingactivity[Proposal Type] = "New Lease" &&
+        fact_leasingactivity[Deal Stage] = "Executed" &&
+        NOT ISBLANK(fact_leasingactivity[dtStartDate]) &&
+        NOT ISBLANK(fact_leasingactivity[Property HMY])
+    )
+VAR DowntimeCalc = 
+    ADDCOLUMNS(
+        NewLeases,
+        "DowntimeMonths",
+        VAR CurrentProperty = fact_leasingactivity[Property HMY]
+        VAR NewLeaseStart = fact_leasingactivity[dtStartDate]
+        // Find the most recent prior lease end date for this property
+        VAR PriorLeaseEnd = 
+            CALCULATE(
+                MAX(fact_leasingactivity[dtEndDate]),
+                FILTER(
+                    ALL(fact_leasingactivity),
+                    fact_leasingactivity[Property HMY] = CurrentProperty &&
+                    fact_leasingactivity[Cash Flow Type] = "Prior Lease" &&
+                    fact_leasingactivity[dtEndDate] < NewLeaseStart &&
+                    NOT ISBLANK(fact_leasingactivity[dtEndDate])
+                )
+            )
+        RETURN
+            IF(
+                NOT ISBLANK(PriorLeaseEnd),
+                DATEDIFF(PriorLeaseEnd, NewLeaseStart, MONTH),
+                BLANK()
+            )
+    )
+RETURN
+    AVERAGEX(
+        FILTER(DowntimeCalc, NOT ISBLANK([DowntimeMonths]) && [DowntimeMonths] >= 0),
+        [DowntimeMonths]
+    )
+
+Median Downtime Months (New Leases) = 
+// Calculate median downtime between prior lease end and new lease start
+VAR NewLeases = 
+    FILTER(
+        fact_leasingactivity,
+        fact_leasingactivity[Cash Flow Type] = "Proposal" &&
+        fact_leasingactivity[Proposal Type] = "New Lease" &&
+        fact_leasingactivity[Deal Stage] = "Executed" &&
+        NOT ISBLANK(fact_leasingactivity[dtStartDate]) &&
+        NOT ISBLANK(fact_leasingactivity[Property HMY])
+    )
+VAR DowntimeCalc = 
+    ADDCOLUMNS(
+        NewLeases,
+        "DowntimeMonths",
+        VAR CurrentProperty = fact_leasingactivity[Property HMY]
+        VAR NewLeaseStart = fact_leasingactivity[dtStartDate]
+        VAR PriorLeaseEnd = 
+            CALCULATE(
+                MAX(fact_leasingactivity[dtEndDate]),
+                FILTER(
+                    ALL(fact_leasingactivity),
+                    fact_leasingactivity[Property HMY] = CurrentProperty &&
+                    fact_leasingactivity[Cash Flow Type] = "Prior Lease" &&
+                    fact_leasingactivity[dtEndDate] < NewLeaseStart &&
+                    NOT ISBLANK(fact_leasingactivity[dtEndDate])
+                )
+            )
+        RETURN
+            IF(
+                NOT ISBLANK(PriorLeaseEnd),
+                DATEDIFF(PriorLeaseEnd, NewLeaseStart, MONTH),
+                BLANK()
+            )
+    )
+RETURN
+    MEDIANX(
+        FILTER(DowntimeCalc, NOT ISBLANK([DowntimeMonths]) && [DowntimeMonths] >= 0),
+        [DowntimeMonths]
+    )
+
+Total Downtime Months = 
+// Total downtime across all new leases
+VAR NewLeases = 
+    FILTER(
+        fact_leasingactivity,
+        fact_leasingactivity[Cash Flow Type] = "Proposal" &&
+        fact_leasingactivity[Proposal Type] = "New Lease" &&
+        fact_leasingactivity[Deal Stage] = "Executed" &&
+        NOT ISBLANK(fact_leasingactivity[dtStartDate]) &&
+        NOT ISBLANK(fact_leasingactivity[Property HMY])
+    )
+VAR DowntimeCalc = 
+    SUMX(
+        NewLeases,
+        VAR CurrentProperty = fact_leasingactivity[Property HMY]
+        VAR NewLeaseStart = fact_leasingactivity[dtStartDate]
+        VAR PriorLeaseEnd = 
+            CALCULATE(
+                MAX(fact_leasingactivity[dtEndDate]),
+                FILTER(
+                    ALL(fact_leasingactivity),
+                    fact_leasingactivity[Property HMY] = CurrentProperty &&
+                    fact_leasingactivity[Cash Flow Type] = "Prior Lease" &&
+                    fact_leasingactivity[dtEndDate] < NewLeaseStart &&
+                    NOT ISBLANK(fact_leasingactivity[dtEndDate])
+                )
+            )
+        RETURN
+            IF(
+                NOT ISBLANK(PriorLeaseEnd) && DATEDIFF(PriorLeaseEnd, NewLeaseStart, MONTH) >= 0,
+                DATEDIFF(PriorLeaseEnd, NewLeaseStart, MONTH),
+                0
+            )
+    )
+RETURN DowntimeCalc
+
+Lost Rent from Downtime = 
+// Calculate revenue impact of vacancy periods
+VAR NewLeases = 
+    FILTER(
+        fact_leasingactivity,
+        fact_leasingactivity[Cash Flow Type] = "Proposal" &&
+        fact_leasingactivity[Proposal Type] = "New Lease" &&
+        fact_leasingactivity[Deal Stage] = "Executed" &&
+        NOT ISBLANK(fact_leasingactivity[dtStartDate]) &&
+        NOT ISBLANK(fact_leasingactivity[Property HMY]) &&
+        NOT ISBLANK(fact_leasingactivity[Starting Rent])
+    )
+VAR LostRentCalc = 
+    SUMX(
+        NewLeases,
+        VAR CurrentProperty = fact_leasingactivity[Property HMY]
+        VAR NewLeaseStart = fact_leasingactivity[dtStartDate]
+        VAR NewMonthlyRent = fact_leasingactivity[Starting Rent]
+        VAR PriorLeaseEnd = 
+            CALCULATE(
+                MAX(fact_leasingactivity[dtEndDate]),
+                FILTER(
+                    ALL(fact_leasingactivity),
+                    fact_leasingactivity[Property HMY] = CurrentProperty &&
+                    fact_leasingactivity[Cash Flow Type] = "Prior Lease" &&
+                    fact_leasingactivity[dtEndDate] < NewLeaseStart &&
+                    NOT ISBLANK(fact_leasingactivity[dtEndDate])
+                )
+            )
+        VAR DowntimeMonths = 
+            IF(
+                NOT ISBLANK(PriorLeaseEnd) && DATEDIFF(PriorLeaseEnd, NewLeaseStart, MONTH) >= 0,
+                DATEDIFF(PriorLeaseEnd, NewLeaseStart, MONTH),
+                0
+            )
+        RETURN
+            DowntimeMonths * NewMonthlyRent
+    )
+RETURN LostRentCalc
+
+// =====================================================
+// SECTION 4: FUND-FILTERED MEASURES
+// =====================================================
+
+Executed Leases Weighted Rent PSF by Fund = 
+// Dynamic fund-filtered weighted rent calculation
+VAR SelectedFund = SELECTEDVALUE(dim_property[Fund])
+VAR ExecutedDeals = 
+    FILTER(
+        fact_leasingactivity,
+        fact_leasingactivity[Deal Stage] = "Executed" &&
+        RELATED(dim_property[Fund]) = SelectedFund &&
+        NOT ISBLANK(RELATED(dim_commcustomer[tenant id])) &&
+        fact_leasingactivity[dArea] > 0 &&
+        NOT ISBLANK(fact_leasingactivity[Starting Rent])
+    )
+VAR TotalWeightedRent = 
+    SUMX(ExecutedDeals, fact_leasingactivity[Starting Rent] * 12 * fact_leasingactivity[dArea])
+VAR TotalArea = 
+    SUMX(ExecutedDeals, fact_leasingactivity[dArea])
+RETURN 
+    DIVIDE(TotalWeightedRent, TotalArea, 0)
+
+Fund 2 Executed Leases Count = 
+// Count of executed leases for Fund 2
+CALCULATE(
+    COUNTROWS(fact_leasingactivity),
+    fact_leasingactivity[Deal Stage] = "Executed",
+    RELATED(dim_property[Fund]) = "Fund 2",
+    NOT ISBLANK(RELATED(dim_commcustomer[tenant id]))
+)
+
+Fund 2 Executed Leases SF = 
+// Total square footage of executed leases for Fund 2
+CALCULATE(
+    SUM(fact_leasingactivity[dArea]),
+    fact_leasingactivity[Deal Stage] = "Executed",
+    RELATED(dim_property[Fund]) = "Fund 2",
+    NOT ISBLANK(RELATED(dim_commcustomer[tenant id]))
+)
+
+Fund 2 Weighted Rent PSF = 
+// Weighted average rent PSF for Fund 2
+CALCULATE(
+    [Executed Leases Weighted Rent PSF],
+    dim_property[Fund] = "Fund 2"
+)
+
+Fund 2 Average Downtime Months = 
+// Average downtime for Fund 2 new leases
+CALCULATE(
+    [Average Downtime Months (New Leases)],
+    dim_property[Fund] = "Fund 2"
+)
+
+Fund 2 Lease Spread vs Prior % = 
+// Lease spread for Fund 2
+CALCULATE(
+    [Executed Lease Spread vs Prior %],
+    dim_property[Fund] = "Fund 2"
+)
+
+Fund 3 Executed Leases Count = 
+// Count of executed leases for Fund 3
+CALCULATE(
+    COUNTROWS(fact_leasingactivity),
+    fact_leasingactivity[Deal Stage] = "Executed",
+    RELATED(dim_property[Fund]) = "Fund 3",
+    NOT ISBLANK(RELATED(dim_commcustomer[tenant id]))
+)
+
+Fund 3 Executed Leases SF = 
+// Total square footage of executed leases for Fund 3
+CALCULATE(
+    SUM(fact_leasingactivity[dArea]),
+    fact_leasingactivity[Deal Stage] = "Executed",
+    RELATED(dim_property[Fund]) = "Fund 3",
+    NOT ISBLANK(RELATED(dim_commcustomer[tenant id]))
+)
+
+Fund 3 Weighted Rent PSF = 
+// Weighted average rent PSF for Fund 3
+CALCULATE(
+    [Executed Leases Weighted Rent PSF],
+    dim_property[Fund] = "Fund 3"
+)
+
+Fund 3 Average Downtime Months = 
+// Average downtime for Fund 3 new leases
+CALCULATE(
+    [Average Downtime Months (New Leases)],
+    dim_property[Fund] = "Fund 3"
+)
+
+Fund 3 Lease Spread vs Prior % = 
+// Lease spread for Fund 3
+CALCULATE(
+    [Executed Lease Spread vs Prior %],
+    dim_property[Fund] = "Fund 3"
+)
+
+// =====================================================
+// SECTION 5: TIME-BASED ANALYSIS
+// =====================================================
+
+Executed Leases MTD = 
+// Month-to-date executed leases
+CALCULATE(
+    COUNTROWS(fact_leasingactivity),
+    fact_leasingactivity[Deal Stage] = "Executed",
+    NOT ISBLANK(RELATED(dim_commcustomer[tenant id])),
+    DATESMTD(dim_date[date])
+)
+
+Executed Leases QTD = 
+// Quarter-to-date executed leases
+CALCULATE(
+    COUNTROWS(fact_leasingactivity),
+    fact_leasingactivity[Deal Stage] = "Executed",
+    NOT ISBLANK(RELATED(dim_commcustomer[tenant id])),
+    DATESQTD(dim_date[date])
+)
+
+Executed Leases YTD = 
+// Year-to-date executed leases
+CALCULATE(
+    COUNTROWS(fact_leasingactivity),
+    fact_leasingactivity[Deal Stage] = "Executed",
+    NOT ISBLANK(RELATED(dim_commcustomer[tenant id])),
+    DATESYTD(dim_date[date])
+)
+
+Executed Leases L12M = 
+// Last 12 months executed leases
+CALCULATE(
+    COUNTROWS(fact_leasingactivity),
+    fact_leasingactivity[Deal Stage] = "Executed",
+    NOT ISBLANK(RELATED(dim_commcustomer[tenant id])),
+    DATESINPERIOD(dim_date[date], MAX(dim_date[date]), -12, MONTH)
+)
+
+// =====================================================
+// SECTION 6: DATA QUALITY & VALIDATION
+// =====================================================
+
+Leasing Data Quality % = 
+// Percentage of records with valid tenant and property links
+VAR TotalRecords = COUNTROWS(fact_leasingactivity)
+VAR ValidRecords = 
+    CALCULATE(
+        COUNTROWS(fact_leasingactivity),
+        NOT ISBLANK(RELATED(dim_commcustomer[tenant id])),
+        NOT ISBLANK(RELATED(dim_property[property id]))
+    )
+RETURN
+    DIVIDE(ValidRecords, TotalRecords, 0) * 100
+
+Orphaned Leasing Records Count = 
+// Count of records without valid relationships
+CALCULATE(
+    COUNTROWS(fact_leasingactivity),
+    OR(
+        ISBLANK(RELATED(dim_commcustomer[tenant id])),
+        ISBLANK(RELATED(dim_property[property id]))
+    )
+)
+
+New Leases with Downtime Data % = 
+// Percentage of new leases where downtime can be calculated
+VAR NewLeases = 
+    CALCULATE(
+        COUNTROWS(fact_leasingactivity),
+        fact_leasingactivity[Cash Flow Type] = "Proposal",
+        fact_leasingactivity[Proposal Type] = "New Lease",
+        fact_leasingactivity[Deal Stage] = "Executed"
+    )
+VAR NewLeasesWithDowntime = 
+    COUNTROWS(
+        FILTER(
+            ADDCOLUMNS(
+                FILTER(
+                    fact_leasingactivity,
+                    fact_leasingactivity[Cash Flow Type] = "Proposal" &&
+                    fact_leasingactivity[Proposal Type] = "New Lease" &&
+                    fact_leasingactivity[Deal Stage] = "Executed"
+                ),
+                "HasPriorLease",
+                VAR CurrentProperty = fact_leasingactivity[Property HMY]
+                VAR NewLeaseStart = fact_leasingactivity[dtStartDate]
+                VAR PriorLeaseEnd = 
+                    CALCULATE(
+                        MAX(fact_leasingactivity[dtEndDate]),
+                        FILTER(
+                            ALL(fact_leasingactivity),
+                            fact_leasingactivity[Property HMY] = CurrentProperty &&
+                            fact_leasingactivity[Cash Flow Type] = "Prior Lease" &&
+                            fact_leasingactivity[dtEndDate] < NewLeaseStart
+                        )
+                    )
+                RETURN NOT ISBLANK(PriorLeaseEnd)
+            ),
+            [HasPriorLease] = TRUE()
+        )
+    )
+RETURN
+    DIVIDE(NewLeasesWithDowntime, NewLeases, 0) * 100
+
+// =====================================================
+// END OF ENHANCED LEASING ACTIVITY MEASURES
+// =====================================================

@@ -1,4 +1,4 @@
-# Power BI Dashboard Reference Library for Claude.ai
+ # Power BI Dashboard Reference Library for Claude.ai
 
 ## 🎯 Purpose
 
@@ -42,7 +42,7 @@ This is a curated reference library designed specifically for teams building Pow
 
 ## 📁 Library Structure
 
-### DAX_Measures/ (Total: 217+ measures v5.1)
+### DAX_Measures/ (Total: 257+ measures v5.1 including enhanced)
 - **01_Core_Financial_Rent_Roll_Measures_v5.0.dax** - 42 core financial and rent roll measures
 - **02_Leasing_Activity_Pipeline_Measures_v5.0.dax** - 85 leasing activity and pipeline measures
 - **03_Credit_Risk_Tenant_Analysis_Measures_v5.0.dax** - 45 credit risk and tenant analysis measures (expanded with customer code mappings)
@@ -50,6 +50,15 @@ This is a curated reference library designed specifically for teams building Pow
 - **05_Performance_Validation_Measures_v5.0.dax** - 25 performance monitoring and validation measures
 - **Top_20_Essential_Measures.dax** - Most commonly used measures (quick reference)
 - **Validation_Measures.dax** - Testing and validation measures
+
+### Enhanced Leasing Measures (New - 40+ additional measures):
+- **../Enhanced_Leasing_Activity_Measures.dax** - Advanced leasing analytics including:
+  - SF-weighted rent calculations for accurate portfolio averages
+  - Lease vacancy downtime analysis (months between prior lease end and new lease start)
+  - Lease spread vs prior lease with area weighting
+  - Fund-specific measures for Fund 2 and Fund 3
+  - Lost rent from downtime calculations
+- **../Leasing_Activity_Downtime_Analysis.md** - Complete implementation guide
 
 ### Documentation/
 - **01_Quick_Start_Guide.md** - Implementation timeline and checklist

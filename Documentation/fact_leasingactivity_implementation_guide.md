@@ -221,6 +221,44 @@ CALCULATE(
 1. Create a card visual with `Leasing Data Quality %`
 2. **Expected Result**: Should show ~98% (97.9% tenant match rate)
 
+## Enhanced Leasing Measures (New)
+
+### Advanced Analytics Features
+A comprehensive set of 40+ enhanced measures has been developed to provide deeper insights:
+
+#### SF-Weighted Rent Calculations
+- **Purpose**: Accurate portfolio-level rent metrics
+- **Formula**: `SUM(Rent × SF) / SUM(SF)` instead of simple averages
+- **Benefits**: Large leases properly influence portfolio metrics
+- **Measures**: Separate calculations for New Leases, Renewals, Expansions
+
+#### Lease Vacancy Downtime Analysis
+- **Purpose**: Measure revenue loss from vacant periods
+- **Calculation**: Months between prior lease end date and new lease start date
+- **Data Flow**: 
+  - Prior lease end: `fact_leasingactivity[dtEndDate]` where Cash Flow Type = "Prior Lease"
+  - New lease start: `fact_leasingactivity[dtStartDate]` where Proposal Type = "New Lease"
+- **Key Metrics**:
+  - Average Downtime Months
+  - Median Downtime Months
+  - Lost Rent from Downtime
+  - Fund-specific downtime analysis
+
+#### Lease Spread Calculations
+- **Purpose**: Track rent growth achievement
+- **Method**: Compare current executed rates to prior lease rates
+- **Weighting**: Area-weighted for accurate portfolio spreads
+- **Segmentation**: Separate tracking for New vs Renewal spreads
+
+#### Fund-Specific Analysis
+- **Requirement**: Add Property HMY relationship to dim_property
+- **Filtering**: Uses `RELATED(dim_property[Fund])`
+- **Measures**: Complete set for Fund 2 and Fund 3 comparison
+
+**Implementation Files**:
+- DAX Measures: `Enhanced_Leasing_Activity_Measures.dax`
+- Documentation: `Leasing_Activity_Downtime_Analysis.md`
+
 ## Business Value and Use Cases
 
 ### Dashboard Applications
